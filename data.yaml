@@ -213,11 +213,6 @@
   mime-type-alt: []
   file-extention:
     - .m21
-- description: MPEG4
-  mime-type: application/mp4
-  mime-type-alt: []
-  file-extention:
-    - .mp4
 - description: Microsoft Word
   mime-type: application/msword
   mime-type-alt: []
@@ -265,12 +260,8 @@
     - .pdf
 - description: Pretty Good Privacy
   mime-type: application/pgp-encrypted
-  mime-type-alt: []
-  file-extention:
-    - .pgp
-- description: Pretty Good Privacy - Signature
-  mime-type: application/pgp-signature
-  mime-type-alt: []
+  mime-type-alt:
+    - application/pgp-signature
   file-extention:
     - .pgp
 - description: PICSRules
@@ -523,11 +514,6 @@
   mime-type-alt: []
   file-extention:
     - .acu
-- description: ACU Cobol
-  mime-type: application/vnd.acucorp
-  mime-type-alt: []
-  file-extention:
-    - .atc
 - description: ACU Cobol
   mime-type: application/vnd.acucorp
   mime-type-alt: []
@@ -1069,11 +1055,6 @@
   file-extention:
     - .sfd-hdstx
 - description: 3D Crossword Plugin
-  mime-type: application/vnd.hzn-3d-crossword
-  mime-type-alt: []
-  file-extention:
-    - .x3d
-- description: 3GP
   mime-type: application/vnd.hzn-3d-crossword
   mime-type-alt: []
   file-extention:
@@ -2379,11 +2360,6 @@
   mime-type-alt: []
   file-extention:
     - .psf
-- description: OpenType Font File
-  mime-type: application/x-font-otf
-  mime-type-alt: []
-  file-extention:
-    - .otf
 - description: Portable Compiled Format
   mime-type: application/x-font-pcf
   mime-type-alt: []
@@ -2873,7 +2849,8 @@
     - .xyz
 - description: OpenType font
   mime-type: font/otf
-  mime-type-alt: []
+  mime-type-alt:
+    - application/x-font-otf
   file-extention:
     - .otf
 - description: TrueType Font
@@ -2935,9 +2912,11 @@
   mime-type-alt: []
   file-extention:
     - .pjpeg
-- description: Portable Network Graphics (PNG)
+- description: Portable Network Graphics
   mime-type: image/png
-  mime-type-alt: []
+  mime-type-alt:
+    - image/x-citrix-png
+    - image/x-png
   file-extention:
     - .png
 - description: BTIF
@@ -3036,11 +3015,6 @@
   mime-type-alt: []
   file-extention:
     - .webp
-- description: Portable Network Graphics (PNG) (Citrix client)
-  mime-type: image/x-citrix-png
-  mime-type-alt: []
-  file-extention:
-    - .png
 - description: CMU Image
   mime-type: image/x-cmu-raster
   mime-type-alt: []
@@ -3072,11 +3046,6 @@
   mime-type-alt: []
   file-extention:
     - .pic
-- description: Portable Network Graphics (PNG) (x-token)
-  mime-type: image/x-png
-  mime-type-alt: []
-  file-extention:
-    - .png
 - description: Portable Anymap Image
   mime-type: image/x-portable-anymap
   mime-type-alt: []
@@ -3390,9 +3359,10 @@
   mime-type-alt: []
   file-extention:
     - .ts
-- description: MPEG-4 Video
+- description: MPEG4
   mime-type: video/mp4
-  mime-type-alt: []
+  mime-type-alt:
+    - application/mp4
   file-extention:
     - .mp4
 - description: MPEG Video

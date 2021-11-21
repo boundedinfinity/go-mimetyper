@@ -4,10 +4,12 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
+	"go/format"
 	"io/ioutil"
 	"os"
 	"sort"
 	"strings"
+	"text/template"
 
 	"github.com/boundedinfinity/optional"
 	"gopkg.in/yaml.v3"
@@ -29,10 +31,12 @@ func (t byMimeType) Less(i, j int) bool {
 }
 
 const (
-	dataYaml       = "../data.yaml"
-	mimeTypeText   = "../mime-types.txt"
-	extentionsText = "../file-extentions.txt"
-	indent         = 4
+	dataYaml           = "../data.yaml"
+	mimeTypeText       = "../mime-types.txt"
+	extentionsText     = "../file-extentions.txt"
+	mimeTypeMapGo      = "../mime_type/map.go"
+	fileExtentionMapGo = "../file_extention/map.go"
+	indent             = 4
 )
 
 func main() {
@@ -76,6 +80,77 @@ func main() {
 }
 
 func process2(data []data) error {
+	mimeType2MimeType := `
+    package mime_type
+
+    var (
+        m  = map[string]string {
+            {{ range $i := . }}
+                "{{ $i.MimeType }}": "{{ $i.MimeType }}",
+                {{- range $j := $i.MimeTypeAlt }}
+                "{{ $j }}": "{{ $i.MimeType }}",
+                {{- end }}
+            {{- end }}
+        }
+    )
+    `
+
+	if err := writeTemplate(mimeTypeMapGo, mimeType2MimeType, data); err != nil {
+		return err
+	}
+
+	fileExtention2MimeType := `
+    package file_extention
+    
+    var (
+        m  = map[string]string {
+            {{ range $i := . }}
+            {{- range $j := $i.FileExtention }}
+            "{{ $j }}": "{{ $i.MimeType }}",
+            {{- end }}
+            {{- end }}
+        }
+    )
+    `
+
+	if err := writeTemplate(fileExtentionMapGo, fileExtention2MimeType, data); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func writeTemplate(p, t string, data []data) error {
+	tmpl, err := template.New("").Parse(t)
+
+	if err != nil {
+		return err
+	}
+
+	var bs bytes.Buffer
+
+	if err := tmpl.Execute(&bs, data); err != nil {
+		return err
+	}
+
+	bs2, err := format.Source(bs.Bytes())
+
+	if err != nil {
+		return err
+	}
+
+	file, err := os.OpenFile(p, os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0755)
+
+	if err != nil {
+		return err
+	}
+
+	defer file.Close()
+
+	out := bufio.NewWriter(file)
+	defer out.Flush()
+
+	out.WriteString(string(bs2))
 
 	return nil
 }
@@ -116,6 +191,7 @@ func optAppend(vs *[]string, o optional.StringOptional) {
 	for _, v := range *vs {
 		if v == o.Get() {
 			contains = true
+			fmt.Printf("duplicate: %v\n", o.Get())
 			break
 		}
 	}
