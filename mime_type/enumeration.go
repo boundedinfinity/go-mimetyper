@@ -707,6 +707,7 @@ const (
 	TextXYaml                                                            MimeType = "text/x-yaml"
 	TextXml                                                              MimeType = "text/xml"
 	TextYaml                                                             MimeType = "text/yaml"
+	Unkown                                                               MimeType = "unkown"
 	Video3gpp                                                            MimeType = "video/3gpp"
 	Video3gpp2                                                           MimeType = "video/3gpp2"
 	VideoH261                                                            MimeType = "video/h261"
@@ -1425,6 +1426,7 @@ var (
 		TextXYaml,
 		TextXml,
 		TextYaml,
+		Unkown,
 		Video3gpp,
 		Video3gpp2,
 		VideoH261,

@@ -678,6 +678,7 @@ var (
 		"text/x-uuencode":                                                           "text/x-uuencode",
 		"text/x-vcalendar":                                                          "text/x-vcalendar",
 		"text/x-vcard":                                                              "text/x-vcard",
+		"unkown":                                                                    "unkown",
 		"video/3gpp":                                                                "video/3gpp",
 		"audio/3gpp":                                                                "video/3gpp",
 		"video/3gpp2":                                                               "video/3gpp2",

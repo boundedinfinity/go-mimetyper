@@ -2615,6 +2615,7 @@
   mime-type-alt:
     - text/x-yaml
     - text/yaml
+    - application/yaml
   file-extention:
     - .yaml
     - .yml
@@ -3312,6 +3313,10 @@
   mime-type-alt: []
   file-extention:
     - .vcf
+- description: The zero value
+  mime-type: unkown
+  mime-type-alt: []
+  file-extention: []
 - description: 3GPP
   mime-type: video/3gpp
   mime-type-alt:

@@ -1,6 +1,11 @@
 package file_extention
 
-import "github.com/boundedinfinity/mimetyper/mime_type"
+import (
+	"errors"
+	"strings"
+
+	"github.com/boundedinfinity/mimetyper/mime_type"
+)
 
 func MimeType(v FileExtention) mime_type.MimeType {
 	s := m[v.String()]
@@ -9,11 +14,23 @@ func MimeType(v FileExtention) mime_type.MimeType {
 }
 
 func DetectMimeType(n string) (mime_type.MimeType, error) {
-	var z mime_type.MimeType
-	ext, err := Parse(n)
+	var ext FileExtention
+	var err error
+
+	ext, err = Parse(n)
+
+	if err != nil && errors.Is(err, ErrFileExtentionInvalid) {
+		for _, xext := range All {
+			if strings.HasSuffix(n, xext.String()) {
+				ext = xext
+				err = nil
+				break
+			}
+		}
+	}
 
 	if err != nil {
-		return z, err
+		return mime_type.Unkown, err
 	}
 
 	return MimeType(ext), nil
