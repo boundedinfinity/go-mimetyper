@@ -9,10 +9,7 @@ process:
 	cd gen && go run process.go
 
 purge:
-	rm -rf mime_type/enumeration.go
-	rm -rf mime-types.txt
-	rm -rf file_extention/enumeration.go
-	rm -rf file-extentions.txt
+	echo "not implemented"
 
 build: purge process
 	go generate ./...
