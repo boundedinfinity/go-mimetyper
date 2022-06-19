@@ -31,9 +31,10 @@ func (t byMimeType) Less(i, j int) bool {
 
 const (
 	dataYaml            = "gen/data.yaml"
-	mimeTypeMainGo      = "mime_type/main.go"
-	fileExtentionMainGo = "file_extention/main.go"
-	fileExtentionMapGo  = "file_extention/map.go"
+	mimeTypeMainGo      = "mime_type/main.gen.go"
+	mimeTypeAltMapGo    = "mime_type/map.gen.go"
+	fileExtentionMainGo = "file_extention/main.gen.go"
+	fileExtentionMapGo  = "file_extention/map.gen.go"
 	indent              = 4
 )
 
@@ -59,6 +60,7 @@ func process2(data []data) error {
 //*                                                                                  *
 //************************************************************************************
 	`
+
 	mimeTypeType := header + `
     package mime_type
 
@@ -67,11 +69,32 @@ func process2(data []data) error {
     const (        
 	{{ range $i := . }}
 		{{ goName $i.MimeType }} MimeType = "{{ $i.MimeType }}"
+		{{- range $a := $i.MimeTypeAlt }}
+		{{ goName $a }} MimeType = "{{ $a }}"
+		{{- end }}
 	{{- end }}
     )
     `
 
-	if err := writeTemplate(mimeTypeMainGo, mimeTypeType, data); err != nil {
+	if err := writeTemplate(mimeTypeMainGo, mimeTypeType, data, true); err != nil {
+		return fmt.Errorf("%v : %w", mimeTypeMainGo, err)
+	}
+
+	mimeTypeAlt2MimeType := header + `
+    package mime_type
+
+	var (
+		m = map[MimeType]MimeType{
+		{{- range $i := . }}
+			{{- range $a := $i.MimeTypeAlt }}
+			{{ goName $a }}:  "{{ goName $i.MimeType }}",
+			{{- end }}
+		{{- end }}
+		}
+    )
+    `
+
+	if err := writeTemplate(mimeTypeAltMapGo, mimeTypeAlt2MimeType, data, true); err != nil {
 		return fmt.Errorf("%v : %w", mimeTypeMainGo, err)
 	}
 
@@ -89,7 +112,7 @@ func process2(data []data) error {
     )
     `
 
-	if err := writeTemplate(fileExtentionMainGo, fileExtentionType, data); err != nil {
+	if err := writeTemplate(fileExtentionMainGo, fileExtentionType, data, true); err != nil {
 		return fmt.Errorf("%v : %w", fileExtentionMainGo, err)
 	}
 
@@ -109,7 +132,7 @@ func process2(data []data) error {
     )
     `
 
-	if err := writeTemplate(fileExtentionMapGo, fileExtention2MimeType, data); err != nil {
+	if err := writeTemplate(fileExtentionMapGo, fileExtention2MimeType, data, true); err != nil {
 		return fmt.Errorf("%v : %w", fileExtentionMapGo, err)
 	}
 
@@ -140,7 +163,7 @@ func goName(s string) string {
 	return n
 }
 
-func writeTemplate(p, t string, data []data) error {
+func writeTemplate(p, t string, data []data, source_format bool) error {
 	tmpl, err := template.New("").Funcs(template.FuncMap{
 		"goName": goName,
 	}).Parse(t)
@@ -156,10 +179,13 @@ func writeTemplate(p, t string, data []data) error {
 	}
 
 	bs := buffer.Bytes()
-	bs, err = format.Source(bs)
 
-	if err != nil {
-		return err
+	if source_format {
+		bs, err = format.Source(bs)
+
+		if err != nil {
+			return err
+		}
 	}
 
 	file, err := os.OpenFile(p, os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0755)
