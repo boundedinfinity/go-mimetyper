@@ -14,7 +14,6 @@ import (
 	"fmt"
 
 	"github.com/boundedinfinity/commons/slices"
-	"github.com/boundedinfinity/commons/strings"
 )
 
 var (
@@ -720,18 +719,14 @@ var (
 	}
 )
 
-func pred(s string) func(FileExtention) bool {
-	return func(v FileExtention) bool {
-		return string(v) == s
-	}
-}
-
 func (t FileExtention) String() string {
 	return string(t)
 }
 
 func Parse(v string) (FileExtention, error) {
-	f, ok := slices.FindFn(All, pred(v))
+	f, ok := slices.FindFn(All, func(x FileExtention) bool {
+		return FileExtention(v) == x
+	})
 
 	if !ok {
 		return f, ErrorV(v)
@@ -751,7 +746,7 @@ var ErrInvalid = errors.New("invalid enumeration type")
 func ErrorV(v string) error {
 	return fmt.Errorf(
 		"%w '%v', must be one of %v",
-		ErrInvalid, v, strings.Join(All, ","),
+		ErrInvalid, v, slices.Join(All, ","),
 	)
 }
 
@@ -760,13 +755,13 @@ func (t FileExtention) MarshalJSON() ([]byte, error) {
 }
 
 func (t *FileExtention) UnmarshalJSON(data []byte) error {
-	var s string
+	var v string
 
-	if err := json.Unmarshal(data, &s); err != nil {
+	if err := json.Unmarshal(data, &v); err != nil {
 		return err
 	}
 
-	e, err := Parse(s)
+	e, err := Parse(v)
 
 	if err != nil {
 		return err
@@ -782,13 +777,13 @@ func (t FileExtention) MarshalYAML() (interface{}, error) {
 }
 
 func (t *FileExtention) UnmarshalYAML(unmarshal func(interface{}) error) error {
-	var s string
+	var v string
 
-	if err := unmarshal(&s); err != nil {
+	if err := unmarshal(&v); err != nil {
 		return err
 	}
 
-	e, err := Parse(s)
+	e, err := Parse(v)
 
 	if err != nil {
 		return err
