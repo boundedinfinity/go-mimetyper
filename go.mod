@@ -13,4 +13,4 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 )
 
-replace github.com/boundedinfinity/go-commoner => ../go-commoner
+
