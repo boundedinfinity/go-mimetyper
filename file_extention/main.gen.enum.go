@@ -13,7 +13,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/boundedinfinity/commons/slices"
+	"github.com/boundedinfinity/go-commoner/slices"
 )
 
 var (
