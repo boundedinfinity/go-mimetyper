@@ -19,7 +19,7 @@ test: generate
 
 publish:
 	git add . || true
-	git commit -m "$(tag)"
+	git commit -m "$(m)" . || true
 	git push origin master
-	git tag -a $(tag) -m "$(tag)"
-	git push origin $(tag)
+	git tag -a $(m) -m "$(m)"
+	git push origin $(m)

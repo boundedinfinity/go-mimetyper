@@ -11,7 +11,7 @@ package file_extention
 import "github.com/boundedinfinity/mimetyper/mime_type"
 
 var (
-	m = map[FileExtention]mime_type.MimeType{
+	ext2mt = map[FileExtention]mime_type.MimeType{
 		Aw:          mime_type.ApplicationApplixware,
 		Atom:        mime_type.ApplicationAtomXml,
 		Atomcat:     mime_type.ApplicationAtomcatXml,
@@ -710,5 +710,2096 @@ var (
 		Avi:         mime_type.VideoXMsvideo,
 		Movie:       mime_type.VideoXSgiMovie,
 		Ice:         mime_type.XConferenceXCooltalk,
+	}
+
+	mt2ext = map[mime_type.MimeType][]FileExtention{
+		mime_type.ApplicationAndrewInset: {},
+		mime_type.ApplicationApplixware: {
+			Aw,
+		},
+		mime_type.ApplicationAtomXml: {
+			Atom,
+		},
+		mime_type.ApplicationAtomcatXml: {
+			Atomcat,
+		},
+		mime_type.ApplicationAtomsvcXml: {
+			Atomsvc,
+		},
+		mime_type.ApplicationCcxmlXml: {
+			Ccxml,
+		},
+		mime_type.ApplicationCdmiCapability: {
+			Cdmia,
+		},
+		mime_type.ApplicationCdmiContainer: {
+			Cdmic,
+		},
+		mime_type.ApplicationCdmiDomain: {
+			Cdmid,
+		},
+		mime_type.ApplicationCdmiObject: {
+			Cdmio,
+		},
+		mime_type.ApplicationCdmiQueue: {
+			Cdmiq,
+		},
+		mime_type.ApplicationCuSeeme: {
+			Cu,
+		},
+		mime_type.ApplicationDavmountXml: {
+			Davmount,
+		},
+		mime_type.ApplicationDsscDer: {
+			Dssc,
+		},
+		mime_type.ApplicationDsscXml: {
+			Xdssc,
+		},
+		mime_type.ApplicationEcmascript: {
+			Es,
+		},
+		mime_type.ApplicationEmmaXml: {
+			Emma,
+		},
+		mime_type.ApplicationEpubZip: {
+			Epub,
+		},
+		mime_type.ApplicationExi: {
+			Exi,
+		},
+		mime_type.ApplicationFontTdpfr: {
+			Pfr,
+		},
+		mime_type.ApplicationGpxXml: {
+			Gpx,
+		},
+		mime_type.ApplicationGzip: {
+			Gz,
+		},
+		mime_type.ApplicationHyperstudio: {
+			Stk,
+		},
+		mime_type.ApplicationIpfix: {
+			Ipfix,
+		},
+		mime_type.ApplicationJavaArchive: {
+			Jar,
+		},
+		mime_type.ApplicationJavaSerializedObject: {
+			Ser,
+		},
+		mime_type.ApplicationJavaVm: {
+			Class,
+		},
+		mime_type.ApplicationJavascript: {
+			Js,
+		},
+		mime_type.ApplicationJson: {
+			Json,
+		},
+		mime_type.ApplicationLdJson: {
+			Jsonld,
+		},
+		mime_type.ApplicationMacBinhex40: {
+			Hqx,
+		},
+		mime_type.ApplicationMacCompactpro: {
+			Cpt,
+		},
+		mime_type.ApplicationMadsXml: {
+			Mads,
+		},
+		mime_type.ApplicationMarc: {
+			Mrc,
+		},
+		mime_type.ApplicationMarcxmlXml: {
+			Mrcx,
+		},
+		mime_type.ApplicationMathematica: {
+			Ma,
+		},
+		mime_type.ApplicationMathmlXml: {
+			Mathml,
+		},
+		mime_type.ApplicationMbox: {
+			Mbox,
+		},
+		mime_type.ApplicationMediaservercontrolXml: {
+			Mscml,
+		},
+		mime_type.ApplicationMetalink4Xml: {
+			Meta4,
+		},
+		mime_type.ApplicationMetsXml: {
+			Mets,
+		},
+		mime_type.ApplicationModsXml: {
+			Mods,
+		},
+		mime_type.ApplicationMp21: {
+			M21,
+		},
+		mime_type.ApplicationMsword: {
+			Doc,
+		},
+		mime_type.ApplicationMxf: {
+			Mxf,
+		},
+		mime_type.ApplicationOctetStream: {
+			Bin,
+		},
+		mime_type.ApplicationOda: {
+			Oda,
+		},
+		mime_type.ApplicationOebpsPackageXml: {
+			Opf,
+		},
+		mime_type.ApplicationOgg: {
+			Ogx,
+		},
+		mime_type.ApplicationOnenote: {
+			Onetoc,
+		},
+		mime_type.ApplicationPatchOpsErrorXml: {
+			Xer,
+		},
+		mime_type.ApplicationPdf: {
+			Pdf,
+		},
+		mime_type.ApplicationPgpEncrypted: {
+			Pgp,
+		},
+		mime_type.ApplicationPicsRules: {
+			Prf,
+		},
+		mime_type.ApplicationPkcs10: {
+			P10,
+		},
+		mime_type.ApplicationPkcs7Mime: {
+			P7m,
+		},
+		mime_type.ApplicationPkcs7Signature: {
+			P7s,
+		},
+		mime_type.ApplicationPkcs8: {
+			P8,
+		},
+		mime_type.ApplicationPkixAttrCert: {
+			Ac,
+		},
+		mime_type.ApplicationPkixCert: {
+			Cer,
+		},
+		mime_type.ApplicationPkixCrl: {
+			Crl,
+		},
+		mime_type.ApplicationPkixPkipath: {
+			Pkipath,
+		},
+		mime_type.ApplicationPkixcmp: {
+			Pki,
+		},
+		mime_type.ApplicationPlsXml: {
+			Pls,
+		},
+		mime_type.ApplicationPostscript: {
+			Ai,
+		},
+		mime_type.ApplicationPrsCww: {
+			Cww,
+		},
+		mime_type.ApplicationPskcXml: {
+			Pskcxml,
+		},
+		mime_type.ApplicationRdfXml: {
+			Rdf,
+		},
+		mime_type.ApplicationReginfoXml: {
+			Rif,
+		},
+		mime_type.ApplicationRelaxNgCompactSyntax: {
+			Rnc,
+		},
+		mime_type.ApplicationResourceListsXml: {
+			Rl,
+		},
+		mime_type.ApplicationResourceListsDiffXml: {
+			Rld,
+		},
+		mime_type.ApplicationRlsServicesXml: {
+			Rs,
+		},
+		mime_type.ApplicationRsdXml: {
+			Rsd,
+		},
+		mime_type.ApplicationRssXml: {
+			Rss,
+		},
+		mime_type.ApplicationRtf: {
+			Rtf,
+		},
+		mime_type.ApplicationSbmlXml: {
+			Sbml,
+		},
+		mime_type.ApplicationScvpCvRequest: {
+			Scq,
+		},
+		mime_type.ApplicationScvpCvResponse: {
+			Scs,
+		},
+		mime_type.ApplicationScvpVpRequest: {
+			Spq,
+		},
+		mime_type.ApplicationScvpVpResponse: {
+			Spp,
+		},
+		mime_type.ApplicationSdp: {
+			Sdp,
+		},
+		mime_type.ApplicationSetPaymentInitiation: {
+			Setpay,
+		},
+		mime_type.ApplicationSetRegistrationInitiation: {
+			Setreg,
+		},
+		mime_type.ApplicationShfXml: {
+			Shf,
+		},
+		mime_type.ApplicationSmilXml: {
+			Smi,
+		},
+		mime_type.ApplicationSparqlQuery: {
+			Rq,
+		},
+		mime_type.ApplicationSparqlResultsXml: {
+			Srx,
+		},
+		mime_type.ApplicationSrgs: {
+			Gram,
+		},
+		mime_type.ApplicationSrgsXml: {
+			Grxml,
+		},
+		mime_type.ApplicationSruXml: {
+			Sru,
+		},
+		mime_type.ApplicationSsmlXml: {
+			Ssml,
+		},
+		mime_type.ApplicationTeiXml: {
+			Tei,
+		},
+		mime_type.ApplicationThraudXml: {
+			Tfi,
+		},
+		mime_type.ApplicationTimestampedData: {
+			Tsd,
+		},
+		mime_type.ApplicationVnd3gppPicBwLarge: {
+			Plb,
+		},
+		mime_type.ApplicationVnd3gppPicBwSmall: {
+			Psb,
+		},
+		mime_type.ApplicationVnd3gppPicBwVar: {
+			Pvb,
+		},
+		mime_type.ApplicationVnd3gpp2Tcap: {
+			Tcap,
+		},
+		mime_type.ApplicationVnd3mPostItNotes: {
+			Pwn,
+		},
+		mime_type.ApplicationVndAccpacSimplyAso: {
+			Aso,
+		},
+		mime_type.ApplicationVndAccpacSimplyImp: {
+			Imp,
+		},
+		mime_type.ApplicationVndAcucobol: {
+			Acu,
+		},
+		mime_type.ApplicationVndAcucorp: {
+			Atc,
+		},
+		mime_type.ApplicationVndAdobeAirApplicationInstallerPackageZip: {
+			Air,
+		},
+		mime_type.ApplicationVndAdobeFxp: {
+			Fxp,
+		},
+		mime_type.ApplicationVndAdobeXdpXml: {
+			Xdp,
+		},
+		mime_type.ApplicationVndAdobeXfdf: {
+			Xfdf,
+		},
+		mime_type.ApplicationVndAheadSpace: {
+			Ahead,
+		},
+		mime_type.ApplicationVndAirzipFilesecureAzf: {
+			Azf,
+		},
+		mime_type.ApplicationVndAirzipFilesecureAzs: {
+			Azs,
+		},
+		mime_type.ApplicationVndAmazonEbook: {
+			Azw,
+		},
+		mime_type.ApplicationVndAmericandynamicsAcc: {
+			Acc,
+		},
+		mime_type.ApplicationVndAmigaAmi: {
+			Ami,
+		},
+		mime_type.ApplicationVndAndroidPackageArchive: {
+			Apk,
+		},
+		mime_type.ApplicationVndAnserWebCertificateIssueInitiation: {
+			Cii,
+		},
+		mime_type.ApplicationVndAnserWebFundsTransferInitiation: {
+			Fti,
+		},
+		mime_type.ApplicationVndAntixGameComponent: {
+			Atx,
+		},
+		mime_type.ApplicationVndAppleInstallerXml: {
+			Mpkg,
+		},
+		mime_type.ApplicationVndAppleMpegurl: {
+			M3u8,
+		},
+		mime_type.ApplicationVndAristanetworksSwi: {
+			Swi,
+		},
+		mime_type.ApplicationVndAudiograph: {
+			Aep,
+		},
+		mime_type.ApplicationVndBlueiceMultipass: {
+			Mpm,
+		},
+		mime_type.ApplicationVndBmi: {
+			Bmi,
+		},
+		mime_type.ApplicationVndBusinessobjects: {
+			Rep,
+		},
+		mime_type.ApplicationVndChemdrawXml: {
+			Cdxml,
+		},
+		mime_type.ApplicationVndChipnutsKaraokeMmd: {
+			Mmd,
+		},
+		mime_type.ApplicationVndCinderella: {
+			Cdy,
+		},
+		mime_type.ApplicationVndClaymore: {
+			Cla,
+		},
+		mime_type.ApplicationVndCloantoRp9: {
+			Rp9,
+		},
+		mime_type.ApplicationVndClonkC4group: {
+			C4g,
+		},
+		mime_type.ApplicationVndCluetrustCartomobileConfig: {
+			C11amc,
+		},
+		mime_type.ApplicationVndCluetrustCartomobileConfigPkg: {
+			C11amz,
+		},
+		mime_type.ApplicationVndCommonspace: {
+			Csp,
+		},
+		mime_type.ApplicationVndContactCmsg: {
+			Cdbcmsg,
+		},
+		mime_type.ApplicationVndCosmocaller: {
+			Cmc,
+		},
+		mime_type.ApplicationVndCrickClicker: {
+			Clkx,
+		},
+		mime_type.ApplicationVndCrickClickerKeyboard: {
+			Clkk,
+		},
+		mime_type.ApplicationVndCrickClickerPalette: {
+			Clkp,
+		},
+		mime_type.ApplicationVndCrickClickerTemplate: {
+			Clkt,
+		},
+		mime_type.ApplicationVndCrickClickerWordbank: {
+			Clkw,
+		},
+		mime_type.ApplicationVndCriticaltoolsWbsXml: {
+			Wbs,
+		},
+		mime_type.ApplicationVndCtcPosml: {
+			Pml,
+		},
+		mime_type.ApplicationVndCupsPpd: {
+			Ppd,
+		},
+		mime_type.ApplicationVndCurlCar: {
+			Car,
+		},
+		mime_type.ApplicationVndCurlPcurl: {
+			Pcurl,
+		},
+		mime_type.ApplicationVndDataVisionRdz: {
+			Rdz,
+		},
+		mime_type.ApplicationVndDenovoFcselayoutLink: {
+			Fe_launch,
+		},
+		mime_type.ApplicationVndDna: {
+			Dna,
+		},
+		mime_type.ApplicationVndDolbyMlp: {
+			Mlp,
+		},
+		mime_type.ApplicationVndDpgraph: {
+			Dpg,
+		},
+		mime_type.ApplicationVndDreamfactory: {
+			Dfac,
+		},
+		mime_type.ApplicationVndDvbAit: {
+			Ait,
+		},
+		mime_type.ApplicationVndDvbService: {
+			Svc,
+		},
+		mime_type.ApplicationVndDynageo: {
+			Geo,
+		},
+		mime_type.ApplicationVndEcowinChart: {
+			Mag,
+		},
+		mime_type.ApplicationVndEnliven: {
+			Nml,
+		},
+		mime_type.ApplicationVndEpsonEsf: {
+			Esf,
+		},
+		mime_type.ApplicationVndEpsonMsf: {
+			Msf,
+		},
+		mime_type.ApplicationVndEpsonQuickanime: {
+			Qam,
+		},
+		mime_type.ApplicationVndEpsonSalt: {
+			Slt,
+		},
+		mime_type.ApplicationVndEpsonSsf: {
+			Ssf,
+		},
+		mime_type.ApplicationVndEszigno3Xml: {
+			Es3,
+		},
+		mime_type.ApplicationVndEzpixAlbum: {
+			Ez2,
+		},
+		mime_type.ApplicationVndEzpixPackage: {
+			Ez3,
+		},
+		mime_type.ApplicationVndFdf: {
+			Fdf,
+		},
+		mime_type.ApplicationVndFdsnSeed: {
+			Seed,
+		},
+		mime_type.ApplicationVndFlographit: {
+			Gph,
+		},
+		mime_type.ApplicationVndFluxtimeClip: {
+			Ftc,
+		},
+		mime_type.ApplicationVndFramemaker: {
+			Fm,
+		},
+		mime_type.ApplicationVndFrogansFnc: {
+			Fnc,
+		},
+		mime_type.ApplicationVndFrogansLtf: {
+			Ltf,
+		},
+		mime_type.ApplicationVndFscWeblaunch: {
+			Fsc,
+		},
+		mime_type.ApplicationVndFujitsuOasys: {
+			Oas,
+		},
+		mime_type.ApplicationVndFujitsuOasys2: {
+			Oa2,
+		},
+		mime_type.ApplicationVndFujitsuOasys3: {
+			Oa3,
+		},
+		mime_type.ApplicationVndFujitsuOasysgp: {
+			Fg5,
+		},
+		mime_type.ApplicationVndFujitsuOasysprs: {
+			Bh2,
+		},
+		mime_type.ApplicationVndFujixeroxDdd: {
+			Ddd,
+		},
+		mime_type.ApplicationVndFujixeroxDocuworks: {
+			Xdw,
+		},
+		mime_type.ApplicationVndFujixeroxDocuworksBinder: {
+			Xbd,
+		},
+		mime_type.ApplicationVndFuzzysheet: {
+			Fzs,
+		},
+		mime_type.ApplicationVndGenomatixTuxedo: {
+			Txd,
+		},
+		mime_type.ApplicationVndGeogebraFile: {
+			Ggb,
+		},
+		mime_type.ApplicationVndGeogebraTool: {
+			Ggt,
+		},
+		mime_type.ApplicationVndGeometryExplorer: {
+			Gex,
+		},
+		mime_type.ApplicationVndGeonext: {
+			Gxt,
+		},
+		mime_type.ApplicationVndGeoplan: {
+			G2w,
+		},
+		mime_type.ApplicationVndGeospace: {
+			G3w,
+		},
+		mime_type.ApplicationVndGmx: {
+			Gmx,
+		},
+		mime_type.ApplicationVndGoogleEarthKmlXml: {
+			Kml,
+		},
+		mime_type.ApplicationVndGoogleEarthKmz: {
+			Kmz,
+		},
+		mime_type.ApplicationVndGrafeq: {
+			Gqf,
+		},
+		mime_type.ApplicationVndGrooveAccount: {
+			Gac,
+		},
+		mime_type.ApplicationVndGrooveHelp: {
+			Ghf,
+		},
+		mime_type.ApplicationVndGrooveIdentityMessage: {
+			Gim,
+		},
+		mime_type.ApplicationVndGrooveInjector: {
+			Grv,
+		},
+		mime_type.ApplicationVndGrooveToolMessage: {
+			Gtm,
+		},
+		mime_type.ApplicationVndGrooveToolTemplate: {
+			Tpl,
+		},
+		mime_type.ApplicationVndGrooveVcard: {
+			Vcg,
+		},
+		mime_type.ApplicationVndHalXml: {
+			Hal,
+		},
+		mime_type.ApplicationVndHandheldEntertainmentXml: {
+			Zmm,
+		},
+		mime_type.ApplicationVndHbci: {
+			Hbci,
+		},
+		mime_type.ApplicationVndHheLessonPlayer: {
+			Les,
+		},
+		mime_type.ApplicationVndHpHpgl: {
+			Hpgl,
+		},
+		mime_type.ApplicationVndHpHpid: {
+			Hpid,
+		},
+		mime_type.ApplicationVndHpHps: {
+			Hps,
+		},
+		mime_type.ApplicationVndHpJlyt: {
+			Jlt,
+		},
+		mime_type.ApplicationVndHpPcl: {
+			Pcl,
+		},
+		mime_type.ApplicationVndHpPclxl: {
+			Pclxl,
+		},
+		mime_type.ApplicationVndHydrostatixSofData: {
+			SfdHdstx,
+		},
+		mime_type.ApplicationVndHzn3dCrossword: {
+			X3d,
+		},
+		mime_type.ApplicationVndIbmMinipay: {
+			Mpy,
+		},
+		mime_type.ApplicationVndIbmModcap: {
+			Afp,
+		},
+		mime_type.ApplicationVndIbmRightsManagement: {
+			Irm,
+		},
+		mime_type.ApplicationVndIbmSecureContainer: {
+			Sc,
+		},
+		mime_type.ApplicationVndIccprofile: {
+			Icc,
+		},
+		mime_type.ApplicationVndIgloader: {
+			Igl,
+		},
+		mime_type.ApplicationVndImmervisionIvp: {
+			Ivp,
+		},
+		mime_type.ApplicationVndImmervisionIvu: {
+			Ivu,
+		},
+		mime_type.ApplicationVndInsorsIgm: {
+			Igm,
+		},
+		mime_type.ApplicationVndInterconFormnet: {
+			Xpw,
+		},
+		mime_type.ApplicationVndIntergeo: {
+			I2g,
+		},
+		mime_type.ApplicationVndIntuQbo: {
+			Qbo,
+		},
+		mime_type.ApplicationVndIntuQfx: {
+			Qfx,
+		},
+		mime_type.ApplicationVndIpunpluggedRcprofile: {
+			Rcprofile,
+		},
+		mime_type.ApplicationVndIrepositoryPackageXml: {
+			Irp,
+		},
+		mime_type.ApplicationVndIsXpr: {
+			Xpr,
+		},
+		mime_type.ApplicationVndIsacFcs: {
+			Fcs,
+		},
+		mime_type.ApplicationVndJam: {
+			Jam,
+		},
+		mime_type.ApplicationVndJcpJavameMidletRms: {
+			Rms,
+		},
+		mime_type.ApplicationVndJisp: {
+			Jisp,
+		},
+		mime_type.ApplicationVndJoostJodaArchive: {
+			Joda,
+		},
+		mime_type.ApplicationVndKahootz: {
+			Ktz,
+		},
+		mime_type.ApplicationVndKdeKarbon: {
+			Karbon,
+		},
+		mime_type.ApplicationVndKdeKchart: {
+			Chrt,
+		},
+		mime_type.ApplicationVndKdeKformula: {
+			Kfo,
+		},
+		mime_type.ApplicationVndKdeKivio: {
+			Flw,
+		},
+		mime_type.ApplicationVndKdeKontour: {
+			Kon,
+		},
+		mime_type.ApplicationVndKdeKpresenter: {
+			Kpr,
+		},
+		mime_type.ApplicationVndKdeKspread: {
+			Ksp,
+		},
+		mime_type.ApplicationVndKdeKword: {
+			Kwd,
+		},
+		mime_type.ApplicationVndKenameaapp: {
+			Htke,
+		},
+		mime_type.ApplicationVndKidspiration: {
+			Kia,
+		},
+		mime_type.ApplicationVndKinar: {
+			Kne,
+		},
+		mime_type.ApplicationVndKoan: {
+			Skp,
+		},
+		mime_type.ApplicationVndKodakDescriptor: {
+			Sse,
+		},
+		mime_type.ApplicationVndLasLasXml: {
+			Lasxml,
+		},
+		mime_type.ApplicationVndLlamagraphicsLifeBalanceDesktop: {
+			Lbd,
+		},
+		mime_type.ApplicationVndLlamagraphicsLifeBalanceExchangeXml: {
+			Lbe,
+		},
+		mime_type.ApplicationVndLotus123: {
+			_123,
+		},
+		mime_type.ApplicationVndLotusApproach: {
+			Apr,
+		},
+		mime_type.ApplicationVndLotusFreelance: {
+			Pre,
+		},
+		mime_type.ApplicationVndLotusNotes: {
+			Nsf,
+		},
+		mime_type.ApplicationVndLotusOrganizer: {
+			Org,
+		},
+		mime_type.ApplicationVndLotusScreencam: {
+			Scm,
+		},
+		mime_type.ApplicationVndLotusWordpro: {
+			Lwp,
+		},
+		mime_type.ApplicationVndMacportsPortpkg: {
+			Portpkg,
+		},
+		mime_type.ApplicationVndMcd: {
+			Mcd,
+		},
+		mime_type.ApplicationVndMedcalcdata: {
+			Mc1,
+		},
+		mime_type.ApplicationVndMediastationCdkey: {
+			Cdkey,
+		},
+		mime_type.ApplicationVndMfer: {
+			Mwf,
+		},
+		mime_type.ApplicationVndMfmp: {
+			Mfm,
+		},
+		mime_type.ApplicationVndMicrografxFlo: {
+			Flo,
+		},
+		mime_type.ApplicationVndMicrografxIgx: {
+			Igx,
+		},
+		mime_type.ApplicationVndMif: {
+			Mif,
+		},
+		mime_type.ApplicationVndMobiusDaf: {
+			Daf,
+		},
+		mime_type.ApplicationVndMobiusDis: {
+			Dis,
+		},
+		mime_type.ApplicationVndMobiusMbk: {
+			Mbk,
+		},
+		mime_type.ApplicationVndMobiusMqy: {
+			Mqy,
+		},
+		mime_type.ApplicationVndMobiusMsl: {
+			Msl,
+		},
+		mime_type.ApplicationVndMobiusPlc: {
+			Plc,
+		},
+		mime_type.ApplicationVndMobiusTxf: {
+			Txf,
+		},
+		mime_type.ApplicationVndMophunApplication: {
+			Mpn,
+		},
+		mime_type.ApplicationVndMophunCertificate: {
+			Mpc,
+		},
+		mime_type.ApplicationVndMozillaXulXml: {
+			Xul,
+		},
+		mime_type.ApplicationVndMsArtgalry: {
+			Cil,
+		},
+		mime_type.ApplicationVndMsCabCompressed: {
+			Cab,
+		},
+		mime_type.ApplicationVndMsExcel: {
+			Xls,
+		},
+		mime_type.ApplicationVndMsExcelAddinMacroenabled12: {
+			Xlam,
+		},
+		mime_type.ApplicationVndMsExcelSheetBinaryMacroenabled12: {
+			Xlsb,
+		},
+		mime_type.ApplicationVndMsExcelSheetMacroenabled12: {
+			Xlsm,
+		},
+		mime_type.ApplicationVndMsExcelTemplateMacroenabled12: {
+			Xltm,
+		},
+		mime_type.ApplicationVndMsFontobject: {
+			Eot,
+		},
+		mime_type.ApplicationVndMsHtmlhelp: {
+			Chm,
+		},
+		mime_type.ApplicationVndMsIms: {
+			Ims,
+		},
+		mime_type.ApplicationVndMsLrm: {
+			Lrm,
+		},
+		mime_type.ApplicationVndMsOfficetheme: {
+			Thmx,
+		},
+		mime_type.ApplicationVndMsPkiSeccat: {
+			Cat,
+		},
+		mime_type.ApplicationVndMsPkiStl: {
+			Stl,
+		},
+		mime_type.ApplicationVndMsPowerpoint: {
+			Ppt,
+		},
+		mime_type.ApplicationVndMsPowerpointAddinMacroenabled12: {
+			Ppam,
+		},
+		mime_type.ApplicationVndMsPowerpointPresentationMacroenabled12: {
+			Pptm,
+		},
+		mime_type.ApplicationVndMsPowerpointSlideMacroenabled12: {
+			Sldm,
+		},
+		mime_type.ApplicationVndMsPowerpointSlideshowMacroenabled12: {
+			Ppsm,
+		},
+		mime_type.ApplicationVndMsPowerpointTemplateMacroenabled12: {
+			Potm,
+		},
+		mime_type.ApplicationVndMsProject: {
+			Mpp,
+		},
+		mime_type.ApplicationVndMsWordDocumentMacroenabled12: {
+			Docm,
+		},
+		mime_type.ApplicationVndMsWordTemplateMacroenabled12: {
+			Dotm,
+		},
+		mime_type.ApplicationVndMsWorks: {
+			Wps,
+		},
+		mime_type.ApplicationVndMsWpl: {
+			Wpl,
+		},
+		mime_type.ApplicationVndMsXpsdocument: {
+			Xps,
+		},
+		mime_type.ApplicationVndMseq: {
+			Mseq,
+		},
+		mime_type.ApplicationVndMusician: {
+			Mus,
+		},
+		mime_type.ApplicationVndMuveeStyle: {
+			Msty,
+		},
+		mime_type.ApplicationVndNeurolanguageNlu: {
+			Nlu,
+		},
+		mime_type.ApplicationVndNoblenetDirectory: {
+			Nnd,
+		},
+		mime_type.ApplicationVndNoblenetSealer: {
+			Nns,
+		},
+		mime_type.ApplicationVndNoblenetWeb: {
+			Nnw,
+		},
+		mime_type.ApplicationVndNokiaNGageData: {
+			Ngdat,
+		},
+		mime_type.ApplicationVndNokiaNGageSymbianInstall: {
+			NGage,
+		},
+		mime_type.ApplicationVndNokiaRadioPreset: {
+			Rpst,
+		},
+		mime_type.ApplicationVndNokiaRadioPresets: {
+			Rpss,
+		},
+		mime_type.ApplicationVndNovadigmEdm: {
+			Edm,
+		},
+		mime_type.ApplicationVndNovadigmEdx: {
+			Edx,
+		},
+		mime_type.ApplicationVndNovadigmExt: {
+			Ext,
+		},
+		mime_type.ApplicationVndOasisOpendocumentChart: {
+			Odc,
+		},
+		mime_type.ApplicationVndOasisOpendocumentChartTemplate: {
+			Otc,
+		},
+		mime_type.ApplicationVndOasisOpendocumentDatabase: {
+			Odb,
+		},
+		mime_type.ApplicationVndOasisOpendocumentFormula: {
+			Odf,
+		},
+		mime_type.ApplicationVndOasisOpendocumentFormulaTemplate: {
+			Odft,
+		},
+		mime_type.ApplicationVndOasisOpendocumentGraphics: {
+			Odg,
+		},
+		mime_type.ApplicationVndOasisOpendocumentGraphicsTemplate: {
+			Otg,
+		},
+		mime_type.ApplicationVndOasisOpendocumentImage: {
+			Odi,
+		},
+		mime_type.ApplicationVndOasisOpendocumentImageTemplate: {
+			Oti,
+		},
+		mime_type.ApplicationVndOasisOpendocumentPresentation: {
+			Odp,
+		},
+		mime_type.ApplicationVndOasisOpendocumentPresentationTemplate: {
+			Otp,
+		},
+		mime_type.ApplicationVndOasisOpendocumentSpreadsheet: {
+			Ods,
+		},
+		mime_type.ApplicationVndOasisOpendocumentSpreadsheetTemplate: {
+			Ots,
+		},
+		mime_type.ApplicationVndOasisOpendocumentText: {
+			Odt,
+		},
+		mime_type.ApplicationVndOasisOpendocumentTextMaster: {
+			Odm,
+		},
+		mime_type.ApplicationVndOasisOpendocumentTextTemplate: {
+			Ott,
+		},
+		mime_type.ApplicationVndOasisOpendocumentTextWeb: {
+			Oth,
+		},
+		mime_type.ApplicationVndOlpcSugar: {
+			Xo,
+		},
+		mime_type.ApplicationVndOmaDd2Xml: {
+			Dd2,
+		},
+		mime_type.ApplicationVndOpenofficeorgExtension: {
+			Oxt,
+		},
+		mime_type.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlPresentation: {
+			Pptx,
+		},
+		mime_type.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlide: {
+			Sldx,
+		},
+		mime_type.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlideshow: {
+			Ppsx,
+		},
+		mime_type.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlTemplate: {
+			Potx,
+		},
+		mime_type.ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlSheet: {
+			Xlsx,
+		},
+		mime_type.ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlTemplate: {
+			Xltx,
+		},
+		mime_type.ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlDocument: {
+			Docx,
+		},
+		mime_type.ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlTemplate: {
+			Dotx,
+		},
+		mime_type.ApplicationVndOsgeoMapguidePackage: {
+			Mgp,
+		},
+		mime_type.ApplicationVndOsgiDp: {
+			Dp,
+		},
+		mime_type.ApplicationVndPalm: {
+			Pdb,
+		},
+		mime_type.ApplicationVndPawaafile: {
+			Paw,
+		},
+		mime_type.ApplicationVndPgFormat: {
+			Str,
+		},
+		mime_type.ApplicationVndPgOsasli: {
+			Ei6,
+		},
+		mime_type.ApplicationVndPicsel: {
+			Efif,
+		},
+		mime_type.ApplicationVndPmiWidget: {
+			Wg,
+		},
+		mime_type.ApplicationVndPocketlearn: {
+			Plf,
+		},
+		mime_type.ApplicationVndPowerbuilder6: {
+			Pbd,
+		},
+		mime_type.ApplicationVndPreviewsystemsBox: {
+			Box,
+		},
+		mime_type.ApplicationVndProteusMagazine: {
+			Mgz,
+		},
+		mime_type.ApplicationVndPublishareDeltaTree: {
+			Qps,
+		},
+		mime_type.ApplicationVndPviPtid1: {
+			Ptid,
+		},
+		mime_type.ApplicationVndQuarkQuarkxpress: {
+			Qxd,
+		},
+		mime_type.ApplicationVndRar: {
+			Rar,
+		},
+		mime_type.ApplicationVndRealvncBed: {
+			Bed,
+		},
+		mime_type.ApplicationVndRecordareMusicxml: {
+			Mxl,
+		},
+		mime_type.ApplicationVndRecordareMusicxmlXml: {
+			Musicxml,
+		},
+		mime_type.ApplicationVndRigCryptonote: {
+			Cryptonote,
+		},
+		mime_type.ApplicationVndRimCod: {
+			Cod,
+		},
+		mime_type.ApplicationVndRnRealmedia: {
+			Rm,
+		},
+		mime_type.ApplicationVndRoute66Link66Xml: {
+			Link66,
+		},
+		mime_type.ApplicationVndSailingtrackerTrack: {
+			St,
+		},
+		mime_type.ApplicationVndSeemail: {
+			See,
+		},
+		mime_type.ApplicationVndSema: {
+			Sema,
+		},
+		mime_type.ApplicationVndSemd: {
+			Semd,
+		},
+		mime_type.ApplicationVndSemf: {
+			Semf,
+		},
+		mime_type.ApplicationVndShanaInformedFormdata: {
+			Ifm,
+		},
+		mime_type.ApplicationVndShanaInformedFormtemplate: {
+			Itp,
+		},
+		mime_type.ApplicationVndShanaInformedInterchange: {
+			Iif,
+		},
+		mime_type.ApplicationVndShanaInformedPackage: {
+			Ipk,
+		},
+		mime_type.ApplicationVndSimtechMindmapper: {
+			Twd,
+		},
+		mime_type.ApplicationVndSmaf: {
+			Mmf,
+		},
+		mime_type.ApplicationVndSmartTeacher: {
+			Teacher,
+		},
+		mime_type.ApplicationVndSolentSdkmXml: {
+			Sdkm,
+		},
+		mime_type.ApplicationVndSpotfireDxp: {
+			Dxp,
+		},
+		mime_type.ApplicationVndSpotfireSfs: {
+			Sfs,
+		},
+		mime_type.ApplicationVndStardivisionCalc: {
+			Sdc,
+		},
+		mime_type.ApplicationVndStardivisionDraw: {
+			Sda,
+		},
+		mime_type.ApplicationVndStardivisionImpress: {
+			Sdd,
+		},
+		mime_type.ApplicationVndStardivisionMath: {
+			Smf,
+		},
+		mime_type.ApplicationVndStardivisionWriter: {
+			Sdw,
+		},
+		mime_type.ApplicationVndStardivisionWriterGlobal: {
+			Sgl,
+		},
+		mime_type.ApplicationVndStepmaniaStepchart: {
+			Sm,
+		},
+		mime_type.ApplicationVndSunXmlCalc: {
+			Sxc,
+		},
+		mime_type.ApplicationVndSunXmlCalcTemplate: {
+			Stc,
+		},
+		mime_type.ApplicationVndSunXmlDraw: {
+			Sxd,
+		},
+		mime_type.ApplicationVndSunXmlDrawTemplate: {
+			Std,
+		},
+		mime_type.ApplicationVndSunXmlImpress: {
+			Sxi,
+		},
+		mime_type.ApplicationVndSunXmlImpressTemplate: {
+			Sti,
+		},
+		mime_type.ApplicationVndSunXmlMath: {
+			Sxm,
+		},
+		mime_type.ApplicationVndSunXmlWriter: {
+			Sxw,
+		},
+		mime_type.ApplicationVndSunXmlWriterGlobal: {
+			Sxg,
+		},
+		mime_type.ApplicationVndSunXmlWriterTemplate: {
+			Stw,
+		},
+		mime_type.ApplicationVndSusCalendar: {
+			Sus,
+		},
+		mime_type.ApplicationVndSvd: {
+			Svd,
+		},
+		mime_type.ApplicationVndSymbianInstall: {
+			Sis,
+		},
+		mime_type.ApplicationVndSyncmlXml: {
+			Xsm,
+		},
+		mime_type.ApplicationVndSyncmlDmWbxml: {
+			Bdm,
+		},
+		mime_type.ApplicationVndSyncmlDmXml: {
+			Xdm,
+		},
+		mime_type.ApplicationVndTaoIntentModuleArchive: {
+			Tao,
+		},
+		mime_type.ApplicationVndTmobileLivetv: {
+			Tmo,
+		},
+		mime_type.ApplicationVndTridTpt: {
+			Tpt,
+		},
+		mime_type.ApplicationVndTriscapeMxs: {
+			Mxs,
+		},
+		mime_type.ApplicationVndTrueapp: {
+			Tra,
+		},
+		mime_type.ApplicationVndUfdl: {
+			Ufd,
+		},
+		mime_type.ApplicationVndUiqTheme: {
+			Utz,
+		},
+		mime_type.ApplicationVndUmajin: {
+			Umj,
+		},
+		mime_type.ApplicationVndUnity: {
+			Unityweb,
+		},
+		mime_type.ApplicationVndUomlXml: {
+			Uoml,
+		},
+		mime_type.ApplicationVndVcx: {
+			Vcx,
+		},
+		mime_type.ApplicationVndVisio: {
+			Vsd,
+		},
+		mime_type.ApplicationVndVisio2013: {
+			Vsdx,
+		},
+		mime_type.ApplicationVndVisionary: {
+			Vis,
+		},
+		mime_type.ApplicationVndVsf: {
+			Vsf,
+		},
+		mime_type.ApplicationVndWapWbxml: {
+			Wbxml,
+		},
+		mime_type.ApplicationVndWapWmlc: {
+			Wmlc,
+		},
+		mime_type.ApplicationVndWapWmlscriptc: {
+			Wmlsc,
+		},
+		mime_type.ApplicationVndWebturbo: {
+			Wtb,
+		},
+		mime_type.ApplicationVndWolframPlayer: {
+			Nbp,
+		},
+		mime_type.ApplicationVndWordperfect: {
+			Wpd,
+		},
+		mime_type.ApplicationVndWqd: {
+			Wqd,
+		},
+		mime_type.ApplicationVndWtStf: {
+			Stf,
+		},
+		mime_type.ApplicationVndXara: {
+			Xar,
+		},
+		mime_type.ApplicationVndXfdl: {
+			Xfdl,
+		},
+		mime_type.ApplicationVndYamahaHvDic: {
+			Hvd,
+		},
+		mime_type.ApplicationVndYamahaHvScript: {
+			Hvs,
+		},
+		mime_type.ApplicationVndYamahaHvVoice: {
+			Hvp,
+		},
+		mime_type.ApplicationVndYamahaOpenscoreformat: {
+			Osf,
+		},
+		mime_type.ApplicationVndYamahaOpenscoreformatOsfpvgXml: {
+			Osfpvg,
+		},
+		mime_type.ApplicationVndYamahaSmafAudio: {
+			Saf,
+		},
+		mime_type.ApplicationVndYamahaSmafPhrase: {
+			Spf,
+		},
+		mime_type.ApplicationVndYellowriverCustomMenu: {
+			Cmp,
+		},
+		mime_type.ApplicationVndZul: {
+			Zir,
+		},
+		mime_type.ApplicationVndZzazzDeckXml: {
+			Zaz,
+		},
+		mime_type.ApplicationVoicexmlXml: {
+			Vxml,
+		},
+		mime_type.ApplicationWidget: {
+			Wgt,
+		},
+		mime_type.ApplicationWinhlp: {
+			Hlp,
+		},
+		mime_type.ApplicationWsdlXml: {
+			Wsdl,
+		},
+		mime_type.ApplicationWspolicyXml: {
+			Wspolicy,
+		},
+		mime_type.ApplicationX7zCompressed: {
+			_7z,
+		},
+		mime_type.ApplicationXAbiword: {
+			Abw,
+		},
+		mime_type.ApplicationXAceCompressed: {
+			Ace,
+		},
+		mime_type.ApplicationXAppleDiskimage: {
+			Dmg,
+		},
+		mime_type.ApplicationXAuthorwareBin: {
+			Aab,
+		},
+		mime_type.ApplicationXAuthorwareMap: {
+			Aam,
+		},
+		mime_type.ApplicationXAuthorwareSeg: {
+			Aas,
+		},
+		mime_type.ApplicationXBcpio: {
+			Bcpio,
+		},
+		mime_type.ApplicationXBittorrent: {
+			Torrent,
+		},
+		mime_type.ApplicationXBzip: {
+			Bz,
+		},
+		mime_type.ApplicationXBzip2: {
+			Bz2,
+		},
+		mime_type.ApplicationXCdf: {
+			Cda,
+		},
+		mime_type.ApplicationXCdlink: {
+			Vcd,
+		},
+		mime_type.ApplicationXChat: {
+			Chat,
+		},
+		mime_type.ApplicationXChessPgn: {
+			Pgn,
+		},
+		mime_type.ApplicationXCpio: {
+			Cpio,
+		},
+		mime_type.ApplicationXCsh: {
+			Csh,
+		},
+		mime_type.ApplicationXDebianPackage: {
+			Deb,
+		},
+		mime_type.ApplicationXDirector: {
+			Dir,
+		},
+		mime_type.ApplicationXDoom: {
+			Wad,
+		},
+		mime_type.ApplicationXDtbncxXml: {
+			Ncx,
+		},
+		mime_type.ApplicationXDtbookXml: {
+			Dtb,
+		},
+		mime_type.ApplicationXDtbresourceXml: {
+			Res,
+		},
+		mime_type.ApplicationXDvi: {
+			Dvi,
+		},
+		mime_type.ApplicationXFontBdf: {
+			Bdf,
+		},
+		mime_type.ApplicationXFontGhostscript: {
+			Gsf,
+		},
+		mime_type.ApplicationXFontLinuxPsf: {
+			Psf,
+		},
+		mime_type.ApplicationXFontPcf: {
+			Pcf,
+		},
+		mime_type.ApplicationXFontSnf: {
+			Snf,
+		},
+		mime_type.ApplicationXFontType1: {
+			Pfa,
+		},
+		mime_type.ApplicationXFreearc: {
+			Arc,
+		},
+		mime_type.ApplicationXFuturesplash: {
+			Spl,
+		},
+		mime_type.ApplicationXGnumeric: {
+			Gnumeric,
+		},
+		mime_type.ApplicationXGtar: {
+			Gtar,
+		},
+		mime_type.ApplicationXHdf: {
+			Hdf,
+		},
+		mime_type.ApplicationXHttpdPhp: {
+			Php,
+		},
+		mime_type.ApplicationXJavaJnlpFile: {
+			Jnlp,
+		},
+		mime_type.ApplicationXLatex: {
+			Latex,
+		},
+		mime_type.ApplicationXMobipocketEbook: {
+			Prc,
+		},
+		mime_type.ApplicationXMsApplication: {
+			Application,
+		},
+		mime_type.ApplicationXMsWmd: {
+			Wmd,
+		},
+		mime_type.ApplicationXMsWmz: {
+			Wmz,
+		},
+		mime_type.ApplicationXMsXbap: {
+			Xbap,
+		},
+		mime_type.ApplicationXMsaccess: {
+			Mdb,
+		},
+		mime_type.ApplicationXMsbinder: {
+			Obd,
+		},
+		mime_type.ApplicationXMscardfile: {
+			Crd,
+		},
+		mime_type.ApplicationXMsclip: {
+			Clp,
+		},
+		mime_type.ApplicationXMsdownload: {
+			Exe,
+		},
+		mime_type.ApplicationXMsmediaview: {
+			Mvb,
+		},
+		mime_type.ApplicationXMsmetafile: {
+			Wmf,
+		},
+		mime_type.ApplicationXMsmoney: {
+			Mny,
+		},
+		mime_type.ApplicationXMspublisher: {
+			Pub,
+		},
+		mime_type.ApplicationXMsschedule: {
+			Scd,
+		},
+		mime_type.ApplicationXMsterminal: {
+			Trm,
+		},
+		mime_type.ApplicationXMswrite: {
+			Wri,
+		},
+		mime_type.ApplicationXNetcdf: {
+			Nc,
+		},
+		mime_type.ApplicationXPkcs12: {
+			P12,
+		},
+		mime_type.ApplicationXPkcs7Certificates: {
+			P7b,
+		},
+		mime_type.ApplicationXPkcs7Certreqresp: {
+			P7r,
+		},
+		mime_type.ApplicationXSh: {
+			Sh,
+		},
+		mime_type.ApplicationXShar: {
+			Shar,
+		},
+		mime_type.ApplicationXShockwaveFlash: {
+			Swf,
+		},
+		mime_type.ApplicationXSilverlightApp: {
+			Xap,
+		},
+		mime_type.ApplicationXStuffit: {
+			Sit,
+		},
+		mime_type.ApplicationXStuffitx: {
+			Sitx,
+		},
+		mime_type.ApplicationXSv4cpio: {
+			Sv4cpio,
+		},
+		mime_type.ApplicationXSv4crc: {
+			Sv4crc,
+		},
+		mime_type.ApplicationXTar: {
+			Tar,
+		},
+		mime_type.ApplicationXTcl: {
+			Tcl,
+		},
+		mime_type.ApplicationXTex: {
+			Tex,
+		},
+		mime_type.ApplicationXTexTfm: {
+			Tfm,
+		},
+		mime_type.ApplicationXTexinfo: {
+			Texinfo,
+		},
+		mime_type.ApplicationXUstar: {
+			Ustar,
+		},
+		mime_type.ApplicationXWaisSource: {
+			Src,
+		},
+		mime_type.ApplicationXX509CaCert: {
+			Der,
+		},
+		mime_type.ApplicationXXfig: {
+			Fig,
+		},
+		mime_type.ApplicationXXpinstall: {
+			Xpi,
+		},
+		mime_type.ApplicationXYaml: {
+			Yaml,
+			Yml,
+		},
+		mime_type.ApplicationXcapDiffXml: {
+			Xdf,
+		},
+		mime_type.ApplicationXencXml: {
+			Xenc,
+		},
+		mime_type.ApplicationXhtmlXml: {
+			Xhtml,
+		},
+		mime_type.ApplicationXml: {
+			Xml,
+		},
+		mime_type.ApplicationXmlDtd: {
+			Dtd,
+		},
+		mime_type.ApplicationXopXml: {
+			Xop,
+		},
+		mime_type.ApplicationXsltXml: {
+			Xslt,
+		},
+		mime_type.ApplicationXspfXml: {
+			Xspf,
+		},
+		mime_type.ApplicationXvXml: {
+			Mxml,
+		},
+		mime_type.ApplicationYang: {
+			Yang,
+		},
+		mime_type.ApplicationYinXml: {
+			Yin,
+		},
+		mime_type.ApplicationZip: {
+			Zip,
+		},
+		mime_type.AudioAdpcm: {
+			Adp,
+		},
+		mime_type.AudioBasic: {
+			Au,
+		},
+		mime_type.AudioMidi: {
+			Mid,
+			Midi,
+		},
+		mime_type.AudioMp4: {
+			Mp4a,
+		},
+		mime_type.AudioMpeg: {
+			Mpga,
+		},
+		mime_type.AudioOgg: {
+			Oga,
+		},
+		mime_type.AudioOpus: {
+			Opus,
+		},
+		mime_type.AudioVndDeceAudio: {
+			Uva,
+		},
+		mime_type.AudioVndDigitalWinds: {
+			Eol,
+		},
+		mime_type.AudioVndDra: {
+			Dra,
+		},
+		mime_type.AudioVndDts: {
+			Dts,
+		},
+		mime_type.AudioVndDtsHd: {
+			Dtshd,
+		},
+		mime_type.AudioVndLucentVoice: {
+			Lvp,
+		},
+		mime_type.AudioVndMsPlayreadyMediaPya: {
+			Pya,
+		},
+		mime_type.AudioVndNueraEcelp4800: {
+			Ecelp4800,
+		},
+		mime_type.AudioVndNueraEcelp7470: {
+			Ecelp7470,
+		},
+		mime_type.AudioVndNueraEcelp9600: {
+			Ecelp9600,
+		},
+		mime_type.AudioVndRip: {
+			Rip,
+		},
+		mime_type.AudioWav: {
+			Wav,
+		},
+		mime_type.AudioWebm: {
+			Weba,
+		},
+		mime_type.AudioXAac: {
+			Aac,
+		},
+		mime_type.AudioXAiff: {
+			Aif,
+		},
+		mime_type.AudioXMpegurl: {
+			M3u,
+		},
+		mime_type.AudioXMsWax: {
+			Wax,
+		},
+		mime_type.AudioXMsWma: {
+			Wma,
+		},
+		mime_type.AudioXPnRealaudio: {
+			Ram,
+		},
+		mime_type.AudioXPnRealaudioPlugin: {
+			Rmp,
+		},
+		mime_type.ChemicalXCdx: {
+			Cdx,
+		},
+		mime_type.ChemicalXCif: {
+			Cif,
+		},
+		mime_type.ChemicalXCmdf: {
+			Cmdf,
+		},
+		mime_type.ChemicalXCml: {
+			Cml,
+		},
+		mime_type.ChemicalXCsml: {
+			Csml,
+		},
+		mime_type.ChemicalXXyz: {
+			Xyz,
+		},
+		mime_type.FontOtf: {
+			Otf,
+		},
+		mime_type.FontTtf: {
+			Ttf,
+		},
+		mime_type.FontWoff: {
+			Woff,
+		},
+		mime_type.FontWoff2: {
+			Woff2,
+		},
+		mime_type.ImageBmp: {
+			Bmp,
+		},
+		mime_type.ImageCgm: {
+			Cgm,
+		},
+		mime_type.ImageG3fax: {
+			G3,
+		},
+		mime_type.ImageGif: {
+			Gif,
+		},
+		mime_type.ImageIef: {
+			Ief,
+		},
+		mime_type.ImageJpeg: {
+			Jpeg,
+			Jpg,
+		},
+		mime_type.ImageKtx: {
+			Ktx,
+		},
+		mime_type.ImagePjpeg: {
+			Pjpeg,
+		},
+		mime_type.ImagePng: {
+			Png,
+		},
+		mime_type.ImagePrsBtif: {
+			Btif,
+		},
+		mime_type.ImageSvgXml: {
+			Svg,
+		},
+		mime_type.ImageTiff: {
+			Tif,
+			Tiff,
+		},
+		mime_type.ImageVndAdobePhotoshop: {
+			Psd,
+		},
+		mime_type.ImageVndDeceGraphic: {
+			Uvi,
+		},
+		mime_type.ImageVndDjvu: {
+			Djvu,
+		},
+		mime_type.ImageVndDvbSubtitle: {
+			Sub,
+		},
+		mime_type.ImageVndDwg: {
+			Dwg,
+		},
+		mime_type.ImageVndDxf: {
+			Dxf,
+		},
+		mime_type.ImageVndFastbidsheet: {
+			Fbs,
+		},
+		mime_type.ImageVndFpx: {
+			Fpx,
+		},
+		mime_type.ImageVndFst: {
+			Fst,
+		},
+		mime_type.ImageVndFujixeroxEdmicsMmr: {
+			Mmr,
+		},
+		mime_type.ImageVndFujixeroxEdmicsRlc: {
+			Rlc,
+		},
+		mime_type.ImageVndMsModi: {
+			Mdi,
+		},
+		mime_type.ImageVndNetFpx: {
+			Npx,
+		},
+		mime_type.ImageVndWapWbmp: {
+			Wbmp,
+		},
+		mime_type.ImageVndXiff: {
+			Xif,
+		},
+		mime_type.ImageWebp: {
+			Webp,
+		},
+		mime_type.ImageXCmuRaster: {
+			Ras,
+		},
+		mime_type.ImageXCmx: {
+			Cmx,
+		},
+		mime_type.ImageXFreehand: {
+			Fh,
+		},
+		mime_type.ImageXIcon: {
+			Ico,
+		},
+		mime_type.ImageXPcx: {
+			Pcx,
+		},
+		mime_type.ImageXPict: {
+			Pic,
+		},
+		mime_type.ImageXPortableAnymap: {
+			Pnm,
+		},
+		mime_type.ImageXPortableBitmap: {
+			Pbm,
+		},
+		mime_type.ImageXPortableGraymap: {
+			Pgm,
+		},
+		mime_type.ImageXPortablePixmap: {
+			Ppm,
+		},
+		mime_type.ImageXRgb: {
+			Rgb,
+		},
+		mime_type.ImageXXbitmap: {
+			Xbm,
+		},
+		mime_type.ImageXXpixmap: {
+			Xpm,
+		},
+		mime_type.ImageXXwindowdump: {
+			Xwd,
+		},
+		mime_type.MessageRfc822: {
+			Eml,
+		},
+		mime_type.ModelIges: {
+			Igs,
+		},
+		mime_type.ModelMesh: {
+			Msh,
+		},
+		mime_type.ModelVndColladaXml: {
+			Dae,
+		},
+		mime_type.ModelVndDwf: {
+			Dwf,
+		},
+		mime_type.ModelVndGdl: {
+			Gdl,
+		},
+		mime_type.ModelVndGtw: {
+			Gtw,
+		},
+		mime_type.ModelVndMts: {
+			Mts,
+		},
+		mime_type.ModelVndVtu: {
+			Vtu,
+		},
+		mime_type.ModelVrml: {
+			Wrl,
+		},
+		mime_type.TextCalendar: {
+			Ics,
+		},
+		mime_type.TextCss: {
+			Css,
+		},
+		mime_type.TextCsv: {
+			Csv,
+		},
+		mime_type.TextHtml: {
+			Html,
+		},
+		mime_type.TextN3: {
+			N3,
+		},
+		mime_type.TextPlain: {
+			Txt,
+		},
+		mime_type.TextPlainBas: {
+			Par,
+		},
+		mime_type.TextPrsLinesTag: {
+			Dsc,
+		},
+		mime_type.TextRichtext: {
+			Rtx,
+		},
+		mime_type.TextSgml: {
+			Sgml,
+		},
+		mime_type.TextTabSeparatedValues: {
+			Tsv,
+		},
+		mime_type.TextTroff: {
+			T,
+		},
+		mime_type.TextTurtle: {
+			Ttl,
+		},
+		mime_type.TextUriList: {
+			Uri,
+		},
+		mime_type.TextVndCurl: {
+			Curl,
+		},
+		mime_type.TextVndCurlDcurl: {
+			Dcurl,
+		},
+		mime_type.TextVndCurlMcurl: {
+			Mcurl,
+		},
+		mime_type.TextVndCurlScurl: {
+			Scurl,
+		},
+		mime_type.TextVndFly: {
+			Fly,
+		},
+		mime_type.TextVndFmiFlexstor: {
+			Flx,
+		},
+		mime_type.TextVndGraphviz: {
+			Gv,
+		},
+		mime_type.TextVndIn3d3dml: {
+			_3dml,
+		},
+		mime_type.TextVndIn3dSpot: {
+			Spot,
+		},
+		mime_type.TextVndSunJ2meAppDescriptor: {
+			Jad,
+		},
+		mime_type.TextVndWapWml: {
+			Wml,
+		},
+		mime_type.TextVndWapWmlscript: {
+			Wmls,
+		},
+		mime_type.TextXAsm: {
+			S,
+		},
+		mime_type.TextXC: {
+			C,
+		},
+		mime_type.TextXFortran: {
+			F,
+		},
+		mime_type.TextXJavaSource: {
+			Java,
+		},
+		mime_type.TextXPascal: {
+			P,
+		},
+		mime_type.TextXSetext: {
+			Etx,
+		},
+		mime_type.TextXUuencode: {
+			Uu,
+		},
+		mime_type.TextXVcalendar: {
+			Vcs,
+		},
+		mime_type.TextXVcard: {
+			Vcf,
+		},
+		mime_type.Unkown: {},
+		mime_type.Video3gpp: {
+			_3gp,
+		},
+		mime_type.Video3gpp2: {
+			_3g2,
+		},
+		mime_type.VideoH261: {
+			H261,
+		},
+		mime_type.VideoH263: {
+			H263,
+		},
+		mime_type.VideoH264: {
+			H264,
+		},
+		mime_type.VideoJpeg: {
+			Jpgv,
+		},
+		mime_type.VideoJpm: {
+			Jpm,
+		},
+		mime_type.VideoMj2: {
+			Mj2,
+		},
+		mime_type.VideoMp2t: {
+			Ts,
+		},
+		mime_type.VideoMp4: {
+			Mp4,
+		},
+		mime_type.VideoMpeg: {
+			Mpeg,
+		},
+		mime_type.VideoOgg: {
+			Ogv,
+		},
+		mime_type.VideoQuicktime: {
+			Qt,
+		},
+		mime_type.VideoVndDeceHd: {
+			Uvh,
+		},
+		mime_type.VideoVndDeceMobile: {
+			Uvm,
+		},
+		mime_type.VideoVndDecePd: {
+			Uvp,
+		},
+		mime_type.VideoVndDeceSd: {
+			Uvs,
+		},
+		mime_type.VideoVndDeceVideo: {
+			Uvv,
+		},
+		mime_type.VideoVndFvt: {
+			Fvt,
+		},
+		mime_type.VideoVndMpegurl: {
+			Mxu,
+		},
+		mime_type.VideoVndMsPlayreadyMediaPyv: {
+			Pyv,
+		},
+		mime_type.VideoVndUvvuMp4: {
+			Uvu,
+		},
+		mime_type.VideoVndVivo: {
+			Viv,
+		},
+		mime_type.VideoWebm: {
+			Webm,
+		},
+		mime_type.VideoXF4v: {
+			F4v,
+		},
+		mime_type.VideoXFli: {
+			Fli,
+		},
+		mime_type.VideoXFlv: {
+			Flv,
+		},
+		mime_type.VideoXM4v: {
+			M4v,
+		},
+		mime_type.VideoXMsAsf: {
+			Asf,
+		},
+		mime_type.VideoXMsWm: {
+			Wm,
+		},
+		mime_type.VideoXMsWmv: {
+			Wmv,
+		},
+		mime_type.VideoXMsWmx: {
+			Wmx,
+		},
+		mime_type.VideoXMsWvx: {
+			Wvx,
+		},
+		mime_type.VideoXMsvideo: {
+			Avi,
+		},
+		mime_type.VideoXSgiMovie: {
+			Movie,
+		},
+		mime_type.XConferenceXCooltalk: {
+			Ice,
+		},
 	}
 )

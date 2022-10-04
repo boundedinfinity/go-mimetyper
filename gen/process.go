@@ -69,9 +69,9 @@ func process2(data []data) error {
     const (        
 	{{ range $i := . }}
 		{{ goName $i.MimeType }} MimeType = "{{ $i.MimeType }}"
-		{{- range $a := $i.MimeTypeAlt }}
+	{{- range $a := $i.MimeTypeAlt }}
 		{{ goName $a }} MimeType = "{{ $a }}"
-		{{- end }}
+	{{- end }}
 	{{- end }}
     )
     `
@@ -86,9 +86,10 @@ func process2(data []data) error {
 	var (
 		m = map[MimeType]MimeType{
 		{{- range $i := . }}
-			{{- range $a := $i.MimeTypeAlt }}
-			{{ goName $a }}:  "{{ goName $i.MimeType }}",
-			{{- end }}
+			{{ goName $i.MimeType }}: {{ goName $i.MimeType }},
+		{{- range $a := $i.MimeTypeAlt }}
+			{{ goName $a }}: {{ goName $i.MimeType }},
+		{{- end }}
 		{{- end }}
 		}
     )
@@ -122,11 +123,21 @@ func process2(data []data) error {
 	import "github.com/boundedinfinity/mimetyper/mime_type"
 
 	var (
-		m = map[FileExtention]mime_type.MimeType{
+		ext2mt = map[FileExtention]mime_type.MimeType{
 	{{- range $i := . }}
 	{{- range $e := $i.FileExtention }}
 		{{ goName $e }}:  mime_type.{{ goName $i.MimeType }},
 	{{- end }}	
+	{{- end }}
+		}
+
+		mt2ext = map[mime_type.MimeType][]FileExtention{
+	{{- range $i := . }}
+			mime_type.{{ goName $i.MimeType }}: {
+	{{- range $e := $i.FileExtention }}
+				{{ goName $e }},
+	{{- end }}
+			},
 	{{- end }}
 		}
     )

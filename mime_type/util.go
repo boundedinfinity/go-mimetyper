@@ -1,8 +1,8 @@
 package mime_type
 
 func ResolveMimeType(typ MimeType) MimeType {
-	if ptyp, ok := m[typ]; ok {
-		return ptyp
+	if resolved, ok := m[typ]; ok {
+		return resolved
 	}
 
 	return typ
