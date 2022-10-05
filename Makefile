@@ -21,5 +21,5 @@ publish:
 	git add . || true
 	git commit -m "$(m)" . || true
 	git push origin master
-	git tag -a $(m) -m "$(m)"
+	git tag -fa $(m) -m "$(m)"
 	git push origin $(m)
