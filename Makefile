@@ -17,9 +17,18 @@ purge:
 test: generate
 	go test ./...
 
-publish:
+generate:
+	go generate ./...
+
+commit:
 	git add . || true
-	git commit -m "$(m)" . || true
+	git commit -m "$(m)" || true
 	git push origin master
-	git tag -fa $(m) -m "$(m)"
-	git push origin $(m)
+
+tag:
+	git tag -fa $(tag) -m "$(tag)"
+	git push -f --tags
+
+publish: test
+	make commit m=$(m)
+	make tag tag=$(m)
