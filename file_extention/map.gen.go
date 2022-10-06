@@ -713,6 +713,7 @@ var (
 		Toml:        mime_type.ApplicationToml,
 		Hcl:         mime_type.ApplicationHcl,
 		Ini:         mime_type.ApplicationIni,
+		Cue:         mime_type.ApplicationCue,
 	}
 
 	mt2ext = map[mime_type.MimeType][]FileExtention{
@@ -2812,6 +2813,9 @@ var (
 		},
 		mime_type.ApplicationIni: {
 			Ini,
+		},
+		mime_type.ApplicationCue: {
+			Cue,
 		},
 	}
 )

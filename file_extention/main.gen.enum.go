@@ -719,6 +719,7 @@ var (
 		Toml,
 		Hcl,
 		Ini,
+		Cue,
 	}
 )
 

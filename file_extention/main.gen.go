@@ -712,4 +712,5 @@ const (
 	Toml        FileExtention = ".toml"
 	Hcl         FileExtention = ".hcl"
 	Ini         FileExtention = ".ini"
+	Cue         FileExtention = ".cue"
 )

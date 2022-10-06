@@ -739,4 +739,8 @@ const (
 	ApplicationXIni                                                      MimeType = "application/x-ini"
 	TextIni                                                              MimeType = "text/ini"
 	TextXIni                                                             MimeType = "text/x-ini"
+	ApplicationCue                                                       MimeType = "application/cue"
+	ApplicationXCue                                                      MimeType = "application/x-cue"
+	TextCue                                                              MimeType = "text/cue"
+	TextXCue                                                             MimeType = "text/x-cue"
 )

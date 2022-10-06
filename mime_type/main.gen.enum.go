@@ -746,6 +746,10 @@ var (
 		ApplicationXIni,
 		TextIni,
 		TextXIni,
+		ApplicationCue,
+		ApplicationXCue,
+		TextCue,
+		TextXCue,
 	}
 )
 

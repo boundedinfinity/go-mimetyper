@@ -3524,3 +3524,11 @@
     - text/x-ini
   file-extention:
     - .ini
+- description: Configure Unify Execute
+  mime-type: application/cue
+  mime-type-alt:
+    - application/x-cue
+    - text/cue
+    - text/x-cue
+  file-extention:
+    - .cue

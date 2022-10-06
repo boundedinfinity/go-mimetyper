@@ -738,5 +738,9 @@ var (
 		ApplicationXIni:                                                      ApplicationIni,
 		TextIni:                                                              ApplicationIni,
 		TextXIni:                                                             ApplicationIni,
+		ApplicationCue:                                                       ApplicationCue,
+		ApplicationXCue:                                                      ApplicationCue,
+		TextCue:                                                              ApplicationCue,
+		TextXCue:                                                             ApplicationCue,
 	}
 )
