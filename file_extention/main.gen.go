@@ -709,4 +709,7 @@ const (
 	Avi         FileExtention = ".avi"
 	Movie       FileExtention = ".movie"
 	Ice         FileExtention = ".ice"
+	Toml        FileExtention = ".toml"
+	Hcl         FileExtention = ".hcl"
+	Ini         FileExtention = ".ini"
 )

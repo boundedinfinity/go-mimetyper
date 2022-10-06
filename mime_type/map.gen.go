@@ -726,5 +726,17 @@ var (
 		VideoXMsvideo:                                                        VideoXMsvideo,
 		VideoXSgiMovie:                                                       VideoXSgiMovie,
 		XConferenceXCooltalk:                                                 XConferenceXCooltalk,
+		ApplicationToml:                                                      ApplicationToml,
+		ApplicationXToml:                                                     ApplicationToml,
+		TextToml:                                                             ApplicationToml,
+		TextXToml:                                                            ApplicationToml,
+		ApplicationHcl:                                                       ApplicationHcl,
+		ApplicationXHcl:                                                      ApplicationHcl,
+		TextHcl:                                                              ApplicationHcl,
+		TextXHcl:                                                             ApplicationHcl,
+		ApplicationIni:                                                       ApplicationIni,
+		ApplicationXIni:                                                      ApplicationIni,
+		TextIni:                                                              ApplicationIni,
+		TextXIni:                                                             ApplicationIni,
 	}
 )

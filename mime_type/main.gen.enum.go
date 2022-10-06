@@ -13,7 +13,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/boundedinfinity/go-commoner/slicer"
+	"github.com/boundedinfinity/go-commoner/slicer" // v1.0.15
 )
 
 var (
@@ -734,6 +734,18 @@ var (
 		VideoXMsvideo,
 		VideoXSgiMovie,
 		XConferenceXCooltalk,
+		ApplicationToml,
+		ApplicationXToml,
+		TextToml,
+		TextXToml,
+		ApplicationHcl,
+		ApplicationXHcl,
+		TextHcl,
+		TextXHcl,
+		ApplicationIni,
+		ApplicationXIni,
+		TextIni,
+		TextXIni,
 	}
 )
 

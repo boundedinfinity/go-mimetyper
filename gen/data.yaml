@@ -3500,3 +3500,27 @@
   mime-type-alt: []
   file-extention:
     - .ice
+- description: Tom's Obvious, Minimal Language
+  mime-type: application/toml
+  mime-type-alt:
+    - application/x-toml
+    - text/toml
+    - text/x-toml
+  file-extention:
+    - .toml
+- description: HashiCorp configuration language
+  mime-type: application/hcl
+  mime-type-alt:
+    - application/x-hcl
+    - text/hcl
+    - text/x-hcl
+  file-extention:
+    - .hcl
+- description: Microsoft Windows Initialization
+  mime-type: application/ini
+  mime-type-alt:
+    - application/x-ini
+    - text/ini
+    - text/x-ini
+  file-extention:
+    - .ini

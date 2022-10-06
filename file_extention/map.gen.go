@@ -710,6 +710,9 @@ var (
 		Avi:         mime_type.VideoXMsvideo,
 		Movie:       mime_type.VideoXSgiMovie,
 		Ice:         mime_type.XConferenceXCooltalk,
+		Toml:        mime_type.ApplicationToml,
+		Hcl:         mime_type.ApplicationHcl,
+		Ini:         mime_type.ApplicationIni,
 	}
 
 	mt2ext = map[mime_type.MimeType][]FileExtention{
@@ -2800,6 +2803,15 @@ var (
 		},
 		mime_type.XConferenceXCooltalk: {
 			Ice,
+		},
+		mime_type.ApplicationToml: {
+			Toml,
+		},
+		mime_type.ApplicationHcl: {
+			Hcl,
+		},
+		mime_type.ApplicationIni: {
+			Ini,
 		},
 	}
 )
