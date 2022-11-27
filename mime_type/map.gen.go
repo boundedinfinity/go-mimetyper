@@ -10,737 +10,785 @@ package mime_type
 
 var (
 	m = map[MimeType]MimeType{
-		ApplicationAndrewInset:               ApplicationAndrewInset,
-		ApplicationApplixware:                ApplicationApplixware,
-		ApplicationAtomXml:                   ApplicationAtomXml,
-		ApplicationAtomcatXml:                ApplicationAtomcatXml,
-		ApplicationAtomsvcXml:                ApplicationAtomsvcXml,
-		ApplicationCcxmlXml:                  ApplicationCcxmlXml,
-		ApplicationCdmiCapability:            ApplicationCdmiCapability,
-		ApplicationCdmiContainer:             ApplicationCdmiContainer,
-		ApplicationCdmiDomain:                ApplicationCdmiDomain,
-		ApplicationCdmiObject:                ApplicationCdmiObject,
-		ApplicationCdmiQueue:                 ApplicationCdmiQueue,
-		ApplicationCuSeeme:                   ApplicationCuSeeme,
-		ApplicationDavmountXml:               ApplicationDavmountXml,
-		ApplicationDsscDer:                   ApplicationDsscDer,
-		ApplicationDsscXml:                   ApplicationDsscXml,
-		ApplicationEcmascript:                ApplicationEcmascript,
-		ApplicationEmmaXml:                   ApplicationEmmaXml,
-		ApplicationEpubZip:                   ApplicationEpubZip,
-		ApplicationExi:                       ApplicationExi,
-		ApplicationFontTdpfr:                 ApplicationFontTdpfr,
-		ApplicationGpxXml:                    ApplicationGpxXml,
-		ApplicationGzip:                      ApplicationGzip,
-		ApplicationHyperstudio:               ApplicationHyperstudio,
-		ApplicationIpfix:                     ApplicationIpfix,
-		ApplicationJavaArchive:               ApplicationJavaArchive,
-		ApplicationJavaSerializedObject:      ApplicationJavaSerializedObject,
-		ApplicationJavaVm:                    ApplicationJavaVm,
-		ApplicationJavascript:                ApplicationJavascript,
-		TextJavascript:                       ApplicationJavascript,
-		ApplicationJson:                      ApplicationJson,
-		ApplicationLdJson:                    ApplicationLdJson,
-		ApplicationMacBinhex40:               ApplicationMacBinhex40,
-		ApplicationMacCompactpro:             ApplicationMacCompactpro,
-		ApplicationMadsXml:                   ApplicationMadsXml,
-		ApplicationMarc:                      ApplicationMarc,
-		ApplicationMarcxmlXml:                ApplicationMarcxmlXml,
-		ApplicationMathematica:               ApplicationMathematica,
-		ApplicationMathmlXml:                 ApplicationMathmlXml,
-		ApplicationMbox:                      ApplicationMbox,
-		ApplicationMediaservercontrolXml:     ApplicationMediaservercontrolXml,
-		ApplicationMetalink4Xml:              ApplicationMetalink4Xml,
-		ApplicationMetsXml:                   ApplicationMetsXml,
-		ApplicationModsXml:                   ApplicationModsXml,
-		ApplicationMp21:                      ApplicationMp21,
-		ApplicationMsword:                    ApplicationMsword,
-		ApplicationMxf:                       ApplicationMxf,
-		ApplicationOctetStream:               ApplicationOctetStream,
-		ApplicationOda:                       ApplicationOda,
-		ApplicationOebpsPackageXml:           ApplicationOebpsPackageXml,
-		ApplicationOgg:                       ApplicationOgg,
-		ApplicationOnenote:                   ApplicationOnenote,
-		ApplicationPatchOpsErrorXml:          ApplicationPatchOpsErrorXml,
-		ApplicationPdf:                       ApplicationPdf,
-		ApplicationPgpEncrypted:              ApplicationPgpEncrypted,
-		ApplicationPgpSignature:              ApplicationPgpEncrypted,
-		ApplicationPicsRules:                 ApplicationPicsRules,
-		ApplicationPkcs10:                    ApplicationPkcs10,
-		ApplicationPkcs7Mime:                 ApplicationPkcs7Mime,
-		ApplicationPkcs7Signature:            ApplicationPkcs7Signature,
-		ApplicationPkcs8:                     ApplicationPkcs8,
-		ApplicationPkixAttrCert:              ApplicationPkixAttrCert,
-		ApplicationPkixCert:                  ApplicationPkixCert,
-		ApplicationPkixCrl:                   ApplicationPkixCrl,
-		ApplicationPkixPkipath:               ApplicationPkixPkipath,
-		ApplicationPkixcmp:                   ApplicationPkixcmp,
-		ApplicationPlsXml:                    ApplicationPlsXml,
-		ApplicationPostscript:                ApplicationPostscript,
-		ApplicationPrsCww:                    ApplicationPrsCww,
-		ApplicationPskcXml:                   ApplicationPskcXml,
-		ApplicationRdfXml:                    ApplicationRdfXml,
-		ApplicationReginfoXml:                ApplicationReginfoXml,
-		ApplicationRelaxNgCompactSyntax:      ApplicationRelaxNgCompactSyntax,
-		ApplicationResourceListsXml:          ApplicationResourceListsXml,
-		ApplicationResourceListsDiffXml:      ApplicationResourceListsDiffXml,
-		ApplicationRlsServicesXml:            ApplicationRlsServicesXml,
-		ApplicationRsdXml:                    ApplicationRsdXml,
-		ApplicationRssXml:                    ApplicationRssXml,
-		ApplicationRtf:                       ApplicationRtf,
-		ApplicationSbmlXml:                   ApplicationSbmlXml,
-		ApplicationScvpCvRequest:             ApplicationScvpCvRequest,
-		ApplicationScvpCvResponse:            ApplicationScvpCvResponse,
-		ApplicationScvpVpRequest:             ApplicationScvpVpRequest,
-		ApplicationScvpVpResponse:            ApplicationScvpVpResponse,
-		ApplicationSdp:                       ApplicationSdp,
-		ApplicationSetPaymentInitiation:      ApplicationSetPaymentInitiation,
-		ApplicationSetRegistrationInitiation: ApplicationSetRegistrationInitiation,
-		ApplicationShfXml:                    ApplicationShfXml,
-		ApplicationSmilXml:                   ApplicationSmilXml,
-		ApplicationSparqlQuery:               ApplicationSparqlQuery,
-		ApplicationSparqlResultsXml:          ApplicationSparqlResultsXml,
-		ApplicationSrgs:                      ApplicationSrgs,
-		ApplicationSrgsXml:                   ApplicationSrgsXml,
-		ApplicationSruXml:                    ApplicationSruXml,
-		ApplicationSsmlXml:                   ApplicationSsmlXml,
-		ApplicationTeiXml:                    ApplicationTeiXml,
-		ApplicationThraudXml:                 ApplicationThraudXml,
-		ApplicationTimestampedData:           ApplicationTimestampedData,
-		ApplicationVnd3gppPicBwLarge:         ApplicationVnd3gppPicBwLarge,
-		ApplicationVnd3gppPicBwSmall:         ApplicationVnd3gppPicBwSmall,
-		ApplicationVnd3gppPicBwVar:           ApplicationVnd3gppPicBwVar,
-		ApplicationVnd3gpp2Tcap:              ApplicationVnd3gpp2Tcap,
-		ApplicationVnd3mPostItNotes:          ApplicationVnd3mPostItNotes,
-		ApplicationVndAccpacSimplyAso:        ApplicationVndAccpacSimplyAso,
-		ApplicationVndAccpacSimplyImp:        ApplicationVndAccpacSimplyImp,
-		ApplicationVndAcucobol:               ApplicationVndAcucobol,
-		ApplicationVndAcucorp:                ApplicationVndAcucorp,
-		ApplicationVndAdobeAirApplicationInstallerPackageZip: ApplicationVndAdobeAirApplicationInstallerPackageZip,
-		ApplicationVndAdobeFxp:                               ApplicationVndAdobeFxp,
-		ApplicationVndAdobeXdpXml:                            ApplicationVndAdobeXdpXml,
-		ApplicationVndAdobeXfdf:                              ApplicationVndAdobeXfdf,
-		ApplicationVndAheadSpace:                             ApplicationVndAheadSpace,
-		ApplicationVndAirzipFilesecureAzf:                    ApplicationVndAirzipFilesecureAzf,
-		ApplicationVndAirzipFilesecureAzs:                    ApplicationVndAirzipFilesecureAzs,
-		ApplicationVndAmazonEbook:                            ApplicationVndAmazonEbook,
-		ApplicationVndAmericandynamicsAcc:                    ApplicationVndAmericandynamicsAcc,
-		ApplicationVndAmigaAmi:                               ApplicationVndAmigaAmi,
-		ApplicationVndAndroidPackageArchive:                  ApplicationVndAndroidPackageArchive,
-		ApplicationVndAnserWebCertificateIssueInitiation:     ApplicationVndAnserWebCertificateIssueInitiation,
-		ApplicationVndAnserWebFundsTransferInitiation:        ApplicationVndAnserWebFundsTransferInitiation,
-		ApplicationVndAntixGameComponent:                     ApplicationVndAntixGameComponent,
-		ApplicationVndAppleInstallerXml:                      ApplicationVndAppleInstallerXml,
-		ApplicationVndAppleMpegurl:                           ApplicationVndAppleMpegurl,
-		ApplicationVndAristanetworksSwi:                      ApplicationVndAristanetworksSwi,
-		ApplicationVndAudiograph:                             ApplicationVndAudiograph,
-		ApplicationVndBlueiceMultipass:                       ApplicationVndBlueiceMultipass,
-		ApplicationVndBmi:                                    ApplicationVndBmi,
-		ApplicationVndBusinessobjects:                        ApplicationVndBusinessobjects,
-		ApplicationVndChemdrawXml:                            ApplicationVndChemdrawXml,
-		ApplicationVndChipnutsKaraokeMmd:                     ApplicationVndChipnutsKaraokeMmd,
-		ApplicationVndCinderella:                             ApplicationVndCinderella,
-		ApplicationVndClaymore:                               ApplicationVndClaymore,
-		ApplicationVndCloantoRp9:                             ApplicationVndCloantoRp9,
-		ApplicationVndClonkC4group:                           ApplicationVndClonkC4group,
-		ApplicationVndCluetrustCartomobileConfig:             ApplicationVndCluetrustCartomobileConfig,
-		ApplicationVndCluetrustCartomobileConfigPkg:          ApplicationVndCluetrustCartomobileConfigPkg,
-		ApplicationVndCommonspace:                            ApplicationVndCommonspace,
-		ApplicationVndContactCmsg:                            ApplicationVndContactCmsg,
-		ApplicationVndCosmocaller:                            ApplicationVndCosmocaller,
-		ApplicationVndCrickClicker:                           ApplicationVndCrickClicker,
-		ApplicationVndCrickClickerKeyboard:                   ApplicationVndCrickClickerKeyboard,
-		ApplicationVndCrickClickerPalette:                    ApplicationVndCrickClickerPalette,
-		ApplicationVndCrickClickerTemplate:                   ApplicationVndCrickClickerTemplate,
-		ApplicationVndCrickClickerWordbank:                   ApplicationVndCrickClickerWordbank,
-		ApplicationVndCriticaltoolsWbsXml:                    ApplicationVndCriticaltoolsWbsXml,
-		ApplicationVndCtcPosml:                               ApplicationVndCtcPosml,
-		ApplicationVndCupsPpd:                                ApplicationVndCupsPpd,
-		ApplicationVndCurlCar:                                ApplicationVndCurlCar,
-		ApplicationVndCurlPcurl:                              ApplicationVndCurlPcurl,
-		ApplicationVndDataVisionRdz:                          ApplicationVndDataVisionRdz,
-		ApplicationVndDenovoFcselayoutLink:                   ApplicationVndDenovoFcselayoutLink,
-		ApplicationVndDna:                                    ApplicationVndDna,
-		ApplicationVndDolbyMlp:                               ApplicationVndDolbyMlp,
-		ApplicationVndDpgraph:                                ApplicationVndDpgraph,
-		ApplicationVndDreamfactory:                           ApplicationVndDreamfactory,
-		ApplicationVndDvbAit:                                 ApplicationVndDvbAit,
-		ApplicationVndDvbService:                             ApplicationVndDvbService,
-		ApplicationVndDynageo:                                ApplicationVndDynageo,
-		ApplicationVndEcowinChart:                            ApplicationVndEcowinChart,
-		ApplicationVndEnliven:                                ApplicationVndEnliven,
-		ApplicationVndEpsonEsf:                               ApplicationVndEpsonEsf,
-		ApplicationVndEpsonMsf:                               ApplicationVndEpsonMsf,
-		ApplicationVndEpsonQuickanime:                        ApplicationVndEpsonQuickanime,
-		ApplicationVndEpsonSalt:                              ApplicationVndEpsonSalt,
-		ApplicationVndEpsonSsf:                               ApplicationVndEpsonSsf,
-		ApplicationVndEszigno3Xml:                            ApplicationVndEszigno3Xml,
-		ApplicationVndEzpixAlbum:                             ApplicationVndEzpixAlbum,
-		ApplicationVndEzpixPackage:                           ApplicationVndEzpixPackage,
-		ApplicationVndFdf:                                    ApplicationVndFdf,
-		ApplicationVndFdsnSeed:                               ApplicationVndFdsnSeed,
-		ApplicationVndFlographit:                             ApplicationVndFlographit,
-		ApplicationVndFluxtimeClip:                           ApplicationVndFluxtimeClip,
-		ApplicationVndFramemaker:                             ApplicationVndFramemaker,
-		ApplicationVndFrogansFnc:                             ApplicationVndFrogansFnc,
-		ApplicationVndFrogansLtf:                             ApplicationVndFrogansLtf,
-		ApplicationVndFscWeblaunch:                           ApplicationVndFscWeblaunch,
-		ApplicationVndFujitsuOasys:                           ApplicationVndFujitsuOasys,
-		ApplicationVndFujitsuOasys2:                          ApplicationVndFujitsuOasys2,
-		ApplicationVndFujitsuOasys3:                          ApplicationVndFujitsuOasys3,
-		ApplicationVndFujitsuOasysgp:                         ApplicationVndFujitsuOasysgp,
-		ApplicationVndFujitsuOasysprs:                        ApplicationVndFujitsuOasysprs,
-		ApplicationVndFujixeroxDdd:                           ApplicationVndFujixeroxDdd,
-		ApplicationVndFujixeroxDocuworks:                     ApplicationVndFujixeroxDocuworks,
-		ApplicationVndFujixeroxDocuworksBinder:               ApplicationVndFujixeroxDocuworksBinder,
-		ApplicationVndFuzzysheet:                             ApplicationVndFuzzysheet,
-		ApplicationVndGenomatixTuxedo:                        ApplicationVndGenomatixTuxedo,
-		ApplicationVndGeogebraFile:                           ApplicationVndGeogebraFile,
-		ApplicationVndGeogebraTool:                           ApplicationVndGeogebraTool,
-		ApplicationVndGeometryExplorer:                       ApplicationVndGeometryExplorer,
-		ApplicationVndGeonext:                                ApplicationVndGeonext,
-		ApplicationVndGeoplan:                                ApplicationVndGeoplan,
-		ApplicationVndGeospace:                               ApplicationVndGeospace,
-		ApplicationVndGmx:                                    ApplicationVndGmx,
-		ApplicationVndGoogleEarthKmlXml:                      ApplicationVndGoogleEarthKmlXml,
-		ApplicationVndGoogleEarthKmz:                         ApplicationVndGoogleEarthKmz,
-		ApplicationVndGrafeq:                                 ApplicationVndGrafeq,
-		ApplicationVndGrooveAccount:                          ApplicationVndGrooveAccount,
-		ApplicationVndGrooveHelp:                             ApplicationVndGrooveHelp,
-		ApplicationVndGrooveIdentityMessage:                  ApplicationVndGrooveIdentityMessage,
-		ApplicationVndGrooveInjector:                         ApplicationVndGrooveInjector,
-		ApplicationVndGrooveToolMessage:                      ApplicationVndGrooveToolMessage,
-		ApplicationVndGrooveToolTemplate:                     ApplicationVndGrooveToolTemplate,
-		ApplicationVndGrooveVcard:                            ApplicationVndGrooveVcard,
-		ApplicationVndHalXml:                                 ApplicationVndHalXml,
-		ApplicationVndHandheldEntertainmentXml:               ApplicationVndHandheldEntertainmentXml,
-		ApplicationVndHbci:                                   ApplicationVndHbci,
-		ApplicationVndHheLessonPlayer:                        ApplicationVndHheLessonPlayer,
-		ApplicationVndHpHpgl:                                 ApplicationVndHpHpgl,
-		ApplicationVndHpHpid:                                 ApplicationVndHpHpid,
-		ApplicationVndHpHps:                                  ApplicationVndHpHps,
-		ApplicationVndHpJlyt:                                 ApplicationVndHpJlyt,
-		ApplicationVndHpPcl:                                  ApplicationVndHpPcl,
-		ApplicationVndHpPclxl:                                ApplicationVndHpPclxl,
-		ApplicationVndHydrostatixSofData:                     ApplicationVndHydrostatixSofData,
-		ApplicationVndHzn3dCrossword:                         ApplicationVndHzn3dCrossword,
-		ApplicationVndIbmMinipay:                             ApplicationVndIbmMinipay,
-		ApplicationVndIbmModcap:                              ApplicationVndIbmModcap,
-		ApplicationVndIbmRightsManagement:                    ApplicationVndIbmRightsManagement,
-		ApplicationVndIbmSecureContainer:                     ApplicationVndIbmSecureContainer,
-		ApplicationVndIccprofile:                             ApplicationVndIccprofile,
-		ApplicationVndIgloader:                               ApplicationVndIgloader,
-		ApplicationVndImmervisionIvp:                         ApplicationVndImmervisionIvp,
-		ApplicationVndImmervisionIvu:                         ApplicationVndImmervisionIvu,
-		ApplicationVndInsorsIgm:                              ApplicationVndInsorsIgm,
-		ApplicationVndInterconFormnet:                        ApplicationVndInterconFormnet,
-		ApplicationVndIntergeo:                               ApplicationVndIntergeo,
-		ApplicationVndIntuQbo:                                ApplicationVndIntuQbo,
-		ApplicationVndIntuQfx:                                ApplicationVndIntuQfx,
-		ApplicationVndIpunpluggedRcprofile:                   ApplicationVndIpunpluggedRcprofile,
-		ApplicationVndIrepositoryPackageXml:                  ApplicationVndIrepositoryPackageXml,
-		ApplicationVndIsXpr:                                  ApplicationVndIsXpr,
-		ApplicationVndIsacFcs:                                ApplicationVndIsacFcs,
-		ApplicationVndJam:                                    ApplicationVndJam,
-		ApplicationVndJcpJavameMidletRms:                     ApplicationVndJcpJavameMidletRms,
-		ApplicationVndJisp:                                   ApplicationVndJisp,
-		ApplicationVndJoostJodaArchive:                       ApplicationVndJoostJodaArchive,
-		ApplicationVndKahootz:                                ApplicationVndKahootz,
-		ApplicationVndKdeKarbon:                              ApplicationVndKdeKarbon,
-		ApplicationVndKdeKchart:                              ApplicationVndKdeKchart,
-		ApplicationVndKdeKformula:                            ApplicationVndKdeKformula,
-		ApplicationVndKdeKivio:                               ApplicationVndKdeKivio,
-		ApplicationVndKdeKontour:                             ApplicationVndKdeKontour,
-		ApplicationVndKdeKpresenter:                          ApplicationVndKdeKpresenter,
-		ApplicationVndKdeKspread:                             ApplicationVndKdeKspread,
-		ApplicationVndKdeKword:                               ApplicationVndKdeKword,
-		ApplicationVndKenameaapp:                             ApplicationVndKenameaapp,
-		ApplicationVndKidspiration:                           ApplicationVndKidspiration,
-		ApplicationVndKinar:                                  ApplicationVndKinar,
-		ApplicationVndKoan:                                   ApplicationVndKoan,
-		ApplicationVndKodakDescriptor:                        ApplicationVndKodakDescriptor,
-		ApplicationVndLasLasXml:                              ApplicationVndLasLasXml,
-		ApplicationVndLlamagraphicsLifeBalanceDesktop:        ApplicationVndLlamagraphicsLifeBalanceDesktop,
-		ApplicationVndLlamagraphicsLifeBalanceExchangeXml:    ApplicationVndLlamagraphicsLifeBalanceExchangeXml,
-		ApplicationVndLotus123:                               ApplicationVndLotus123,
-		ApplicationVndLotusApproach:                          ApplicationVndLotusApproach,
-		ApplicationVndLotusFreelance:                         ApplicationVndLotusFreelance,
-		ApplicationVndLotusNotes:                             ApplicationVndLotusNotes,
-		ApplicationVndLotusOrganizer:                         ApplicationVndLotusOrganizer,
-		ApplicationVndLotusScreencam:                         ApplicationVndLotusScreencam,
-		ApplicationVndLotusWordpro:                           ApplicationVndLotusWordpro,
-		ApplicationVndMacportsPortpkg:                        ApplicationVndMacportsPortpkg,
-		ApplicationVndMcd:                                    ApplicationVndMcd,
-		ApplicationVndMedcalcdata:                            ApplicationVndMedcalcdata,
-		ApplicationVndMediastationCdkey:                      ApplicationVndMediastationCdkey,
-		ApplicationVndMfer:                                   ApplicationVndMfer,
-		ApplicationVndMfmp:                                   ApplicationVndMfmp,
-		ApplicationVndMicrografxFlo:                          ApplicationVndMicrografxFlo,
-		ApplicationVndMicrografxIgx:                          ApplicationVndMicrografxIgx,
-		ApplicationVndMif:                                    ApplicationVndMif,
-		ApplicationVndMobiusDaf:                              ApplicationVndMobiusDaf,
-		ApplicationVndMobiusDis:                              ApplicationVndMobiusDis,
-		ApplicationVndMobiusMbk:                              ApplicationVndMobiusMbk,
-		ApplicationVndMobiusMqy:                              ApplicationVndMobiusMqy,
-		ApplicationVndMobiusMsl:                              ApplicationVndMobiusMsl,
-		ApplicationVndMobiusPlc:                              ApplicationVndMobiusPlc,
-		ApplicationVndMobiusTxf:                              ApplicationVndMobiusTxf,
-		ApplicationVndMophunApplication:                      ApplicationVndMophunApplication,
-		ApplicationVndMophunCertificate:                      ApplicationVndMophunCertificate,
-		ApplicationVndMozillaXulXml:                          ApplicationVndMozillaXulXml,
-		ApplicationVndMsArtgalry:                             ApplicationVndMsArtgalry,
-		ApplicationVndMsCabCompressed:                        ApplicationVndMsCabCompressed,
-		ApplicationVndMsExcel:                                ApplicationVndMsExcel,
-		ApplicationVndMsExcelAddinMacroenabled12:             ApplicationVndMsExcelAddinMacroenabled12,
-		ApplicationVndMsExcelSheetBinaryMacroenabled12:       ApplicationVndMsExcelSheetBinaryMacroenabled12,
-		ApplicationVndMsExcelSheetMacroenabled12:             ApplicationVndMsExcelSheetMacroenabled12,
-		ApplicationVndMsExcelTemplateMacroenabled12:          ApplicationVndMsExcelTemplateMacroenabled12,
-		ApplicationVndMsFontobject:                           ApplicationVndMsFontobject,
-		ApplicationVndMsHtmlhelp:                             ApplicationVndMsHtmlhelp,
-		ApplicationVndMsIms:                                  ApplicationVndMsIms,
-		ApplicationVndMsLrm:                                  ApplicationVndMsLrm,
-		ApplicationVndMsOfficetheme:                          ApplicationVndMsOfficetheme,
-		ApplicationVndMsPkiSeccat:                            ApplicationVndMsPkiSeccat,
-		ApplicationVndMsPkiStl:                               ApplicationVndMsPkiStl,
-		ApplicationVndMsPowerpoint:                           ApplicationVndMsPowerpoint,
-		ApplicationVndMsPowerpointAddinMacroenabled12:        ApplicationVndMsPowerpointAddinMacroenabled12,
-		ApplicationVndMsPowerpointPresentationMacroenabled12: ApplicationVndMsPowerpointPresentationMacroenabled12,
-		ApplicationVndMsPowerpointSlideMacroenabled12:        ApplicationVndMsPowerpointSlideMacroenabled12,
-		ApplicationVndMsPowerpointSlideshowMacroenabled12:    ApplicationVndMsPowerpointSlideshowMacroenabled12,
-		ApplicationVndMsPowerpointTemplateMacroenabled12:     ApplicationVndMsPowerpointTemplateMacroenabled12,
-		ApplicationVndMsProject:                              ApplicationVndMsProject,
-		ApplicationVndMsWordDocumentMacroenabled12:           ApplicationVndMsWordDocumentMacroenabled12,
-		ApplicationVndMsWordTemplateMacroenabled12:           ApplicationVndMsWordTemplateMacroenabled12,
-		ApplicationVndMsWorks:                                ApplicationVndMsWorks,
-		ApplicationVndMsWpl:                                  ApplicationVndMsWpl,
-		ApplicationVndMsXpsdocument:                          ApplicationVndMsXpsdocument,
-		ApplicationVndMseq:                                   ApplicationVndMseq,
-		ApplicationVndMusician:                               ApplicationVndMusician,
-		ApplicationVndMuveeStyle:                             ApplicationVndMuveeStyle,
-		ApplicationVndNeurolanguageNlu:                       ApplicationVndNeurolanguageNlu,
-		ApplicationVndNoblenetDirectory:                      ApplicationVndNoblenetDirectory,
-		ApplicationVndNoblenetSealer:                         ApplicationVndNoblenetSealer,
-		ApplicationVndNoblenetWeb:                            ApplicationVndNoblenetWeb,
-		ApplicationVndNokiaNGageData:                         ApplicationVndNokiaNGageData,
-		ApplicationVndNokiaNGageSymbianInstall:               ApplicationVndNokiaNGageSymbianInstall,
-		ApplicationVndNokiaRadioPreset:                       ApplicationVndNokiaRadioPreset,
-		ApplicationVndNokiaRadioPresets:                      ApplicationVndNokiaRadioPresets,
-		ApplicationVndNovadigmEdm:                            ApplicationVndNovadigmEdm,
-		ApplicationVndNovadigmEdx:                            ApplicationVndNovadigmEdx,
-		ApplicationVndNovadigmExt:                            ApplicationVndNovadigmExt,
-		ApplicationVndOasisOpendocumentChart:                 ApplicationVndOasisOpendocumentChart,
-		ApplicationVndOasisOpendocumentChartTemplate:         ApplicationVndOasisOpendocumentChartTemplate,
-		ApplicationVndOasisOpendocumentDatabase:              ApplicationVndOasisOpendocumentDatabase,
-		ApplicationVndOasisOpendocumentFormula:               ApplicationVndOasisOpendocumentFormula,
-		ApplicationVndOasisOpendocumentFormulaTemplate:       ApplicationVndOasisOpendocumentFormulaTemplate,
-		ApplicationVndOasisOpendocumentGraphics:              ApplicationVndOasisOpendocumentGraphics,
-		ApplicationVndOasisOpendocumentGraphicsTemplate:      ApplicationVndOasisOpendocumentGraphicsTemplate,
-		ApplicationVndOasisOpendocumentImage:                 ApplicationVndOasisOpendocumentImage,
-		ApplicationVndOasisOpendocumentImageTemplate:         ApplicationVndOasisOpendocumentImageTemplate,
-		ApplicationVndOasisOpendocumentPresentation:          ApplicationVndOasisOpendocumentPresentation,
-		ApplicationVndOasisOpendocumentPresentationTemplate:  ApplicationVndOasisOpendocumentPresentationTemplate,
-		ApplicationVndOasisOpendocumentSpreadsheet:           ApplicationVndOasisOpendocumentSpreadsheet,
-		ApplicationVndOasisOpendocumentSpreadsheetTemplate:   ApplicationVndOasisOpendocumentSpreadsheetTemplate,
-		ApplicationVndOasisOpendocumentText:                  ApplicationVndOasisOpendocumentText,
-		ApplicationVndOasisOpendocumentTextMaster:            ApplicationVndOasisOpendocumentTextMaster,
-		ApplicationVndOasisOpendocumentTextTemplate:          ApplicationVndOasisOpendocumentTextTemplate,
-		ApplicationVndOasisOpendocumentTextWeb:               ApplicationVndOasisOpendocumentTextWeb,
-		ApplicationVndOlpcSugar:                              ApplicationVndOlpcSugar,
-		ApplicationVndOmaDd2Xml:                              ApplicationVndOmaDd2Xml,
-		ApplicationVndOpenofficeorgExtension:                 ApplicationVndOpenofficeorgExtension,
-		ApplicationVndOpenxmlformatsOfficedocumentPresentationmlPresentation: ApplicationVndOpenxmlformatsOfficedocumentPresentationmlPresentation,
-		ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlide:        ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlide,
-		ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlideshow:    ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlideshow,
-		ApplicationVndOpenxmlformatsOfficedocumentPresentationmlTemplate:     ApplicationVndOpenxmlformatsOfficedocumentPresentationmlTemplate,
-		ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlSheet:         ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlSheet,
-		ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlTemplate:      ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlTemplate,
-		ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlDocument:   ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlDocument,
-		ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlTemplate:   ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlTemplate,
-		ApplicationVndOsgeoMapguidePackage:                                   ApplicationVndOsgeoMapguidePackage,
-		ApplicationVndOsgiDp:                                                 ApplicationVndOsgiDp,
-		ApplicationVndPalm:                                                   ApplicationVndPalm,
-		ApplicationVndPawaafile:                                              ApplicationVndPawaafile,
-		ApplicationVndPgFormat:                                               ApplicationVndPgFormat,
-		ApplicationVndPgOsasli:                                               ApplicationVndPgOsasli,
-		ApplicationVndPicsel:                                                 ApplicationVndPicsel,
-		ApplicationVndPmiWidget:                                              ApplicationVndPmiWidget,
-		ApplicationVndPocketlearn:                                            ApplicationVndPocketlearn,
-		ApplicationVndPowerbuilder6:                                          ApplicationVndPowerbuilder6,
-		ApplicationVndPreviewsystemsBox:                                      ApplicationVndPreviewsystemsBox,
-		ApplicationVndProteusMagazine:                                        ApplicationVndProteusMagazine,
-		ApplicationVndPublishareDeltaTree:                                    ApplicationVndPublishareDeltaTree,
-		ApplicationVndPviPtid1:                                               ApplicationVndPviPtid1,
-		ApplicationVndQuarkQuarkxpress:                                       ApplicationVndQuarkQuarkxpress,
-		ApplicationVndRar:                                                    ApplicationVndRar,
-		ApplicationXRarCompressed:                                            ApplicationVndRar,
-		ApplicationVndRealvncBed:                                             ApplicationVndRealvncBed,
-		ApplicationVndRecordareMusicxml:                                      ApplicationVndRecordareMusicxml,
-		ApplicationVndRecordareMusicxmlXml:                                   ApplicationVndRecordareMusicxmlXml,
-		ApplicationVndRigCryptonote:                                          ApplicationVndRigCryptonote,
-		ApplicationVndRimCod:                                                 ApplicationVndRimCod,
-		ApplicationVndRnRealmedia:                                            ApplicationVndRnRealmedia,
-		ApplicationVndRoute66Link66Xml:                                       ApplicationVndRoute66Link66Xml,
-		ApplicationVndSailingtrackerTrack:                                    ApplicationVndSailingtrackerTrack,
-		ApplicationVndSeemail:                                                ApplicationVndSeemail,
-		ApplicationVndSema:                                                   ApplicationVndSema,
-		ApplicationVndSemd:                                                   ApplicationVndSemd,
-		ApplicationVndSemf:                                                   ApplicationVndSemf,
-		ApplicationVndShanaInformedFormdata:                                  ApplicationVndShanaInformedFormdata,
-		ApplicationVndShanaInformedFormtemplate:                              ApplicationVndShanaInformedFormtemplate,
-		ApplicationVndShanaInformedInterchange:                               ApplicationVndShanaInformedInterchange,
-		ApplicationVndShanaInformedPackage:                                   ApplicationVndShanaInformedPackage,
-		ApplicationVndSimtechMindmapper:                                      ApplicationVndSimtechMindmapper,
-		ApplicationVndSmaf:                                                   ApplicationVndSmaf,
-		ApplicationVndSmartTeacher:                                           ApplicationVndSmartTeacher,
-		ApplicationVndSolentSdkmXml:                                          ApplicationVndSolentSdkmXml,
-		ApplicationVndSpotfireDxp:                                            ApplicationVndSpotfireDxp,
-		ApplicationVndSpotfireSfs:                                            ApplicationVndSpotfireSfs,
-		ApplicationVndStardivisionCalc:                                       ApplicationVndStardivisionCalc,
-		ApplicationVndStardivisionDraw:                                       ApplicationVndStardivisionDraw,
-		ApplicationVndStardivisionImpress:                                    ApplicationVndStardivisionImpress,
-		ApplicationVndStardivisionMath:                                       ApplicationVndStardivisionMath,
-		ApplicationVndStardivisionWriter:                                     ApplicationVndStardivisionWriter,
-		ApplicationVndStardivisionWriterGlobal:                               ApplicationVndStardivisionWriterGlobal,
-		ApplicationVndStepmaniaStepchart:                                     ApplicationVndStepmaniaStepchart,
-		ApplicationVndSunXmlCalc:                                             ApplicationVndSunXmlCalc,
-		ApplicationVndSunXmlCalcTemplate:                                     ApplicationVndSunXmlCalcTemplate,
-		ApplicationVndSunXmlDraw:                                             ApplicationVndSunXmlDraw,
-		ApplicationVndSunXmlDrawTemplate:                                     ApplicationVndSunXmlDrawTemplate,
-		ApplicationVndSunXmlImpress:                                          ApplicationVndSunXmlImpress,
-		ApplicationVndSunXmlImpressTemplate:                                  ApplicationVndSunXmlImpressTemplate,
-		ApplicationVndSunXmlMath:                                             ApplicationVndSunXmlMath,
-		ApplicationVndSunXmlWriter:                                           ApplicationVndSunXmlWriter,
-		ApplicationVndSunXmlWriterGlobal:                                     ApplicationVndSunXmlWriterGlobal,
-		ApplicationVndSunXmlWriterTemplate:                                   ApplicationVndSunXmlWriterTemplate,
-		ApplicationVndSusCalendar:                                            ApplicationVndSusCalendar,
-		ApplicationVndSvd:                                                    ApplicationVndSvd,
-		ApplicationVndSymbianInstall:                                         ApplicationVndSymbianInstall,
-		ApplicationVndSyncmlXml:                                              ApplicationVndSyncmlXml,
-		ApplicationVndSyncmlDmWbxml:                                          ApplicationVndSyncmlDmWbxml,
-		ApplicationVndSyncmlDmXml:                                            ApplicationVndSyncmlDmXml,
-		ApplicationVndTaoIntentModuleArchive:                                 ApplicationVndTaoIntentModuleArchive,
-		ApplicationVndTmobileLivetv:                                          ApplicationVndTmobileLivetv,
-		ApplicationVndTridTpt:                                                ApplicationVndTridTpt,
-		ApplicationVndTriscapeMxs:                                            ApplicationVndTriscapeMxs,
-		ApplicationVndTrueapp:                                                ApplicationVndTrueapp,
-		ApplicationVndUfdl:                                                   ApplicationVndUfdl,
-		ApplicationVndUiqTheme:                                               ApplicationVndUiqTheme,
-		ApplicationVndUmajin:                                                 ApplicationVndUmajin,
-		ApplicationVndUnity:                                                  ApplicationVndUnity,
-		ApplicationVndUomlXml:                                                ApplicationVndUomlXml,
-		ApplicationVndVcx:                                                    ApplicationVndVcx,
-		ApplicationVndVisio:                                                  ApplicationVndVisio,
-		ApplicationVndVisio2013:                                              ApplicationVndVisio2013,
-		ApplicationVndVisionary:                                              ApplicationVndVisionary,
-		ApplicationVndVsf:                                                    ApplicationVndVsf,
-		ApplicationVndWapWbxml:                                               ApplicationVndWapWbxml,
-		ApplicationVndWapWmlc:                                                ApplicationVndWapWmlc,
-		ApplicationVndWapWmlscriptc:                                          ApplicationVndWapWmlscriptc,
-		ApplicationVndWebturbo:                                               ApplicationVndWebturbo,
-		ApplicationVndWolframPlayer:                                          ApplicationVndWolframPlayer,
-		ApplicationVndWordperfect:                                            ApplicationVndWordperfect,
-		ApplicationVndWqd:                                                    ApplicationVndWqd,
-		ApplicationVndWtStf:                                                  ApplicationVndWtStf,
-		ApplicationVndXara:                                                   ApplicationVndXara,
-		ApplicationVndXfdl:                                                   ApplicationVndXfdl,
-		ApplicationVndYamahaHvDic:                                            ApplicationVndYamahaHvDic,
-		ApplicationVndYamahaHvScript:                                         ApplicationVndYamahaHvScript,
-		ApplicationVndYamahaHvVoice:                                          ApplicationVndYamahaHvVoice,
-		ApplicationVndYamahaOpenscoreformat:                                  ApplicationVndYamahaOpenscoreformat,
-		ApplicationVndYamahaOpenscoreformatOsfpvgXml:                         ApplicationVndYamahaOpenscoreformatOsfpvgXml,
-		ApplicationVndYamahaSmafAudio:                                        ApplicationVndYamahaSmafAudio,
-		ApplicationVndYamahaSmafPhrase:                                       ApplicationVndYamahaSmafPhrase,
-		ApplicationVndYellowriverCustomMenu:                                  ApplicationVndYellowriverCustomMenu,
-		ApplicationVndZul:                                                    ApplicationVndZul,
-		ApplicationVndZzazzDeckXml:                                           ApplicationVndZzazzDeckXml,
-		ApplicationVoicexmlXml:                                               ApplicationVoicexmlXml,
-		ApplicationWidget:                                                    ApplicationWidget,
-		ApplicationWinhlp:                                                    ApplicationWinhlp,
-		ApplicationWsdlXml:                                                   ApplicationWsdlXml,
-		ApplicationWspolicyXml:                                               ApplicationWspolicyXml,
-		ApplicationX7zCompressed:                                             ApplicationX7zCompressed,
-		ApplicationXAbiword:                                                  ApplicationXAbiword,
-		ApplicationXAceCompressed:                                            ApplicationXAceCompressed,
-		ApplicationXAppleDiskimage:                                           ApplicationXAppleDiskimage,
-		ApplicationXAuthorwareBin:                                            ApplicationXAuthorwareBin,
-		ApplicationXAuthorwareMap:                                            ApplicationXAuthorwareMap,
-		ApplicationXAuthorwareSeg:                                            ApplicationXAuthorwareSeg,
-		ApplicationXBcpio:                                                    ApplicationXBcpio,
-		ApplicationXBittorrent:                                               ApplicationXBittorrent,
-		ApplicationXBzip:                                                     ApplicationXBzip,
-		ApplicationXBzip2:                                                    ApplicationXBzip2,
-		ApplicationXCdf:                                                      ApplicationXCdf,
-		ApplicationXCdlink:                                                   ApplicationXCdlink,
-		ApplicationXChat:                                                     ApplicationXChat,
-		ApplicationXChessPgn:                                                 ApplicationXChessPgn,
-		ApplicationXCpio:                                                     ApplicationXCpio,
-		ApplicationXCsh:                                                      ApplicationXCsh,
-		ApplicationXDebianPackage:                                            ApplicationXDebianPackage,
-		ApplicationXDirector:                                                 ApplicationXDirector,
-		ApplicationXDoom:                                                     ApplicationXDoom,
-		ApplicationXDtbncxXml:                                                ApplicationXDtbncxXml,
-		ApplicationXDtbookXml:                                                ApplicationXDtbookXml,
-		ApplicationXDtbresourceXml:                                           ApplicationXDtbresourceXml,
-		ApplicationXDvi:                                                      ApplicationXDvi,
-		ApplicationXFontBdf:                                                  ApplicationXFontBdf,
-		ApplicationXFontGhostscript:                                          ApplicationXFontGhostscript,
-		ApplicationXFontLinuxPsf:                                             ApplicationXFontLinuxPsf,
-		ApplicationXFontPcf:                                                  ApplicationXFontPcf,
-		ApplicationXFontSnf:                                                  ApplicationXFontSnf,
-		ApplicationXFontType1:                                                ApplicationXFontType1,
-		ApplicationXFreearc:                                                  ApplicationXFreearc,
-		ApplicationXFuturesplash:                                             ApplicationXFuturesplash,
-		ApplicationXGnumeric:                                                 ApplicationXGnumeric,
-		ApplicationXGtar:                                                     ApplicationXGtar,
-		ApplicationXHdf:                                                      ApplicationXHdf,
-		ApplicationXHttpdPhp:                                                 ApplicationXHttpdPhp,
-		ApplicationXJavaJnlpFile:                                             ApplicationXJavaJnlpFile,
-		ApplicationXLatex:                                                    ApplicationXLatex,
-		ApplicationXMobipocketEbook:                                          ApplicationXMobipocketEbook,
-		ApplicationXMsApplication:                                            ApplicationXMsApplication,
-		ApplicationXMsWmd:                                                    ApplicationXMsWmd,
-		ApplicationXMsWmz:                                                    ApplicationXMsWmz,
-		ApplicationXMsXbap:                                                   ApplicationXMsXbap,
-		ApplicationXMsaccess:                                                 ApplicationXMsaccess,
-		ApplicationXMsbinder:                                                 ApplicationXMsbinder,
-		ApplicationXMscardfile:                                               ApplicationXMscardfile,
-		ApplicationXMsclip:                                                   ApplicationXMsclip,
-		ApplicationXMsdownload:                                               ApplicationXMsdownload,
-		ApplicationXMsmediaview:                                              ApplicationXMsmediaview,
-		ApplicationXMsmetafile:                                               ApplicationXMsmetafile,
-		ApplicationXMsmoney:                                                  ApplicationXMsmoney,
-		ApplicationXMspublisher:                                              ApplicationXMspublisher,
-		ApplicationXMsschedule:                                               ApplicationXMsschedule,
-		ApplicationXMsterminal:                                               ApplicationXMsterminal,
-		ApplicationXMswrite:                                                  ApplicationXMswrite,
-		ApplicationXNetcdf:                                                   ApplicationXNetcdf,
-		ApplicationXPkcs12:                                                   ApplicationXPkcs12,
-		ApplicationXPkcs7Certificates:                                        ApplicationXPkcs7Certificates,
-		ApplicationXPkcs7Certreqresp:                                         ApplicationXPkcs7Certreqresp,
-		ApplicationXSh:                                                       ApplicationXSh,
-		ApplicationXShar:                                                     ApplicationXShar,
-		ApplicationXShockwaveFlash:                                           ApplicationXShockwaveFlash,
-		ApplicationXSilverlightApp:                                           ApplicationXSilverlightApp,
-		ApplicationXStuffit:                                                  ApplicationXStuffit,
-		ApplicationXStuffitx:                                                 ApplicationXStuffitx,
-		ApplicationXSv4cpio:                                                  ApplicationXSv4cpio,
-		ApplicationXSv4crc:                                                   ApplicationXSv4crc,
-		ApplicationXTar:                                                      ApplicationXTar,
-		ApplicationXTcl:                                                      ApplicationXTcl,
-		ApplicationXTex:                                                      ApplicationXTex,
-		ApplicationXTexTfm:                                                   ApplicationXTexTfm,
-		ApplicationXTexinfo:                                                  ApplicationXTexinfo,
-		ApplicationXUstar:                                                    ApplicationXUstar,
-		ApplicationXWaisSource:                                               ApplicationXWaisSource,
-		ApplicationXX509CaCert:                                               ApplicationXX509CaCert,
-		ApplicationXXfig:                                                     ApplicationXXfig,
-		ApplicationXXpinstall:                                                ApplicationXXpinstall,
-		ApplicationXYaml:                                                     ApplicationXYaml,
-		TextXYaml:                                                            ApplicationXYaml,
-		TextYaml:                                                             ApplicationXYaml,
-		ApplicationYaml:                                                      ApplicationXYaml,
-		ApplicationXcapDiffXml:                                               ApplicationXcapDiffXml,
-		ApplicationXencXml:                                                   ApplicationXencXml,
-		ApplicationXhtmlXml:                                                  ApplicationXhtmlXml,
-		ApplicationXml:                                                       ApplicationXml,
-		TextXml:                                                              ApplicationXml,
-		ApplicationXmlDtd:                                                    ApplicationXmlDtd,
-		ApplicationXopXml:                                                    ApplicationXopXml,
-		ApplicationXsltXml:                                                   ApplicationXsltXml,
-		ApplicationXspfXml:                                                   ApplicationXspfXml,
-		ApplicationXvXml:                                                     ApplicationXvXml,
-		ApplicationYang:                                                      ApplicationYang,
-		ApplicationYinXml:                                                    ApplicationYinXml,
-		ApplicationZip:                                                       ApplicationZip,
-		AudioAdpcm:                                                           AudioAdpcm,
-		AudioBasic:                                                           AudioBasic,
-		AudioMidi:                                                            AudioMidi,
-		AudioXMidi:                                                           AudioMidi,
-		AudioMp4:                                                             AudioMp4,
-		AudioMpeg:                                                            AudioMpeg,
-		AudioOgg:                                                             AudioOgg,
-		AudioOpus:                                                            AudioOpus,
-		AudioVndDeceAudio:                                                    AudioVndDeceAudio,
-		AudioVndDigitalWinds:                                                 AudioVndDigitalWinds,
-		AudioVndDra:                                                          AudioVndDra,
-		AudioVndDts:                                                          AudioVndDts,
-		AudioVndDtsHd:                                                        AudioVndDtsHd,
-		AudioVndLucentVoice:                                                  AudioVndLucentVoice,
-		AudioVndMsPlayreadyMediaPya:                                          AudioVndMsPlayreadyMediaPya,
-		AudioVndNueraEcelp4800:                                               AudioVndNueraEcelp4800,
-		AudioVndNueraEcelp7470:                                               AudioVndNueraEcelp7470,
-		AudioVndNueraEcelp9600:                                               AudioVndNueraEcelp9600,
-		AudioVndRip:                                                          AudioVndRip,
-		AudioWav:                                                             AudioWav,
-		AudioXWav:                                                            AudioWav,
-		AudioWebm:                                                            AudioWebm,
-		AudioXAac:                                                            AudioXAac,
-		AudioXAiff:                                                           AudioXAiff,
-		AudioXMpegurl:                                                        AudioXMpegurl,
-		AudioXMsWax:                                                          AudioXMsWax,
-		AudioXMsWma:                                                          AudioXMsWma,
-		AudioXPnRealaudio:                                                    AudioXPnRealaudio,
-		AudioXPnRealaudioPlugin:                                              AudioXPnRealaudioPlugin,
-		ChemicalXCdx:                                                         ChemicalXCdx,
-		ChemicalXCif:                                                         ChemicalXCif,
-		ChemicalXCmdf:                                                        ChemicalXCmdf,
-		ChemicalXCml:                                                         ChemicalXCml,
-		ChemicalXCsml:                                                        ChemicalXCsml,
-		ChemicalXXyz:                                                         ChemicalXXyz,
-		FontOtf:                                                              FontOtf,
-		ApplicationXFontOtf:                                                  FontOtf,
-		FontTtf:                                                              FontTtf,
-		ApplicationXFontTtf:                                                  FontTtf,
-		FontWoff:                                                             FontWoff,
-		ApplicationXFontWoff:                                                 FontWoff,
-		FontWoff2:                                                            FontWoff2,
-		ImageBmp:                                                             ImageBmp,
-		ImageCgm:                                                             ImageCgm,
-		ImageG3fax:                                                           ImageG3fax,
-		ImageGif:                                                             ImageGif,
-		ImageIef:                                                             ImageIef,
-		ImageJpeg:                                                            ImageJpeg,
-		ImageXCitrixJpeg:                                                     ImageJpeg,
-		ImageKtx:                                                             ImageKtx,
-		ImagePjpeg:                                                           ImagePjpeg,
-		ImagePng:                                                             ImagePng,
-		ImageXCitrixPng:                                                      ImagePng,
-		ImageXPng:                                                            ImagePng,
-		ImagePrsBtif:                                                         ImagePrsBtif,
-		ImageSvgXml:                                                          ImageSvgXml,
-		ImageTiff:                                                            ImageTiff,
-		ImageVndAdobePhotoshop:                                               ImageVndAdobePhotoshop,
-		ImageVndDeceGraphic:                                                  ImageVndDeceGraphic,
-		ImageVndDjvu:                                                         ImageVndDjvu,
-		ImageVndDvbSubtitle:                                                  ImageVndDvbSubtitle,
-		ImageVndDwg:                                                          ImageVndDwg,
-		ImageVndDxf:                                                          ImageVndDxf,
-		ImageVndFastbidsheet:                                                 ImageVndFastbidsheet,
-		ImageVndFpx:                                                          ImageVndFpx,
-		ImageVndFst:                                                          ImageVndFst,
-		ImageVndFujixeroxEdmicsMmr:                                           ImageVndFujixeroxEdmicsMmr,
-		ImageVndFujixeroxEdmicsRlc:                                           ImageVndFujixeroxEdmicsRlc,
-		ImageVndMsModi:                                                       ImageVndMsModi,
-		ImageVndNetFpx:                                                       ImageVndNetFpx,
-		ImageVndWapWbmp:                                                      ImageVndWapWbmp,
-		ImageVndXiff:                                                         ImageVndXiff,
-		ImageWebp:                                                            ImageWebp,
-		ImageXCmuRaster:                                                      ImageXCmuRaster,
-		ImageXCmx:                                                            ImageXCmx,
-		ImageXFreehand:                                                       ImageXFreehand,
-		ImageXIcon:                                                           ImageXIcon,
-		ImageVndMicrosoftIcon:                                                ImageXIcon,
-		ImageXPcx:                                                            ImageXPcx,
-		ImageXPict:                                                           ImageXPict,
-		ImageXPortableAnymap:                                                 ImageXPortableAnymap,
-		ImageXPortableBitmap:                                                 ImageXPortableBitmap,
-		ImageXPortableGraymap:                                                ImageXPortableGraymap,
-		ImageXPortablePixmap:                                                 ImageXPortablePixmap,
-		ImageXRgb:                                                            ImageXRgb,
-		ImageXXbitmap:                                                        ImageXXbitmap,
-		ImageXXpixmap:                                                        ImageXXpixmap,
-		ImageXXwindowdump:                                                    ImageXXwindowdump,
-		MessageRfc822:                                                        MessageRfc822,
-		ModelIges:                                                            ModelIges,
-		ModelMesh:                                                            ModelMesh,
-		ModelVndColladaXml:                                                   ModelVndColladaXml,
-		ModelVndDwf:                                                          ModelVndDwf,
-		ModelVndGdl:                                                          ModelVndGdl,
-		ModelVndGtw:                                                          ModelVndGtw,
-		ModelVndMts:                                                          ModelVndMts,
-		ModelVndVtu:                                                          ModelVndVtu,
-		ModelVrml:                                                            ModelVrml,
-		TextCalendar:                                                         TextCalendar,
-		TextCss:                                                              TextCss,
-		TextCsv:                                                              TextCsv,
-		TextHtml:                                                             TextHtml,
-		TextN3:                                                               TextN3,
-		TextPlain:                                                            TextPlain,
-		TextPlainBas:                                                         TextPlainBas,
-		TextPrsLinesTag:                                                      TextPrsLinesTag,
-		TextRichtext:                                                         TextRichtext,
-		TextSgml:                                                             TextSgml,
-		TextTabSeparatedValues:                                               TextTabSeparatedValues,
-		TextTroff:                                                            TextTroff,
-		TextTurtle:                                                           TextTurtle,
-		TextUriList:                                                          TextUriList,
-		TextVndCurl:                                                          TextVndCurl,
-		TextVndCurlDcurl:                                                     TextVndCurlDcurl,
-		TextVndCurlMcurl:                                                     TextVndCurlMcurl,
-		TextVndCurlScurl:                                                     TextVndCurlScurl,
-		TextVndFly:                                                           TextVndFly,
-		TextVndFmiFlexstor:                                                   TextVndFmiFlexstor,
-		TextVndGraphviz:                                                      TextVndGraphviz,
-		TextVndIn3d3dml:                                                      TextVndIn3d3dml,
-		TextVndIn3dSpot:                                                      TextVndIn3dSpot,
-		TextVndSunJ2meAppDescriptor:                                          TextVndSunJ2meAppDescriptor,
-		TextVndWapWml:                                                        TextVndWapWml,
-		TextVndWapWmlscript:                                                  TextVndWapWmlscript,
-		TextXAsm:                                                             TextXAsm,
-		TextXC:                                                               TextXC,
-		TextXFortran:                                                         TextXFortran,
-		TextXJavaSource:                                                      TextXJavaSource,
-		Java:                                                                 TextXJavaSource,
-		TextXPascal:                                                          TextXPascal,
-		TextXSetext:                                                          TextXSetext,
-		TextXUuencode:                                                        TextXUuencode,
-		TextXVcalendar:                                                       TextXVcalendar,
-		TextXVcard:                                                           TextXVcard,
-		Unkown:                                                               Unkown,
-		Video3gpp:                                                            Video3gpp,
-		Audio3gpp:                                                            Video3gpp,
-		Video3gpp2:                                                           Video3gpp2,
-		Audio3gpp2:                                                           Video3gpp2,
-		VideoH261:                                                            VideoH261,
-		VideoH263:                                                            VideoH263,
-		VideoH264:                                                            VideoH264,
-		VideoJpeg:                                                            VideoJpeg,
-		VideoJpm:                                                             VideoJpm,
-		VideoMj2:                                                             VideoMj2,
-		VideoMp2t:                                                            VideoMp2t,
-		VideoMp4:                                                             VideoMp4,
-		ApplicationMp4:                                                       VideoMp4,
-		VideoMpeg:                                                            VideoMpeg,
-		VideoOgg:                                                             VideoOgg,
-		VideoQuicktime:                                                       VideoQuicktime,
-		VideoVndDeceHd:                                                       VideoVndDeceHd,
-		VideoVndDeceMobile:                                                   VideoVndDeceMobile,
-		VideoVndDecePd:                                                       VideoVndDecePd,
-		VideoVndDeceSd:                                                       VideoVndDeceSd,
-		VideoVndDeceVideo:                                                    VideoVndDeceVideo,
-		VideoVndFvt:                                                          VideoVndFvt,
-		VideoVndMpegurl:                                                      VideoVndMpegurl,
-		VideoVndMsPlayreadyMediaPyv:                                          VideoVndMsPlayreadyMediaPyv,
-		VideoVndUvvuMp4:                                                      VideoVndUvvuMp4,
-		VideoVndVivo:                                                         VideoVndVivo,
-		VideoWebm:                                                            VideoWebm,
-		VideoXF4v:                                                            VideoXF4v,
-		VideoXFli:                                                            VideoXFli,
-		VideoXFlv:                                                            VideoXFlv,
-		VideoXM4v:                                                            VideoXM4v,
-		VideoXMsAsf:                                                          VideoXMsAsf,
-		VideoXMsWm:                                                           VideoXMsWm,
-		VideoXMsWmv:                                                          VideoXMsWmv,
-		VideoXMsWmx:                                                          VideoXMsWmx,
-		VideoXMsWvx:                                                          VideoXMsWvx,
-		VideoXMsvideo:                                                        VideoXMsvideo,
-		VideoXSgiMovie:                                                       VideoXSgiMovie,
-		XConferenceXCooltalk:                                                 XConferenceXCooltalk,
-		ApplicationToml:                                                      ApplicationToml,
-		ApplicationXToml:                                                     ApplicationToml,
-		TextToml:                                                             ApplicationToml,
-		TextXToml:                                                            ApplicationToml,
-		ApplicationHcl:                                                       ApplicationHcl,
-		ApplicationXHcl:                                                      ApplicationHcl,
-		TextHcl:                                                              ApplicationHcl,
-		TextXHcl:                                                             ApplicationHcl,
-		ApplicationIni:                                                       ApplicationIni,
-		ApplicationXIni:                                                      ApplicationIni,
-		TextIni:                                                              ApplicationIni,
-		TextXIni:                                                             ApplicationIni,
-		ApplicationCue:                                                       ApplicationCue,
-		ApplicationXCue:                                                      ApplicationCue,
-		TextCue:                                                              ApplicationCue,
-		TextXCue:                                                             ApplicationCue,
+		ApplicationAndrewInset:               ApplicationAndrewInset,               // Andrew Toolkit
+		ApplicationApplixware:                ApplicationApplixware,                // Applixware
+		ApplicationAtomXml:                   ApplicationAtomXml,                   // Atom Syndication Format
+		ApplicationAtomcatXml:                ApplicationAtomcatXml,                // Atom Publishing Protocol
+		ApplicationAtomsvcXml:                ApplicationAtomsvcXml,                // Atom Publishing Protocol Service Document
+		ApplicationCcxmlXml:                  ApplicationCcxmlXml,                  // Voice Browser Call Control
+		ApplicationCdmiCapability:            ApplicationCdmiCapability,            // Cloud Data Management Interface (CDMI) - Capability
+		ApplicationCdmiContainer:             ApplicationCdmiContainer,             // Cloud Data Management Interface (CDMI) - Contaimer
+		ApplicationCdmiDomain:                ApplicationCdmiDomain,                // Cloud Data Management Interface (CDMI) - Domain
+		ApplicationCdmiObject:                ApplicationCdmiObject,                // Cloud Data Management Interface (CDMI) - Object
+		ApplicationCdmiQueue:                 ApplicationCdmiQueue,                 // Cloud Data Management Interface (CDMI) - Queue
+		ApplicationCuSeeme:                   ApplicationCuSeeme,                   // CU-SeeMe
+		ApplicationDavmountXml:               ApplicationDavmountXml,               // Web Distributed Authoring and Versioning
+		ApplicationDsscDer:                   ApplicationDsscDer,                   // Data Structure for the Security Suitability of Cryptographic Algorithms
+		ApplicationDsscXml:                   ApplicationDsscXml,                   // Data Structure for the Security Suitability of Cryptographic Algorithms
+		ApplicationEcmascript:                ApplicationEcmascript,                // ECMAScript
+		ApplicationEmmaXml:                   ApplicationEmmaXml,                   // Extensible MultiModal Annotation
+		ApplicationEpubZip:                   ApplicationEpubZip,                   // Electronic Publication
+		ApplicationExi:                       ApplicationExi,                       // Efficient XML Interchange
+		ApplicationFontTdpfr:                 ApplicationFontTdpfr,                 // Portable Font Resource
+		ApplicationGpxXml:                    ApplicationGpxXml,                    // GPS eXchange Format
+		ApplicationGzip:                      ApplicationGzip,                      // GZip Compressed Archive
+		ApplicationHyperstudio:               ApplicationHyperstudio,               // Hyperstudio
+		ApplicationIpfix:                     ApplicationIpfix,                     // Internet Protocol Flow Information Export
+		ApplicationJavaArchive:               ApplicationJavaArchive,               // Java Archive
+		ApplicationJavaSerializedObject:      ApplicationJavaSerializedObject,      // Java Serialized Object
+		ApplicationJavaVm:                    ApplicationJavaVm,                    // Java Bytecode File
+		ApplicationJavascript:                ApplicationJavascript,                // JavaScript language file
+		TextJavascript:                       ApplicationJavascript,                // JavaScript language file
+		ApplicationJson:                      ApplicationJson,                      // JavaScript Object Notation (JSON)
+		ApplicationLdJson:                    ApplicationLdJson,                    // JSON-LD format
+		ApplicationMacBinhex40:               ApplicationMacBinhex40,               // Macintosh BinHex 4.0
+		ApplicationMacCompactpro:             ApplicationMacCompactpro,             // Compact Pro
+		ApplicationMadsXml:                   ApplicationMadsXml,                   // Metadata Authority Description Schema
+		ApplicationMarc:                      ApplicationMarc,                      // MARC Formats
+		ApplicationMarcxmlXml:                ApplicationMarcxmlXml,                // MARC21 XML Schema
+		ApplicationMathematica:               ApplicationMathematica,               // Mathematica Notebooks
+		ApplicationMathmlXml:                 ApplicationMathmlXml,                 // Mathematical Markup Language
+		ApplicationMbox:                      ApplicationMbox,                      // Mbox database files
+		ApplicationMediaservercontrolXml:     ApplicationMediaservercontrolXml,     // Media Server Control Markup Language
+		ApplicationMetalink4Xml:              ApplicationMetalink4Xml,              // Metalink
+		ApplicationMetsXml:                   ApplicationMetsXml,                   // Metadata Encoding and Transmission Standard
+		ApplicationModsXml:                   ApplicationModsXml,                   // Metadata Object Description Schema
+		ApplicationMp21:                      ApplicationMp21,                      // MPEG-21
+		ApplicationMsword:                    ApplicationMsword,                    // Microsoft Word
+		ApplicationMxf:                       ApplicationMxf,                       // Material Exchange Format
+		ApplicationOctetStream:               ApplicationOctetStream,               // Binary Data
+		ApplicationOda:                       ApplicationOda,                       // Office Document Architecture
+		ApplicationOebpsPackageXml:           ApplicationOebpsPackageXml,           // Open eBook Publication Structure
+		ApplicationOgg:                       ApplicationOgg,                       // Ogg
+		ApplicationOnenote:                   ApplicationOnenote,                   // Microsoft OneNote
+		ApplicationPatchOpsErrorXml:          ApplicationPatchOpsErrorXml,          // XML Patch Framework
+		ApplicationPdf:                       ApplicationPdf,                       // Adobe Portable Document Format
+		ApplicationPgpEncrypted:              ApplicationPgpEncrypted,              // Pretty Good Privacy Signature
+		ApplicationPgpSignature:              ApplicationPgpEncrypted,              // Pretty Good Privacy Signature
+		ApplicationPicsRules:                 ApplicationPicsRules,                 // PICSRules
+		ApplicationPkcs10:                    ApplicationPkcs10,                    // PKCS #10 - Certification Request Standard
+		ApplicationPkcs7Mime:                 ApplicationPkcs7Mime,                 // PKCS #7 - Cryptographic Message Syntax Standard
+		ApplicationPkcs7Signature:            ApplicationPkcs7Signature,            // PKCS #7 - Cryptographic Message Syntax Standard
+		ApplicationPkcs8:                     ApplicationPkcs8,                     // PKCS #8 - Private-Key Information Syntax Standard
+		ApplicationPkixAttrCert:              ApplicationPkixAttrCert,              // Attribute Certificate
+		ApplicationPkixCert:                  ApplicationPkixCert,                  // Internet Public Key Infrastructure - Certificate
+		ApplicationPkixCrl:                   ApplicationPkixCrl,                   // Internet Public Key Infrastructure - Certificate Revocation Lists
+		ApplicationPkixPkipath:               ApplicationPkixPkipath,               // Internet Public Key Infrastructure - Certification Path
+		ApplicationPkixcmp:                   ApplicationPkixcmp,                   // Internet Public Key Infrastructure - Certificate Management Protocole
+		ApplicationPlsXml:                    ApplicationPlsXml,                    // Pronunciation Lexicon Specification
+		ApplicationPostscript:                ApplicationPostscript,                // PostScript
+		ApplicationPrsCww:                    ApplicationPrsCww,                    // CU-Writer
+		ApplicationPskcXml:                   ApplicationPskcXml,                   // Portable Symmetric Key Container
+		ApplicationRdfXml:                    ApplicationRdfXml,                    // Resource Description Framework
+		ApplicationReginfoXml:                ApplicationReginfoXml,                // IMS Networks
+		ApplicationRelaxNgCompactSyntax:      ApplicationRelaxNgCompactSyntax,      // Relax NG Compact Syntax
+		ApplicationResourceListsXml:          ApplicationResourceListsXml,          // XML Resource Lists
+		ApplicationResourceListsDiffXml:      ApplicationResourceListsDiffXml,      // XML Resource Lists Diff
+		ApplicationRsdXml:                    ApplicationRsdXml,                    // Really Simple Discovery
+		ApplicationRssXml:                    ApplicationRssXml,                    // RSS - Really Simple Syndication
+		ApplicationRtf:                       ApplicationRtf,                       // Rich Text Format
+		ApplicationSbmlXml:                   ApplicationSbmlXml,                   // Systems Biology Markup Language
+		ApplicationScvpCvRequest:             ApplicationScvpCvRequest,             // Server-Based Certificate Validation Protocol - Validation Request
+		ApplicationScvpCvResponse:            ApplicationScvpCvResponse,            // Server-Based Certificate Validation Protocol - Validation Response
+		ApplicationScvpVpRequest:             ApplicationScvpVpRequest,             // Server-Based Certificate Validation Protocol - Validation Policies - Request
+		ApplicationScvpVpResponse:            ApplicationScvpVpResponse,            // Server-Based Certificate Validation Protocol - Validation Policies - Response
+		ApplicationSdp:                       ApplicationSdp,                       // Session Description Protocol
+		ApplicationSetPaymentInitiation:      ApplicationSetPaymentInitiation,      // Secure Electronic Transaction - Payment
+		ApplicationSetRegistrationInitiation: ApplicationSetRegistrationInitiation, // Secure Electronic Transaction - Registration
+		ApplicationShfXml:                    ApplicationShfXml,                    // S Hexdump Format
+		ApplicationSmilXml:                   ApplicationSmilXml,                   // Synchronized Multimedia Integration Language
+		ApplicationSparqlQuery:               ApplicationSparqlQuery,               // SPARQL - Query
+		ApplicationSparqlResultsXml:          ApplicationSparqlResultsXml,          // SPARQL - Results
+		ApplicationSrgs:                      ApplicationSrgs,                      // Speech Recognition Grammar Specification
+		ApplicationSrgsXml:                   ApplicationSrgsXml,                   // Speech Recognition Grammar Specification - XML
+		ApplicationSruXml:                    ApplicationSruXml,                    // Search/Retrieve via URL Response Format
+		ApplicationSsmlXml:                   ApplicationSsmlXml,                   // Speech Synthesis Markup Language
+		ApplicationTeiXml:                    ApplicationTeiXml,                    // Text Encoding and Interchange
+		ApplicationThraudXml:                 ApplicationThraudXml,                 // Sharing Transaction Fraud Data
+		ApplicationTimestampedData:           ApplicationTimestampedData,           // Time Stamped Data Envelope
+		ApplicationVnd3gppPicBwLarge:         ApplicationVnd3gppPicBwLarge,         // 3rd Generation Partnership Project - Pic Large
+		ApplicationVnd3gppPicBwSmall:         ApplicationVnd3gppPicBwSmall,         // 3rd Generation Partnership Project - Pic Small
+		ApplicationVnd3gppPicBwVar:           ApplicationVnd3gppPicBwVar,           // 3rd Generation Partnership Project - Pic Var
+		ApplicationVnd3gpp2Tcap:              ApplicationVnd3gpp2Tcap,              // 3rd Generation Partnership Project - Transaction Capabilities Application Part
+		ApplicationVnd3mPostItNotes:          ApplicationVnd3mPostItNotes,          // 3M Post It Notes
+		ApplicationVndAccpacSimplyAso:        ApplicationVndAccpacSimplyAso,        // Simply Accounting
+		ApplicationVndAccpacSimplyImp:        ApplicationVndAccpacSimplyImp,        // Simply Accounting - Data Import
+		ApplicationVndAcucobol:               ApplicationVndAcucobol,               // ACU Cobol
+		ApplicationVndAcucorp:                ApplicationVndAcucorp,                // ACU Cobol
+		ApplicationVndAdobeAirApplicationInstallerPackageZip: ApplicationVndAdobeAirApplicationInstallerPackageZip, // Adobe AIR Application
+		ApplicationVndAdobeFxp:                               ApplicationVndAdobeFxp,                               // Adobe Flex Project
+		ApplicationVndAdobeXdpXml:                            ApplicationVndAdobeXdpXml,                            // Adobe XML Data Package
+		ApplicationVndAdobeXfdf:                              ApplicationVndAdobeXfdf,                              // Adobe XML Forms Data Format
+		ApplicationVndAheadSpace:                             ApplicationVndAheadSpace,                             // Ahead AIR Application
+		ApplicationVndAirzipFilesecureAzf:                    ApplicationVndAirzipFilesecureAzf,                    // AirZip FileSECURE
+		ApplicationVndAirzipFilesecureAzs:                    ApplicationVndAirzipFilesecureAzs,                    // AirZip FileSECURE
+		ApplicationVndAmazonEbook:                            ApplicationVndAmazonEbook,                            // Amazon Kindle eBook format
+		ApplicationVndAmericandynamicsAcc:                    ApplicationVndAmericandynamicsAcc,                    // Active Content Compression
+		ApplicationVndAmigaAmi:                               ApplicationVndAmigaAmi,                               // AmigaDE
+		ApplicationVndAndroidPackageArchive:                  ApplicationVndAndroidPackageArchive,                  // Android Package Archive
+		ApplicationVndAnserWebCertificateIssueInitiation:     ApplicationVndAnserWebCertificateIssueInitiation,     // ANSER-WEB Terminal Client - Certificate Issue
+		ApplicationVndAnserWebFundsTransferInitiation:        ApplicationVndAnserWebFundsTransferInitiation,        // ANSER-WEB Terminal Client - Web Funds Transfer
+		ApplicationVndAntixGameComponent:                     ApplicationVndAntixGameComponent,                     // Antix Game Player
+		ApplicationVndAppleInstallerXml:                      ApplicationVndAppleInstallerXml,                      // Apple Installer Package
+		ApplicationVndAppleMpegurl:                           ApplicationVndAppleMpegurl,                           // Multimedia Playlist Unicode
+		ApplicationVndAristanetworksSwi:                      ApplicationVndAristanetworksSwi,                      // Arista Networks Software Image
+		ApplicationVndAudiograph:                             ApplicationVndAudiograph,                             // Audiograph
+		ApplicationVndBlueiceMultipass:                       ApplicationVndBlueiceMultipass,                       // Blueice Research Multipass
+		ApplicationVndBmi:                                    ApplicationVndBmi,                                    // BMI Drawing Data Interchange
+		ApplicationVndBusinessobjects:                        ApplicationVndBusinessobjects,                        // BusinessObjects
+		ApplicationVndChipnutsKaraokeMmd:                     ApplicationVndChipnutsKaraokeMmd,                     // Karaoke on Chipnuts Chipsets
+		ApplicationVndCinderella:                             ApplicationVndCinderella,                             // Interactive Geometry Software Cinderella
+		ApplicationVndClaymore:                               ApplicationVndClaymore,                               // Claymore Data Files
+		ApplicationVndCloantoRp9:                             ApplicationVndCloantoRp9,                             // RetroPlatform Player
+		ApplicationVndClonkC4group:                           ApplicationVndClonkC4group,                           // Clonk Game
+		ApplicationVndCluetrustCartomobileConfig:             ApplicationVndCluetrustCartomobileConfig,             // ClueTrust CartoMobile - Config
+		ApplicationVndCluetrustCartomobileConfigPkg:          ApplicationVndCluetrustCartomobileConfigPkg,          // ClueTrust CartoMobile - Config Package
+		ApplicationVndCommonspace:                            ApplicationVndCommonspace,                            // Sixth Floor Media - CommonSpace
+		ApplicationVndContactCmsg:                            ApplicationVndContactCmsg,                            // CIM Database
+		ApplicationVndCosmocaller:                            ApplicationVndCosmocaller,                            // CosmoCaller
+		ApplicationVndCrickClicker:                           ApplicationVndCrickClicker,                           // CrickSoftware - Clicker
+		ApplicationVndCrickClickerKeyboard:                   ApplicationVndCrickClickerKeyboard,                   // CrickSoftware - Clicker - Keyboard
+		ApplicationVndCrickClickerPalette:                    ApplicationVndCrickClickerPalette,                    // CrickSoftware - Clicker - Palette
+		ApplicationVndCrickClickerTemplate:                   ApplicationVndCrickClickerTemplate,                   // CrickSoftware - Clicker - Template
+		ApplicationVndCrickClickerWordbank:                   ApplicationVndCrickClickerWordbank,                   // CrickSoftware - Clicker - Wordbank
+		ApplicationVndCriticaltoolsWbsXml:                    ApplicationVndCriticaltoolsWbsXml,                    // Critical Tools - PERT Chart EXPERT
+		ApplicationVndCtcPosml:                               ApplicationVndCtcPosml,                               // PosML
+		ApplicationVndCupsPpd:                                ApplicationVndCupsPpd,                                // Adobe PostScript Printer Description File Format
+		ApplicationVndCurlCar:                                ApplicationVndCurlCar,                                // CURL Applet
+		ApplicationVndCurlPcurl:                              ApplicationVndCurlPcurl,                              // CURL Applet
+		ApplicationVndDataVisionRdz:                          ApplicationVndDataVisionRdz,                          // RemoteDocs R-Viewer
+		ApplicationVndDenovoFcselayoutLink:                   ApplicationVndDenovoFcselayoutLink,                   // FCS Express Layout Link
+		ApplicationVndDna:                                    ApplicationVndDna,                                    // New Moon Liftoff/DNA
+		ApplicationVndDolbyMlp:                               ApplicationVndDolbyMlp,                               // Dolby Meridian Lossless Packing
+		ApplicationVndDpgraph:                                ApplicationVndDpgraph,                                // DPGraph
+		ApplicationVndDreamfactory:                           ApplicationVndDreamfactory,                           // DreamFactory
+		ApplicationVndDvbAit:                                 ApplicationVndDvbAit,                                 // Digital Video Broadcasting
+		ApplicationVndDvbService:                             ApplicationVndDvbService,                             // Digital Video Broadcasting
+		ApplicationVndDynageo:                                ApplicationVndDynageo,                                // DynaGeo
+		ApplicationVndEcowinChart:                            ApplicationVndEcowinChart,                            // EcoWin Chart
+		ApplicationVndEnliven:                                ApplicationVndEnliven,                                // Enliven Viewer
+		ApplicationVndEpsonEsf:                               ApplicationVndEpsonEsf,                               // QUASS Stream Player
+		ApplicationVndEpsonMsf:                               ApplicationVndEpsonMsf,                               // QUASS Stream Player
+		ApplicationVndEpsonQuickanime:                        ApplicationVndEpsonQuickanime,                        // QuickAnime Player
+		ApplicationVndEpsonSalt:                              ApplicationVndEpsonSalt,                              // SimpleAnimeLite Player
+		ApplicationVndEpsonSsf:                               ApplicationVndEpsonSsf,                               // QUASS Stream Player
+		ApplicationVndEszigno3Xml:                            ApplicationVndEszigno3Xml,                            // MICROSEC e-Szignï¿½
+		ApplicationVndEzpixAlbum:                             ApplicationVndEzpixAlbum,                             // EZPix Secure Photo Album
+		ApplicationVndEzpixPackage:                           ApplicationVndEzpixPackage,                           // EZPix Secure Photo Album
+		ApplicationVndFdf:                                    ApplicationVndFdf,                                    // Forms Data Format
+		ApplicationVndFdsnSeed:                               ApplicationVndFdsnSeed,                               // Digital Siesmograph Networks - SEED Datafiles
+		ApplicationVndFlographit:                             ApplicationVndFlographit,                             // NpGraphIt
+		ApplicationVndFluxtimeClip:                           ApplicationVndFluxtimeClip,                           // FluxTime Clip
+		ApplicationVndFramemaker:                             ApplicationVndFramemaker,                             // FrameMaker Normal Format
+		ApplicationVndFrogansFnc:                             ApplicationVndFrogansFnc,                             // Frogans Player
+		ApplicationVndFrogansLtf:                             ApplicationVndFrogansLtf,                             // Frogans Player
+		ApplicationVndFscWeblaunch:                           ApplicationVndFscWeblaunch,                           // Friendly Software Corporation
+		ApplicationVndFujitsuOasys:                           ApplicationVndFujitsuOasys,                           // Fujitsu Oasys
+		ApplicationVndFujitsuOasys2:                          ApplicationVndFujitsuOasys2,                          // Fujitsu Oasys
+		ApplicationVndFujitsuOasys3:                          ApplicationVndFujitsuOasys3,                          // Fujitsu Oasys
+		ApplicationVndFujitsuOasysgp:                         ApplicationVndFujitsuOasysgp,                         // Fujitsu Oasys
+		ApplicationVndFujitsuOasysprs:                        ApplicationVndFujitsuOasysprs,                        // Fujitsu Oasys
+		ApplicationVndFujixeroxDdd:                           ApplicationVndFujixeroxDdd,                           // Fujitsu - Xerox 2D CAD Data
+		ApplicationVndFujixeroxDocuworks:                     ApplicationVndFujixeroxDocuworks,                     // Fujitsu - Xerox DocuWorks
+		ApplicationVndFujixeroxDocuworksBinder:               ApplicationVndFujixeroxDocuworksBinder,               // Fujitsu - Xerox DocuWorks Binder
+		ApplicationVndFuzzysheet:                             ApplicationVndFuzzysheet,                             // FuzzySheet
+		ApplicationVndGenomatixTuxedo:                        ApplicationVndGenomatixTuxedo,                        // Genomatix Tuxedo Framework
+		ApplicationVndGeogebraFile:                           ApplicationVndGeogebraFile,                           // GeoGebra
+		ApplicationVndGeogebraTool:                           ApplicationVndGeogebraTool,                           // GeoGebra
+		ApplicationVndGeometryExplorer:                       ApplicationVndGeometryExplorer,                       // GeoMetry Explorer
+		ApplicationVndGeonext:                                ApplicationVndGeonext,                                // GEONExT and JSXGraph
+		ApplicationVndGeoplan:                                ApplicationVndGeoplan,                                // GeoplanW
+		ApplicationVndGeospace:                               ApplicationVndGeospace,                               // GeospacW
+		ApplicationVndGmx:                                    ApplicationVndGmx,                                    // GameMaker ActiveX
+		ApplicationVndGoogleEarthKmlXml:                      ApplicationVndGoogleEarthKmlXml,                      // Google Earth - KML
+		ApplicationVndGoogleEarthKmz:                         ApplicationVndGoogleEarthKmz,                         // Google Earth - Zipped KML
+		ApplicationVndGrafeq:                                 ApplicationVndGrafeq,                                 // GrafEq
+		ApplicationVndGrooveAccount:                          ApplicationVndGrooveAccount,                          // Groove - Account
+		ApplicationVndGrooveHelp:                             ApplicationVndGrooveHelp,                             // Groove - Help
+		ApplicationVndGrooveIdentityMessage:                  ApplicationVndGrooveIdentityMessage,                  // Groove - Identity Message
+		ApplicationVndGrooveInjector:                         ApplicationVndGrooveInjector,                         // Groove - Injector
+		ApplicationVndGrooveToolMessage:                      ApplicationVndGrooveToolMessage,                      // Groove - Tool Message
+		ApplicationVndGrooveToolTemplate:                     ApplicationVndGrooveToolTemplate,                     // Groove - Tool Template
+		ApplicationVndGrooveVcard:                            ApplicationVndGrooveVcard,                            // Groove - Vcard
+		ApplicationVndHalXml:                                 ApplicationVndHalXml,                                 // Hypertext Application Language
+		ApplicationVndHandheldEntertainmentXml:               ApplicationVndHandheldEntertainmentXml,               // ZVUE Media Manager
+		ApplicationVndHbci:                                   ApplicationVndHbci,                                   // Homebanking Computer Interface (HBCI)
+		ApplicationVndHheLessonPlayer:                        ApplicationVndHheLessonPlayer,                        // Archipelago Lesson Player
+		ApplicationVndHpHpgl:                                 ApplicationVndHpHpgl,                                 // HP-GL/2 and HP RTL
+		ApplicationVndHpHpid:                                 ApplicationVndHpHpid,                                 // Hewlett Packard Instant Delivery
+		ApplicationVndHpHps:                                  ApplicationVndHpHps,                                  // Hewlett-Packard's WebPrintSmart
+		ApplicationVndHpJlyt:                                 ApplicationVndHpJlyt,                                 // HP Indigo Digital Press - Job Layout Languate
+		ApplicationVndHpPcl:                                  ApplicationVndHpPcl,                                  // HP Printer Command Language
+		ApplicationVndHpPclxl:                                ApplicationVndHpPclxl,                                // PCL 6 Enhanced (Formely PCL XL)
+		ApplicationVndHydrostatixSofData:                     ApplicationVndHydrostatixSofData,                     // Hydrostatix Master Suite
+		ApplicationVndHzn3dCrossword:                         ApplicationVndHzn3dCrossword,                         // 3D Crossword Plugin
+		ApplicationVndIbmMinipay:                             ApplicationVndIbmMinipay,                             // MiniPay
+		ApplicationVndIbmModcap:                              ApplicationVndIbmModcap,                              // MO:DCA-P
+		ApplicationVndIbmRightsManagement:                    ApplicationVndIbmRightsManagement,                    // IBM DB2 Rights Manager
+		ApplicationVndIccprofile:                             ApplicationVndIccprofile,                             // ICC profile
+		ApplicationVndIgloader:                               ApplicationVndIgloader,                               // igLoader
+		ApplicationVndImmervisionIvp:                         ApplicationVndImmervisionIvp,                         // ImmerVision PURE Players
+		ApplicationVndImmervisionIvu:                         ApplicationVndImmervisionIvu,                         // ImmerVision PURE Players
+		ApplicationVndInsorsIgm:                              ApplicationVndInsorsIgm,                              // IOCOM Visimeet
+		ApplicationVndInterconFormnet:                        ApplicationVndInterconFormnet,                        // Intercon FormNet
+		ApplicationVndIntergeo:                               ApplicationVndIntergeo,                               // Interactive Geometry Software
+		ApplicationVndIntuQbo:                                ApplicationVndIntuQbo,                                // Open Financial Exchange
+		ApplicationVndIntuQfx:                                ApplicationVndIntuQfx,                                // Quicken
+		ApplicationVndIpunpluggedRcprofile:                   ApplicationVndIpunpluggedRcprofile,                   // IP Unplugged Roaming Client
+		ApplicationVndIrepositoryPackageXml:                  ApplicationVndIrepositoryPackageXml,                  // iRepository / Lucidoc Editor
+		ApplicationVndIsXpr:                                  ApplicationVndIsXpr,                                  // Express by Infoseek
+		ApplicationVndIsacFcs:                                ApplicationVndIsacFcs,                                // International Society for Advancement of Cytometry
+		ApplicationVndJam:                                    ApplicationVndJam,                                    // Lightspeed Audio Lab
+		ApplicationVndJcpJavameMidletRms:                     ApplicationVndJcpJavameMidletRms,                     // Mobile Information Device Profile
+		ApplicationVndJisp:                                   ApplicationVndJisp,                                   // RhymBox
+		ApplicationVndJoostJodaArchive:                       ApplicationVndJoostJodaArchive,                       // Joda Archive
+		ApplicationVndKahootz:                                ApplicationVndKahootz,                                // Kahootz
+		ApplicationVndKdeKarbon:                              ApplicationVndKdeKarbon,                              // KDE KOffice Office Suite - Karbon
+		ApplicationVndKdeKchart:                              ApplicationVndKdeKchart,                              // KDE KOffice Office Suite - KChart
+		ApplicationVndKdeKformula:                            ApplicationVndKdeKformula,                            // KDE KOffice Office Suite - Kformula
+		ApplicationVndKdeKivio:                               ApplicationVndKdeKivio,                               // KDE KOffice Office Suite - Kivio
+		ApplicationVndKdeKontour:                             ApplicationVndKdeKontour,                             // KDE KOffice Office Suite - Kontour
+		ApplicationVndKdeKpresenter:                          ApplicationVndKdeKpresenter,                          // KDE KOffice Office Suite - Kpresenter
+		ApplicationVndKdeKspread:                             ApplicationVndKdeKspread,                             // KDE KOffice Office Suite - Kspread
+		ApplicationVndKdeKword:                               ApplicationVndKdeKword,                               // KDE KOffice Office Suite - Kword
+		ApplicationVndKenameaapp:                             ApplicationVndKenameaapp,                             // Kenamea App
+		ApplicationVndKidspiration:                           ApplicationVndKidspiration,                           // Kidspiration
+		ApplicationVndKinar:                                  ApplicationVndKinar,                                  // Kinar Applications
+		ApplicationVndKoan:                                   ApplicationVndKoan,                                   // SSEYO Koan Play File
+		ApplicationVndKodakDescriptor:                        ApplicationVndKodakDescriptor,                        // Kodak Storyshare
+		ApplicationVndLasLasXml:                              ApplicationVndLasLasXml,                              // Laser App Enterprise
+		ApplicationVndLlamagraphicsLifeBalanceDesktop:        ApplicationVndLlamagraphicsLifeBalanceDesktop,        // Life Balance - Desktop Edition
+		ApplicationVndLlamagraphicsLifeBalanceExchangeXml:    ApplicationVndLlamagraphicsLifeBalanceExchangeXml,    // Life Balance - Exchange Format
+		ApplicationVndLotus123:                               ApplicationVndLotus123,                               // Lotus 1-2-3
+		ApplicationVndLotusApproach:                          ApplicationVndLotusApproach,                          // Lotus Approach
+		ApplicationVndLotusFreelance:                         ApplicationVndLotusFreelance,                         // Lotus Freelance
+		ApplicationVndLotusNotes:                             ApplicationVndLotusNotes,                             // Lotus Notes
+		ApplicationVndLotusOrganizer:                         ApplicationVndLotusOrganizer,                         // Lotus Organizer
+		ApplicationVndLotusWordpro:                           ApplicationVndLotusWordpro,                           // Lotus Wordpro
+		ApplicationVndMacportsPortpkg:                        ApplicationVndMacportsPortpkg,                        // MacPorts Port System
+		ApplicationVndMcd:                                    ApplicationVndMcd,                                    // Micro CADAM Helix D&D
+		ApplicationVndMedcalcdata:                            ApplicationVndMedcalcdata,                            // MedCalc
+		ApplicationVndMediastationCdkey:                      ApplicationVndMediastationCdkey,                      // MediaRemote
+		ApplicationVndMfer:                                   ApplicationVndMfer,                                   // Medical Waveform Encoding Format
+		ApplicationVndMfmp:                                   ApplicationVndMfmp,                                   // Melody Format for Mobile Platform
+		ApplicationVndMicrografxFlo:                          ApplicationVndMicrografxFlo,                          // Micrografx
+		ApplicationVndMicrografxIgx:                          ApplicationVndMicrografxIgx,                          // Micrografx iGrafx Professional
+		ApplicationVndMif:                                    ApplicationVndMif,                                    // FrameMaker Interchange Format
+		ApplicationVndMobiusDaf:                              ApplicationVndMobiusDaf,                              // Mobius Management Systems - UniversalArchive
+		ApplicationVndMobiusDis:                              ApplicationVndMobiusDis,                              // Mobius Management Systems - Distribution Database
+		ApplicationVndMobiusMbk:                              ApplicationVndMobiusMbk,                              // Mobius Management Systems - Basket file
+		ApplicationVndMobiusMqy:                              ApplicationVndMobiusMqy,                              // Mobius Management Systems - Query File
+		ApplicationVndMobiusMsl:                              ApplicationVndMobiusMsl,                              // Mobius Management Systems - Script Language
+		ApplicationVndMobiusPlc:                              ApplicationVndMobiusPlc,                              // Mobius Management Systems - Policy Definition Language File
+		ApplicationVndMobiusTxf:                              ApplicationVndMobiusTxf,                              // Mobius Management Systems - Topic Index File
+		ApplicationVndMophunApplication:                      ApplicationVndMophunApplication,                      // Mophun VM
+		ApplicationVndMophunCertificate:                      ApplicationVndMophunCertificate,                      // Mophun Certificate
+		ApplicationVndMozillaXulXml:                          ApplicationVndMozillaXulXml,                          // XUL - XML User Interface Language
+		ApplicationVndMsArtgalry:                             ApplicationVndMsArtgalry,                             // Microsoft Artgalry
+		ApplicationVndMsCabCompressed:                        ApplicationVndMsCabCompressed,                        // Microsoft Cabinet File
+		ApplicationVndMsExcel:                                ApplicationVndMsExcel,                                // Microsoft Excel
+		ApplicationVndMsExcelAddinMacroenabled12:             ApplicationVndMsExcelAddinMacroenabled12,             // Microsoft Excel - Add-In File
+		ApplicationVndMsExcelSheetBinaryMacroenabled12:       ApplicationVndMsExcelSheetBinaryMacroenabled12,       // Microsoft Excel - Binary Workbook
+		ApplicationVndMsExcelSheetMacroenabled12:             ApplicationVndMsExcelSheetMacroenabled12,             // Microsoft Excel - Macro-Enabled Workbook
+		ApplicationVndMsExcelTemplateMacroenabled12:          ApplicationVndMsExcelTemplateMacroenabled12,          // Microsoft Excel - Macro-Enabled Template File
+		ApplicationVndMsFontobject:                           ApplicationVndMsFontobject,                           // Microsoft Embedded OpenType
+		ApplicationVndMsHtmlhelp:                             ApplicationVndMsHtmlhelp,                             // Microsoft Html Help File
+		ApplicationVndMsIms:                                  ApplicationVndMsIms,                                  // Microsoft Class Server
+		ApplicationVndMsLrm:                                  ApplicationVndMsLrm,                                  // Microsoft Learning Resource Module
+		ApplicationVndMsOfficetheme:                          ApplicationVndMsOfficetheme,                          // Microsoft Office System Release Theme
+		ApplicationVndMsPkiSeccat:                            ApplicationVndMsPkiSeccat,                            // Microsoft Trust UI Provider - Security Catalog
+		ApplicationVndMsPkiStl:                               ApplicationVndMsPkiStl,                               // Microsoft Trust UI Provider - Certificate Trust Link
+		ApplicationVndMsPowerpoint:                           ApplicationVndMsPowerpoint,                           // Microsoft PowerPoint
+		ApplicationVndMsPowerpointAddinMacroenabled12:        ApplicationVndMsPowerpointAddinMacroenabled12,        // Microsoft PowerPoint - Add-in file
+		ApplicationVndMsPowerpointPresentationMacroenabled12: ApplicationVndMsPowerpointPresentationMacroenabled12, // Microsoft PowerPoint - Macro-Enabled Presentation File
+		ApplicationVndMsPowerpointSlideMacroenabled12:        ApplicationVndMsPowerpointSlideMacroenabled12,        // Microsoft PowerPoint - Macro-Enabled Open XML Slide
+		ApplicationVndMsPowerpointSlideshowMacroenabled12:    ApplicationVndMsPowerpointSlideshowMacroenabled12,    // Microsoft PowerPoint - Macro-Enabled Slide Show File
+		ApplicationVndMsPowerpointTemplateMacroenabled12:     ApplicationVndMsPowerpointTemplateMacroenabled12,     // Microsoft PowerPoint - Macro-Enabled Template File
+		ApplicationVndMsProject:                              ApplicationVndMsProject,                              // Microsoft Project
+		ApplicationVndMsWordDocumentMacroenabled12:           ApplicationVndMsWordDocumentMacroenabled12,           // Microsoft Word - Macro-Enabled Document
+		ApplicationVndMsWordTemplateMacroenabled12:           ApplicationVndMsWordTemplateMacroenabled12,           // Microsoft Word - Macro-Enabled Template
+		ApplicationVndMsWorks:                                ApplicationVndMsWorks,                                // Microsoft Works
+		ApplicationVndMsWpl:                                  ApplicationVndMsWpl,                                  // Microsoft Windows Media Player Playlist
+		ApplicationVndMsXpsdocument:                          ApplicationVndMsXpsdocument,                          // Microsoft XML Paper Specification
+		ApplicationVndMseq:                                   ApplicationVndMseq,                                   // 3GPP MSEQ File
+		ApplicationVndMusician:                               ApplicationVndMusician,                               // MUsical Score Interpreted Code Invented for the ASCII designation of Notation
+		ApplicationVndMuveeStyle:                             ApplicationVndMuveeStyle,                             // Muvee Automatic Video Editing
+		ApplicationVndNeurolanguageNlu:                       ApplicationVndNeurolanguageNlu,                       // neuroLanguage
+		ApplicationVndNoblenetDirectory:                      ApplicationVndNoblenetDirectory,                      // NobleNet Directory
+		ApplicationVndNoblenetSealer:                         ApplicationVndNoblenetSealer,                         // NobleNet Sealer
+		ApplicationVndNoblenetWeb:                            ApplicationVndNoblenetWeb,                            // NobleNet Web
+		ApplicationVndNokiaNGageData:                         ApplicationVndNokiaNGageData,                         // N-Gage Game Data
+		ApplicationVndNokiaNGageSymbianInstall:               ApplicationVndNokiaNGageSymbianInstall,               // N-Gage Game Installer
+		ApplicationVndNokiaRadioPreset:                       ApplicationVndNokiaRadioPreset,                       // Nokia Radio Application - Preset
+		ApplicationVndNokiaRadioPresets:                      ApplicationVndNokiaRadioPresets,                      // Nokia Radio Application - Preset
+		ApplicationVndNovadigmEdm:                            ApplicationVndNovadigmEdm,                            // Novadigm's RADIA and EDM products
+		ApplicationVndNovadigmEdx:                            ApplicationVndNovadigmEdx,                            // Novadigm's RADIA and EDM products
+		ApplicationVndNovadigmExt:                            ApplicationVndNovadigmExt,                            // Novadigm's RADIA and EDM products
+		ApplicationVndOasisOpendocumentChart:                 ApplicationVndOasisOpendocumentChart,                 // OpenDocument Chart
+		ApplicationVndOasisOpendocumentChartTemplate:         ApplicationVndOasisOpendocumentChartTemplate,         // OpenDocument Chart Template
+		ApplicationVndOasisOpendocumentDatabase:              ApplicationVndOasisOpendocumentDatabase,              // OpenDocument Database
+		ApplicationVndOasisOpendocumentFormula:               ApplicationVndOasisOpendocumentFormula,               // OpenDocument Formula
+		ApplicationVndOasisOpendocumentFormulaTemplate:       ApplicationVndOasisOpendocumentFormulaTemplate,       // OpenDocument Formula Template
+		ApplicationVndOasisOpendocumentGraphics:              ApplicationVndOasisOpendocumentGraphics,              // OpenDocument Graphics
+		ApplicationVndOasisOpendocumentGraphicsTemplate:      ApplicationVndOasisOpendocumentGraphicsTemplate,      // OpenDocument Graphics Template
+		ApplicationVndOasisOpendocumentImage:                 ApplicationVndOasisOpendocumentImage,                 // OpenDocument Image
+		ApplicationVndOasisOpendocumentImageTemplate:         ApplicationVndOasisOpendocumentImageTemplate,         // OpenDocument Image Template
+		ApplicationVndOasisOpendocumentPresentation:          ApplicationVndOasisOpendocumentPresentation,          // OpenDocument Presentation
+		ApplicationVndOasisOpendocumentPresentationTemplate:  ApplicationVndOasisOpendocumentPresentationTemplate,  // OpenDocument Presentation Template
+		ApplicationVndOasisOpendocumentSpreadsheet:           ApplicationVndOasisOpendocumentSpreadsheet,           // OpenDocument Spreadsheet
+		ApplicationVndOasisOpendocumentSpreadsheetTemplate:   ApplicationVndOasisOpendocumentSpreadsheetTemplate,   // OpenDocument Spreadsheet Template
+		ApplicationVndOasisOpendocumentText:                  ApplicationVndOasisOpendocumentText,                  // OpenDocument Text
+		ApplicationVndOasisOpendocumentTextMaster:            ApplicationVndOasisOpendocumentTextMaster,            // OpenDocument Text Master
+		ApplicationVndOasisOpendocumentTextTemplate:          ApplicationVndOasisOpendocumentTextTemplate,          // OpenDocument Text Template
+		ApplicationVndOasisOpendocumentTextWeb:               ApplicationVndOasisOpendocumentTextWeb,               // Open Document Text Web
+		ApplicationVndOlpcSugar:                              ApplicationVndOlpcSugar,                              // Sugar Linux Application Bundle
+		ApplicationVndOmaDd2Xml:                              ApplicationVndOmaDd2Xml,                              // OMA Download Agents
+		ApplicationVndOpenofficeorgExtension:                 ApplicationVndOpenofficeorgExtension,                 // Open Office Extension
+		ApplicationVndOpenxmlformatsOfficedocumentPresentationmlPresentation: ApplicationVndOpenxmlformatsOfficedocumentPresentationmlPresentation, // Microsoft Office - OOXML - Presentation
+		ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlide:        ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlide,        // Microsoft Office - OOXML - Presentation (Slide)
+		ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlideshow:    ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlideshow,    // Microsoft Office - OOXML - Presentation (Slideshow)
+		ApplicationVndOpenxmlformatsOfficedocumentPresentationmlTemplate:     ApplicationVndOpenxmlformatsOfficedocumentPresentationmlTemplate,     // Microsoft Office - OOXML - Presentation Template
+		ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlSheet:         ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlSheet,         // Microsoft Office - OOXML - Spreadsheet
+		ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlTemplate:      ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlTemplate,      // Microsoft Office - OOXML - Spreadsheet Template
+		ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlDocument:   ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlDocument,   // Microsoft Office - OOXML - Word Document
+		ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlTemplate:   ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlTemplate,   // Microsoft Office - OOXML - Word Document Template
+		ApplicationVndOsgeoMapguidePackage:                                   ApplicationVndOsgeoMapguidePackage,                                   // MapGuide DBXML
+		ApplicationVndOsgiDp:                                                 ApplicationVndOsgiDp,                                                 // OSGi Deployment Package
+		ApplicationVndPalm:                                                   ApplicationVndPalm,                                                   // PalmOS Data
+		ApplicationVndPawaafile:                                              ApplicationVndPawaafile,                                              // PawaaFILE
+		ApplicationVndPgFormat:                                               ApplicationVndPgFormat,                                               // Proprietary P&G Standard Reporting System
+		ApplicationVndPgOsasli:                                               ApplicationVndPgOsasli,                                               // Proprietary P&G Standard Reporting System
+		ApplicationVndPicsel:                                                 ApplicationVndPicsel,                                                 // Pcsel eFIF File
+		ApplicationVndPmiWidget:                                              ApplicationVndPmiWidget,                                              // Qualcomm's Plaza Mobile Internet
+		ApplicationVndPocketlearn:                                            ApplicationVndPocketlearn,                                            // PocketLearn Viewers
+		ApplicationVndPowerbuilder6:                                          ApplicationVndPowerbuilder6,                                          // PowerBuilder
+		ApplicationVndPreviewsystemsBox:                                      ApplicationVndPreviewsystemsBox,                                      // Preview Systems ZipLock/VBox
+		ApplicationVndProteusMagazine:                                        ApplicationVndProteusMagazine,                                        // EFI Proteus
+		ApplicationVndPublishareDeltaTree:                                    ApplicationVndPublishareDeltaTree,                                    // PubliShare Objects
+		ApplicationVndPviPtid1:                                               ApplicationVndPviPtid1,                                               // Princeton Video Image
+		ApplicationVndQuarkQuarkxpress:                                       ApplicationVndQuarkQuarkxpress,                                       // QuarkXpress
+		ApplicationVndRar:                                                    ApplicationVndRar,                                                    // RAR Archive
+		ApplicationXRarCompressed:                                            ApplicationVndRar,                                                    // RAR Archive
+		ApplicationVndRealvncBed:                                             ApplicationVndRealvncBed,                                             // RealVNC
+		ApplicationVndRecordareMusicxml:                                      ApplicationVndRecordareMusicxml,                                      // Recordare Applications
+		ApplicationVndRecordareMusicxmlXml:                                   ApplicationVndRecordareMusicxmlXml,                                   // Recordare Applications
+		ApplicationVndRigCryptonote:                                          ApplicationVndRigCryptonote,                                          // CryptoNote
+		ApplicationVndRimCod:                                                 ApplicationVndRimCod,                                                 // Blackberry COD File
+		ApplicationVndRnRealmedia:                                            ApplicationVndRnRealmedia,                                            // RealMedia
+		ApplicationVndRoute66Link66Xml:                                       ApplicationVndRoute66Link66Xml,                                       // ROUTE 66 Location Based Services
+		ApplicationVndSailingtrackerTrack:                                    ApplicationVndSailingtrackerTrack,                                    // SailingTracker
+		ApplicationVndSeemail:                                                ApplicationVndSeemail,                                                // SeeMail
+		ApplicationVndSema:                                                   ApplicationVndSema,                                                   // Secured eMail
+		ApplicationVndSemd:                                                   ApplicationVndSemd,                                                   // Secured eMail
+		ApplicationVndSemf:                                                   ApplicationVndSemf,                                                   // Secured eMail
+		ApplicationVndShanaInformedFormdata:                                  ApplicationVndShanaInformedFormdata,                                  // Shana Informed Filler
+		ApplicationVndShanaInformedFormtemplate:                              ApplicationVndShanaInformedFormtemplate,                              // Shana Informed Filler
+		ApplicationVndShanaInformedInterchange:                               ApplicationVndShanaInformedInterchange,                               // Shana Informed Filler
+		ApplicationVndShanaInformedPackage:                                   ApplicationVndShanaInformedPackage,                                   // Shana Informed Filler
+		ApplicationVndSimtechMindmapper:                                      ApplicationVndSimtechMindmapper,                                      // SimTech MindMapper
+		ApplicationVndSmaf:                                                   ApplicationVndSmaf,                                                   // SMAF File
+		ApplicationVndSmartTeacher:                                           ApplicationVndSmartTeacher,                                           // SMART Technologies Apps
+		ApplicationVndSolentSdkmXml:                                          ApplicationVndSolentSdkmXml,                                          // SudokuMagic
+		ApplicationVndSpotfireDxp:                                            ApplicationVndSpotfireDxp,                                            // TIBCO Spotfire
+		ApplicationVndSpotfireSfs:                                            ApplicationVndSpotfireSfs,                                            // TIBCO Spotfire
+		ApplicationVndStardivisionCalc:                                       ApplicationVndStardivisionCalc,                                       // StarOffice - Calc
+		ApplicationVndStardivisionDraw:                                       ApplicationVndStardivisionDraw,                                       // StarOffice - Draw
+		ApplicationVndStardivisionImpress:                                    ApplicationVndStardivisionImpress,                                    // StarOffice - Impress
+		ApplicationVndStardivisionMath:                                       ApplicationVndStardivisionMath,                                       // StarOffice - Math
+		ApplicationVndStardivisionWriter:                                     ApplicationVndStardivisionWriter,                                     // StarOffice - Writer
+		ApplicationVndStardivisionWriterGlobal:                               ApplicationVndStardivisionWriterGlobal,                               // StarOffice - Writer (Global)
+		ApplicationVndStepmaniaStepchart:                                     ApplicationVndStepmaniaStepchart,                                     // StepMania
+		ApplicationVndSunXmlCalc:                                             ApplicationVndSunXmlCalc,                                             // OpenOffice - Calc (Spreadsheet)
+		ApplicationVndSunXmlCalcTemplate:                                     ApplicationVndSunXmlCalcTemplate,                                     // OpenOffice - Calc Template (Spreadsheet)
+		ApplicationVndSunXmlDraw:                                             ApplicationVndSunXmlDraw,                                             // OpenOffice - Draw (Graphics)
+		ApplicationVndSunXmlDrawTemplate:                                     ApplicationVndSunXmlDrawTemplate,                                     // OpenOffice - Draw Template (Graphics)
+		ApplicationVndSunXmlImpress:                                          ApplicationVndSunXmlImpress,                                          // OpenOffice - Impress (Presentation)
+		ApplicationVndSunXmlImpressTemplate:                                  ApplicationVndSunXmlImpressTemplate,                                  // OpenOffice - Impress Template (Presentation)
+		ApplicationVndSunXmlMath:                                             ApplicationVndSunXmlMath,                                             // OpenOffice - Math (Formula)
+		ApplicationVndSunXmlWriter:                                           ApplicationVndSunXmlWriter,                                           // OpenOffice - Writer (Text - HTML)
+		ApplicationVndSunXmlWriterGlobal:                                     ApplicationVndSunXmlWriterGlobal,                                     // OpenOffice - Writer (Text - HTML)
+		ApplicationVndSunXmlWriterTemplate:                                   ApplicationVndSunXmlWriterTemplate,                                   // OpenOffice - Writer Template (Text - HTML)
+		ApplicationVndSusCalendar:                                            ApplicationVndSusCalendar,                                            // ScheduleUs
+		ApplicationVndSvd:                                                    ApplicationVndSvd,                                                    // SourceView Document
+		ApplicationVndSymbianInstall:                                         ApplicationVndSymbianInstall,                                         // Symbian Install Package
+		ApplicationVndSyncmlXml:                                              ApplicationVndSyncmlXml,                                              // SyncML
+		ApplicationVndSyncmlDmWbxml:                                          ApplicationVndSyncmlDmWbxml,                                          // SyncML - Device Management
+		ApplicationVndSyncmlDmXml:                                            ApplicationVndSyncmlDmXml,                                            // SyncML - Device Management
+		ApplicationVndTaoIntentModuleArchive:                                 ApplicationVndTaoIntentModuleArchive,                                 // Tao Intent
+		ApplicationVndTmobileLivetv:                                          ApplicationVndTmobileLivetv,                                          // MobileTV
+		ApplicationVndTridTpt:                                                ApplicationVndTridTpt,                                                // TRI Systems Config
+		ApplicationVndTriscapeMxs:                                            ApplicationVndTriscapeMxs,                                            // Triscape Map Explorer
+		ApplicationVndTrueapp:                                                ApplicationVndTrueapp,                                                // True BASIC
+		ApplicationVndUfdl:                                                   ApplicationVndUfdl,                                                   // Universal Forms Description Language
+		ApplicationVndUiqTheme:                                               ApplicationVndUiqTheme,                                               // User Interface Quartz - Theme (Symbian)
+		ApplicationVndUmajin:                                                 ApplicationVndUmajin,                                                 // UMAJIN
+		ApplicationVndUnity:                                                  ApplicationVndUnity,                                                  // Unity 3d
+		ApplicationVndUomlXml:                                                ApplicationVndUomlXml,                                                // Unique Object Markup Language
+		ApplicationVndVcx:                                                    ApplicationVndVcx,                                                    // VirtualCatalog
+		ApplicationVndVisio:                                                  ApplicationVndVisio,                                                  // Microsoft Visio
+		ApplicationVndVisio2013:                                              ApplicationVndVisio2013,                                              // Microsoft Visio 2013
+		ApplicationVndVisionary:                                              ApplicationVndVisionary,                                              // Visionary
+		ApplicationVndVsf:                                                    ApplicationVndVsf,                                                    // Viewport+
+		ApplicationVndWapWbxml:                                               ApplicationVndWapWbxml,                                               // WAP Binary XML (WBXML)
+		ApplicationVndWapWmlc:                                                ApplicationVndWapWmlc,                                                // Compiled Wireless Markup Language (WMLC)
+		ApplicationVndWapWmlscriptc:                                          ApplicationVndWapWmlscriptc,                                          // WMLScript
+		ApplicationVndWebturbo:                                               ApplicationVndWebturbo,                                               // WebTurbo
+		ApplicationVndWolframPlayer:                                          ApplicationVndWolframPlayer,                                          // Mathematica Notebook Player
+		ApplicationVndWordperfect:                                            ApplicationVndWordperfect,                                            // Wordperfect
+		ApplicationVndWqd:                                                    ApplicationVndWqd,                                                    // SundaHus WQ
+		ApplicationVndWtStf:                                                  ApplicationVndWtStf,                                                  // Worldtalk
+		ApplicationVndXara:                                                   ApplicationVndXara,                                                   // CorelXARA
+		ApplicationVndXfdl:                                                   ApplicationVndXfdl,                                                   // Extensible Forms Description Language
+		ApplicationVndYamahaHvDic:                                            ApplicationVndYamahaHvDic,                                            // HV Voice Dictionary
+		ApplicationVndYamahaHvScript:                                         ApplicationVndYamahaHvScript,                                         // HV Script
+		ApplicationVndYamahaHvVoice:                                          ApplicationVndYamahaHvVoice,                                          // HV Voice Parameter
+		ApplicationVndYamahaOpenscoreformat:                                  ApplicationVndYamahaOpenscoreformat,                                  // Open Score Format
+		ApplicationVndYamahaOpenscoreformatOsfpvgXml:                         ApplicationVndYamahaOpenscoreformatOsfpvgXml,                         // OSFPVG
+		ApplicationVndYamahaSmafAudio:                                        ApplicationVndYamahaSmafAudio,                                        // SMAF Audio
+		ApplicationVndYamahaSmafPhrase:                                       ApplicationVndYamahaSmafPhrase,                                       // SMAF Phrase
+		ApplicationVndYellowriverCustomMenu:                                  ApplicationVndYellowriverCustomMenu,                                  // CustomMenu
+		ApplicationVndZul:                                                    ApplicationVndZul,                                                    // Z.U.L. Geometry
+		ApplicationVndZzazzDeckXml:                                           ApplicationVndZzazzDeckXml,                                           // Zzazz Deck
+		ApplicationVoicexmlXml:                                               ApplicationVoicexmlXml,                                               // VoiceXML
+		ApplicationWidget:                                                    ApplicationWidget,                                                    // Widget Packaging and XML Configuration
+		ApplicationWinhlp:                                                    ApplicationWinhlp,                                                    // WinHelp
+		ApplicationWsdlXml:                                                   ApplicationWsdlXml,                                                   // WSDL - Web Services Description Language
+		ApplicationWspolicyXml:                                               ApplicationWspolicyXml,                                               // Web Services Policy
+		ApplicationX7zCompressed:                                             ApplicationX7zCompressed,                                             // 7-Zip
+		ApplicationXAbiword:                                                  ApplicationXAbiword,                                                  // AbiWord
+		ApplicationXAceCompressed:                                            ApplicationXAceCompressed,                                            // Ace Archive
+		ApplicationXAppleDiskimage:                                           ApplicationXAppleDiskimage,                                           // Apple Disk Image
+		ApplicationXAuthorwareBin:                                            ApplicationXAuthorwareBin,                                            // Adobe (Macropedia) Authorware - Binary File
+		ApplicationXAuthorwareMap:                                            ApplicationXAuthorwareMap,                                            // Adobe (Macropedia) Authorware - Map
+		ApplicationXAuthorwareSeg:                                            ApplicationXAuthorwareSeg,                                            // Adobe (Macropedia) Authorware - Segment File
+		ApplicationXBcpio:                                                    ApplicationXBcpio,                                                    // Binary CPIO Archive
+		ApplicationXBittorrent:                                               ApplicationXBittorrent,                                               // BitTorrent
+		ApplicationXBzip:                                                     ApplicationXBzip,                                                     // Bzip Archive
+		ApplicationXBzip2:                                                    ApplicationXBzip2,                                                    // Bzip2 Archive
+		ApplicationXCdf:                                                      ApplicationXCdf,                                                      // CD audio
+		ApplicationXCdlink:                                                   ApplicationXCdlink,                                                   // Video CD
+		ApplicationXChat:                                                     ApplicationXChat,                                                     // pIRCh
+		ApplicationXChessPgn:                                                 ApplicationXChessPgn,                                                 // Portable Game Notation (Chess Games)
+		ApplicationXCpio:                                                     ApplicationXCpio,                                                     // CPIO Archive
+		ApplicationXCsh:                                                      ApplicationXCsh,                                                      // C Shell Script
+		ApplicationXDebianPackage:                                            ApplicationXDebianPackage,                                            // Debian Package
+		ApplicationXDirector:                                                 ApplicationXDirector,                                                 // Ad1obe Shockwave Player
+		ApplicationXDoom:                                                     ApplicationXDoom,                                                     // Doom Video Game
+		ApplicationXDtbncxXml:                                                ApplicationXDtbncxXml,                                                // Navigation Control file for XML (for ePub)
+		ApplicationXDtbookXml:                                                ApplicationXDtbookXml,                                                // Digital Talking Book
+		ApplicationXDtbresourceXml:                                           ApplicationXDtbresourceXml,                                           // Digital Talking Book - Resource File
+		ApplicationXDvi:                                                      ApplicationXDvi,                                                      // Device Independent File Format (DVI)
+		ApplicationXFontBdf:                                                  ApplicationXFontBdf,                                                  // Glyph Bitmap Distribution Format
+		ApplicationXFontGhostscript:                                          ApplicationXFontGhostscript,                                          // Ghostscript Font
+		ApplicationXFontLinuxPsf:                                             ApplicationXFontLinuxPsf,                                             // PSF Fonts
+		ApplicationXFontPcf:                                                  ApplicationXFontPcf,                                                  // Portable Compiled Format
+		ApplicationXFontSnf:                                                  ApplicationXFontSnf,                                                  // Server Normal Format
+		ApplicationXFontType1:                                                ApplicationXFontType1,                                                // PostScript Fonts
+		ApplicationXFreearc:                                                  ApplicationXFreearc,                                                  // Archive document (multiple files embedded)
+		ApplicationXFuturesplash:                                             ApplicationXFuturesplash,                                             // FutureSplash Animator
+		ApplicationXGnumeric:                                                 ApplicationXGnumeric,                                                 // Gnumeric
+		ApplicationXGtar:                                                     ApplicationXGtar,                                                     // GNU Tar Files
+		ApplicationXHdf:                                                      ApplicationXHdf,                                                      // Hierarchical Data Format
+		ApplicationXHttpdPhp:                                                 ApplicationXHttpdPhp,                                                 // Hypertext Preprocessor (Personal Home Page)
+		ApplicationXJavaJnlpFile:                                             ApplicationXJavaJnlpFile,                                             // Java Network Launching Protocol
+		ApplicationXLatex:                                                    ApplicationXLatex,                                                    // LaTeX
+		ApplicationXMobipocketEbook:                                          ApplicationXMobipocketEbook,                                          // Mobipocket
+		ApplicationXMsApplication:                                            ApplicationXMsApplication,                                            // Microsoft ClickOnce
+		ApplicationXMsWmd:                                                    ApplicationXMsWmd,                                                    // Microsoft Windows Media Player Download Package
+		ApplicationXMsWmz:                                                    ApplicationXMsWmz,                                                    // Microsoft Windows Media Player Skin Package
+		ApplicationXMsXbap:                                                   ApplicationXMsXbap,                                                   // Microsoft XAML Browser Application
+		ApplicationXMsaccess:                                                 ApplicationXMsaccess,                                                 // Microsoft Access
+		ApplicationXMsbinder:                                                 ApplicationXMsbinder,                                                 // Microsoft Office Binder
+		ApplicationXMscardfile:                                               ApplicationXMscardfile,                                               // Microsoft Information Card
+		ApplicationXMsclip:                                                   ApplicationXMsclip,                                                   // Microsoft Clipboard Clip
+		ApplicationXMsdownload:                                               ApplicationXMsdownload,                                               // Microsoft Application
+		ApplicationXMsmediaview:                                              ApplicationXMsmediaview,                                              // Microsoft MediaView
+		ApplicationXMsmetafile:                                               ApplicationXMsmetafile,                                               // Microsoft Windows Metafile
+		ApplicationXMsmoney:                                                  ApplicationXMsmoney,                                                  // Microsoft Money
+		ApplicationXMspublisher:                                              ApplicationXMspublisher,                                              // Microsoft Publisher
+		ApplicationXMsschedule:                                               ApplicationXMsschedule,                                               // Microsoft Schedule+
+		ApplicationXMsterminal:                                               ApplicationXMsterminal,                                               // Microsoft Windows Terminal Services
+		ApplicationXMswrite:                                                  ApplicationXMswrite,                                                  // Microsoft Wordpad
+		ApplicationXNetcdf:                                                   ApplicationXNetcdf,                                                   // Network Common Data Form (NetCDF)
+		ApplicationXPkcs12:                                                   ApplicationXPkcs12,                                                   // PKCS #12 - Personal Information Exchange Syntax Standard
+		ApplicationXPkcs7Certificates:                                        ApplicationXPkcs7Certificates,                                        // PKCS #7 - Cryptographic Message Syntax Standard (Certificates)
+		ApplicationXPkcs7Certreqresp:                                         ApplicationXPkcs7Certreqresp,                                         // PKCS #7 - Cryptographic Message Syntax Standard (Certificate Request Response)
+		ApplicationXSh:                                                       ApplicationXSh,                                                       // Bourne Shell Script
+		ApplicationXShar:                                                     ApplicationXShar,                                                     // Shell Archive
+		ApplicationXShockwaveFlash:                                           ApplicationXShockwaveFlash,                                           // Adobe Flash
+		ApplicationXSilverlightApp:                                           ApplicationXSilverlightApp,                                           // Microsoft Silverlight
+		ApplicationXStuffit:                                                  ApplicationXStuffit,                                                  // Stuffit Archive
+		ApplicationXStuffitx:                                                 ApplicationXStuffitx,                                                 // Stuffit Archive
+		ApplicationXSv4cpio:                                                  ApplicationXSv4cpio,                                                  // System V Release 4 CPIO Archive
+		ApplicationXSv4crc:                                                   ApplicationXSv4crc,                                                   // System V Release 4 CPIO Checksum Data
+		ApplicationXTar:                                                      ApplicationXTar,                                                      // Tar File (Tape Archive)
+		ApplicationXTcl:                                                      ApplicationXTcl,                                                      // Tcl Script
+		ApplicationXTex:                                                      ApplicationXTex,                                                      // TeX
+		ApplicationXTexTfm:                                                   ApplicationXTexTfm,                                                   // TeX Font Metric
+		ApplicationXTexinfo:                                                  ApplicationXTexinfo,                                                  // GNU Texinfo Document
+		ApplicationXUstar:                                                    ApplicationXUstar,                                                    // Ustar (Uniform Standard Tape Archive)
+		ApplicationXWaisSource:                                               ApplicationXWaisSource,                                               // WAIS Source
+		ApplicationXX509CaCert:                                               ApplicationXX509CaCert,                                               // X.509 Certificate
+		ApplicationXXfig:                                                     ApplicationXXfig,                                                     // Xfig
+		ApplicationXXpinstall:                                                ApplicationXXpinstall,                                                // XPInstall - Mozilla
+		ApplicationXYaml:                                                     ApplicationXYaml,                                                     // YAML Ain't Markup Language / Yet Another Markup Language
+		TextXYaml:                                                            ApplicationXYaml,                                                     // YAML Ain't Markup Language / Yet Another Markup Language
+		TextYaml:                                                             ApplicationXYaml,                                                     // YAML Ain't Markup Language / Yet Another Markup Language
+		ApplicationYaml:                                                      ApplicationXYaml,                                                     // YAML Ain't Markup Language / Yet Another Markup Language
+		ApplicationXcapDiffXml:                                               ApplicationXcapDiffXml,                                               // XML Configuration Access Protocol - XCAP Diff
+		ApplicationXencXml:                                                   ApplicationXencXml,                                                   // XML Encryption Syntax and Processing
+		ApplicationXhtmlXml:                                                  ApplicationXhtmlXml,                                                  // XHTML - The Extensible HyperText Markup Language
+		ApplicationXml:                                                       ApplicationXml,                                                       // XML - Extensible Markup Language
+		TextXml:                                                              ApplicationXml,                                                       // XML - Extensible Markup Language
+		ApplicationXmlDtd:                                                    ApplicationXmlDtd,                                                    // Document Type Definition
+		ApplicationXopXml:                                                    ApplicationXopXml,                                                    // XML-Binary Optimized Packaging
+		ApplicationXsltXml:                                                   ApplicationXsltXml,                                                   // XML Transformations
+		ApplicationXspfXml:                                                   ApplicationXspfXml,                                                   // XSPF - XML Shareable Playlist Format
+		ApplicationXvXml:                                                     ApplicationXvXml,                                                     // MXML
+		ApplicationYang:                                                      ApplicationYang,                                                      // YANG Data Modeling Language
+		ApplicationYinXml:                                                    ApplicationYinXml,                                                    // YIN (YANG - XML)
+		ApplicationZip:                                                       ApplicationZip,                                                       // Zip Archive
+		AudioAdpcm:                                                           AudioAdpcm,                                                           // Adaptive differential pulse-code modulation
+		AudioBasic:                                                           AudioBasic,                                                           // Sun Audio - Au file format
+		AudioMidi:                                                            AudioMidi,                                                            // MIDI - Musical Instrument Digital Interface
+		AudioXMidi:                                                           AudioMidi,                                                            // MIDI - Musical Instrument Digital Interface
+		AudioMp4:                                                             AudioMp4,                                                             // MPEG-4 Audio
+		AudioMpeg:                                                            AudioMpeg,                                                            // MPEG Audio
+		AudioOgg:                                                             AudioOgg,                                                             // Ogg Audio
+		AudioOpus:                                                            AudioOpus,                                                            // Opus audio
+		AudioVndDeceAudio:                                                    AudioVndDeceAudio,                                                    // DECE Audio
+		AudioVndDigitalWinds:                                                 AudioVndDigitalWinds,                                                 // Digital Winds Music
+		AudioVndDra:                                                          AudioVndDra,                                                          // DRA Audio
+		AudioVndDts:                                                          AudioVndDts,                                                          // DTS Audio
+		AudioVndDtsHd:                                                        AudioVndDtsHd,                                                        // DTS High Definition Audio
+		AudioVndLucentVoice:                                                  AudioVndLucentVoice,                                                  // Lucent Voice
+		AudioVndMsPlayreadyMediaPya:                                          AudioVndMsPlayreadyMediaPya,                                          // Microsoft PlayReady Ecosystem
+		AudioVndNueraEcelp4800:                                               AudioVndNueraEcelp4800,                                               // Nuera ECELP 4800
+		AudioVndNueraEcelp7470:                                               AudioVndNueraEcelp7470,                                               // Nuera ECELP 7470
+		AudioVndNueraEcelp9600:                                               AudioVndNueraEcelp9600,                                               // Nuera ECELP 9600
+		AudioVndRip:                                                          AudioVndRip,                                                          // Hit'n'Mix
+		AudioWav:                                                             AudioWav,                                                             // Waveform Audio File Format (WAV)
+		AudioXWav:                                                            AudioWav,                                                             // Waveform Audio File Format (WAV)
+		AudioWebm:                                                            AudioWebm,                                                            // Open Web Media Project - Audio
+		AudioXAac:                                                            AudioXAac,                                                            // Advanced Audio Coding (AAC)
+		AudioXAiff:                                                           AudioXAiff,                                                           // Audio Interchange File Format
+		AudioXMpegurl:                                                        AudioXMpegurl,                                                        // M3U (Multimedia Playlist)
+		AudioXMsWax:                                                          AudioXMsWax,                                                          // Microsoft Windows Media Audio Redirector
+		AudioXMsWma:                                                          AudioXMsWma,                                                          // Microsoft Windows Media Audio
+		AudioXPnRealaudio:                                                    AudioXPnRealaudio,                                                    // Real Audio Sound
+		AudioXPnRealaudioPlugin:                                              AudioXPnRealaudioPlugin,                                              // Real Audio Sound
+		ChemicalXCdx:                                                         ChemicalXCdx,                                                         // ChemDraw eXchange file
+		ChemicalXCif:                                                         ChemicalXCif,                                                         // Crystallographic Interchange Format
+		ChemicalXCmdf:                                                        ChemicalXCmdf,                                                        // CrystalMaker Data Format
+		ChemicalXCml:                                                         ChemicalXCml,                                                         // Chemical Markup Language
+		ChemicalXCsml:                                                        ChemicalXCsml,                                                        // Chemical Style Markup Language
+		ChemicalXXyz:                                                         ChemicalXXyz,                                                         // XYZ File Format
+		FontOtf:                                                              FontOtf,                                                              // OpenType font
+		ApplicationXFontOtf:                                                  FontOtf,                                                              // OpenType font
+		FontTtf:                                                              FontTtf,                                                              // TrueType Font
+		ApplicationXFontTtf:                                                  FontTtf,                                                              // TrueType Font
+		FontWoff:                                                             FontWoff,                                                             // Web Open Font Format
+		ApplicationXFontWoff:                                                 FontWoff,                                                             // Web Open Font Format
+		FontWoff2:                                                            FontWoff2,                                                            // Web Open Font Format v2
+		ImageBmp:                                                             ImageBmp,                                                             // Bitmap Image File
+		ImageCgm:                                                             ImageCgm,                                                             // Computer Graphics Metafile
+		ImageG3fax:                                                           ImageG3fax,                                                           // G3 Fax Image
+		ImageGif:                                                             ImageGif,                                                             // Graphics Interchange Format
+		ImageIef:                                                             ImageIef,                                                             // Image Exchange Format
+		ImageJpeg:                                                            ImageJpeg,                                                            // JPEG Image
+		ImageXCitrixJpeg:                                                     ImageJpeg,                                                            // JPEG Image
+		ImageKtx:                                                             ImageKtx,                                                             // OpenGL Textures (KTX)
+		ImagePjpeg:                                                           ImagePjpeg,                                                           // JPEG Image (Progressive)
+		ImagePng:                                                             ImagePng,                                                             // Portable Network Graphics
+		ImageXCitrixPng:                                                      ImagePng,                                                             // Portable Network Graphics
+		ImageXPng:                                                            ImagePng,                                                             // Portable Network Graphics
+		ImagePrsBtif:                                                         ImagePrsBtif,                                                         // BTIF
+		ImageSvgXml:                                                          ImageSvgXml,                                                          // Scalable Vector Graphics (SVG)
+		ImageTiff:                                                            ImageTiff,                                                            // Tagged Image File Format
+		ImageVndAdobePhotoshop:                                               ImageVndAdobePhotoshop,                                               // Photoshop Document
+		ImageVndDeceGraphic:                                                  ImageVndDeceGraphic,                                                  // DECE Graphic
+		ImageVndDjvu:                                                         ImageVndDjvu,                                                         // DjVu
+		ImageVndDvbSubtitle:                                                  ImageVndDvbSubtitle,                                                  // Close Captioning - Subtitle
+		ImageVndDwg:                                                          ImageVndDwg,                                                          // DWG Drawing
+		ImageVndDxf:                                                          ImageVndDxf,                                                          // AutoCAD DXF
+		ImageVndFastbidsheet:                                                 ImageVndFastbidsheet,                                                 // FastBid Sheet
+		ImageVndFpx:                                                          ImageVndFpx,                                                          // FlashPix
+		ImageVndFst:                                                          ImageVndFst,                                                          // FAST Search & Transfer ASA
+		ImageVndFujixeroxEdmicsMmr:                                           ImageVndFujixeroxEdmicsMmr,                                           // EDMICS 2000
+		ImageVndFujixeroxEdmicsRlc:                                           ImageVndFujixeroxEdmicsRlc,                                           // EDMICS 2000
+		ImageVndMsModi:                                                       ImageVndMsModi,                                                       // Microsoft Document Imaging Format
+		ImageVndNetFpx:                                                       ImageVndNetFpx,                                                       // FlashPix
+		ImageVndWapWbmp:                                                      ImageVndWapWbmp,                                                      // WAP Bitamp (WBMP)
+		ImageVndXiff:                                                         ImageVndXiff,                                                         // eXtended Image File Format (XIFF)
+		ImageWebp:                                                            ImageWebp,                                                            // WebP Image
+		ImageXCmuRaster:                                                      ImageXCmuRaster,                                                      // CMU Image
+		ImageXCmx:                                                            ImageXCmx,                                                            // Corel Metafile Exchange (CMX)
+		ImageXFreehand:                                                       ImageXFreehand,                                                       // FreeHand MX
+		ImageXIcon:                                                           ImageXIcon,                                                           // Icon Image
+		ImageVndMicrosoftIcon:                                                ImageXIcon,                                                           // Icon Image
+		ImageXPcx:                                                            ImageXPcx,                                                            // PCX Image
+		ImageXPict:                                                           ImageXPict,                                                           // PICT Image
+		ImageXPortableAnymap:                                                 ImageXPortableAnymap,                                                 // Portable Anymap Image
+		ImageXPortableBitmap:                                                 ImageXPortableBitmap,                                                 // Portable Bitmap Format
+		ImageXPortableGraymap:                                                ImageXPortableGraymap,                                                // Portable Graymap Format
+		ImageXPortablePixmap:                                                 ImageXPortablePixmap,                                                 // Portable Pixmap Format
+		ImageXRgb:                                                            ImageXRgb,                                                            // Silicon Graphics RGB Bitmap
+		ImageXXbitmap:                                                        ImageXXbitmap,                                                        // X BitMap
+		ImageXXpixmap:                                                        ImageXXpixmap,                                                        // X PixMap
+		ImageXXwindowdump:                                                    ImageXXwindowdump,                                                    // X Window Dump
+		MessageRfc822:                                                        MessageRfc822,                                                        // Email Message
+		ModelIges:                                                            ModelIges,                                                            // Initial Graphics Exchange Specification (IGES)
+		ModelMesh:                                                            ModelMesh,                                                            // Mesh Data Type
+		ModelVndColladaXml:                                                   ModelVndColladaXml,                                                   // COLLADA
+		ModelVndDwf:                                                          ModelVndDwf,                                                          // Autodesk Design Web Format (DWF)
+		ModelVndGdl:                                                          ModelVndGdl,                                                          // Geometric Description Language (GDL)
+		ModelVndGtw:                                                          ModelVndGtw,                                                          // Gen-Trix Studio
+		ModelVndMts:                                                          ModelVndMts,                                                          // Virtue MTS
+		ModelVndVtu:                                                          ModelVndVtu,                                                          // Virtue VTU
+		ModelVrml:                                                            ModelVrml,                                                            // Virtual Reality Modeling Language
+		TextCalendar:                                                         TextCalendar,                                                         // iCalendar
+		TextCss:                                                              TextCss,                                                              // Cascading Style Sheets (CSS)
+		TextCsv:                                                              TextCsv,                                                              // Comma-Seperated Values
+		TextHtml:                                                             TextHtml,                                                             // HyperText Markup Language (HTML)
+		TextN3:                                                               TextN3,                                                               // Notation3
+		TextPlain:                                                            TextPlain,                                                            // Text File
+		TextPlainBas:                                                         TextPlainBas,                                                         // BAS Partitur Format
+		TextPrsLinesTag:                                                      TextPrsLinesTag,                                                      // PRS Lines Tag
+		TextRichtext:                                                         TextRichtext,                                                         // Rich Text Format (RTF)
+		TextSgml:                                                             TextSgml,                                                             // Standard Generalized Markup Language (SGML)
+		TextTabSeparatedValues:                                               TextTabSeparatedValues,                                               // Tab Seperated Values
+		TextTroff:                                                            TextTroff,                                                            // troff
+		TextTurtle:                                                           TextTurtle,                                                           // Turtle (Terse RDF Triple Language)
+		TextUriList:                                                          TextUriList,                                                          // URI Resolution Services
+		TextVndCurl:                                                          TextVndCurl,                                                          // Curl - Applet
+		TextVndCurlDcurl:                                                     TextVndCurlDcurl,                                                     // Curl - Detached Applet
+		TextVndCurlMcurl:                                                     TextVndCurlMcurl,                                                     // Curl - Manifest File
+		TextVndCurlScurl:                                                     TextVndCurlScurl,                                                     // Curl - Source Code
+		TextVndFly:                                                           TextVndFly,                                                           // mod_fly / fly.cgi
+		TextVndFmiFlexstor:                                                   TextVndFmiFlexstor,                                                   // FLEXSTOR
+		TextVndGraphviz:                                                      TextVndGraphviz,                                                      // Graphviz
+		TextVndIn3d3dml:                                                      TextVndIn3d3dml,                                                      // In3D - 3DML
+		TextVndIn3dSpot:                                                      TextVndIn3dSpot,                                                      // In3D - 3DML
+		TextVndSunJ2meAppDescriptor:                                          TextVndSunJ2meAppDescriptor,                                          // J2ME App Descriptor
+		TextVndWapWml:                                                        TextVndWapWml,                                                        // Wireless Markup Language (WML)
+		TextVndWapWmlscript:                                                  TextVndWapWmlscript,                                                  // Wireless Markup Language Script (WMLScript)
+		TextXAsm:                                                             TextXAsm,                                                             // Assembler Source File
+		TextXC:                                                               TextXC,                                                               // C Source File
+		TextXFortran:                                                         TextXFortran,                                                         // Fortran Source File
+		TextXJavaSource:                                                      TextXJavaSource,                                                      // Java Source File
+		Java:                                                                 TextXJavaSource,                                                      // Java Source File
+		TextXPascal:                                                          TextXPascal,                                                          // Pascal Source File
+		TextXSetext:                                                          TextXSetext,                                                          // Setext
+		TextXUuencode:                                                        TextXUuencode,                                                        // UUEncode
+		TextXVcalendar:                                                       TextXVcalendar,                                                       // vCalendar
+		TextXVcard:                                                           TextXVcard,                                                           // vCard
+		Unkown:                                                               Unkown,                                                               // The zero value
+		Video3gpp:                                                            Video3gpp,                                                            // 3GPP
+		Audio3gpp:                                                            Video3gpp,                                                            // 3GPP
+		Video3gpp2:                                                           Video3gpp2,                                                           // 3GP2
+		Audio3gpp2:                                                           Video3gpp2,                                                           // 3GP2
+		VideoH261:                                                            VideoH261,                                                            // H.261
+		VideoH263:                                                            VideoH263,                                                            // H.263
+		VideoH264:                                                            VideoH264,                                                            // H.264
+		VideoJpeg:                                                            VideoJpeg,                                                            // JPGVideo
+		VideoJpm:                                                             VideoJpm,                                                             // JPEG 2000 Compound Image File Format
+		VideoMj2:                                                             VideoMj2,                                                             // Motion JPEG 2000
+		VideoMp4:                                                             VideoMp4,                                                             // MPEG4
+		ApplicationMp4:                                                       VideoMp4,                                                             // MPEG4
+		VideoMpeg:                                                            VideoMpeg,                                                            // MPEG Video
+		VideoOgg:                                                             VideoOgg,                                                             // Ogg Video
+		VideoQuicktime:                                                       VideoQuicktime,                                                       // Quicktime Video
+		VideoVndDeceHd:                                                       VideoVndDeceHd,                                                       // DECE High Definition Video
+		VideoVndDeceMobile:                                                   VideoVndDeceMobile,                                                   // DECE Mobile Video
+		VideoVndDecePd:                                                       VideoVndDecePd,                                                       // DECE PD Video
+		VideoVndDeceSd:                                                       VideoVndDeceSd,                                                       // DECE SD Video
+		VideoVndDeceVideo:                                                    VideoVndDeceVideo,                                                    // DECE Video
+		VideoVndFvt:                                                          VideoVndFvt,                                                          // FAST Search & Transfer ASA
+		VideoVndMpegurl:                                                      VideoVndMpegurl,                                                      // MPEG Url
+		VideoVndMsPlayreadyMediaPyv:                                          VideoVndMsPlayreadyMediaPyv,                                          // Microsoft PlayReady Ecosystem Video
+		VideoVndUvvuMp4:                                                      VideoVndUvvuMp4,                                                      // DECE MP4
+		VideoVndVivo:                                                         VideoVndVivo,                                                         // Vivo
+		VideoWebm:                                                            VideoWebm,                                                            // Open Web Media Project - Video
+		VideoXF4v:                                                            VideoXF4v,                                                            // Flash Video
+		VideoXFli:                                                            VideoXFli,                                                            // FLI/FLC Animation Format
+		VideoXFlv:                                                            VideoXFlv,                                                            // Flash Video
+		VideoXM4v:                                                            VideoXM4v,                                                            // M4v
+		VideoXMsAsf:                                                          VideoXMsAsf,                                                          // Microsoft Advanced Systems Format (ASF)
+		VideoXMsWm:                                                           VideoXMsWm,                                                           // Microsoft Windows Media
+		VideoXMsWmv:                                                          VideoXMsWmv,                                                          // Microsoft Windows Media Video
+		VideoXMsWmx:                                                          VideoXMsWmx,                                                          // Microsoft Windows Media Audio/Video Playlist
+		VideoXMsWvx:                                                          VideoXMsWvx,                                                          // Microsoft Windows Media Video Playlist
+		VideoXMsvideo:                                                        VideoXMsvideo,                                                        // Audio Video Interleave (AVI)
+		VideoXSgiMovie:                                                       VideoXSgiMovie,                                                       // SGI Movie
+		XConferenceXCooltalk:                                                 XConferenceXCooltalk,                                                 // CoolTalk
+		ApplicationToml:                                                      ApplicationToml,                                                      // Tom's Obvious, Minimal Language
+		ApplicationXToml:                                                     ApplicationToml,                                                      // Tom's Obvious, Minimal Language
+		TextToml:                                                             ApplicationToml,                                                      // Tom's Obvious, Minimal Language
+		TextXToml:                                                            ApplicationToml,                                                      // Tom's Obvious, Minimal Language
+		ApplicationHcl:                                                       ApplicationHcl,                                                       // HashiCorp configuration language
+		ApplicationXHcl:                                                      ApplicationHcl,                                                       // HashiCorp configuration language
+		TextHcl:                                                              ApplicationHcl,                                                       // HashiCorp configuration language
+		TextXHcl:                                                             ApplicationHcl,                                                       // HashiCorp configuration language
+		ApplicationIni:                                                       ApplicationIni,                                                       // Microsoft Windows Initialization
+		ApplicationXIni:                                                      ApplicationIni,                                                       // Microsoft Windows Initialization
+		TextIni:                                                              ApplicationIni,                                                       // Microsoft Windows Initialization
+		TextXIni:                                                             ApplicationIni,                                                       // Microsoft Windows Initialization
+		ApplicationCue:                                                       ApplicationCue,                                                       // Configure Unify Execute
+		ApplicationXCue:                                                      ApplicationCue,                                                       // Configure Unify Execute
+		TextCue:                                                              ApplicationCue,                                                       // Configure Unify Execute
+		TextXCue:                                                             ApplicationCue,                                                       // Configure Unify Execute
+		ApplicationXGo:                                                       ApplicationXGo,                                                       // Go source file
+		ApplicationXGoTemplate:                                               ApplicationXGoTemplate,                                               // Go template file
+		ApplicationXCpp:                                                      ApplicationXCpp,                                                      // C++ source file
+		ApplicationXCsharp:                                                   ApplicationXCsharp,                                                   // C# source file
+		ApplicationXPython:                                                   ApplicationXPython,                                                   // Python source file
+		ApplicationXPythonGenerated:                                          ApplicationXPythonGenerated,                                          // Python generated file
+		ApplicationXRuby:                                                     ApplicationXRuby,                                                     // Ruby source file
+		ApplicationXRust:                                                     ApplicationXRust,                                                     // Rust source file
+		ApplicationXBnf:                                                      ApplicationXBnf,                                                      // Backus-Naur Form definition file
+		ApplicationXAbnf:                                                     ApplicationXAbnf,                                                     // Augmented Backus-Naur Form definition file
+		ApplicationXVisualBasic:                                              ApplicationXVisualBasic,                                              // Visual Basic source file
+		ApplicationXSass:                                                     ApplicationXSass,                                                     // Syntactically Awesome Stylesheet source file
+		ApplicationXDart:                                                     ApplicationXDart,                                                     // Dart source file
+		ApplicationXBash:                                                     ApplicationXBash,                                                     // BASH shell script
+		ApplicationXFish:                                                     ApplicationXFish,                                                     // FISH shell script
+		ApplicationXZsh:                                                      ApplicationXZsh,                                                      // ZSH shell script
+		ApplicationXKorn:                                                     ApplicationXKorn,                                                     // Korn shell script
+		ApplicationXPuppet:                                                   ApplicationXPuppet,                                                   // Puppet manifest file
+		ApplicationXOcaml:                                                    ApplicationXOcaml,                                                    // OCaml source file
+		ApplicationXPascal:                                                   ApplicationXPascal,                                                   // Pascal source file
+		ApplicationXClojure:                                                  ApplicationXClojure,                                                  // Clojure source file
+		ApplicationXScheme:                                                   ApplicationXScheme,                                                   // Scheme source file
+		ApplicationXLisp:                                                     ApplicationXLisp,                                                     // Common Lisp source file
+		ApplicationXKotlin:                                                   ApplicationXKotlin,                                                   // Kotlin source file
+		ApplicationXErlang:                                                   ApplicationXErlang,                                                   // Erlang source file
+		ApplicationXScala:                                                    ApplicationXScala,                                                    // Scala source file
+		ApplicationXHaskell:                                                  ApplicationXHaskell,                                                  // Haskell source file
+		ApplicationXFsharp:                                                   ApplicationXFsharp,                                                   // F# source file
+		ApplicationXElixir:                                                   ApplicationXElixir,                                                   // Elixir source file
+		ApplicationXElm:                                                      ApplicationXElm,                                                      // Elm source file
+		ApplicationXTypescript:                                               ApplicationXTypescript,                                               // TypeScript source file
+		ApplicationXXtend:                                                    ApplicationXXtend,                                                    // Xtend source file
+		ApplicationXXquery:                                                   ApplicationXXquery,                                                   // XQuery source file
+		ApplicationXWebassembly:                                              ApplicationXWebassembly,                                              // WebAssembly
+		ApplicationXSql:                                                      ApplicationXSql,                                                      // Standard Query Language (SQL) source file
+		ApplicationXR:                                                        ApplicationXR,                                                        // R source file
+		ApplicationXPowershell:                                               ApplicationXPowershell,                                               // PowerShell script file
+		ApplicationXPerl:                                                     ApplicationXPerl,                                                     // Perl source file
+		ApplicationXObjectiveC:                                               ApplicationXObjectiveC,                                               // Objective-C source file
+		ApplicationXCHeader:                                                  ApplicationXCHeader,                                                  // C Header source file
+		ApplicationXLua:                                                      ApplicationXLua,                                                      // Lua source file
+		ApplicationXGuile:                                                    ApplicationXGuile,                                                    // Guile source file
+		ApplicationXFortran:                                                  ApplicationXFortran,                                                  // Fortan source file
+		ApplicationXForth:                                                    ApplicationXForth,                                                    // Forth source file
+		ApplicationXMarkdown:                                                 ApplicationXMarkdown,                                                 // Markdown source file
+		ApplicationXNunjucks:                                                 ApplicationXNunjucks,                                                 // Nunjucks template file
+		ApplicationXHandlebars:                                               ApplicationXHandlebars,                                               // Handlebars template file
+		ApplicationXEjs:                                                      ApplicationXEjs,                                                      // EJS template file
+		ApplicationXMustache:                                                 ApplicationXMustache,                                                 // Mustache template file
+		ApplicationXHaml:                                                     ApplicationXHaml,                                                     // Haml template file
+		ApplicationXPug:                                                      ApplicationXPug,                                                      // Pug template file
+		ApplicationXLiquid:                                                   ApplicationXLiquid,                                                   // Liquid template file
+		ApplicationXWebc:                                                     ApplicationXWebc,                                                     // Web Component source file
 	}
 )

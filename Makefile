@@ -17,9 +17,6 @@ purge:
 test: generate
 	go test ./...
 
-generate:
-	go generate ./...
-
 commit:
 	git add . || true
 	git commit -m "$(m)" || true

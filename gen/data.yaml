@@ -132,7 +132,7 @@
   mime-type-alt: []
   file-extention:
     - .class
-- description: JavaScript
+- description: JavaScript language file
   mime-type: application/javascript
   mime-type-alt:
     - text/javascript
@@ -258,7 +258,7 @@
   mime-type-alt: []
   file-extention:
     - .pdf
-- description: Pretty Good Privacy
+- description: Pretty Good Privacy Signature
   mime-type: application/pgp-encrypted
   mime-type-alt:
     - application/pgp-signature
@@ -359,11 +359,11 @@
   mime-type-alt: []
   file-extention:
     - .rld
-- description: XML Resource Lists
-  mime-type: application/rls-services+xml
-  mime-type-alt: []
-  file-extention:
-    - .rs
+# - description: XML Resource Lists
+#   mime-type: application/rls-services+xml
+#   mime-type-alt: []
+#   file-extention:
+#     - .rs
 - description: Really Simple Discovery
   mime-type: application/rsd+xml
   mime-type-alt: []
@@ -624,11 +624,11 @@
   mime-type-alt: []
   file-extention:
     - .rep
-- description: CambridgeSoft Chem Draw
-  mime-type: application/vnd.chemdraw+xml
-  mime-type-alt: []
-  file-extention:
-    - .cdxml
+# - description: CambridgeSoft Chem Draw
+#   mime-type: application/vnd.chemdraw+xml
+#   mime-type-alt: []
+#   file-extention:
+#     - .cdxml
 - description: Karaoke on Chipnuts Chipsets
   mime-type: application/vnd.chipnuts.karaoke-mmd
   mime-type-alt: []
@@ -1074,11 +1074,11 @@
   mime-type-alt: []
   file-extention:
     - .irm
-- description: IBM Electronic Media Management System - Secure Container
-  mime-type: application/vnd.ibm.secure-container
-  mime-type-alt: []
-  file-extention:
-    - .sc
+# - description: IBM Electronic Media Management System - Secure Container
+#   mime-type: application/vnd.ibm.secure-container
+#   mime-type-alt: []
+#   file-extention:
+#     - .sc
 - description: ICC profile
   mime-type: application/vnd.iccprofile
   mime-type-alt: []
@@ -1274,11 +1274,11 @@
   mime-type-alt: []
   file-extention:
     - .org
-- description: Lotus Screencam
-  mime-type: application/vnd.lotus-screencam
-  mime-type-alt: []
-  file-extention:
-    - .scm
+# - description: Lotus Screencam
+#   mime-type: application/vnd.lotus-screencam
+#   mime-type-alt: []
+#   file-extention:
+#     - .scm
 - description: Lotus Wordpro
   mime-type: application/vnd.lotus-wordpro
   mime-type-alt: []
@@ -2405,6 +2405,10 @@
   mime-type-alt: []
   file-extention:
     - .php
+    - .phar
+    - .phtml
+    - .pht
+    - .phps
 - description: Java Network Launching Protocol
   mime-type: application/x-java-jnlp-file
   mime-type-alt: []
@@ -2566,10 +2570,11 @@
   file-extention:
     - .tar
 - description: Tcl Script
+  reference: https://en.wikipedia.org/wiki/Tcl
   mime-type: application/x-tcl
-  mime-type-alt: []
-  file-extention:
+  file-extention: 
     - .tcl
+    - .tbc
 - description: TeX
   mime-type: application/x-tex
   mime-type-alt: []
@@ -3272,6 +3277,7 @@
   mime-type-alt: []
   file-extention:
     - .s
+    - .asm
 - description: C Source File
   mime-type: text/x-c
   mime-type-alt: []
@@ -3359,11 +3365,11 @@
   mime-type-alt: []
   file-extention:
     - .mj2
-- description: MPEG transport stream
-  mime-type: video/mp2t
-  mime-type-alt: []
-  file-extention:
-    - .ts
+# - description: MPEG transport stream
+#   mime-type: video/mp2t
+#   mime-type-alt: []
+#   file-extention:
+#     - .ts
 - description: MPEG4
   mime-type: video/mp4
   mime-type-alt:
@@ -3532,3 +3538,281 @@
     - text/x-cue
   file-extention:
     - .cue
+- description: Go source file
+  mime-type: application/x-go
+  file-extention:
+    - .go
+    - .mod
+    - .sum
+- description: Go template file
+  mime-type: application/x-go-template
+  file-extention:
+    - .gotmpl
+    - .tmpl
+- description: C++ source file
+  mime-type: application/x-cpp
+  file-extention:
+    - .cpp
+- description: C# source file
+  reference: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
+  mime-type: application/x-csharp
+  file-extention:
+    - .cs
+    - .csx
+- description: Python source file
+  reference: 
+  mime-type: application/x-python
+  file-extention:
+    - .py
+- description: Python generated file
+  reference: 
+  mime-type: application/x-python-generated
+  file-extention:
+    - .pyi
+    - .pyc
+    - .pyd
+    - .pyw
+    - .pyz
+    - .pyo
+- description: Ruby source file
+  mime-type: application/x-ruby
+  file-extention:
+    - .rb
+- description: Rust source file
+  mime-type: application/x-rust
+  file-extention:
+    - .rs
+- description: Backus-Naur Form definition file
+  mime-type: application/x-bnf
+  file-extention:
+    - .bnf
+- description: Augmented Backus-Naur Form definition file
+  mime-type: application/x-abnf
+  file-extention:
+    - .abnf
+- description: Visual Basic source file
+  mime-type: application/x-visual-basic
+  file-extention:
+    - .vb
+    - .vbs
+    - .vbscript
+- description: Syntactically Awesome Stylesheet source file
+  mime-type: application/x-sass
+  file-extention:
+    - .scss
+    - .sass
+- description: Dart source file
+  mime-type: application/x-dart
+  file-extention:
+    - .dart
+- description: BASH shell script
+  mime-type: application/x-bash
+  file-extention:
+    - .bash
+- description: FISH shell script
+  mime-type: application/x-fish
+  file-extention:
+    - .fish
+- description: ZSH shell script
+  mime-type: application/x-zsh
+  file-extention:
+    - .zsh
+- description: Korn shell script
+  mime-type: application/x-korn
+  file-extention:
+    - .ksh
+- description: Puppet manifest file
+  mime-type: application/x-puppet
+  file-extention:
+    - .pp
+- description: OCaml source file
+  mime-type: application/x-ocaml
+  file-extention:
+    - .ml
+    - .mli
+- description: Pascal source file
+  mime-type: application/x-pascal
+  file-extention:
+    - .pas
+    - .inc
+- description: Clojure source file
+  mime-type: application/x-clojure
+  file-extention:
+    - .clj
+    - .cljs
+    - .cljc
+    - .edn
+- description: Scheme source file
+  mime-type: application/x-scheme
+  file-extention:
+    - .scm
+    - .ss
+- description: Common Lisp source file
+  mime-type: application/x-lisp
+  file-extention:
+    - .lisp
+    - .lsp
+    - .l
+    - .cl
+    - .fasl
+- description: Kotlin source file
+  mime-type: application/x-kotlin
+  file-extention:
+    - .kt
+    - .kts
+    - .ktm
+- description: Erlang source file
+  mime-type: application/x-erlang
+  file-extention:
+    - .erl
+    - .hrl
+- description: Scala source file
+  mime-type: application/x-scala
+  file-extention:
+    - .scala
+    - .sc
+- description: Haskell source file
+  mime-type: application/x-haskell
+  file-extention:
+    - .hs
+    - .lhs
+- description: F# source file
+  mime-type: application/x-fsharp
+  file-extention:
+    - .fs
+    - .fsi
+    - .fsx
+    - .fsscript
+- description: Elixir source file
+  mime-type: application/x-elixir
+  file-extention:
+    - .ex
+    - .exs
+- description: Elm source file
+  mime-type: application/x-elm
+  file-extention:
+    - .elm
+- description: TypeScript source file
+  mime-type: application/x-typescript
+  file-extention:
+    - .ts
+- description: Xtend source file
+  reference: https://en.wikipedia.org/wiki/Xtend
+  mime-type: application/x-xtend
+  file-extention: 
+    - .xtend
+- description: XQuery source file
+  reference: https://en.wikipedia.org/wiki/XQuery
+  mime-type: application/x-xquery
+  file-extention: 
+    - .xq
+    - .xql
+    - .xqm
+    - .xqy
+    - .xquery
+- description: WebAssembly
+  reference: https://en.wikipedia.org/wiki/WebAssembly
+  mime-type: application/x-webassembly
+  file-extention: 
+    - .wat
+    - .wasm
+- description: Standard Query Language (SQL) source file
+  mime-type: application/x-sql
+  file-extention: 
+    - .sql
+    - .ddl
+- description: R source file
+  mime-type: application/x-r
+  file-extention: 
+    - .r
+    - .rdata
+    - .rds
+    - .rda
+- description: PowerShell script file
+  mime-type: application/x-powershell
+  file-extention: 
+    - .ps1
+    - .ps1xml
+    - .psc1
+    - .psm1
+    - .pssc
+    - .psrc
+    - .cdxml
+- description: Perl source file
+  mime-type: application/x-perl
+  file-extention: 
+    - .pl
+    - .plx
+    - .pm
+    - .xs
+    # - .t
+    - .pod
+    - .cgi
+- description: Objective-C source file
+  mime-type: application/x-objective-C
+  file-extention: 
+    - .m
+    - .mm
+- description: C Header source file
+  mime-type: application/x-c-header
+  file-extention: 
+    - .h
+- description: Lua source file
+  mime-type: application/x-lua
+  file-extention: 
+    - .lua
+- description: Guile source file
+  mime-type: application/x-guile
+  # file-extention: 
+  #   - .scm
+  #   - .go
+- description: Fortan source file
+  mime-type: application/x-fortran
+  file-extention: 
+    # - .f
+    - .for
+    - .f90
+- description: Forth source file
+  mime-type: application/x-forth
+  file-extention: 
+    # - .fs
+    - .fth
+    - .4th
+    # - .f
+    - .forth
+- description: Markdown source file
+  mime-type: application/x-markdown
+  file-extention: 
+    - .md
+- description: Nunjucks template file
+  mime-type: application/x-nunjucks
+  file-extention: 
+    - .njk
+- description: Handlebars template file
+  mime-type: application/x-handlebars
+  file-extention: 
+    - .hbs
+- description: EJS template file
+  mime-type: application/x-ejs
+  file-extention: 
+    - .ejs
+- description: Mustache template file
+  mime-type: application/x-mustache
+  file-extention: 
+    - .mustache
+- description: Haml template file
+  mime-type: application/x-haml
+  file-extention: 
+    - .haml
+- description: Pug template file
+  mime-type: application/x-pug
+  file-extention: 
+    - .pug
+- description: Liquid template file
+  mime-type: application/x-liquid
+  file-extention: 
+    - .liquid
+- description: Web Component source file
+  mime-type: application/x-webc
+  file-extention: 
+    - .webc

@@ -3,8 +3,8 @@ package file_extention_test
 import (
 	"testing"
 
-	"github.com/boundedinfinity/mimetyper/file_extention"
-	"github.com/boundedinfinity/mimetyper/mime_type"
+	"github.com/boundedinfinity/go-mimetyper/file_extention"
+	"github.com/boundedinfinity/go-mimetyper/mime_type"
 	"github.com/stretchr/testify/assert"
 )
 

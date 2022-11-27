@@ -1,4 +1,4 @@
-module github.com/boundedinfinity/mimetyper
+module github.com/boundedinfinity/go-mimetyper
 
 go 1.18
 

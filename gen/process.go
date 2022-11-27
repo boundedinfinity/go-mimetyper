@@ -68,9 +68,9 @@ func process2(data []data) error {
 
     const (        
 	{{ range $i := . }}
-		{{ goName $i.MimeType }} MimeType = "{{ $i.MimeType }}"
+		{{ goName $i.MimeType }} MimeType = "{{ $i.MimeType }}" // {{ .Description.Get }}
 	{{- range $a := $i.MimeTypeAlt }}
-		{{ goName $a }} MimeType = "{{ $a }}"
+		{{ goName $a }} MimeType = "{{ $a }}" // {{ $i.Description.Get }}
 	{{- end }}
 	{{- end }}
     )
@@ -86,9 +86,9 @@ func process2(data []data) error {
 	var (
 		m = map[MimeType]MimeType{
 		{{- range $i := . }}
-			{{ goName $i.MimeType }}: {{ goName $i.MimeType }},
+			{{ goName $i.MimeType }}: {{ goName $i.MimeType }}, // {{ .Description.Get }}
 		{{- range $a := $i.MimeTypeAlt }}
-			{{ goName $a }}: {{ goName $i.MimeType }},
+			{{ goName $a }}: {{ goName $i.MimeType }}, // {{  $i.Description.Get }}
 		{{- end }}
 		{{- end }}
 		}
@@ -107,7 +107,7 @@ func process2(data []data) error {
     const (
 	{{ range $i := . }}
 	{{- range $e := $i.FileExtention }}
-		{{ goName $e }} FileExtention = "{{ $e }}"
+		{{ goName $e }} FileExtention = "{{ $e }}" // {{ $i.Description.Get }}
 	{{- end }}	
 	{{- end }}
     )
@@ -120,13 +120,13 @@ func process2(data []data) error {
 	fileExtention2MimeType := header + `
     package file_extention
 
-	import "github.com/boundedinfinity/mimetyper/mime_type"
+	import "github.com/boundedinfinity/go-mimetyper/mime_type"
 
 	var (
 		ext2mt = map[FileExtention]mime_type.MimeType{
 	{{- range $i := . }}
 	{{- range $e := $i.FileExtention }}
-		{{ goName $e }}:  mime_type.{{ goName $i.MimeType }},
+		{{ goName $e }}:  mime_type.{{ goName $i.MimeType }}, // {{ $i.Description.Get }}
 	{{- end }}	
 	{{- end }}
 		}
@@ -135,7 +135,7 @@ func process2(data []data) error {
 	{{- range $i := . }}
 			mime_type.{{ goName $i.MimeType }}: {
 	{{- range $e := $i.FileExtention }}
-				{{ goName $e }},
+				{{ goName $e }}, // {{ $i.Description.Get }}
 	{{- end }}
 			},
 	{{- end }}
@@ -150,14 +150,19 @@ func process2(data []data) error {
 	return nil
 }
 
-var replaceChars = []string{"/", "-", ".", "+"}
+var replaceCharsMap = map[string]string{
+	"/": " ",
+	"-": " ",
+	".": " ",
+	"+": " ",
+}
 var numChars = []string{"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"}
 
 func goName(s string) string {
 	n := s
 
-	for _, r := range replaceChars {
-		n = strings.ReplaceAll(n, r, " ")
+	for c, r := range replaceCharsMap {
+		n = strings.ReplaceAll(n, c, r)
 	}
 
 	n = strings.TrimSpace(n)
@@ -174,9 +179,14 @@ func goName(s string) string {
 	return n
 }
 
+func option(s optioner.Option[string]) string {
+	return s.Get()
+}
+
 func writeTemplate(p, t string, data []data, source_format bool) error {
 	tmpl, err := template.New("").Funcs(template.FuncMap{
 		"goName": goName,
+		"option": option,
 	}).Parse(t)
 
 	if err != nil {

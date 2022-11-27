@@ -3,7 +3,7 @@ package file_extention
 import (
 	"fmt"
 
-	"github.com/boundedinfinity/mimetyper/mime_type"
+	"github.com/boundedinfinity/go-mimetyper/mime_type"
 )
 
 func GetMimeType(ext string) (mime_type.MimeType, error) {
