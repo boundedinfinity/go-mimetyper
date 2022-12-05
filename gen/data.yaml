@@ -3549,6 +3549,8 @@
   file-extention:
     - .gotmpl
     - .tmpl
+    # - .tpl
+    - .gtpl
 - description: C++ source file
   mime-type: application/x-cpp
   file-extention:

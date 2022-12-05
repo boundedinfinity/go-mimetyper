@@ -726,6 +726,7 @@ var (
 		Sum,
 		Gotmpl,
 		Tmpl,
+		Gtpl,
 		Cpp,
 		Cs,
 		Csx,

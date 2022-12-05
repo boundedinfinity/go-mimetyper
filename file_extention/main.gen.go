@@ -719,6 +719,7 @@ const (
 	Sum         FileExtention = ".sum"         // Go source file
 	Gotmpl      FileExtention = ".gotmpl"      // Go template file
 	Tmpl        FileExtention = ".tmpl"        // Go template file
+	Gtpl        FileExtention = ".gtpl"        // Go template file
 	Cpp         FileExtention = ".cpp"         // C++ source file
 	Cs          FileExtention = ".cs"          // C# source file
 	Csx         FileExtention = ".csx"         // C# source file

@@ -720,6 +720,7 @@ var (
 		Sum:         mime_type.ApplicationXGo,                                                       // Go source file
 		Gotmpl:      mime_type.ApplicationXGoTemplate,                                               // Go template file
 		Tmpl:        mime_type.ApplicationXGoTemplate,                                               // Go template file
+		Gtpl:        mime_type.ApplicationXGoTemplate,                                               // Go template file
 		Cpp:         mime_type.ApplicationXCpp,                                                      // C++ source file
 		Cs:          mime_type.ApplicationXCsharp,                                                   // C# source file
 		Csx:         mime_type.ApplicationXCsharp,                                                   // C# source file
@@ -2924,6 +2925,7 @@ var (
 		mime_type.ApplicationXGoTemplate: {
 			Gotmpl, // Go template file
 			Tmpl,   // Go template file
+			Gtpl,   // Go template file
 		},
 		mime_type.ApplicationXCpp: {
 			Cpp, // C++ source file
