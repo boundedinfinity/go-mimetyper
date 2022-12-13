@@ -798,6 +798,7 @@ var (
 		ApplicationXPug,
 		ApplicationXLiquid,
 		ApplicationXWebc,
+		ApplicationXList,
 	}
 )
 

@@ -817,12 +817,13 @@ var (
 		Md:          mime_type.ApplicationXMarkdown,                                                 // Markdown source file
 		Njk:         mime_type.ApplicationXNunjucks,                                                 // Nunjucks template file
 		Hbs:         mime_type.ApplicationXHandlebars,                                               // Handlebars template file
-		Ejs:         mime_type.ApplicationXEjs,                                                      // EJS template file
+		Ejs:         mime_type.ApplicationXEjs,                                                      // Embedded JavaScript Template file
 		Mustache:    mime_type.ApplicationXMustache,                                                 // Mustache template file
 		Haml:        mime_type.ApplicationXHaml,                                                     // Haml template file
 		Pug:         mime_type.ApplicationXPug,                                                      // Pug template file
 		Liquid:      mime_type.ApplicationXLiquid,                                                   // Liquid template file
 		Webc:        mime_type.ApplicationXWebc,                                                     // Web Component source file
+		Lst:         mime_type.ApplicationXList,                                                     // List file
 	}
 
 	mt2ext = map[mime_type.MimeType][]FileExtention{
@@ -3113,7 +3114,7 @@ var (
 			Hbs, // Handlebars template file
 		},
 		mime_type.ApplicationXEjs: {
-			Ejs, // EJS template file
+			Ejs, // Embedded JavaScript Template file
 		},
 		mime_type.ApplicationXMustache: {
 			Mustache, // Mustache template file
@@ -3129,6 +3130,9 @@ var (
 		},
 		mime_type.ApplicationXWebc: {
 			Webc, // Web Component source file
+		},
+		mime_type.ApplicationXList: {
+			Lst, // List file
 		},
 	}
 )

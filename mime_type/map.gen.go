@@ -784,11 +784,12 @@ var (
 		ApplicationXMarkdown:                                                 ApplicationXMarkdown,                                                 // Markdown source file
 		ApplicationXNunjucks:                                                 ApplicationXNunjucks,                                                 // Nunjucks template file
 		ApplicationXHandlebars:                                               ApplicationXHandlebars,                                               // Handlebars template file
-		ApplicationXEjs:                                                      ApplicationXEjs,                                                      // EJS template file
+		ApplicationXEjs:                                                      ApplicationXEjs,                                                      // Embedded JavaScript Template file
 		ApplicationXMustache:                                                 ApplicationXMustache,                                                 // Mustache template file
 		ApplicationXHaml:                                                     ApplicationXHaml,                                                     // Haml template file
 		ApplicationXPug:                                                      ApplicationXPug,                                                      // Pug template file
 		ApplicationXLiquid:                                                   ApplicationXLiquid,                                                   // Liquid template file
 		ApplicationXWebc:                                                     ApplicationXWebc,                                                     // Web Component source file
+		ApplicationXList:                                                     ApplicationXList,                                                     // List file
 	}
 )

@@ -816,10 +816,11 @@ const (
 	Md          FileExtention = ".md"          // Markdown source file
 	Njk         FileExtention = ".njk"         // Nunjucks template file
 	Hbs         FileExtention = ".hbs"         // Handlebars template file
-	Ejs         FileExtention = ".ejs"         // EJS template file
+	Ejs         FileExtention = ".ejs"         // Embedded JavaScript Template file
 	Mustache    FileExtention = ".mustache"    // Mustache template file
 	Haml        FileExtention = ".haml"        // Haml template file
 	Pug         FileExtention = ".pug"         // Pug template file
 	Liquid      FileExtention = ".liquid"      // Liquid template file
 	Webc        FileExtention = ".webc"        // Web Component source file
+	Lst         FileExtention = ".lst"         // List file
 )

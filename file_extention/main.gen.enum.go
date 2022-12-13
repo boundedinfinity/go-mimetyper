@@ -829,6 +829,7 @@ var (
 		Pug,
 		Liquid,
 		Webc,
+		Lst,
 	}
 )
 

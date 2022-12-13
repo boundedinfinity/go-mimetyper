@@ -3769,12 +3769,14 @@
   #   - .scm
   #   - .go
 - description: Fortan source file
+  reference: https://fileinfo.com/extension/for
   mime-type: application/x-fortran
   file-extention: 
     # - .f
     - .for
     - .f90
 - description: Forth source file
+  reference: https://fileinfo.com/extension/4th
   mime-type: application/x-forth
   file-extention: 
     # - .fs
@@ -3783,6 +3785,7 @@
     # - .f
     - .forth
 - description: Markdown source file
+  reference: https://fileinfo.com/extension/md
   mime-type: application/x-markdown
   file-extention: 
     - .md
@@ -3791,10 +3794,12 @@
   file-extention: 
     - .njk
 - description: Handlebars template file
+  reference: https://fileinfo.com/extension/hbs
   mime-type: application/x-handlebars
   file-extention: 
     - .hbs
-- description: EJS template file
+- description: Embedded JavaScript Template file
+  reference: https://fileinfo.com/extension/ejs
   mime-type: application/x-ejs
   file-extention: 
     - .ejs
@@ -3803,10 +3808,12 @@
   file-extention: 
     - .mustache
 - description: Haml template file
+  reference: https://fileinfo.com/extension/haml
   mime-type: application/x-haml
   file-extention: 
     - .haml
 - description: Pug template file
+  reference: https://fileinfo.com/extension/pug
   mime-type: application/x-pug
   file-extention: 
     - .pug
@@ -3818,3 +3825,8 @@
   mime-type: application/x-webc
   file-extention: 
     - .webc
+- description: List file
+  reference: https://fileinfo.com/extension/lst
+  mime-type: application/x-list
+  file-extention: 
+    - .lst

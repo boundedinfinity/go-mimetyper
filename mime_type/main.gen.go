@@ -785,10 +785,11 @@ const (
 	ApplicationXMarkdown                                                 MimeType = "application/x-markdown"                                                    // Markdown source file
 	ApplicationXNunjucks                                                 MimeType = "application/x-nunjucks"                                                    // Nunjucks template file
 	ApplicationXHandlebars                                               MimeType = "application/x-handlebars"                                                  // Handlebars template file
-	ApplicationXEjs                                                      MimeType = "application/x-ejs"                                                         // EJS template file
+	ApplicationXEjs                                                      MimeType = "application/x-ejs"                                                         // Embedded JavaScript Template file
 	ApplicationXMustache                                                 MimeType = "application/x-mustache"                                                    // Mustache template file
 	ApplicationXHaml                                                     MimeType = "application/x-haml"                                                        // Haml template file
 	ApplicationXPug                                                      MimeType = "application/x-pug"                                                         // Pug template file
 	ApplicationXLiquid                                                   MimeType = "application/x-liquid"                                                      // Liquid template file
 	ApplicationXWebc                                                     MimeType = "application/x-webc"                                                        // Web Component source file
+	ApplicationXList                                                     MimeType = "application/x-list"                                                        // List file
 )
