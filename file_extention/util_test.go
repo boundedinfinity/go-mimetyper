@@ -11,7 +11,7 @@ import (
 func Test_Extention2MimeType_valid(t *testing.T) {
 	input := file_extention.Aab.String()
 	expected := mime_type.ApplicationXAuthorwareBin
-	actual, err := file_extention.GetMimeType(input)
+	actual, err := file_extention.FromExt(input)
 
 	assert.Nil(t, err)
 	assert.Equal(t, expected, actual)
@@ -19,7 +19,7 @@ func Test_Extention2MimeType_valid(t *testing.T) {
 
 func Test_Extention2MimeType_invalid(t *testing.T) {
 	input := ".turd"
-	_, err := file_extention.GetMimeType(input)
+	_, err := file_extention.FromExt(input)
 
 	assert.NotNil(t, err)
 }

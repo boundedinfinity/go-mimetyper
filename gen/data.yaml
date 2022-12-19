@@ -269,22 +269,22 @@
   mime-type-alt: []
   file-extention:
     - .prf
-- description: 'PKCS #10 - Certification Request Standard'
+- description: "PKCS #10 - Certification Request Standard"
   mime-type: application/pkcs10
   mime-type-alt: []
   file-extention:
     - .p10
-- description: 'PKCS #7 - Cryptographic Message Syntax Standard'
+- description: "PKCS #7 - Cryptographic Message Syntax Standard"
   mime-type: application/pkcs7-mime
   mime-type-alt: []
   file-extention:
     - .p7m
-- description: 'PKCS #7 - Cryptographic Message Syntax Standard'
+- description: "PKCS #7 - Cryptographic Message Syntax Standard"
   mime-type: application/pkcs7-signature
   mime-type-alt: []
   file-extention:
     - .p7s
-- description: 'PKCS #8 - Private-Key Information Syntax Standard'
+- description: "PKCS #8 - Private-Key Information Syntax Standard"
   mime-type: application/pkcs8
   mime-type-alt: []
   file-extention:
@@ -2509,17 +2509,17 @@
   mime-type-alt: []
   file-extention:
     - .nc
-- description: 'PKCS #12 - Personal Information Exchange Syntax Standard'
+- description: "PKCS #12 - Personal Information Exchange Syntax Standard"
   mime-type: application/x-pkcs12
   mime-type-alt: []
   file-extention:
     - .p12
-- description: 'PKCS #7 - Cryptographic Message Syntax Standard (Certificates)'
+- description: "PKCS #7 - Cryptographic Message Syntax Standard (Certificates)"
   mime-type: application/x-pkcs7-certificates
   mime-type-alt: []
   file-extention:
     - .p7b
-- description: 'PKCS #7 - Cryptographic Message Syntax Standard (Certificate Request Response)'
+- description: "PKCS #7 - Cryptographic Message Syntax Standard (Certificate Request Response)"
   mime-type: application/x-pkcs7-certreqresp
   mime-type-alt: []
   file-extention:
@@ -2572,7 +2572,7 @@
 - description: Tcl Script
   reference: https://en.wikipedia.org/wiki/Tcl
   mime-type: application/x-tcl
-  file-extention: 
+  file-extention:
     - .tcl
     - .tbc
 - description: TeX
@@ -3562,12 +3562,12 @@
     - .cs
     - .csx
 - description: Python source file
-  reference: 
+  reference:
   mime-type: application/x-python
   file-extention:
     - .py
 - description: Python generated file
-  reference: 
+  reference:
   mime-type: application/x-python-generated
   file-extention:
     - .pyi
@@ -3701,12 +3701,12 @@
 - description: Xtend source file
   reference: https://en.wikipedia.org/wiki/Xtend
   mime-type: application/x-xtend
-  file-extention: 
+  file-extention:
     - .xtend
 - description: XQuery source file
   reference: https://en.wikipedia.org/wiki/XQuery
   mime-type: application/x-xquery
-  file-extention: 
+  file-extention:
     - .xq
     - .xql
     - .xqm
@@ -3715,24 +3715,24 @@
 - description: WebAssembly
   reference: https://en.wikipedia.org/wiki/WebAssembly
   mime-type: application/x-webassembly
-  file-extention: 
+  file-extention:
     - .wat
     - .wasm
 - description: Standard Query Language (SQL) source file
   mime-type: application/x-sql
-  file-extention: 
+  file-extention:
     - .sql
     - .ddl
 - description: R source file
   mime-type: application/x-r
-  file-extention: 
+  file-extention:
     - .r
     - .rdata
     - .rds
     - .rda
 - description: PowerShell script file
   mime-type: application/x-powershell
-  file-extention: 
+  file-extention:
     - .ps1
     - .ps1xml
     - .psc1
@@ -3742,7 +3742,7 @@
     - .cdxml
 - description: Perl source file
   mime-type: application/x-perl
-  file-extention: 
+  file-extention:
     - .pl
     - .plx
     - .pm
@@ -3752,33 +3752,33 @@
     - .cgi
 - description: Objective-C source file
   mime-type: application/x-objective-C
-  file-extention: 
+  file-extention:
     - .m
     - .mm
 - description: C Header source file
   mime-type: application/x-c-header
-  file-extention: 
+  file-extention:
     - .h
 - description: Lua source file
   mime-type: application/x-lua
-  file-extention: 
+  file-extention:
     - .lua
 - description: Guile source file
   mime-type: application/x-guile
-  # file-extention: 
+  # file-extention:
   #   - .scm
   #   - .go
 - description: Fortan source file
   reference: https://fileinfo.com/extension/for
   mime-type: application/x-fortran
-  file-extention: 
+  file-extention:
     # - .f
     - .for
     - .f90
 - description: Forth source file
   reference: https://fileinfo.com/extension/4th
   mime-type: application/x-forth
-  file-extention: 
+  file-extention:
     # - .fs
     - .fth
     - .4th
@@ -3787,46 +3787,46 @@
 - description: Markdown source file
   reference: https://fileinfo.com/extension/md
   mime-type: application/x-markdown
-  file-extention: 
+  file-extention:
     - .md
 - description: Nunjucks template file
   mime-type: application/x-nunjucks
-  file-extention: 
+  file-extention:
     - .njk
 - description: Handlebars template file
   reference: https://fileinfo.com/extension/hbs
   mime-type: application/x-handlebars
-  file-extention: 
+  file-extention:
     - .hbs
 - description: Embedded JavaScript Template file
   reference: https://fileinfo.com/extension/ejs
   mime-type: application/x-ejs
-  file-extention: 
+  file-extention:
     - .ejs
 - description: Mustache template file
   mime-type: application/x-mustache
-  file-extention: 
+  file-extention:
     - .mustache
 - description: Haml template file
   reference: https://fileinfo.com/extension/haml
   mime-type: application/x-haml
-  file-extention: 
+  file-extention:
     - .haml
 - description: Pug template file
   reference: https://fileinfo.com/extension/pug
   mime-type: application/x-pug
-  file-extention: 
+  file-extention:
     - .pug
 - description: Liquid template file
   mime-type: application/x-liquid
-  file-extention: 
+  file-extention:
     - .liquid
 - description: Web Component source file
   mime-type: application/x-webc
-  file-extention: 
+  file-extention:
     - .webc
 - description: List file
   reference: https://fileinfo.com/extension/lst
   mime-type: application/x-list
-  file-extention: 
+  file-extention:
     - .lst

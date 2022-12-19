@@ -2,11 +2,12 @@ package file_extention
 
 import (
 	"fmt"
+	"path/filepath"
 
 	"github.com/boundedinfinity/go-mimetyper/mime_type"
 )
 
-func GetMimeType(ext string) (mime_type.MimeType, error) {
+func FromExt(ext string) (mime_type.MimeType, error) {
 	var typedExt FileExtention
 	var err error
 
@@ -21,6 +22,11 @@ func GetMimeType(ext string) (mime_type.MimeType, error) {
 	} else {
 		return mime_type.Unkown, fmt.Errorf("can't map extention %v to a MIME type", ext)
 	}
+}
+
+func FromPath(path string) (mime_type.MimeType, error) {
+	ext := filepath.Ext(path)
+	return FromExt(ext)
 }
 
 func GetExts(mimetypes ...mime_type.MimeType) ([]FileExtention, error) {
