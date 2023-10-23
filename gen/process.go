@@ -10,7 +10,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/boundedinfinity/go-commoner/optioner"
+	"github.com/boundedinfinity/go-commoner/functional/optioner"
 	"gopkg.in/yaml.v3"
 )
 

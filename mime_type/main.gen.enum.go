@@ -13,7 +13,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/boundedinfinity/go-commoner/slicer" // v1.0.15
+	"github.com/boundedinfinity/go-commoner/idiomatic/slicer" // v1.0.15
 )
 
 var (
@@ -807,9 +807,9 @@ func (t MimeType) String() string {
 }
 
 func Parse(v string) (MimeType, error) {
-	f, ok := slicer.FindFn(All, func(x MimeType) bool {
+	f, ok := slicer.FindFn(func(x MimeType) bool {
 		return MimeType(v) == x
-	})
+	}, All...)
 
 	if !ok {
 		return f, ErrorV(v)
@@ -819,9 +819,9 @@ func Parse(v string) (MimeType, error) {
 }
 
 func Is(s string) bool {
-	return slicer.ContainsFn(All, func(v MimeType) bool {
+	return slicer.ContainsFn(func(v MimeType) bool {
 		return string(v) == s
-	})
+	}, All...)
 }
 
 var ErrInvalid = errors.New("invalid enumeration type")
@@ -829,7 +829,7 @@ var ErrInvalid = errors.New("invalid enumeration type")
 func ErrorV(v string) error {
 	return fmt.Errorf(
 		"%w '%v', must be one of %v",
-		ErrInvalid, v, slicer.Join(All, ","),
+		ErrInvalid, v, slicer.Join(",", All...),
 	)
 }
 

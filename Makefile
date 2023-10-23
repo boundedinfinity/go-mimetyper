@@ -14,7 +14,7 @@ purge:
 	rm -rf mime_type/*.gen.go	
 	rm -rf mime_type/*.enum.go
 
-test: generate
+test: 
 	go test ./...
 
 commit:
