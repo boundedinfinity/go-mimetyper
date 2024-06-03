@@ -26,6 +26,9 @@ tag:
 	git tag -fa $(tag) -m "$(tag)"
 	git push -f origin $(tag)
 
+tag-list:
+	git tag -l | sort -V
+
 publish: test
 	@if ack replace go.mod ;then echo 'Remove the "replace" line from the go.mod file'; exit 1; fi
 	make commit m=$(m)

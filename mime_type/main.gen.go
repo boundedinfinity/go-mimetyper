@@ -11,6 +11,10 @@ package mime_type
 type MimeType string
 
 const (
+	ApplicationXJupyterNotebook                                          MimeType = "application/x-jupyter-notebook"                                            // Jupyter Notebook
+	ApplicationXVndMsExcelWebQuery                                       MimeType = "application/x-vnd.ms-excel.web-query"                                      // Microsoft Excel Web Query file
+	ApplicationXAvroSchemaIdl                                            MimeType = "application/x-avro-schema-idl"                                             // Apache Avro Interface Definition Language (IDL) Schema file
+	ApplicationXAvroSchemaJson                                           MimeType = "application/x-avro-schema-json"                                            // Apache Avro Javascript Object Notation (JSON) Schema file
 	ApplicationAndrewInset                                               MimeType = "application/andrew-inset"                                                  // Andrew Toolkit
 	ApplicationApplixware                                                MimeType = "application/applixware"                                                    // Applixware
 	ApplicationAtomXml                                                   MimeType = "application/atom+xml"                                                      // Atom Syndication Format

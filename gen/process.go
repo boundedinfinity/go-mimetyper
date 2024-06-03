@@ -5,7 +5,6 @@ import (
 	"bytes"
 	"fmt"
 	"go/format"
-	"io/ioutil"
 	"os"
 	"strings"
 	"text/template"
@@ -226,7 +225,7 @@ func writeTemplate(p, t string, data []data, source_format bool) error {
 }
 
 func readDataYaml(vs *[]data) error {
-	bs, err := ioutil.ReadFile(dataYaml)
+	bs, err := os.ReadFile(dataYaml)
 
 	if err != nil {
 		return err

@@ -10,6 +10,10 @@ package mime_type
 
 var (
 	m = map[MimeType]MimeType{
+		ApplicationXJupyterNotebook:          ApplicationXJupyterNotebook,          // Jupyter Notebook
+		ApplicationXVndMsExcelWebQuery:       ApplicationXVndMsExcelWebQuery,       // Microsoft Excel Web Query file
+		ApplicationXAvroSchemaIdl:            ApplicationXAvroSchemaIdl,            // Apache Avro Interface Definition Language (IDL) Schema file
+		ApplicationXAvroSchemaJson:           ApplicationXAvroSchemaJson,           // Apache Avro Javascript Object Notation (JSON) Schema file
 		ApplicationAndrewInset:               ApplicationAndrewInset,               // Andrew Toolkit
 		ApplicationApplixware:                ApplicationApplixware,                // Applixware
 		ApplicationAtomXml:                   ApplicationAtomXml,                   // Atom Syndication Format

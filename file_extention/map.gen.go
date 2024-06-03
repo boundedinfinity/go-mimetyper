@@ -12,6 +12,10 @@ import "github.com/boundedinfinity/go-mimetyper/mime_type"
 
 var (
 	ext2mt = map[FileExtention]mime_type.MimeType{
+		Ipynb:       mime_type.ApplicationXJupyterNotebook,                                          // Jupyter Notebook
+		Iqy:         mime_type.ApplicationXVndMsExcelWebQuery,                                       // Microsoft Excel Web Query file
+		Avdl:        mime_type.ApplicationXAvroSchemaIdl,                                            // Apache Avro Interface Definition Language (IDL) Schema file
+		Avsc:        mime_type.ApplicationXAvroSchemaJson,                                           // Apache Avro Javascript Object Notation (JSON) Schema file
 		Aw:          mime_type.ApplicationApplixware,                                                // Applixware
 		Atom:        mime_type.ApplicationAtomXml,                                                   // Atom Syndication Format
 		Atomcat:     mime_type.ApplicationAtomcatXml,                                                // Atom Publishing Protocol
@@ -827,6 +831,18 @@ var (
 	}
 
 	mt2ext = map[mime_type.MimeType][]FileExtention{
+		mime_type.ApplicationXJupyterNotebook: {
+			Ipynb, // Jupyter Notebook
+		},
+		mime_type.ApplicationXVndMsExcelWebQuery: {
+			Iqy, // Microsoft Excel Web Query file
+		},
+		mime_type.ApplicationXAvroSchemaIdl: {
+			Avdl, // Apache Avro Interface Definition Language (IDL) Schema file
+		},
+		mime_type.ApplicationXAvroSchemaJson: {
+			Avsc, // Apache Avro Javascript Object Notation (JSON) Schema file
+		},
 		mime_type.ApplicationAndrewInset: {},
 		mime_type.ApplicationApplixware: {
 			Aw, // Applixware

@@ -11,6 +11,10 @@ package file_extention
 type FileExtention string
 
 const (
+	Ipynb       FileExtention = ".ipynb"       // Jupyter Notebook
+	Iqy         FileExtention = ".iqy"         // Microsoft Excel Web Query file
+	Avdl        FileExtention = ".avdl"        // Apache Avro Interface Definition Language (IDL) Schema file
+	Avsc        FileExtention = ".avsc"        // Apache Avro Javascript Object Notation (JSON) Schema file
 	Aw          FileExtention = ".aw"          // Applixware
 	Atom        FileExtention = ".atom"        // Atom Syndication Format
 	Atomcat     FileExtention = ".atomcat"     // Atom Publishing Protocol
