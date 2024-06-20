@@ -10,790 +10,790 @@ package mime_type
 
 var (
 	m = map[MimeType]MimeType{
-		ApplicationXJupyterNotebook:          ApplicationXJupyterNotebook,          // Jupyter Notebook
-		ApplicationXVndMsExcelWebQuery:       ApplicationXVndMsExcelWebQuery,       // Microsoft Excel Web Query file
-		ApplicationXAvroSchemaIdl:            ApplicationXAvroSchemaIdl,            // Apache Avro Interface Definition Language (IDL) Schema file
-		ApplicationXAvroSchemaJson:           ApplicationXAvroSchemaJson,           // Apache Avro Javascript Object Notation (JSON) Schema file
-		ApplicationAndrewInset:               ApplicationAndrewInset,               // Andrew Toolkit
-		ApplicationApplixware:                ApplicationApplixware,                // Applixware
-		ApplicationAtomXml:                   ApplicationAtomXml,                   // Atom Syndication Format
-		ApplicationAtomcatXml:                ApplicationAtomcatXml,                // Atom Publishing Protocol
-		ApplicationAtomsvcXml:                ApplicationAtomsvcXml,                // Atom Publishing Protocol Service Document
-		ApplicationCcxmlXml:                  ApplicationCcxmlXml,                  // Voice Browser Call Control
-		ApplicationCdmiCapability:            ApplicationCdmiCapability,            // Cloud Data Management Interface (CDMI) - Capability
-		ApplicationCdmiContainer:             ApplicationCdmiContainer,             // Cloud Data Management Interface (CDMI) - Contaimer
-		ApplicationCdmiDomain:                ApplicationCdmiDomain,                // Cloud Data Management Interface (CDMI) - Domain
-		ApplicationCdmiObject:                ApplicationCdmiObject,                // Cloud Data Management Interface (CDMI) - Object
-		ApplicationCdmiQueue:                 ApplicationCdmiQueue,                 // Cloud Data Management Interface (CDMI) - Queue
-		ApplicationCuSeeme:                   ApplicationCuSeeme,                   // CU-SeeMe
-		ApplicationDavmountXml:               ApplicationDavmountXml,               // Web Distributed Authoring and Versioning
-		ApplicationDsscDer:                   ApplicationDsscDer,                   // Data Structure for the Security Suitability of Cryptographic Algorithms
-		ApplicationDsscXml:                   ApplicationDsscXml,                   // Data Structure for the Security Suitability of Cryptographic Algorithms
-		ApplicationEcmascript:                ApplicationEcmascript,                // ECMAScript
-		ApplicationEmmaXml:                   ApplicationEmmaXml,                   // Extensible MultiModal Annotation
-		ApplicationEpubZip:                   ApplicationEpubZip,                   // Electronic Publication
-		ApplicationExi:                       ApplicationExi,                       // Efficient XML Interchange
-		ApplicationFontTdpfr:                 ApplicationFontTdpfr,                 // Portable Font Resource
-		ApplicationGpxXml:                    ApplicationGpxXml,                    // GPS eXchange Format
-		ApplicationGzip:                      ApplicationGzip,                      // GZip Compressed Archive
-		ApplicationHyperstudio:               ApplicationHyperstudio,               // Hyperstudio
-		ApplicationIpfix:                     ApplicationIpfix,                     // Internet Protocol Flow Information Export
-		ApplicationJavaArchive:               ApplicationJavaArchive,               // Java Archive
-		ApplicationJavaSerializedObject:      ApplicationJavaSerializedObject,      // Java Serialized Object
-		ApplicationJavaVm:                    ApplicationJavaVm,                    // Java Bytecode File
-		ApplicationJavascript:                ApplicationJavascript,                // JavaScript language file
-		TextJavascript:                       ApplicationJavascript,                // JavaScript language file
-		ApplicationJson:                      ApplicationJson,                      // JavaScript Object Notation (JSON)
-		ApplicationLdJson:                    ApplicationLdJson,                    // JSON-LD format
-		ApplicationMacBinhex40:               ApplicationMacBinhex40,               // Macintosh BinHex 4.0
-		ApplicationMacCompactpro:             ApplicationMacCompactpro,             // Compact Pro
-		ApplicationMadsXml:                   ApplicationMadsXml,                   // Metadata Authority Description Schema
-		ApplicationMarc:                      ApplicationMarc,                      // MARC Formats
-		ApplicationMarcxmlXml:                ApplicationMarcxmlXml,                // MARC21 XML Schema
-		ApplicationMathematica:               ApplicationMathematica,               // Mathematica Notebooks
-		ApplicationMathmlXml:                 ApplicationMathmlXml,                 // Mathematical Markup Language
-		ApplicationMbox:                      ApplicationMbox,                      // Mbox database files
-		ApplicationMediaservercontrolXml:     ApplicationMediaservercontrolXml,     // Media Server Control Markup Language
-		ApplicationMetalink4Xml:              ApplicationMetalink4Xml,              // Metalink
-		ApplicationMetsXml:                   ApplicationMetsXml,                   // Metadata Encoding and Transmission Standard
-		ApplicationModsXml:                   ApplicationModsXml,                   // Metadata Object Description Schema
-		ApplicationMp21:                      ApplicationMp21,                      // MPEG-21
-		ApplicationMsword:                    ApplicationMsword,                    // Microsoft Word
-		ApplicationMxf:                       ApplicationMxf,                       // Material Exchange Format
-		ApplicationOctetStream:               ApplicationOctetStream,               // Binary Data
-		ApplicationOda:                       ApplicationOda,                       // Office Document Architecture
-		ApplicationOebpsPackageXml:           ApplicationOebpsPackageXml,           // Open eBook Publication Structure
-		ApplicationOgg:                       ApplicationOgg,                       // Ogg
-		ApplicationOnenote:                   ApplicationOnenote,                   // Microsoft OneNote
-		ApplicationPatchOpsErrorXml:          ApplicationPatchOpsErrorXml,          // XML Patch Framework
-		ApplicationPdf:                       ApplicationPdf,                       // Adobe Portable Document Format
-		ApplicationPgpEncrypted:              ApplicationPgpEncrypted,              // Pretty Good Privacy Signature
-		ApplicationPgpSignature:              ApplicationPgpEncrypted,              // Pretty Good Privacy Signature
-		ApplicationPicsRules:                 ApplicationPicsRules,                 // PICSRules
-		ApplicationPkcs10:                    ApplicationPkcs10,                    // PKCS #10 - Certification Request Standard
-		ApplicationPkcs7Mime:                 ApplicationPkcs7Mime,                 // PKCS #7 - Cryptographic Message Syntax Standard
-		ApplicationPkcs7Signature:            ApplicationPkcs7Signature,            // PKCS #7 - Cryptographic Message Syntax Standard
-		ApplicationPkcs8:                     ApplicationPkcs8,                     // PKCS #8 - Private-Key Information Syntax Standard
-		ApplicationPkixAttrCert:              ApplicationPkixAttrCert,              // Attribute Certificate
-		ApplicationPkixCert:                  ApplicationPkixCert,                  // Internet Public Key Infrastructure - Certificate
-		ApplicationPkixCrl:                   ApplicationPkixCrl,                   // Internet Public Key Infrastructure - Certificate Revocation Lists
-		ApplicationPkixPkipath:               ApplicationPkixPkipath,               // Internet Public Key Infrastructure - Certification Path
-		ApplicationPkixcmp:                   ApplicationPkixcmp,                   // Internet Public Key Infrastructure - Certificate Management Protocole
-		ApplicationPlsXml:                    ApplicationPlsXml,                    // Pronunciation Lexicon Specification
-		ApplicationPostscript:                ApplicationPostscript,                // PostScript
-		ApplicationPrsCww:                    ApplicationPrsCww,                    // CU-Writer
-		ApplicationPskcXml:                   ApplicationPskcXml,                   // Portable Symmetric Key Container
-		ApplicationRdfXml:                    ApplicationRdfXml,                    // Resource Description Framework
-		ApplicationReginfoXml:                ApplicationReginfoXml,                // IMS Networks
-		ApplicationRelaxNgCompactSyntax:      ApplicationRelaxNgCompactSyntax,      // Relax NG Compact Syntax
-		ApplicationResourceListsXml:          ApplicationResourceListsXml,          // XML Resource Lists
-		ApplicationResourceListsDiffXml:      ApplicationResourceListsDiffXml,      // XML Resource Lists Diff
-		ApplicationRsdXml:                    ApplicationRsdXml,                    // Really Simple Discovery
-		ApplicationRssXml:                    ApplicationRssXml,                    // RSS - Really Simple Syndication
-		ApplicationRtf:                       ApplicationRtf,                       // Rich Text Format
-		ApplicationSbmlXml:                   ApplicationSbmlXml,                   // Systems Biology Markup Language
-		ApplicationScvpCvRequest:             ApplicationScvpCvRequest,             // Server-Based Certificate Validation Protocol - Validation Request
-		ApplicationScvpCvResponse:            ApplicationScvpCvResponse,            // Server-Based Certificate Validation Protocol - Validation Response
-		ApplicationScvpVpRequest:             ApplicationScvpVpRequest,             // Server-Based Certificate Validation Protocol - Validation Policies - Request
-		ApplicationScvpVpResponse:            ApplicationScvpVpResponse,            // Server-Based Certificate Validation Protocol - Validation Policies - Response
-		ApplicationSdp:                       ApplicationSdp,                       // Session Description Protocol
-		ApplicationSetPaymentInitiation:      ApplicationSetPaymentInitiation,      // Secure Electronic Transaction - Payment
-		ApplicationSetRegistrationInitiation: ApplicationSetRegistrationInitiation, // Secure Electronic Transaction - Registration
-		ApplicationShfXml:                    ApplicationShfXml,                    // S Hexdump Format
-		ApplicationSmilXml:                   ApplicationSmilXml,                   // Synchronized Multimedia Integration Language
-		ApplicationSparqlQuery:               ApplicationSparqlQuery,               // SPARQL - Query
-		ApplicationSparqlResultsXml:          ApplicationSparqlResultsXml,          // SPARQL - Results
-		ApplicationSrgs:                      ApplicationSrgs,                      // Speech Recognition Grammar Specification
-		ApplicationSrgsXml:                   ApplicationSrgsXml,                   // Speech Recognition Grammar Specification - XML
-		ApplicationSruXml:                    ApplicationSruXml,                    // Search/Retrieve via URL Response Format
-		ApplicationSsmlXml:                   ApplicationSsmlXml,                   // Speech Synthesis Markup Language
-		ApplicationTeiXml:                    ApplicationTeiXml,                    // Text Encoding and Interchange
-		ApplicationThraudXml:                 ApplicationThraudXml,                 // Sharing Transaction Fraud Data
-		ApplicationTimestampedData:           ApplicationTimestampedData,           // Time Stamped Data Envelope
-		ApplicationVnd3gppPicBwLarge:         ApplicationVnd3gppPicBwLarge,         // 3rd Generation Partnership Project - Pic Large
-		ApplicationVnd3gppPicBwSmall:         ApplicationVnd3gppPicBwSmall,         // 3rd Generation Partnership Project - Pic Small
-		ApplicationVnd3gppPicBwVar:           ApplicationVnd3gppPicBwVar,           // 3rd Generation Partnership Project - Pic Var
-		ApplicationVnd3gpp2Tcap:              ApplicationVnd3gpp2Tcap,              // 3rd Generation Partnership Project - Transaction Capabilities Application Part
-		ApplicationVnd3mPostItNotes:          ApplicationVnd3mPostItNotes,          // 3M Post It Notes
-		ApplicationVndAccpacSimplyAso:        ApplicationVndAccpacSimplyAso,        // Simply Accounting
-		ApplicationVndAccpacSimplyImp:        ApplicationVndAccpacSimplyImp,        // Simply Accounting - Data Import
-		ApplicationVndAcucobol:               ApplicationVndAcucobol,               // ACU Cobol
-		ApplicationVndAcucorp:                ApplicationVndAcucorp,                // ACU Cobol
-		ApplicationVndAdobeAirApplicationInstallerPackageZip: ApplicationVndAdobeAirApplicationInstallerPackageZip, // Adobe AIR Application
-		ApplicationVndAdobeFxp:                               ApplicationVndAdobeFxp,                               // Adobe Flex Project
-		ApplicationVndAdobeXdpXml:                            ApplicationVndAdobeXdpXml,                            // Adobe XML Data Package
-		ApplicationVndAdobeXfdf:                              ApplicationVndAdobeXfdf,                              // Adobe XML Forms Data Format
-		ApplicationVndAheadSpace:                             ApplicationVndAheadSpace,                             // Ahead AIR Application
-		ApplicationVndAirzipFilesecureAzf:                    ApplicationVndAirzipFilesecureAzf,                    // AirZip FileSECURE
-		ApplicationVndAirzipFilesecureAzs:                    ApplicationVndAirzipFilesecureAzs,                    // AirZip FileSECURE
-		ApplicationVndAmazonEbook:                            ApplicationVndAmazonEbook,                            // Amazon Kindle eBook format
-		ApplicationVndAmericandynamicsAcc:                    ApplicationVndAmericandynamicsAcc,                    // Active Content Compression
-		ApplicationVndAmigaAmi:                               ApplicationVndAmigaAmi,                               // AmigaDE
-		ApplicationVndAndroidPackageArchive:                  ApplicationVndAndroidPackageArchive,                  // Android Package Archive
-		ApplicationVndAnserWebCertificateIssueInitiation:     ApplicationVndAnserWebCertificateIssueInitiation,     // ANSER-WEB Terminal Client - Certificate Issue
-		ApplicationVndAnserWebFundsTransferInitiation:        ApplicationVndAnserWebFundsTransferInitiation,        // ANSER-WEB Terminal Client - Web Funds Transfer
-		ApplicationVndAntixGameComponent:                     ApplicationVndAntixGameComponent,                     // Antix Game Player
-		ApplicationVndAppleInstallerXml:                      ApplicationVndAppleInstallerXml,                      // Apple Installer Package
-		ApplicationVndAppleMpegurl:                           ApplicationVndAppleMpegurl,                           // Multimedia Playlist Unicode
-		ApplicationVndAristanetworksSwi:                      ApplicationVndAristanetworksSwi,                      // Arista Networks Software Image
-		ApplicationVndAudiograph:                             ApplicationVndAudiograph,                             // Audiograph
-		ApplicationVndBlueiceMultipass:                       ApplicationVndBlueiceMultipass,                       // Blueice Research Multipass
-		ApplicationVndBmi:                                    ApplicationVndBmi,                                    // BMI Drawing Data Interchange
-		ApplicationVndBusinessobjects:                        ApplicationVndBusinessobjects,                        // BusinessObjects
-		ApplicationVndChipnutsKaraokeMmd:                     ApplicationVndChipnutsKaraokeMmd,                     // Karaoke on Chipnuts Chipsets
-		ApplicationVndCinderella:                             ApplicationVndCinderella,                             // Interactive Geometry Software Cinderella
-		ApplicationVndClaymore:                               ApplicationVndClaymore,                               // Claymore Data Files
-		ApplicationVndCloantoRp9:                             ApplicationVndCloantoRp9,                             // RetroPlatform Player
-		ApplicationVndClonkC4group:                           ApplicationVndClonkC4group,                           // Clonk Game
-		ApplicationVndCluetrustCartomobileConfig:             ApplicationVndCluetrustCartomobileConfig,             // ClueTrust CartoMobile - Config
-		ApplicationVndCluetrustCartomobileConfigPkg:          ApplicationVndCluetrustCartomobileConfigPkg,          // ClueTrust CartoMobile - Config Package
-		ApplicationVndCommonspace:                            ApplicationVndCommonspace,                            // Sixth Floor Media - CommonSpace
-		ApplicationVndContactCmsg:                            ApplicationVndContactCmsg,                            // CIM Database
-		ApplicationVndCosmocaller:                            ApplicationVndCosmocaller,                            // CosmoCaller
-		ApplicationVndCrickClicker:                           ApplicationVndCrickClicker,                           // CrickSoftware - Clicker
-		ApplicationVndCrickClickerKeyboard:                   ApplicationVndCrickClickerKeyboard,                   // CrickSoftware - Clicker - Keyboard
-		ApplicationVndCrickClickerPalette:                    ApplicationVndCrickClickerPalette,                    // CrickSoftware - Clicker - Palette
-		ApplicationVndCrickClickerTemplate:                   ApplicationVndCrickClickerTemplate,                   // CrickSoftware - Clicker - Template
-		ApplicationVndCrickClickerWordbank:                   ApplicationVndCrickClickerWordbank,                   // CrickSoftware - Clicker - Wordbank
-		ApplicationVndCriticaltoolsWbsXml:                    ApplicationVndCriticaltoolsWbsXml,                    // Critical Tools - PERT Chart EXPERT
-		ApplicationVndCtcPosml:                               ApplicationVndCtcPosml,                               // PosML
-		ApplicationVndCupsPpd:                                ApplicationVndCupsPpd,                                // Adobe PostScript Printer Description File Format
-		ApplicationVndCurlCar:                                ApplicationVndCurlCar,                                // CURL Applet
-		ApplicationVndCurlPcurl:                              ApplicationVndCurlPcurl,                              // CURL Applet
-		ApplicationVndDataVisionRdz:                          ApplicationVndDataVisionRdz,                          // RemoteDocs R-Viewer
-		ApplicationVndDenovoFcselayoutLink:                   ApplicationVndDenovoFcselayoutLink,                   // FCS Express Layout Link
-		ApplicationVndDna:                                    ApplicationVndDna,                                    // New Moon Liftoff/DNA
-		ApplicationVndDolbyMlp:                               ApplicationVndDolbyMlp,                               // Dolby Meridian Lossless Packing
-		ApplicationVndDpgraph:                                ApplicationVndDpgraph,                                // DPGraph
-		ApplicationVndDreamfactory:                           ApplicationVndDreamfactory,                           // DreamFactory
-		ApplicationVndDvbAit:                                 ApplicationVndDvbAit,                                 // Digital Video Broadcasting
-		ApplicationVndDvbService:                             ApplicationVndDvbService,                             // Digital Video Broadcasting
-		ApplicationVndDynageo:                                ApplicationVndDynageo,                                // DynaGeo
-		ApplicationVndEcowinChart:                            ApplicationVndEcowinChart,                            // EcoWin Chart
-		ApplicationVndEnliven:                                ApplicationVndEnliven,                                // Enliven Viewer
-		ApplicationVndEpsonEsf:                               ApplicationVndEpsonEsf,                               // QUASS Stream Player
-		ApplicationVndEpsonMsf:                               ApplicationVndEpsonMsf,                               // QUASS Stream Player
-		ApplicationVndEpsonQuickanime:                        ApplicationVndEpsonQuickanime,                        // QuickAnime Player
-		ApplicationVndEpsonSalt:                              ApplicationVndEpsonSalt,                              // SimpleAnimeLite Player
-		ApplicationVndEpsonSsf:                               ApplicationVndEpsonSsf,                               // QUASS Stream Player
-		ApplicationVndEszigno3Xml:                            ApplicationVndEszigno3Xml,                            // MICROSEC e-Szignï¿½
-		ApplicationVndEzpixAlbum:                             ApplicationVndEzpixAlbum,                             // EZPix Secure Photo Album
-		ApplicationVndEzpixPackage:                           ApplicationVndEzpixPackage,                           // EZPix Secure Photo Album
-		ApplicationVndFdf:                                    ApplicationVndFdf,                                    // Forms Data Format
-		ApplicationVndFdsnSeed:                               ApplicationVndFdsnSeed,                               // Digital Siesmograph Networks - SEED Datafiles
-		ApplicationVndFlographit:                             ApplicationVndFlographit,                             // NpGraphIt
-		ApplicationVndFluxtimeClip:                           ApplicationVndFluxtimeClip,                           // FluxTime Clip
-		ApplicationVndFramemaker:                             ApplicationVndFramemaker,                             // FrameMaker Normal Format
-		ApplicationVndFrogansFnc:                             ApplicationVndFrogansFnc,                             // Frogans Player
-		ApplicationVndFrogansLtf:                             ApplicationVndFrogansLtf,                             // Frogans Player
-		ApplicationVndFscWeblaunch:                           ApplicationVndFscWeblaunch,                           // Friendly Software Corporation
-		ApplicationVndFujitsuOasys:                           ApplicationVndFujitsuOasys,                           // Fujitsu Oasys
-		ApplicationVndFujitsuOasys2:                          ApplicationVndFujitsuOasys2,                          // Fujitsu Oasys
-		ApplicationVndFujitsuOasys3:                          ApplicationVndFujitsuOasys3,                          // Fujitsu Oasys
-		ApplicationVndFujitsuOasysgp:                         ApplicationVndFujitsuOasysgp,                         // Fujitsu Oasys
-		ApplicationVndFujitsuOasysprs:                        ApplicationVndFujitsuOasysprs,                        // Fujitsu Oasys
-		ApplicationVndFujixeroxDdd:                           ApplicationVndFujixeroxDdd,                           // Fujitsu - Xerox 2D CAD Data
-		ApplicationVndFujixeroxDocuworks:                     ApplicationVndFujixeroxDocuworks,                     // Fujitsu - Xerox DocuWorks
-		ApplicationVndFujixeroxDocuworksBinder:               ApplicationVndFujixeroxDocuworksBinder,               // Fujitsu - Xerox DocuWorks Binder
-		ApplicationVndFuzzysheet:                             ApplicationVndFuzzysheet,                             // FuzzySheet
-		ApplicationVndGenomatixTuxedo:                        ApplicationVndGenomatixTuxedo,                        // Genomatix Tuxedo Framework
-		ApplicationVndGeogebraFile:                           ApplicationVndGeogebraFile,                           // GeoGebra
-		ApplicationVndGeogebraTool:                           ApplicationVndGeogebraTool,                           // GeoGebra
-		ApplicationVndGeometryExplorer:                       ApplicationVndGeometryExplorer,                       // GeoMetry Explorer
-		ApplicationVndGeonext:                                ApplicationVndGeonext,                                // GEONExT and JSXGraph
-		ApplicationVndGeoplan:                                ApplicationVndGeoplan,                                // GeoplanW
-		ApplicationVndGeospace:                               ApplicationVndGeospace,                               // GeospacW
-		ApplicationVndGmx:                                    ApplicationVndGmx,                                    // GameMaker ActiveX
-		ApplicationVndGoogleEarthKmlXml:                      ApplicationVndGoogleEarthKmlXml,                      // Google Earth - KML
-		ApplicationVndGoogleEarthKmz:                         ApplicationVndGoogleEarthKmz,                         // Google Earth - Zipped KML
-		ApplicationVndGrafeq:                                 ApplicationVndGrafeq,                                 // GrafEq
-		ApplicationVndGrooveAccount:                          ApplicationVndGrooveAccount,                          // Groove - Account
-		ApplicationVndGrooveHelp:                             ApplicationVndGrooveHelp,                             // Groove - Help
-		ApplicationVndGrooveIdentityMessage:                  ApplicationVndGrooveIdentityMessage,                  // Groove - Identity Message
-		ApplicationVndGrooveInjector:                         ApplicationVndGrooveInjector,                         // Groove - Injector
-		ApplicationVndGrooveToolMessage:                      ApplicationVndGrooveToolMessage,                      // Groove - Tool Message
-		ApplicationVndGrooveToolTemplate:                     ApplicationVndGrooveToolTemplate,                     // Groove - Tool Template
-		ApplicationVndGrooveVcard:                            ApplicationVndGrooveVcard,                            // Groove - Vcard
-		ApplicationVndHalXml:                                 ApplicationVndHalXml,                                 // Hypertext Application Language
-		ApplicationVndHandheldEntertainmentXml:               ApplicationVndHandheldEntertainmentXml,               // ZVUE Media Manager
-		ApplicationVndHbci:                                   ApplicationVndHbci,                                   // Homebanking Computer Interface (HBCI)
-		ApplicationVndHheLessonPlayer:                        ApplicationVndHheLessonPlayer,                        // Archipelago Lesson Player
-		ApplicationVndHpHpgl:                                 ApplicationVndHpHpgl,                                 // HP-GL/2 and HP RTL
-		ApplicationVndHpHpid:                                 ApplicationVndHpHpid,                                 // Hewlett Packard Instant Delivery
-		ApplicationVndHpHps:                                  ApplicationVndHpHps,                                  // Hewlett-Packard's WebPrintSmart
-		ApplicationVndHpJlyt:                                 ApplicationVndHpJlyt,                                 // HP Indigo Digital Press - Job Layout Languate
-		ApplicationVndHpPcl:                                  ApplicationVndHpPcl,                                  // HP Printer Command Language
-		ApplicationVndHpPclxl:                                ApplicationVndHpPclxl,                                // PCL 6 Enhanced (Formely PCL XL)
-		ApplicationVndHydrostatixSofData:                     ApplicationVndHydrostatixSofData,                     // Hydrostatix Master Suite
-		ApplicationVndHzn3dCrossword:                         ApplicationVndHzn3dCrossword,                         // 3D Crossword Plugin
-		ApplicationVndIbmMinipay:                             ApplicationVndIbmMinipay,                             // MiniPay
-		ApplicationVndIbmModcap:                              ApplicationVndIbmModcap,                              // MO:DCA-P
-		ApplicationVndIbmRightsManagement:                    ApplicationVndIbmRightsManagement,                    // IBM DB2 Rights Manager
-		ApplicationVndIccprofile:                             ApplicationVndIccprofile,                             // ICC profile
-		ApplicationVndIgloader:                               ApplicationVndIgloader,                               // igLoader
-		ApplicationVndImmervisionIvp:                         ApplicationVndImmervisionIvp,                         // ImmerVision PURE Players
-		ApplicationVndImmervisionIvu:                         ApplicationVndImmervisionIvu,                         // ImmerVision PURE Players
-		ApplicationVndInsorsIgm:                              ApplicationVndInsorsIgm,                              // IOCOM Visimeet
-		ApplicationVndInterconFormnet:                        ApplicationVndInterconFormnet,                        // Intercon FormNet
-		ApplicationVndIntergeo:                               ApplicationVndIntergeo,                               // Interactive Geometry Software
-		ApplicationVndIntuQbo:                                ApplicationVndIntuQbo,                                // Open Financial Exchange
-		ApplicationVndIntuQfx:                                ApplicationVndIntuQfx,                                // Quicken
-		ApplicationVndIpunpluggedRcprofile:                   ApplicationVndIpunpluggedRcprofile,                   // IP Unplugged Roaming Client
-		ApplicationVndIrepositoryPackageXml:                  ApplicationVndIrepositoryPackageXml,                  // iRepository / Lucidoc Editor
-		ApplicationVndIsXpr:                                  ApplicationVndIsXpr,                                  // Express by Infoseek
-		ApplicationVndIsacFcs:                                ApplicationVndIsacFcs,                                // International Society for Advancement of Cytometry
-		ApplicationVndJam:                                    ApplicationVndJam,                                    // Lightspeed Audio Lab
-		ApplicationVndJcpJavameMidletRms:                     ApplicationVndJcpJavameMidletRms,                     // Mobile Information Device Profile
-		ApplicationVndJisp:                                   ApplicationVndJisp,                                   // RhymBox
-		ApplicationVndJoostJodaArchive:                       ApplicationVndJoostJodaArchive,                       // Joda Archive
-		ApplicationVndKahootz:                                ApplicationVndKahootz,                                // Kahootz
-		ApplicationVndKdeKarbon:                              ApplicationVndKdeKarbon,                              // KDE KOffice Office Suite - Karbon
-		ApplicationVndKdeKchart:                              ApplicationVndKdeKchart,                              // KDE KOffice Office Suite - KChart
-		ApplicationVndKdeKformula:                            ApplicationVndKdeKformula,                            // KDE KOffice Office Suite - Kformula
-		ApplicationVndKdeKivio:                               ApplicationVndKdeKivio,                               // KDE KOffice Office Suite - Kivio
-		ApplicationVndKdeKontour:                             ApplicationVndKdeKontour,                             // KDE KOffice Office Suite - Kontour
-		ApplicationVndKdeKpresenter:                          ApplicationVndKdeKpresenter,                          // KDE KOffice Office Suite - Kpresenter
-		ApplicationVndKdeKspread:                             ApplicationVndKdeKspread,                             // KDE KOffice Office Suite - Kspread
-		ApplicationVndKdeKword:                               ApplicationVndKdeKword,                               // KDE KOffice Office Suite - Kword
-		ApplicationVndKenameaapp:                             ApplicationVndKenameaapp,                             // Kenamea App
-		ApplicationVndKidspiration:                           ApplicationVndKidspiration,                           // Kidspiration
-		ApplicationVndKinar:                                  ApplicationVndKinar,                                  // Kinar Applications
-		ApplicationVndKoan:                                   ApplicationVndKoan,                                   // SSEYO Koan Play File
-		ApplicationVndKodakDescriptor:                        ApplicationVndKodakDescriptor,                        // Kodak Storyshare
-		ApplicationVndLasLasXml:                              ApplicationVndLasLasXml,                              // Laser App Enterprise
-		ApplicationVndLlamagraphicsLifeBalanceDesktop:        ApplicationVndLlamagraphicsLifeBalanceDesktop,        // Life Balance - Desktop Edition
-		ApplicationVndLlamagraphicsLifeBalanceExchangeXml:    ApplicationVndLlamagraphicsLifeBalanceExchangeXml,    // Life Balance - Exchange Format
-		ApplicationVndLotus123:                               ApplicationVndLotus123,                               // Lotus 1-2-3
-		ApplicationVndLotusApproach:                          ApplicationVndLotusApproach,                          // Lotus Approach
-		ApplicationVndLotusFreelance:                         ApplicationVndLotusFreelance,                         // Lotus Freelance
-		ApplicationVndLotusNotes:                             ApplicationVndLotusNotes,                             // Lotus Notes
-		ApplicationVndLotusOrganizer:                         ApplicationVndLotusOrganizer,                         // Lotus Organizer
-		ApplicationVndLotusWordpro:                           ApplicationVndLotusWordpro,                           // Lotus Wordpro
-		ApplicationVndMacportsPortpkg:                        ApplicationVndMacportsPortpkg,                        // MacPorts Port System
-		ApplicationVndMcd:                                    ApplicationVndMcd,                                    // Micro CADAM Helix D&D
-		ApplicationVndMedcalcdata:                            ApplicationVndMedcalcdata,                            // MedCalc
-		ApplicationVndMediastationCdkey:                      ApplicationVndMediastationCdkey,                      // MediaRemote
-		ApplicationVndMfer:                                   ApplicationVndMfer,                                   // Medical Waveform Encoding Format
-		ApplicationVndMfmp:                                   ApplicationVndMfmp,                                   // Melody Format for Mobile Platform
-		ApplicationVndMicrografxFlo:                          ApplicationVndMicrografxFlo,                          // Micrografx
-		ApplicationVndMicrografxIgx:                          ApplicationVndMicrografxIgx,                          // Micrografx iGrafx Professional
-		ApplicationVndMif:                                    ApplicationVndMif,                                    // FrameMaker Interchange Format
-		ApplicationVndMobiusDaf:                              ApplicationVndMobiusDaf,                              // Mobius Management Systems - UniversalArchive
-		ApplicationVndMobiusDis:                              ApplicationVndMobiusDis,                              // Mobius Management Systems - Distribution Database
-		ApplicationVndMobiusMbk:                              ApplicationVndMobiusMbk,                              // Mobius Management Systems - Basket file
-		ApplicationVndMobiusMqy:                              ApplicationVndMobiusMqy,                              // Mobius Management Systems - Query File
-		ApplicationVndMobiusMsl:                              ApplicationVndMobiusMsl,                              // Mobius Management Systems - Script Language
-		ApplicationVndMobiusPlc:                              ApplicationVndMobiusPlc,                              // Mobius Management Systems - Policy Definition Language File
-		ApplicationVndMobiusTxf:                              ApplicationVndMobiusTxf,                              // Mobius Management Systems - Topic Index File
-		ApplicationVndMophunApplication:                      ApplicationVndMophunApplication,                      // Mophun VM
-		ApplicationVndMophunCertificate:                      ApplicationVndMophunCertificate,                      // Mophun Certificate
-		ApplicationVndMozillaXulXml:                          ApplicationVndMozillaXulXml,                          // XUL - XML User Interface Language
-		ApplicationVndMsArtgalry:                             ApplicationVndMsArtgalry,                             // Microsoft Artgalry
-		ApplicationVndMsCabCompressed:                        ApplicationVndMsCabCompressed,                        // Microsoft Cabinet File
-		ApplicationVndMsExcel:                                ApplicationVndMsExcel,                                // Microsoft Excel
-		ApplicationVndMsExcelAddinMacroenabled12:             ApplicationVndMsExcelAddinMacroenabled12,             // Microsoft Excel - Add-In File
-		ApplicationVndMsExcelSheetBinaryMacroenabled12:       ApplicationVndMsExcelSheetBinaryMacroenabled12,       // Microsoft Excel - Binary Workbook
-		ApplicationVndMsExcelSheetMacroenabled12:             ApplicationVndMsExcelSheetMacroenabled12,             // Microsoft Excel - Macro-Enabled Workbook
-		ApplicationVndMsExcelTemplateMacroenabled12:          ApplicationVndMsExcelTemplateMacroenabled12,          // Microsoft Excel - Macro-Enabled Template File
-		ApplicationVndMsFontobject:                           ApplicationVndMsFontobject,                           // Microsoft Embedded OpenType
-		ApplicationVndMsHtmlhelp:                             ApplicationVndMsHtmlhelp,                             // Microsoft Html Help File
-		ApplicationVndMsIms:                                  ApplicationVndMsIms,                                  // Microsoft Class Server
-		ApplicationVndMsLrm:                                  ApplicationVndMsLrm,                                  // Microsoft Learning Resource Module
-		ApplicationVndMsOfficetheme:                          ApplicationVndMsOfficetheme,                          // Microsoft Office System Release Theme
-		ApplicationVndMsPkiSeccat:                            ApplicationVndMsPkiSeccat,                            // Microsoft Trust UI Provider - Security Catalog
-		ApplicationVndMsPkiStl:                               ApplicationVndMsPkiStl,                               // Microsoft Trust UI Provider - Certificate Trust Link
-		ApplicationVndMsPowerpoint:                           ApplicationVndMsPowerpoint,                           // Microsoft PowerPoint
-		ApplicationVndMsPowerpointAddinMacroenabled12:        ApplicationVndMsPowerpointAddinMacroenabled12,        // Microsoft PowerPoint - Add-in file
-		ApplicationVndMsPowerpointPresentationMacroenabled12: ApplicationVndMsPowerpointPresentationMacroenabled12, // Microsoft PowerPoint - Macro-Enabled Presentation File
-		ApplicationVndMsPowerpointSlideMacroenabled12:        ApplicationVndMsPowerpointSlideMacroenabled12,        // Microsoft PowerPoint - Macro-Enabled Open XML Slide
-		ApplicationVndMsPowerpointSlideshowMacroenabled12:    ApplicationVndMsPowerpointSlideshowMacroenabled12,    // Microsoft PowerPoint - Macro-Enabled Slide Show File
-		ApplicationVndMsPowerpointTemplateMacroenabled12:     ApplicationVndMsPowerpointTemplateMacroenabled12,     // Microsoft PowerPoint - Macro-Enabled Template File
-		ApplicationVndMsProject:                              ApplicationVndMsProject,                              // Microsoft Project
-		ApplicationVndMsWordDocumentMacroenabled12:           ApplicationVndMsWordDocumentMacroenabled12,           // Microsoft Word - Macro-Enabled Document
-		ApplicationVndMsWordTemplateMacroenabled12:           ApplicationVndMsWordTemplateMacroenabled12,           // Microsoft Word - Macro-Enabled Template
-		ApplicationVndMsWorks:                                ApplicationVndMsWorks,                                // Microsoft Works
-		ApplicationVndMsWpl:                                  ApplicationVndMsWpl,                                  // Microsoft Windows Media Player Playlist
-		ApplicationVndMsXpsdocument:                          ApplicationVndMsXpsdocument,                          // Microsoft XML Paper Specification
-		ApplicationVndMseq:                                   ApplicationVndMseq,                                   // 3GPP MSEQ File
-		ApplicationVndMusician:                               ApplicationVndMusician,                               // MUsical Score Interpreted Code Invented for the ASCII designation of Notation
-		ApplicationVndMuveeStyle:                             ApplicationVndMuveeStyle,                             // Muvee Automatic Video Editing
-		ApplicationVndNeurolanguageNlu:                       ApplicationVndNeurolanguageNlu,                       // neuroLanguage
-		ApplicationVndNoblenetDirectory:                      ApplicationVndNoblenetDirectory,                      // NobleNet Directory
-		ApplicationVndNoblenetSealer:                         ApplicationVndNoblenetSealer,                         // NobleNet Sealer
-		ApplicationVndNoblenetWeb:                            ApplicationVndNoblenetWeb,                            // NobleNet Web
-		ApplicationVndNokiaNGageData:                         ApplicationVndNokiaNGageData,                         // N-Gage Game Data
-		ApplicationVndNokiaNGageSymbianInstall:               ApplicationVndNokiaNGageSymbianInstall,               // N-Gage Game Installer
-		ApplicationVndNokiaRadioPreset:                       ApplicationVndNokiaRadioPreset,                       // Nokia Radio Application - Preset
-		ApplicationVndNokiaRadioPresets:                      ApplicationVndNokiaRadioPresets,                      // Nokia Radio Application - Preset
-		ApplicationVndNovadigmEdm:                            ApplicationVndNovadigmEdm,                            // Novadigm's RADIA and EDM products
-		ApplicationVndNovadigmEdx:                            ApplicationVndNovadigmEdx,                            // Novadigm's RADIA and EDM products
-		ApplicationVndNovadigmExt:                            ApplicationVndNovadigmExt,                            // Novadigm's RADIA and EDM products
-		ApplicationVndOasisOpendocumentChart:                 ApplicationVndOasisOpendocumentChart,                 // OpenDocument Chart
-		ApplicationVndOasisOpendocumentChartTemplate:         ApplicationVndOasisOpendocumentChartTemplate,         // OpenDocument Chart Template
-		ApplicationVndOasisOpendocumentDatabase:              ApplicationVndOasisOpendocumentDatabase,              // OpenDocument Database
-		ApplicationVndOasisOpendocumentFormula:               ApplicationVndOasisOpendocumentFormula,               // OpenDocument Formula
-		ApplicationVndOasisOpendocumentFormulaTemplate:       ApplicationVndOasisOpendocumentFormulaTemplate,       // OpenDocument Formula Template
-		ApplicationVndOasisOpendocumentGraphics:              ApplicationVndOasisOpendocumentGraphics,              // OpenDocument Graphics
-		ApplicationVndOasisOpendocumentGraphicsTemplate:      ApplicationVndOasisOpendocumentGraphicsTemplate,      // OpenDocument Graphics Template
-		ApplicationVndOasisOpendocumentImage:                 ApplicationVndOasisOpendocumentImage,                 // OpenDocument Image
-		ApplicationVndOasisOpendocumentImageTemplate:         ApplicationVndOasisOpendocumentImageTemplate,         // OpenDocument Image Template
-		ApplicationVndOasisOpendocumentPresentation:          ApplicationVndOasisOpendocumentPresentation,          // OpenDocument Presentation
-		ApplicationVndOasisOpendocumentPresentationTemplate:  ApplicationVndOasisOpendocumentPresentationTemplate,  // OpenDocument Presentation Template
-		ApplicationVndOasisOpendocumentSpreadsheet:           ApplicationVndOasisOpendocumentSpreadsheet,           // OpenDocument Spreadsheet
-		ApplicationVndOasisOpendocumentSpreadsheetTemplate:   ApplicationVndOasisOpendocumentSpreadsheetTemplate,   // OpenDocument Spreadsheet Template
-		ApplicationVndOasisOpendocumentText:                  ApplicationVndOasisOpendocumentText,                  // OpenDocument Text
-		ApplicationVndOasisOpendocumentTextMaster:            ApplicationVndOasisOpendocumentTextMaster,            // OpenDocument Text Master
-		ApplicationVndOasisOpendocumentTextTemplate:          ApplicationVndOasisOpendocumentTextTemplate,          // OpenDocument Text Template
-		ApplicationVndOasisOpendocumentTextWeb:               ApplicationVndOasisOpendocumentTextWeb,               // Open Document Text Web
-		ApplicationVndOlpcSugar:                              ApplicationVndOlpcSugar,                              // Sugar Linux Application Bundle
-		ApplicationVndOmaDd2Xml:                              ApplicationVndOmaDd2Xml,                              // OMA Download Agents
-		ApplicationVndOpenofficeorgExtension:                 ApplicationVndOpenofficeorgExtension,                 // Open Office Extension
-		ApplicationVndOpenxmlformatsOfficedocumentPresentationmlPresentation: ApplicationVndOpenxmlformatsOfficedocumentPresentationmlPresentation, // Microsoft Office - OOXML - Presentation
-		ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlide:        ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlide,        // Microsoft Office - OOXML - Presentation (Slide)
-		ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlideshow:    ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlideshow,    // Microsoft Office - OOXML - Presentation (Slideshow)
-		ApplicationVndOpenxmlformatsOfficedocumentPresentationmlTemplate:     ApplicationVndOpenxmlformatsOfficedocumentPresentationmlTemplate,     // Microsoft Office - OOXML - Presentation Template
-		ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlSheet:         ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlSheet,         // Microsoft Office - OOXML - Spreadsheet
-		ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlTemplate:      ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlTemplate,      // Microsoft Office - OOXML - Spreadsheet Template
-		ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlDocument:   ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlDocument,   // Microsoft Office - OOXML - Word Document
-		ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlTemplate:   ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlTemplate,   // Microsoft Office - OOXML - Word Document Template
-		ApplicationVndOsgeoMapguidePackage:                                   ApplicationVndOsgeoMapguidePackage,                                   // MapGuide DBXML
-		ApplicationVndOsgiDp:                                                 ApplicationVndOsgiDp,                                                 // OSGi Deployment Package
-		ApplicationVndPalm:                                                   ApplicationVndPalm,                                                   // PalmOS Data
-		ApplicationVndPawaafile:                                              ApplicationVndPawaafile,                                              // PawaaFILE
-		ApplicationVndPgFormat:                                               ApplicationVndPgFormat,                                               // Proprietary P&G Standard Reporting System
-		ApplicationVndPgOsasli:                                               ApplicationVndPgOsasli,                                               // Proprietary P&G Standard Reporting System
-		ApplicationVndPicsel:                                                 ApplicationVndPicsel,                                                 // Pcsel eFIF File
-		ApplicationVndPmiWidget:                                              ApplicationVndPmiWidget,                                              // Qualcomm's Plaza Mobile Internet
-		ApplicationVndPocketlearn:                                            ApplicationVndPocketlearn,                                            // PocketLearn Viewers
-		ApplicationVndPowerbuilder6:                                          ApplicationVndPowerbuilder6,                                          // PowerBuilder
-		ApplicationVndPreviewsystemsBox:                                      ApplicationVndPreviewsystemsBox,                                      // Preview Systems ZipLock/VBox
-		ApplicationVndProteusMagazine:                                        ApplicationVndProteusMagazine,                                        // EFI Proteus
-		ApplicationVndPublishareDeltaTree:                                    ApplicationVndPublishareDeltaTree,                                    // PubliShare Objects
-		ApplicationVndPviPtid1:                                               ApplicationVndPviPtid1,                                               // Princeton Video Image
-		ApplicationVndQuarkQuarkxpress:                                       ApplicationVndQuarkQuarkxpress,                                       // QuarkXpress
-		ApplicationVndRar:                                                    ApplicationVndRar,                                                    // RAR Archive
-		ApplicationXRarCompressed:                                            ApplicationVndRar,                                                    // RAR Archive
-		ApplicationVndRealvncBed:                                             ApplicationVndRealvncBed,                                             // RealVNC
-		ApplicationVndRecordareMusicxml:                                      ApplicationVndRecordareMusicxml,                                      // Recordare Applications
-		ApplicationVndRecordareMusicxmlXml:                                   ApplicationVndRecordareMusicxmlXml,                                   // Recordare Applications
-		ApplicationVndRigCryptonote:                                          ApplicationVndRigCryptonote,                                          // CryptoNote
-		ApplicationVndRimCod:                                                 ApplicationVndRimCod,                                                 // Blackberry COD File
-		ApplicationVndRnRealmedia:                                            ApplicationVndRnRealmedia,                                            // RealMedia
-		ApplicationVndRoute66Link66Xml:                                       ApplicationVndRoute66Link66Xml,                                       // ROUTE 66 Location Based Services
-		ApplicationVndSailingtrackerTrack:                                    ApplicationVndSailingtrackerTrack,                                    // SailingTracker
-		ApplicationVndSeemail:                                                ApplicationVndSeemail,                                                // SeeMail
-		ApplicationVndSema:                                                   ApplicationVndSema,                                                   // Secured eMail
-		ApplicationVndSemd:                                                   ApplicationVndSemd,                                                   // Secured eMail
-		ApplicationVndSemf:                                                   ApplicationVndSemf,                                                   // Secured eMail
-		ApplicationVndShanaInformedFormdata:                                  ApplicationVndShanaInformedFormdata,                                  // Shana Informed Filler
-		ApplicationVndShanaInformedFormtemplate:                              ApplicationVndShanaInformedFormtemplate,                              // Shana Informed Filler
-		ApplicationVndShanaInformedInterchange:                               ApplicationVndShanaInformedInterchange,                               // Shana Informed Filler
-		ApplicationVndShanaInformedPackage:                                   ApplicationVndShanaInformedPackage,                                   // Shana Informed Filler
-		ApplicationVndSimtechMindmapper:                                      ApplicationVndSimtechMindmapper,                                      // SimTech MindMapper
-		ApplicationVndSmaf:                                                   ApplicationVndSmaf,                                                   // SMAF File
-		ApplicationVndSmartTeacher:                                           ApplicationVndSmartTeacher,                                           // SMART Technologies Apps
-		ApplicationVndSolentSdkmXml:                                          ApplicationVndSolentSdkmXml,                                          // SudokuMagic
-		ApplicationVndSpotfireDxp:                                            ApplicationVndSpotfireDxp,                                            // TIBCO Spotfire
-		ApplicationVndSpotfireSfs:                                            ApplicationVndSpotfireSfs,                                            // TIBCO Spotfire
-		ApplicationVndStardivisionCalc:                                       ApplicationVndStardivisionCalc,                                       // StarOffice - Calc
-		ApplicationVndStardivisionDraw:                                       ApplicationVndStardivisionDraw,                                       // StarOffice - Draw
-		ApplicationVndStardivisionImpress:                                    ApplicationVndStardivisionImpress,                                    // StarOffice - Impress
-		ApplicationVndStardivisionMath:                                       ApplicationVndStardivisionMath,                                       // StarOffice - Math
-		ApplicationVndStardivisionWriter:                                     ApplicationVndStardivisionWriter,                                     // StarOffice - Writer
-		ApplicationVndStardivisionWriterGlobal:                               ApplicationVndStardivisionWriterGlobal,                               // StarOffice - Writer (Global)
-		ApplicationVndStepmaniaStepchart:                                     ApplicationVndStepmaniaStepchart,                                     // StepMania
-		ApplicationVndSunXmlCalc:                                             ApplicationVndSunXmlCalc,                                             // OpenOffice - Calc (Spreadsheet)
-		ApplicationVndSunXmlCalcTemplate:                                     ApplicationVndSunXmlCalcTemplate,                                     // OpenOffice - Calc Template (Spreadsheet)
-		ApplicationVndSunXmlDraw:                                             ApplicationVndSunXmlDraw,                                             // OpenOffice - Draw (Graphics)
-		ApplicationVndSunXmlDrawTemplate:                                     ApplicationVndSunXmlDrawTemplate,                                     // OpenOffice - Draw Template (Graphics)
-		ApplicationVndSunXmlImpress:                                          ApplicationVndSunXmlImpress,                                          // OpenOffice - Impress (Presentation)
-		ApplicationVndSunXmlImpressTemplate:                                  ApplicationVndSunXmlImpressTemplate,                                  // OpenOffice - Impress Template (Presentation)
-		ApplicationVndSunXmlMath:                                             ApplicationVndSunXmlMath,                                             // OpenOffice - Math (Formula)
-		ApplicationVndSunXmlWriter:                                           ApplicationVndSunXmlWriter,                                           // OpenOffice - Writer (Text - HTML)
-		ApplicationVndSunXmlWriterGlobal:                                     ApplicationVndSunXmlWriterGlobal,                                     // OpenOffice - Writer (Text - HTML)
-		ApplicationVndSunXmlWriterTemplate:                                   ApplicationVndSunXmlWriterTemplate,                                   // OpenOffice - Writer Template (Text - HTML)
-		ApplicationVndSusCalendar:                                            ApplicationVndSusCalendar,                                            // ScheduleUs
-		ApplicationVndSvd:                                                    ApplicationVndSvd,                                                    // SourceView Document
-		ApplicationVndSymbianInstall:                                         ApplicationVndSymbianInstall,                                         // Symbian Install Package
-		ApplicationVndSyncmlXml:                                              ApplicationVndSyncmlXml,                                              // SyncML
-		ApplicationVndSyncmlDmWbxml:                                          ApplicationVndSyncmlDmWbxml,                                          // SyncML - Device Management
-		ApplicationVndSyncmlDmXml:                                            ApplicationVndSyncmlDmXml,                                            // SyncML - Device Management
-		ApplicationVndTaoIntentModuleArchive:                                 ApplicationVndTaoIntentModuleArchive,                                 // Tao Intent
-		ApplicationVndTmobileLivetv:                                          ApplicationVndTmobileLivetv,                                          // MobileTV
-		ApplicationVndTridTpt:                                                ApplicationVndTridTpt,                                                // TRI Systems Config
-		ApplicationVndTriscapeMxs:                                            ApplicationVndTriscapeMxs,                                            // Triscape Map Explorer
-		ApplicationVndTrueapp:                                                ApplicationVndTrueapp,                                                // True BASIC
-		ApplicationVndUfdl:                                                   ApplicationVndUfdl,                                                   // Universal Forms Description Language
-		ApplicationVndUiqTheme:                                               ApplicationVndUiqTheme,                                               // User Interface Quartz - Theme (Symbian)
-		ApplicationVndUmajin:                                                 ApplicationVndUmajin,                                                 // UMAJIN
-		ApplicationVndUnity:                                                  ApplicationVndUnity,                                                  // Unity 3d
-		ApplicationVndUomlXml:                                                ApplicationVndUomlXml,                                                // Unique Object Markup Language
-		ApplicationVndVcx:                                                    ApplicationVndVcx,                                                    // VirtualCatalog
-		ApplicationVndVisio:                                                  ApplicationVndVisio,                                                  // Microsoft Visio
-		ApplicationVndVisio2013:                                              ApplicationVndVisio2013,                                              // Microsoft Visio 2013
-		ApplicationVndVisionary:                                              ApplicationVndVisionary,                                              // Visionary
-		ApplicationVndVsf:                                                    ApplicationVndVsf,                                                    // Viewport+
-		ApplicationVndWapWbxml:                                               ApplicationVndWapWbxml,                                               // WAP Binary XML (WBXML)
-		ApplicationVndWapWmlc:                                                ApplicationVndWapWmlc,                                                // Compiled Wireless Markup Language (WMLC)
-		ApplicationVndWapWmlscriptc:                                          ApplicationVndWapWmlscriptc,                                          // WMLScript
-		ApplicationVndWebturbo:                                               ApplicationVndWebturbo,                                               // WebTurbo
-		ApplicationVndWolframPlayer:                                          ApplicationVndWolframPlayer,                                          // Mathematica Notebook Player
-		ApplicationVndWordperfect:                                            ApplicationVndWordperfect,                                            // Wordperfect
-		ApplicationVndWqd:                                                    ApplicationVndWqd,                                                    // SundaHus WQ
-		ApplicationVndWtStf:                                                  ApplicationVndWtStf,                                                  // Worldtalk
-		ApplicationVndXara:                                                   ApplicationVndXara,                                                   // CorelXARA
-		ApplicationVndXfdl:                                                   ApplicationVndXfdl,                                                   // Extensible Forms Description Language
-		ApplicationVndYamahaHvDic:                                            ApplicationVndYamahaHvDic,                                            // HV Voice Dictionary
-		ApplicationVndYamahaHvScript:                                         ApplicationVndYamahaHvScript,                                         // HV Script
-		ApplicationVndYamahaHvVoice:                                          ApplicationVndYamahaHvVoice,                                          // HV Voice Parameter
-		ApplicationVndYamahaOpenscoreformat:                                  ApplicationVndYamahaOpenscoreformat,                                  // Open Score Format
-		ApplicationVndYamahaOpenscoreformatOsfpvgXml:                         ApplicationVndYamahaOpenscoreformatOsfpvgXml,                         // OSFPVG
-		ApplicationVndYamahaSmafAudio:                                        ApplicationVndYamahaSmafAudio,                                        // SMAF Audio
-		ApplicationVndYamahaSmafPhrase:                                       ApplicationVndYamahaSmafPhrase,                                       // SMAF Phrase
-		ApplicationVndYellowriverCustomMenu:                                  ApplicationVndYellowriverCustomMenu,                                  // CustomMenu
-		ApplicationVndZul:                                                    ApplicationVndZul,                                                    // Z.U.L. Geometry
-		ApplicationVndZzazzDeckXml:                                           ApplicationVndZzazzDeckXml,                                           // Zzazz Deck
-		ApplicationVoicexmlXml:                                               ApplicationVoicexmlXml,                                               // VoiceXML
-		ApplicationWidget:                                                    ApplicationWidget,                                                    // Widget Packaging and XML Configuration
-		ApplicationWinhlp:                                                    ApplicationWinhlp,                                                    // WinHelp
-		ApplicationWsdlXml:                                                   ApplicationWsdlXml,                                                   // WSDL - Web Services Description Language
-		ApplicationWspolicyXml:                                               ApplicationWspolicyXml,                                               // Web Services Policy
-		ApplicationX7zCompressed:                                             ApplicationX7zCompressed,                                             // 7-Zip
-		ApplicationXAbiword:                                                  ApplicationXAbiword,                                                  // AbiWord
-		ApplicationXAceCompressed:                                            ApplicationXAceCompressed,                                            // Ace Archive
-		ApplicationXAppleDiskimage:                                           ApplicationXAppleDiskimage,                                           // Apple Disk Image
-		ApplicationXAuthorwareBin:                                            ApplicationXAuthorwareBin,                                            // Adobe (Macropedia) Authorware - Binary File
-		ApplicationXAuthorwareMap:                                            ApplicationXAuthorwareMap,                                            // Adobe (Macropedia) Authorware - Map
-		ApplicationXAuthorwareSeg:                                            ApplicationXAuthorwareSeg,                                            // Adobe (Macropedia) Authorware - Segment File
-		ApplicationXBcpio:                                                    ApplicationXBcpio,                                                    // Binary CPIO Archive
-		ApplicationXBittorrent:                                               ApplicationXBittorrent,                                               // BitTorrent
-		ApplicationXBzip:                                                     ApplicationXBzip,                                                     // Bzip Archive
-		ApplicationXBzip2:                                                    ApplicationXBzip2,                                                    // Bzip2 Archive
-		ApplicationXCdf:                                                      ApplicationXCdf,                                                      // CD audio
-		ApplicationXCdlink:                                                   ApplicationXCdlink,                                                   // Video CD
-		ApplicationXChat:                                                     ApplicationXChat,                                                     // pIRCh
-		ApplicationXChessPgn:                                                 ApplicationXChessPgn,                                                 // Portable Game Notation (Chess Games)
-		ApplicationXCpio:                                                     ApplicationXCpio,                                                     // CPIO Archive
-		ApplicationXCsh:                                                      ApplicationXCsh,                                                      // C Shell Script
-		ApplicationXDebianPackage:                                            ApplicationXDebianPackage,                                            // Debian Package
-		ApplicationXDirector:                                                 ApplicationXDirector,                                                 // Ad1obe Shockwave Player
-		ApplicationXDoom:                                                     ApplicationXDoom,                                                     // Doom Video Game
-		ApplicationXDtbncxXml:                                                ApplicationXDtbncxXml,                                                // Navigation Control file for XML (for ePub)
-		ApplicationXDtbookXml:                                                ApplicationXDtbookXml,                                                // Digital Talking Book
-		ApplicationXDtbresourceXml:                                           ApplicationXDtbresourceXml,                                           // Digital Talking Book - Resource File
-		ApplicationXDvi:                                                      ApplicationXDvi,                                                      // Device Independent File Format (DVI)
-		ApplicationXFontBdf:                                                  ApplicationXFontBdf,                                                  // Glyph Bitmap Distribution Format
-		ApplicationXFontGhostscript:                                          ApplicationXFontGhostscript,                                          // Ghostscript Font
-		ApplicationXFontLinuxPsf:                                             ApplicationXFontLinuxPsf,                                             // PSF Fonts
-		ApplicationXFontPcf:                                                  ApplicationXFontPcf,                                                  // Portable Compiled Format
-		ApplicationXFontSnf:                                                  ApplicationXFontSnf,                                                  // Server Normal Format
-		ApplicationXFontType1:                                                ApplicationXFontType1,                                                // PostScript Fonts
-		ApplicationXFreearc:                                                  ApplicationXFreearc,                                                  // Archive document (multiple files embedded)
-		ApplicationXFuturesplash:                                             ApplicationXFuturesplash,                                             // FutureSplash Animator
-		ApplicationXGnumeric:                                                 ApplicationXGnumeric,                                                 // Gnumeric
-		ApplicationXGtar:                                                     ApplicationXGtar,                                                     // GNU Tar Files
-		ApplicationXHdf:                                                      ApplicationXHdf,                                                      // Hierarchical Data Format
-		ApplicationXHttpdPhp:                                                 ApplicationXHttpdPhp,                                                 // Hypertext Preprocessor (Personal Home Page)
-		ApplicationXJavaJnlpFile:                                             ApplicationXJavaJnlpFile,                                             // Java Network Launching Protocol
-		ApplicationXLatex:                                                    ApplicationXLatex,                                                    // LaTeX
-		ApplicationXMobipocketEbook:                                          ApplicationXMobipocketEbook,                                          // Mobipocket
-		ApplicationXMsApplication:                                            ApplicationXMsApplication,                                            // Microsoft ClickOnce
-		ApplicationXMsWmd:                                                    ApplicationXMsWmd,                                                    // Microsoft Windows Media Player Download Package
-		ApplicationXMsWmz:                                                    ApplicationXMsWmz,                                                    // Microsoft Windows Media Player Skin Package
-		ApplicationXMsXbap:                                                   ApplicationXMsXbap,                                                   // Microsoft XAML Browser Application
-		ApplicationXMsaccess:                                                 ApplicationXMsaccess,                                                 // Microsoft Access
-		ApplicationXMsbinder:                                                 ApplicationXMsbinder,                                                 // Microsoft Office Binder
-		ApplicationXMscardfile:                                               ApplicationXMscardfile,                                               // Microsoft Information Card
-		ApplicationXMsclip:                                                   ApplicationXMsclip,                                                   // Microsoft Clipboard Clip
-		ApplicationXMsdownload:                                               ApplicationXMsdownload,                                               // Microsoft Application
-		ApplicationXMsmediaview:                                              ApplicationXMsmediaview,                                              // Microsoft MediaView
-		ApplicationXMsmetafile:                                               ApplicationXMsmetafile,                                               // Microsoft Windows Metafile
-		ApplicationXMsmoney:                                                  ApplicationXMsmoney,                                                  // Microsoft Money
-		ApplicationXMspublisher:                                              ApplicationXMspublisher,                                              // Microsoft Publisher
-		ApplicationXMsschedule:                                               ApplicationXMsschedule,                                               // Microsoft Schedule+
-		ApplicationXMsterminal:                                               ApplicationXMsterminal,                                               // Microsoft Windows Terminal Services
-		ApplicationXMswrite:                                                  ApplicationXMswrite,                                                  // Microsoft Wordpad
-		ApplicationXNetcdf:                                                   ApplicationXNetcdf,                                                   // Network Common Data Form (NetCDF)
-		ApplicationXPkcs12:                                                   ApplicationXPkcs12,                                                   // PKCS #12 - Personal Information Exchange Syntax Standard
-		ApplicationXPkcs7Certificates:                                        ApplicationXPkcs7Certificates,                                        // PKCS #7 - Cryptographic Message Syntax Standard (Certificates)
-		ApplicationXPkcs7Certreqresp:                                         ApplicationXPkcs7Certreqresp,                                         // PKCS #7 - Cryptographic Message Syntax Standard (Certificate Request Response)
-		ApplicationXSh:                                                       ApplicationXSh,                                                       // Bourne Shell Script
-		ApplicationXShar:                                                     ApplicationXShar,                                                     // Shell Archive
-		ApplicationXShockwaveFlash:                                           ApplicationXShockwaveFlash,                                           // Adobe Flash
-		ApplicationXSilverlightApp:                                           ApplicationXSilverlightApp,                                           // Microsoft Silverlight
-		ApplicationXStuffit:                                                  ApplicationXStuffit,                                                  // Stuffit Archive
-		ApplicationXStuffitx:                                                 ApplicationXStuffitx,                                                 // Stuffit Archive
-		ApplicationXSv4cpio:                                                  ApplicationXSv4cpio,                                                  // System V Release 4 CPIO Archive
-		ApplicationXSv4crc:                                                   ApplicationXSv4crc,                                                   // System V Release 4 CPIO Checksum Data
-		ApplicationXTar:                                                      ApplicationXTar,                                                      // Tar File (Tape Archive)
-		ApplicationXTcl:                                                      ApplicationXTcl,                                                      // Tcl Script
-		ApplicationXTex:                                                      ApplicationXTex,                                                      // TeX
-		ApplicationXTexTfm:                                                   ApplicationXTexTfm,                                                   // TeX Font Metric
-		ApplicationXTexinfo:                                                  ApplicationXTexinfo,                                                  // GNU Texinfo Document
-		ApplicationXUstar:                                                    ApplicationXUstar,                                                    // Ustar (Uniform Standard Tape Archive)
-		ApplicationXWaisSource:                                               ApplicationXWaisSource,                                               // WAIS Source
-		ApplicationXX509CaCert:                                               ApplicationXX509CaCert,                                               // X.509 Certificate
-		ApplicationXXfig:                                                     ApplicationXXfig,                                                     // Xfig
-		ApplicationXXpinstall:                                                ApplicationXXpinstall,                                                // XPInstall - Mozilla
-		ApplicationXYaml:                                                     ApplicationXYaml,                                                     // YAML Ain't Markup Language / Yet Another Markup Language
-		TextXYaml:                                                            ApplicationXYaml,                                                     // YAML Ain't Markup Language / Yet Another Markup Language
-		TextYaml:                                                             ApplicationXYaml,                                                     // YAML Ain't Markup Language / Yet Another Markup Language
-		ApplicationYaml:                                                      ApplicationXYaml,                                                     // YAML Ain't Markup Language / Yet Another Markup Language
-		ApplicationXcapDiffXml:                                               ApplicationXcapDiffXml,                                               // XML Configuration Access Protocol - XCAP Diff
-		ApplicationXencXml:                                                   ApplicationXencXml,                                                   // XML Encryption Syntax and Processing
-		ApplicationXhtmlXml:                                                  ApplicationXhtmlXml,                                                  // XHTML - The Extensible HyperText Markup Language
-		ApplicationXml:                                                       ApplicationXml,                                                       // XML - Extensible Markup Language
-		TextXml:                                                              ApplicationXml,                                                       // XML - Extensible Markup Language
-		ApplicationXmlDtd:                                                    ApplicationXmlDtd,                                                    // Document Type Definition
-		ApplicationXopXml:                                                    ApplicationXopXml,                                                    // XML-Binary Optimized Packaging
-		ApplicationXsltXml:                                                   ApplicationXsltXml,                                                   // XML Transformations
-		ApplicationXspfXml:                                                   ApplicationXspfXml,                                                   // XSPF - XML Shareable Playlist Format
-		ApplicationXvXml:                                                     ApplicationXvXml,                                                     // MXML
-		ApplicationYang:                                                      ApplicationYang,                                                      // YANG Data Modeling Language
-		ApplicationYinXml:                                                    ApplicationYinXml,                                                    // YIN (YANG - XML)
-		ApplicationZip:                                                       ApplicationZip,                                                       // Zip Archive
-		AudioAdpcm:                                                           AudioAdpcm,                                                           // Adaptive differential pulse-code modulation
-		AudioBasic:                                                           AudioBasic,                                                           // Sun Audio - Au file format
-		AudioMidi:                                                            AudioMidi,                                                            // MIDI - Musical Instrument Digital Interface
-		AudioXMidi:                                                           AudioMidi,                                                            // MIDI - Musical Instrument Digital Interface
-		AudioMp4:                                                             AudioMp4,                                                             // MPEG-4 Audio
-		AudioMpeg:                                                            AudioMpeg,                                                            // MPEG Audio
-		AudioOgg:                                                             AudioOgg,                                                             // Ogg Audio
-		AudioOpus:                                                            AudioOpus,                                                            // Opus audio
-		AudioVndDeceAudio:                                                    AudioVndDeceAudio,                                                    // DECE Audio
-		AudioVndDigitalWinds:                                                 AudioVndDigitalWinds,                                                 // Digital Winds Music
-		AudioVndDra:                                                          AudioVndDra,                                                          // DRA Audio
-		AudioVndDts:                                                          AudioVndDts,                                                          // DTS Audio
-		AudioVndDtsHd:                                                        AudioVndDtsHd,                                                        // DTS High Definition Audio
-		AudioVndLucentVoice:                                                  AudioVndLucentVoice,                                                  // Lucent Voice
-		AudioVndMsPlayreadyMediaPya:                                          AudioVndMsPlayreadyMediaPya,                                          // Microsoft PlayReady Ecosystem
-		AudioVndNueraEcelp4800:                                               AudioVndNueraEcelp4800,                                               // Nuera ECELP 4800
-		AudioVndNueraEcelp7470:                                               AudioVndNueraEcelp7470,                                               // Nuera ECELP 7470
-		AudioVndNueraEcelp9600:                                               AudioVndNueraEcelp9600,                                               // Nuera ECELP 9600
-		AudioVndRip:                                                          AudioVndRip,                                                          // Hit'n'Mix
-		AudioWav:                                                             AudioWav,                                                             // Waveform Audio File Format (WAV)
-		AudioXWav:                                                            AudioWav,                                                             // Waveform Audio File Format (WAV)
-		AudioWebm:                                                            AudioWebm,                                                            // Open Web Media Project - Audio
-		AudioXAac:                                                            AudioXAac,                                                            // Advanced Audio Coding (AAC)
-		AudioXAiff:                                                           AudioXAiff,                                                           // Audio Interchange File Format
-		AudioXMpegurl:                                                        AudioXMpegurl,                                                        // M3U (Multimedia Playlist)
-		AudioXMsWax:                                                          AudioXMsWax,                                                          // Microsoft Windows Media Audio Redirector
-		AudioXMsWma:                                                          AudioXMsWma,                                                          // Microsoft Windows Media Audio
-		AudioXPnRealaudio:                                                    AudioXPnRealaudio,                                                    // Real Audio Sound
-		AudioXPnRealaudioPlugin:                                              AudioXPnRealaudioPlugin,                                              // Real Audio Sound
-		ChemicalXCdx:                                                         ChemicalXCdx,                                                         // ChemDraw eXchange file
-		ChemicalXCif:                                                         ChemicalXCif,                                                         // Crystallographic Interchange Format
-		ChemicalXCmdf:                                                        ChemicalXCmdf,                                                        // CrystalMaker Data Format
-		ChemicalXCml:                                                         ChemicalXCml,                                                         // Chemical Markup Language
-		ChemicalXCsml:                                                        ChemicalXCsml,                                                        // Chemical Style Markup Language
-		ChemicalXXyz:                                                         ChemicalXXyz,                                                         // XYZ File Format
-		FontOtf:                                                              FontOtf,                                                              // OpenType font
-		ApplicationXFontOtf:                                                  FontOtf,                                                              // OpenType font
-		FontTtf:                                                              FontTtf,                                                              // TrueType Font
-		ApplicationXFontTtf:                                                  FontTtf,                                                              // TrueType Font
-		FontWoff:                                                             FontWoff,                                                             // Web Open Font Format
-		ApplicationXFontWoff:                                                 FontWoff,                                                             // Web Open Font Format
-		FontWoff2:                                                            FontWoff2,                                                            // Web Open Font Format v2
-		ImageBmp:                                                             ImageBmp,                                                             // Bitmap Image File
-		ImageCgm:                                                             ImageCgm,                                                             // Computer Graphics Metafile
-		ImageG3fax:                                                           ImageG3fax,                                                           // G3 Fax Image
-		ImageGif:                                                             ImageGif,                                                             // Graphics Interchange Format
-		ImageIef:                                                             ImageIef,                                                             // Image Exchange Format
-		ImageJpeg:                                                            ImageJpeg,                                                            // JPEG Image
-		ImageXCitrixJpeg:                                                     ImageJpeg,                                                            // JPEG Image
-		ImageKtx:                                                             ImageKtx,                                                             // OpenGL Textures (KTX)
-		ImagePjpeg:                                                           ImagePjpeg,                                                           // JPEG Image (Progressive)
-		ImagePng:                                                             ImagePng,                                                             // Portable Network Graphics
-		ImageXCitrixPng:                                                      ImagePng,                                                             // Portable Network Graphics
-		ImageXPng:                                                            ImagePng,                                                             // Portable Network Graphics
-		ImagePrsBtif:                                                         ImagePrsBtif,                                                         // BTIF
-		ImageSvgXml:                                                          ImageSvgXml,                                                          // Scalable Vector Graphics (SVG)
-		ImageTiff:                                                            ImageTiff,                                                            // Tagged Image File Format
-		ImageVndAdobePhotoshop:                                               ImageVndAdobePhotoshop,                                               // Photoshop Document
-		ImageVndDeceGraphic:                                                  ImageVndDeceGraphic,                                                  // DECE Graphic
-		ImageVndDjvu:                                                         ImageVndDjvu,                                                         // DjVu
-		ImageVndDvbSubtitle:                                                  ImageVndDvbSubtitle,                                                  // Close Captioning - Subtitle
-		ImageVndDwg:                                                          ImageVndDwg,                                                          // DWG Drawing
-		ImageVndDxf:                                                          ImageVndDxf,                                                          // AutoCAD DXF
-		ImageVndFastbidsheet:                                                 ImageVndFastbidsheet,                                                 // FastBid Sheet
-		ImageVndFpx:                                                          ImageVndFpx,                                                          // FlashPix
-		ImageVndFst:                                                          ImageVndFst,                                                          // FAST Search & Transfer ASA
-		ImageVndFujixeroxEdmicsMmr:                                           ImageVndFujixeroxEdmicsMmr,                                           // EDMICS 2000
-		ImageVndFujixeroxEdmicsRlc:                                           ImageVndFujixeroxEdmicsRlc,                                           // EDMICS 2000
-		ImageVndMsModi:                                                       ImageVndMsModi,                                                       // Microsoft Document Imaging Format
-		ImageVndNetFpx:                                                       ImageVndNetFpx,                                                       // FlashPix
-		ImageVndWapWbmp:                                                      ImageVndWapWbmp,                                                      // WAP Bitamp (WBMP)
-		ImageVndXiff:                                                         ImageVndXiff,                                                         // eXtended Image File Format (XIFF)
-		ImageWebp:                                                            ImageWebp,                                                            // WebP Image
-		ImageXCmuRaster:                                                      ImageXCmuRaster,                                                      // CMU Image
-		ImageXCmx:                                                            ImageXCmx,                                                            // Corel Metafile Exchange (CMX)
-		ImageXFreehand:                                                       ImageXFreehand,                                                       // FreeHand MX
-		ImageXIcon:                                                           ImageXIcon,                                                           // Icon Image
-		ImageVndMicrosoftIcon:                                                ImageXIcon,                                                           // Icon Image
-		ImageXPcx:                                                            ImageXPcx,                                                            // PCX Image
-		ImageXPict:                                                           ImageXPict,                                                           // PICT Image
-		ImageXPortableAnymap:                                                 ImageXPortableAnymap,                                                 // Portable Anymap Image
-		ImageXPortableBitmap:                                                 ImageXPortableBitmap,                                                 // Portable Bitmap Format
-		ImageXPortableGraymap:                                                ImageXPortableGraymap,                                                // Portable Graymap Format
-		ImageXPortablePixmap:                                                 ImageXPortablePixmap,                                                 // Portable Pixmap Format
-		ImageXRgb:                                                            ImageXRgb,                                                            // Silicon Graphics RGB Bitmap
-		ImageXXbitmap:                                                        ImageXXbitmap,                                                        // X BitMap
-		ImageXXpixmap:                                                        ImageXXpixmap,                                                        // X PixMap
-		ImageXXwindowdump:                                                    ImageXXwindowdump,                                                    // X Window Dump
-		MessageRfc822:                                                        MessageRfc822,                                                        // Email Message
-		ModelIges:                                                            ModelIges,                                                            // Initial Graphics Exchange Specification (IGES)
-		ModelMesh:                                                            ModelMesh,                                                            // Mesh Data Type
-		ModelVndColladaXml:                                                   ModelVndColladaXml,                                                   // COLLADA
-		ModelVndDwf:                                                          ModelVndDwf,                                                          // Autodesk Design Web Format (DWF)
-		ModelVndGdl:                                                          ModelVndGdl,                                                          // Geometric Description Language (GDL)
-		ModelVndGtw:                                                          ModelVndGtw,                                                          // Gen-Trix Studio
-		ModelVndMts:                                                          ModelVndMts,                                                          // Virtue MTS
-		ModelVndVtu:                                                          ModelVndVtu,                                                          // Virtue VTU
-		ModelVrml:                                                            ModelVrml,                                                            // Virtual Reality Modeling Language
-		TextCalendar:                                                         TextCalendar,                                                         // iCalendar
-		TextCss:                                                              TextCss,                                                              // Cascading Style Sheets (CSS)
-		TextCsv:                                                              TextCsv,                                                              // Comma-Seperated Values
-		TextHtml:                                                             TextHtml,                                                             // HyperText Markup Language (HTML)
-		TextN3:                                                               TextN3,                                                               // Notation3
-		TextPlain:                                                            TextPlain,                                                            // Text File
-		TextPlainBas:                                                         TextPlainBas,                                                         // BAS Partitur Format
-		TextPrsLinesTag:                                                      TextPrsLinesTag,                                                      // PRS Lines Tag
-		TextRichtext:                                                         TextRichtext,                                                         // Rich Text Format (RTF)
-		TextSgml:                                                             TextSgml,                                                             // Standard Generalized Markup Language (SGML)
-		TextTabSeparatedValues:                                               TextTabSeparatedValues,                                               // Tab Seperated Values
-		TextTroff:                                                            TextTroff,                                                            // troff
-		TextTurtle:                                                           TextTurtle,                                                           // Turtle (Terse RDF Triple Language)
-		TextUriList:                                                          TextUriList,                                                          // URI Resolution Services
-		TextVndCurl:                                                          TextVndCurl,                                                          // Curl - Applet
-		TextVndCurlDcurl:                                                     TextVndCurlDcurl,                                                     // Curl - Detached Applet
-		TextVndCurlMcurl:                                                     TextVndCurlMcurl,                                                     // Curl - Manifest File
-		TextVndCurlScurl:                                                     TextVndCurlScurl,                                                     // Curl - Source Code
-		TextVndFly:                                                           TextVndFly,                                                           // mod_fly / fly.cgi
-		TextVndFmiFlexstor:                                                   TextVndFmiFlexstor,                                                   // FLEXSTOR
-		TextVndGraphviz:                                                      TextVndGraphviz,                                                      // Graphviz
-		TextVndIn3d3dml:                                                      TextVndIn3d3dml,                                                      // In3D - 3DML
-		TextVndIn3dSpot:                                                      TextVndIn3dSpot,                                                      // In3D - 3DML
-		TextVndSunJ2meAppDescriptor:                                          TextVndSunJ2meAppDescriptor,                                          // J2ME App Descriptor
-		TextVndWapWml:                                                        TextVndWapWml,                                                        // Wireless Markup Language (WML)
-		TextVndWapWmlscript:                                                  TextVndWapWmlscript,                                                  // Wireless Markup Language Script (WMLScript)
-		TextXAsm:                                                             TextXAsm,                                                             // Assembler Source File
-		TextXC:                                                               TextXC,                                                               // C Source File
-		TextXFortran:                                                         TextXFortran,                                                         // Fortran Source File
-		TextXJavaSource:                                                      TextXJavaSource,                                                      // Java Source File
-		Java:                                                                 TextXJavaSource,                                                      // Java Source File
-		TextXPascal:                                                          TextXPascal,                                                          // Pascal Source File
-		TextXSetext:                                                          TextXSetext,                                                          // Setext
-		TextXUuencode:                                                        TextXUuencode,                                                        // UUEncode
-		TextXVcalendar:                                                       TextXVcalendar,                                                       // vCalendar
-		TextXVcard:                                                           TextXVcard,                                                           // vCard
-		Unkown:                                                               Unkown,                                                               // The zero value
-		Video3gpp:                                                            Video3gpp,                                                            // 3GPP
-		Audio3gpp:                                                            Video3gpp,                                                            // 3GPP
-		Video3gpp2:                                                           Video3gpp2,                                                           // 3GP2
-		Audio3gpp2:                                                           Video3gpp2,                                                           // 3GP2
-		VideoH261:                                                            VideoH261,                                                            // H.261
-		VideoH263:                                                            VideoH263,                                                            // H.263
-		VideoH264:                                                            VideoH264,                                                            // H.264
-		VideoJpeg:                                                            VideoJpeg,                                                            // JPGVideo
-		VideoJpm:                                                             VideoJpm,                                                             // JPEG 2000 Compound Image File Format
-		VideoMj2:                                                             VideoMj2,                                                             // Motion JPEG 2000
-		VideoMp4:                                                             VideoMp4,                                                             // MPEG4
-		ApplicationMp4:                                                       VideoMp4,                                                             // MPEG4
-		VideoMpeg:                                                            VideoMpeg,                                                            // MPEG Video
-		VideoOgg:                                                             VideoOgg,                                                             // Ogg Video
-		VideoQuicktime:                                                       VideoQuicktime,                                                       // Quicktime Video
-		VideoVndDeceHd:                                                       VideoVndDeceHd,                                                       // DECE High Definition Video
-		VideoVndDeceMobile:                                                   VideoVndDeceMobile,                                                   // DECE Mobile Video
-		VideoVndDecePd:                                                       VideoVndDecePd,                                                       // DECE PD Video
-		VideoVndDeceSd:                                                       VideoVndDeceSd,                                                       // DECE SD Video
-		VideoVndDeceVideo:                                                    VideoVndDeceVideo,                                                    // DECE Video
-		VideoVndFvt:                                                          VideoVndFvt,                                                          // FAST Search & Transfer ASA
-		VideoVndMpegurl:                                                      VideoVndMpegurl,                                                      // MPEG Url
-		VideoVndMsPlayreadyMediaPyv:                                          VideoVndMsPlayreadyMediaPyv,                                          // Microsoft PlayReady Ecosystem Video
-		VideoVndUvvuMp4:                                                      VideoVndUvvuMp4,                                                      // DECE MP4
-		VideoVndVivo:                                                         VideoVndVivo,                                                         // Vivo
-		VideoWebm:                                                            VideoWebm,                                                            // Open Web Media Project - Video
-		VideoXF4v:                                                            VideoXF4v,                                                            // Flash Video
-		VideoXFli:                                                            VideoXFli,                                                            // FLI/FLC Animation Format
-		VideoXFlv:                                                            VideoXFlv,                                                            // Flash Video
-		VideoXM4v:                                                            VideoXM4v,                                                            // M4v
-		VideoXMsAsf:                                                          VideoXMsAsf,                                                          // Microsoft Advanced Systems Format (ASF)
-		VideoXMsWm:                                                           VideoXMsWm,                                                           // Microsoft Windows Media
-		VideoXMsWmv:                                                          VideoXMsWmv,                                                          // Microsoft Windows Media Video
-		VideoXMsWmx:                                                          VideoXMsWmx,                                                          // Microsoft Windows Media Audio/Video Playlist
-		VideoXMsWvx:                                                          VideoXMsWvx,                                                          // Microsoft Windows Media Video Playlist
-		VideoXMsvideo:                                                        VideoXMsvideo,                                                        // Audio Video Interleave (AVI)
-		VideoXSgiMovie:                                                       VideoXSgiMovie,                                                       // SGI Movie
-		XConferenceXCooltalk:                                                 XConferenceXCooltalk,                                                 // CoolTalk
-		ApplicationToml:                                                      ApplicationToml,                                                      // Tom's Obvious, Minimal Language
-		ApplicationXToml:                                                     ApplicationToml,                                                      // Tom's Obvious, Minimal Language
-		TextToml:                                                             ApplicationToml,                                                      // Tom's Obvious, Minimal Language
-		TextXToml:                                                            ApplicationToml,                                                      // Tom's Obvious, Minimal Language
-		ApplicationHcl:                                                       ApplicationHcl,                                                       // HashiCorp configuration language
-		ApplicationXHcl:                                                      ApplicationHcl,                                                       // HashiCorp configuration language
-		TextHcl:                                                              ApplicationHcl,                                                       // HashiCorp configuration language
-		TextXHcl:                                                             ApplicationHcl,                                                       // HashiCorp configuration language
-		ApplicationIni:                                                       ApplicationIni,                                                       // Microsoft Windows Initialization
-		ApplicationXIni:                                                      ApplicationIni,                                                       // Microsoft Windows Initialization
-		TextIni:                                                              ApplicationIni,                                                       // Microsoft Windows Initialization
-		TextXIni:                                                             ApplicationIni,                                                       // Microsoft Windows Initialization
-		ApplicationCue:                                                       ApplicationCue,                                                       // Configure Unify Execute
-		ApplicationXCue:                                                      ApplicationCue,                                                       // Configure Unify Execute
-		TextCue:                                                              ApplicationCue,                                                       // Configure Unify Execute
-		TextXCue:                                                             ApplicationCue,                                                       // Configure Unify Execute
-		ApplicationXGo:                                                       ApplicationXGo,                                                       // Go source file
-		ApplicationXGoTemplate:                                               ApplicationXGoTemplate,                                               // Go template file
-		ApplicationXCpp:                                                      ApplicationXCpp,                                                      // C++ source file
-		ApplicationXCsharp:                                                   ApplicationXCsharp,                                                   // C# source file
-		ApplicationXPython:                                                   ApplicationXPython,                                                   // Python source file
-		ApplicationXPythonGenerated:                                          ApplicationXPythonGenerated,                                          // Python generated file
-		ApplicationXRuby:                                                     ApplicationXRuby,                                                     // Ruby source file
-		ApplicationXRust:                                                     ApplicationXRust,                                                     // Rust source file
-		ApplicationXBnf:                                                      ApplicationXBnf,                                                      // Backus-Naur Form definition file
-		ApplicationXAbnf:                                                     ApplicationXAbnf,                                                     // Augmented Backus-Naur Form definition file
-		ApplicationXVisualBasic:                                              ApplicationXVisualBasic,                                              // Visual Basic source file
-		ApplicationXSass:                                                     ApplicationXSass,                                                     // Syntactically Awesome Stylesheet source file
-		ApplicationXDart:                                                     ApplicationXDart,                                                     // Dart source file
-		ApplicationXBash:                                                     ApplicationXBash,                                                     // BASH shell script
-		ApplicationXFish:                                                     ApplicationXFish,                                                     // FISH shell script
-		ApplicationXZsh:                                                      ApplicationXZsh,                                                      // ZSH shell script
-		ApplicationXKorn:                                                     ApplicationXKorn,                                                     // Korn shell script
-		ApplicationXPuppet:                                                   ApplicationXPuppet,                                                   // Puppet manifest file
-		ApplicationXOcaml:                                                    ApplicationXOcaml,                                                    // OCaml source file
-		ApplicationXPascal:                                                   ApplicationXPascal,                                                   // Pascal source file
-		ApplicationXClojure:                                                  ApplicationXClojure,                                                  // Clojure source file
-		ApplicationXScheme:                                                   ApplicationXScheme,                                                   // Scheme source file
-		ApplicationXLisp:                                                     ApplicationXLisp,                                                     // Common Lisp source file
-		ApplicationXKotlin:                                                   ApplicationXKotlin,                                                   // Kotlin source file
-		ApplicationXErlang:                                                   ApplicationXErlang,                                                   // Erlang source file
-		ApplicationXScala:                                                    ApplicationXScala,                                                    // Scala source file
-		ApplicationXHaskell:                                                  ApplicationXHaskell,                                                  // Haskell source file
-		ApplicationXFsharp:                                                   ApplicationXFsharp,                                                   // F# source file
-		ApplicationXElixir:                                                   ApplicationXElixir,                                                   // Elixir source file
-		ApplicationXElm:                                                      ApplicationXElm,                                                      // Elm source file
-		ApplicationXTypescript:                                               ApplicationXTypescript,                                               // TypeScript source file
-		ApplicationXXtend:                                                    ApplicationXXtend,                                                    // Xtend source file
-		ApplicationXXquery:                                                   ApplicationXXquery,                                                   // XQuery source file
-		ApplicationXWebassembly:                                              ApplicationXWebassembly,                                              // WebAssembly
-		ApplicationXSql:                                                      ApplicationXSql,                                                      // Standard Query Language (SQL) source file
-		ApplicationXR:                                                        ApplicationXR,                                                        // R source file
-		ApplicationXPowershell:                                               ApplicationXPowershell,                                               // PowerShell script file
-		ApplicationXPerl:                                                     ApplicationXPerl,                                                     // Perl source file
-		ApplicationXObjectiveC:                                               ApplicationXObjectiveC,                                               // Objective-C source file
-		ApplicationXCHeader:                                                  ApplicationXCHeader,                                                  // C Header source file
-		ApplicationXLua:                                                      ApplicationXLua,                                                      // Lua source file
-		ApplicationXGuile:                                                    ApplicationXGuile,                                                    // Guile source file
-		ApplicationXFortran:                                                  ApplicationXFortran,                                                  // Fortan source file
-		ApplicationXForth:                                                    ApplicationXForth,                                                    // Forth source file
-		ApplicationXMarkdown:                                                 ApplicationXMarkdown,                                                 // Markdown source file
-		ApplicationXNunjucks:                                                 ApplicationXNunjucks,                                                 // Nunjucks template file
-		ApplicationXHandlebars:                                               ApplicationXHandlebars,                                               // Handlebars template file
-		ApplicationXEjs:                                                      ApplicationXEjs,                                                      // Embedded JavaScript Template file
-		ApplicationXMustache:                                                 ApplicationXMustache,                                                 // Mustache template file
-		ApplicationXHaml:                                                     ApplicationXHaml,                                                     // Haml template file
-		ApplicationXPug:                                                      ApplicationXPug,                                                      // Pug template file
-		ApplicationXLiquid:                                                   ApplicationXLiquid,                                                   // Liquid template file
-		ApplicationXWebc:                                                     ApplicationXWebc,                                                     // Web Component source file
-		ApplicationXList:                                                     ApplicationXList,                                                     // List file
+		MimeTypes.ApplicationXJupyterNotebook:                                          MimeTypes.ApplicationXJupyterNotebook,                                          // Jupyter Notebook
+		MimeTypes.ApplicationXVndMsExcelWebQuery:                                       MimeTypes.ApplicationXVndMsExcelWebQuery,                                       // Microsoft Excel Web Query file
+		MimeTypes.ApplicationXAvroSchemaIdl:                                            MimeTypes.ApplicationXAvroSchemaIdl,                                            // Apache Avro Interface Definition Language (IDL) Schema file
+		MimeTypes.ApplicationXAvroSchemaJson:                                           MimeTypes.ApplicationXAvroSchemaJson,                                           // Apache Avro Javascript Object Notation (JSON) Schema file
+		MimeTypes.ApplicationAndrewInset:                                               MimeTypes.ApplicationAndrewInset,                                               // Andrew Toolkit
+		MimeTypes.ApplicationApplixware:                                                MimeTypes.ApplicationApplixware,                                                // Applixware
+		MimeTypes.ApplicationAtomXml:                                                   MimeTypes.ApplicationAtomXml,                                                   // Atom Syndication Format
+		MimeTypes.ApplicationAtomcatXml:                                                MimeTypes.ApplicationAtomcatXml,                                                // Atom Publishing Protocol
+		MimeTypes.ApplicationAtomsvcXml:                                                MimeTypes.ApplicationAtomsvcXml,                                                // Atom Publishing Protocol Service Document
+		MimeTypes.ApplicationCcxmlXml:                                                  MimeTypes.ApplicationCcxmlXml,                                                  // Voice Browser Call Control
+		MimeTypes.ApplicationCdmiCapability:                                            MimeTypes.ApplicationCdmiCapability,                                            // Cloud Data Management Interface (CDMI) - Capability
+		MimeTypes.ApplicationCdmiContainer:                                             MimeTypes.ApplicationCdmiContainer,                                             // Cloud Data Management Interface (CDMI) - Contaimer
+		MimeTypes.ApplicationCdmiDomain:                                                MimeTypes.ApplicationCdmiDomain,                                                // Cloud Data Management Interface (CDMI) - Domain
+		MimeTypes.ApplicationCdmiObject:                                                MimeTypes.ApplicationCdmiObject,                                                // Cloud Data Management Interface (CDMI) - Object
+		MimeTypes.ApplicationCdmiQueue:                                                 MimeTypes.ApplicationCdmiQueue,                                                 // Cloud Data Management Interface (CDMI) - Queue
+		MimeTypes.ApplicationCuSeeme:                                                   MimeTypes.ApplicationCuSeeme,                                                   // CU-SeeMe
+		MimeTypes.ApplicationDavmountXml:                                               MimeTypes.ApplicationDavmountXml,                                               // Web Distributed Authoring and Versioning
+		MimeTypes.ApplicationDsscDer:                                                   MimeTypes.ApplicationDsscDer,                                                   // Data Structure for the Security Suitability of Cryptographic Algorithms
+		MimeTypes.ApplicationDsscXml:                                                   MimeTypes.ApplicationDsscXml,                                                   // Data Structure for the Security Suitability of Cryptographic Algorithms
+		MimeTypes.ApplicationEcmascript:                                                MimeTypes.ApplicationEcmascript,                                                // ECMAScript
+		MimeTypes.ApplicationEmmaXml:                                                   MimeTypes.ApplicationEmmaXml,                                                   // Extensible MultiModal Annotation
+		MimeTypes.ApplicationEpubZip:                                                   MimeTypes.ApplicationEpubZip,                                                   // Electronic Publication
+		MimeTypes.ApplicationExi:                                                       MimeTypes.ApplicationExi,                                                       // Efficient XML Interchange
+		MimeTypes.ApplicationFontTdpfr:                                                 MimeTypes.ApplicationFontTdpfr,                                                 // Portable Font Resource
+		MimeTypes.ApplicationGpxXml:                                                    MimeTypes.ApplicationGpxXml,                                                    // GPS eXchange Format
+		MimeTypes.ApplicationGzip:                                                      MimeTypes.ApplicationGzip,                                                      // GZip Compressed Archive
+		MimeTypes.ApplicationHyperstudio:                                               MimeTypes.ApplicationHyperstudio,                                               // Hyperstudio
+		MimeTypes.ApplicationIpfix:                                                     MimeTypes.ApplicationIpfix,                                                     // Internet Protocol Flow Information Export
+		MimeTypes.ApplicationJavaArchive:                                               MimeTypes.ApplicationJavaArchive,                                               // Java Archive
+		MimeTypes.ApplicationJavaSerializedObject:                                      MimeTypes.ApplicationJavaSerializedObject,                                      // Java Serialized Object
+		MimeTypes.ApplicationJavaVm:                                                    MimeTypes.ApplicationJavaVm,                                                    // Java Bytecode File
+		MimeTypes.ApplicationJavascript:                                                MimeTypes.ApplicationJavascript,                                                // JavaScript language file
+		MimeTypes.TextJavascript:                                                       MimeTypes.ApplicationJavascript,                                                // JavaScript language file
+		MimeTypes.ApplicationJson:                                                      MimeTypes.ApplicationJson,                                                      // JavaScript Object Notation (JSON)
+		MimeTypes.ApplicationLdJson:                                                    MimeTypes.ApplicationLdJson,                                                    // JSON-LD format
+		MimeTypes.ApplicationMacBinhex40:                                               MimeTypes.ApplicationMacBinhex40,                                               // Macintosh BinHex 4.0
+		MimeTypes.ApplicationMacCompactpro:                                             MimeTypes.ApplicationMacCompactpro,                                             // Compact Pro
+		MimeTypes.ApplicationMadsXml:                                                   MimeTypes.ApplicationMadsXml,                                                   // Metadata Authority Description Schema
+		MimeTypes.ApplicationMarc:                                                      MimeTypes.ApplicationMarc,                                                      // MARC Formats
+		MimeTypes.ApplicationMarcxmlXml:                                                MimeTypes.ApplicationMarcxmlXml,                                                // MARC21 XML Schema
+		MimeTypes.ApplicationMathematica:                                               MimeTypes.ApplicationMathematica,                                               // Mathematica Notebooks
+		MimeTypes.ApplicationMathmlXml:                                                 MimeTypes.ApplicationMathmlXml,                                                 // Mathematical Markup Language
+		MimeTypes.ApplicationMbox:                                                      MimeTypes.ApplicationMbox,                                                      // Mbox database files
+		MimeTypes.ApplicationMediaservercontrolXml:                                     MimeTypes.ApplicationMediaservercontrolXml,                                     // Media Server Control Markup Language
+		MimeTypes.ApplicationMetalink4Xml:                                              MimeTypes.ApplicationMetalink4Xml,                                              // Metalink
+		MimeTypes.ApplicationMetsXml:                                                   MimeTypes.ApplicationMetsXml,                                                   // Metadata Encoding and Transmission Standard
+		MimeTypes.ApplicationModsXml:                                                   MimeTypes.ApplicationModsXml,                                                   // Metadata Object Description Schema
+		MimeTypes.ApplicationMp21:                                                      MimeTypes.ApplicationMp21,                                                      // MPEG-21
+		MimeTypes.ApplicationMsword:                                                    MimeTypes.ApplicationMsword,                                                    // Microsoft Word
+		MimeTypes.ApplicationMxf:                                                       MimeTypes.ApplicationMxf,                                                       // Material Exchange Format
+		MimeTypes.ApplicationOctetStream:                                               MimeTypes.ApplicationOctetStream,                                               // Binary Data
+		MimeTypes.ApplicationOda:                                                       MimeTypes.ApplicationOda,                                                       // Office Document Architecture
+		MimeTypes.ApplicationOebpsPackageXml:                                           MimeTypes.ApplicationOebpsPackageXml,                                           // Open eBook Publication Structure
+		MimeTypes.ApplicationOgg:                                                       MimeTypes.ApplicationOgg,                                                       // Ogg
+		MimeTypes.ApplicationOnenote:                                                   MimeTypes.ApplicationOnenote,                                                   // Microsoft OneNote
+		MimeTypes.ApplicationPatchOpsErrorXml:                                          MimeTypes.ApplicationPatchOpsErrorXml,                                          // XML Patch Framework
+		MimeTypes.ApplicationPdf:                                                       MimeTypes.ApplicationPdf,                                                       // Adobe Portable Document Format
+		MimeTypes.ApplicationPgpEncrypted:                                              MimeTypes.ApplicationPgpEncrypted,                                              // Pretty Good Privacy Signature
+		MimeTypes.ApplicationPgpSignature:                                              MimeTypes.ApplicationPgpEncrypted,                                              // Pretty Good Privacy Signature
+		MimeTypes.ApplicationPicsRules:                                                 MimeTypes.ApplicationPicsRules,                                                 // PICSRules
+		MimeTypes.ApplicationPkcs10:                                                    MimeTypes.ApplicationPkcs10,                                                    // PKCS #10 - Certification Request Standard
+		MimeTypes.ApplicationPkcs7Mime:                                                 MimeTypes.ApplicationPkcs7Mime,                                                 // PKCS #7 - Cryptographic Message Syntax Standard
+		MimeTypes.ApplicationPkcs7Signature:                                            MimeTypes.ApplicationPkcs7Signature,                                            // PKCS #7 - Cryptographic Message Syntax Standard
+		MimeTypes.ApplicationPkcs8:                                                     MimeTypes.ApplicationPkcs8,                                                     // PKCS #8 - Private-Key Information Syntax Standard
+		MimeTypes.ApplicationPkixAttrCert:                                              MimeTypes.ApplicationPkixAttrCert,                                              // Attribute Certificate
+		MimeTypes.ApplicationPkixCert:                                                  MimeTypes.ApplicationPkixCert,                                                  // Internet Public Key Infrastructure - Certificate
+		MimeTypes.ApplicationPkixCrl:                                                   MimeTypes.ApplicationPkixCrl,                                                   // Internet Public Key Infrastructure - Certificate Revocation Lists
+		MimeTypes.ApplicationPkixPkipath:                                               MimeTypes.ApplicationPkixPkipath,                                               // Internet Public Key Infrastructure - Certification Path
+		MimeTypes.ApplicationPkixcmp:                                                   MimeTypes.ApplicationPkixcmp,                                                   // Internet Public Key Infrastructure - Certificate Management Protocole
+		MimeTypes.ApplicationPlsXml:                                                    MimeTypes.ApplicationPlsXml,                                                    // Pronunciation Lexicon Specification
+		MimeTypes.ApplicationPostscript:                                                MimeTypes.ApplicationPostscript,                                                // PostScript
+		MimeTypes.ApplicationPrsCww:                                                    MimeTypes.ApplicationPrsCww,                                                    // CU-Writer
+		MimeTypes.ApplicationPskcXml:                                                   MimeTypes.ApplicationPskcXml,                                                   // Portable Symmetric Key Container
+		MimeTypes.ApplicationRdfXml:                                                    MimeTypes.ApplicationRdfXml,                                                    // Resource Description Framework
+		MimeTypes.ApplicationReginfoXml:                                                MimeTypes.ApplicationReginfoXml,                                                // IMS Networks
+		MimeTypes.ApplicationRelaxNgCompactSyntax:                                      MimeTypes.ApplicationRelaxNgCompactSyntax,                                      // Relax NG Compact Syntax
+		MimeTypes.ApplicationResourceListsXml:                                          MimeTypes.ApplicationResourceListsXml,                                          // XML Resource Lists
+		MimeTypes.ApplicationResourceListsDiffXml:                                      MimeTypes.ApplicationResourceListsDiffXml,                                      // XML Resource Lists Diff
+		MimeTypes.ApplicationRsdXml:                                                    MimeTypes.ApplicationRsdXml,                                                    // Really Simple Discovery
+		MimeTypes.ApplicationRssXml:                                                    MimeTypes.ApplicationRssXml,                                                    // RSS - Really Simple Syndication
+		MimeTypes.ApplicationRtf:                                                       MimeTypes.ApplicationRtf,                                                       // Rich Text Format
+		MimeTypes.ApplicationSbmlXml:                                                   MimeTypes.ApplicationSbmlXml,                                                   // Systems Biology Markup Language
+		MimeTypes.ApplicationScvpCvRequest:                                             MimeTypes.ApplicationScvpCvRequest,                                             // Server-Based Certificate Validation Protocol - Validation Request
+		MimeTypes.ApplicationScvpCvResponse:                                            MimeTypes.ApplicationScvpCvResponse,                                            // Server-Based Certificate Validation Protocol - Validation Response
+		MimeTypes.ApplicationScvpVpRequest:                                             MimeTypes.ApplicationScvpVpRequest,                                             // Server-Based Certificate Validation Protocol - Validation Policies - Request
+		MimeTypes.ApplicationScvpVpResponse:                                            MimeTypes.ApplicationScvpVpResponse,                                            // Server-Based Certificate Validation Protocol - Validation Policies - Response
+		MimeTypes.ApplicationSdp:                                                       MimeTypes.ApplicationSdp,                                                       // Session Description Protocol
+		MimeTypes.ApplicationSetPaymentInitiation:                                      MimeTypes.ApplicationSetPaymentInitiation,                                      // Secure Electronic Transaction - Payment
+		MimeTypes.ApplicationSetRegistrationInitiation:                                 MimeTypes.ApplicationSetRegistrationInitiation,                                 // Secure Electronic Transaction - Registration
+		MimeTypes.ApplicationShfXml:                                                    MimeTypes.ApplicationShfXml,                                                    // S Hexdump Format
+		MimeTypes.ApplicationSmilXml:                                                   MimeTypes.ApplicationSmilXml,                                                   // Synchronized Multimedia Integration Language
+		MimeTypes.ApplicationSparqlQuery:                                               MimeTypes.ApplicationSparqlQuery,                                               // SPARQL - Query
+		MimeTypes.ApplicationSparqlResultsXml:                                          MimeTypes.ApplicationSparqlResultsXml,                                          // SPARQL - Results
+		MimeTypes.ApplicationSrgs:                                                      MimeTypes.ApplicationSrgs,                                                      // Speech Recognition Grammar Specification
+		MimeTypes.ApplicationSrgsXml:                                                   MimeTypes.ApplicationSrgsXml,                                                   // Speech Recognition Grammar Specification - XML
+		MimeTypes.ApplicationSruXml:                                                    MimeTypes.ApplicationSruXml,                                                    // Search/Retrieve via URL Response Format
+		MimeTypes.ApplicationSsmlXml:                                                   MimeTypes.ApplicationSsmlXml,                                                   // Speech Synthesis Markup Language
+		MimeTypes.ApplicationTeiXml:                                                    MimeTypes.ApplicationTeiXml,                                                    // Text Encoding and Interchange
+		MimeTypes.ApplicationThraudXml:                                                 MimeTypes.ApplicationThraudXml,                                                 // Sharing Transaction Fraud Data
+		MimeTypes.ApplicationTimestampedData:                                           MimeTypes.ApplicationTimestampedData,                                           // Time Stamped Data Envelope
+		MimeTypes.ApplicationVnd3gppPicBwLarge:                                         MimeTypes.ApplicationVnd3gppPicBwLarge,                                         // 3rd Generation Partnership Project - Pic Large
+		MimeTypes.ApplicationVnd3gppPicBwSmall:                                         MimeTypes.ApplicationVnd3gppPicBwSmall,                                         // 3rd Generation Partnership Project - Pic Small
+		MimeTypes.ApplicationVnd3gppPicBwVar:                                           MimeTypes.ApplicationVnd3gppPicBwVar,                                           // 3rd Generation Partnership Project - Pic Var
+		MimeTypes.ApplicationVnd3gpp2Tcap:                                              MimeTypes.ApplicationVnd3gpp2Tcap,                                              // 3rd Generation Partnership Project - Transaction Capabilities Application Part
+		MimeTypes.ApplicationVnd3mPostItNotes:                                          MimeTypes.ApplicationVnd3mPostItNotes,                                          // 3M Post It Notes
+		MimeTypes.ApplicationVndAccpacSimplyAso:                                        MimeTypes.ApplicationVndAccpacSimplyAso,                                        // Simply Accounting
+		MimeTypes.ApplicationVndAccpacSimplyImp:                                        MimeTypes.ApplicationVndAccpacSimplyImp,                                        // Simply Accounting - Data Import
+		MimeTypes.ApplicationVndAcucobol:                                               MimeTypes.ApplicationVndAcucobol,                                               // ACU Cobol
+		MimeTypes.ApplicationVndAcucorp:                                                MimeTypes.ApplicationVndAcucorp,                                                // ACU Cobol
+		MimeTypes.ApplicationVndAdobeAirApplicationInstallerPackageZip:                 MimeTypes.ApplicationVndAdobeAirApplicationInstallerPackageZip,                 // Adobe AIR Application
+		MimeTypes.ApplicationVndAdobeFxp:                                               MimeTypes.ApplicationVndAdobeFxp,                                               // Adobe Flex Project
+		MimeTypes.ApplicationVndAdobeXdpXml:                                            MimeTypes.ApplicationVndAdobeXdpXml,                                            // Adobe XML Data Package
+		MimeTypes.ApplicationVndAdobeXfdf:                                              MimeTypes.ApplicationVndAdobeXfdf,                                              // Adobe XML Forms Data Format
+		MimeTypes.ApplicationVndAheadSpace:                                             MimeTypes.ApplicationVndAheadSpace,                                             // Ahead AIR Application
+		MimeTypes.ApplicationVndAirzipFilesecureAzf:                                    MimeTypes.ApplicationVndAirzipFilesecureAzf,                                    // AirZip FileSECURE
+		MimeTypes.ApplicationVndAirzipFilesecureAzs:                                    MimeTypes.ApplicationVndAirzipFilesecureAzs,                                    // AirZip FileSECURE
+		MimeTypes.ApplicationVndAmazonEbook:                                            MimeTypes.ApplicationVndAmazonEbook,                                            // Amazon Kindle eBook format
+		MimeTypes.ApplicationVndAmericandynamicsAcc:                                    MimeTypes.ApplicationVndAmericandynamicsAcc,                                    // Active Content Compression
+		MimeTypes.ApplicationVndAmigaAmi:                                               MimeTypes.ApplicationVndAmigaAmi,                                               // AmigaDE
+		MimeTypes.ApplicationVndAndroidPackageArchive:                                  MimeTypes.ApplicationVndAndroidPackageArchive,                                  // Android Package Archive
+		MimeTypes.ApplicationVndAnserWebCertificateIssueInitiation:                     MimeTypes.ApplicationVndAnserWebCertificateIssueInitiation,                     // ANSER-WEB Terminal Client - Certificate Issue
+		MimeTypes.ApplicationVndAnserWebFundsTransferInitiation:                        MimeTypes.ApplicationVndAnserWebFundsTransferInitiation,                        // ANSER-WEB Terminal Client - Web Funds Transfer
+		MimeTypes.ApplicationVndAntixGameComponent:                                     MimeTypes.ApplicationVndAntixGameComponent,                                     // Antix Game Player
+		MimeTypes.ApplicationVndAppleInstallerXml:                                      MimeTypes.ApplicationVndAppleInstallerXml,                                      // Apple Installer Package
+		MimeTypes.ApplicationVndAppleMpegurl:                                           MimeTypes.ApplicationVndAppleMpegurl,                                           // Multimedia Playlist Unicode
+		MimeTypes.ApplicationVndAristanetworksSwi:                                      MimeTypes.ApplicationVndAristanetworksSwi,                                      // Arista Networks Software Image
+		MimeTypes.ApplicationVndAudiograph:                                             MimeTypes.ApplicationVndAudiograph,                                             // Audiograph
+		MimeTypes.ApplicationVndBlueiceMultipass:                                       MimeTypes.ApplicationVndBlueiceMultipass,                                       // Blueice Research Multipass
+		MimeTypes.ApplicationVndBmi:                                                    MimeTypes.ApplicationVndBmi,                                                    // BMI Drawing Data Interchange
+		MimeTypes.ApplicationVndBusinessobjects:                                        MimeTypes.ApplicationVndBusinessobjects,                                        // BusinessObjects
+		MimeTypes.ApplicationVndChipnutsKaraokeMmd:                                     MimeTypes.ApplicationVndChipnutsKaraokeMmd,                                     // Karaoke on Chipnuts Chipsets
+		MimeTypes.ApplicationVndCinderella:                                             MimeTypes.ApplicationVndCinderella,                                             // Interactive Geometry Software Cinderella
+		MimeTypes.ApplicationVndClaymore:                                               MimeTypes.ApplicationVndClaymore,                                               // Claymore Data Files
+		MimeTypes.ApplicationVndCloantoRp9:                                             MimeTypes.ApplicationVndCloantoRp9,                                             // RetroPlatform Player
+		MimeTypes.ApplicationVndClonkC4group:                                           MimeTypes.ApplicationVndClonkC4group,                                           // Clonk Game
+		MimeTypes.ApplicationVndCluetrustCartomobileConfig:                             MimeTypes.ApplicationVndCluetrustCartomobileConfig,                             // ClueTrust CartoMobile - Config
+		MimeTypes.ApplicationVndCluetrustCartomobileConfigPkg:                          MimeTypes.ApplicationVndCluetrustCartomobileConfigPkg,                          // ClueTrust CartoMobile - Config Package
+		MimeTypes.ApplicationVndCommonspace:                                            MimeTypes.ApplicationVndCommonspace,                                            // Sixth Floor Media - CommonSpace
+		MimeTypes.ApplicationVndContactCmsg:                                            MimeTypes.ApplicationVndContactCmsg,                                            // CIM Database
+		MimeTypes.ApplicationVndCosmocaller:                                            MimeTypes.ApplicationVndCosmocaller,                                            // CosmoCaller
+		MimeTypes.ApplicationVndCrickClicker:                                           MimeTypes.ApplicationVndCrickClicker,                                           // CrickSoftware - Clicker
+		MimeTypes.ApplicationVndCrickClickerKeyboard:                                   MimeTypes.ApplicationVndCrickClickerKeyboard,                                   // CrickSoftware - Clicker - Keyboard
+		MimeTypes.ApplicationVndCrickClickerPalette:                                    MimeTypes.ApplicationVndCrickClickerPalette,                                    // CrickSoftware - Clicker - Palette
+		MimeTypes.ApplicationVndCrickClickerTemplate:                                   MimeTypes.ApplicationVndCrickClickerTemplate,                                   // CrickSoftware - Clicker - Template
+		MimeTypes.ApplicationVndCrickClickerWordbank:                                   MimeTypes.ApplicationVndCrickClickerWordbank,                                   // CrickSoftware - Clicker - Wordbank
+		MimeTypes.ApplicationVndCriticaltoolsWbsXml:                                    MimeTypes.ApplicationVndCriticaltoolsWbsXml,                                    // Critical Tools - PERT Chart EXPERT
+		MimeTypes.ApplicationVndCtcPosml:                                               MimeTypes.ApplicationVndCtcPosml,                                               // PosML
+		MimeTypes.ApplicationVndCupsPpd:                                                MimeTypes.ApplicationVndCupsPpd,                                                // Adobe PostScript Printer Description File Format
+		MimeTypes.ApplicationVndCurlCar:                                                MimeTypes.ApplicationVndCurlCar,                                                // CURL Applet
+		MimeTypes.ApplicationVndCurlPcurl:                                              MimeTypes.ApplicationVndCurlPcurl,                                              // CURL Applet
+		MimeTypes.ApplicationVndDataVisionRdz:                                          MimeTypes.ApplicationVndDataVisionRdz,                                          // RemoteDocs R-Viewer
+		MimeTypes.ApplicationVndDenovoFcselayoutLink:                                   MimeTypes.ApplicationVndDenovoFcselayoutLink,                                   // FCS Express Layout Link
+		MimeTypes.ApplicationVndDna:                                                    MimeTypes.ApplicationVndDna,                                                    // New Moon Liftoff/DNA
+		MimeTypes.ApplicationVndDolbyMlp:                                               MimeTypes.ApplicationVndDolbyMlp,                                               // Dolby Meridian Lossless Packing
+		MimeTypes.ApplicationVndDpgraph:                                                MimeTypes.ApplicationVndDpgraph,                                                // DPGraph
+		MimeTypes.ApplicationVndDreamfactory:                                           MimeTypes.ApplicationVndDreamfactory,                                           // DreamFactory
+		MimeTypes.ApplicationVndDvbAit:                                                 MimeTypes.ApplicationVndDvbAit,                                                 // Digital Video Broadcasting
+		MimeTypes.ApplicationVndDvbService:                                             MimeTypes.ApplicationVndDvbService,                                             // Digital Video Broadcasting
+		MimeTypes.ApplicationVndDynageo:                                                MimeTypes.ApplicationVndDynageo,                                                // DynaGeo
+		MimeTypes.ApplicationVndEcowinChart:                                            MimeTypes.ApplicationVndEcowinChart,                                            // EcoWin Chart
+		MimeTypes.ApplicationVndEnliven:                                                MimeTypes.ApplicationVndEnliven,                                                // Enliven Viewer
+		MimeTypes.ApplicationVndEpsonEsf:                                               MimeTypes.ApplicationVndEpsonEsf,                                               // QUASS Stream Player
+		MimeTypes.ApplicationVndEpsonMsf:                                               MimeTypes.ApplicationVndEpsonMsf,                                               // QUASS Stream Player
+		MimeTypes.ApplicationVndEpsonQuickanime:                                        MimeTypes.ApplicationVndEpsonQuickanime,                                        // QuickAnime Player
+		MimeTypes.ApplicationVndEpsonSalt:                                              MimeTypes.ApplicationVndEpsonSalt,                                              // SimpleAnimeLite Player
+		MimeTypes.ApplicationVndEpsonSsf:                                               MimeTypes.ApplicationVndEpsonSsf,                                               // QUASS Stream Player
+		MimeTypes.ApplicationVndEszigno3Xml:                                            MimeTypes.ApplicationVndEszigno3Xml,                                            // MICROSEC e-Szignï¿½
+		MimeTypes.ApplicationVndEzpixAlbum:                                             MimeTypes.ApplicationVndEzpixAlbum,                                             // EZPix Secure Photo Album
+		MimeTypes.ApplicationVndEzpixPackage:                                           MimeTypes.ApplicationVndEzpixPackage,                                           // EZPix Secure Photo Album
+		MimeTypes.ApplicationVndFdf:                                                    MimeTypes.ApplicationVndFdf,                                                    // Forms Data Format
+		MimeTypes.ApplicationVndFdsnSeed:                                               MimeTypes.ApplicationVndFdsnSeed,                                               // Digital Siesmograph Networks - SEED Datafiles
+		MimeTypes.ApplicationVndFlographit:                                             MimeTypes.ApplicationVndFlographit,                                             // NpGraphIt
+		MimeTypes.ApplicationVndFluxtimeClip:                                           MimeTypes.ApplicationVndFluxtimeClip,                                           // FluxTime Clip
+		MimeTypes.ApplicationVndFramemaker:                                             MimeTypes.ApplicationVndFramemaker,                                             // FrameMaker Normal Format
+		MimeTypes.ApplicationVndFrogansFnc:                                             MimeTypes.ApplicationVndFrogansFnc,                                             // Frogans Player
+		MimeTypes.ApplicationVndFrogansLtf:                                             MimeTypes.ApplicationVndFrogansLtf,                                             // Frogans Player
+		MimeTypes.ApplicationVndFscWeblaunch:                                           MimeTypes.ApplicationVndFscWeblaunch,                                           // Friendly Software Corporation
+		MimeTypes.ApplicationVndFujitsuOasys:                                           MimeTypes.ApplicationVndFujitsuOasys,                                           // Fujitsu Oasys
+		MimeTypes.ApplicationVndFujitsuOasys2:                                          MimeTypes.ApplicationVndFujitsuOasys2,                                          // Fujitsu Oasys
+		MimeTypes.ApplicationVndFujitsuOasys3:                                          MimeTypes.ApplicationVndFujitsuOasys3,                                          // Fujitsu Oasys
+		MimeTypes.ApplicationVndFujitsuOasysgp:                                         MimeTypes.ApplicationVndFujitsuOasysgp,                                         // Fujitsu Oasys
+		MimeTypes.ApplicationVndFujitsuOasysprs:                                        MimeTypes.ApplicationVndFujitsuOasysprs,                                        // Fujitsu Oasys
+		MimeTypes.ApplicationVndFujixeroxDdd:                                           MimeTypes.ApplicationVndFujixeroxDdd,                                           // Fujitsu - Xerox 2D CAD Data
+		MimeTypes.ApplicationVndFujixeroxDocuworks:                                     MimeTypes.ApplicationVndFujixeroxDocuworks,                                     // Fujitsu - Xerox DocuWorks
+		MimeTypes.ApplicationVndFujixeroxDocuworksBinder:                               MimeTypes.ApplicationVndFujixeroxDocuworksBinder,                               // Fujitsu - Xerox DocuWorks Binder
+		MimeTypes.ApplicationVndFuzzysheet:                                             MimeTypes.ApplicationVndFuzzysheet,                                             // FuzzySheet
+		MimeTypes.ApplicationVndGenomatixTuxedo:                                        MimeTypes.ApplicationVndGenomatixTuxedo,                                        // Genomatix Tuxedo Framework
+		MimeTypes.ApplicationVndGeogebraFile:                                           MimeTypes.ApplicationVndGeogebraFile,                                           // GeoGebra
+		MimeTypes.ApplicationVndGeogebraTool:                                           MimeTypes.ApplicationVndGeogebraTool,                                           // GeoGebra
+		MimeTypes.ApplicationVndGeometryExplorer:                                       MimeTypes.ApplicationVndGeometryExplorer,                                       // GeoMetry Explorer
+		MimeTypes.ApplicationVndGeonext:                                                MimeTypes.ApplicationVndGeonext,                                                // GEONExT and JSXGraph
+		MimeTypes.ApplicationVndGeoplan:                                                MimeTypes.ApplicationVndGeoplan,                                                // GeoplanW
+		MimeTypes.ApplicationVndGeospace:                                               MimeTypes.ApplicationVndGeospace,                                               // GeospacW
+		MimeTypes.ApplicationVndGmx:                                                    MimeTypes.ApplicationVndGmx,                                                    // GameMaker ActiveX
+		MimeTypes.ApplicationVndGoogleEarthKmlXml:                                      MimeTypes.ApplicationVndGoogleEarthKmlXml,                                      // Google Earth - KML
+		MimeTypes.ApplicationVndGoogleEarthKmz:                                         MimeTypes.ApplicationVndGoogleEarthKmz,                                         // Google Earth - Zipped KML
+		MimeTypes.ApplicationVndGrafeq:                                                 MimeTypes.ApplicationVndGrafeq,                                                 // GrafEq
+		MimeTypes.ApplicationVndGrooveAccount:                                          MimeTypes.ApplicationVndGrooveAccount,                                          // Groove - Account
+		MimeTypes.ApplicationVndGrooveHelp:                                             MimeTypes.ApplicationVndGrooveHelp,                                             // Groove - Help
+		MimeTypes.ApplicationVndGrooveIdentityMessage:                                  MimeTypes.ApplicationVndGrooveIdentityMessage,                                  // Groove - Identity Message
+		MimeTypes.ApplicationVndGrooveInjector:                                         MimeTypes.ApplicationVndGrooveInjector,                                         // Groove - Injector
+		MimeTypes.ApplicationVndGrooveToolMessage:                                      MimeTypes.ApplicationVndGrooveToolMessage,                                      // Groove - Tool Message
+		MimeTypes.ApplicationVndGrooveToolTemplate:                                     MimeTypes.ApplicationVndGrooveToolTemplate,                                     // Groove - Tool Template
+		MimeTypes.ApplicationVndGrooveVcard:                                            MimeTypes.ApplicationVndGrooveVcard,                                            // Groove - Vcard
+		MimeTypes.ApplicationVndHalXml:                                                 MimeTypes.ApplicationVndHalXml,                                                 // Hypertext Application Language
+		MimeTypes.ApplicationVndHandheldEntertainmentXml:                               MimeTypes.ApplicationVndHandheldEntertainmentXml,                               // ZVUE Media Manager
+		MimeTypes.ApplicationVndHbci:                                                   MimeTypes.ApplicationVndHbci,                                                   // Homebanking Computer Interface (HBCI)
+		MimeTypes.ApplicationVndHheLessonPlayer:                                        MimeTypes.ApplicationVndHheLessonPlayer,                                        // Archipelago Lesson Player
+		MimeTypes.ApplicationVndHpHpgl:                                                 MimeTypes.ApplicationVndHpHpgl,                                                 // HP-GL/2 and HP RTL
+		MimeTypes.ApplicationVndHpHpid:                                                 MimeTypes.ApplicationVndHpHpid,                                                 // Hewlett Packard Instant Delivery
+		MimeTypes.ApplicationVndHpHps:                                                  MimeTypes.ApplicationVndHpHps,                                                  // Hewlett-Packard's WebPrintSmart
+		MimeTypes.ApplicationVndHpJlyt:                                                 MimeTypes.ApplicationVndHpJlyt,                                                 // HP Indigo Digital Press - Job Layout Languate
+		MimeTypes.ApplicationVndHpPcl:                                                  MimeTypes.ApplicationVndHpPcl,                                                  // HP Printer Command Language
+		MimeTypes.ApplicationVndHpPclxl:                                                MimeTypes.ApplicationVndHpPclxl,                                                // PCL 6 Enhanced (Formely PCL XL)
+		MimeTypes.ApplicationVndHydrostatixSofData:                                     MimeTypes.ApplicationVndHydrostatixSofData,                                     // Hydrostatix Master Suite
+		MimeTypes.ApplicationVndHzn3dCrossword:                                         MimeTypes.ApplicationVndHzn3dCrossword,                                         // 3D Crossword Plugin
+		MimeTypes.ApplicationVndIbmMinipay:                                             MimeTypes.ApplicationVndIbmMinipay,                                             // MiniPay
+		MimeTypes.ApplicationVndIbmModcap:                                              MimeTypes.ApplicationVndIbmModcap,                                              // MO:DCA-P
+		MimeTypes.ApplicationVndIbmRightsManagement:                                    MimeTypes.ApplicationVndIbmRightsManagement,                                    // IBM DB2 Rights Manager
+		MimeTypes.ApplicationVndIccprofile:                                             MimeTypes.ApplicationVndIccprofile,                                             // ICC profile
+		MimeTypes.ApplicationVndIgloader:                                               MimeTypes.ApplicationVndIgloader,                                               // igLoader
+		MimeTypes.ApplicationVndImmervisionIvp:                                         MimeTypes.ApplicationVndImmervisionIvp,                                         // ImmerVision PURE Players
+		MimeTypes.ApplicationVndImmervisionIvu:                                         MimeTypes.ApplicationVndImmervisionIvu,                                         // ImmerVision PURE Players
+		MimeTypes.ApplicationVndInsorsIgm:                                              MimeTypes.ApplicationVndInsorsIgm,                                              // IOCOM Visimeet
+		MimeTypes.ApplicationVndInterconFormnet:                                        MimeTypes.ApplicationVndInterconFormnet,                                        // Intercon FormNet
+		MimeTypes.ApplicationVndIntergeo:                                               MimeTypes.ApplicationVndIntergeo,                                               // Interactive Geometry Software
+		MimeTypes.ApplicationVndIntuQbo:                                                MimeTypes.ApplicationVndIntuQbo,                                                // Open Financial Exchange
+		MimeTypes.ApplicationVndIntuQfx:                                                MimeTypes.ApplicationVndIntuQfx,                                                // Quicken
+		MimeTypes.ApplicationVndIpunpluggedRcprofile:                                   MimeTypes.ApplicationVndIpunpluggedRcprofile,                                   // IP Unplugged Roaming Client
+		MimeTypes.ApplicationVndIrepositoryPackageXml:                                  MimeTypes.ApplicationVndIrepositoryPackageXml,                                  // iRepository / Lucidoc Editor
+		MimeTypes.ApplicationVndIsXpr:                                                  MimeTypes.ApplicationVndIsXpr,                                                  // Express by Infoseek
+		MimeTypes.ApplicationVndIsacFcs:                                                MimeTypes.ApplicationVndIsacFcs,                                                // International Society for Advancement of Cytometry
+		MimeTypes.ApplicationVndJam:                                                    MimeTypes.ApplicationVndJam,                                                    // Lightspeed Audio Lab
+		MimeTypes.ApplicationVndJcpJavameMidletRms:                                     MimeTypes.ApplicationVndJcpJavameMidletRms,                                     // Mobile Information Device Profile
+		MimeTypes.ApplicationVndJisp:                                                   MimeTypes.ApplicationVndJisp,                                                   // RhymBox
+		MimeTypes.ApplicationVndJoostJodaArchive:                                       MimeTypes.ApplicationVndJoostJodaArchive,                                       // Joda Archive
+		MimeTypes.ApplicationVndKahootz:                                                MimeTypes.ApplicationVndKahootz,                                                // Kahootz
+		MimeTypes.ApplicationVndKdeKarbon:                                              MimeTypes.ApplicationVndKdeKarbon,                                              // KDE KOffice Office Suite - Karbon
+		MimeTypes.ApplicationVndKdeKchart:                                              MimeTypes.ApplicationVndKdeKchart,                                              // KDE KOffice Office Suite - KChart
+		MimeTypes.ApplicationVndKdeKformula:                                            MimeTypes.ApplicationVndKdeKformula,                                            // KDE KOffice Office Suite - Kformula
+		MimeTypes.ApplicationVndKdeKivio:                                               MimeTypes.ApplicationVndKdeKivio,                                               // KDE KOffice Office Suite - Kivio
+		MimeTypes.ApplicationVndKdeKontour:                                             MimeTypes.ApplicationVndKdeKontour,                                             // KDE KOffice Office Suite - Kontour
+		MimeTypes.ApplicationVndKdeKpresenter:                                          MimeTypes.ApplicationVndKdeKpresenter,                                          // KDE KOffice Office Suite - Kpresenter
+		MimeTypes.ApplicationVndKdeKspread:                                             MimeTypes.ApplicationVndKdeKspread,                                             // KDE KOffice Office Suite - Kspread
+		MimeTypes.ApplicationVndKdeKword:                                               MimeTypes.ApplicationVndKdeKword,                                               // KDE KOffice Office Suite - Kword
+		MimeTypes.ApplicationVndKenameaapp:                                             MimeTypes.ApplicationVndKenameaapp,                                             // Kenamea App
+		MimeTypes.ApplicationVndKidspiration:                                           MimeTypes.ApplicationVndKidspiration,                                           // Kidspiration
+		MimeTypes.ApplicationVndKinar:                                                  MimeTypes.ApplicationVndKinar,                                                  // Kinar Applications
+		MimeTypes.ApplicationVndKoan:                                                   MimeTypes.ApplicationVndKoan,                                                   // SSEYO Koan Play File
+		MimeTypes.ApplicationVndKodakDescriptor:                                        MimeTypes.ApplicationVndKodakDescriptor,                                        // Kodak Storyshare
+		MimeTypes.ApplicationVndLasLasXml:                                              MimeTypes.ApplicationVndLasLasXml,                                              // Laser App Enterprise
+		MimeTypes.ApplicationVndLlamagraphicsLifeBalanceDesktop:                        MimeTypes.ApplicationVndLlamagraphicsLifeBalanceDesktop,                        // Life Balance - Desktop Edition
+		MimeTypes.ApplicationVndLlamagraphicsLifeBalanceExchangeXml:                    MimeTypes.ApplicationVndLlamagraphicsLifeBalanceExchangeXml,                    // Life Balance - Exchange Format
+		MimeTypes.ApplicationVndLotus123:                                               MimeTypes.ApplicationVndLotus123,                                               // Lotus 1-2-3
+		MimeTypes.ApplicationVndLotusApproach:                                          MimeTypes.ApplicationVndLotusApproach,                                          // Lotus Approach
+		MimeTypes.ApplicationVndLotusFreelance:                                         MimeTypes.ApplicationVndLotusFreelance,                                         // Lotus Freelance
+		MimeTypes.ApplicationVndLotusNotes:                                             MimeTypes.ApplicationVndLotusNotes,                                             // Lotus Notes
+		MimeTypes.ApplicationVndLotusOrganizer:                                         MimeTypes.ApplicationVndLotusOrganizer,                                         // Lotus Organizer
+		MimeTypes.ApplicationVndLotusWordpro:                                           MimeTypes.ApplicationVndLotusWordpro,                                           // Lotus Wordpro
+		MimeTypes.ApplicationVndMacportsPortpkg:                                        MimeTypes.ApplicationVndMacportsPortpkg,                                        // MacPorts Port System
+		MimeTypes.ApplicationVndMcd:                                                    MimeTypes.ApplicationVndMcd,                                                    // Micro CADAM Helix D&D
+		MimeTypes.ApplicationVndMedcalcdata:                                            MimeTypes.ApplicationVndMedcalcdata,                                            // MedCalc
+		MimeTypes.ApplicationVndMediastationCdkey:                                      MimeTypes.ApplicationVndMediastationCdkey,                                      // MediaRemote
+		MimeTypes.ApplicationVndMfer:                                                   MimeTypes.ApplicationVndMfer,                                                   // Medical Waveform Encoding Format
+		MimeTypes.ApplicationVndMfmp:                                                   MimeTypes.ApplicationVndMfmp,                                                   // Melody Format for Mobile Platform
+		MimeTypes.ApplicationVndMicrografxFlo:                                          MimeTypes.ApplicationVndMicrografxFlo,                                          // Micrografx
+		MimeTypes.ApplicationVndMicrografxIgx:                                          MimeTypes.ApplicationVndMicrografxIgx,                                          // Micrografx iGrafx Professional
+		MimeTypes.ApplicationVndMif:                                                    MimeTypes.ApplicationVndMif,                                                    // FrameMaker Interchange Format
+		MimeTypes.ApplicationVndMobiusDaf:                                              MimeTypes.ApplicationVndMobiusDaf,                                              // Mobius Management Systems - UniversalArchive
+		MimeTypes.ApplicationVndMobiusDis:                                              MimeTypes.ApplicationVndMobiusDis,                                              // Mobius Management Systems - Distribution Database
+		MimeTypes.ApplicationVndMobiusMbk:                                              MimeTypes.ApplicationVndMobiusMbk,                                              // Mobius Management Systems - Basket file
+		MimeTypes.ApplicationVndMobiusMqy:                                              MimeTypes.ApplicationVndMobiusMqy,                                              // Mobius Management Systems - Query File
+		MimeTypes.ApplicationVndMobiusMsl:                                              MimeTypes.ApplicationVndMobiusMsl,                                              // Mobius Management Systems - Script Language
+		MimeTypes.ApplicationVndMobiusPlc:                                              MimeTypes.ApplicationVndMobiusPlc,                                              // Mobius Management Systems - Policy Definition Language File
+		MimeTypes.ApplicationVndMobiusTxf:                                              MimeTypes.ApplicationVndMobiusTxf,                                              // Mobius Management Systems - Topic Index File
+		MimeTypes.ApplicationVndMophunApplication:                                      MimeTypes.ApplicationVndMophunApplication,                                      // Mophun VM
+		MimeTypes.ApplicationVndMophunCertificate:                                      MimeTypes.ApplicationVndMophunCertificate,                                      // Mophun Certificate
+		MimeTypes.ApplicationVndMozillaXulXml:                                          MimeTypes.ApplicationVndMozillaXulXml,                                          // XUL - XML User Interface Language
+		MimeTypes.ApplicationVndMsArtgalry:                                             MimeTypes.ApplicationVndMsArtgalry,                                             // Microsoft Artgalry
+		MimeTypes.ApplicationVndMsCabCompressed:                                        MimeTypes.ApplicationVndMsCabCompressed,                                        // Microsoft Cabinet File
+		MimeTypes.ApplicationVndMsExcel:                                                MimeTypes.ApplicationVndMsExcel,                                                // Microsoft Excel
+		MimeTypes.ApplicationVndMsExcelAddinMacroenabled12:                             MimeTypes.ApplicationVndMsExcelAddinMacroenabled12,                             // Microsoft Excel - Add-In File
+		MimeTypes.ApplicationVndMsExcelSheetBinaryMacroenabled12:                       MimeTypes.ApplicationVndMsExcelSheetBinaryMacroenabled12,                       // Microsoft Excel - Binary Workbook
+		MimeTypes.ApplicationVndMsExcelSheetMacroenabled12:                             MimeTypes.ApplicationVndMsExcelSheetMacroenabled12,                             // Microsoft Excel - Macro-Enabled Workbook
+		MimeTypes.ApplicationVndMsExcelTemplateMacroenabled12:                          MimeTypes.ApplicationVndMsExcelTemplateMacroenabled12,                          // Microsoft Excel - Macro-Enabled Template File
+		MimeTypes.ApplicationVndMsFontobject:                                           MimeTypes.ApplicationVndMsFontobject,                                           // Microsoft Embedded OpenType
+		MimeTypes.ApplicationVndMsHtmlhelp:                                             MimeTypes.ApplicationVndMsHtmlhelp,                                             // Microsoft Html Help File
+		MimeTypes.ApplicationVndMsIms:                                                  MimeTypes.ApplicationVndMsIms,                                                  // Microsoft Class Server
+		MimeTypes.ApplicationVndMsLrm:                                                  MimeTypes.ApplicationVndMsLrm,                                                  // Microsoft Learning Resource Module
+		MimeTypes.ApplicationVndMsOfficetheme:                                          MimeTypes.ApplicationVndMsOfficetheme,                                          // Microsoft Office System Release Theme
+		MimeTypes.ApplicationVndMsPkiSeccat:                                            MimeTypes.ApplicationVndMsPkiSeccat,                                            // Microsoft Trust UI Provider - Security Catalog
+		MimeTypes.ApplicationVndMsPkiStl:                                               MimeTypes.ApplicationVndMsPkiStl,                                               // Microsoft Trust UI Provider - Certificate Trust Link
+		MimeTypes.ApplicationVndMsPowerpoint:                                           MimeTypes.ApplicationVndMsPowerpoint,                                           // Microsoft PowerPoint
+		MimeTypes.ApplicationVndMsPowerpointAddinMacroenabled12:                        MimeTypes.ApplicationVndMsPowerpointAddinMacroenabled12,                        // Microsoft PowerPoint - Add-in file
+		MimeTypes.ApplicationVndMsPowerpointPresentationMacroenabled12:                 MimeTypes.ApplicationVndMsPowerpointPresentationMacroenabled12,                 // Microsoft PowerPoint - Macro-Enabled Presentation File
+		MimeTypes.ApplicationVndMsPowerpointSlideMacroenabled12:                        MimeTypes.ApplicationVndMsPowerpointSlideMacroenabled12,                        // Microsoft PowerPoint - Macro-Enabled Open XML Slide
+		MimeTypes.ApplicationVndMsPowerpointSlideshowMacroenabled12:                    MimeTypes.ApplicationVndMsPowerpointSlideshowMacroenabled12,                    // Microsoft PowerPoint - Macro-Enabled Slide Show File
+		MimeTypes.ApplicationVndMsPowerpointTemplateMacroenabled12:                     MimeTypes.ApplicationVndMsPowerpointTemplateMacroenabled12,                     // Microsoft PowerPoint - Macro-Enabled Template File
+		MimeTypes.ApplicationVndMsProject:                                              MimeTypes.ApplicationVndMsProject,                                              // Microsoft Project
+		MimeTypes.ApplicationVndMsWordDocumentMacroenabled12:                           MimeTypes.ApplicationVndMsWordDocumentMacroenabled12,                           // Microsoft Word - Macro-Enabled Document
+		MimeTypes.ApplicationVndMsWordTemplateMacroenabled12:                           MimeTypes.ApplicationVndMsWordTemplateMacroenabled12,                           // Microsoft Word - Macro-Enabled Template
+		MimeTypes.ApplicationVndMsWorks:                                                MimeTypes.ApplicationVndMsWorks,                                                // Microsoft Works
+		MimeTypes.ApplicationVndMsWpl:                                                  MimeTypes.ApplicationVndMsWpl,                                                  // Microsoft Windows Media Player Playlist
+		MimeTypes.ApplicationVndMsXpsdocument:                                          MimeTypes.ApplicationVndMsXpsdocument,                                          // Microsoft XML Paper Specification
+		MimeTypes.ApplicationVndMseq:                                                   MimeTypes.ApplicationVndMseq,                                                   // 3GPP MSEQ File
+		MimeTypes.ApplicationVndMusician:                                               MimeTypes.ApplicationVndMusician,                                               // MUsical Score Interpreted Code Invented for the ASCII designation of Notation
+		MimeTypes.ApplicationVndMuveeStyle:                                             MimeTypes.ApplicationVndMuveeStyle,                                             // Muvee Automatic Video Editing
+		MimeTypes.ApplicationVndNeurolanguageNlu:                                       MimeTypes.ApplicationVndNeurolanguageNlu,                                       // neuroLanguage
+		MimeTypes.ApplicationVndNoblenetDirectory:                                      MimeTypes.ApplicationVndNoblenetDirectory,                                      // NobleNet Directory
+		MimeTypes.ApplicationVndNoblenetSealer:                                         MimeTypes.ApplicationVndNoblenetSealer,                                         // NobleNet Sealer
+		MimeTypes.ApplicationVndNoblenetWeb:                                            MimeTypes.ApplicationVndNoblenetWeb,                                            // NobleNet Web
+		MimeTypes.ApplicationVndNokiaNGageData:                                         MimeTypes.ApplicationVndNokiaNGageData,                                         // N-Gage Game Data
+		MimeTypes.ApplicationVndNokiaNGageSymbianInstall:                               MimeTypes.ApplicationVndNokiaNGageSymbianInstall,                               // N-Gage Game Installer
+		MimeTypes.ApplicationVndNokiaRadioPreset:                                       MimeTypes.ApplicationVndNokiaRadioPreset,                                       // Nokia Radio Application - Preset
+		MimeTypes.ApplicationVndNokiaRadioPresets:                                      MimeTypes.ApplicationVndNokiaRadioPresets,                                      // Nokia Radio Application - Preset
+		MimeTypes.ApplicationVndNovadigmEdm:                                            MimeTypes.ApplicationVndNovadigmEdm,                                            // Novadigm's RADIA and EDM products
+		MimeTypes.ApplicationVndNovadigmEdx:                                            MimeTypes.ApplicationVndNovadigmEdx,                                            // Novadigm's RADIA and EDM products
+		MimeTypes.ApplicationVndNovadigmExt:                                            MimeTypes.ApplicationVndNovadigmExt,                                            // Novadigm's RADIA and EDM products
+		MimeTypes.ApplicationVndOasisOpendocumentChart:                                 MimeTypes.ApplicationVndOasisOpendocumentChart,                                 // OpenDocument Chart
+		MimeTypes.ApplicationVndOasisOpendocumentChartTemplate:                         MimeTypes.ApplicationVndOasisOpendocumentChartTemplate,                         // OpenDocument Chart Template
+		MimeTypes.ApplicationVndOasisOpendocumentDatabase:                              MimeTypes.ApplicationVndOasisOpendocumentDatabase,                              // OpenDocument Database
+		MimeTypes.ApplicationVndOasisOpendocumentFormula:                               MimeTypes.ApplicationVndOasisOpendocumentFormula,                               // OpenDocument Formula
+		MimeTypes.ApplicationVndOasisOpendocumentFormulaTemplate:                       MimeTypes.ApplicationVndOasisOpendocumentFormulaTemplate,                       // OpenDocument Formula Template
+		MimeTypes.ApplicationVndOasisOpendocumentGraphics:                              MimeTypes.ApplicationVndOasisOpendocumentGraphics,                              // OpenDocument Graphics
+		MimeTypes.ApplicationVndOasisOpendocumentGraphicsTemplate:                      MimeTypes.ApplicationVndOasisOpendocumentGraphicsTemplate,                      // OpenDocument Graphics Template
+		MimeTypes.ApplicationVndOasisOpendocumentImage:                                 MimeTypes.ApplicationVndOasisOpendocumentImage,                                 // OpenDocument Image
+		MimeTypes.ApplicationVndOasisOpendocumentImageTemplate:                         MimeTypes.ApplicationVndOasisOpendocumentImageTemplate,                         // OpenDocument Image Template
+		MimeTypes.ApplicationVndOasisOpendocumentPresentation:                          MimeTypes.ApplicationVndOasisOpendocumentPresentation,                          // OpenDocument Presentation
+		MimeTypes.ApplicationVndOasisOpendocumentPresentationTemplate:                  MimeTypes.ApplicationVndOasisOpendocumentPresentationTemplate,                  // OpenDocument Presentation Template
+		MimeTypes.ApplicationVndOasisOpendocumentSpreadsheet:                           MimeTypes.ApplicationVndOasisOpendocumentSpreadsheet,                           // OpenDocument Spreadsheet
+		MimeTypes.ApplicationVndOasisOpendocumentSpreadsheetTemplate:                   MimeTypes.ApplicationVndOasisOpendocumentSpreadsheetTemplate,                   // OpenDocument Spreadsheet Template
+		MimeTypes.ApplicationVndOasisOpendocumentText:                                  MimeTypes.ApplicationVndOasisOpendocumentText,                                  // OpenDocument Text
+		MimeTypes.ApplicationVndOasisOpendocumentTextMaster:                            MimeTypes.ApplicationVndOasisOpendocumentTextMaster,                            // OpenDocument Text Master
+		MimeTypes.ApplicationVndOasisOpendocumentTextTemplate:                          MimeTypes.ApplicationVndOasisOpendocumentTextTemplate,                          // OpenDocument Text Template
+		MimeTypes.ApplicationVndOasisOpendocumentTextWeb:                               MimeTypes.ApplicationVndOasisOpendocumentTextWeb,                               // Open Document Text Web
+		MimeTypes.ApplicationVndOlpcSugar:                                              MimeTypes.ApplicationVndOlpcSugar,                                              // Sugar Linux Application Bundle
+		MimeTypes.ApplicationVndOmaDd2Xml:                                              MimeTypes.ApplicationVndOmaDd2Xml,                                              // OMA Download Agents
+		MimeTypes.ApplicationVndOpenofficeorgExtension:                                 MimeTypes.ApplicationVndOpenofficeorgExtension,                                 // Open Office Extension
+		MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlPresentation: MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlPresentation, // Microsoft Office - OOXML - Presentation
+		MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlide:        MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlide,        // Microsoft Office - OOXML - Presentation (Slide)
+		MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlideshow:    MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlideshow,    // Microsoft Office - OOXML - Presentation (Slideshow)
+		MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlTemplate:     MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlTemplate,     // Microsoft Office - OOXML - Presentation Template
+		MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlSheet:         MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlSheet,         // Microsoft Office - OOXML - Spreadsheet
+		MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlTemplate:      MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlTemplate,      // Microsoft Office - OOXML - Spreadsheet Template
+		MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlDocument:   MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlDocument,   // Microsoft Office - OOXML - Word Document
+		MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlTemplate:   MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlTemplate,   // Microsoft Office - OOXML - Word Document Template
+		MimeTypes.ApplicationVndOsgeoMapguidePackage:                                   MimeTypes.ApplicationVndOsgeoMapguidePackage,                                   // MapGuide DBXML
+		MimeTypes.ApplicationVndOsgiDp:                                                 MimeTypes.ApplicationVndOsgiDp,                                                 // OSGi Deployment Package
+		MimeTypes.ApplicationVndPalm:                                                   MimeTypes.ApplicationVndPalm,                                                   // PalmOS Data
+		MimeTypes.ApplicationVndPawaafile:                                              MimeTypes.ApplicationVndPawaafile,                                              // PawaaFILE
+		MimeTypes.ApplicationVndPgFormat:                                               MimeTypes.ApplicationVndPgFormat,                                               // Proprietary P&G Standard Reporting System
+		MimeTypes.ApplicationVndPgOsasli:                                               MimeTypes.ApplicationVndPgOsasli,                                               // Proprietary P&G Standard Reporting System
+		MimeTypes.ApplicationVndPicsel:                                                 MimeTypes.ApplicationVndPicsel,                                                 // Pcsel eFIF File
+		MimeTypes.ApplicationVndPmiWidget:                                              MimeTypes.ApplicationVndPmiWidget,                                              // Qualcomm's Plaza Mobile Internet
+		MimeTypes.ApplicationVndPocketlearn:                                            MimeTypes.ApplicationVndPocketlearn,                                            // PocketLearn Viewers
+		MimeTypes.ApplicationVndPowerbuilder6:                                          MimeTypes.ApplicationVndPowerbuilder6,                                          // PowerBuilder
+		MimeTypes.ApplicationVndPreviewsystemsBox:                                      MimeTypes.ApplicationVndPreviewsystemsBox,                                      // Preview Systems ZipLock/VBox
+		MimeTypes.ApplicationVndProteusMagazine:                                        MimeTypes.ApplicationVndProteusMagazine,                                        // EFI Proteus
+		MimeTypes.ApplicationVndPublishareDeltaTree:                                    MimeTypes.ApplicationVndPublishareDeltaTree,                                    // PubliShare Objects
+		MimeTypes.ApplicationVndPviPtid1:                                               MimeTypes.ApplicationVndPviPtid1,                                               // Princeton Video Image
+		MimeTypes.ApplicationVndQuarkQuarkxpress:                                       MimeTypes.ApplicationVndQuarkQuarkxpress,                                       // QuarkXpress
+		MimeTypes.ApplicationVndRar:                                                    MimeTypes.ApplicationVndRar,                                                    // RAR Archive
+		MimeTypes.ApplicationXRarCompressed:                                            MimeTypes.ApplicationVndRar,                                                    // RAR Archive
+		MimeTypes.ApplicationVndRealvncBed:                                             MimeTypes.ApplicationVndRealvncBed,                                             // RealVNC
+		MimeTypes.ApplicationVndRecordareMusicxml:                                      MimeTypes.ApplicationVndRecordareMusicxml,                                      // Recordare Applications
+		MimeTypes.ApplicationVndRecordareMusicxmlXml:                                   MimeTypes.ApplicationVndRecordareMusicxmlXml,                                   // Recordare Applications
+		MimeTypes.ApplicationVndRigCryptonote:                                          MimeTypes.ApplicationVndRigCryptonote,                                          // CryptoNote
+		MimeTypes.ApplicationVndRimCod:                                                 MimeTypes.ApplicationVndRimCod,                                                 // Blackberry COD File
+		MimeTypes.ApplicationVndRnRealmedia:                                            MimeTypes.ApplicationVndRnRealmedia,                                            // RealMedia
+		MimeTypes.ApplicationVndRoute66Link66Xml:                                       MimeTypes.ApplicationVndRoute66Link66Xml,                                       // ROUTE 66 Location Based Services
+		MimeTypes.ApplicationVndSailingtrackerTrack:                                    MimeTypes.ApplicationVndSailingtrackerTrack,                                    // SailingTracker
+		MimeTypes.ApplicationVndSeemail:                                                MimeTypes.ApplicationVndSeemail,                                                // SeeMail
+		MimeTypes.ApplicationVndSema:                                                   MimeTypes.ApplicationVndSema,                                                   // Secured eMail
+		MimeTypes.ApplicationVndSemd:                                                   MimeTypes.ApplicationVndSemd,                                                   // Secured eMail
+		MimeTypes.ApplicationVndSemf:                                                   MimeTypes.ApplicationVndSemf,                                                   // Secured eMail
+		MimeTypes.ApplicationVndShanaInformedFormdata:                                  MimeTypes.ApplicationVndShanaInformedFormdata,                                  // Shana Informed Filler
+		MimeTypes.ApplicationVndShanaInformedFormtemplate:                              MimeTypes.ApplicationVndShanaInformedFormtemplate,                              // Shana Informed Filler
+		MimeTypes.ApplicationVndShanaInformedInterchange:                               MimeTypes.ApplicationVndShanaInformedInterchange,                               // Shana Informed Filler
+		MimeTypes.ApplicationVndShanaInformedPackage:                                   MimeTypes.ApplicationVndShanaInformedPackage,                                   // Shana Informed Filler
+		MimeTypes.ApplicationVndSimtechMindmapper:                                      MimeTypes.ApplicationVndSimtechMindmapper,                                      // SimTech MindMapper
+		MimeTypes.ApplicationVndSmaf:                                                   MimeTypes.ApplicationVndSmaf,                                                   // SMAF File
+		MimeTypes.ApplicationVndSmartTeacher:                                           MimeTypes.ApplicationVndSmartTeacher,                                           // SMART Technologies Apps
+		MimeTypes.ApplicationVndSolentSdkmXml:                                          MimeTypes.ApplicationVndSolentSdkmXml,                                          // SudokuMagic
+		MimeTypes.ApplicationVndSpotfireDxp:                                            MimeTypes.ApplicationVndSpotfireDxp,                                            // TIBCO Spotfire
+		MimeTypes.ApplicationVndSpotfireSfs:                                            MimeTypes.ApplicationVndSpotfireSfs,                                            // TIBCO Spotfire
+		MimeTypes.ApplicationVndStardivisionCalc:                                       MimeTypes.ApplicationVndStardivisionCalc,                                       // StarOffice - Calc
+		MimeTypes.ApplicationVndStardivisionDraw:                                       MimeTypes.ApplicationVndStardivisionDraw,                                       // StarOffice - Draw
+		MimeTypes.ApplicationVndStardivisionImpress:                                    MimeTypes.ApplicationVndStardivisionImpress,                                    // StarOffice - Impress
+		MimeTypes.ApplicationVndStardivisionMath:                                       MimeTypes.ApplicationVndStardivisionMath,                                       // StarOffice - Math
+		MimeTypes.ApplicationVndStardivisionWriter:                                     MimeTypes.ApplicationVndStardivisionWriter,                                     // StarOffice - Writer
+		MimeTypes.ApplicationVndStardivisionWriterGlobal:                               MimeTypes.ApplicationVndStardivisionWriterGlobal,                               // StarOffice - Writer (Global)
+		MimeTypes.ApplicationVndStepmaniaStepchart:                                     MimeTypes.ApplicationVndStepmaniaStepchart,                                     // StepMania
+		MimeTypes.ApplicationVndSunXmlCalc:                                             MimeTypes.ApplicationVndSunXmlCalc,                                             // OpenOffice - Calc (Spreadsheet)
+		MimeTypes.ApplicationVndSunXmlCalcTemplate:                                     MimeTypes.ApplicationVndSunXmlCalcTemplate,                                     // OpenOffice - Calc Template (Spreadsheet)
+		MimeTypes.ApplicationVndSunXmlDraw:                                             MimeTypes.ApplicationVndSunXmlDraw,                                             // OpenOffice - Draw (Graphics)
+		MimeTypes.ApplicationVndSunXmlDrawTemplate:                                     MimeTypes.ApplicationVndSunXmlDrawTemplate,                                     // OpenOffice - Draw Template (Graphics)
+		MimeTypes.ApplicationVndSunXmlImpress:                                          MimeTypes.ApplicationVndSunXmlImpress,                                          // OpenOffice - Impress (Presentation)
+		MimeTypes.ApplicationVndSunXmlImpressTemplate:                                  MimeTypes.ApplicationVndSunXmlImpressTemplate,                                  // OpenOffice - Impress Template (Presentation)
+		MimeTypes.ApplicationVndSunXmlMath:                                             MimeTypes.ApplicationVndSunXmlMath,                                             // OpenOffice - Math (Formula)
+		MimeTypes.ApplicationVndSunXmlWriter:                                           MimeTypes.ApplicationVndSunXmlWriter,                                           // OpenOffice - Writer (Text - HTML)
+		MimeTypes.ApplicationVndSunXmlWriterGlobal:                                     MimeTypes.ApplicationVndSunXmlWriterGlobal,                                     // OpenOffice - Writer (Text - HTML)
+		MimeTypes.ApplicationVndSunXmlWriterTemplate:                                   MimeTypes.ApplicationVndSunXmlWriterTemplate,                                   // OpenOffice - Writer Template (Text - HTML)
+		MimeTypes.ApplicationVndSusCalendar:                                            MimeTypes.ApplicationVndSusCalendar,                                            // ScheduleUs
+		MimeTypes.ApplicationVndSvd:                                                    MimeTypes.ApplicationVndSvd,                                                    // SourceView Document
+		MimeTypes.ApplicationVndSymbianInstall:                                         MimeTypes.ApplicationVndSymbianInstall,                                         // Symbian Install Package
+		MimeTypes.ApplicationVndSyncmlXml:                                              MimeTypes.ApplicationVndSyncmlXml,                                              // SyncML
+		MimeTypes.ApplicationVndSyncmlDmWbxml:                                          MimeTypes.ApplicationVndSyncmlDmWbxml,                                          // SyncML - Device Management
+		MimeTypes.ApplicationVndSyncmlDmXml:                                            MimeTypes.ApplicationVndSyncmlDmXml,                                            // SyncML - Device Management
+		MimeTypes.ApplicationVndTaoIntentModuleArchive:                                 MimeTypes.ApplicationVndTaoIntentModuleArchive,                                 // Tao Intent
+		MimeTypes.ApplicationVndTmobileLivetv:                                          MimeTypes.ApplicationVndTmobileLivetv,                                          // MobileTV
+		MimeTypes.ApplicationVndTridTpt:                                                MimeTypes.ApplicationVndTridTpt,                                                // TRI Systems Config
+		MimeTypes.ApplicationVndTriscapeMxs:                                            MimeTypes.ApplicationVndTriscapeMxs,                                            // Triscape Map Explorer
+		MimeTypes.ApplicationVndTrueapp:                                                MimeTypes.ApplicationVndTrueapp,                                                // True BASIC
+		MimeTypes.ApplicationVndUfdl:                                                   MimeTypes.ApplicationVndUfdl,                                                   // Universal Forms Description Language
+		MimeTypes.ApplicationVndUiqTheme:                                               MimeTypes.ApplicationVndUiqTheme,                                               // User Interface Quartz - Theme (Symbian)
+		MimeTypes.ApplicationVndUmajin:                                                 MimeTypes.ApplicationVndUmajin,                                                 // UMAJIN
+		MimeTypes.ApplicationVndUnity:                                                  MimeTypes.ApplicationVndUnity,                                                  // Unity 3d
+		MimeTypes.ApplicationVndUomlXml:                                                MimeTypes.ApplicationVndUomlXml,                                                // Unique Object Markup Language
+		MimeTypes.ApplicationVndVcx:                                                    MimeTypes.ApplicationVndVcx,                                                    // VirtualCatalog
+		MimeTypes.ApplicationVndVisio:                                                  MimeTypes.ApplicationVndVisio,                                                  // Microsoft Visio
+		MimeTypes.ApplicationVndVisio2013:                                              MimeTypes.ApplicationVndVisio2013,                                              // Microsoft Visio 2013
+		MimeTypes.ApplicationVndVisionary:                                              MimeTypes.ApplicationVndVisionary,                                              // Visionary
+		MimeTypes.ApplicationVndVsf:                                                    MimeTypes.ApplicationVndVsf,                                                    // Viewport+
+		MimeTypes.ApplicationVndWapWbxml:                                               MimeTypes.ApplicationVndWapWbxml,                                               // WAP Binary XML (WBXML)
+		MimeTypes.ApplicationVndWapWmlc:                                                MimeTypes.ApplicationVndWapWmlc,                                                // Compiled Wireless Markup Language (WMLC)
+		MimeTypes.ApplicationVndWapWmlscriptc:                                          MimeTypes.ApplicationVndWapWmlscriptc,                                          // WMLScript
+		MimeTypes.ApplicationVndWebturbo:                                               MimeTypes.ApplicationVndWebturbo,                                               // WebTurbo
+		MimeTypes.ApplicationVndWolframPlayer:                                          MimeTypes.ApplicationVndWolframPlayer,                                          // Mathematica Notebook Player
+		MimeTypes.ApplicationVndWordperfect:                                            MimeTypes.ApplicationVndWordperfect,                                            // Wordperfect
+		MimeTypes.ApplicationVndWqd:                                                    MimeTypes.ApplicationVndWqd,                                                    // SundaHus WQ
+		MimeTypes.ApplicationVndWtStf:                                                  MimeTypes.ApplicationVndWtStf,                                                  // Worldtalk
+		MimeTypes.ApplicationVndXara:                                                   MimeTypes.ApplicationVndXara,                                                   // CorelXARA
+		MimeTypes.ApplicationVndXfdl:                                                   MimeTypes.ApplicationVndXfdl,                                                   // Extensible Forms Description Language
+		MimeTypes.ApplicationVndYamahaHvDic:                                            MimeTypes.ApplicationVndYamahaHvDic,                                            // HV Voice Dictionary
+		MimeTypes.ApplicationVndYamahaHvScript:                                         MimeTypes.ApplicationVndYamahaHvScript,                                         // HV Script
+		MimeTypes.ApplicationVndYamahaHvVoice:                                          MimeTypes.ApplicationVndYamahaHvVoice,                                          // HV Voice Parameter
+		MimeTypes.ApplicationVndYamahaOpenscoreformat:                                  MimeTypes.ApplicationVndYamahaOpenscoreformat,                                  // Open Score Format
+		MimeTypes.ApplicationVndYamahaOpenscoreformatOsfpvgXml:                         MimeTypes.ApplicationVndYamahaOpenscoreformatOsfpvgXml,                         // OSFPVG
+		MimeTypes.ApplicationVndYamahaSmafAudio:                                        MimeTypes.ApplicationVndYamahaSmafAudio,                                        // SMAF Audio
+		MimeTypes.ApplicationVndYamahaSmafPhrase:                                       MimeTypes.ApplicationVndYamahaSmafPhrase,                                       // SMAF Phrase
+		MimeTypes.ApplicationVndYellowriverCustomMenu:                                  MimeTypes.ApplicationVndYellowriverCustomMenu,                                  // CustomMenu
+		MimeTypes.ApplicationVndZul:                                                    MimeTypes.ApplicationVndZul,                                                    // Z.U.L. Geometry
+		MimeTypes.ApplicationVndZzazzDeckXml:                                           MimeTypes.ApplicationVndZzazzDeckXml,                                           // Zzazz Deck
+		MimeTypes.ApplicationVoicexmlXml:                                               MimeTypes.ApplicationVoicexmlXml,                                               // VoiceXML
+		MimeTypes.ApplicationWidget:                                                    MimeTypes.ApplicationWidget,                                                    // Widget Packaging and XML Configuration
+		MimeTypes.ApplicationWinhlp:                                                    MimeTypes.ApplicationWinhlp,                                                    // WinHelp
+		MimeTypes.ApplicationWsdlXml:                                                   MimeTypes.ApplicationWsdlXml,                                                   // WSDL - Web Services Description Language
+		MimeTypes.ApplicationWspolicyXml:                                               MimeTypes.ApplicationWspolicyXml,                                               // Web Services Policy
+		MimeTypes.ApplicationX7zCompressed:                                             MimeTypes.ApplicationX7zCompressed,                                             // 7-Zip
+		MimeTypes.ApplicationXAbiword:                                                  MimeTypes.ApplicationXAbiword,                                                  // AbiWord
+		MimeTypes.ApplicationXAceCompressed:                                            MimeTypes.ApplicationXAceCompressed,                                            // Ace Archive
+		MimeTypes.ApplicationXAppleDiskimage:                                           MimeTypes.ApplicationXAppleDiskimage,                                           // Apple Disk Image
+		MimeTypes.ApplicationXAuthorwareBin:                                            MimeTypes.ApplicationXAuthorwareBin,                                            // Adobe (Macropedia) Authorware - Binary File
+		MimeTypes.ApplicationXAuthorwareMap:                                            MimeTypes.ApplicationXAuthorwareMap,                                            // Adobe (Macropedia) Authorware - Map
+		MimeTypes.ApplicationXAuthorwareSeg:                                            MimeTypes.ApplicationXAuthorwareSeg,                                            // Adobe (Macropedia) Authorware - Segment File
+		MimeTypes.ApplicationXBcpio:                                                    MimeTypes.ApplicationXBcpio,                                                    // Binary CPIO Archive
+		MimeTypes.ApplicationXBittorrent:                                               MimeTypes.ApplicationXBittorrent,                                               // BitTorrent
+		MimeTypes.ApplicationXBzip:                                                     MimeTypes.ApplicationXBzip,                                                     // Bzip Archive
+		MimeTypes.ApplicationXBzip2:                                                    MimeTypes.ApplicationXBzip2,                                                    // Bzip2 Archive
+		MimeTypes.ApplicationXCdf:                                                      MimeTypes.ApplicationXCdf,                                                      // CD audio
+		MimeTypes.ApplicationXCdlink:                                                   MimeTypes.ApplicationXCdlink,                                                   // Video CD
+		MimeTypes.ApplicationXChat:                                                     MimeTypes.ApplicationXChat,                                                     // pIRCh
+		MimeTypes.ApplicationXChessPgn:                                                 MimeTypes.ApplicationXChessPgn,                                                 // Portable Game Notation (Chess Games)
+		MimeTypes.ApplicationXCpio:                                                     MimeTypes.ApplicationXCpio,                                                     // CPIO Archive
+		MimeTypes.ApplicationXCsh:                                                      MimeTypes.ApplicationXCsh,                                                      // C Shell Script
+		MimeTypes.ApplicationXDebianPackage:                                            MimeTypes.ApplicationXDebianPackage,                                            // Debian Package
+		MimeTypes.ApplicationXDirector:                                                 MimeTypes.ApplicationXDirector,                                                 // Ad1obe Shockwave Player
+		MimeTypes.ApplicationXDoom:                                                     MimeTypes.ApplicationXDoom,                                                     // Doom Video Game
+		MimeTypes.ApplicationXDtbncxXml:                                                MimeTypes.ApplicationXDtbncxXml,                                                // Navigation Control file for XML (for ePub)
+		MimeTypes.ApplicationXDtbookXml:                                                MimeTypes.ApplicationXDtbookXml,                                                // Digital Talking Book
+		MimeTypes.ApplicationXDtbresourceXml:                                           MimeTypes.ApplicationXDtbresourceXml,                                           // Digital Talking Book - Resource File
+		MimeTypes.ApplicationXDvi:                                                      MimeTypes.ApplicationXDvi,                                                      // Device Independent File Format (DVI)
+		MimeTypes.ApplicationXFontBdf:                                                  MimeTypes.ApplicationXFontBdf,                                                  // Glyph Bitmap Distribution Format
+		MimeTypes.ApplicationXFontGhostscript:                                          MimeTypes.ApplicationXFontGhostscript,                                          // Ghostscript Font
+		MimeTypes.ApplicationXFontLinuxPsf:                                             MimeTypes.ApplicationXFontLinuxPsf,                                             // PSF Fonts
+		MimeTypes.ApplicationXFontPcf:                                                  MimeTypes.ApplicationXFontPcf,                                                  // Portable Compiled Format
+		MimeTypes.ApplicationXFontSnf:                                                  MimeTypes.ApplicationXFontSnf,                                                  // Server Normal Format
+		MimeTypes.ApplicationXFontType1:                                                MimeTypes.ApplicationXFontType1,                                                // PostScript Fonts
+		MimeTypes.ApplicationXFreearc:                                                  MimeTypes.ApplicationXFreearc,                                                  // Archive document (multiple files embedded)
+		MimeTypes.ApplicationXFuturesplash:                                             MimeTypes.ApplicationXFuturesplash,                                             // FutureSplash Animator
+		MimeTypes.ApplicationXGnumeric:                                                 MimeTypes.ApplicationXGnumeric,                                                 // Gnumeric
+		MimeTypes.ApplicationXGtar:                                                     MimeTypes.ApplicationXGtar,                                                     // GNU Tar Files
+		MimeTypes.ApplicationXHdf:                                                      MimeTypes.ApplicationXHdf,                                                      // Hierarchical Data Format
+		MimeTypes.ApplicationXHttpdPhp:                                                 MimeTypes.ApplicationXHttpdPhp,                                                 // Hypertext Preprocessor (Personal Home Page)
+		MimeTypes.ApplicationXJavaJnlpFile:                                             MimeTypes.ApplicationXJavaJnlpFile,                                             // Java Network Launching Protocol
+		MimeTypes.ApplicationXLatex:                                                    MimeTypes.ApplicationXLatex,                                                    // LaTeX
+		MimeTypes.ApplicationXMobipocketEbook:                                          MimeTypes.ApplicationXMobipocketEbook,                                          // Mobipocket
+		MimeTypes.ApplicationXMsApplication:                                            MimeTypes.ApplicationXMsApplication,                                            // Microsoft ClickOnce
+		MimeTypes.ApplicationXMsWmd:                                                    MimeTypes.ApplicationXMsWmd,                                                    // Microsoft Windows Media Player Download Package
+		MimeTypes.ApplicationXMsWmz:                                                    MimeTypes.ApplicationXMsWmz,                                                    // Microsoft Windows Media Player Skin Package
+		MimeTypes.ApplicationXMsXbap:                                                   MimeTypes.ApplicationXMsXbap,                                                   // Microsoft XAML Browser Application
+		MimeTypes.ApplicationXMsaccess:                                                 MimeTypes.ApplicationXMsaccess,                                                 // Microsoft Access
+		MimeTypes.ApplicationXMsbinder:                                                 MimeTypes.ApplicationXMsbinder,                                                 // Microsoft Office Binder
+		MimeTypes.ApplicationXMscardfile:                                               MimeTypes.ApplicationXMscardfile,                                               // Microsoft Information Card
+		MimeTypes.ApplicationXMsclip:                                                   MimeTypes.ApplicationXMsclip,                                                   // Microsoft Clipboard Clip
+		MimeTypes.ApplicationXMsdownload:                                               MimeTypes.ApplicationXMsdownload,                                               // Microsoft Application
+		MimeTypes.ApplicationXMsmediaview:                                              MimeTypes.ApplicationXMsmediaview,                                              // Microsoft MediaView
+		MimeTypes.ApplicationXMsmetafile:                                               MimeTypes.ApplicationXMsmetafile,                                               // Microsoft Windows Metafile
+		MimeTypes.ApplicationXMsmoney:                                                  MimeTypes.ApplicationXMsmoney,                                                  // Microsoft Money
+		MimeTypes.ApplicationXMspublisher:                                              MimeTypes.ApplicationXMspublisher,                                              // Microsoft Publisher
+		MimeTypes.ApplicationXMsschedule:                                               MimeTypes.ApplicationXMsschedule,                                               // Microsoft Schedule+
+		MimeTypes.ApplicationXMsterminal:                                               MimeTypes.ApplicationXMsterminal,                                               // Microsoft Windows Terminal Services
+		MimeTypes.ApplicationXMswrite:                                                  MimeTypes.ApplicationXMswrite,                                                  // Microsoft Wordpad
+		MimeTypes.ApplicationXNetcdf:                                                   MimeTypes.ApplicationXNetcdf,                                                   // Network Common Data Form (NetCDF)
+		MimeTypes.ApplicationXPkcs12:                                                   MimeTypes.ApplicationXPkcs12,                                                   // PKCS #12 - Personal Information Exchange Syntax Standard
+		MimeTypes.ApplicationXPkcs7Certificates:                                        MimeTypes.ApplicationXPkcs7Certificates,                                        // PKCS #7 - Cryptographic Message Syntax Standard (Certificates)
+		MimeTypes.ApplicationXPkcs7Certreqresp:                                         MimeTypes.ApplicationXPkcs7Certreqresp,                                         // PKCS #7 - Cryptographic Message Syntax Standard (Certificate Request Response)
+		MimeTypes.ApplicationXSh:                                                       MimeTypes.ApplicationXSh,                                                       // Bourne Shell Script
+		MimeTypes.ApplicationXShar:                                                     MimeTypes.ApplicationXShar,                                                     // Shell Archive
+		MimeTypes.ApplicationXShockwaveFlash:                                           MimeTypes.ApplicationXShockwaveFlash,                                           // Adobe Flash
+		MimeTypes.ApplicationXSilverlightApp:                                           MimeTypes.ApplicationXSilverlightApp,                                           // Microsoft Silverlight
+		MimeTypes.ApplicationXStuffit:                                                  MimeTypes.ApplicationXStuffit,                                                  // Stuffit Archive
+		MimeTypes.ApplicationXStuffitx:                                                 MimeTypes.ApplicationXStuffitx,                                                 // Stuffit Archive
+		MimeTypes.ApplicationXSv4cpio:                                                  MimeTypes.ApplicationXSv4cpio,                                                  // System V Release 4 CPIO Archive
+		MimeTypes.ApplicationXSv4crc:                                                   MimeTypes.ApplicationXSv4crc,                                                   // System V Release 4 CPIO Checksum Data
+		MimeTypes.ApplicationXTar:                                                      MimeTypes.ApplicationXTar,                                                      // Tar File (Tape Archive)
+		MimeTypes.ApplicationXTcl:                                                      MimeTypes.ApplicationXTcl,                                                      // Tcl Script
+		MimeTypes.ApplicationXTex:                                                      MimeTypes.ApplicationXTex,                                                      // TeX
+		MimeTypes.ApplicationXTexTfm:                                                   MimeTypes.ApplicationXTexTfm,                                                   // TeX Font Metric
+		MimeTypes.ApplicationXTexinfo:                                                  MimeTypes.ApplicationXTexinfo,                                                  // GNU Texinfo Document
+		MimeTypes.ApplicationXUstar:                                                    MimeTypes.ApplicationXUstar,                                                    // Ustar (Uniform Standard Tape Archive)
+		MimeTypes.ApplicationXWaisSource:                                               MimeTypes.ApplicationXWaisSource,                                               // WAIS Source
+		MimeTypes.ApplicationXX509CaCert:                                               MimeTypes.ApplicationXX509CaCert,                                               // X.509 Certificate
+		MimeTypes.ApplicationXXfig:                                                     MimeTypes.ApplicationXXfig,                                                     // Xfig
+		MimeTypes.ApplicationXXpinstall:                                                MimeTypes.ApplicationXXpinstall,                                                // XPInstall - Mozilla
+		MimeTypes.ApplicationXYaml:                                                     MimeTypes.ApplicationXYaml,                                                     // YAML Ain't Markup Language / Yet Another Markup Language
+		MimeTypes.TextXYaml:                                                            MimeTypes.ApplicationXYaml,                                                     // YAML Ain't Markup Language / Yet Another Markup Language
+		MimeTypes.TextYaml:                                                             MimeTypes.ApplicationXYaml,                                                     // YAML Ain't Markup Language / Yet Another Markup Language
+		MimeTypes.ApplicationYaml:                                                      MimeTypes.ApplicationXYaml,                                                     // YAML Ain't Markup Language / Yet Another Markup Language
+		MimeTypes.ApplicationXcapDiffXml:                                               MimeTypes.ApplicationXcapDiffXml,                                               // XML Configuration Access Protocol - XCAP Diff
+		MimeTypes.ApplicationXencXml:                                                   MimeTypes.ApplicationXencXml,                                                   // XML Encryption Syntax and Processing
+		MimeTypes.ApplicationXhtmlXml:                                                  MimeTypes.ApplicationXhtmlXml,                                                  // XHTML - The Extensible HyperText Markup Language
+		MimeTypes.ApplicationXml:                                                       MimeTypes.ApplicationXml,                                                       // XML - Extensible Markup Language
+		MimeTypes.TextXml:                                                              MimeTypes.ApplicationXml,                                                       // XML - Extensible Markup Language
+		MimeTypes.ApplicationXmlDtd:                                                    MimeTypes.ApplicationXmlDtd,                                                    // Document Type Definition
+		MimeTypes.ApplicationXopXml:                                                    MimeTypes.ApplicationXopXml,                                                    // XML-Binary Optimized Packaging
+		MimeTypes.ApplicationXsltXml:                                                   MimeTypes.ApplicationXsltXml,                                                   // XML Transformations
+		MimeTypes.ApplicationXspfXml:                                                   MimeTypes.ApplicationXspfXml,                                                   // XSPF - XML Shareable Playlist Format
+		MimeTypes.ApplicationXvXml:                                                     MimeTypes.ApplicationXvXml,                                                     // MXML
+		MimeTypes.ApplicationYang:                                                      MimeTypes.ApplicationYang,                                                      // YANG Data Modeling Language
+		MimeTypes.ApplicationYinXml:                                                    MimeTypes.ApplicationYinXml,                                                    // YIN (YANG - XML)
+		MimeTypes.ApplicationZip:                                                       MimeTypes.ApplicationZip,                                                       // Zip Archive
+		MimeTypes.AudioAdpcm:                                                           MimeTypes.AudioAdpcm,                                                           // Adaptive differential pulse-code modulation
+		MimeTypes.AudioBasic:                                                           MimeTypes.AudioBasic,                                                           // Sun Audio - Au file format
+		MimeTypes.AudioMidi:                                                            MimeTypes.AudioMidi,                                                            // MIDI - Musical Instrument Digital Interface
+		MimeTypes.AudioXMidi:                                                           MimeTypes.AudioMidi,                                                            // MIDI - Musical Instrument Digital Interface
+		MimeTypes.AudioMp4:                                                             MimeTypes.AudioMp4,                                                             // MPEG-4 Audio
+		MimeTypes.AudioMpeg:                                                            MimeTypes.AudioMpeg,                                                            // MPEG Audio
+		MimeTypes.AudioOgg:                                                             MimeTypes.AudioOgg,                                                             // Ogg Audio
+		MimeTypes.AudioOpus:                                                            MimeTypes.AudioOpus,                                                            // Opus audio
+		MimeTypes.AudioVndDeceAudio:                                                    MimeTypes.AudioVndDeceAudio,                                                    // DECE Audio
+		MimeTypes.AudioVndDigitalWinds:                                                 MimeTypes.AudioVndDigitalWinds,                                                 // Digital Winds Music
+		MimeTypes.AudioVndDra:                                                          MimeTypes.AudioVndDra,                                                          // DRA Audio
+		MimeTypes.AudioVndDts:                                                          MimeTypes.AudioVndDts,                                                          // DTS Audio
+		MimeTypes.AudioVndDtsHd:                                                        MimeTypes.AudioVndDtsHd,                                                        // DTS High Definition Audio
+		MimeTypes.AudioVndLucentVoice:                                                  MimeTypes.AudioVndLucentVoice,                                                  // Lucent Voice
+		MimeTypes.AudioVndMsPlayreadyMediaPya:                                          MimeTypes.AudioVndMsPlayreadyMediaPya,                                          // Microsoft PlayReady Ecosystem
+		MimeTypes.AudioVndNueraEcelp4800:                                               MimeTypes.AudioVndNueraEcelp4800,                                               // Nuera ECELP 4800
+		MimeTypes.AudioVndNueraEcelp7470:                                               MimeTypes.AudioVndNueraEcelp7470,                                               // Nuera ECELP 7470
+		MimeTypes.AudioVndNueraEcelp9600:                                               MimeTypes.AudioVndNueraEcelp9600,                                               // Nuera ECELP 9600
+		MimeTypes.AudioVndRip:                                                          MimeTypes.AudioVndRip,                                                          // Hit'n'Mix
+		MimeTypes.AudioWav:                                                             MimeTypes.AudioWav,                                                             // Waveform Audio File Format (WAV)
+		MimeTypes.AudioXWav:                                                            MimeTypes.AudioWav,                                                             // Waveform Audio File Format (WAV)
+		MimeTypes.AudioWebm:                                                            MimeTypes.AudioWebm,                                                            // Open Web Media Project - Audio
+		MimeTypes.AudioXAac:                                                            MimeTypes.AudioXAac,                                                            // Advanced Audio Coding (AAC)
+		MimeTypes.AudioXAiff:                                                           MimeTypes.AudioXAiff,                                                           // Audio Interchange File Format
+		MimeTypes.AudioXMpegurl:                                                        MimeTypes.AudioXMpegurl,                                                        // M3U (Multimedia Playlist)
+		MimeTypes.AudioXMsWax:                                                          MimeTypes.AudioXMsWax,                                                          // Microsoft Windows Media Audio Redirector
+		MimeTypes.AudioXMsWma:                                                          MimeTypes.AudioXMsWma,                                                          // Microsoft Windows Media Audio
+		MimeTypes.AudioXPnRealaudio:                                                    MimeTypes.AudioXPnRealaudio,                                                    // Real Audio Sound
+		MimeTypes.AudioXPnRealaudioPlugin:                                              MimeTypes.AudioXPnRealaudioPlugin,                                              // Real Audio Sound
+		MimeTypes.ChemicalXCdx:                                                         MimeTypes.ChemicalXCdx,                                                         // ChemDraw eXchange file
+		MimeTypes.ChemicalXCif:                                                         MimeTypes.ChemicalXCif,                                                         // Crystallographic Interchange Format
+		MimeTypes.ChemicalXCmdf:                                                        MimeTypes.ChemicalXCmdf,                                                        // CrystalMaker Data Format
+		MimeTypes.ChemicalXCml:                                                         MimeTypes.ChemicalXCml,                                                         // Chemical Markup Language
+		MimeTypes.ChemicalXCsml:                                                        MimeTypes.ChemicalXCsml,                                                        // Chemical Style Markup Language
+		MimeTypes.ChemicalXXyz:                                                         MimeTypes.ChemicalXXyz,                                                         // XYZ File Format
+		MimeTypes.FontOtf:                                                              MimeTypes.FontOtf,                                                              // OpenType font
+		MimeTypes.ApplicationXFontOtf:                                                  MimeTypes.FontOtf,                                                              // OpenType font
+		MimeTypes.FontTtf:                                                              MimeTypes.FontTtf,                                                              // TrueType Font
+		MimeTypes.ApplicationXFontTtf:                                                  MimeTypes.FontTtf,                                                              // TrueType Font
+		MimeTypes.FontWoff:                                                             MimeTypes.FontWoff,                                                             // Web Open Font Format
+		MimeTypes.ApplicationXFontWoff:                                                 MimeTypes.FontWoff,                                                             // Web Open Font Format
+		MimeTypes.FontWoff2:                                                            MimeTypes.FontWoff2,                                                            // Web Open Font Format v2
+		MimeTypes.ImageBmp:                                                             MimeTypes.ImageBmp,                                                             // Bitmap Image File
+		MimeTypes.ImageCgm:                                                             MimeTypes.ImageCgm,                                                             // Computer Graphics Metafile
+		MimeTypes.ImageG3fax:                                                           MimeTypes.ImageG3fax,                                                           // G3 Fax Image
+		MimeTypes.ImageGif:                                                             MimeTypes.ImageGif,                                                             // Graphics Interchange Format
+		MimeTypes.ImageIef:                                                             MimeTypes.ImageIef,                                                             // Image Exchange Format
+		MimeTypes.ImageJpeg:                                                            MimeTypes.ImageJpeg,                                                            // JPEG Image
+		MimeTypes.ImageXCitrixJpeg:                                                     MimeTypes.ImageJpeg,                                                            // JPEG Image
+		MimeTypes.ImageKtx:                                                             MimeTypes.ImageKtx,                                                             // OpenGL Textures (KTX)
+		MimeTypes.ImagePjpeg:                                                           MimeTypes.ImagePjpeg,                                                           // JPEG Image (Progressive)
+		MimeTypes.ImagePng:                                                             MimeTypes.ImagePng,                                                             // Portable Network Graphics
+		MimeTypes.ImageXCitrixPng:                                                      MimeTypes.ImagePng,                                                             // Portable Network Graphics
+		MimeTypes.ImageXPng:                                                            MimeTypes.ImagePng,                                                             // Portable Network Graphics
+		MimeTypes.ImagePrsBtif:                                                         MimeTypes.ImagePrsBtif,                                                         // BTIF
+		MimeTypes.ImageSvgXml:                                                          MimeTypes.ImageSvgXml,                                                          // Scalable Vector Graphics (SVG)
+		MimeTypes.ImageTiff:                                                            MimeTypes.ImageTiff,                                                            // Tagged Image File Format
+		MimeTypes.ImageVndAdobePhotoshop:                                               MimeTypes.ImageVndAdobePhotoshop,                                               // Photoshop Document
+		MimeTypes.ImageVndDeceGraphic:                                                  MimeTypes.ImageVndDeceGraphic,                                                  // DECE Graphic
+		MimeTypes.ImageVndDjvu:                                                         MimeTypes.ImageVndDjvu,                                                         // DjVu
+		MimeTypes.ImageVndDvbSubtitle:                                                  MimeTypes.ImageVndDvbSubtitle,                                                  // Close Captioning - Subtitle
+		MimeTypes.ImageVndDwg:                                                          MimeTypes.ImageVndDwg,                                                          // DWG Drawing
+		MimeTypes.ImageVndDxf:                                                          MimeTypes.ImageVndDxf,                                                          // AutoCAD DXF
+		MimeTypes.ImageVndFastbidsheet:                                                 MimeTypes.ImageVndFastbidsheet,                                                 // FastBid Sheet
+		MimeTypes.ImageVndFpx:                                                          MimeTypes.ImageVndFpx,                                                          // FlashPix
+		MimeTypes.ImageVndFst:                                                          MimeTypes.ImageVndFst,                                                          // FAST Search & Transfer ASA
+		MimeTypes.ImageVndFujixeroxEdmicsMmr:                                           MimeTypes.ImageVndFujixeroxEdmicsMmr,                                           // EDMICS 2000
+		MimeTypes.ImageVndFujixeroxEdmicsRlc:                                           MimeTypes.ImageVndFujixeroxEdmicsRlc,                                           // EDMICS 2000
+		MimeTypes.ImageVndMsModi:                                                       MimeTypes.ImageVndMsModi,                                                       // Microsoft Document Imaging Format
+		MimeTypes.ImageVndNetFpx:                                                       MimeTypes.ImageVndNetFpx,                                                       // FlashPix
+		MimeTypes.ImageVndWapWbmp:                                                      MimeTypes.ImageVndWapWbmp,                                                      // WAP Bitamp (WBMP)
+		MimeTypes.ImageVndXiff:                                                         MimeTypes.ImageVndXiff,                                                         // eXtended Image File Format (XIFF)
+		MimeTypes.ImageWebp:                                                            MimeTypes.ImageWebp,                                                            // WebP Image
+		MimeTypes.ImageXCmuRaster:                                                      MimeTypes.ImageXCmuRaster,                                                      // CMU Image
+		MimeTypes.ImageXCmx:                                                            MimeTypes.ImageXCmx,                                                            // Corel Metafile Exchange (CMX)
+		MimeTypes.ImageXFreehand:                                                       MimeTypes.ImageXFreehand,                                                       // FreeHand MX
+		MimeTypes.ImageXIcon:                                                           MimeTypes.ImageXIcon,                                                           // Icon Image
+		MimeTypes.ImageVndMicrosoftIcon:                                                MimeTypes.ImageXIcon,                                                           // Icon Image
+		MimeTypes.ImageXPcx:                                                            MimeTypes.ImageXPcx,                                                            // PCX Image
+		MimeTypes.ImageXPict:                                                           MimeTypes.ImageXPict,                                                           // PICT Image
+		MimeTypes.ImageXPortableAnymap:                                                 MimeTypes.ImageXPortableAnymap,                                                 // Portable Anymap Image
+		MimeTypes.ImageXPortableBitmap:                                                 MimeTypes.ImageXPortableBitmap,                                                 // Portable Bitmap Format
+		MimeTypes.ImageXPortableGraymap:                                                MimeTypes.ImageXPortableGraymap,                                                // Portable Graymap Format
+		MimeTypes.ImageXPortablePixmap:                                                 MimeTypes.ImageXPortablePixmap,                                                 // Portable Pixmap Format
+		MimeTypes.ImageXRgb:                                                            MimeTypes.ImageXRgb,                                                            // Silicon Graphics RGB Bitmap
+		MimeTypes.ImageXXbitmap:                                                        MimeTypes.ImageXXbitmap,                                                        // X BitMap
+		MimeTypes.ImageXXpixmap:                                                        MimeTypes.ImageXXpixmap,                                                        // X PixMap
+		MimeTypes.ImageXXwindowdump:                                                    MimeTypes.ImageXXwindowdump,                                                    // X Window Dump
+		MimeTypes.MessageRfc822:                                                        MimeTypes.MessageRfc822,                                                        // Email Message
+		MimeTypes.ModelIges:                                                            MimeTypes.ModelIges,                                                            // Initial Graphics Exchange Specification (IGES)
+		MimeTypes.ModelMesh:                                                            MimeTypes.ModelMesh,                                                            // Mesh Data Type
+		MimeTypes.ModelVndColladaXml:                                                   MimeTypes.ModelVndColladaXml,                                                   // COLLADA
+		MimeTypes.ModelVndDwf:                                                          MimeTypes.ModelVndDwf,                                                          // Autodesk Design Web Format (DWF)
+		MimeTypes.ModelVndGdl:                                                          MimeTypes.ModelVndGdl,                                                          // Geometric Description Language (GDL)
+		MimeTypes.ModelVndGtw:                                                          MimeTypes.ModelVndGtw,                                                          // Gen-Trix Studio
+		MimeTypes.ModelVndMts:                                                          MimeTypes.ModelVndMts,                                                          // Virtue MTS
+		MimeTypes.ModelVndVtu:                                                          MimeTypes.ModelVndVtu,                                                          // Virtue VTU
+		MimeTypes.ModelVrml:                                                            MimeTypes.ModelVrml,                                                            // Virtual Reality Modeling Language
+		MimeTypes.TextCalendar:                                                         MimeTypes.TextCalendar,                                                         // iCalendar
+		MimeTypes.TextCss:                                                              MimeTypes.TextCss,                                                              // Cascading Style Sheets (CSS)
+		MimeTypes.TextCsv:                                                              MimeTypes.TextCsv,                                                              // Comma-Seperated Values
+		MimeTypes.TextHtml:                                                             MimeTypes.TextHtml,                                                             // HyperText Markup Language (HTML)
+		MimeTypes.TextN3:                                                               MimeTypes.TextN3,                                                               // Notation3
+		MimeTypes.TextPlain:                                                            MimeTypes.TextPlain,                                                            // Text File
+		MimeTypes.TextPlainBas:                                                         MimeTypes.TextPlainBas,                                                         // BAS Partitur Format
+		MimeTypes.TextPrsLinesTag:                                                      MimeTypes.TextPrsLinesTag,                                                      // PRS Lines Tag
+		MimeTypes.TextRichtext:                                                         MimeTypes.TextRichtext,                                                         // Rich Text Format (RTF)
+		MimeTypes.TextSgml:                                                             MimeTypes.TextSgml,                                                             // Standard Generalized Markup Language (SGML)
+		MimeTypes.TextTabSeparatedValues:                                               MimeTypes.TextTabSeparatedValues,                                               // Tab Seperated Values
+		MimeTypes.TextTroff:                                                            MimeTypes.TextTroff,                                                            // troff
+		MimeTypes.TextTurtle:                                                           MimeTypes.TextTurtle,                                                           // Turtle (Terse RDF Triple Language)
+		MimeTypes.TextUriList:                                                          MimeTypes.TextUriList,                                                          // URI Resolution Services
+		MimeTypes.TextVndCurl:                                                          MimeTypes.TextVndCurl,                                                          // Curl - Applet
+		MimeTypes.TextVndCurlDcurl:                                                     MimeTypes.TextVndCurlDcurl,                                                     // Curl - Detached Applet
+		MimeTypes.TextVndCurlMcurl:                                                     MimeTypes.TextVndCurlMcurl,                                                     // Curl - Manifest File
+		MimeTypes.TextVndCurlScurl:                                                     MimeTypes.TextVndCurlScurl,                                                     // Curl - Source Code
+		MimeTypes.TextVndFly:                                                           MimeTypes.TextVndFly,                                                           // mod_fly / fly.cgi
+		MimeTypes.TextVndFmiFlexstor:                                                   MimeTypes.TextVndFmiFlexstor,                                                   // FLEXSTOR
+		MimeTypes.TextVndGraphviz:                                                      MimeTypes.TextVndGraphviz,                                                      // Graphviz
+		MimeTypes.TextVndIn3d3dml:                                                      MimeTypes.TextVndIn3d3dml,                                                      // In3D - 3DML
+		MimeTypes.TextVndIn3dSpot:                                                      MimeTypes.TextVndIn3dSpot,                                                      // In3D - 3DML
+		MimeTypes.TextVndSunJ2meAppDescriptor:                                          MimeTypes.TextVndSunJ2meAppDescriptor,                                          // J2ME App Descriptor
+		MimeTypes.TextVndWapWml:                                                        MimeTypes.TextVndWapWml,                                                        // Wireless Markup Language (WML)
+		MimeTypes.TextVndWapWmlscript:                                                  MimeTypes.TextVndWapWmlscript,                                                  // Wireless Markup Language Script (WMLScript)
+		MimeTypes.TextXAsm:                                                             MimeTypes.TextXAsm,                                                             // Assembler Source File
+		MimeTypes.TextXC:                                                               MimeTypes.TextXC,                                                               // C Source File
+		MimeTypes.TextXFortran:                                                         MimeTypes.TextXFortran,                                                         // Fortran Source File
+		MimeTypes.TextXJavaSource:                                                      MimeTypes.TextXJavaSource,                                                      // Java Source File
+		MimeTypes.Java:                                                                 MimeTypes.TextXJavaSource,                                                      // Java Source File
+		MimeTypes.TextXPascal:                                                          MimeTypes.TextXPascal,                                                          // Pascal Source File
+		MimeTypes.TextXSetext:                                                          MimeTypes.TextXSetext,                                                          // Setext
+		MimeTypes.TextXUuencode:                                                        MimeTypes.TextXUuencode,                                                        // UUEncode
+		MimeTypes.TextXVcalendar:                                                       MimeTypes.TextXVcalendar,                                                       // vCalendar
+		MimeTypes.TextXVcard:                                                           MimeTypes.TextXVcard,                                                           // vCard
+		MimeTypes.Unkown:                                                               MimeTypes.Unkown,                                                               // The zero value
+		MimeTypes.Video3gpp:                                                            MimeTypes.Video3gpp,                                                            // 3GPP
+		MimeTypes.Audio3gpp:                                                            MimeTypes.Video3gpp,                                                            // 3GPP
+		MimeTypes.Video3gpp2:                                                           MimeTypes.Video3gpp2,                                                           // 3GP2
+		MimeTypes.Audio3gpp2:                                                           MimeTypes.Video3gpp2,                                                           // 3GP2
+		MimeTypes.VideoH261:                                                            MimeTypes.VideoH261,                                                            // H.261
+		MimeTypes.VideoH263:                                                            MimeTypes.VideoH263,                                                            // H.263
+		MimeTypes.VideoH264:                                                            MimeTypes.VideoH264,                                                            // H.264
+		MimeTypes.VideoJpeg:                                                            MimeTypes.VideoJpeg,                                                            // JPGVideo
+		MimeTypes.VideoJpm:                                                             MimeTypes.VideoJpm,                                                             // JPEG 2000 Compound Image File Format
+		MimeTypes.VideoMj2:                                                             MimeTypes.VideoMj2,                                                             // Motion JPEG 2000
+		MimeTypes.VideoMp4:                                                             MimeTypes.VideoMp4,                                                             // MPEG4
+		MimeTypes.ApplicationMp4:                                                       MimeTypes.VideoMp4,                                                             // MPEG4
+		MimeTypes.VideoMpeg:                                                            MimeTypes.VideoMpeg,                                                            // MPEG Video
+		MimeTypes.VideoOgg:                                                             MimeTypes.VideoOgg,                                                             // Ogg Video
+		MimeTypes.VideoQuicktime:                                                       MimeTypes.VideoQuicktime,                                                       // Quicktime Video
+		MimeTypes.VideoVndDeceHd:                                                       MimeTypes.VideoVndDeceHd,                                                       // DECE High Definition Video
+		MimeTypes.VideoVndDeceMobile:                                                   MimeTypes.VideoVndDeceMobile,                                                   // DECE Mobile Video
+		MimeTypes.VideoVndDecePd:                                                       MimeTypes.VideoVndDecePd,                                                       // DECE PD Video
+		MimeTypes.VideoVndDeceSd:                                                       MimeTypes.VideoVndDeceSd,                                                       // DECE SD Video
+		MimeTypes.VideoVndDeceVideo:                                                    MimeTypes.VideoVndDeceVideo,                                                    // DECE Video
+		MimeTypes.VideoVndFvt:                                                          MimeTypes.VideoVndFvt,                                                          // FAST Search & Transfer ASA
+		MimeTypes.VideoVndMpegurl:                                                      MimeTypes.VideoVndMpegurl,                                                      // MPEG Url
+		MimeTypes.VideoVndMsPlayreadyMediaPyv:                                          MimeTypes.VideoVndMsPlayreadyMediaPyv,                                          // Microsoft PlayReady Ecosystem Video
+		MimeTypes.VideoVndUvvuMp4:                                                      MimeTypes.VideoVndUvvuMp4,                                                      // DECE MP4
+		MimeTypes.VideoVndVivo:                                                         MimeTypes.VideoVndVivo,                                                         // Vivo
+		MimeTypes.VideoWebm:                                                            MimeTypes.VideoWebm,                                                            // Open Web Media Project - Video
+		MimeTypes.VideoXF4v:                                                            MimeTypes.VideoXF4v,                                                            // Flash Video
+		MimeTypes.VideoXFli:                                                            MimeTypes.VideoXFli,                                                            // FLI/FLC Animation Format
+		MimeTypes.VideoXFlv:                                                            MimeTypes.VideoXFlv,                                                            // Flash Video
+		MimeTypes.VideoXM4v:                                                            MimeTypes.VideoXM4v,                                                            // M4v
+		MimeTypes.VideoXMsAsf:                                                          MimeTypes.VideoXMsAsf,                                                          // Microsoft Advanced Systems Format (ASF)
+		MimeTypes.VideoXMsWm:                                                           MimeTypes.VideoXMsWm,                                                           // Microsoft Windows Media
+		MimeTypes.VideoXMsWmv:                                                          MimeTypes.VideoXMsWmv,                                                          // Microsoft Windows Media Video
+		MimeTypes.VideoXMsWmx:                                                          MimeTypes.VideoXMsWmx,                                                          // Microsoft Windows Media Audio/Video Playlist
+		MimeTypes.VideoXMsWvx:                                                          MimeTypes.VideoXMsWvx,                                                          // Microsoft Windows Media Video Playlist
+		MimeTypes.VideoXMsvideo:                                                        MimeTypes.VideoXMsvideo,                                                        // Audio Video Interleave (AVI)
+		MimeTypes.VideoXSgiMovie:                                                       MimeTypes.VideoXSgiMovie,                                                       // SGI Movie
+		MimeTypes.XConferenceXCooltalk:                                                 MimeTypes.XConferenceXCooltalk,                                                 // CoolTalk
+		MimeTypes.ApplicationToml:                                                      MimeTypes.ApplicationToml,                                                      // Tom's Obvious, Minimal Language
+		MimeTypes.ApplicationXToml:                                                     MimeTypes.ApplicationToml,                                                      // Tom's Obvious, Minimal Language
+		MimeTypes.TextToml:                                                             MimeTypes.ApplicationToml,                                                      // Tom's Obvious, Minimal Language
+		MimeTypes.TextXToml:                                                            MimeTypes.ApplicationToml,                                                      // Tom's Obvious, Minimal Language
+		MimeTypes.ApplicationHcl:                                                       MimeTypes.ApplicationHcl,                                                       // HashiCorp configuration language
+		MimeTypes.ApplicationXHcl:                                                      MimeTypes.ApplicationHcl,                                                       // HashiCorp configuration language
+		MimeTypes.TextHcl:                                                              MimeTypes.ApplicationHcl,                                                       // HashiCorp configuration language
+		MimeTypes.TextXHcl:                                                             MimeTypes.ApplicationHcl,                                                       // HashiCorp configuration language
+		MimeTypes.ApplicationIni:                                                       MimeTypes.ApplicationIni,                                                       // Microsoft Windows Initialization
+		MimeTypes.ApplicationXIni:                                                      MimeTypes.ApplicationIni,                                                       // Microsoft Windows Initialization
+		MimeTypes.TextIni:                                                              MimeTypes.ApplicationIni,                                                       // Microsoft Windows Initialization
+		MimeTypes.TextXIni:                                                             MimeTypes.ApplicationIni,                                                       // Microsoft Windows Initialization
+		MimeTypes.ApplicationCue:                                                       MimeTypes.ApplicationCue,                                                       // Configure Unify Execute
+		MimeTypes.ApplicationXCue:                                                      MimeTypes.ApplicationCue,                                                       // Configure Unify Execute
+		MimeTypes.TextCue:                                                              MimeTypes.ApplicationCue,                                                       // Configure Unify Execute
+		MimeTypes.TextXCue:                                                             MimeTypes.ApplicationCue,                                                       // Configure Unify Execute
+		MimeTypes.ApplicationXGo:                                                       MimeTypes.ApplicationXGo,                                                       // Go source file
+		MimeTypes.ApplicationXGoTemplate:                                               MimeTypes.ApplicationXGoTemplate,                                               // Go template file
+		MimeTypes.ApplicationXCpp:                                                      MimeTypes.ApplicationXCpp,                                                      // C++ source file
+		MimeTypes.ApplicationXCsharp:                                                   MimeTypes.ApplicationXCsharp,                                                   // C# source file
+		MimeTypes.ApplicationXPython:                                                   MimeTypes.ApplicationXPython,                                                   // Python source file
+		MimeTypes.ApplicationXPythonGenerated:                                          MimeTypes.ApplicationXPythonGenerated,                                          // Python generated file
+		MimeTypes.ApplicationXRuby:                                                     MimeTypes.ApplicationXRuby,                                                     // Ruby source file
+		MimeTypes.ApplicationXRust:                                                     MimeTypes.ApplicationXRust,                                                     // Rust source file
+		MimeTypes.ApplicationXBnf:                                                      MimeTypes.ApplicationXBnf,                                                      // Backus-Naur Form definition file
+		MimeTypes.ApplicationXAbnf:                                                     MimeTypes.ApplicationXAbnf,                                                     // Augmented Backus-Naur Form definition file
+		MimeTypes.ApplicationXVisualBasic:                                              MimeTypes.ApplicationXVisualBasic,                                              // Visual Basic source file
+		MimeTypes.ApplicationXSass:                                                     MimeTypes.ApplicationXSass,                                                     // Syntactically Awesome Stylesheet source file
+		MimeTypes.ApplicationXDart:                                                     MimeTypes.ApplicationXDart,                                                     // Dart source file
+		MimeTypes.ApplicationXBash:                                                     MimeTypes.ApplicationXBash,                                                     // BASH shell script
+		MimeTypes.ApplicationXFish:                                                     MimeTypes.ApplicationXFish,                                                     // FISH shell script
+		MimeTypes.ApplicationXZsh:                                                      MimeTypes.ApplicationXZsh,                                                      // ZSH shell script
+		MimeTypes.ApplicationXKorn:                                                     MimeTypes.ApplicationXKorn,                                                     // Korn shell script
+		MimeTypes.ApplicationXPuppet:                                                   MimeTypes.ApplicationXPuppet,                                                   // Puppet manifest file
+		MimeTypes.ApplicationXOcaml:                                                    MimeTypes.ApplicationXOcaml,                                                    // OCaml source file
+		MimeTypes.ApplicationXPascal:                                                   MimeTypes.ApplicationXPascal,                                                   // Pascal source file
+		MimeTypes.ApplicationXClojure:                                                  MimeTypes.ApplicationXClojure,                                                  // Clojure source file
+		MimeTypes.ApplicationXScheme:                                                   MimeTypes.ApplicationXScheme,                                                   // Scheme source file
+		MimeTypes.ApplicationXLisp:                                                     MimeTypes.ApplicationXLisp,                                                     // Common Lisp source file
+		MimeTypes.ApplicationXKotlin:                                                   MimeTypes.ApplicationXKotlin,                                                   // Kotlin source file
+		MimeTypes.ApplicationXErlang:                                                   MimeTypes.ApplicationXErlang,                                                   // Erlang source file
+		MimeTypes.ApplicationXScala:                                                    MimeTypes.ApplicationXScala,                                                    // Scala source file
+		MimeTypes.ApplicationXHaskell:                                                  MimeTypes.ApplicationXHaskell,                                                  // Haskell source file
+		MimeTypes.ApplicationXFsharp:                                                   MimeTypes.ApplicationXFsharp,                                                   // F# source file
+		MimeTypes.ApplicationXElixir:                                                   MimeTypes.ApplicationXElixir,                                                   // Elixir source file
+		MimeTypes.ApplicationXElm:                                                      MimeTypes.ApplicationXElm,                                                      // Elm source file
+		MimeTypes.ApplicationXTypescript:                                               MimeTypes.ApplicationXTypescript,                                               // TypeScript source file
+		MimeTypes.ApplicationXXtend:                                                    MimeTypes.ApplicationXXtend,                                                    // Xtend source file
+		MimeTypes.ApplicationXXquery:                                                   MimeTypes.ApplicationXXquery,                                                   // XQuery source file
+		MimeTypes.ApplicationXWebassembly:                                              MimeTypes.ApplicationXWebassembly,                                              // WebAssembly
+		MimeTypes.ApplicationXSql:                                                      MimeTypes.ApplicationXSql,                                                      // Standard Query Language (SQL) source file
+		MimeTypes.ApplicationXR:                                                        MimeTypes.ApplicationXR,                                                        // R source file
+		MimeTypes.ApplicationXPowershell:                                               MimeTypes.ApplicationXPowershell,                                               // PowerShell script file
+		MimeTypes.ApplicationXPerl:                                                     MimeTypes.ApplicationXPerl,                                                     // Perl source file
+		MimeTypes.ApplicationXObjectiveC:                                               MimeTypes.ApplicationXObjectiveC,                                               // Objective-C source file
+		MimeTypes.ApplicationXCHeader:                                                  MimeTypes.ApplicationXCHeader,                                                  // C Header source file
+		MimeTypes.ApplicationXLua:                                                      MimeTypes.ApplicationXLua,                                                      // Lua source file
+		MimeTypes.ApplicationXGuile:                                                    MimeTypes.ApplicationXGuile,                                                    // Guile source file
+		MimeTypes.ApplicationXFortran:                                                  MimeTypes.ApplicationXFortran,                                                  // Fortan source file
+		MimeTypes.ApplicationXForth:                                                    MimeTypes.ApplicationXForth,                                                    // Forth source file
+		MimeTypes.ApplicationXMarkdown:                                                 MimeTypes.ApplicationXMarkdown,                                                 // Markdown source file
+		MimeTypes.ApplicationXNunjucks:                                                 MimeTypes.ApplicationXNunjucks,                                                 // Nunjucks template file
+		MimeTypes.ApplicationXHandlebars:                                               MimeTypes.ApplicationXHandlebars,                                               // Handlebars template file
+		MimeTypes.ApplicationXEjs:                                                      MimeTypes.ApplicationXEjs,                                                      // Embedded JavaScript Template file
+		MimeTypes.ApplicationXMustache:                                                 MimeTypes.ApplicationXMustache,                                                 // Mustache template file
+		MimeTypes.ApplicationXHaml:                                                     MimeTypes.ApplicationXHaml,                                                     // Haml template file
+		MimeTypes.ApplicationXPug:                                                      MimeTypes.ApplicationXPug,                                                      // Pug template file
+		MimeTypes.ApplicationXLiquid:                                                   MimeTypes.ApplicationXLiquid,                                                   // Liquid template file
+		MimeTypes.ApplicationXWebc:                                                     MimeTypes.ApplicationXWebc,                                                     // Web Component source file
+		MimeTypes.ApplicationXList:                                                     MimeTypes.ApplicationXList,                                                     // List file
 	}
 )

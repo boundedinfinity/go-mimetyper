@@ -5,14 +5,15 @@ makefile_dir		:= $(abspath $(shell pwd))
 list:
 	@grep '^[^#[:space:]].*:' Makefile | grep -v ':=' | grep -v '^\.' | sed 's/:.*//g' | sed 's/://g' | sort
 
-generate: purge
+generate:
 	go generate ./...
 
 purge:
-	rm -rf file_extention/*.gen.go
 	rm -rf file_extention/*.enum.go
-	rm -rf mime_type/*.gen.go	
+	rm -rf file_extention/*.enum.yaml
 	rm -rf mime_type/*.enum.go
+	rm -rf mime_type/*.enum.yaml
+
 
 test: 
 	go test ./...

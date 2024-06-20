@@ -11,16 +11,16 @@ func FromExt(ext string) (mime_type.MimeType, error) {
 	var typedExt FileExtention
 	var err error
 
-	typedExt, err = Parse(ext)
+	typedExt, err = FileExtentions.Parse(ext)
 
 	if err != nil {
-		return mime_type.Unkown, err
+		return mime_type.MimeTypes.Unkown, err
 	}
 
 	if mt, ok := ext2mt[typedExt]; ok {
 		return mt, nil
 	} else {
-		return mime_type.Unkown, fmt.Errorf("can't map extention %v to a MIME type", ext)
+		return mime_type.MimeTypes.Unkown, fmt.Errorf("can't map extention %v to a MIME type", ext)
 	}
 }
 

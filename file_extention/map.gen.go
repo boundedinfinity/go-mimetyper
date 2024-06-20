@@ -12,3143 +12,3143 @@ import "github.com/boundedinfinity/go-mimetyper/mime_type"
 
 var (
 	ext2mt = map[FileExtention]mime_type.MimeType{
-		Ipynb:       mime_type.ApplicationXJupyterNotebook,                                          // Jupyter Notebook
-		Iqy:         mime_type.ApplicationXVndMsExcelWebQuery,                                       // Microsoft Excel Web Query file
-		Avdl:        mime_type.ApplicationXAvroSchemaIdl,                                            // Apache Avro Interface Definition Language (IDL) Schema file
-		Avsc:        mime_type.ApplicationXAvroSchemaJson,                                           // Apache Avro Javascript Object Notation (JSON) Schema file
-		Aw:          mime_type.ApplicationApplixware,                                                // Applixware
-		Atom:        mime_type.ApplicationAtomXml,                                                   // Atom Syndication Format
-		Atomcat:     mime_type.ApplicationAtomcatXml,                                                // Atom Publishing Protocol
-		Atomsvc:     mime_type.ApplicationAtomsvcXml,                                                // Atom Publishing Protocol Service Document
-		Ccxml:       mime_type.ApplicationCcxmlXml,                                                  // Voice Browser Call Control
-		Cdmia:       mime_type.ApplicationCdmiCapability,                                            // Cloud Data Management Interface (CDMI) - Capability
-		Cdmic:       mime_type.ApplicationCdmiContainer,                                             // Cloud Data Management Interface (CDMI) - Contaimer
-		Cdmid:       mime_type.ApplicationCdmiDomain,                                                // Cloud Data Management Interface (CDMI) - Domain
-		Cdmio:       mime_type.ApplicationCdmiObject,                                                // Cloud Data Management Interface (CDMI) - Object
-		Cdmiq:       mime_type.ApplicationCdmiQueue,                                                 // Cloud Data Management Interface (CDMI) - Queue
-		Cu:          mime_type.ApplicationCuSeeme,                                                   // CU-SeeMe
-		Davmount:    mime_type.ApplicationDavmountXml,                                               // Web Distributed Authoring and Versioning
-		Dssc:        mime_type.ApplicationDsscDer,                                                   // Data Structure for the Security Suitability of Cryptographic Algorithms
-		Xdssc:       mime_type.ApplicationDsscXml,                                                   // Data Structure for the Security Suitability of Cryptographic Algorithms
-		Es:          mime_type.ApplicationEcmascript,                                                // ECMAScript
-		Emma:        mime_type.ApplicationEmmaXml,                                                   // Extensible MultiModal Annotation
-		Epub:        mime_type.ApplicationEpubZip,                                                   // Electronic Publication
-		Exi:         mime_type.ApplicationExi,                                                       // Efficient XML Interchange
-		Pfr:         mime_type.ApplicationFontTdpfr,                                                 // Portable Font Resource
-		Gpx:         mime_type.ApplicationGpxXml,                                                    // GPS eXchange Format
-		Gz:          mime_type.ApplicationGzip,                                                      // GZip Compressed Archive
-		Stk:         mime_type.ApplicationHyperstudio,                                               // Hyperstudio
-		Ipfix:       mime_type.ApplicationIpfix,                                                     // Internet Protocol Flow Information Export
-		Jar:         mime_type.ApplicationJavaArchive,                                               // Java Archive
-		Ser:         mime_type.ApplicationJavaSerializedObject,                                      // Java Serialized Object
-		Class:       mime_type.ApplicationJavaVm,                                                    // Java Bytecode File
-		Js:          mime_type.ApplicationJavascript,                                                // JavaScript language file
-		Json:        mime_type.ApplicationJson,                                                      // JavaScript Object Notation (JSON)
-		Jsonld:      mime_type.ApplicationLdJson,                                                    // JSON-LD format
-		Hqx:         mime_type.ApplicationMacBinhex40,                                               // Macintosh BinHex 4.0
-		Cpt:         mime_type.ApplicationMacCompactpro,                                             // Compact Pro
-		Mads:        mime_type.ApplicationMadsXml,                                                   // Metadata Authority Description Schema
-		Mrc:         mime_type.ApplicationMarc,                                                      // MARC Formats
-		Mrcx:        mime_type.ApplicationMarcxmlXml,                                                // MARC21 XML Schema
-		Ma:          mime_type.ApplicationMathematica,                                               // Mathematica Notebooks
-		Mathml:      mime_type.ApplicationMathmlXml,                                                 // Mathematical Markup Language
-		Mbox:        mime_type.ApplicationMbox,                                                      // Mbox database files
-		Mscml:       mime_type.ApplicationMediaservercontrolXml,                                     // Media Server Control Markup Language
-		Meta4:       mime_type.ApplicationMetalink4Xml,                                              // Metalink
-		Mets:        mime_type.ApplicationMetsXml,                                                   // Metadata Encoding and Transmission Standard
-		Mods:        mime_type.ApplicationModsXml,                                                   // Metadata Object Description Schema
-		M21:         mime_type.ApplicationMp21,                                                      // MPEG-21
-		Doc:         mime_type.ApplicationMsword,                                                    // Microsoft Word
-		Mxf:         mime_type.ApplicationMxf,                                                       // Material Exchange Format
-		Bin:         mime_type.ApplicationOctetStream,                                               // Binary Data
-		Oda:         mime_type.ApplicationOda,                                                       // Office Document Architecture
-		Opf:         mime_type.ApplicationOebpsPackageXml,                                           // Open eBook Publication Structure
-		Ogx:         mime_type.ApplicationOgg,                                                       // Ogg
-		Onetoc:      mime_type.ApplicationOnenote,                                                   // Microsoft OneNote
-		Xer:         mime_type.ApplicationPatchOpsErrorXml,                                          // XML Patch Framework
-		Pdf:         mime_type.ApplicationPdf,                                                       // Adobe Portable Document Format
-		Pgp:         mime_type.ApplicationPgpEncrypted,                                              // Pretty Good Privacy Signature
-		Prf:         mime_type.ApplicationPicsRules,                                                 // PICSRules
-		P10:         mime_type.ApplicationPkcs10,                                                    // PKCS #10 - Certification Request Standard
-		P7m:         mime_type.ApplicationPkcs7Mime,                                                 // PKCS #7 - Cryptographic Message Syntax Standard
-		P7s:         mime_type.ApplicationPkcs7Signature,                                            // PKCS #7 - Cryptographic Message Syntax Standard
-		P8:          mime_type.ApplicationPkcs8,                                                     // PKCS #8 - Private-Key Information Syntax Standard
-		Ac:          mime_type.ApplicationPkixAttrCert,                                              // Attribute Certificate
-		Cer:         mime_type.ApplicationPkixCert,                                                  // Internet Public Key Infrastructure - Certificate
-		Crl:         mime_type.ApplicationPkixCrl,                                                   // Internet Public Key Infrastructure - Certificate Revocation Lists
-		Pkipath:     mime_type.ApplicationPkixPkipath,                                               // Internet Public Key Infrastructure - Certification Path
-		Pki:         mime_type.ApplicationPkixcmp,                                                   // Internet Public Key Infrastructure - Certificate Management Protocole
-		Pls:         mime_type.ApplicationPlsXml,                                                    // Pronunciation Lexicon Specification
-		Ai:          mime_type.ApplicationPostscript,                                                // PostScript
-		Cww:         mime_type.ApplicationPrsCww,                                                    // CU-Writer
-		Pskcxml:     mime_type.ApplicationPskcXml,                                                   // Portable Symmetric Key Container
-		Rdf:         mime_type.ApplicationRdfXml,                                                    // Resource Description Framework
-		Rif:         mime_type.ApplicationReginfoXml,                                                // IMS Networks
-		Rnc:         mime_type.ApplicationRelaxNgCompactSyntax,                                      // Relax NG Compact Syntax
-		Rl:          mime_type.ApplicationResourceListsXml,                                          // XML Resource Lists
-		Rld:         mime_type.ApplicationResourceListsDiffXml,                                      // XML Resource Lists Diff
-		Rsd:         mime_type.ApplicationRsdXml,                                                    // Really Simple Discovery
-		Rss:         mime_type.ApplicationRssXml,                                                    // RSS - Really Simple Syndication
-		Rtf:         mime_type.ApplicationRtf,                                                       // Rich Text Format
-		Sbml:        mime_type.ApplicationSbmlXml,                                                   // Systems Biology Markup Language
-		Scq:         mime_type.ApplicationScvpCvRequest,                                             // Server-Based Certificate Validation Protocol - Validation Request
-		Scs:         mime_type.ApplicationScvpCvResponse,                                            // Server-Based Certificate Validation Protocol - Validation Response
-		Spq:         mime_type.ApplicationScvpVpRequest,                                             // Server-Based Certificate Validation Protocol - Validation Policies - Request
-		Spp:         mime_type.ApplicationScvpVpResponse,                                            // Server-Based Certificate Validation Protocol - Validation Policies - Response
-		Sdp:         mime_type.ApplicationSdp,                                                       // Session Description Protocol
-		Setpay:      mime_type.ApplicationSetPaymentInitiation,                                      // Secure Electronic Transaction - Payment
-		Setreg:      mime_type.ApplicationSetRegistrationInitiation,                                 // Secure Electronic Transaction - Registration
-		Shf:         mime_type.ApplicationShfXml,                                                    // S Hexdump Format
-		Smi:         mime_type.ApplicationSmilXml,                                                   // Synchronized Multimedia Integration Language
-		Rq:          mime_type.ApplicationSparqlQuery,                                               // SPARQL - Query
-		Srx:         mime_type.ApplicationSparqlResultsXml,                                          // SPARQL - Results
-		Gram:        mime_type.ApplicationSrgs,                                                      // Speech Recognition Grammar Specification
-		Grxml:       mime_type.ApplicationSrgsXml,                                                   // Speech Recognition Grammar Specification - XML
-		Sru:         mime_type.ApplicationSruXml,                                                    // Search/Retrieve via URL Response Format
-		Ssml:        mime_type.ApplicationSsmlXml,                                                   // Speech Synthesis Markup Language
-		Tei:         mime_type.ApplicationTeiXml,                                                    // Text Encoding and Interchange
-		Tfi:         mime_type.ApplicationThraudXml,                                                 // Sharing Transaction Fraud Data
-		Tsd:         mime_type.ApplicationTimestampedData,                                           // Time Stamped Data Envelope
-		Plb:         mime_type.ApplicationVnd3gppPicBwLarge,                                         // 3rd Generation Partnership Project - Pic Large
-		Psb:         mime_type.ApplicationVnd3gppPicBwSmall,                                         // 3rd Generation Partnership Project - Pic Small
-		Pvb:         mime_type.ApplicationVnd3gppPicBwVar,                                           // 3rd Generation Partnership Project - Pic Var
-		Tcap:        mime_type.ApplicationVnd3gpp2Tcap,                                              // 3rd Generation Partnership Project - Transaction Capabilities Application Part
-		Pwn:         mime_type.ApplicationVnd3mPostItNotes,                                          // 3M Post It Notes
-		Aso:         mime_type.ApplicationVndAccpacSimplyAso,                                        // Simply Accounting
-		Imp:         mime_type.ApplicationVndAccpacSimplyImp,                                        // Simply Accounting - Data Import
-		Acu:         mime_type.ApplicationVndAcucobol,                                               // ACU Cobol
-		Atc:         mime_type.ApplicationVndAcucorp,                                                // ACU Cobol
-		Air:         mime_type.ApplicationVndAdobeAirApplicationInstallerPackageZip,                 // Adobe AIR Application
-		Fxp:         mime_type.ApplicationVndAdobeFxp,                                               // Adobe Flex Project
-		Xdp:         mime_type.ApplicationVndAdobeXdpXml,                                            // Adobe XML Data Package
-		Xfdf:        mime_type.ApplicationVndAdobeXfdf,                                              // Adobe XML Forms Data Format
-		Ahead:       mime_type.ApplicationVndAheadSpace,                                             // Ahead AIR Application
-		Azf:         mime_type.ApplicationVndAirzipFilesecureAzf,                                    // AirZip FileSECURE
-		Azs:         mime_type.ApplicationVndAirzipFilesecureAzs,                                    // AirZip FileSECURE
-		Azw:         mime_type.ApplicationVndAmazonEbook,                                            // Amazon Kindle eBook format
-		Acc:         mime_type.ApplicationVndAmericandynamicsAcc,                                    // Active Content Compression
-		Ami:         mime_type.ApplicationVndAmigaAmi,                                               // AmigaDE
-		Apk:         mime_type.ApplicationVndAndroidPackageArchive,                                  // Android Package Archive
-		Cii:         mime_type.ApplicationVndAnserWebCertificateIssueInitiation,                     // ANSER-WEB Terminal Client - Certificate Issue
-		Fti:         mime_type.ApplicationVndAnserWebFundsTransferInitiation,                        // ANSER-WEB Terminal Client - Web Funds Transfer
-		Atx:         mime_type.ApplicationVndAntixGameComponent,                                     // Antix Game Player
-		Mpkg:        mime_type.ApplicationVndAppleInstallerXml,                                      // Apple Installer Package
-		M3u8:        mime_type.ApplicationVndAppleMpegurl,                                           // Multimedia Playlist Unicode
-		Swi:         mime_type.ApplicationVndAristanetworksSwi,                                      // Arista Networks Software Image
-		Aep:         mime_type.ApplicationVndAudiograph,                                             // Audiograph
-		Mpm:         mime_type.ApplicationVndBlueiceMultipass,                                       // Blueice Research Multipass
-		Bmi:         mime_type.ApplicationVndBmi,                                                    // BMI Drawing Data Interchange
-		Rep:         mime_type.ApplicationVndBusinessobjects,                                        // BusinessObjects
-		Mmd:         mime_type.ApplicationVndChipnutsKaraokeMmd,                                     // Karaoke on Chipnuts Chipsets
-		Cdy:         mime_type.ApplicationVndCinderella,                                             // Interactive Geometry Software Cinderella
-		Cla:         mime_type.ApplicationVndClaymore,                                               // Claymore Data Files
-		Rp9:         mime_type.ApplicationVndCloantoRp9,                                             // RetroPlatform Player
-		C4g:         mime_type.ApplicationVndClonkC4group,                                           // Clonk Game
-		C11amc:      mime_type.ApplicationVndCluetrustCartomobileConfig,                             // ClueTrust CartoMobile - Config
-		C11amz:      mime_type.ApplicationVndCluetrustCartomobileConfigPkg,                          // ClueTrust CartoMobile - Config Package
-		Csp:         mime_type.ApplicationVndCommonspace,                                            // Sixth Floor Media - CommonSpace
-		Cdbcmsg:     mime_type.ApplicationVndContactCmsg,                                            // CIM Database
-		Cmc:         mime_type.ApplicationVndCosmocaller,                                            // CosmoCaller
-		Clkx:        mime_type.ApplicationVndCrickClicker,                                           // CrickSoftware - Clicker
-		Clkk:        mime_type.ApplicationVndCrickClickerKeyboard,                                   // CrickSoftware - Clicker - Keyboard
-		Clkp:        mime_type.ApplicationVndCrickClickerPalette,                                    // CrickSoftware - Clicker - Palette
-		Clkt:        mime_type.ApplicationVndCrickClickerTemplate,                                   // CrickSoftware - Clicker - Template
-		Clkw:        mime_type.ApplicationVndCrickClickerWordbank,                                   // CrickSoftware - Clicker - Wordbank
-		Wbs:         mime_type.ApplicationVndCriticaltoolsWbsXml,                                    // Critical Tools - PERT Chart EXPERT
-		Pml:         mime_type.ApplicationVndCtcPosml,                                               // PosML
-		Ppd:         mime_type.ApplicationVndCupsPpd,                                                // Adobe PostScript Printer Description File Format
-		Car:         mime_type.ApplicationVndCurlCar,                                                // CURL Applet
-		Pcurl:       mime_type.ApplicationVndCurlPcurl,                                              // CURL Applet
-		Rdz:         mime_type.ApplicationVndDataVisionRdz,                                          // RemoteDocs R-Viewer
-		Fe_launch:   mime_type.ApplicationVndDenovoFcselayoutLink,                                   // FCS Express Layout Link
-		Dna:         mime_type.ApplicationVndDna,                                                    // New Moon Liftoff/DNA
-		Mlp:         mime_type.ApplicationVndDolbyMlp,                                               // Dolby Meridian Lossless Packing
-		Dpg:         mime_type.ApplicationVndDpgraph,                                                // DPGraph
-		Dfac:        mime_type.ApplicationVndDreamfactory,                                           // DreamFactory
-		Ait:         mime_type.ApplicationVndDvbAit,                                                 // Digital Video Broadcasting
-		Svc:         mime_type.ApplicationVndDvbService,                                             // Digital Video Broadcasting
-		Geo:         mime_type.ApplicationVndDynageo,                                                // DynaGeo
-		Mag:         mime_type.ApplicationVndEcowinChart,                                            // EcoWin Chart
-		Nml:         mime_type.ApplicationVndEnliven,                                                // Enliven Viewer
-		Esf:         mime_type.ApplicationVndEpsonEsf,                                               // QUASS Stream Player
-		Msf:         mime_type.ApplicationVndEpsonMsf,                                               // QUASS Stream Player
-		Qam:         mime_type.ApplicationVndEpsonQuickanime,                                        // QuickAnime Player
-		Slt:         mime_type.ApplicationVndEpsonSalt,                                              // SimpleAnimeLite Player
-		Ssf:         mime_type.ApplicationVndEpsonSsf,                                               // QUASS Stream Player
-		Es3:         mime_type.ApplicationVndEszigno3Xml,                                            // MICROSEC e-Szignï¿½
-		Ez2:         mime_type.ApplicationVndEzpixAlbum,                                             // EZPix Secure Photo Album
-		Ez3:         mime_type.ApplicationVndEzpixPackage,                                           // EZPix Secure Photo Album
-		Fdf:         mime_type.ApplicationVndFdf,                                                    // Forms Data Format
-		Seed:        mime_type.ApplicationVndFdsnSeed,                                               // Digital Siesmograph Networks - SEED Datafiles
-		Gph:         mime_type.ApplicationVndFlographit,                                             // NpGraphIt
-		Ftc:         mime_type.ApplicationVndFluxtimeClip,                                           // FluxTime Clip
-		Fm:          mime_type.ApplicationVndFramemaker,                                             // FrameMaker Normal Format
-		Fnc:         mime_type.ApplicationVndFrogansFnc,                                             // Frogans Player
-		Ltf:         mime_type.ApplicationVndFrogansLtf,                                             // Frogans Player
-		Fsc:         mime_type.ApplicationVndFscWeblaunch,                                           // Friendly Software Corporation
-		Oas:         mime_type.ApplicationVndFujitsuOasys,                                           // Fujitsu Oasys
-		Oa2:         mime_type.ApplicationVndFujitsuOasys2,                                          // Fujitsu Oasys
-		Oa3:         mime_type.ApplicationVndFujitsuOasys3,                                          // Fujitsu Oasys
-		Fg5:         mime_type.ApplicationVndFujitsuOasysgp,                                         // Fujitsu Oasys
-		Bh2:         mime_type.ApplicationVndFujitsuOasysprs,                                        // Fujitsu Oasys
-		Ddd:         mime_type.ApplicationVndFujixeroxDdd,                                           // Fujitsu - Xerox 2D CAD Data
-		Xdw:         mime_type.ApplicationVndFujixeroxDocuworks,                                     // Fujitsu - Xerox DocuWorks
-		Xbd:         mime_type.ApplicationVndFujixeroxDocuworksBinder,                               // Fujitsu - Xerox DocuWorks Binder
-		Fzs:         mime_type.ApplicationVndFuzzysheet,                                             // FuzzySheet
-		Txd:         mime_type.ApplicationVndGenomatixTuxedo,                                        // Genomatix Tuxedo Framework
-		Ggb:         mime_type.ApplicationVndGeogebraFile,                                           // GeoGebra
-		Ggt:         mime_type.ApplicationVndGeogebraTool,                                           // GeoGebra
-		Gex:         mime_type.ApplicationVndGeometryExplorer,                                       // GeoMetry Explorer
-		Gxt:         mime_type.ApplicationVndGeonext,                                                // GEONExT and JSXGraph
-		G2w:         mime_type.ApplicationVndGeoplan,                                                // GeoplanW
-		G3w:         mime_type.ApplicationVndGeospace,                                               // GeospacW
-		Gmx:         mime_type.ApplicationVndGmx,                                                    // GameMaker ActiveX
-		Kml:         mime_type.ApplicationVndGoogleEarthKmlXml,                                      // Google Earth - KML
-		Kmz:         mime_type.ApplicationVndGoogleEarthKmz,                                         // Google Earth - Zipped KML
-		Gqf:         mime_type.ApplicationVndGrafeq,                                                 // GrafEq
-		Gac:         mime_type.ApplicationVndGrooveAccount,                                          // Groove - Account
-		Ghf:         mime_type.ApplicationVndGrooveHelp,                                             // Groove - Help
-		Gim:         mime_type.ApplicationVndGrooveIdentityMessage,                                  // Groove - Identity Message
-		Grv:         mime_type.ApplicationVndGrooveInjector,                                         // Groove - Injector
-		Gtm:         mime_type.ApplicationVndGrooveToolMessage,                                      // Groove - Tool Message
-		Tpl:         mime_type.ApplicationVndGrooveToolTemplate,                                     // Groove - Tool Template
-		Vcg:         mime_type.ApplicationVndGrooveVcard,                                            // Groove - Vcard
-		Hal:         mime_type.ApplicationVndHalXml,                                                 // Hypertext Application Language
-		Zmm:         mime_type.ApplicationVndHandheldEntertainmentXml,                               // ZVUE Media Manager
-		Hbci:        mime_type.ApplicationVndHbci,                                                   // Homebanking Computer Interface (HBCI)
-		Les:         mime_type.ApplicationVndHheLessonPlayer,                                        // Archipelago Lesson Player
-		Hpgl:        mime_type.ApplicationVndHpHpgl,                                                 // HP-GL/2 and HP RTL
-		Hpid:        mime_type.ApplicationVndHpHpid,                                                 // Hewlett Packard Instant Delivery
-		Hps:         mime_type.ApplicationVndHpHps,                                                  // Hewlett-Packard's WebPrintSmart
-		Jlt:         mime_type.ApplicationVndHpJlyt,                                                 // HP Indigo Digital Press - Job Layout Languate
-		Pcl:         mime_type.ApplicationVndHpPcl,                                                  // HP Printer Command Language
-		Pclxl:       mime_type.ApplicationVndHpPclxl,                                                // PCL 6 Enhanced (Formely PCL XL)
-		SfdHdstx:    mime_type.ApplicationVndHydrostatixSofData,                                     // Hydrostatix Master Suite
-		X3d:         mime_type.ApplicationVndHzn3dCrossword,                                         // 3D Crossword Plugin
-		Mpy:         mime_type.ApplicationVndIbmMinipay,                                             // MiniPay
-		Afp:         mime_type.ApplicationVndIbmModcap,                                              // MO:DCA-P
-		Irm:         mime_type.ApplicationVndIbmRightsManagement,                                    // IBM DB2 Rights Manager
-		Icc:         mime_type.ApplicationVndIccprofile,                                             // ICC profile
-		Igl:         mime_type.ApplicationVndIgloader,                                               // igLoader
-		Ivp:         mime_type.ApplicationVndImmervisionIvp,                                         // ImmerVision PURE Players
-		Ivu:         mime_type.ApplicationVndImmervisionIvu,                                         // ImmerVision PURE Players
-		Igm:         mime_type.ApplicationVndInsorsIgm,                                              // IOCOM Visimeet
-		Xpw:         mime_type.ApplicationVndInterconFormnet,                                        // Intercon FormNet
-		I2g:         mime_type.ApplicationVndIntergeo,                                               // Interactive Geometry Software
-		Qbo:         mime_type.ApplicationVndIntuQbo,                                                // Open Financial Exchange
-		Qfx:         mime_type.ApplicationVndIntuQfx,                                                // Quicken
-		Rcprofile:   mime_type.ApplicationVndIpunpluggedRcprofile,                                   // IP Unplugged Roaming Client
-		Irp:         mime_type.ApplicationVndIrepositoryPackageXml,                                  // iRepository / Lucidoc Editor
-		Xpr:         mime_type.ApplicationVndIsXpr,                                                  // Express by Infoseek
-		Fcs:         mime_type.ApplicationVndIsacFcs,                                                // International Society for Advancement of Cytometry
-		Jam:         mime_type.ApplicationVndJam,                                                    // Lightspeed Audio Lab
-		Rms:         mime_type.ApplicationVndJcpJavameMidletRms,                                     // Mobile Information Device Profile
-		Jisp:        mime_type.ApplicationVndJisp,                                                   // RhymBox
-		Joda:        mime_type.ApplicationVndJoostJodaArchive,                                       // Joda Archive
-		Ktz:         mime_type.ApplicationVndKahootz,                                                // Kahootz
-		Karbon:      mime_type.ApplicationVndKdeKarbon,                                              // KDE KOffice Office Suite - Karbon
-		Chrt:        mime_type.ApplicationVndKdeKchart,                                              // KDE KOffice Office Suite - KChart
-		Kfo:         mime_type.ApplicationVndKdeKformula,                                            // KDE KOffice Office Suite - Kformula
-		Flw:         mime_type.ApplicationVndKdeKivio,                                               // KDE KOffice Office Suite - Kivio
-		Kon:         mime_type.ApplicationVndKdeKontour,                                             // KDE KOffice Office Suite - Kontour
-		Kpr:         mime_type.ApplicationVndKdeKpresenter,                                          // KDE KOffice Office Suite - Kpresenter
-		Ksp:         mime_type.ApplicationVndKdeKspread,                                             // KDE KOffice Office Suite - Kspread
-		Kwd:         mime_type.ApplicationVndKdeKword,                                               // KDE KOffice Office Suite - Kword
-		Htke:        mime_type.ApplicationVndKenameaapp,                                             // Kenamea App
-		Kia:         mime_type.ApplicationVndKidspiration,                                           // Kidspiration
-		Kne:         mime_type.ApplicationVndKinar,                                                  // Kinar Applications
-		Skp:         mime_type.ApplicationVndKoan,                                                   // SSEYO Koan Play File
-		Sse:         mime_type.ApplicationVndKodakDescriptor,                                        // Kodak Storyshare
-		Lasxml:      mime_type.ApplicationVndLasLasXml,                                              // Laser App Enterprise
-		Lbd:         mime_type.ApplicationVndLlamagraphicsLifeBalanceDesktop,                        // Life Balance - Desktop Edition
-		Lbe:         mime_type.ApplicationVndLlamagraphicsLifeBalanceExchangeXml,                    // Life Balance - Exchange Format
-		_123:        mime_type.ApplicationVndLotus123,                                               // Lotus 1-2-3
-		Apr:         mime_type.ApplicationVndLotusApproach,                                          // Lotus Approach
-		Pre:         mime_type.ApplicationVndLotusFreelance,                                         // Lotus Freelance
-		Nsf:         mime_type.ApplicationVndLotusNotes,                                             // Lotus Notes
-		Org:         mime_type.ApplicationVndLotusOrganizer,                                         // Lotus Organizer
-		Lwp:         mime_type.ApplicationVndLotusWordpro,                                           // Lotus Wordpro
-		Portpkg:     mime_type.ApplicationVndMacportsPortpkg,                                        // MacPorts Port System
-		Mcd:         mime_type.ApplicationVndMcd,                                                    // Micro CADAM Helix D&D
-		Mc1:         mime_type.ApplicationVndMedcalcdata,                                            // MedCalc
-		Cdkey:       mime_type.ApplicationVndMediastationCdkey,                                      // MediaRemote
-		Mwf:         mime_type.ApplicationVndMfer,                                                   // Medical Waveform Encoding Format
-		Mfm:         mime_type.ApplicationVndMfmp,                                                   // Melody Format for Mobile Platform
-		Flo:         mime_type.ApplicationVndMicrografxFlo,                                          // Micrografx
-		Igx:         mime_type.ApplicationVndMicrografxIgx,                                          // Micrografx iGrafx Professional
-		Mif:         mime_type.ApplicationVndMif,                                                    // FrameMaker Interchange Format
-		Daf:         mime_type.ApplicationVndMobiusDaf,                                              // Mobius Management Systems - UniversalArchive
-		Dis:         mime_type.ApplicationVndMobiusDis,                                              // Mobius Management Systems - Distribution Database
-		Mbk:         mime_type.ApplicationVndMobiusMbk,                                              // Mobius Management Systems - Basket file
-		Mqy:         mime_type.ApplicationVndMobiusMqy,                                              // Mobius Management Systems - Query File
-		Msl:         mime_type.ApplicationVndMobiusMsl,                                              // Mobius Management Systems - Script Language
-		Plc:         mime_type.ApplicationVndMobiusPlc,                                              // Mobius Management Systems - Policy Definition Language File
-		Txf:         mime_type.ApplicationVndMobiusTxf,                                              // Mobius Management Systems - Topic Index File
-		Mpn:         mime_type.ApplicationVndMophunApplication,                                      // Mophun VM
-		Mpc:         mime_type.ApplicationVndMophunCertificate,                                      // Mophun Certificate
-		Xul:         mime_type.ApplicationVndMozillaXulXml,                                          // XUL - XML User Interface Language
-		Cil:         mime_type.ApplicationVndMsArtgalry,                                             // Microsoft Artgalry
-		Cab:         mime_type.ApplicationVndMsCabCompressed,                                        // Microsoft Cabinet File
-		Xls:         mime_type.ApplicationVndMsExcel,                                                // Microsoft Excel
-		Xlam:        mime_type.ApplicationVndMsExcelAddinMacroenabled12,                             // Microsoft Excel - Add-In File
-		Xlsb:        mime_type.ApplicationVndMsExcelSheetBinaryMacroenabled12,                       // Microsoft Excel - Binary Workbook
-		Xlsm:        mime_type.ApplicationVndMsExcelSheetMacroenabled12,                             // Microsoft Excel - Macro-Enabled Workbook
-		Xltm:        mime_type.ApplicationVndMsExcelTemplateMacroenabled12,                          // Microsoft Excel - Macro-Enabled Template File
-		Eot:         mime_type.ApplicationVndMsFontobject,                                           // Microsoft Embedded OpenType
-		Chm:         mime_type.ApplicationVndMsHtmlhelp,                                             // Microsoft Html Help File
-		Ims:         mime_type.ApplicationVndMsIms,                                                  // Microsoft Class Server
-		Lrm:         mime_type.ApplicationVndMsLrm,                                                  // Microsoft Learning Resource Module
-		Thmx:        mime_type.ApplicationVndMsOfficetheme,                                          // Microsoft Office System Release Theme
-		Cat:         mime_type.ApplicationVndMsPkiSeccat,                                            // Microsoft Trust UI Provider - Security Catalog
-		Stl:         mime_type.ApplicationVndMsPkiStl,                                               // Microsoft Trust UI Provider - Certificate Trust Link
-		Ppt:         mime_type.ApplicationVndMsPowerpoint,                                           // Microsoft PowerPoint
-		Ppam:        mime_type.ApplicationVndMsPowerpointAddinMacroenabled12,                        // Microsoft PowerPoint - Add-in file
-		Pptm:        mime_type.ApplicationVndMsPowerpointPresentationMacroenabled12,                 // Microsoft PowerPoint - Macro-Enabled Presentation File
-		Sldm:        mime_type.ApplicationVndMsPowerpointSlideMacroenabled12,                        // Microsoft PowerPoint - Macro-Enabled Open XML Slide
-		Ppsm:        mime_type.ApplicationVndMsPowerpointSlideshowMacroenabled12,                    // Microsoft PowerPoint - Macro-Enabled Slide Show File
-		Potm:        mime_type.ApplicationVndMsPowerpointTemplateMacroenabled12,                     // Microsoft PowerPoint - Macro-Enabled Template File
-		Mpp:         mime_type.ApplicationVndMsProject,                                              // Microsoft Project
-		Docm:        mime_type.ApplicationVndMsWordDocumentMacroenabled12,                           // Microsoft Word - Macro-Enabled Document
-		Dotm:        mime_type.ApplicationVndMsWordTemplateMacroenabled12,                           // Microsoft Word - Macro-Enabled Template
-		Wps:         mime_type.ApplicationVndMsWorks,                                                // Microsoft Works
-		Wpl:         mime_type.ApplicationVndMsWpl,                                                  // Microsoft Windows Media Player Playlist
-		Xps:         mime_type.ApplicationVndMsXpsdocument,                                          // Microsoft XML Paper Specification
-		Mseq:        mime_type.ApplicationVndMseq,                                                   // 3GPP MSEQ File
-		Mus:         mime_type.ApplicationVndMusician,                                               // MUsical Score Interpreted Code Invented for the ASCII designation of Notation
-		Msty:        mime_type.ApplicationVndMuveeStyle,                                             // Muvee Automatic Video Editing
-		Nlu:         mime_type.ApplicationVndNeurolanguageNlu,                                       // neuroLanguage
-		Nnd:         mime_type.ApplicationVndNoblenetDirectory,                                      // NobleNet Directory
-		Nns:         mime_type.ApplicationVndNoblenetSealer,                                         // NobleNet Sealer
-		Nnw:         mime_type.ApplicationVndNoblenetWeb,                                            // NobleNet Web
-		Ngdat:       mime_type.ApplicationVndNokiaNGageData,                                         // N-Gage Game Data
-		NGage:       mime_type.ApplicationVndNokiaNGageSymbianInstall,                               // N-Gage Game Installer
-		Rpst:        mime_type.ApplicationVndNokiaRadioPreset,                                       // Nokia Radio Application - Preset
-		Rpss:        mime_type.ApplicationVndNokiaRadioPresets,                                      // Nokia Radio Application - Preset
-		Edm:         mime_type.ApplicationVndNovadigmEdm,                                            // Novadigm's RADIA and EDM products
-		Edx:         mime_type.ApplicationVndNovadigmEdx,                                            // Novadigm's RADIA and EDM products
-		Ext:         mime_type.ApplicationVndNovadigmExt,                                            // Novadigm's RADIA and EDM products
-		Odc:         mime_type.ApplicationVndOasisOpendocumentChart,                                 // OpenDocument Chart
-		Otc:         mime_type.ApplicationVndOasisOpendocumentChartTemplate,                         // OpenDocument Chart Template
-		Odb:         mime_type.ApplicationVndOasisOpendocumentDatabase,                              // OpenDocument Database
-		Odf:         mime_type.ApplicationVndOasisOpendocumentFormula,                               // OpenDocument Formula
-		Odft:        mime_type.ApplicationVndOasisOpendocumentFormulaTemplate,                       // OpenDocument Formula Template
-		Odg:         mime_type.ApplicationVndOasisOpendocumentGraphics,                              // OpenDocument Graphics
-		Otg:         mime_type.ApplicationVndOasisOpendocumentGraphicsTemplate,                      // OpenDocument Graphics Template
-		Odi:         mime_type.ApplicationVndOasisOpendocumentImage,                                 // OpenDocument Image
-		Oti:         mime_type.ApplicationVndOasisOpendocumentImageTemplate,                         // OpenDocument Image Template
-		Odp:         mime_type.ApplicationVndOasisOpendocumentPresentation,                          // OpenDocument Presentation
-		Otp:         mime_type.ApplicationVndOasisOpendocumentPresentationTemplate,                  // OpenDocument Presentation Template
-		Ods:         mime_type.ApplicationVndOasisOpendocumentSpreadsheet,                           // OpenDocument Spreadsheet
-		Ots:         mime_type.ApplicationVndOasisOpendocumentSpreadsheetTemplate,                   // OpenDocument Spreadsheet Template
-		Odt:         mime_type.ApplicationVndOasisOpendocumentText,                                  // OpenDocument Text
-		Odm:         mime_type.ApplicationVndOasisOpendocumentTextMaster,                            // OpenDocument Text Master
-		Ott:         mime_type.ApplicationVndOasisOpendocumentTextTemplate,                          // OpenDocument Text Template
-		Oth:         mime_type.ApplicationVndOasisOpendocumentTextWeb,                               // Open Document Text Web
-		Xo:          mime_type.ApplicationVndOlpcSugar,                                              // Sugar Linux Application Bundle
-		Dd2:         mime_type.ApplicationVndOmaDd2Xml,                                              // OMA Download Agents
-		Oxt:         mime_type.ApplicationVndOpenofficeorgExtension,                                 // Open Office Extension
-		Pptx:        mime_type.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlPresentation, // Microsoft Office - OOXML - Presentation
-		Sldx:        mime_type.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlide,        // Microsoft Office - OOXML - Presentation (Slide)
-		Ppsx:        mime_type.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlideshow,    // Microsoft Office - OOXML - Presentation (Slideshow)
-		Potx:        mime_type.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlTemplate,     // Microsoft Office - OOXML - Presentation Template
-		Xlsx:        mime_type.ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlSheet,         // Microsoft Office - OOXML - Spreadsheet
-		Xltx:        mime_type.ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlTemplate,      // Microsoft Office - OOXML - Spreadsheet Template
-		Docx:        mime_type.ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlDocument,   // Microsoft Office - OOXML - Word Document
-		Dotx:        mime_type.ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlTemplate,   // Microsoft Office - OOXML - Word Document Template
-		Mgp:         mime_type.ApplicationVndOsgeoMapguidePackage,                                   // MapGuide DBXML
-		Dp:          mime_type.ApplicationVndOsgiDp,                                                 // OSGi Deployment Package
-		Pdb:         mime_type.ApplicationVndPalm,                                                   // PalmOS Data
-		Paw:         mime_type.ApplicationVndPawaafile,                                              // PawaaFILE
-		Str:         mime_type.ApplicationVndPgFormat,                                               // Proprietary P&G Standard Reporting System
-		Ei6:         mime_type.ApplicationVndPgOsasli,                                               // Proprietary P&G Standard Reporting System
-		Efif:        mime_type.ApplicationVndPicsel,                                                 // Pcsel eFIF File
-		Wg:          mime_type.ApplicationVndPmiWidget,                                              // Qualcomm's Plaza Mobile Internet
-		Plf:         mime_type.ApplicationVndPocketlearn,                                            // PocketLearn Viewers
-		Pbd:         mime_type.ApplicationVndPowerbuilder6,                                          // PowerBuilder
-		Box:         mime_type.ApplicationVndPreviewsystemsBox,                                      // Preview Systems ZipLock/VBox
-		Mgz:         mime_type.ApplicationVndProteusMagazine,                                        // EFI Proteus
-		Qps:         mime_type.ApplicationVndPublishareDeltaTree,                                    // PubliShare Objects
-		Ptid:        mime_type.ApplicationVndPviPtid1,                                               // Princeton Video Image
-		Qxd:         mime_type.ApplicationVndQuarkQuarkxpress,                                       // QuarkXpress
-		Rar:         mime_type.ApplicationVndRar,                                                    // RAR Archive
-		Bed:         mime_type.ApplicationVndRealvncBed,                                             // RealVNC
-		Mxl:         mime_type.ApplicationVndRecordareMusicxml,                                      // Recordare Applications
-		Musicxml:    mime_type.ApplicationVndRecordareMusicxmlXml,                                   // Recordare Applications
-		Cryptonote:  mime_type.ApplicationVndRigCryptonote,                                          // CryptoNote
-		Cod:         mime_type.ApplicationVndRimCod,                                                 // Blackberry COD File
-		Rm:          mime_type.ApplicationVndRnRealmedia,                                            // RealMedia
-		Link66:      mime_type.ApplicationVndRoute66Link66Xml,                                       // ROUTE 66 Location Based Services
-		St:          mime_type.ApplicationVndSailingtrackerTrack,                                    // SailingTracker
-		See:         mime_type.ApplicationVndSeemail,                                                // SeeMail
-		Sema:        mime_type.ApplicationVndSema,                                                   // Secured eMail
-		Semd:        mime_type.ApplicationVndSemd,                                                   // Secured eMail
-		Semf:        mime_type.ApplicationVndSemf,                                                   // Secured eMail
-		Ifm:         mime_type.ApplicationVndShanaInformedFormdata,                                  // Shana Informed Filler
-		Itp:         mime_type.ApplicationVndShanaInformedFormtemplate,                              // Shana Informed Filler
-		Iif:         mime_type.ApplicationVndShanaInformedInterchange,                               // Shana Informed Filler
-		Ipk:         mime_type.ApplicationVndShanaInformedPackage,                                   // Shana Informed Filler
-		Twd:         mime_type.ApplicationVndSimtechMindmapper,                                      // SimTech MindMapper
-		Mmf:         mime_type.ApplicationVndSmaf,                                                   // SMAF File
-		Teacher:     mime_type.ApplicationVndSmartTeacher,                                           // SMART Technologies Apps
-		Sdkm:        mime_type.ApplicationVndSolentSdkmXml,                                          // SudokuMagic
-		Dxp:         mime_type.ApplicationVndSpotfireDxp,                                            // TIBCO Spotfire
-		Sfs:         mime_type.ApplicationVndSpotfireSfs,                                            // TIBCO Spotfire
-		Sdc:         mime_type.ApplicationVndStardivisionCalc,                                       // StarOffice - Calc
-		Sda:         mime_type.ApplicationVndStardivisionDraw,                                       // StarOffice - Draw
-		Sdd:         mime_type.ApplicationVndStardivisionImpress,                                    // StarOffice - Impress
-		Smf:         mime_type.ApplicationVndStardivisionMath,                                       // StarOffice - Math
-		Sdw:         mime_type.ApplicationVndStardivisionWriter,                                     // StarOffice - Writer
-		Sgl:         mime_type.ApplicationVndStardivisionWriterGlobal,                               // StarOffice - Writer (Global)
-		Sm:          mime_type.ApplicationVndStepmaniaStepchart,                                     // StepMania
-		Sxc:         mime_type.ApplicationVndSunXmlCalc,                                             // OpenOffice - Calc (Spreadsheet)
-		Stc:         mime_type.ApplicationVndSunXmlCalcTemplate,                                     // OpenOffice - Calc Template (Spreadsheet)
-		Sxd:         mime_type.ApplicationVndSunXmlDraw,                                             // OpenOffice - Draw (Graphics)
-		Std:         mime_type.ApplicationVndSunXmlDrawTemplate,                                     // OpenOffice - Draw Template (Graphics)
-		Sxi:         mime_type.ApplicationVndSunXmlImpress,                                          // OpenOffice - Impress (Presentation)
-		Sti:         mime_type.ApplicationVndSunXmlImpressTemplate,                                  // OpenOffice - Impress Template (Presentation)
-		Sxm:         mime_type.ApplicationVndSunXmlMath,                                             // OpenOffice - Math (Formula)
-		Sxw:         mime_type.ApplicationVndSunXmlWriter,                                           // OpenOffice - Writer (Text - HTML)
-		Sxg:         mime_type.ApplicationVndSunXmlWriterGlobal,                                     // OpenOffice - Writer (Text - HTML)
-		Stw:         mime_type.ApplicationVndSunXmlWriterTemplate,                                   // OpenOffice - Writer Template (Text - HTML)
-		Sus:         mime_type.ApplicationVndSusCalendar,                                            // ScheduleUs
-		Svd:         mime_type.ApplicationVndSvd,                                                    // SourceView Document
-		Sis:         mime_type.ApplicationVndSymbianInstall,                                         // Symbian Install Package
-		Xsm:         mime_type.ApplicationVndSyncmlXml,                                              // SyncML
-		Bdm:         mime_type.ApplicationVndSyncmlDmWbxml,                                          // SyncML - Device Management
-		Xdm:         mime_type.ApplicationVndSyncmlDmXml,                                            // SyncML - Device Management
-		Tao:         mime_type.ApplicationVndTaoIntentModuleArchive,                                 // Tao Intent
-		Tmo:         mime_type.ApplicationVndTmobileLivetv,                                          // MobileTV
-		Tpt:         mime_type.ApplicationVndTridTpt,                                                // TRI Systems Config
-		Mxs:         mime_type.ApplicationVndTriscapeMxs,                                            // Triscape Map Explorer
-		Tra:         mime_type.ApplicationVndTrueapp,                                                // True BASIC
-		Ufd:         mime_type.ApplicationVndUfdl,                                                   // Universal Forms Description Language
-		Utz:         mime_type.ApplicationVndUiqTheme,                                               // User Interface Quartz - Theme (Symbian)
-		Umj:         mime_type.ApplicationVndUmajin,                                                 // UMAJIN
-		Unityweb:    mime_type.ApplicationVndUnity,                                                  // Unity 3d
-		Uoml:        mime_type.ApplicationVndUomlXml,                                                // Unique Object Markup Language
-		Vcx:         mime_type.ApplicationVndVcx,                                                    // VirtualCatalog
-		Vsd:         mime_type.ApplicationVndVisio,                                                  // Microsoft Visio
-		Vsdx:        mime_type.ApplicationVndVisio2013,                                              // Microsoft Visio 2013
-		Vis:         mime_type.ApplicationVndVisionary,                                              // Visionary
-		Vsf:         mime_type.ApplicationVndVsf,                                                    // Viewport+
-		Wbxml:       mime_type.ApplicationVndWapWbxml,                                               // WAP Binary XML (WBXML)
-		Wmlc:        mime_type.ApplicationVndWapWmlc,                                                // Compiled Wireless Markup Language (WMLC)
-		Wmlsc:       mime_type.ApplicationVndWapWmlscriptc,                                          // WMLScript
-		Wtb:         mime_type.ApplicationVndWebturbo,                                               // WebTurbo
-		Nbp:         mime_type.ApplicationVndWolframPlayer,                                          // Mathematica Notebook Player
-		Wpd:         mime_type.ApplicationVndWordperfect,                                            // Wordperfect
-		Wqd:         mime_type.ApplicationVndWqd,                                                    // SundaHus WQ
-		Stf:         mime_type.ApplicationVndWtStf,                                                  // Worldtalk
-		Xar:         mime_type.ApplicationVndXara,                                                   // CorelXARA
-		Xfdl:        mime_type.ApplicationVndXfdl,                                                   // Extensible Forms Description Language
-		Hvd:         mime_type.ApplicationVndYamahaHvDic,                                            // HV Voice Dictionary
-		Hvs:         mime_type.ApplicationVndYamahaHvScript,                                         // HV Script
-		Hvp:         mime_type.ApplicationVndYamahaHvVoice,                                          // HV Voice Parameter
-		Osf:         mime_type.ApplicationVndYamahaOpenscoreformat,                                  // Open Score Format
-		Osfpvg:      mime_type.ApplicationVndYamahaOpenscoreformatOsfpvgXml,                         // OSFPVG
-		Saf:         mime_type.ApplicationVndYamahaSmafAudio,                                        // SMAF Audio
-		Spf:         mime_type.ApplicationVndYamahaSmafPhrase,                                       // SMAF Phrase
-		Cmp:         mime_type.ApplicationVndYellowriverCustomMenu,                                  // CustomMenu
-		Zir:         mime_type.ApplicationVndZul,                                                    // Z.U.L. Geometry
-		Zaz:         mime_type.ApplicationVndZzazzDeckXml,                                           // Zzazz Deck
-		Vxml:        mime_type.ApplicationVoicexmlXml,                                               // VoiceXML
-		Wgt:         mime_type.ApplicationWidget,                                                    // Widget Packaging and XML Configuration
-		Hlp:         mime_type.ApplicationWinhlp,                                                    // WinHelp
-		Wsdl:        mime_type.ApplicationWsdlXml,                                                   // WSDL - Web Services Description Language
-		Wspolicy:    mime_type.ApplicationWspolicyXml,                                               // Web Services Policy
-		_7z:         mime_type.ApplicationX7zCompressed,                                             // 7-Zip
-		Abw:         mime_type.ApplicationXAbiword,                                                  // AbiWord
-		Ace:         mime_type.ApplicationXAceCompressed,                                            // Ace Archive
-		Dmg:         mime_type.ApplicationXAppleDiskimage,                                           // Apple Disk Image
-		Aab:         mime_type.ApplicationXAuthorwareBin,                                            // Adobe (Macropedia) Authorware - Binary File
-		Aam:         mime_type.ApplicationXAuthorwareMap,                                            // Adobe (Macropedia) Authorware - Map
-		Aas:         mime_type.ApplicationXAuthorwareSeg,                                            // Adobe (Macropedia) Authorware - Segment File
-		Bcpio:       mime_type.ApplicationXBcpio,                                                    // Binary CPIO Archive
-		Torrent:     mime_type.ApplicationXBittorrent,                                               // BitTorrent
-		Bz:          mime_type.ApplicationXBzip,                                                     // Bzip Archive
-		Bz2:         mime_type.ApplicationXBzip2,                                                    // Bzip2 Archive
-		Cda:         mime_type.ApplicationXCdf,                                                      // CD audio
-		Vcd:         mime_type.ApplicationXCdlink,                                                   // Video CD
-		Chat:        mime_type.ApplicationXChat,                                                     // pIRCh
-		Pgn:         mime_type.ApplicationXChessPgn,                                                 // Portable Game Notation (Chess Games)
-		Cpio:        mime_type.ApplicationXCpio,                                                     // CPIO Archive
-		Csh:         mime_type.ApplicationXCsh,                                                      // C Shell Script
-		Deb:         mime_type.ApplicationXDebianPackage,                                            // Debian Package
-		Dir:         mime_type.ApplicationXDirector,                                                 // Ad1obe Shockwave Player
-		Wad:         mime_type.ApplicationXDoom,                                                     // Doom Video Game
-		Ncx:         mime_type.ApplicationXDtbncxXml,                                                // Navigation Control file for XML (for ePub)
-		Dtb:         mime_type.ApplicationXDtbookXml,                                                // Digital Talking Book
-		Res:         mime_type.ApplicationXDtbresourceXml,                                           // Digital Talking Book - Resource File
-		Dvi:         mime_type.ApplicationXDvi,                                                      // Device Independent File Format (DVI)
-		Bdf:         mime_type.ApplicationXFontBdf,                                                  // Glyph Bitmap Distribution Format
-		Gsf:         mime_type.ApplicationXFontGhostscript,                                          // Ghostscript Font
-		Psf:         mime_type.ApplicationXFontLinuxPsf,                                             // PSF Fonts
-		Pcf:         mime_type.ApplicationXFontPcf,                                                  // Portable Compiled Format
-		Snf:         mime_type.ApplicationXFontSnf,                                                  // Server Normal Format
-		Pfa:         mime_type.ApplicationXFontType1,                                                // PostScript Fonts
-		Arc:         mime_type.ApplicationXFreearc,                                                  // Archive document (multiple files embedded)
-		Spl:         mime_type.ApplicationXFuturesplash,                                             // FutureSplash Animator
-		Gnumeric:    mime_type.ApplicationXGnumeric,                                                 // Gnumeric
-		Gtar:        mime_type.ApplicationXGtar,                                                     // GNU Tar Files
-		Hdf:         mime_type.ApplicationXHdf,                                                      // Hierarchical Data Format
-		Php:         mime_type.ApplicationXHttpdPhp,                                                 // Hypertext Preprocessor (Personal Home Page)
-		Phar:        mime_type.ApplicationXHttpdPhp,                                                 // Hypertext Preprocessor (Personal Home Page)
-		Phtml:       mime_type.ApplicationXHttpdPhp,                                                 // Hypertext Preprocessor (Personal Home Page)
-		Pht:         mime_type.ApplicationXHttpdPhp,                                                 // Hypertext Preprocessor (Personal Home Page)
-		Phps:        mime_type.ApplicationXHttpdPhp,                                                 // Hypertext Preprocessor (Personal Home Page)
-		Jnlp:        mime_type.ApplicationXJavaJnlpFile,                                             // Java Network Launching Protocol
-		Latex:       mime_type.ApplicationXLatex,                                                    // LaTeX
-		Prc:         mime_type.ApplicationXMobipocketEbook,                                          // Mobipocket
-		Application: mime_type.ApplicationXMsApplication,                                            // Microsoft ClickOnce
-		Wmd:         mime_type.ApplicationXMsWmd,                                                    // Microsoft Windows Media Player Download Package
-		Wmz:         mime_type.ApplicationXMsWmz,                                                    // Microsoft Windows Media Player Skin Package
-		Xbap:        mime_type.ApplicationXMsXbap,                                                   // Microsoft XAML Browser Application
-		Mdb:         mime_type.ApplicationXMsaccess,                                                 // Microsoft Access
-		Obd:         mime_type.ApplicationXMsbinder,                                                 // Microsoft Office Binder
-		Crd:         mime_type.ApplicationXMscardfile,                                               // Microsoft Information Card
-		Clp:         mime_type.ApplicationXMsclip,                                                   // Microsoft Clipboard Clip
-		Exe:         mime_type.ApplicationXMsdownload,                                               // Microsoft Application
-		Mvb:         mime_type.ApplicationXMsmediaview,                                              // Microsoft MediaView
-		Wmf:         mime_type.ApplicationXMsmetafile,                                               // Microsoft Windows Metafile
-		Mny:         mime_type.ApplicationXMsmoney,                                                  // Microsoft Money
-		Pub:         mime_type.ApplicationXMspublisher,                                              // Microsoft Publisher
-		Scd:         mime_type.ApplicationXMsschedule,                                               // Microsoft Schedule+
-		Trm:         mime_type.ApplicationXMsterminal,                                               // Microsoft Windows Terminal Services
-		Wri:         mime_type.ApplicationXMswrite,                                                  // Microsoft Wordpad
-		Nc:          mime_type.ApplicationXNetcdf,                                                   // Network Common Data Form (NetCDF)
-		P12:         mime_type.ApplicationXPkcs12,                                                   // PKCS #12 - Personal Information Exchange Syntax Standard
-		P7b:         mime_type.ApplicationXPkcs7Certificates,                                        // PKCS #7 - Cryptographic Message Syntax Standard (Certificates)
-		P7r:         mime_type.ApplicationXPkcs7Certreqresp,                                         // PKCS #7 - Cryptographic Message Syntax Standard (Certificate Request Response)
-		Sh:          mime_type.ApplicationXSh,                                                       // Bourne Shell Script
-		Shar:        mime_type.ApplicationXShar,                                                     // Shell Archive
-		Swf:         mime_type.ApplicationXShockwaveFlash,                                           // Adobe Flash
-		Xap:         mime_type.ApplicationXSilverlightApp,                                           // Microsoft Silverlight
-		Sit:         mime_type.ApplicationXStuffit,                                                  // Stuffit Archive
-		Sitx:        mime_type.ApplicationXStuffitx,                                                 // Stuffit Archive
-		Sv4cpio:     mime_type.ApplicationXSv4cpio,                                                  // System V Release 4 CPIO Archive
-		Sv4crc:      mime_type.ApplicationXSv4crc,                                                   // System V Release 4 CPIO Checksum Data
-		Tar:         mime_type.ApplicationXTar,                                                      // Tar File (Tape Archive)
-		Tcl:         mime_type.ApplicationXTcl,                                                      // Tcl Script
-		Tbc:         mime_type.ApplicationXTcl,                                                      // Tcl Script
-		Tex:         mime_type.ApplicationXTex,                                                      // TeX
-		Tfm:         mime_type.ApplicationXTexTfm,                                                   // TeX Font Metric
-		Texinfo:     mime_type.ApplicationXTexinfo,                                                  // GNU Texinfo Document
-		Ustar:       mime_type.ApplicationXUstar,                                                    // Ustar (Uniform Standard Tape Archive)
-		Src:         mime_type.ApplicationXWaisSource,                                               // WAIS Source
-		Der:         mime_type.ApplicationXX509CaCert,                                               // X.509 Certificate
-		Fig:         mime_type.ApplicationXXfig,                                                     // Xfig
-		Xpi:         mime_type.ApplicationXXpinstall,                                                // XPInstall - Mozilla
-		Yaml:        mime_type.ApplicationXYaml,                                                     // YAML Ain't Markup Language / Yet Another Markup Language
-		Yml:         mime_type.ApplicationXYaml,                                                     // YAML Ain't Markup Language / Yet Another Markup Language
-		Xdf:         mime_type.ApplicationXcapDiffXml,                                               // XML Configuration Access Protocol - XCAP Diff
-		Xenc:        mime_type.ApplicationXencXml,                                                   // XML Encryption Syntax and Processing
-		Xhtml:       mime_type.ApplicationXhtmlXml,                                                  // XHTML - The Extensible HyperText Markup Language
-		Xml:         mime_type.ApplicationXml,                                                       // XML - Extensible Markup Language
-		Dtd:         mime_type.ApplicationXmlDtd,                                                    // Document Type Definition
-		Xop:         mime_type.ApplicationXopXml,                                                    // XML-Binary Optimized Packaging
-		Xslt:        mime_type.ApplicationXsltXml,                                                   // XML Transformations
-		Xspf:        mime_type.ApplicationXspfXml,                                                   // XSPF - XML Shareable Playlist Format
-		Mxml:        mime_type.ApplicationXvXml,                                                     // MXML
-		Yang:        mime_type.ApplicationYang,                                                      // YANG Data Modeling Language
-		Yin:         mime_type.ApplicationYinXml,                                                    // YIN (YANG - XML)
-		Zip:         mime_type.ApplicationZip,                                                       // Zip Archive
-		Adp:         mime_type.AudioAdpcm,                                                           // Adaptive differential pulse-code modulation
-		Au:          mime_type.AudioBasic,                                                           // Sun Audio - Au file format
-		Mid:         mime_type.AudioMidi,                                                            // MIDI - Musical Instrument Digital Interface
-		Midi:        mime_type.AudioMidi,                                                            // MIDI - Musical Instrument Digital Interface
-		Mp4a:        mime_type.AudioMp4,                                                             // MPEG-4 Audio
-		Mpga:        mime_type.AudioMpeg,                                                            // MPEG Audio
-		Oga:         mime_type.AudioOgg,                                                             // Ogg Audio
-		Opus:        mime_type.AudioOpus,                                                            // Opus audio
-		Uva:         mime_type.AudioVndDeceAudio,                                                    // DECE Audio
-		Eol:         mime_type.AudioVndDigitalWinds,                                                 // Digital Winds Music
-		Dra:         mime_type.AudioVndDra,                                                          // DRA Audio
-		Dts:         mime_type.AudioVndDts,                                                          // DTS Audio
-		Dtshd:       mime_type.AudioVndDtsHd,                                                        // DTS High Definition Audio
-		Lvp:         mime_type.AudioVndLucentVoice,                                                  // Lucent Voice
-		Pya:         mime_type.AudioVndMsPlayreadyMediaPya,                                          // Microsoft PlayReady Ecosystem
-		Ecelp4800:   mime_type.AudioVndNueraEcelp4800,                                               // Nuera ECELP 4800
-		Ecelp7470:   mime_type.AudioVndNueraEcelp7470,                                               // Nuera ECELP 7470
-		Ecelp9600:   mime_type.AudioVndNueraEcelp9600,                                               // Nuera ECELP 9600
-		Rip:         mime_type.AudioVndRip,                                                          // Hit'n'Mix
-		Wav:         mime_type.AudioWav,                                                             // Waveform Audio File Format (WAV)
-		Weba:        mime_type.AudioWebm,                                                            // Open Web Media Project - Audio
-		Aac:         mime_type.AudioXAac,                                                            // Advanced Audio Coding (AAC)
-		Aif:         mime_type.AudioXAiff,                                                           // Audio Interchange File Format
-		M3u:         mime_type.AudioXMpegurl,                                                        // M3U (Multimedia Playlist)
-		Wax:         mime_type.AudioXMsWax,                                                          // Microsoft Windows Media Audio Redirector
-		Wma:         mime_type.AudioXMsWma,                                                          // Microsoft Windows Media Audio
-		Ram:         mime_type.AudioXPnRealaudio,                                                    // Real Audio Sound
-		Rmp:         mime_type.AudioXPnRealaudioPlugin,                                              // Real Audio Sound
-		Cdx:         mime_type.ChemicalXCdx,                                                         // ChemDraw eXchange file
-		Cif:         mime_type.ChemicalXCif,                                                         // Crystallographic Interchange Format
-		Cmdf:        mime_type.ChemicalXCmdf,                                                        // CrystalMaker Data Format
-		Cml:         mime_type.ChemicalXCml,                                                         // Chemical Markup Language
-		Csml:        mime_type.ChemicalXCsml,                                                        // Chemical Style Markup Language
-		Xyz:         mime_type.ChemicalXXyz,                                                         // XYZ File Format
-		Otf:         mime_type.FontOtf,                                                              // OpenType font
-		Ttf:         mime_type.FontTtf,                                                              // TrueType Font
-		Woff:        mime_type.FontWoff,                                                             // Web Open Font Format
-		Woff2:       mime_type.FontWoff2,                                                            // Web Open Font Format v2
-		Bmp:         mime_type.ImageBmp,                                                             // Bitmap Image File
-		Cgm:         mime_type.ImageCgm,                                                             // Computer Graphics Metafile
-		G3:          mime_type.ImageG3fax,                                                           // G3 Fax Image
-		Gif:         mime_type.ImageGif,                                                             // Graphics Interchange Format
-		Ief:         mime_type.ImageIef,                                                             // Image Exchange Format
-		Jpeg:        mime_type.ImageJpeg,                                                            // JPEG Image
-		Jpg:         mime_type.ImageJpeg,                                                            // JPEG Image
-		Ktx:         mime_type.ImageKtx,                                                             // OpenGL Textures (KTX)
-		Pjpeg:       mime_type.ImagePjpeg,                                                           // JPEG Image (Progressive)
-		Png:         mime_type.ImagePng,                                                             // Portable Network Graphics
-		Btif:        mime_type.ImagePrsBtif,                                                         // BTIF
-		Svg:         mime_type.ImageSvgXml,                                                          // Scalable Vector Graphics (SVG)
-		Tif:         mime_type.ImageTiff,                                                            // Tagged Image File Format
-		Tiff:        mime_type.ImageTiff,                                                            // Tagged Image File Format
-		Psd:         mime_type.ImageVndAdobePhotoshop,                                               // Photoshop Document
-		Uvi:         mime_type.ImageVndDeceGraphic,                                                  // DECE Graphic
-		Djvu:        mime_type.ImageVndDjvu,                                                         // DjVu
-		Sub:         mime_type.ImageVndDvbSubtitle,                                                  // Close Captioning - Subtitle
-		Dwg:         mime_type.ImageVndDwg,                                                          // DWG Drawing
-		Dxf:         mime_type.ImageVndDxf,                                                          // AutoCAD DXF
-		Fbs:         mime_type.ImageVndFastbidsheet,                                                 // FastBid Sheet
-		Fpx:         mime_type.ImageVndFpx,                                                          // FlashPix
-		Fst:         mime_type.ImageVndFst,                                                          // FAST Search & Transfer ASA
-		Mmr:         mime_type.ImageVndFujixeroxEdmicsMmr,                                           // EDMICS 2000
-		Rlc:         mime_type.ImageVndFujixeroxEdmicsRlc,                                           // EDMICS 2000
-		Mdi:         mime_type.ImageVndMsModi,                                                       // Microsoft Document Imaging Format
-		Npx:         mime_type.ImageVndNetFpx,                                                       // FlashPix
-		Wbmp:        mime_type.ImageVndWapWbmp,                                                      // WAP Bitamp (WBMP)
-		Xif:         mime_type.ImageVndXiff,                                                         // eXtended Image File Format (XIFF)
-		Webp:        mime_type.ImageWebp,                                                            // WebP Image
-		Ras:         mime_type.ImageXCmuRaster,                                                      // CMU Image
-		Cmx:         mime_type.ImageXCmx,                                                            // Corel Metafile Exchange (CMX)
-		Fh:          mime_type.ImageXFreehand,                                                       // FreeHand MX
-		Ico:         mime_type.ImageXIcon,                                                           // Icon Image
-		Pcx:         mime_type.ImageXPcx,                                                            // PCX Image
-		Pic:         mime_type.ImageXPict,                                                           // PICT Image
-		Pnm:         mime_type.ImageXPortableAnymap,                                                 // Portable Anymap Image
-		Pbm:         mime_type.ImageXPortableBitmap,                                                 // Portable Bitmap Format
-		Pgm:         mime_type.ImageXPortableGraymap,                                                // Portable Graymap Format
-		Ppm:         mime_type.ImageXPortablePixmap,                                                 // Portable Pixmap Format
-		Rgb:         mime_type.ImageXRgb,                                                            // Silicon Graphics RGB Bitmap
-		Xbm:         mime_type.ImageXXbitmap,                                                        // X BitMap
-		Xpm:         mime_type.ImageXXpixmap,                                                        // X PixMap
-		Xwd:         mime_type.ImageXXwindowdump,                                                    // X Window Dump
-		Eml:         mime_type.MessageRfc822,                                                        // Email Message
-		Igs:         mime_type.ModelIges,                                                            // Initial Graphics Exchange Specification (IGES)
-		Msh:         mime_type.ModelMesh,                                                            // Mesh Data Type
-		Dae:         mime_type.ModelVndColladaXml,                                                   // COLLADA
-		Dwf:         mime_type.ModelVndDwf,                                                          // Autodesk Design Web Format (DWF)
-		Gdl:         mime_type.ModelVndGdl,                                                          // Geometric Description Language (GDL)
-		Gtw:         mime_type.ModelVndGtw,                                                          // Gen-Trix Studio
-		Mts:         mime_type.ModelVndMts,                                                          // Virtue MTS
-		Vtu:         mime_type.ModelVndVtu,                                                          // Virtue VTU
-		Wrl:         mime_type.ModelVrml,                                                            // Virtual Reality Modeling Language
-		Ics:         mime_type.TextCalendar,                                                         // iCalendar
-		Css:         mime_type.TextCss,                                                              // Cascading Style Sheets (CSS)
-		Csv:         mime_type.TextCsv,                                                              // Comma-Seperated Values
-		Html:        mime_type.TextHtml,                                                             // HyperText Markup Language (HTML)
-		N3:          mime_type.TextN3,                                                               // Notation3
-		Txt:         mime_type.TextPlain,                                                            // Text File
-		Par:         mime_type.TextPlainBas,                                                         // BAS Partitur Format
-		Dsc:         mime_type.TextPrsLinesTag,                                                      // PRS Lines Tag
-		Rtx:         mime_type.TextRichtext,                                                         // Rich Text Format (RTF)
-		Sgml:        mime_type.TextSgml,                                                             // Standard Generalized Markup Language (SGML)
-		Tsv:         mime_type.TextTabSeparatedValues,                                               // Tab Seperated Values
-		T:           mime_type.TextTroff,                                                            // troff
-		Ttl:         mime_type.TextTurtle,                                                           // Turtle (Terse RDF Triple Language)
-		Uri:         mime_type.TextUriList,                                                          // URI Resolution Services
-		Curl:        mime_type.TextVndCurl,                                                          // Curl - Applet
-		Dcurl:       mime_type.TextVndCurlDcurl,                                                     // Curl - Detached Applet
-		Mcurl:       mime_type.TextVndCurlMcurl,                                                     // Curl - Manifest File
-		Scurl:       mime_type.TextVndCurlScurl,                                                     // Curl - Source Code
-		Fly:         mime_type.TextVndFly,                                                           // mod_fly / fly.cgi
-		Flx:         mime_type.TextVndFmiFlexstor,                                                   // FLEXSTOR
-		Gv:          mime_type.TextVndGraphviz,                                                      // Graphviz
-		_3dml:       mime_type.TextVndIn3d3dml,                                                      // In3D - 3DML
-		Spot:        mime_type.TextVndIn3dSpot,                                                      // In3D - 3DML
-		Jad:         mime_type.TextVndSunJ2meAppDescriptor,                                          // J2ME App Descriptor
-		Wml:         mime_type.TextVndWapWml,                                                        // Wireless Markup Language (WML)
-		Wmls:        mime_type.TextVndWapWmlscript,                                                  // Wireless Markup Language Script (WMLScript)
-		S:           mime_type.TextXAsm,                                                             // Assembler Source File
-		Asm:         mime_type.TextXAsm,                                                             // Assembler Source File
-		C:           mime_type.TextXC,                                                               // C Source File
-		F:           mime_type.TextXFortran,                                                         // Fortran Source File
-		Java:        mime_type.TextXJavaSource,                                                      // Java Source File
-		P:           mime_type.TextXPascal,                                                          // Pascal Source File
-		Etx:         mime_type.TextXSetext,                                                          // Setext
-		Uu:          mime_type.TextXUuencode,                                                        // UUEncode
-		Vcs:         mime_type.TextXVcalendar,                                                       // vCalendar
-		Vcf:         mime_type.TextXVcard,                                                           // vCard
-		_3gp:        mime_type.Video3gpp,                                                            // 3GPP
-		_3g2:        mime_type.Video3gpp2,                                                           // 3GP2
-		H261:        mime_type.VideoH261,                                                            // H.261
-		H263:        mime_type.VideoH263,                                                            // H.263
-		H264:        mime_type.VideoH264,                                                            // H.264
-		Jpgv:        mime_type.VideoJpeg,                                                            // JPGVideo
-		Jpm:         mime_type.VideoJpm,                                                             // JPEG 2000 Compound Image File Format
-		Mj2:         mime_type.VideoMj2,                                                             // Motion JPEG 2000
-		Mp4:         mime_type.VideoMp4,                                                             // MPEG4
-		Mpeg:        mime_type.VideoMpeg,                                                            // MPEG Video
-		Ogv:         mime_type.VideoOgg,                                                             // Ogg Video
-		Qt:          mime_type.VideoQuicktime,                                                       // Quicktime Video
-		Uvh:         mime_type.VideoVndDeceHd,                                                       // DECE High Definition Video
-		Uvm:         mime_type.VideoVndDeceMobile,                                                   // DECE Mobile Video
-		Uvp:         mime_type.VideoVndDecePd,                                                       // DECE PD Video
-		Uvs:         mime_type.VideoVndDeceSd,                                                       // DECE SD Video
-		Uvv:         mime_type.VideoVndDeceVideo,                                                    // DECE Video
-		Fvt:         mime_type.VideoVndFvt,                                                          // FAST Search & Transfer ASA
-		Mxu:         mime_type.VideoVndMpegurl,                                                      // MPEG Url
-		Pyv:         mime_type.VideoVndMsPlayreadyMediaPyv,                                          // Microsoft PlayReady Ecosystem Video
-		Uvu:         mime_type.VideoVndUvvuMp4,                                                      // DECE MP4
-		Viv:         mime_type.VideoVndVivo,                                                         // Vivo
-		Webm:        mime_type.VideoWebm,                                                            // Open Web Media Project - Video
-		F4v:         mime_type.VideoXF4v,                                                            // Flash Video
-		Fli:         mime_type.VideoXFli,                                                            // FLI/FLC Animation Format
-		Flv:         mime_type.VideoXFlv,                                                            // Flash Video
-		M4v:         mime_type.VideoXM4v,                                                            // M4v
-		Asf:         mime_type.VideoXMsAsf,                                                          // Microsoft Advanced Systems Format (ASF)
-		Wm:          mime_type.VideoXMsWm,                                                           // Microsoft Windows Media
-		Wmv:         mime_type.VideoXMsWmv,                                                          // Microsoft Windows Media Video
-		Wmx:         mime_type.VideoXMsWmx,                                                          // Microsoft Windows Media Audio/Video Playlist
-		Wvx:         mime_type.VideoXMsWvx,                                                          // Microsoft Windows Media Video Playlist
-		Avi:         mime_type.VideoXMsvideo,                                                        // Audio Video Interleave (AVI)
-		Movie:       mime_type.VideoXSgiMovie,                                                       // SGI Movie
-		Ice:         mime_type.XConferenceXCooltalk,                                                 // CoolTalk
-		Toml:        mime_type.ApplicationToml,                                                      // Tom's Obvious, Minimal Language
-		Hcl:         mime_type.ApplicationHcl,                                                       // HashiCorp configuration language
-		Ini:         mime_type.ApplicationIni,                                                       // Microsoft Windows Initialization
-		Cue:         mime_type.ApplicationCue,                                                       // Configure Unify Execute
-		Go:          mime_type.ApplicationXGo,                                                       // Go source file
-		Mod:         mime_type.ApplicationXGo,                                                       // Go source file
-		Sum:         mime_type.ApplicationXGo,                                                       // Go source file
-		Gotmpl:      mime_type.ApplicationXGoTemplate,                                               // Go template file
-		Tmpl:        mime_type.ApplicationXGoTemplate,                                               // Go template file
-		Gtpl:        mime_type.ApplicationXGoTemplate,                                               // Go template file
-		Cpp:         mime_type.ApplicationXCpp,                                                      // C++ source file
-		Cs:          mime_type.ApplicationXCsharp,                                                   // C# source file
-		Csx:         mime_type.ApplicationXCsharp,                                                   // C# source file
-		Py:          mime_type.ApplicationXPython,                                                   // Python source file
-		Pyi:         mime_type.ApplicationXPythonGenerated,                                          // Python generated file
-		Pyc:         mime_type.ApplicationXPythonGenerated,                                          // Python generated file
-		Pyd:         mime_type.ApplicationXPythonGenerated,                                          // Python generated file
-		Pyw:         mime_type.ApplicationXPythonGenerated,                                          // Python generated file
-		Pyz:         mime_type.ApplicationXPythonGenerated,                                          // Python generated file
-		Pyo:         mime_type.ApplicationXPythonGenerated,                                          // Python generated file
-		Rb:          mime_type.ApplicationXRuby,                                                     // Ruby source file
-		Rs:          mime_type.ApplicationXRust,                                                     // Rust source file
-		Bnf:         mime_type.ApplicationXBnf,                                                      // Backus-Naur Form definition file
-		Abnf:        mime_type.ApplicationXAbnf,                                                     // Augmented Backus-Naur Form definition file
-		Vb:          mime_type.ApplicationXVisualBasic,                                              // Visual Basic source file
-		Vbs:         mime_type.ApplicationXVisualBasic,                                              // Visual Basic source file
-		Vbscript:    mime_type.ApplicationXVisualBasic,                                              // Visual Basic source file
-		Scss:        mime_type.ApplicationXSass,                                                     // Syntactically Awesome Stylesheet source file
-		Sass:        mime_type.ApplicationXSass,                                                     // Syntactically Awesome Stylesheet source file
-		Dart:        mime_type.ApplicationXDart,                                                     // Dart source file
-		Bash:        mime_type.ApplicationXBash,                                                     // BASH shell script
-		Fish:        mime_type.ApplicationXFish,                                                     // FISH shell script
-		Zsh:         mime_type.ApplicationXZsh,                                                      // ZSH shell script
-		Ksh:         mime_type.ApplicationXKorn,                                                     // Korn shell script
-		Pp:          mime_type.ApplicationXPuppet,                                                   // Puppet manifest file
-		Ml:          mime_type.ApplicationXOcaml,                                                    // OCaml source file
-		Mli:         mime_type.ApplicationXOcaml,                                                    // OCaml source file
-		Pas:         mime_type.ApplicationXPascal,                                                   // Pascal source file
-		Inc:         mime_type.ApplicationXPascal,                                                   // Pascal source file
-		Clj:         mime_type.ApplicationXClojure,                                                  // Clojure source file
-		Cljs:        mime_type.ApplicationXClojure,                                                  // Clojure source file
-		Cljc:        mime_type.ApplicationXClojure,                                                  // Clojure source file
-		Edn:         mime_type.ApplicationXClojure,                                                  // Clojure source file
-		Scm:         mime_type.ApplicationXScheme,                                                   // Scheme source file
-		Ss:          mime_type.ApplicationXScheme,                                                   // Scheme source file
-		Lisp:        mime_type.ApplicationXLisp,                                                     // Common Lisp source file
-		Lsp:         mime_type.ApplicationXLisp,                                                     // Common Lisp source file
-		L:           mime_type.ApplicationXLisp,                                                     // Common Lisp source file
-		Cl:          mime_type.ApplicationXLisp,                                                     // Common Lisp source file
-		Fasl:        mime_type.ApplicationXLisp,                                                     // Common Lisp source file
-		Kt:          mime_type.ApplicationXKotlin,                                                   // Kotlin source file
-		Kts:         mime_type.ApplicationXKotlin,                                                   // Kotlin source file
-		Ktm:         mime_type.ApplicationXKotlin,                                                   // Kotlin source file
-		Erl:         mime_type.ApplicationXErlang,                                                   // Erlang source file
-		Hrl:         mime_type.ApplicationXErlang,                                                   // Erlang source file
-		Scala:       mime_type.ApplicationXScala,                                                    // Scala source file
-		Sc:          mime_type.ApplicationXScala,                                                    // Scala source file
-		Hs:          mime_type.ApplicationXHaskell,                                                  // Haskell source file
-		Lhs:         mime_type.ApplicationXHaskell,                                                  // Haskell source file
-		Fs:          mime_type.ApplicationXFsharp,                                                   // F# source file
-		Fsi:         mime_type.ApplicationXFsharp,                                                   // F# source file
-		Fsx:         mime_type.ApplicationXFsharp,                                                   // F# source file
-		Fsscript:    mime_type.ApplicationXFsharp,                                                   // F# source file
-		Ex:          mime_type.ApplicationXElixir,                                                   // Elixir source file
-		Exs:         mime_type.ApplicationXElixir,                                                   // Elixir source file
-		Elm:         mime_type.ApplicationXElm,                                                      // Elm source file
-		Ts:          mime_type.ApplicationXTypescript,                                               // TypeScript source file
-		Xtend:       mime_type.ApplicationXXtend,                                                    // Xtend source file
-		Xq:          mime_type.ApplicationXXquery,                                                   // XQuery source file
-		Xql:         mime_type.ApplicationXXquery,                                                   // XQuery source file
-		Xqm:         mime_type.ApplicationXXquery,                                                   // XQuery source file
-		Xqy:         mime_type.ApplicationXXquery,                                                   // XQuery source file
-		Xquery:      mime_type.ApplicationXXquery,                                                   // XQuery source file
-		Wat:         mime_type.ApplicationXWebassembly,                                              // WebAssembly
-		Wasm:        mime_type.ApplicationXWebassembly,                                              // WebAssembly
-		Sql:         mime_type.ApplicationXSql,                                                      // Standard Query Language (SQL) source file
-		Ddl:         mime_type.ApplicationXSql,                                                      // Standard Query Language (SQL) source file
-		R:           mime_type.ApplicationXR,                                                        // R source file
-		Rdata:       mime_type.ApplicationXR,                                                        // R source file
-		Rds:         mime_type.ApplicationXR,                                                        // R source file
-		Rda:         mime_type.ApplicationXR,                                                        // R source file
-		Ps1:         mime_type.ApplicationXPowershell,                                               // PowerShell script file
-		Ps1xml:      mime_type.ApplicationXPowershell,                                               // PowerShell script file
-		Psc1:        mime_type.ApplicationXPowershell,                                               // PowerShell script file
-		Psm1:        mime_type.ApplicationXPowershell,                                               // PowerShell script file
-		Pssc:        mime_type.ApplicationXPowershell,                                               // PowerShell script file
-		Psrc:        mime_type.ApplicationXPowershell,                                               // PowerShell script file
-		Cdxml:       mime_type.ApplicationXPowershell,                                               // PowerShell script file
-		Pl:          mime_type.ApplicationXPerl,                                                     // Perl source file
-		Plx:         mime_type.ApplicationXPerl,                                                     // Perl source file
-		Pm:          mime_type.ApplicationXPerl,                                                     // Perl source file
-		Xs:          mime_type.ApplicationXPerl,                                                     // Perl source file
-		Pod:         mime_type.ApplicationXPerl,                                                     // Perl source file
-		Cgi:         mime_type.ApplicationXPerl,                                                     // Perl source file
-		M:           mime_type.ApplicationXObjectiveC,                                               // Objective-C source file
-		Mm:          mime_type.ApplicationXObjectiveC,                                               // Objective-C source file
-		H:           mime_type.ApplicationXCHeader,                                                  // C Header source file
-		Lua:         mime_type.ApplicationXLua,                                                      // Lua source file
-		For:         mime_type.ApplicationXFortran,                                                  // Fortan source file
-		F90:         mime_type.ApplicationXFortran,                                                  // Fortan source file
-		Fth:         mime_type.ApplicationXForth,                                                    // Forth source file
-		_4th:        mime_type.ApplicationXForth,                                                    // Forth source file
-		Forth:       mime_type.ApplicationXForth,                                                    // Forth source file
-		Md:          mime_type.ApplicationXMarkdown,                                                 // Markdown source file
-		Njk:         mime_type.ApplicationXNunjucks,                                                 // Nunjucks template file
-		Hbs:         mime_type.ApplicationXHandlebars,                                               // Handlebars template file
-		Ejs:         mime_type.ApplicationXEjs,                                                      // Embedded JavaScript Template file
-		Mustache:    mime_type.ApplicationXMustache,                                                 // Mustache template file
-		Haml:        mime_type.ApplicationXHaml,                                                     // Haml template file
-		Pug:         mime_type.ApplicationXPug,                                                      // Pug template file
-		Liquid:      mime_type.ApplicationXLiquid,                                                   // Liquid template file
-		Webc:        mime_type.ApplicationXWebc,                                                     // Web Component source file
-		Lst:         mime_type.ApplicationXList,                                                     // List file
+		FileExtentions.Ipynb:       mime_type.MimeTypes.ApplicationXJupyterNotebook,                                          // Jupyter Notebook
+		FileExtentions.Iqy:         mime_type.MimeTypes.ApplicationXVndMsExcelWebQuery,                                       // Microsoft Excel Web Query file
+		FileExtentions.Avdl:        mime_type.MimeTypes.ApplicationXAvroSchemaIdl,                                            // Apache Avro Interface Definition Language (IDL) Schema file
+		FileExtentions.Avsc:        mime_type.MimeTypes.ApplicationXAvroSchemaJson,                                           // Apache Avro Javascript Object Notation (JSON) Schema file
+		FileExtentions.Aw:          mime_type.MimeTypes.ApplicationApplixware,                                                // Applixware
+		FileExtentions.Atom:        mime_type.MimeTypes.ApplicationAtomXml,                                                   // Atom Syndication Format
+		FileExtentions.Atomcat:     mime_type.MimeTypes.ApplicationAtomcatXml,                                                // Atom Publishing Protocol
+		FileExtentions.Atomsvc:     mime_type.MimeTypes.ApplicationAtomsvcXml,                                                // Atom Publishing Protocol Service Document
+		FileExtentions.Ccxml:       mime_type.MimeTypes.ApplicationCcxmlXml,                                                  // Voice Browser Call Control
+		FileExtentions.Cdmia:       mime_type.MimeTypes.ApplicationCdmiCapability,                                            // Cloud Data Management Interface (CDMI) - Capability
+		FileExtentions.Cdmic:       mime_type.MimeTypes.ApplicationCdmiContainer,                                             // Cloud Data Management Interface (CDMI) - Contaimer
+		FileExtentions.Cdmid:       mime_type.MimeTypes.ApplicationCdmiDomain,                                                // Cloud Data Management Interface (CDMI) - Domain
+		FileExtentions.Cdmio:       mime_type.MimeTypes.ApplicationCdmiObject,                                                // Cloud Data Management Interface (CDMI) - Object
+		FileExtentions.Cdmiq:       mime_type.MimeTypes.ApplicationCdmiQueue,                                                 // Cloud Data Management Interface (CDMI) - Queue
+		FileExtentions.Cu:          mime_type.MimeTypes.ApplicationCuSeeme,                                                   // CU-SeeMe
+		FileExtentions.Davmount:    mime_type.MimeTypes.ApplicationDavmountXml,                                               // Web Distributed Authoring and Versioning
+		FileExtentions.Dssc:        mime_type.MimeTypes.ApplicationDsscDer,                                                   // Data Structure for the Security Suitability of Cryptographic Algorithms
+		FileExtentions.Xdssc:       mime_type.MimeTypes.ApplicationDsscXml,                                                   // Data Structure for the Security Suitability of Cryptographic Algorithms
+		FileExtentions.Es:          mime_type.MimeTypes.ApplicationEcmascript,                                                // ECMAScript
+		FileExtentions.Emma:        mime_type.MimeTypes.ApplicationEmmaXml,                                                   // Extensible MultiModal Annotation
+		FileExtentions.Epub:        mime_type.MimeTypes.ApplicationEpubZip,                                                   // Electronic Publication
+		FileExtentions.Exi:         mime_type.MimeTypes.ApplicationExi,                                                       // Efficient XML Interchange
+		FileExtentions.Pfr:         mime_type.MimeTypes.ApplicationFontTdpfr,                                                 // Portable Font Resource
+		FileExtentions.Gpx:         mime_type.MimeTypes.ApplicationGpxXml,                                                    // GPS eXchange Format
+		FileExtentions.Gz:          mime_type.MimeTypes.ApplicationGzip,                                                      // GZip Compressed Archive
+		FileExtentions.Stk:         mime_type.MimeTypes.ApplicationHyperstudio,                                               // Hyperstudio
+		FileExtentions.Ipfix:       mime_type.MimeTypes.ApplicationIpfix,                                                     // Internet Protocol Flow Information Export
+		FileExtentions.Jar:         mime_type.MimeTypes.ApplicationJavaArchive,                                               // Java Archive
+		FileExtentions.Ser:         mime_type.MimeTypes.ApplicationJavaSerializedObject,                                      // Java Serialized Object
+		FileExtentions.Class:       mime_type.MimeTypes.ApplicationJavaVm,                                                    // Java Bytecode File
+		FileExtentions.Js:          mime_type.MimeTypes.ApplicationJavascript,                                                // JavaScript language file
+		FileExtentions.Json:        mime_type.MimeTypes.ApplicationJson,                                                      // JavaScript Object Notation (JSON)
+		FileExtentions.Jsonld:      mime_type.MimeTypes.ApplicationLdJson,                                                    // JSON-LD format
+		FileExtentions.Hqx:         mime_type.MimeTypes.ApplicationMacBinhex40,                                               // Macintosh BinHex 4.0
+		FileExtentions.Cpt:         mime_type.MimeTypes.ApplicationMacCompactpro,                                             // Compact Pro
+		FileExtentions.Mads:        mime_type.MimeTypes.ApplicationMadsXml,                                                   // Metadata Authority Description Schema
+		FileExtentions.Mrc:         mime_type.MimeTypes.ApplicationMarc,                                                      // MARC Formats
+		FileExtentions.Mrcx:        mime_type.MimeTypes.ApplicationMarcxmlXml,                                                // MARC21 XML Schema
+		FileExtentions.Ma:          mime_type.MimeTypes.ApplicationMathematica,                                               // Mathematica Notebooks
+		FileExtentions.Mathml:      mime_type.MimeTypes.ApplicationMathmlXml,                                                 // Mathematical Markup Language
+		FileExtentions.Mbox:        mime_type.MimeTypes.ApplicationMbox,                                                      // Mbox database files
+		FileExtentions.Mscml:       mime_type.MimeTypes.ApplicationMediaservercontrolXml,                                     // Media Server Control Markup Language
+		FileExtentions.Meta4:       mime_type.MimeTypes.ApplicationMetalink4Xml,                                              // Metalink
+		FileExtentions.Mets:        mime_type.MimeTypes.ApplicationMetsXml,                                                   // Metadata Encoding and Transmission Standard
+		FileExtentions.Mods:        mime_type.MimeTypes.ApplicationModsXml,                                                   // Metadata Object Description Schema
+		FileExtentions.M21:         mime_type.MimeTypes.ApplicationMp21,                                                      // MPEG-21
+		FileExtentions.Doc:         mime_type.MimeTypes.ApplicationMsword,                                                    // Microsoft Word
+		FileExtentions.Mxf:         mime_type.MimeTypes.ApplicationMxf,                                                       // Material Exchange Format
+		FileExtentions.Bin:         mime_type.MimeTypes.ApplicationOctetStream,                                               // Binary Data
+		FileExtentions.Oda:         mime_type.MimeTypes.ApplicationOda,                                                       // Office Document Architecture
+		FileExtentions.Opf:         mime_type.MimeTypes.ApplicationOebpsPackageXml,                                           // Open eBook Publication Structure
+		FileExtentions.Ogx:         mime_type.MimeTypes.ApplicationOgg,                                                       // Ogg
+		FileExtentions.Onetoc:      mime_type.MimeTypes.ApplicationOnenote,                                                   // Microsoft OneNote
+		FileExtentions.Xer:         mime_type.MimeTypes.ApplicationPatchOpsErrorXml,                                          // XML Patch Framework
+		FileExtentions.Pdf:         mime_type.MimeTypes.ApplicationPdf,                                                       // Adobe Portable Document Format
+		FileExtentions.Pgp:         mime_type.MimeTypes.ApplicationPgpEncrypted,                                              // Pretty Good Privacy Signature
+		FileExtentions.Prf:         mime_type.MimeTypes.ApplicationPicsRules,                                                 // PICSRules
+		FileExtentions.P10:         mime_type.MimeTypes.ApplicationPkcs10,                                                    // PKCS #10 - Certification Request Standard
+		FileExtentions.P7m:         mime_type.MimeTypes.ApplicationPkcs7Mime,                                                 // PKCS #7 - Cryptographic Message Syntax Standard
+		FileExtentions.P7s:         mime_type.MimeTypes.ApplicationPkcs7Signature,                                            // PKCS #7 - Cryptographic Message Syntax Standard
+		FileExtentions.P8:          mime_type.MimeTypes.ApplicationPkcs8,                                                     // PKCS #8 - Private-Key Information Syntax Standard
+		FileExtentions.Ac:          mime_type.MimeTypes.ApplicationPkixAttrCert,                                              // Attribute Certificate
+		FileExtentions.Cer:         mime_type.MimeTypes.ApplicationPkixCert,                                                  // Internet Public Key Infrastructure - Certificate
+		FileExtentions.Crl:         mime_type.MimeTypes.ApplicationPkixCrl,                                                   // Internet Public Key Infrastructure - Certificate Revocation Lists
+		FileExtentions.Pkipath:     mime_type.MimeTypes.ApplicationPkixPkipath,                                               // Internet Public Key Infrastructure - Certification Path
+		FileExtentions.Pki:         mime_type.MimeTypes.ApplicationPkixcmp,                                                   // Internet Public Key Infrastructure - Certificate Management Protocole
+		FileExtentions.Pls:         mime_type.MimeTypes.ApplicationPlsXml,                                                    // Pronunciation Lexicon Specification
+		FileExtentions.Ai:          mime_type.MimeTypes.ApplicationPostscript,                                                // PostScript
+		FileExtentions.Cww:         mime_type.MimeTypes.ApplicationPrsCww,                                                    // CU-Writer
+		FileExtentions.Pskcxml:     mime_type.MimeTypes.ApplicationPskcXml,                                                   // Portable Symmetric Key Container
+		FileExtentions.Rdf:         mime_type.MimeTypes.ApplicationRdfXml,                                                    // Resource Description Framework
+		FileExtentions.Rif:         mime_type.MimeTypes.ApplicationReginfoXml,                                                // IMS Networks
+		FileExtentions.Rnc:         mime_type.MimeTypes.ApplicationRelaxNgCompactSyntax,                                      // Relax NG Compact Syntax
+		FileExtentions.Rl:          mime_type.MimeTypes.ApplicationResourceListsXml,                                          // XML Resource Lists
+		FileExtentions.Rld:         mime_type.MimeTypes.ApplicationResourceListsDiffXml,                                      // XML Resource Lists Diff
+		FileExtentions.Rsd:         mime_type.MimeTypes.ApplicationRsdXml,                                                    // Really Simple Discovery
+		FileExtentions.Rss:         mime_type.MimeTypes.ApplicationRssXml,                                                    // RSS - Really Simple Syndication
+		FileExtentions.Rtf:         mime_type.MimeTypes.ApplicationRtf,                                                       // Rich Text Format
+		FileExtentions.Sbml:        mime_type.MimeTypes.ApplicationSbmlXml,                                                   // Systems Biology Markup Language
+		FileExtentions.Scq:         mime_type.MimeTypes.ApplicationScvpCvRequest,                                             // Server-Based Certificate Validation Protocol - Validation Request
+		FileExtentions.Scs:         mime_type.MimeTypes.ApplicationScvpCvResponse,                                            // Server-Based Certificate Validation Protocol - Validation Response
+		FileExtentions.Spq:         mime_type.MimeTypes.ApplicationScvpVpRequest,                                             // Server-Based Certificate Validation Protocol - Validation Policies - Request
+		FileExtentions.Spp:         mime_type.MimeTypes.ApplicationScvpVpResponse,                                            // Server-Based Certificate Validation Protocol - Validation Policies - Response
+		FileExtentions.Sdp:         mime_type.MimeTypes.ApplicationSdp,                                                       // Session Description Protocol
+		FileExtentions.Setpay:      mime_type.MimeTypes.ApplicationSetPaymentInitiation,                                      // Secure Electronic Transaction - Payment
+		FileExtentions.Setreg:      mime_type.MimeTypes.ApplicationSetRegistrationInitiation,                                 // Secure Electronic Transaction - Registration
+		FileExtentions.Shf:         mime_type.MimeTypes.ApplicationShfXml,                                                    // S Hexdump Format
+		FileExtentions.Smi:         mime_type.MimeTypes.ApplicationSmilXml,                                                   // Synchronized Multimedia Integration Language
+		FileExtentions.Rq:          mime_type.MimeTypes.ApplicationSparqlQuery,                                               // SPARQL - Query
+		FileExtentions.Srx:         mime_type.MimeTypes.ApplicationSparqlResultsXml,                                          // SPARQL - Results
+		FileExtentions.Gram:        mime_type.MimeTypes.ApplicationSrgs,                                                      // Speech Recognition Grammar Specification
+		FileExtentions.Grxml:       mime_type.MimeTypes.ApplicationSrgsXml,                                                   // Speech Recognition Grammar Specification - XML
+		FileExtentions.Sru:         mime_type.MimeTypes.ApplicationSruXml,                                                    // Search/Retrieve via URL Response Format
+		FileExtentions.Ssml:        mime_type.MimeTypes.ApplicationSsmlXml,                                                   // Speech Synthesis Markup Language
+		FileExtentions.Tei:         mime_type.MimeTypes.ApplicationTeiXml,                                                    // Text Encoding and Interchange
+		FileExtentions.Tfi:         mime_type.MimeTypes.ApplicationThraudXml,                                                 // Sharing Transaction Fraud Data
+		FileExtentions.Tsd:         mime_type.MimeTypes.ApplicationTimestampedData,                                           // Time Stamped Data Envelope
+		FileExtentions.Plb:         mime_type.MimeTypes.ApplicationVnd3gppPicBwLarge,                                         // 3rd Generation Partnership Project - Pic Large
+		FileExtentions.Psb:         mime_type.MimeTypes.ApplicationVnd3gppPicBwSmall,                                         // 3rd Generation Partnership Project - Pic Small
+		FileExtentions.Pvb:         mime_type.MimeTypes.ApplicationVnd3gppPicBwVar,                                           // 3rd Generation Partnership Project - Pic Var
+		FileExtentions.Tcap:        mime_type.MimeTypes.ApplicationVnd3gpp2Tcap,                                              // 3rd Generation Partnership Project - Transaction Capabilities Application Part
+		FileExtentions.Pwn:         mime_type.MimeTypes.ApplicationVnd3mPostItNotes,                                          // 3M Post It Notes
+		FileExtentions.Aso:         mime_type.MimeTypes.ApplicationVndAccpacSimplyAso,                                        // Simply Accounting
+		FileExtentions.Imp:         mime_type.MimeTypes.ApplicationVndAccpacSimplyImp,                                        // Simply Accounting - Data Import
+		FileExtentions.Acu:         mime_type.MimeTypes.ApplicationVndAcucobol,                                               // ACU Cobol
+		FileExtentions.Atc:         mime_type.MimeTypes.ApplicationVndAcucorp,                                                // ACU Cobol
+		FileExtentions.Air:         mime_type.MimeTypes.ApplicationVndAdobeAirApplicationInstallerPackageZip,                 // Adobe AIR Application
+		FileExtentions.Fxp:         mime_type.MimeTypes.ApplicationVndAdobeFxp,                                               // Adobe Flex Project
+		FileExtentions.Xdp:         mime_type.MimeTypes.ApplicationVndAdobeXdpXml,                                            // Adobe XML Data Package
+		FileExtentions.Xfdf:        mime_type.MimeTypes.ApplicationVndAdobeXfdf,                                              // Adobe XML Forms Data Format
+		FileExtentions.Ahead:       mime_type.MimeTypes.ApplicationVndAheadSpace,                                             // Ahead AIR Application
+		FileExtentions.Azf:         mime_type.MimeTypes.ApplicationVndAirzipFilesecureAzf,                                    // AirZip FileSECURE
+		FileExtentions.Azs:         mime_type.MimeTypes.ApplicationVndAirzipFilesecureAzs,                                    // AirZip FileSECURE
+		FileExtentions.Azw:         mime_type.MimeTypes.ApplicationVndAmazonEbook,                                            // Amazon Kindle eBook format
+		FileExtentions.Acc:         mime_type.MimeTypes.ApplicationVndAmericandynamicsAcc,                                    // Active Content Compression
+		FileExtentions.Ami:         mime_type.MimeTypes.ApplicationVndAmigaAmi,                                               // AmigaDE
+		FileExtentions.Apk:         mime_type.MimeTypes.ApplicationVndAndroidPackageArchive,                                  // Android Package Archive
+		FileExtentions.Cii:         mime_type.MimeTypes.ApplicationVndAnserWebCertificateIssueInitiation,                     // ANSER-WEB Terminal Client - Certificate Issue
+		FileExtentions.Fti:         mime_type.MimeTypes.ApplicationVndAnserWebFundsTransferInitiation,                        // ANSER-WEB Terminal Client - Web Funds Transfer
+		FileExtentions.Atx:         mime_type.MimeTypes.ApplicationVndAntixGameComponent,                                     // Antix Game Player
+		FileExtentions.Mpkg:        mime_type.MimeTypes.ApplicationVndAppleInstallerXml,                                      // Apple Installer Package
+		FileExtentions.M3u8:        mime_type.MimeTypes.ApplicationVndAppleMpegurl,                                           // Multimedia Playlist Unicode
+		FileExtentions.Swi:         mime_type.MimeTypes.ApplicationVndAristanetworksSwi,                                      // Arista Networks Software Image
+		FileExtentions.Aep:         mime_type.MimeTypes.ApplicationVndAudiograph,                                             // Audiograph
+		FileExtentions.Mpm:         mime_type.MimeTypes.ApplicationVndBlueiceMultipass,                                       // Blueice Research Multipass
+		FileExtentions.Bmi:         mime_type.MimeTypes.ApplicationVndBmi,                                                    // BMI Drawing Data Interchange
+		FileExtentions.Rep:         mime_type.MimeTypes.ApplicationVndBusinessobjects,                                        // BusinessObjects
+		FileExtentions.Mmd:         mime_type.MimeTypes.ApplicationVndChipnutsKaraokeMmd,                                     // Karaoke on Chipnuts Chipsets
+		FileExtentions.Cdy:         mime_type.MimeTypes.ApplicationVndCinderella,                                             // Interactive Geometry Software Cinderella
+		FileExtentions.Cla:         mime_type.MimeTypes.ApplicationVndClaymore,                                               // Claymore Data Files
+		FileExtentions.Rp9:         mime_type.MimeTypes.ApplicationVndCloantoRp9,                                             // RetroPlatform Player
+		FileExtentions.C4g:         mime_type.MimeTypes.ApplicationVndClonkC4group,                                           // Clonk Game
+		FileExtentions.C11amc:      mime_type.MimeTypes.ApplicationVndCluetrustCartomobileConfig,                             // ClueTrust CartoMobile - Config
+		FileExtentions.C11amz:      mime_type.MimeTypes.ApplicationVndCluetrustCartomobileConfigPkg,                          // ClueTrust CartoMobile - Config Package
+		FileExtentions.Csp:         mime_type.MimeTypes.ApplicationVndCommonspace,                                            // Sixth Floor Media - CommonSpace
+		FileExtentions.Cdbcmsg:     mime_type.MimeTypes.ApplicationVndContactCmsg,                                            // CIM Database
+		FileExtentions.Cmc:         mime_type.MimeTypes.ApplicationVndCosmocaller,                                            // CosmoCaller
+		FileExtentions.Clkx:        mime_type.MimeTypes.ApplicationVndCrickClicker,                                           // CrickSoftware - Clicker
+		FileExtentions.Clkk:        mime_type.MimeTypes.ApplicationVndCrickClickerKeyboard,                                   // CrickSoftware - Clicker - Keyboard
+		FileExtentions.Clkp:        mime_type.MimeTypes.ApplicationVndCrickClickerPalette,                                    // CrickSoftware - Clicker - Palette
+		FileExtentions.Clkt:        mime_type.MimeTypes.ApplicationVndCrickClickerTemplate,                                   // CrickSoftware - Clicker - Template
+		FileExtentions.Clkw:        mime_type.MimeTypes.ApplicationVndCrickClickerWordbank,                                   // CrickSoftware - Clicker - Wordbank
+		FileExtentions.Wbs:         mime_type.MimeTypes.ApplicationVndCriticaltoolsWbsXml,                                    // Critical Tools - PERT Chart EXPERT
+		FileExtentions.Pml:         mime_type.MimeTypes.ApplicationVndCtcPosml,                                               // PosML
+		FileExtentions.Ppd:         mime_type.MimeTypes.ApplicationVndCupsPpd,                                                // Adobe PostScript Printer Description File Format
+		FileExtentions.Car:         mime_type.MimeTypes.ApplicationVndCurlCar,                                                // CURL Applet
+		FileExtentions.Pcurl:       mime_type.MimeTypes.ApplicationVndCurlPcurl,                                              // CURL Applet
+		FileExtentions.Rdz:         mime_type.MimeTypes.ApplicationVndDataVisionRdz,                                          // RemoteDocs R-Viewer
+		FileExtentions.Felaunch:    mime_type.MimeTypes.ApplicationVndDenovoFcselayoutLink,                                   // FCS Express Layout Link
+		FileExtentions.Dna:         mime_type.MimeTypes.ApplicationVndDna,                                                    // New Moon Liftoff/DNA
+		FileExtentions.Mlp:         mime_type.MimeTypes.ApplicationVndDolbyMlp,                                               // Dolby Meridian Lossless Packing
+		FileExtentions.Dpg:         mime_type.MimeTypes.ApplicationVndDpgraph,                                                // DPGraph
+		FileExtentions.Dfac:        mime_type.MimeTypes.ApplicationVndDreamfactory,                                           // DreamFactory
+		FileExtentions.Ait:         mime_type.MimeTypes.ApplicationVndDvbAit,                                                 // Digital Video Broadcasting
+		FileExtentions.Svc:         mime_type.MimeTypes.ApplicationVndDvbService,                                             // Digital Video Broadcasting
+		FileExtentions.Geo:         mime_type.MimeTypes.ApplicationVndDynageo,                                                // DynaGeo
+		FileExtentions.Mag:         mime_type.MimeTypes.ApplicationVndEcowinChart,                                            // EcoWin Chart
+		FileExtentions.Nml:         mime_type.MimeTypes.ApplicationVndEnliven,                                                // Enliven Viewer
+		FileExtentions.Esf:         mime_type.MimeTypes.ApplicationVndEpsonEsf,                                               // QUASS Stream Player
+		FileExtentions.Msf:         mime_type.MimeTypes.ApplicationVndEpsonMsf,                                               // QUASS Stream Player
+		FileExtentions.Qam:         mime_type.MimeTypes.ApplicationVndEpsonQuickanime,                                        // QuickAnime Player
+		FileExtentions.Slt:         mime_type.MimeTypes.ApplicationVndEpsonSalt,                                              // SimpleAnimeLite Player
+		FileExtentions.Ssf:         mime_type.MimeTypes.ApplicationVndEpsonSsf,                                               // QUASS Stream Player
+		FileExtentions.Es3:         mime_type.MimeTypes.ApplicationVndEszigno3Xml,                                            // MICROSEC e-Szignï¿½
+		FileExtentions.Ez2:         mime_type.MimeTypes.ApplicationVndEzpixAlbum,                                             // EZPix Secure Photo Album
+		FileExtentions.Ez3:         mime_type.MimeTypes.ApplicationVndEzpixPackage,                                           // EZPix Secure Photo Album
+		FileExtentions.Fdf:         mime_type.MimeTypes.ApplicationVndFdf,                                                    // Forms Data Format
+		FileExtentions.Seed:        mime_type.MimeTypes.ApplicationVndFdsnSeed,                                               // Digital Siesmograph Networks - SEED Datafiles
+		FileExtentions.Gph:         mime_type.MimeTypes.ApplicationVndFlographit,                                             // NpGraphIt
+		FileExtentions.Ftc:         mime_type.MimeTypes.ApplicationVndFluxtimeClip,                                           // FluxTime Clip
+		FileExtentions.Fm:          mime_type.MimeTypes.ApplicationVndFramemaker,                                             // FrameMaker Normal Format
+		FileExtentions.Fnc:         mime_type.MimeTypes.ApplicationVndFrogansFnc,                                             // Frogans Player
+		FileExtentions.Ltf:         mime_type.MimeTypes.ApplicationVndFrogansLtf,                                             // Frogans Player
+		FileExtentions.Fsc:         mime_type.MimeTypes.ApplicationVndFscWeblaunch,                                           // Friendly Software Corporation
+		FileExtentions.Oas:         mime_type.MimeTypes.ApplicationVndFujitsuOasys,                                           // Fujitsu Oasys
+		FileExtentions.Oa2:         mime_type.MimeTypes.ApplicationVndFujitsuOasys2,                                          // Fujitsu Oasys
+		FileExtentions.Oa3:         mime_type.MimeTypes.ApplicationVndFujitsuOasys3,                                          // Fujitsu Oasys
+		FileExtentions.Fg5:         mime_type.MimeTypes.ApplicationVndFujitsuOasysgp,                                         // Fujitsu Oasys
+		FileExtentions.Bh2:         mime_type.MimeTypes.ApplicationVndFujitsuOasysprs,                                        // Fujitsu Oasys
+		FileExtentions.Ddd:         mime_type.MimeTypes.ApplicationVndFujixeroxDdd,                                           // Fujitsu - Xerox 2D CAD Data
+		FileExtentions.Xdw:         mime_type.MimeTypes.ApplicationVndFujixeroxDocuworks,                                     // Fujitsu - Xerox DocuWorks
+		FileExtentions.Xbd:         mime_type.MimeTypes.ApplicationVndFujixeroxDocuworksBinder,                               // Fujitsu - Xerox DocuWorks Binder
+		FileExtentions.Fzs:         mime_type.MimeTypes.ApplicationVndFuzzysheet,                                             // FuzzySheet
+		FileExtentions.Txd:         mime_type.MimeTypes.ApplicationVndGenomatixTuxedo,                                        // Genomatix Tuxedo Framework
+		FileExtentions.Ggb:         mime_type.MimeTypes.ApplicationVndGeogebraFile,                                           // GeoGebra
+		FileExtentions.Ggt:         mime_type.MimeTypes.ApplicationVndGeogebraTool,                                           // GeoGebra
+		FileExtentions.Gex:         mime_type.MimeTypes.ApplicationVndGeometryExplorer,                                       // GeoMetry Explorer
+		FileExtentions.Gxt:         mime_type.MimeTypes.ApplicationVndGeonext,                                                // GEONExT and JSXGraph
+		FileExtentions.G2w:         mime_type.MimeTypes.ApplicationVndGeoplan,                                                // GeoplanW
+		FileExtentions.G3w:         mime_type.MimeTypes.ApplicationVndGeospace,                                               // GeospacW
+		FileExtentions.Gmx:         mime_type.MimeTypes.ApplicationVndGmx,                                                    // GameMaker ActiveX
+		FileExtentions.Kml:         mime_type.MimeTypes.ApplicationVndGoogleEarthKmlXml,                                      // Google Earth - KML
+		FileExtentions.Kmz:         mime_type.MimeTypes.ApplicationVndGoogleEarthKmz,                                         // Google Earth - Zipped KML
+		FileExtentions.Gqf:         mime_type.MimeTypes.ApplicationVndGrafeq,                                                 // GrafEq
+		FileExtentions.Gac:         mime_type.MimeTypes.ApplicationVndGrooveAccount,                                          // Groove - Account
+		FileExtentions.Ghf:         mime_type.MimeTypes.ApplicationVndGrooveHelp,                                             // Groove - Help
+		FileExtentions.Gim:         mime_type.MimeTypes.ApplicationVndGrooveIdentityMessage,                                  // Groove - Identity Message
+		FileExtentions.Grv:         mime_type.MimeTypes.ApplicationVndGrooveInjector,                                         // Groove - Injector
+		FileExtentions.Gtm:         mime_type.MimeTypes.ApplicationVndGrooveToolMessage,                                      // Groove - Tool Message
+		FileExtentions.Tpl:         mime_type.MimeTypes.ApplicationVndGrooveToolTemplate,                                     // Groove - Tool Template
+		FileExtentions.Vcg:         mime_type.MimeTypes.ApplicationVndGrooveVcard,                                            // Groove - Vcard
+		FileExtentions.Hal:         mime_type.MimeTypes.ApplicationVndHalXml,                                                 // Hypertext Application Language
+		FileExtentions.Zmm:         mime_type.MimeTypes.ApplicationVndHandheldEntertainmentXml,                               // ZVUE Media Manager
+		FileExtentions.Hbci:        mime_type.MimeTypes.ApplicationVndHbci,                                                   // Homebanking Computer Interface (HBCI)
+		FileExtentions.Les:         mime_type.MimeTypes.ApplicationVndHheLessonPlayer,                                        // Archipelago Lesson Player
+		FileExtentions.Hpgl:        mime_type.MimeTypes.ApplicationVndHpHpgl,                                                 // HP-GL/2 and HP RTL
+		FileExtentions.Hpid:        mime_type.MimeTypes.ApplicationVndHpHpid,                                                 // Hewlett Packard Instant Delivery
+		FileExtentions.Hps:         mime_type.MimeTypes.ApplicationVndHpHps,                                                  // Hewlett-Packard's WebPrintSmart
+		FileExtentions.Jlt:         mime_type.MimeTypes.ApplicationVndHpJlyt,                                                 // HP Indigo Digital Press - Job Layout Languate
+		FileExtentions.Pcl:         mime_type.MimeTypes.ApplicationVndHpPcl,                                                  // HP Printer Command Language
+		FileExtentions.Pclxl:       mime_type.MimeTypes.ApplicationVndHpPclxl,                                                // PCL 6 Enhanced (Formely PCL XL)
+		FileExtentions.SfdHdstx:    mime_type.MimeTypes.ApplicationVndHydrostatixSofData,                                     // Hydrostatix Master Suite
+		FileExtentions.X3d:         mime_type.MimeTypes.ApplicationVndHzn3dCrossword,                                         // 3D Crossword Plugin
+		FileExtentions.Mpy:         mime_type.MimeTypes.ApplicationVndIbmMinipay,                                             // MiniPay
+		FileExtentions.Afp:         mime_type.MimeTypes.ApplicationVndIbmModcap,                                              // MO:DCA-P
+		FileExtentions.Irm:         mime_type.MimeTypes.ApplicationVndIbmRightsManagement,                                    // IBM DB2 Rights Manager
+		FileExtentions.Icc:         mime_type.MimeTypes.ApplicationVndIccprofile,                                             // ICC profile
+		FileExtentions.Igl:         mime_type.MimeTypes.ApplicationVndIgloader,                                               // igLoader
+		FileExtentions.Ivp:         mime_type.MimeTypes.ApplicationVndImmervisionIvp,                                         // ImmerVision PURE Players
+		FileExtentions.Ivu:         mime_type.MimeTypes.ApplicationVndImmervisionIvu,                                         // ImmerVision PURE Players
+		FileExtentions.Igm:         mime_type.MimeTypes.ApplicationVndInsorsIgm,                                              // IOCOM Visimeet
+		FileExtentions.Xpw:         mime_type.MimeTypes.ApplicationVndInterconFormnet,                                        // Intercon FormNet
+		FileExtentions.I2g:         mime_type.MimeTypes.ApplicationVndIntergeo,                                               // Interactive Geometry Software
+		FileExtentions.Qbo:         mime_type.MimeTypes.ApplicationVndIntuQbo,                                                // Open Financial Exchange
+		FileExtentions.Qfx:         mime_type.MimeTypes.ApplicationVndIntuQfx,                                                // Quicken
+		FileExtentions.Rcprofile:   mime_type.MimeTypes.ApplicationVndIpunpluggedRcprofile,                                   // IP Unplugged Roaming Client
+		FileExtentions.Irp:         mime_type.MimeTypes.ApplicationVndIrepositoryPackageXml,                                  // iRepository / Lucidoc Editor
+		FileExtentions.Xpr:         mime_type.MimeTypes.ApplicationVndIsXpr,                                                  // Express by Infoseek
+		FileExtentions.Fcs:         mime_type.MimeTypes.ApplicationVndIsacFcs,                                                // International Society for Advancement of Cytometry
+		FileExtentions.Jam:         mime_type.MimeTypes.ApplicationVndJam,                                                    // Lightspeed Audio Lab
+		FileExtentions.Rms:         mime_type.MimeTypes.ApplicationVndJcpJavameMidletRms,                                     // Mobile Information Device Profile
+		FileExtentions.Jisp:        mime_type.MimeTypes.ApplicationVndJisp,                                                   // RhymBox
+		FileExtentions.Joda:        mime_type.MimeTypes.ApplicationVndJoostJodaArchive,                                       // Joda Archive
+		FileExtentions.Ktz:         mime_type.MimeTypes.ApplicationVndKahootz,                                                // Kahootz
+		FileExtentions.Karbon:      mime_type.MimeTypes.ApplicationVndKdeKarbon,                                              // KDE KOffice Office Suite - Karbon
+		FileExtentions.Chrt:        mime_type.MimeTypes.ApplicationVndKdeKchart,                                              // KDE KOffice Office Suite - KChart
+		FileExtentions.Kfo:         mime_type.MimeTypes.ApplicationVndKdeKformula,                                            // KDE KOffice Office Suite - Kformula
+		FileExtentions.Flw:         mime_type.MimeTypes.ApplicationVndKdeKivio,                                               // KDE KOffice Office Suite - Kivio
+		FileExtentions.Kon:         mime_type.MimeTypes.ApplicationVndKdeKontour,                                             // KDE KOffice Office Suite - Kontour
+		FileExtentions.Kpr:         mime_type.MimeTypes.ApplicationVndKdeKpresenter,                                          // KDE KOffice Office Suite - Kpresenter
+		FileExtentions.Ksp:         mime_type.MimeTypes.ApplicationVndKdeKspread,                                             // KDE KOffice Office Suite - Kspread
+		FileExtentions.Kwd:         mime_type.MimeTypes.ApplicationVndKdeKword,                                               // KDE KOffice Office Suite - Kword
+		FileExtentions.Htke:        mime_type.MimeTypes.ApplicationVndKenameaapp,                                             // Kenamea App
+		FileExtentions.Kia:         mime_type.MimeTypes.ApplicationVndKidspiration,                                           // Kidspiration
+		FileExtentions.Kne:         mime_type.MimeTypes.ApplicationVndKinar,                                                  // Kinar Applications
+		FileExtentions.Skp:         mime_type.MimeTypes.ApplicationVndKoan,                                                   // SSEYO Koan Play File
+		FileExtentions.Sse:         mime_type.MimeTypes.ApplicationVndKodakDescriptor,                                        // Kodak Storyshare
+		FileExtentions.Lasxml:      mime_type.MimeTypes.ApplicationVndLasLasXml,                                              // Laser App Enterprise
+		FileExtentions.Lbd:         mime_type.MimeTypes.ApplicationVndLlamagraphicsLifeBalanceDesktop,                        // Life Balance - Desktop Edition
+		FileExtentions.Lbe:         mime_type.MimeTypes.ApplicationVndLlamagraphicsLifeBalanceExchangeXml,                    // Life Balance - Exchange Format
+		FileExtentions._123:        mime_type.MimeTypes.ApplicationVndLotus123,                                               // Lotus 1-2-3
+		FileExtentions.Apr:         mime_type.MimeTypes.ApplicationVndLotusApproach,                                          // Lotus Approach
+		FileExtentions.Pre:         mime_type.MimeTypes.ApplicationVndLotusFreelance,                                         // Lotus Freelance
+		FileExtentions.Nsf:         mime_type.MimeTypes.ApplicationVndLotusNotes,                                             // Lotus Notes
+		FileExtentions.Org:         mime_type.MimeTypes.ApplicationVndLotusOrganizer,                                         // Lotus Organizer
+		FileExtentions.Lwp:         mime_type.MimeTypes.ApplicationVndLotusWordpro,                                           // Lotus Wordpro
+		FileExtentions.Portpkg:     mime_type.MimeTypes.ApplicationVndMacportsPortpkg,                                        // MacPorts Port System
+		FileExtentions.Mcd:         mime_type.MimeTypes.ApplicationVndMcd,                                                    // Micro CADAM Helix D&D
+		FileExtentions.Mc1:         mime_type.MimeTypes.ApplicationVndMedcalcdata,                                            // MedCalc
+		FileExtentions.Cdkey:       mime_type.MimeTypes.ApplicationVndMediastationCdkey,                                      // MediaRemote
+		FileExtentions.Mwf:         mime_type.MimeTypes.ApplicationVndMfer,                                                   // Medical Waveform Encoding Format
+		FileExtentions.Mfm:         mime_type.MimeTypes.ApplicationVndMfmp,                                                   // Melody Format for Mobile Platform
+		FileExtentions.Flo:         mime_type.MimeTypes.ApplicationVndMicrografxFlo,                                          // Micrografx
+		FileExtentions.Igx:         mime_type.MimeTypes.ApplicationVndMicrografxIgx,                                          // Micrografx iGrafx Professional
+		FileExtentions.Mif:         mime_type.MimeTypes.ApplicationVndMif,                                                    // FrameMaker Interchange Format
+		FileExtentions.Daf:         mime_type.MimeTypes.ApplicationVndMobiusDaf,                                              // Mobius Management Systems - UniversalArchive
+		FileExtentions.Dis:         mime_type.MimeTypes.ApplicationVndMobiusDis,                                              // Mobius Management Systems - Distribution Database
+		FileExtentions.Mbk:         mime_type.MimeTypes.ApplicationVndMobiusMbk,                                              // Mobius Management Systems - Basket file
+		FileExtentions.Mqy:         mime_type.MimeTypes.ApplicationVndMobiusMqy,                                              // Mobius Management Systems - Query File
+		FileExtentions.Msl:         mime_type.MimeTypes.ApplicationVndMobiusMsl,                                              // Mobius Management Systems - Script Language
+		FileExtentions.Plc:         mime_type.MimeTypes.ApplicationVndMobiusPlc,                                              // Mobius Management Systems - Policy Definition Language File
+		FileExtentions.Txf:         mime_type.MimeTypes.ApplicationVndMobiusTxf,                                              // Mobius Management Systems - Topic Index File
+		FileExtentions.Mpn:         mime_type.MimeTypes.ApplicationVndMophunApplication,                                      // Mophun VM
+		FileExtentions.Mpc:         mime_type.MimeTypes.ApplicationVndMophunCertificate,                                      // Mophun Certificate
+		FileExtentions.Xul:         mime_type.MimeTypes.ApplicationVndMozillaXulXml,                                          // XUL - XML User Interface Language
+		FileExtentions.Cil:         mime_type.MimeTypes.ApplicationVndMsArtgalry,                                             // Microsoft Artgalry
+		FileExtentions.Cab:         mime_type.MimeTypes.ApplicationVndMsCabCompressed,                                        // Microsoft Cabinet File
+		FileExtentions.Xls:         mime_type.MimeTypes.ApplicationVndMsExcel,                                                // Microsoft Excel
+		FileExtentions.Xlam:        mime_type.MimeTypes.ApplicationVndMsExcelAddinMacroenabled12,                             // Microsoft Excel - Add-In File
+		FileExtentions.Xlsb:        mime_type.MimeTypes.ApplicationVndMsExcelSheetBinaryMacroenabled12,                       // Microsoft Excel - Binary Workbook
+		FileExtentions.Xlsm:        mime_type.MimeTypes.ApplicationVndMsExcelSheetMacroenabled12,                             // Microsoft Excel - Macro-Enabled Workbook
+		FileExtentions.Xltm:        mime_type.MimeTypes.ApplicationVndMsExcelTemplateMacroenabled12,                          // Microsoft Excel - Macro-Enabled Template File
+		FileExtentions.Eot:         mime_type.MimeTypes.ApplicationVndMsFontobject,                                           // Microsoft Embedded OpenType
+		FileExtentions.Chm:         mime_type.MimeTypes.ApplicationVndMsHtmlhelp,                                             // Microsoft Html Help File
+		FileExtentions.Ims:         mime_type.MimeTypes.ApplicationVndMsIms,                                                  // Microsoft Class Server
+		FileExtentions.Lrm:         mime_type.MimeTypes.ApplicationVndMsLrm,                                                  // Microsoft Learning Resource Module
+		FileExtentions.Thmx:        mime_type.MimeTypes.ApplicationVndMsOfficetheme,                                          // Microsoft Office System Release Theme
+		FileExtentions.Cat:         mime_type.MimeTypes.ApplicationVndMsPkiSeccat,                                            // Microsoft Trust UI Provider - Security Catalog
+		FileExtentions.Stl:         mime_type.MimeTypes.ApplicationVndMsPkiStl,                                               // Microsoft Trust UI Provider - Certificate Trust Link
+		FileExtentions.Ppt:         mime_type.MimeTypes.ApplicationVndMsPowerpoint,                                           // Microsoft PowerPoint
+		FileExtentions.Ppam:        mime_type.MimeTypes.ApplicationVndMsPowerpointAddinMacroenabled12,                        // Microsoft PowerPoint - Add-in file
+		FileExtentions.Pptm:        mime_type.MimeTypes.ApplicationVndMsPowerpointPresentationMacroenabled12,                 // Microsoft PowerPoint - Macro-Enabled Presentation File
+		FileExtentions.Sldm:        mime_type.MimeTypes.ApplicationVndMsPowerpointSlideMacroenabled12,                        // Microsoft PowerPoint - Macro-Enabled Open XML Slide
+		FileExtentions.Ppsm:        mime_type.MimeTypes.ApplicationVndMsPowerpointSlideshowMacroenabled12,                    // Microsoft PowerPoint - Macro-Enabled Slide Show File
+		FileExtentions.Potm:        mime_type.MimeTypes.ApplicationVndMsPowerpointTemplateMacroenabled12,                     // Microsoft PowerPoint - Macro-Enabled Template File
+		FileExtentions.Mpp:         mime_type.MimeTypes.ApplicationVndMsProject,                                              // Microsoft Project
+		FileExtentions.Docm:        mime_type.MimeTypes.ApplicationVndMsWordDocumentMacroenabled12,                           // Microsoft Word - Macro-Enabled Document
+		FileExtentions.Dotm:        mime_type.MimeTypes.ApplicationVndMsWordTemplateMacroenabled12,                           // Microsoft Word - Macro-Enabled Template
+		FileExtentions.Wps:         mime_type.MimeTypes.ApplicationVndMsWorks,                                                // Microsoft Works
+		FileExtentions.Wpl:         mime_type.MimeTypes.ApplicationVndMsWpl,                                                  // Microsoft Windows Media Player Playlist
+		FileExtentions.Xps:         mime_type.MimeTypes.ApplicationVndMsXpsdocument,                                          // Microsoft XML Paper Specification
+		FileExtentions.Mseq:        mime_type.MimeTypes.ApplicationVndMseq,                                                   // 3GPP MSEQ File
+		FileExtentions.Mus:         mime_type.MimeTypes.ApplicationVndMusician,                                               // MUsical Score Interpreted Code Invented for the ASCII designation of Notation
+		FileExtentions.Msty:        mime_type.MimeTypes.ApplicationVndMuveeStyle,                                             // Muvee Automatic Video Editing
+		FileExtentions.Nlu:         mime_type.MimeTypes.ApplicationVndNeurolanguageNlu,                                       // neuroLanguage
+		FileExtentions.Nnd:         mime_type.MimeTypes.ApplicationVndNoblenetDirectory,                                      // NobleNet Directory
+		FileExtentions.Nns:         mime_type.MimeTypes.ApplicationVndNoblenetSealer,                                         // NobleNet Sealer
+		FileExtentions.Nnw:         mime_type.MimeTypes.ApplicationVndNoblenetWeb,                                            // NobleNet Web
+		FileExtentions.Ngdat:       mime_type.MimeTypes.ApplicationVndNokiaNGageData,                                         // N-Gage Game Data
+		FileExtentions.NGage:       mime_type.MimeTypes.ApplicationVndNokiaNGageSymbianInstall,                               // N-Gage Game Installer
+		FileExtentions.Rpst:        mime_type.MimeTypes.ApplicationVndNokiaRadioPreset,                                       // Nokia Radio Application - Preset
+		FileExtentions.Rpss:        mime_type.MimeTypes.ApplicationVndNokiaRadioPresets,                                      // Nokia Radio Application - Preset
+		FileExtentions.Edm:         mime_type.MimeTypes.ApplicationVndNovadigmEdm,                                            // Novadigm's RADIA and EDM products
+		FileExtentions.Edx:         mime_type.MimeTypes.ApplicationVndNovadigmEdx,                                            // Novadigm's RADIA and EDM products
+		FileExtentions.Ext:         mime_type.MimeTypes.ApplicationVndNovadigmExt,                                            // Novadigm's RADIA and EDM products
+		FileExtentions.Odc:         mime_type.MimeTypes.ApplicationVndOasisOpendocumentChart,                                 // OpenDocument Chart
+		FileExtentions.Otc:         mime_type.MimeTypes.ApplicationVndOasisOpendocumentChartTemplate,                         // OpenDocument Chart Template
+		FileExtentions.Odb:         mime_type.MimeTypes.ApplicationVndOasisOpendocumentDatabase,                              // OpenDocument Database
+		FileExtentions.Odf:         mime_type.MimeTypes.ApplicationVndOasisOpendocumentFormula,                               // OpenDocument Formula
+		FileExtentions.Odft:        mime_type.MimeTypes.ApplicationVndOasisOpendocumentFormulaTemplate,                       // OpenDocument Formula Template
+		FileExtentions.Odg:         mime_type.MimeTypes.ApplicationVndOasisOpendocumentGraphics,                              // OpenDocument Graphics
+		FileExtentions.Otg:         mime_type.MimeTypes.ApplicationVndOasisOpendocumentGraphicsTemplate,                      // OpenDocument Graphics Template
+		FileExtentions.Odi:         mime_type.MimeTypes.ApplicationVndOasisOpendocumentImage,                                 // OpenDocument Image
+		FileExtentions.Oti:         mime_type.MimeTypes.ApplicationVndOasisOpendocumentImageTemplate,                         // OpenDocument Image Template
+		FileExtentions.Odp:         mime_type.MimeTypes.ApplicationVndOasisOpendocumentPresentation,                          // OpenDocument Presentation
+		FileExtentions.Otp:         mime_type.MimeTypes.ApplicationVndOasisOpendocumentPresentationTemplate,                  // OpenDocument Presentation Template
+		FileExtentions.Ods:         mime_type.MimeTypes.ApplicationVndOasisOpendocumentSpreadsheet,                           // OpenDocument Spreadsheet
+		FileExtentions.Ots:         mime_type.MimeTypes.ApplicationVndOasisOpendocumentSpreadsheetTemplate,                   // OpenDocument Spreadsheet Template
+		FileExtentions.Odt:         mime_type.MimeTypes.ApplicationVndOasisOpendocumentText,                                  // OpenDocument Text
+		FileExtentions.Odm:         mime_type.MimeTypes.ApplicationVndOasisOpendocumentTextMaster,                            // OpenDocument Text Master
+		FileExtentions.Ott:         mime_type.MimeTypes.ApplicationVndOasisOpendocumentTextTemplate,                          // OpenDocument Text Template
+		FileExtentions.Oth:         mime_type.MimeTypes.ApplicationVndOasisOpendocumentTextWeb,                               // Open Document Text Web
+		FileExtentions.Xo:          mime_type.MimeTypes.ApplicationVndOlpcSugar,                                              // Sugar Linux Application Bundle
+		FileExtentions.Dd2:         mime_type.MimeTypes.ApplicationVndOmaDd2Xml,                                              // OMA Download Agents
+		FileExtentions.Oxt:         mime_type.MimeTypes.ApplicationVndOpenofficeorgExtension,                                 // Open Office Extension
+		FileExtentions.Pptx:        mime_type.MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlPresentation, // Microsoft Office - OOXML - Presentation
+		FileExtentions.Sldx:        mime_type.MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlide,        // Microsoft Office - OOXML - Presentation (Slide)
+		FileExtentions.Ppsx:        mime_type.MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlideshow,    // Microsoft Office - OOXML - Presentation (Slideshow)
+		FileExtentions.Potx:        mime_type.MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlTemplate,     // Microsoft Office - OOXML - Presentation Template
+		FileExtentions.Xlsx:        mime_type.MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlSheet,         // Microsoft Office - OOXML - Spreadsheet
+		FileExtentions.Xltx:        mime_type.MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlTemplate,      // Microsoft Office - OOXML - Spreadsheet Template
+		FileExtentions.Docx:        mime_type.MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlDocument,   // Microsoft Office - OOXML - Word Document
+		FileExtentions.Dotx:        mime_type.MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlTemplate,   // Microsoft Office - OOXML - Word Document Template
+		FileExtentions.Mgp:         mime_type.MimeTypes.ApplicationVndOsgeoMapguidePackage,                                   // MapGuide DBXML
+		FileExtentions.Dp:          mime_type.MimeTypes.ApplicationVndOsgiDp,                                                 // OSGi Deployment Package
+		FileExtentions.Pdb:         mime_type.MimeTypes.ApplicationVndPalm,                                                   // PalmOS Data
+		FileExtentions.Paw:         mime_type.MimeTypes.ApplicationVndPawaafile,                                              // PawaaFILE
+		FileExtentions.Str:         mime_type.MimeTypes.ApplicationVndPgFormat,                                               // Proprietary P&G Standard Reporting System
+		FileExtentions.Ei6:         mime_type.MimeTypes.ApplicationVndPgOsasli,                                               // Proprietary P&G Standard Reporting System
+		FileExtentions.Efif:        mime_type.MimeTypes.ApplicationVndPicsel,                                                 // Pcsel eFIF File
+		FileExtentions.Wg:          mime_type.MimeTypes.ApplicationVndPmiWidget,                                              // Qualcomm's Plaza Mobile Internet
+		FileExtentions.Plf:         mime_type.MimeTypes.ApplicationVndPocketlearn,                                            // PocketLearn Viewers
+		FileExtentions.Pbd:         mime_type.MimeTypes.ApplicationVndPowerbuilder6,                                          // PowerBuilder
+		FileExtentions.Box:         mime_type.MimeTypes.ApplicationVndPreviewsystemsBox,                                      // Preview Systems ZipLock/VBox
+		FileExtentions.Mgz:         mime_type.MimeTypes.ApplicationVndProteusMagazine,                                        // EFI Proteus
+		FileExtentions.Qps:         mime_type.MimeTypes.ApplicationVndPublishareDeltaTree,                                    // PubliShare Objects
+		FileExtentions.Ptid:        mime_type.MimeTypes.ApplicationVndPviPtid1,                                               // Princeton Video Image
+		FileExtentions.Qxd:         mime_type.MimeTypes.ApplicationVndQuarkQuarkxpress,                                       // QuarkXpress
+		FileExtentions.Rar:         mime_type.MimeTypes.ApplicationVndRar,                                                    // RAR Archive
+		FileExtentions.Bed:         mime_type.MimeTypes.ApplicationVndRealvncBed,                                             // RealVNC
+		FileExtentions.Mxl:         mime_type.MimeTypes.ApplicationVndRecordareMusicxml,                                      // Recordare Applications
+		FileExtentions.Musicxml:    mime_type.MimeTypes.ApplicationVndRecordareMusicxmlXml,                                   // Recordare Applications
+		FileExtentions.Cryptonote:  mime_type.MimeTypes.ApplicationVndRigCryptonote,                                          // CryptoNote
+		FileExtentions.Cod:         mime_type.MimeTypes.ApplicationVndRimCod,                                                 // Blackberry COD File
+		FileExtentions.Rm:          mime_type.MimeTypes.ApplicationVndRnRealmedia,                                            // RealMedia
+		FileExtentions.Link66:      mime_type.MimeTypes.ApplicationVndRoute66Link66Xml,                                       // ROUTE 66 Location Based Services
+		FileExtentions.St:          mime_type.MimeTypes.ApplicationVndSailingtrackerTrack,                                    // SailingTracker
+		FileExtentions.See:         mime_type.MimeTypes.ApplicationVndSeemail,                                                // SeeMail
+		FileExtentions.Sema:        mime_type.MimeTypes.ApplicationVndSema,                                                   // Secured eMail
+		FileExtentions.Semd:        mime_type.MimeTypes.ApplicationVndSemd,                                                   // Secured eMail
+		FileExtentions.Semf:        mime_type.MimeTypes.ApplicationVndSemf,                                                   // Secured eMail
+		FileExtentions.Ifm:         mime_type.MimeTypes.ApplicationVndShanaInformedFormdata,                                  // Shana Informed Filler
+		FileExtentions.Itp:         mime_type.MimeTypes.ApplicationVndShanaInformedFormtemplate,                              // Shana Informed Filler
+		FileExtentions.Iif:         mime_type.MimeTypes.ApplicationVndShanaInformedInterchange,                               // Shana Informed Filler
+		FileExtentions.Ipk:         mime_type.MimeTypes.ApplicationVndShanaInformedPackage,                                   // Shana Informed Filler
+		FileExtentions.Twd:         mime_type.MimeTypes.ApplicationVndSimtechMindmapper,                                      // SimTech MindMapper
+		FileExtentions.Mmf:         mime_type.MimeTypes.ApplicationVndSmaf,                                                   // SMAF File
+		FileExtentions.Teacher:     mime_type.MimeTypes.ApplicationVndSmartTeacher,                                           // SMART Technologies Apps
+		FileExtentions.Sdkm:        mime_type.MimeTypes.ApplicationVndSolentSdkmXml,                                          // SudokuMagic
+		FileExtentions.Dxp:         mime_type.MimeTypes.ApplicationVndSpotfireDxp,                                            // TIBCO Spotfire
+		FileExtentions.Sfs:         mime_type.MimeTypes.ApplicationVndSpotfireSfs,                                            // TIBCO Spotfire
+		FileExtentions.Sdc:         mime_type.MimeTypes.ApplicationVndStardivisionCalc,                                       // StarOffice - Calc
+		FileExtentions.Sda:         mime_type.MimeTypes.ApplicationVndStardivisionDraw,                                       // StarOffice - Draw
+		FileExtentions.Sdd:         mime_type.MimeTypes.ApplicationVndStardivisionImpress,                                    // StarOffice - Impress
+		FileExtentions.Smf:         mime_type.MimeTypes.ApplicationVndStardivisionMath,                                       // StarOffice - Math
+		FileExtentions.Sdw:         mime_type.MimeTypes.ApplicationVndStardivisionWriter,                                     // StarOffice - Writer
+		FileExtentions.Sgl:         mime_type.MimeTypes.ApplicationVndStardivisionWriterGlobal,                               // StarOffice - Writer (Global)
+		FileExtentions.Sm:          mime_type.MimeTypes.ApplicationVndStepmaniaStepchart,                                     // StepMania
+		FileExtentions.Sxc:         mime_type.MimeTypes.ApplicationVndSunXmlCalc,                                             // OpenOffice - Calc (Spreadsheet)
+		FileExtentions.Stc:         mime_type.MimeTypes.ApplicationVndSunXmlCalcTemplate,                                     // OpenOffice - Calc Template (Spreadsheet)
+		FileExtentions.Sxd:         mime_type.MimeTypes.ApplicationVndSunXmlDraw,                                             // OpenOffice - Draw (Graphics)
+		FileExtentions.Std:         mime_type.MimeTypes.ApplicationVndSunXmlDrawTemplate,                                     // OpenOffice - Draw Template (Graphics)
+		FileExtentions.Sxi:         mime_type.MimeTypes.ApplicationVndSunXmlImpress,                                          // OpenOffice - Impress (Presentation)
+		FileExtentions.Sti:         mime_type.MimeTypes.ApplicationVndSunXmlImpressTemplate,                                  // OpenOffice - Impress Template (Presentation)
+		FileExtentions.Sxm:         mime_type.MimeTypes.ApplicationVndSunXmlMath,                                             // OpenOffice - Math (Formula)
+		FileExtentions.Sxw:         mime_type.MimeTypes.ApplicationVndSunXmlWriter,                                           // OpenOffice - Writer (Text - HTML)
+		FileExtentions.Sxg:         mime_type.MimeTypes.ApplicationVndSunXmlWriterGlobal,                                     // OpenOffice - Writer (Text - HTML)
+		FileExtentions.Stw:         mime_type.MimeTypes.ApplicationVndSunXmlWriterTemplate,                                   // OpenOffice - Writer Template (Text - HTML)
+		FileExtentions.Sus:         mime_type.MimeTypes.ApplicationVndSusCalendar,                                            // ScheduleUs
+		FileExtentions.Svd:         mime_type.MimeTypes.ApplicationVndSvd,                                                    // SourceView Document
+		FileExtentions.Sis:         mime_type.MimeTypes.ApplicationVndSymbianInstall,                                         // Symbian Install Package
+		FileExtentions.Xsm:         mime_type.MimeTypes.ApplicationVndSyncmlXml,                                              // SyncML
+		FileExtentions.Bdm:         mime_type.MimeTypes.ApplicationVndSyncmlDmWbxml,                                          // SyncML - Device Management
+		FileExtentions.Xdm:         mime_type.MimeTypes.ApplicationVndSyncmlDmXml,                                            // SyncML - Device Management
+		FileExtentions.Tao:         mime_type.MimeTypes.ApplicationVndTaoIntentModuleArchive,                                 // Tao Intent
+		FileExtentions.Tmo:         mime_type.MimeTypes.ApplicationVndTmobileLivetv,                                          // MobileTV
+		FileExtentions.Tpt:         mime_type.MimeTypes.ApplicationVndTridTpt,                                                // TRI Systems Config
+		FileExtentions.Mxs:         mime_type.MimeTypes.ApplicationVndTriscapeMxs,                                            // Triscape Map Explorer
+		FileExtentions.Tra:         mime_type.MimeTypes.ApplicationVndTrueapp,                                                // True BASIC
+		FileExtentions.Ufd:         mime_type.MimeTypes.ApplicationVndUfdl,                                                   // Universal Forms Description Language
+		FileExtentions.Utz:         mime_type.MimeTypes.ApplicationVndUiqTheme,                                               // User Interface Quartz - Theme (Symbian)
+		FileExtentions.Umj:         mime_type.MimeTypes.ApplicationVndUmajin,                                                 // UMAJIN
+		FileExtentions.Unityweb:    mime_type.MimeTypes.ApplicationVndUnity,                                                  // Unity 3d
+		FileExtentions.Uoml:        mime_type.MimeTypes.ApplicationVndUomlXml,                                                // Unique Object Markup Language
+		FileExtentions.Vcx:         mime_type.MimeTypes.ApplicationVndVcx,                                                    // VirtualCatalog
+		FileExtentions.Vsd:         mime_type.MimeTypes.ApplicationVndVisio,                                                  // Microsoft Visio
+		FileExtentions.Vsdx:        mime_type.MimeTypes.ApplicationVndVisio2013,                                              // Microsoft Visio 2013
+		FileExtentions.Vis:         mime_type.MimeTypes.ApplicationVndVisionary,                                              // Visionary
+		FileExtentions.Vsf:         mime_type.MimeTypes.ApplicationVndVsf,                                                    // Viewport+
+		FileExtentions.Wbxml:       mime_type.MimeTypes.ApplicationVndWapWbxml,                                               // WAP Binary XML (WBXML)
+		FileExtentions.Wmlc:        mime_type.MimeTypes.ApplicationVndWapWmlc,                                                // Compiled Wireless Markup Language (WMLC)
+		FileExtentions.Wmlsc:       mime_type.MimeTypes.ApplicationVndWapWmlscriptc,                                          // WMLScript
+		FileExtentions.Wtb:         mime_type.MimeTypes.ApplicationVndWebturbo,                                               // WebTurbo
+		FileExtentions.Nbp:         mime_type.MimeTypes.ApplicationVndWolframPlayer,                                          // Mathematica Notebook Player
+		FileExtentions.Wpd:         mime_type.MimeTypes.ApplicationVndWordperfect,                                            // Wordperfect
+		FileExtentions.Wqd:         mime_type.MimeTypes.ApplicationVndWqd,                                                    // SundaHus WQ
+		FileExtentions.Stf:         mime_type.MimeTypes.ApplicationVndWtStf,                                                  // Worldtalk
+		FileExtentions.Xar:         mime_type.MimeTypes.ApplicationVndXara,                                                   // CorelXARA
+		FileExtentions.Xfdl:        mime_type.MimeTypes.ApplicationVndXfdl,                                                   // Extensible Forms Description Language
+		FileExtentions.Hvd:         mime_type.MimeTypes.ApplicationVndYamahaHvDic,                                            // HV Voice Dictionary
+		FileExtentions.Hvs:         mime_type.MimeTypes.ApplicationVndYamahaHvScript,                                         // HV Script
+		FileExtentions.Hvp:         mime_type.MimeTypes.ApplicationVndYamahaHvVoice,                                          // HV Voice Parameter
+		FileExtentions.Osf:         mime_type.MimeTypes.ApplicationVndYamahaOpenscoreformat,                                  // Open Score Format
+		FileExtentions.Osfpvg:      mime_type.MimeTypes.ApplicationVndYamahaOpenscoreformatOsfpvgXml,                         // OSFPVG
+		FileExtentions.Saf:         mime_type.MimeTypes.ApplicationVndYamahaSmafAudio,                                        // SMAF Audio
+		FileExtentions.Spf:         mime_type.MimeTypes.ApplicationVndYamahaSmafPhrase,                                       // SMAF Phrase
+		FileExtentions.Cmp:         mime_type.MimeTypes.ApplicationVndYellowriverCustomMenu,                                  // CustomMenu
+		FileExtentions.Zir:         mime_type.MimeTypes.ApplicationVndZul,                                                    // Z.U.L. Geometry
+		FileExtentions.Zaz:         mime_type.MimeTypes.ApplicationVndZzazzDeckXml,                                           // Zzazz Deck
+		FileExtentions.Vxml:        mime_type.MimeTypes.ApplicationVoicexmlXml,                                               // VoiceXML
+		FileExtentions.Wgt:         mime_type.MimeTypes.ApplicationWidget,                                                    // Widget Packaging and XML Configuration
+		FileExtentions.Hlp:         mime_type.MimeTypes.ApplicationWinhlp,                                                    // WinHelp
+		FileExtentions.Wsdl:        mime_type.MimeTypes.ApplicationWsdlXml,                                                   // WSDL - Web Services Description Language
+		FileExtentions.Wspolicy:    mime_type.MimeTypes.ApplicationWspolicyXml,                                               // Web Services Policy
+		FileExtentions._7z:         mime_type.MimeTypes.ApplicationX7zCompressed,                                             // 7-Zip
+		FileExtentions.Abw:         mime_type.MimeTypes.ApplicationXAbiword,                                                  // AbiWord
+		FileExtentions.Ace:         mime_type.MimeTypes.ApplicationXAceCompressed,                                            // Ace Archive
+		FileExtentions.Dmg:         mime_type.MimeTypes.ApplicationXAppleDiskimage,                                           // Apple Disk Image
+		FileExtentions.Aab:         mime_type.MimeTypes.ApplicationXAuthorwareBin,                                            // Adobe (Macropedia) Authorware - Binary File
+		FileExtentions.Aam:         mime_type.MimeTypes.ApplicationXAuthorwareMap,                                            // Adobe (Macropedia) Authorware - Map
+		FileExtentions.Aas:         mime_type.MimeTypes.ApplicationXAuthorwareSeg,                                            // Adobe (Macropedia) Authorware - Segment File
+		FileExtentions.Bcpio:       mime_type.MimeTypes.ApplicationXBcpio,                                                    // Binary CPIO Archive
+		FileExtentions.Torrent:     mime_type.MimeTypes.ApplicationXBittorrent,                                               // BitTorrent
+		FileExtentions.Bz:          mime_type.MimeTypes.ApplicationXBzip,                                                     // Bzip Archive
+		FileExtentions.Bz2:         mime_type.MimeTypes.ApplicationXBzip2,                                                    // Bzip2 Archive
+		FileExtentions.Cda:         mime_type.MimeTypes.ApplicationXCdf,                                                      // CD audio
+		FileExtentions.Vcd:         mime_type.MimeTypes.ApplicationXCdlink,                                                   // Video CD
+		FileExtentions.Chat:        mime_type.MimeTypes.ApplicationXChat,                                                     // pIRCh
+		FileExtentions.Pgn:         mime_type.MimeTypes.ApplicationXChessPgn,                                                 // Portable Game Notation (Chess Games)
+		FileExtentions.Cpio:        mime_type.MimeTypes.ApplicationXCpio,                                                     // CPIO Archive
+		FileExtentions.Csh:         mime_type.MimeTypes.ApplicationXCsh,                                                      // C Shell Script
+		FileExtentions.Deb:         mime_type.MimeTypes.ApplicationXDebianPackage,                                            // Debian Package
+		FileExtentions.Dir:         mime_type.MimeTypes.ApplicationXDirector,                                                 // Ad1obe Shockwave Player
+		FileExtentions.Wad:         mime_type.MimeTypes.ApplicationXDoom,                                                     // Doom Video Game
+		FileExtentions.Ncx:         mime_type.MimeTypes.ApplicationXDtbncxXml,                                                // Navigation Control file for XML (for ePub)
+		FileExtentions.Dtb:         mime_type.MimeTypes.ApplicationXDtbookXml,                                                // Digital Talking Book
+		FileExtentions.Res:         mime_type.MimeTypes.ApplicationXDtbresourceXml,                                           // Digital Talking Book - Resource File
+		FileExtentions.Dvi:         mime_type.MimeTypes.ApplicationXDvi,                                                      // Device Independent File Format (DVI)
+		FileExtentions.Bdf:         mime_type.MimeTypes.ApplicationXFontBdf,                                                  // Glyph Bitmap Distribution Format
+		FileExtentions.Gsf:         mime_type.MimeTypes.ApplicationXFontGhostscript,                                          // Ghostscript Font
+		FileExtentions.Psf:         mime_type.MimeTypes.ApplicationXFontLinuxPsf,                                             // PSF Fonts
+		FileExtentions.Pcf:         mime_type.MimeTypes.ApplicationXFontPcf,                                                  // Portable Compiled Format
+		FileExtentions.Snf:         mime_type.MimeTypes.ApplicationXFontSnf,                                                  // Server Normal Format
+		FileExtentions.Pfa:         mime_type.MimeTypes.ApplicationXFontType1,                                                // PostScript Fonts
+		FileExtentions.Arc:         mime_type.MimeTypes.ApplicationXFreearc,                                                  // Archive document (multiple files embedded)
+		FileExtentions.Spl:         mime_type.MimeTypes.ApplicationXFuturesplash,                                             // FutureSplash Animator
+		FileExtentions.Gnumeric:    mime_type.MimeTypes.ApplicationXGnumeric,                                                 // Gnumeric
+		FileExtentions.Gtar:        mime_type.MimeTypes.ApplicationXGtar,                                                     // GNU Tar Files
+		FileExtentions.Hdf:         mime_type.MimeTypes.ApplicationXHdf,                                                      // Hierarchical Data Format
+		FileExtentions.Php:         mime_type.MimeTypes.ApplicationXHttpdPhp,                                                 // Hypertext Preprocessor (Personal Home Page)
+		FileExtentions.Phar:        mime_type.MimeTypes.ApplicationXHttpdPhp,                                                 // Hypertext Preprocessor (Personal Home Page)
+		FileExtentions.Phtml:       mime_type.MimeTypes.ApplicationXHttpdPhp,                                                 // Hypertext Preprocessor (Personal Home Page)
+		FileExtentions.Pht:         mime_type.MimeTypes.ApplicationXHttpdPhp,                                                 // Hypertext Preprocessor (Personal Home Page)
+		FileExtentions.Phps:        mime_type.MimeTypes.ApplicationXHttpdPhp,                                                 // Hypertext Preprocessor (Personal Home Page)
+		FileExtentions.Jnlp:        mime_type.MimeTypes.ApplicationXJavaJnlpFile,                                             // Java Network Launching Protocol
+		FileExtentions.Latex:       mime_type.MimeTypes.ApplicationXLatex,                                                    // LaTeX
+		FileExtentions.Prc:         mime_type.MimeTypes.ApplicationXMobipocketEbook,                                          // Mobipocket
+		FileExtentions.Application: mime_type.MimeTypes.ApplicationXMsApplication,                                            // Microsoft ClickOnce
+		FileExtentions.Wmd:         mime_type.MimeTypes.ApplicationXMsWmd,                                                    // Microsoft Windows Media Player Download Package
+		FileExtentions.Wmz:         mime_type.MimeTypes.ApplicationXMsWmz,                                                    // Microsoft Windows Media Player Skin Package
+		FileExtentions.Xbap:        mime_type.MimeTypes.ApplicationXMsXbap,                                                   // Microsoft XAML Browser Application
+		FileExtentions.Mdb:         mime_type.MimeTypes.ApplicationXMsaccess,                                                 // Microsoft Access
+		FileExtentions.Obd:         mime_type.MimeTypes.ApplicationXMsbinder,                                                 // Microsoft Office Binder
+		FileExtentions.Crd:         mime_type.MimeTypes.ApplicationXMscardfile,                                               // Microsoft Information Card
+		FileExtentions.Clp:         mime_type.MimeTypes.ApplicationXMsclip,                                                   // Microsoft Clipboard Clip
+		FileExtentions.Exe:         mime_type.MimeTypes.ApplicationXMsdownload,                                               // Microsoft Application
+		FileExtentions.Mvb:         mime_type.MimeTypes.ApplicationXMsmediaview,                                              // Microsoft MediaView
+		FileExtentions.Wmf:         mime_type.MimeTypes.ApplicationXMsmetafile,                                               // Microsoft Windows Metafile
+		FileExtentions.Mny:         mime_type.MimeTypes.ApplicationXMsmoney,                                                  // Microsoft Money
+		FileExtentions.Pub:         mime_type.MimeTypes.ApplicationXMspublisher,                                              // Microsoft Publisher
+		FileExtentions.Scd:         mime_type.MimeTypes.ApplicationXMsschedule,                                               // Microsoft Schedule+
+		FileExtentions.Trm:         mime_type.MimeTypes.ApplicationXMsterminal,                                               // Microsoft Windows Terminal Services
+		FileExtentions.Wri:         mime_type.MimeTypes.ApplicationXMswrite,                                                  // Microsoft Wordpad
+		FileExtentions.Nc:          mime_type.MimeTypes.ApplicationXNetcdf,                                                   // Network Common Data Form (NetCDF)
+		FileExtentions.P12:         mime_type.MimeTypes.ApplicationXPkcs12,                                                   // PKCS #12 - Personal Information Exchange Syntax Standard
+		FileExtentions.P7b:         mime_type.MimeTypes.ApplicationXPkcs7Certificates,                                        // PKCS #7 - Cryptographic Message Syntax Standard (Certificates)
+		FileExtentions.P7r:         mime_type.MimeTypes.ApplicationXPkcs7Certreqresp,                                         // PKCS #7 - Cryptographic Message Syntax Standard (Certificate Request Response)
+		FileExtentions.Sh:          mime_type.MimeTypes.ApplicationXSh,                                                       // Bourne Shell Script
+		FileExtentions.Shar:        mime_type.MimeTypes.ApplicationXShar,                                                     // Shell Archive
+		FileExtentions.Swf:         mime_type.MimeTypes.ApplicationXShockwaveFlash,                                           // Adobe Flash
+		FileExtentions.Xap:         mime_type.MimeTypes.ApplicationXSilverlightApp,                                           // Microsoft Silverlight
+		FileExtentions.Sit:         mime_type.MimeTypes.ApplicationXStuffit,                                                  // Stuffit Archive
+		FileExtentions.Sitx:        mime_type.MimeTypes.ApplicationXStuffitx,                                                 // Stuffit Archive
+		FileExtentions.Sv4cpio:     mime_type.MimeTypes.ApplicationXSv4cpio,                                                  // System V Release 4 CPIO Archive
+		FileExtentions.Sv4crc:      mime_type.MimeTypes.ApplicationXSv4crc,                                                   // System V Release 4 CPIO Checksum Data
+		FileExtentions.Tar:         mime_type.MimeTypes.ApplicationXTar,                                                      // Tar File (Tape Archive)
+		FileExtentions.Tcl:         mime_type.MimeTypes.ApplicationXTcl,                                                      // Tcl Script
+		FileExtentions.Tbc:         mime_type.MimeTypes.ApplicationXTcl,                                                      // Tcl Script
+		FileExtentions.Tex:         mime_type.MimeTypes.ApplicationXTex,                                                      // TeX
+		FileExtentions.Tfm:         mime_type.MimeTypes.ApplicationXTexTfm,                                                   // TeX Font Metric
+		FileExtentions.Texinfo:     mime_type.MimeTypes.ApplicationXTexinfo,                                                  // GNU Texinfo Document
+		FileExtentions.Ustar:       mime_type.MimeTypes.ApplicationXUstar,                                                    // Ustar (Uniform Standard Tape Archive)
+		FileExtentions.Src:         mime_type.MimeTypes.ApplicationXWaisSource,                                               // WAIS Source
+		FileExtentions.Der:         mime_type.MimeTypes.ApplicationXX509CaCert,                                               // X.509 Certificate
+		FileExtentions.Fig:         mime_type.MimeTypes.ApplicationXXfig,                                                     // Xfig
+		FileExtentions.Xpi:         mime_type.MimeTypes.ApplicationXXpinstall,                                                // XPInstall - Mozilla
+		FileExtentions.Yaml:        mime_type.MimeTypes.ApplicationXYaml,                                                     // YAML Ain't Markup Language / Yet Another Markup Language
+		FileExtentions.Yml:         mime_type.MimeTypes.ApplicationXYaml,                                                     // YAML Ain't Markup Language / Yet Another Markup Language
+		FileExtentions.Xdf:         mime_type.MimeTypes.ApplicationXcapDiffXml,                                               // XML Configuration Access Protocol - XCAP Diff
+		FileExtentions.Xenc:        mime_type.MimeTypes.ApplicationXencXml,                                                   // XML Encryption Syntax and Processing
+		FileExtentions.Xhtml:       mime_type.MimeTypes.ApplicationXhtmlXml,                                                  // XHTML - The Extensible HyperText Markup Language
+		FileExtentions.Xml:         mime_type.MimeTypes.ApplicationXml,                                                       // XML - Extensible Markup Language
+		FileExtentions.Dtd:         mime_type.MimeTypes.ApplicationXmlDtd,                                                    // Document Type Definition
+		FileExtentions.Xop:         mime_type.MimeTypes.ApplicationXopXml,                                                    // XML-Binary Optimized Packaging
+		FileExtentions.Xslt:        mime_type.MimeTypes.ApplicationXsltXml,                                                   // XML Transformations
+		FileExtentions.Xspf:        mime_type.MimeTypes.ApplicationXspfXml,                                                   // XSPF - XML Shareable Playlist Format
+		FileExtentions.Mxml:        mime_type.MimeTypes.ApplicationXvXml,                                                     // MXML
+		FileExtentions.Yang:        mime_type.MimeTypes.ApplicationYang,                                                      // YANG Data Modeling Language
+		FileExtentions.Yin:         mime_type.MimeTypes.ApplicationYinXml,                                                    // YIN (YANG - XML)
+		FileExtentions.Zip:         mime_type.MimeTypes.ApplicationZip,                                                       // Zip Archive
+		FileExtentions.Adp:         mime_type.MimeTypes.AudioAdpcm,                                                           // Adaptive differential pulse-code modulation
+		FileExtentions.Au:          mime_type.MimeTypes.AudioBasic,                                                           // Sun Audio - Au file format
+		FileExtentions.Mid:         mime_type.MimeTypes.AudioMidi,                                                            // MIDI - Musical Instrument Digital Interface
+		FileExtentions.Midi:        mime_type.MimeTypes.AudioMidi,                                                            // MIDI - Musical Instrument Digital Interface
+		FileExtentions.Mp4a:        mime_type.MimeTypes.AudioMp4,                                                             // MPEG-4 Audio
+		FileExtentions.Mpga:        mime_type.MimeTypes.AudioMpeg,                                                            // MPEG Audio
+		FileExtentions.Oga:         mime_type.MimeTypes.AudioOgg,                                                             // Ogg Audio
+		FileExtentions.Opus:        mime_type.MimeTypes.AudioOpus,                                                            // Opus audio
+		FileExtentions.Uva:         mime_type.MimeTypes.AudioVndDeceAudio,                                                    // DECE Audio
+		FileExtentions.Eol:         mime_type.MimeTypes.AudioVndDigitalWinds,                                                 // Digital Winds Music
+		FileExtentions.Dra:         mime_type.MimeTypes.AudioVndDra,                                                          // DRA Audio
+		FileExtentions.Dts:         mime_type.MimeTypes.AudioVndDts,                                                          // DTS Audio
+		FileExtentions.Dtshd:       mime_type.MimeTypes.AudioVndDtsHd,                                                        // DTS High Definition Audio
+		FileExtentions.Lvp:         mime_type.MimeTypes.AudioVndLucentVoice,                                                  // Lucent Voice
+		FileExtentions.Pya:         mime_type.MimeTypes.AudioVndMsPlayreadyMediaPya,                                          // Microsoft PlayReady Ecosystem
+		FileExtentions.Ecelp4800:   mime_type.MimeTypes.AudioVndNueraEcelp4800,                                               // Nuera ECELP 4800
+		FileExtentions.Ecelp7470:   mime_type.MimeTypes.AudioVndNueraEcelp7470,                                               // Nuera ECELP 7470
+		FileExtentions.Ecelp9600:   mime_type.MimeTypes.AudioVndNueraEcelp9600,                                               // Nuera ECELP 9600
+		FileExtentions.Rip:         mime_type.MimeTypes.AudioVndRip,                                                          // Hit'n'Mix
+		FileExtentions.Wav:         mime_type.MimeTypes.AudioWav,                                                             // Waveform Audio File Format (WAV)
+		FileExtentions.Weba:        mime_type.MimeTypes.AudioWebm,                                                            // Open Web Media Project - Audio
+		FileExtentions.Aac:         mime_type.MimeTypes.AudioXAac,                                                            // Advanced Audio Coding (AAC)
+		FileExtentions.Aif:         mime_type.MimeTypes.AudioXAiff,                                                           // Audio Interchange File Format
+		FileExtentions.M3u:         mime_type.MimeTypes.AudioXMpegurl,                                                        // M3U (Multimedia Playlist)
+		FileExtentions.Wax:         mime_type.MimeTypes.AudioXMsWax,                                                          // Microsoft Windows Media Audio Redirector
+		FileExtentions.Wma:         mime_type.MimeTypes.AudioXMsWma,                                                          // Microsoft Windows Media Audio
+		FileExtentions.Ram:         mime_type.MimeTypes.AudioXPnRealaudio,                                                    // Real Audio Sound
+		FileExtentions.Rmp:         mime_type.MimeTypes.AudioXPnRealaudioPlugin,                                              // Real Audio Sound
+		FileExtentions.Cdx:         mime_type.MimeTypes.ChemicalXCdx,                                                         // ChemDraw eXchange file
+		FileExtentions.Cif:         mime_type.MimeTypes.ChemicalXCif,                                                         // Crystallographic Interchange Format
+		FileExtentions.Cmdf:        mime_type.MimeTypes.ChemicalXCmdf,                                                        // CrystalMaker Data Format
+		FileExtentions.Cml:         mime_type.MimeTypes.ChemicalXCml,                                                         // Chemical Markup Language
+		FileExtentions.Csml:        mime_type.MimeTypes.ChemicalXCsml,                                                        // Chemical Style Markup Language
+		FileExtentions.Xyz:         mime_type.MimeTypes.ChemicalXXyz,                                                         // XYZ File Format
+		FileExtentions.Otf:         mime_type.MimeTypes.FontOtf,                                                              // OpenType font
+		FileExtentions.Ttf:         mime_type.MimeTypes.FontTtf,                                                              // TrueType Font
+		FileExtentions.Woff:        mime_type.MimeTypes.FontWoff,                                                             // Web Open Font Format
+		FileExtentions.Woff2:       mime_type.MimeTypes.FontWoff2,                                                            // Web Open Font Format v2
+		FileExtentions.Bmp:         mime_type.MimeTypes.ImageBmp,                                                             // Bitmap Image File
+		FileExtentions.Cgm:         mime_type.MimeTypes.ImageCgm,                                                             // Computer Graphics Metafile
+		FileExtentions.G3:          mime_type.MimeTypes.ImageG3fax,                                                           // G3 Fax Image
+		FileExtentions.Gif:         mime_type.MimeTypes.ImageGif,                                                             // Graphics Interchange Format
+		FileExtentions.Ief:         mime_type.MimeTypes.ImageIef,                                                             // Image Exchange Format
+		FileExtentions.Jpeg:        mime_type.MimeTypes.ImageJpeg,                                                            // JPEG Image
+		FileExtentions.Jpg:         mime_type.MimeTypes.ImageJpeg,                                                            // JPEG Image
+		FileExtentions.Ktx:         mime_type.MimeTypes.ImageKtx,                                                             // OpenGL Textures (KTX)
+		FileExtentions.Pjpeg:       mime_type.MimeTypes.ImagePjpeg,                                                           // JPEG Image (Progressive)
+		FileExtentions.Png:         mime_type.MimeTypes.ImagePng,                                                             // Portable Network Graphics
+		FileExtentions.Btif:        mime_type.MimeTypes.ImagePrsBtif,                                                         // BTIF
+		FileExtentions.Svg:         mime_type.MimeTypes.ImageSvgXml,                                                          // Scalable Vector Graphics (SVG)
+		FileExtentions.Tif:         mime_type.MimeTypes.ImageTiff,                                                            // Tagged Image File Format
+		FileExtentions.Tiff:        mime_type.MimeTypes.ImageTiff,                                                            // Tagged Image File Format
+		FileExtentions.Psd:         mime_type.MimeTypes.ImageVndAdobePhotoshop,                                               // Photoshop Document
+		FileExtentions.Uvi:         mime_type.MimeTypes.ImageVndDeceGraphic,                                                  // DECE Graphic
+		FileExtentions.Djvu:        mime_type.MimeTypes.ImageVndDjvu,                                                         // DjVu
+		FileExtentions.Sub:         mime_type.MimeTypes.ImageVndDvbSubtitle,                                                  // Close Captioning - Subtitle
+		FileExtentions.Dwg:         mime_type.MimeTypes.ImageVndDwg,                                                          // DWG Drawing
+		FileExtentions.Dxf:         mime_type.MimeTypes.ImageVndDxf,                                                          // AutoCAD DXF
+		FileExtentions.Fbs:         mime_type.MimeTypes.ImageVndFastbidsheet,                                                 // FastBid Sheet
+		FileExtentions.Fpx:         mime_type.MimeTypes.ImageVndFpx,                                                          // FlashPix
+		FileExtentions.Fst:         mime_type.MimeTypes.ImageVndFst,                                                          // FAST Search & Transfer ASA
+		FileExtentions.Mmr:         mime_type.MimeTypes.ImageVndFujixeroxEdmicsMmr,                                           // EDMICS 2000
+		FileExtentions.Rlc:         mime_type.MimeTypes.ImageVndFujixeroxEdmicsRlc,                                           // EDMICS 2000
+		FileExtentions.Mdi:         mime_type.MimeTypes.ImageVndMsModi,                                                       // Microsoft Document Imaging Format
+		FileExtentions.Npx:         mime_type.MimeTypes.ImageVndNetFpx,                                                       // FlashPix
+		FileExtentions.Wbmp:        mime_type.MimeTypes.ImageVndWapWbmp,                                                      // WAP Bitamp (WBMP)
+		FileExtentions.Xif:         mime_type.MimeTypes.ImageVndXiff,                                                         // eXtended Image File Format (XIFF)
+		FileExtentions.Webp:        mime_type.MimeTypes.ImageWebp,                                                            // WebP Image
+		FileExtentions.Ras:         mime_type.MimeTypes.ImageXCmuRaster,                                                      // CMU Image
+		FileExtentions.Cmx:         mime_type.MimeTypes.ImageXCmx,                                                            // Corel Metafile Exchange (CMX)
+		FileExtentions.Fh:          mime_type.MimeTypes.ImageXFreehand,                                                       // FreeHand MX
+		FileExtentions.Ico:         mime_type.MimeTypes.ImageXIcon,                                                           // Icon Image
+		FileExtentions.Pcx:         mime_type.MimeTypes.ImageXPcx,                                                            // PCX Image
+		FileExtentions.Pic:         mime_type.MimeTypes.ImageXPict,                                                           // PICT Image
+		FileExtentions.Pnm:         mime_type.MimeTypes.ImageXPortableAnymap,                                                 // Portable Anymap Image
+		FileExtentions.Pbm:         mime_type.MimeTypes.ImageXPortableBitmap,                                                 // Portable Bitmap Format
+		FileExtentions.Pgm:         mime_type.MimeTypes.ImageXPortableGraymap,                                                // Portable Graymap Format
+		FileExtentions.Ppm:         mime_type.MimeTypes.ImageXPortablePixmap,                                                 // Portable Pixmap Format
+		FileExtentions.Rgb:         mime_type.MimeTypes.ImageXRgb,                                                            // Silicon Graphics RGB Bitmap
+		FileExtentions.Xbm:         mime_type.MimeTypes.ImageXXbitmap,                                                        // X BitMap
+		FileExtentions.Xpm:         mime_type.MimeTypes.ImageXXpixmap,                                                        // X PixMap
+		FileExtentions.Xwd:         mime_type.MimeTypes.ImageXXwindowdump,                                                    // X Window Dump
+		FileExtentions.Eml:         mime_type.MimeTypes.MessageRfc822,                                                        // Email Message
+		FileExtentions.Igs:         mime_type.MimeTypes.ModelIges,                                                            // Initial Graphics Exchange Specification (IGES)
+		FileExtentions.Msh:         mime_type.MimeTypes.ModelMesh,                                                            // Mesh Data Type
+		FileExtentions.Dae:         mime_type.MimeTypes.ModelVndColladaXml,                                                   // COLLADA
+		FileExtentions.Dwf:         mime_type.MimeTypes.ModelVndDwf,                                                          // Autodesk Design Web Format (DWF)
+		FileExtentions.Gdl:         mime_type.MimeTypes.ModelVndGdl,                                                          // Geometric Description Language (GDL)
+		FileExtentions.Gtw:         mime_type.MimeTypes.ModelVndGtw,                                                          // Gen-Trix Studio
+		FileExtentions.Mts:         mime_type.MimeTypes.ModelVndMts,                                                          // Virtue MTS
+		FileExtentions.Vtu:         mime_type.MimeTypes.ModelVndVtu,                                                          // Virtue VTU
+		FileExtentions.Wrl:         mime_type.MimeTypes.ModelVrml,                                                            // Virtual Reality Modeling Language
+		FileExtentions.Ics:         mime_type.MimeTypes.TextCalendar,                                                         // iCalendar
+		FileExtentions.Css:         mime_type.MimeTypes.TextCss,                                                              // Cascading Style Sheets (CSS)
+		FileExtentions.Csv:         mime_type.MimeTypes.TextCsv,                                                              // Comma-Seperated Values
+		FileExtentions.Html:        mime_type.MimeTypes.TextHtml,                                                             // HyperText Markup Language (HTML)
+		FileExtentions.N3:          mime_type.MimeTypes.TextN3,                                                               // Notation3
+		FileExtentions.Txt:         mime_type.MimeTypes.TextPlain,                                                            // Text File
+		FileExtentions.Par:         mime_type.MimeTypes.TextPlainBas,                                                         // BAS Partitur Format
+		FileExtentions.Dsc:         mime_type.MimeTypes.TextPrsLinesTag,                                                      // PRS Lines Tag
+		FileExtentions.Rtx:         mime_type.MimeTypes.TextRichtext,                                                         // Rich Text Format (RTF)
+		FileExtentions.Sgml:        mime_type.MimeTypes.TextSgml,                                                             // Standard Generalized Markup Language (SGML)
+		FileExtentions.Tsv:         mime_type.MimeTypes.TextTabSeparatedValues,                                               // Tab Seperated Values
+		FileExtentions.T:           mime_type.MimeTypes.TextTroff,                                                            // troff
+		FileExtentions.Ttl:         mime_type.MimeTypes.TextTurtle,                                                           // Turtle (Terse RDF Triple Language)
+		FileExtentions.Uri:         mime_type.MimeTypes.TextUriList,                                                          // URI Resolution Services
+		FileExtentions.Curl:        mime_type.MimeTypes.TextVndCurl,                                                          // Curl - Applet
+		FileExtentions.Dcurl:       mime_type.MimeTypes.TextVndCurlDcurl,                                                     // Curl - Detached Applet
+		FileExtentions.Mcurl:       mime_type.MimeTypes.TextVndCurlMcurl,                                                     // Curl - Manifest File
+		FileExtentions.Scurl:       mime_type.MimeTypes.TextVndCurlScurl,                                                     // Curl - Source Code
+		FileExtentions.Fly:         mime_type.MimeTypes.TextVndFly,                                                           // mod_fly / fly.cgi
+		FileExtentions.Flx:         mime_type.MimeTypes.TextVndFmiFlexstor,                                                   // FLEXSTOR
+		FileExtentions.Gv:          mime_type.MimeTypes.TextVndGraphviz,                                                      // Graphviz
+		FileExtentions._3dml:       mime_type.MimeTypes.TextVndIn3d3dml,                                                      // In3D - 3DML
+		FileExtentions.Spot:        mime_type.MimeTypes.TextVndIn3dSpot,                                                      // In3D - 3DML
+		FileExtentions.Jad:         mime_type.MimeTypes.TextVndSunJ2meAppDescriptor,                                          // J2ME App Descriptor
+		FileExtentions.Wml:         mime_type.MimeTypes.TextVndWapWml,                                                        // Wireless Markup Language (WML)
+		FileExtentions.Wmls:        mime_type.MimeTypes.TextVndWapWmlscript,                                                  // Wireless Markup Language Script (WMLScript)
+		FileExtentions.S:           mime_type.MimeTypes.TextXAsm,                                                             // Assembler Source File
+		FileExtentions.Asm:         mime_type.MimeTypes.TextXAsm,                                                             // Assembler Source File
+		FileExtentions.C:           mime_type.MimeTypes.TextXC,                                                               // C Source File
+		FileExtentions.F:           mime_type.MimeTypes.TextXFortran,                                                         // Fortran Source File
+		FileExtentions.Java:        mime_type.MimeTypes.TextXJavaSource,                                                      // Java Source File
+		FileExtentions.P:           mime_type.MimeTypes.TextXPascal,                                                          // Pascal Source File
+		FileExtentions.Etx:         mime_type.MimeTypes.TextXSetext,                                                          // Setext
+		FileExtentions.Uu:          mime_type.MimeTypes.TextXUuencode,                                                        // UUEncode
+		FileExtentions.Vcs:         mime_type.MimeTypes.TextXVcalendar,                                                       // vCalendar
+		FileExtentions.Vcf:         mime_type.MimeTypes.TextXVcard,                                                           // vCard
+		FileExtentions._3gp:        mime_type.MimeTypes.Video3gpp,                                                            // 3GPP
+		FileExtentions._3g2:        mime_type.MimeTypes.Video3gpp2,                                                           // 3GP2
+		FileExtentions.H261:        mime_type.MimeTypes.VideoH261,                                                            // H.261
+		FileExtentions.H263:        mime_type.MimeTypes.VideoH263,                                                            // H.263
+		FileExtentions.H264:        mime_type.MimeTypes.VideoH264,                                                            // H.264
+		FileExtentions.Jpgv:        mime_type.MimeTypes.VideoJpeg,                                                            // JPGVideo
+		FileExtentions.Jpm:         mime_type.MimeTypes.VideoJpm,                                                             // JPEG 2000 Compound Image File Format
+		FileExtentions.Mj2:         mime_type.MimeTypes.VideoMj2,                                                             // Motion JPEG 2000
+		FileExtentions.Mp4:         mime_type.MimeTypes.VideoMp4,                                                             // MPEG4
+		FileExtentions.Mpeg:        mime_type.MimeTypes.VideoMpeg,                                                            // MPEG Video
+		FileExtentions.Ogv:         mime_type.MimeTypes.VideoOgg,                                                             // Ogg Video
+		FileExtentions.Qt:          mime_type.MimeTypes.VideoQuicktime,                                                       // Quicktime Video
+		FileExtentions.Uvh:         mime_type.MimeTypes.VideoVndDeceHd,                                                       // DECE High Definition Video
+		FileExtentions.Uvm:         mime_type.MimeTypes.VideoVndDeceMobile,                                                   // DECE Mobile Video
+		FileExtentions.Uvp:         mime_type.MimeTypes.VideoVndDecePd,                                                       // DECE PD Video
+		FileExtentions.Uvs:         mime_type.MimeTypes.VideoVndDeceSd,                                                       // DECE SD Video
+		FileExtentions.Uvv:         mime_type.MimeTypes.VideoVndDeceVideo,                                                    // DECE Video
+		FileExtentions.Fvt:         mime_type.MimeTypes.VideoVndFvt,                                                          // FAST Search & Transfer ASA
+		FileExtentions.Mxu:         mime_type.MimeTypes.VideoVndMpegurl,                                                      // MPEG Url
+		FileExtentions.Pyv:         mime_type.MimeTypes.VideoVndMsPlayreadyMediaPyv,                                          // Microsoft PlayReady Ecosystem Video
+		FileExtentions.Uvu:         mime_type.MimeTypes.VideoVndUvvuMp4,                                                      // DECE MP4
+		FileExtentions.Viv:         mime_type.MimeTypes.VideoVndVivo,                                                         // Vivo
+		FileExtentions.Webm:        mime_type.MimeTypes.VideoWebm,                                                            // Open Web Media Project - Video
+		FileExtentions.F4v:         mime_type.MimeTypes.VideoXF4v,                                                            // Flash Video
+		FileExtentions.Fli:         mime_type.MimeTypes.VideoXFli,                                                            // FLI/FLC Animation Format
+		FileExtentions.Flv:         mime_type.MimeTypes.VideoXFlv,                                                            // Flash Video
+		FileExtentions.M4v:         mime_type.MimeTypes.VideoXM4v,                                                            // M4v
+		FileExtentions.Asf:         mime_type.MimeTypes.VideoXMsAsf,                                                          // Microsoft Advanced Systems Format (ASF)
+		FileExtentions.Wm:          mime_type.MimeTypes.VideoXMsWm,                                                           // Microsoft Windows Media
+		FileExtentions.Wmv:         mime_type.MimeTypes.VideoXMsWmv,                                                          // Microsoft Windows Media Video
+		FileExtentions.Wmx:         mime_type.MimeTypes.VideoXMsWmx,                                                          // Microsoft Windows Media Audio/Video Playlist
+		FileExtentions.Wvx:         mime_type.MimeTypes.VideoXMsWvx,                                                          // Microsoft Windows Media Video Playlist
+		FileExtentions.Avi:         mime_type.MimeTypes.VideoXMsvideo,                                                        // Audio Video Interleave (AVI)
+		FileExtentions.Movie:       mime_type.MimeTypes.VideoXSgiMovie,                                                       // SGI Movie
+		FileExtentions.Ice:         mime_type.MimeTypes.XConferenceXCooltalk,                                                 // CoolTalk
+		FileExtentions.Toml:        mime_type.MimeTypes.ApplicationToml,                                                      // Tom's Obvious, Minimal Language
+		FileExtentions.Hcl:         mime_type.MimeTypes.ApplicationHcl,                                                       // HashiCorp configuration language
+		FileExtentions.Ini:         mime_type.MimeTypes.ApplicationIni,                                                       // Microsoft Windows Initialization
+		FileExtentions.Cue:         mime_type.MimeTypes.ApplicationCue,                                                       // Configure Unify Execute
+		FileExtentions.Go:          mime_type.MimeTypes.ApplicationXGo,                                                       // Go source file
+		FileExtentions.Mod:         mime_type.MimeTypes.ApplicationXGo,                                                       // Go source file
+		FileExtentions.Sum:         mime_type.MimeTypes.ApplicationXGo,                                                       // Go source file
+		FileExtentions.Gotmpl:      mime_type.MimeTypes.ApplicationXGoTemplate,                                               // Go template file
+		FileExtentions.Tmpl:        mime_type.MimeTypes.ApplicationXGoTemplate,                                               // Go template file
+		FileExtentions.Gtpl:        mime_type.MimeTypes.ApplicationXGoTemplate,                                               // Go template file
+		FileExtentions.Cpp:         mime_type.MimeTypes.ApplicationXCpp,                                                      // C++ source file
+		FileExtentions.Cs:          mime_type.MimeTypes.ApplicationXCsharp,                                                   // C# source file
+		FileExtentions.Csx:         mime_type.MimeTypes.ApplicationXCsharp,                                                   // C# source file
+		FileExtentions.Py:          mime_type.MimeTypes.ApplicationXPython,                                                   // Python source file
+		FileExtentions.Pyi:         mime_type.MimeTypes.ApplicationXPythonGenerated,                                          // Python generated file
+		FileExtentions.Pyc:         mime_type.MimeTypes.ApplicationXPythonGenerated,                                          // Python generated file
+		FileExtentions.Pyd:         mime_type.MimeTypes.ApplicationXPythonGenerated,                                          // Python generated file
+		FileExtentions.Pyw:         mime_type.MimeTypes.ApplicationXPythonGenerated,                                          // Python generated file
+		FileExtentions.Pyz:         mime_type.MimeTypes.ApplicationXPythonGenerated,                                          // Python generated file
+		FileExtentions.Pyo:         mime_type.MimeTypes.ApplicationXPythonGenerated,                                          // Python generated file
+		FileExtentions.Rb:          mime_type.MimeTypes.ApplicationXRuby,                                                     // Ruby source file
+		FileExtentions.Rs:          mime_type.MimeTypes.ApplicationXRust,                                                     // Rust source file
+		FileExtentions.Bnf:         mime_type.MimeTypes.ApplicationXBnf,                                                      // Backus-Naur Form definition file
+		FileExtentions.Abnf:        mime_type.MimeTypes.ApplicationXAbnf,                                                     // Augmented Backus-Naur Form definition file
+		FileExtentions.Vb:          mime_type.MimeTypes.ApplicationXVisualBasic,                                              // Visual Basic source file
+		FileExtentions.Vbs:         mime_type.MimeTypes.ApplicationXVisualBasic,                                              // Visual Basic source file
+		FileExtentions.Vbscript:    mime_type.MimeTypes.ApplicationXVisualBasic,                                              // Visual Basic source file
+		FileExtentions.Scss:        mime_type.MimeTypes.ApplicationXSass,                                                     // Syntactically Awesome Stylesheet source file
+		FileExtentions.Sass:        mime_type.MimeTypes.ApplicationXSass,                                                     // Syntactically Awesome Stylesheet source file
+		FileExtentions.Dart:        mime_type.MimeTypes.ApplicationXDart,                                                     // Dart source file
+		FileExtentions.Bash:        mime_type.MimeTypes.ApplicationXBash,                                                     // BASH shell script
+		FileExtentions.Fish:        mime_type.MimeTypes.ApplicationXFish,                                                     // FISH shell script
+		FileExtentions.Zsh:         mime_type.MimeTypes.ApplicationXZsh,                                                      // ZSH shell script
+		FileExtentions.Ksh:         mime_type.MimeTypes.ApplicationXKorn,                                                     // Korn shell script
+		FileExtentions.Pp:          mime_type.MimeTypes.ApplicationXPuppet,                                                   // Puppet manifest file
+		FileExtentions.Ml:          mime_type.MimeTypes.ApplicationXOcaml,                                                    // OCaml source file
+		FileExtentions.Mli:         mime_type.MimeTypes.ApplicationXOcaml,                                                    // OCaml source file
+		FileExtentions.Pas:         mime_type.MimeTypes.ApplicationXPascal,                                                   // Pascal source file
+		FileExtentions.Inc:         mime_type.MimeTypes.ApplicationXPascal,                                                   // Pascal source file
+		FileExtentions.Clj:         mime_type.MimeTypes.ApplicationXClojure,                                                  // Clojure source file
+		FileExtentions.Cljs:        mime_type.MimeTypes.ApplicationXClojure,                                                  // Clojure source file
+		FileExtentions.Cljc:        mime_type.MimeTypes.ApplicationXClojure,                                                  // Clojure source file
+		FileExtentions.Edn:         mime_type.MimeTypes.ApplicationXClojure,                                                  // Clojure source file
+		FileExtentions.Scm:         mime_type.MimeTypes.ApplicationXScheme,                                                   // Scheme source file
+		FileExtentions.Ss:          mime_type.MimeTypes.ApplicationXScheme,                                                   // Scheme source file
+		FileExtentions.Lisp:        mime_type.MimeTypes.ApplicationXLisp,                                                     // Common Lisp source file
+		FileExtentions.Lsp:         mime_type.MimeTypes.ApplicationXLisp,                                                     // Common Lisp source file
+		FileExtentions.L:           mime_type.MimeTypes.ApplicationXLisp,                                                     // Common Lisp source file
+		FileExtentions.Cl:          mime_type.MimeTypes.ApplicationXLisp,                                                     // Common Lisp source file
+		FileExtentions.Fasl:        mime_type.MimeTypes.ApplicationXLisp,                                                     // Common Lisp source file
+		FileExtentions.Kt:          mime_type.MimeTypes.ApplicationXKotlin,                                                   // Kotlin source file
+		FileExtentions.Kts:         mime_type.MimeTypes.ApplicationXKotlin,                                                   // Kotlin source file
+		FileExtentions.Ktm:         mime_type.MimeTypes.ApplicationXKotlin,                                                   // Kotlin source file
+		FileExtentions.Erl:         mime_type.MimeTypes.ApplicationXErlang,                                                   // Erlang source file
+		FileExtentions.Hrl:         mime_type.MimeTypes.ApplicationXErlang,                                                   // Erlang source file
+		FileExtentions.Scala:       mime_type.MimeTypes.ApplicationXScala,                                                    // Scala source file
+		FileExtentions.Sc:          mime_type.MimeTypes.ApplicationXScala,                                                    // Scala source file
+		FileExtentions.Hs:          mime_type.MimeTypes.ApplicationXHaskell,                                                  // Haskell source file
+		FileExtentions.Lhs:         mime_type.MimeTypes.ApplicationXHaskell,                                                  // Haskell source file
+		FileExtentions.Fs:          mime_type.MimeTypes.ApplicationXFsharp,                                                   // F# source file
+		FileExtentions.Fsi:         mime_type.MimeTypes.ApplicationXFsharp,                                                   // F# source file
+		FileExtentions.Fsx:         mime_type.MimeTypes.ApplicationXFsharp,                                                   // F# source file
+		FileExtentions.Fsscript:    mime_type.MimeTypes.ApplicationXFsharp,                                                   // F# source file
+		FileExtentions.Ex:          mime_type.MimeTypes.ApplicationXElixir,                                                   // Elixir source file
+		FileExtentions.Exs:         mime_type.MimeTypes.ApplicationXElixir,                                                   // Elixir source file
+		FileExtentions.Elm:         mime_type.MimeTypes.ApplicationXElm,                                                      // Elm source file
+		FileExtentions.Ts:          mime_type.MimeTypes.ApplicationXTypescript,                                               // TypeScript source file
+		FileExtentions.Xtend:       mime_type.MimeTypes.ApplicationXXtend,                                                    // Xtend source file
+		FileExtentions.Xq:          mime_type.MimeTypes.ApplicationXXquery,                                                   // XQuery source file
+		FileExtentions.Xql:         mime_type.MimeTypes.ApplicationXXquery,                                                   // XQuery source file
+		FileExtentions.Xqm:         mime_type.MimeTypes.ApplicationXXquery,                                                   // XQuery source file
+		FileExtentions.Xqy:         mime_type.MimeTypes.ApplicationXXquery,                                                   // XQuery source file
+		FileExtentions.Xquery:      mime_type.MimeTypes.ApplicationXXquery,                                                   // XQuery source file
+		FileExtentions.Wat:         mime_type.MimeTypes.ApplicationXWebassembly,                                              // WebAssembly
+		FileExtentions.Wasm:        mime_type.MimeTypes.ApplicationXWebassembly,                                              // WebAssembly
+		FileExtentions.Sql:         mime_type.MimeTypes.ApplicationXSql,                                                      // Standard Query Language (SQL) source file
+		FileExtentions.Ddl:         mime_type.MimeTypes.ApplicationXSql,                                                      // Standard Query Language (SQL) source file
+		FileExtentions.R:           mime_type.MimeTypes.ApplicationXR,                                                        // R source file
+		FileExtentions.Rdata:       mime_type.MimeTypes.ApplicationXR,                                                        // R source file
+		FileExtentions.Rds:         mime_type.MimeTypes.ApplicationXR,                                                        // R source file
+		FileExtentions.Rda:         mime_type.MimeTypes.ApplicationXR,                                                        // R source file
+		FileExtentions.Ps1:         mime_type.MimeTypes.ApplicationXPowershell,                                               // PowerShell script file
+		FileExtentions.Ps1xml:      mime_type.MimeTypes.ApplicationXPowershell,                                               // PowerShell script file
+		FileExtentions.Psc1:        mime_type.MimeTypes.ApplicationXPowershell,                                               // PowerShell script file
+		FileExtentions.Psm1:        mime_type.MimeTypes.ApplicationXPowershell,                                               // PowerShell script file
+		FileExtentions.Pssc:        mime_type.MimeTypes.ApplicationXPowershell,                                               // PowerShell script file
+		FileExtentions.Psrc:        mime_type.MimeTypes.ApplicationXPowershell,                                               // PowerShell script file
+		FileExtentions.Cdxml:       mime_type.MimeTypes.ApplicationXPowershell,                                               // PowerShell script file
+		FileExtentions.Pl:          mime_type.MimeTypes.ApplicationXPerl,                                                     // Perl source file
+		FileExtentions.Plx:         mime_type.MimeTypes.ApplicationXPerl,                                                     // Perl source file
+		FileExtentions.Pm:          mime_type.MimeTypes.ApplicationXPerl,                                                     // Perl source file
+		FileExtentions.Xs:          mime_type.MimeTypes.ApplicationXPerl,                                                     // Perl source file
+		FileExtentions.Pod:         mime_type.MimeTypes.ApplicationXPerl,                                                     // Perl source file
+		FileExtentions.Cgi:         mime_type.MimeTypes.ApplicationXPerl,                                                     // Perl source file
+		FileExtentions.M:           mime_type.MimeTypes.ApplicationXObjectiveC,                                               // Objective-C source file
+		FileExtentions.Mm:          mime_type.MimeTypes.ApplicationXObjectiveC,                                               // Objective-C source file
+		FileExtentions.H:           mime_type.MimeTypes.ApplicationXCHeader,                                                  // C Header source file
+		FileExtentions.Lua:         mime_type.MimeTypes.ApplicationXLua,                                                      // Lua source file
+		FileExtentions.For:         mime_type.MimeTypes.ApplicationXFortran,                                                  // Fortan source file
+		FileExtentions.F90:         mime_type.MimeTypes.ApplicationXFortran,                                                  // Fortan source file
+		FileExtentions.Fth:         mime_type.MimeTypes.ApplicationXForth,                                                    // Forth source file
+		FileExtentions._4th:        mime_type.MimeTypes.ApplicationXForth,                                                    // Forth source file
+		FileExtentions.Forth:       mime_type.MimeTypes.ApplicationXForth,                                                    // Forth source file
+		FileExtentions.Md:          mime_type.MimeTypes.ApplicationXMarkdown,                                                 // Markdown source file
+		FileExtentions.Njk:         mime_type.MimeTypes.ApplicationXNunjucks,                                                 // Nunjucks template file
+		FileExtentions.Hbs:         mime_type.MimeTypes.ApplicationXHandlebars,                                               // Handlebars template file
+		FileExtentions.Ejs:         mime_type.MimeTypes.ApplicationXEjs,                                                      // Embedded JavaScript Template file
+		FileExtentions.Mustache:    mime_type.MimeTypes.ApplicationXMustache,                                                 // Mustache template file
+		FileExtentions.Haml:        mime_type.MimeTypes.ApplicationXHaml,                                                     // Haml template file
+		FileExtentions.Pug:         mime_type.MimeTypes.ApplicationXPug,                                                      // Pug template file
+		FileExtentions.Liquid:      mime_type.MimeTypes.ApplicationXLiquid,                                                   // Liquid template file
+		FileExtentions.Webc:        mime_type.MimeTypes.ApplicationXWebc,                                                     // Web Component source file
+		FileExtentions.Lst:         mime_type.MimeTypes.ApplicationXList,                                                     // List file
 	}
 
 	mt2ext = map[mime_type.MimeType][]FileExtention{
-		mime_type.ApplicationXJupyterNotebook: {
-			Ipynb, // Jupyter Notebook
+		mime_type.MimeTypes.ApplicationXJupyterNotebook: {
+			FileExtentions.Ipynb, // Jupyter Notebook
 		},
-		mime_type.ApplicationXVndMsExcelWebQuery: {
-			Iqy, // Microsoft Excel Web Query file
+		mime_type.MimeTypes.ApplicationXVndMsExcelWebQuery: {
+			FileExtentions.Iqy, // Microsoft Excel Web Query file
 		},
-		mime_type.ApplicationXAvroSchemaIdl: {
-			Avdl, // Apache Avro Interface Definition Language (IDL) Schema file
+		mime_type.MimeTypes.ApplicationXAvroSchemaIdl: {
+			FileExtentions.Avdl, // Apache Avro Interface Definition Language (IDL) Schema file
 		},
-		mime_type.ApplicationXAvroSchemaJson: {
-			Avsc, // Apache Avro Javascript Object Notation (JSON) Schema file
+		mime_type.MimeTypes.ApplicationXAvroSchemaJson: {
+			FileExtentions.Avsc, // Apache Avro Javascript Object Notation (JSON) Schema file
 		},
-		mime_type.ApplicationAndrewInset: {},
-		mime_type.ApplicationApplixware: {
-			Aw, // Applixware
+		mime_type.MimeTypes.ApplicationAndrewInset: {},
+		mime_type.MimeTypes.ApplicationApplixware: {
+			FileExtentions.Aw, // Applixware
 		},
-		mime_type.ApplicationAtomXml: {
-			Atom, // Atom Syndication Format
+		mime_type.MimeTypes.ApplicationAtomXml: {
+			FileExtentions.Atom, // Atom Syndication Format
 		},
-		mime_type.ApplicationAtomcatXml: {
-			Atomcat, // Atom Publishing Protocol
+		mime_type.MimeTypes.ApplicationAtomcatXml: {
+			FileExtentions.Atomcat, // Atom Publishing Protocol
 		},
-		mime_type.ApplicationAtomsvcXml: {
-			Atomsvc, // Atom Publishing Protocol Service Document
+		mime_type.MimeTypes.ApplicationAtomsvcXml: {
+			FileExtentions.Atomsvc, // Atom Publishing Protocol Service Document
 		},
-		mime_type.ApplicationCcxmlXml: {
-			Ccxml, // Voice Browser Call Control
+		mime_type.MimeTypes.ApplicationCcxmlXml: {
+			FileExtentions.Ccxml, // Voice Browser Call Control
 		},
-		mime_type.ApplicationCdmiCapability: {
-			Cdmia, // Cloud Data Management Interface (CDMI) - Capability
+		mime_type.MimeTypes.ApplicationCdmiCapability: {
+			FileExtentions.Cdmia, // Cloud Data Management Interface (CDMI) - Capability
 		},
-		mime_type.ApplicationCdmiContainer: {
-			Cdmic, // Cloud Data Management Interface (CDMI) - Contaimer
+		mime_type.MimeTypes.ApplicationCdmiContainer: {
+			FileExtentions.Cdmic, // Cloud Data Management Interface (CDMI) - Contaimer
 		},
-		mime_type.ApplicationCdmiDomain: {
-			Cdmid, // Cloud Data Management Interface (CDMI) - Domain
+		mime_type.MimeTypes.ApplicationCdmiDomain: {
+			FileExtentions.Cdmid, // Cloud Data Management Interface (CDMI) - Domain
 		},
-		mime_type.ApplicationCdmiObject: {
-			Cdmio, // Cloud Data Management Interface (CDMI) - Object
+		mime_type.MimeTypes.ApplicationCdmiObject: {
+			FileExtentions.Cdmio, // Cloud Data Management Interface (CDMI) - Object
 		},
-		mime_type.ApplicationCdmiQueue: {
-			Cdmiq, // Cloud Data Management Interface (CDMI) - Queue
+		mime_type.MimeTypes.ApplicationCdmiQueue: {
+			FileExtentions.Cdmiq, // Cloud Data Management Interface (CDMI) - Queue
 		},
-		mime_type.ApplicationCuSeeme: {
-			Cu, // CU-SeeMe
+		mime_type.MimeTypes.ApplicationCuSeeme: {
+			FileExtentions.Cu, // CU-SeeMe
 		},
-		mime_type.ApplicationDavmountXml: {
-			Davmount, // Web Distributed Authoring and Versioning
+		mime_type.MimeTypes.ApplicationDavmountXml: {
+			FileExtentions.Davmount, // Web Distributed Authoring and Versioning
 		},
-		mime_type.ApplicationDsscDer: {
-			Dssc, // Data Structure for the Security Suitability of Cryptographic Algorithms
+		mime_type.MimeTypes.ApplicationDsscDer: {
+			FileExtentions.Dssc, // Data Structure for the Security Suitability of Cryptographic Algorithms
 		},
-		mime_type.ApplicationDsscXml: {
-			Xdssc, // Data Structure for the Security Suitability of Cryptographic Algorithms
+		mime_type.MimeTypes.ApplicationDsscXml: {
+			FileExtentions.Xdssc, // Data Structure for the Security Suitability of Cryptographic Algorithms
 		},
-		mime_type.ApplicationEcmascript: {
-			Es, // ECMAScript
+		mime_type.MimeTypes.ApplicationEcmascript: {
+			FileExtentions.Es, // ECMAScript
 		},
-		mime_type.ApplicationEmmaXml: {
-			Emma, // Extensible MultiModal Annotation
+		mime_type.MimeTypes.ApplicationEmmaXml: {
+			FileExtentions.Emma, // Extensible MultiModal Annotation
 		},
-		mime_type.ApplicationEpubZip: {
-			Epub, // Electronic Publication
+		mime_type.MimeTypes.ApplicationEpubZip: {
+			FileExtentions.Epub, // Electronic Publication
 		},
-		mime_type.ApplicationExi: {
-			Exi, // Efficient XML Interchange
+		mime_type.MimeTypes.ApplicationExi: {
+			FileExtentions.Exi, // Efficient XML Interchange
 		},
-		mime_type.ApplicationFontTdpfr: {
-			Pfr, // Portable Font Resource
+		mime_type.MimeTypes.ApplicationFontTdpfr: {
+			FileExtentions.Pfr, // Portable Font Resource
 		},
-		mime_type.ApplicationGpxXml: {
-			Gpx, // GPS eXchange Format
+		mime_type.MimeTypes.ApplicationGpxXml: {
+			FileExtentions.Gpx, // GPS eXchange Format
 		},
-		mime_type.ApplicationGzip: {
-			Gz, // GZip Compressed Archive
+		mime_type.MimeTypes.ApplicationGzip: {
+			FileExtentions.Gz, // GZip Compressed Archive
 		},
-		mime_type.ApplicationHyperstudio: {
-			Stk, // Hyperstudio
+		mime_type.MimeTypes.ApplicationHyperstudio: {
+			FileExtentions.Stk, // Hyperstudio
 		},
-		mime_type.ApplicationIpfix: {
-			Ipfix, // Internet Protocol Flow Information Export
+		mime_type.MimeTypes.ApplicationIpfix: {
+			FileExtentions.Ipfix, // Internet Protocol Flow Information Export
 		},
-		mime_type.ApplicationJavaArchive: {
-			Jar, // Java Archive
+		mime_type.MimeTypes.ApplicationJavaArchive: {
+			FileExtentions.Jar, // Java Archive
 		},
-		mime_type.ApplicationJavaSerializedObject: {
-			Ser, // Java Serialized Object
+		mime_type.MimeTypes.ApplicationJavaSerializedObject: {
+			FileExtentions.Ser, // Java Serialized Object
 		},
-		mime_type.ApplicationJavaVm: {
-			Class, // Java Bytecode File
+		mime_type.MimeTypes.ApplicationJavaVm: {
+			FileExtentions.Class, // Java Bytecode File
 		},
-		mime_type.ApplicationJavascript: {
-			Js, // JavaScript language file
+		mime_type.MimeTypes.ApplicationJavascript: {
+			FileExtentions.Js, // JavaScript language file
 		},
-		mime_type.ApplicationJson: {
-			Json, // JavaScript Object Notation (JSON)
+		mime_type.MimeTypes.ApplicationJson: {
+			FileExtentions.Json, // JavaScript Object Notation (JSON)
 		},
-		mime_type.ApplicationLdJson: {
-			Jsonld, // JSON-LD format
+		mime_type.MimeTypes.ApplicationLdJson: {
+			FileExtentions.Jsonld, // JSON-LD format
 		},
-		mime_type.ApplicationMacBinhex40: {
-			Hqx, // Macintosh BinHex 4.0
+		mime_type.MimeTypes.ApplicationMacBinhex40: {
+			FileExtentions.Hqx, // Macintosh BinHex 4.0
 		},
-		mime_type.ApplicationMacCompactpro: {
-			Cpt, // Compact Pro
+		mime_type.MimeTypes.ApplicationMacCompactpro: {
+			FileExtentions.Cpt, // Compact Pro
 		},
-		mime_type.ApplicationMadsXml: {
-			Mads, // Metadata Authority Description Schema
+		mime_type.MimeTypes.ApplicationMadsXml: {
+			FileExtentions.Mads, // Metadata Authority Description Schema
 		},
-		mime_type.ApplicationMarc: {
-			Mrc, // MARC Formats
+		mime_type.MimeTypes.ApplicationMarc: {
+			FileExtentions.Mrc, // MARC Formats
 		},
-		mime_type.ApplicationMarcxmlXml: {
-			Mrcx, // MARC21 XML Schema
+		mime_type.MimeTypes.ApplicationMarcxmlXml: {
+			FileExtentions.Mrcx, // MARC21 XML Schema
 		},
-		mime_type.ApplicationMathematica: {
-			Ma, // Mathematica Notebooks
+		mime_type.MimeTypes.ApplicationMathematica: {
+			FileExtentions.Ma, // Mathematica Notebooks
 		},
-		mime_type.ApplicationMathmlXml: {
-			Mathml, // Mathematical Markup Language
+		mime_type.MimeTypes.ApplicationMathmlXml: {
+			FileExtentions.Mathml, // Mathematical Markup Language
 		},
-		mime_type.ApplicationMbox: {
-			Mbox, // Mbox database files
+		mime_type.MimeTypes.ApplicationMbox: {
+			FileExtentions.Mbox, // Mbox database files
 		},
-		mime_type.ApplicationMediaservercontrolXml: {
-			Mscml, // Media Server Control Markup Language
+		mime_type.MimeTypes.ApplicationMediaservercontrolXml: {
+			FileExtentions.Mscml, // Media Server Control Markup Language
 		},
-		mime_type.ApplicationMetalink4Xml: {
-			Meta4, // Metalink
+		mime_type.MimeTypes.ApplicationMetalink4Xml: {
+			FileExtentions.Meta4, // Metalink
 		},
-		mime_type.ApplicationMetsXml: {
-			Mets, // Metadata Encoding and Transmission Standard
+		mime_type.MimeTypes.ApplicationMetsXml: {
+			FileExtentions.Mets, // Metadata Encoding and Transmission Standard
 		},
-		mime_type.ApplicationModsXml: {
-			Mods, // Metadata Object Description Schema
+		mime_type.MimeTypes.ApplicationModsXml: {
+			FileExtentions.Mods, // Metadata Object Description Schema
 		},
-		mime_type.ApplicationMp21: {
-			M21, // MPEG-21
+		mime_type.MimeTypes.ApplicationMp21: {
+			FileExtentions.M21, // MPEG-21
 		},
-		mime_type.ApplicationMsword: {
-			Doc, // Microsoft Word
+		mime_type.MimeTypes.ApplicationMsword: {
+			FileExtentions.Doc, // Microsoft Word
 		},
-		mime_type.ApplicationMxf: {
-			Mxf, // Material Exchange Format
+		mime_type.MimeTypes.ApplicationMxf: {
+			FileExtentions.Mxf, // Material Exchange Format
 		},
-		mime_type.ApplicationOctetStream: {
-			Bin, // Binary Data
+		mime_type.MimeTypes.ApplicationOctetStream: {
+			FileExtentions.Bin, // Binary Data
 		},
-		mime_type.ApplicationOda: {
-			Oda, // Office Document Architecture
+		mime_type.MimeTypes.ApplicationOda: {
+			FileExtentions.Oda, // Office Document Architecture
 		},
-		mime_type.ApplicationOebpsPackageXml: {
-			Opf, // Open eBook Publication Structure
+		mime_type.MimeTypes.ApplicationOebpsPackageXml: {
+			FileExtentions.Opf, // Open eBook Publication Structure
 		},
-		mime_type.ApplicationOgg: {
-			Ogx, // Ogg
+		mime_type.MimeTypes.ApplicationOgg: {
+			FileExtentions.Ogx, // Ogg
 		},
-		mime_type.ApplicationOnenote: {
-			Onetoc, // Microsoft OneNote
+		mime_type.MimeTypes.ApplicationOnenote: {
+			FileExtentions.Onetoc, // Microsoft OneNote
 		},
-		mime_type.ApplicationPatchOpsErrorXml: {
-			Xer, // XML Patch Framework
+		mime_type.MimeTypes.ApplicationPatchOpsErrorXml: {
+			FileExtentions.Xer, // XML Patch Framework
 		},
-		mime_type.ApplicationPdf: {
-			Pdf, // Adobe Portable Document Format
+		mime_type.MimeTypes.ApplicationPdf: {
+			FileExtentions.Pdf, // Adobe Portable Document Format
 		},
-		mime_type.ApplicationPgpEncrypted: {
-			Pgp, // Pretty Good Privacy Signature
+		mime_type.MimeTypes.ApplicationPgpEncrypted: {
+			FileExtentions.Pgp, // Pretty Good Privacy Signature
 		},
-		mime_type.ApplicationPicsRules: {
-			Prf, // PICSRules
+		mime_type.MimeTypes.ApplicationPicsRules: {
+			FileExtentions.Prf, // PICSRules
 		},
-		mime_type.ApplicationPkcs10: {
-			P10, // PKCS #10 - Certification Request Standard
+		mime_type.MimeTypes.ApplicationPkcs10: {
+			FileExtentions.P10, // PKCS #10 - Certification Request Standard
 		},
-		mime_type.ApplicationPkcs7Mime: {
-			P7m, // PKCS #7 - Cryptographic Message Syntax Standard
+		mime_type.MimeTypes.ApplicationPkcs7Mime: {
+			FileExtentions.P7m, // PKCS #7 - Cryptographic Message Syntax Standard
 		},
-		mime_type.ApplicationPkcs7Signature: {
-			P7s, // PKCS #7 - Cryptographic Message Syntax Standard
+		mime_type.MimeTypes.ApplicationPkcs7Signature: {
+			FileExtentions.P7s, // PKCS #7 - Cryptographic Message Syntax Standard
 		},
-		mime_type.ApplicationPkcs8: {
-			P8, // PKCS #8 - Private-Key Information Syntax Standard
+		mime_type.MimeTypes.ApplicationPkcs8: {
+			FileExtentions.P8, // PKCS #8 - Private-Key Information Syntax Standard
 		},
-		mime_type.ApplicationPkixAttrCert: {
-			Ac, // Attribute Certificate
+		mime_type.MimeTypes.ApplicationPkixAttrCert: {
+			FileExtentions.Ac, // Attribute Certificate
 		},
-		mime_type.ApplicationPkixCert: {
-			Cer, // Internet Public Key Infrastructure - Certificate
+		mime_type.MimeTypes.ApplicationPkixCert: {
+			FileExtentions.Cer, // Internet Public Key Infrastructure - Certificate
 		},
-		mime_type.ApplicationPkixCrl: {
-			Crl, // Internet Public Key Infrastructure - Certificate Revocation Lists
+		mime_type.MimeTypes.ApplicationPkixCrl: {
+			FileExtentions.Crl, // Internet Public Key Infrastructure - Certificate Revocation Lists
 		},
-		mime_type.ApplicationPkixPkipath: {
-			Pkipath, // Internet Public Key Infrastructure - Certification Path
+		mime_type.MimeTypes.ApplicationPkixPkipath: {
+			FileExtentions.Pkipath, // Internet Public Key Infrastructure - Certification Path
 		},
-		mime_type.ApplicationPkixcmp: {
-			Pki, // Internet Public Key Infrastructure - Certificate Management Protocole
+		mime_type.MimeTypes.ApplicationPkixcmp: {
+			FileExtentions.Pki, // Internet Public Key Infrastructure - Certificate Management Protocole
 		},
-		mime_type.ApplicationPlsXml: {
-			Pls, // Pronunciation Lexicon Specification
+		mime_type.MimeTypes.ApplicationPlsXml: {
+			FileExtentions.Pls, // Pronunciation Lexicon Specification
 		},
-		mime_type.ApplicationPostscript: {
-			Ai, // PostScript
+		mime_type.MimeTypes.ApplicationPostscript: {
+			FileExtentions.Ai, // PostScript
 		},
-		mime_type.ApplicationPrsCww: {
-			Cww, // CU-Writer
+		mime_type.MimeTypes.ApplicationPrsCww: {
+			FileExtentions.Cww, // CU-Writer
 		},
-		mime_type.ApplicationPskcXml: {
-			Pskcxml, // Portable Symmetric Key Container
+		mime_type.MimeTypes.ApplicationPskcXml: {
+			FileExtentions.Pskcxml, // Portable Symmetric Key Container
 		},
-		mime_type.ApplicationRdfXml: {
-			Rdf, // Resource Description Framework
+		mime_type.MimeTypes.ApplicationRdfXml: {
+			FileExtentions.Rdf, // Resource Description Framework
 		},
-		mime_type.ApplicationReginfoXml: {
-			Rif, // IMS Networks
+		mime_type.MimeTypes.ApplicationReginfoXml: {
+			FileExtentions.Rif, // IMS Networks
 		},
-		mime_type.ApplicationRelaxNgCompactSyntax: {
-			Rnc, // Relax NG Compact Syntax
+		mime_type.MimeTypes.ApplicationRelaxNgCompactSyntax: {
+			FileExtentions.Rnc, // Relax NG Compact Syntax
 		},
-		mime_type.ApplicationResourceListsXml: {
-			Rl, // XML Resource Lists
+		mime_type.MimeTypes.ApplicationResourceListsXml: {
+			FileExtentions.Rl, // XML Resource Lists
 		},
-		mime_type.ApplicationResourceListsDiffXml: {
-			Rld, // XML Resource Lists Diff
+		mime_type.MimeTypes.ApplicationResourceListsDiffXml: {
+			FileExtentions.Rld, // XML Resource Lists Diff
 		},
-		mime_type.ApplicationRsdXml: {
-			Rsd, // Really Simple Discovery
+		mime_type.MimeTypes.ApplicationRsdXml: {
+			FileExtentions.Rsd, // Really Simple Discovery
 		},
-		mime_type.ApplicationRssXml: {
-			Rss, // RSS - Really Simple Syndication
+		mime_type.MimeTypes.ApplicationRssXml: {
+			FileExtentions.Rss, // RSS - Really Simple Syndication
 		},
-		mime_type.ApplicationRtf: {
-			Rtf, // Rich Text Format
+		mime_type.MimeTypes.ApplicationRtf: {
+			FileExtentions.Rtf, // Rich Text Format
 		},
-		mime_type.ApplicationSbmlXml: {
-			Sbml, // Systems Biology Markup Language
+		mime_type.MimeTypes.ApplicationSbmlXml: {
+			FileExtentions.Sbml, // Systems Biology Markup Language
 		},
-		mime_type.ApplicationScvpCvRequest: {
-			Scq, // Server-Based Certificate Validation Protocol - Validation Request
+		mime_type.MimeTypes.ApplicationScvpCvRequest: {
+			FileExtentions.Scq, // Server-Based Certificate Validation Protocol - Validation Request
 		},
-		mime_type.ApplicationScvpCvResponse: {
-			Scs, // Server-Based Certificate Validation Protocol - Validation Response
+		mime_type.MimeTypes.ApplicationScvpCvResponse: {
+			FileExtentions.Scs, // Server-Based Certificate Validation Protocol - Validation Response
 		},
-		mime_type.ApplicationScvpVpRequest: {
-			Spq, // Server-Based Certificate Validation Protocol - Validation Policies - Request
+		mime_type.MimeTypes.ApplicationScvpVpRequest: {
+			FileExtentions.Spq, // Server-Based Certificate Validation Protocol - Validation Policies - Request
 		},
-		mime_type.ApplicationScvpVpResponse: {
-			Spp, // Server-Based Certificate Validation Protocol - Validation Policies - Response
+		mime_type.MimeTypes.ApplicationScvpVpResponse: {
+			FileExtentions.Spp, // Server-Based Certificate Validation Protocol - Validation Policies - Response
 		},
-		mime_type.ApplicationSdp: {
-			Sdp, // Session Description Protocol
+		mime_type.MimeTypes.ApplicationSdp: {
+			FileExtentions.Sdp, // Session Description Protocol
 		},
-		mime_type.ApplicationSetPaymentInitiation: {
-			Setpay, // Secure Electronic Transaction - Payment
+		mime_type.MimeTypes.ApplicationSetPaymentInitiation: {
+			FileExtentions.Setpay, // Secure Electronic Transaction - Payment
 		},
-		mime_type.ApplicationSetRegistrationInitiation: {
-			Setreg, // Secure Electronic Transaction - Registration
+		mime_type.MimeTypes.ApplicationSetRegistrationInitiation: {
+			FileExtentions.Setreg, // Secure Electronic Transaction - Registration
 		},
-		mime_type.ApplicationShfXml: {
-			Shf, // S Hexdump Format
+		mime_type.MimeTypes.ApplicationShfXml: {
+			FileExtentions.Shf, // S Hexdump Format
 		},
-		mime_type.ApplicationSmilXml: {
-			Smi, // Synchronized Multimedia Integration Language
+		mime_type.MimeTypes.ApplicationSmilXml: {
+			FileExtentions.Smi, // Synchronized Multimedia Integration Language
 		},
-		mime_type.ApplicationSparqlQuery: {
-			Rq, // SPARQL - Query
+		mime_type.MimeTypes.ApplicationSparqlQuery: {
+			FileExtentions.Rq, // SPARQL - Query
 		},
-		mime_type.ApplicationSparqlResultsXml: {
-			Srx, // SPARQL - Results
+		mime_type.MimeTypes.ApplicationSparqlResultsXml: {
+			FileExtentions.Srx, // SPARQL - Results
 		},
-		mime_type.ApplicationSrgs: {
-			Gram, // Speech Recognition Grammar Specification
+		mime_type.MimeTypes.ApplicationSrgs: {
+			FileExtentions.Gram, // Speech Recognition Grammar Specification
 		},
-		mime_type.ApplicationSrgsXml: {
-			Grxml, // Speech Recognition Grammar Specification - XML
+		mime_type.MimeTypes.ApplicationSrgsXml: {
+			FileExtentions.Grxml, // Speech Recognition Grammar Specification - XML
 		},
-		mime_type.ApplicationSruXml: {
-			Sru, // Search/Retrieve via URL Response Format
+		mime_type.MimeTypes.ApplicationSruXml: {
+			FileExtentions.Sru, // Search/Retrieve via URL Response Format
 		},
-		mime_type.ApplicationSsmlXml: {
-			Ssml, // Speech Synthesis Markup Language
+		mime_type.MimeTypes.ApplicationSsmlXml: {
+			FileExtentions.Ssml, // Speech Synthesis Markup Language
 		},
-		mime_type.ApplicationTeiXml: {
-			Tei, // Text Encoding and Interchange
+		mime_type.MimeTypes.ApplicationTeiXml: {
+			FileExtentions.Tei, // Text Encoding and Interchange
 		},
-		mime_type.ApplicationThraudXml: {
-			Tfi, // Sharing Transaction Fraud Data
+		mime_type.MimeTypes.ApplicationThraudXml: {
+			FileExtentions.Tfi, // Sharing Transaction Fraud Data
 		},
-		mime_type.ApplicationTimestampedData: {
-			Tsd, // Time Stamped Data Envelope
+		mime_type.MimeTypes.ApplicationTimestampedData: {
+			FileExtentions.Tsd, // Time Stamped Data Envelope
 		},
-		mime_type.ApplicationVnd3gppPicBwLarge: {
-			Plb, // 3rd Generation Partnership Project - Pic Large
+		mime_type.MimeTypes.ApplicationVnd3gppPicBwLarge: {
+			FileExtentions.Plb, // 3rd Generation Partnership Project - Pic Large
 		},
-		mime_type.ApplicationVnd3gppPicBwSmall: {
-			Psb, // 3rd Generation Partnership Project - Pic Small
+		mime_type.MimeTypes.ApplicationVnd3gppPicBwSmall: {
+			FileExtentions.Psb, // 3rd Generation Partnership Project - Pic Small
 		},
-		mime_type.ApplicationVnd3gppPicBwVar: {
-			Pvb, // 3rd Generation Partnership Project - Pic Var
+		mime_type.MimeTypes.ApplicationVnd3gppPicBwVar: {
+			FileExtentions.Pvb, // 3rd Generation Partnership Project - Pic Var
 		},
-		mime_type.ApplicationVnd3gpp2Tcap: {
-			Tcap, // 3rd Generation Partnership Project - Transaction Capabilities Application Part
+		mime_type.MimeTypes.ApplicationVnd3gpp2Tcap: {
+			FileExtentions.Tcap, // 3rd Generation Partnership Project - Transaction Capabilities Application Part
 		},
-		mime_type.ApplicationVnd3mPostItNotes: {
-			Pwn, // 3M Post It Notes
+		mime_type.MimeTypes.ApplicationVnd3mPostItNotes: {
+			FileExtentions.Pwn, // 3M Post It Notes
 		},
-		mime_type.ApplicationVndAccpacSimplyAso: {
-			Aso, // Simply Accounting
+		mime_type.MimeTypes.ApplicationVndAccpacSimplyAso: {
+			FileExtentions.Aso, // Simply Accounting
 		},
-		mime_type.ApplicationVndAccpacSimplyImp: {
-			Imp, // Simply Accounting - Data Import
+		mime_type.MimeTypes.ApplicationVndAccpacSimplyImp: {
+			FileExtentions.Imp, // Simply Accounting - Data Import
 		},
-		mime_type.ApplicationVndAcucobol: {
-			Acu, // ACU Cobol
+		mime_type.MimeTypes.ApplicationVndAcucobol: {
+			FileExtentions.Acu, // ACU Cobol
 		},
-		mime_type.ApplicationVndAcucorp: {
-			Atc, // ACU Cobol
+		mime_type.MimeTypes.ApplicationVndAcucorp: {
+			FileExtentions.Atc, // ACU Cobol
 		},
-		mime_type.ApplicationVndAdobeAirApplicationInstallerPackageZip: {
-			Air, // Adobe AIR Application
+		mime_type.MimeTypes.ApplicationVndAdobeAirApplicationInstallerPackageZip: {
+			FileExtentions.Air, // Adobe AIR Application
 		},
-		mime_type.ApplicationVndAdobeFxp: {
-			Fxp, // Adobe Flex Project
+		mime_type.MimeTypes.ApplicationVndAdobeFxp: {
+			FileExtentions.Fxp, // Adobe Flex Project
 		},
-		mime_type.ApplicationVndAdobeXdpXml: {
-			Xdp, // Adobe XML Data Package
+		mime_type.MimeTypes.ApplicationVndAdobeXdpXml: {
+			FileExtentions.Xdp, // Adobe XML Data Package
 		},
-		mime_type.ApplicationVndAdobeXfdf: {
-			Xfdf, // Adobe XML Forms Data Format
+		mime_type.MimeTypes.ApplicationVndAdobeXfdf: {
+			FileExtentions.Xfdf, // Adobe XML Forms Data Format
 		},
-		mime_type.ApplicationVndAheadSpace: {
-			Ahead, // Ahead AIR Application
+		mime_type.MimeTypes.ApplicationVndAheadSpace: {
+			FileExtentions.Ahead, // Ahead AIR Application
 		},
-		mime_type.ApplicationVndAirzipFilesecureAzf: {
-			Azf, // AirZip FileSECURE
+		mime_type.MimeTypes.ApplicationVndAirzipFilesecureAzf: {
+			FileExtentions.Azf, // AirZip FileSECURE
 		},
-		mime_type.ApplicationVndAirzipFilesecureAzs: {
-			Azs, // AirZip FileSECURE
+		mime_type.MimeTypes.ApplicationVndAirzipFilesecureAzs: {
+			FileExtentions.Azs, // AirZip FileSECURE
 		},
-		mime_type.ApplicationVndAmazonEbook: {
-			Azw, // Amazon Kindle eBook format
+		mime_type.MimeTypes.ApplicationVndAmazonEbook: {
+			FileExtentions.Azw, // Amazon Kindle eBook format
 		},
-		mime_type.ApplicationVndAmericandynamicsAcc: {
-			Acc, // Active Content Compression
+		mime_type.MimeTypes.ApplicationVndAmericandynamicsAcc: {
+			FileExtentions.Acc, // Active Content Compression
 		},
-		mime_type.ApplicationVndAmigaAmi: {
-			Ami, // AmigaDE
+		mime_type.MimeTypes.ApplicationVndAmigaAmi: {
+			FileExtentions.Ami, // AmigaDE
 		},
-		mime_type.ApplicationVndAndroidPackageArchive: {
-			Apk, // Android Package Archive
+		mime_type.MimeTypes.ApplicationVndAndroidPackageArchive: {
+			FileExtentions.Apk, // Android Package Archive
 		},
-		mime_type.ApplicationVndAnserWebCertificateIssueInitiation: {
-			Cii, // ANSER-WEB Terminal Client - Certificate Issue
+		mime_type.MimeTypes.ApplicationVndAnserWebCertificateIssueInitiation: {
+			FileExtentions.Cii, // ANSER-WEB Terminal Client - Certificate Issue
 		},
-		mime_type.ApplicationVndAnserWebFundsTransferInitiation: {
-			Fti, // ANSER-WEB Terminal Client - Web Funds Transfer
+		mime_type.MimeTypes.ApplicationVndAnserWebFundsTransferInitiation: {
+			FileExtentions.Fti, // ANSER-WEB Terminal Client - Web Funds Transfer
 		},
-		mime_type.ApplicationVndAntixGameComponent: {
-			Atx, // Antix Game Player
+		mime_type.MimeTypes.ApplicationVndAntixGameComponent: {
+			FileExtentions.Atx, // Antix Game Player
 		},
-		mime_type.ApplicationVndAppleInstallerXml: {
-			Mpkg, // Apple Installer Package
+		mime_type.MimeTypes.ApplicationVndAppleInstallerXml: {
+			FileExtentions.Mpkg, // Apple Installer Package
 		},
-		mime_type.ApplicationVndAppleMpegurl: {
-			M3u8, // Multimedia Playlist Unicode
+		mime_type.MimeTypes.ApplicationVndAppleMpegurl: {
+			FileExtentions.M3u8, // Multimedia Playlist Unicode
 		},
-		mime_type.ApplicationVndAristanetworksSwi: {
-			Swi, // Arista Networks Software Image
+		mime_type.MimeTypes.ApplicationVndAristanetworksSwi: {
+			FileExtentions.Swi, // Arista Networks Software Image
 		},
-		mime_type.ApplicationVndAudiograph: {
-			Aep, // Audiograph
+		mime_type.MimeTypes.ApplicationVndAudiograph: {
+			FileExtentions.Aep, // Audiograph
 		},
-		mime_type.ApplicationVndBlueiceMultipass: {
-			Mpm, // Blueice Research Multipass
+		mime_type.MimeTypes.ApplicationVndBlueiceMultipass: {
+			FileExtentions.Mpm, // Blueice Research Multipass
 		},
-		mime_type.ApplicationVndBmi: {
-			Bmi, // BMI Drawing Data Interchange
+		mime_type.MimeTypes.ApplicationVndBmi: {
+			FileExtentions.Bmi, // BMI Drawing Data Interchange
 		},
-		mime_type.ApplicationVndBusinessobjects: {
-			Rep, // BusinessObjects
+		mime_type.MimeTypes.ApplicationVndBusinessobjects: {
+			FileExtentions.Rep, // BusinessObjects
 		},
-		mime_type.ApplicationVndChipnutsKaraokeMmd: {
-			Mmd, // Karaoke on Chipnuts Chipsets
+		mime_type.MimeTypes.ApplicationVndChipnutsKaraokeMmd: {
+			FileExtentions.Mmd, // Karaoke on Chipnuts Chipsets
 		},
-		mime_type.ApplicationVndCinderella: {
-			Cdy, // Interactive Geometry Software Cinderella
+		mime_type.MimeTypes.ApplicationVndCinderella: {
+			FileExtentions.Cdy, // Interactive Geometry Software Cinderella
 		},
-		mime_type.ApplicationVndClaymore: {
-			Cla, // Claymore Data Files
+		mime_type.MimeTypes.ApplicationVndClaymore: {
+			FileExtentions.Cla, // Claymore Data Files
 		},
-		mime_type.ApplicationVndCloantoRp9: {
-			Rp9, // RetroPlatform Player
+		mime_type.MimeTypes.ApplicationVndCloantoRp9: {
+			FileExtentions.Rp9, // RetroPlatform Player
 		},
-		mime_type.ApplicationVndClonkC4group: {
-			C4g, // Clonk Game
+		mime_type.MimeTypes.ApplicationVndClonkC4group: {
+			FileExtentions.C4g, // Clonk Game
 		},
-		mime_type.ApplicationVndCluetrustCartomobileConfig: {
-			C11amc, // ClueTrust CartoMobile - Config
+		mime_type.MimeTypes.ApplicationVndCluetrustCartomobileConfig: {
+			FileExtentions.C11amc, // ClueTrust CartoMobile - Config
 		},
-		mime_type.ApplicationVndCluetrustCartomobileConfigPkg: {
-			C11amz, // ClueTrust CartoMobile - Config Package
+		mime_type.MimeTypes.ApplicationVndCluetrustCartomobileConfigPkg: {
+			FileExtentions.C11amz, // ClueTrust CartoMobile - Config Package
 		},
-		mime_type.ApplicationVndCommonspace: {
-			Csp, // Sixth Floor Media - CommonSpace
+		mime_type.MimeTypes.ApplicationVndCommonspace: {
+			FileExtentions.Csp, // Sixth Floor Media - CommonSpace
 		},
-		mime_type.ApplicationVndContactCmsg: {
-			Cdbcmsg, // CIM Database
+		mime_type.MimeTypes.ApplicationVndContactCmsg: {
+			FileExtentions.Cdbcmsg, // CIM Database
 		},
-		mime_type.ApplicationVndCosmocaller: {
-			Cmc, // CosmoCaller
+		mime_type.MimeTypes.ApplicationVndCosmocaller: {
+			FileExtentions.Cmc, // CosmoCaller
 		},
-		mime_type.ApplicationVndCrickClicker: {
-			Clkx, // CrickSoftware - Clicker
+		mime_type.MimeTypes.ApplicationVndCrickClicker: {
+			FileExtentions.Clkx, // CrickSoftware - Clicker
 		},
-		mime_type.ApplicationVndCrickClickerKeyboard: {
-			Clkk, // CrickSoftware - Clicker - Keyboard
+		mime_type.MimeTypes.ApplicationVndCrickClickerKeyboard: {
+			FileExtentions.Clkk, // CrickSoftware - Clicker - Keyboard
 		},
-		mime_type.ApplicationVndCrickClickerPalette: {
-			Clkp, // CrickSoftware - Clicker - Palette
+		mime_type.MimeTypes.ApplicationVndCrickClickerPalette: {
+			FileExtentions.Clkp, // CrickSoftware - Clicker - Palette
 		},
-		mime_type.ApplicationVndCrickClickerTemplate: {
-			Clkt, // CrickSoftware - Clicker - Template
+		mime_type.MimeTypes.ApplicationVndCrickClickerTemplate: {
+			FileExtentions.Clkt, // CrickSoftware - Clicker - Template
 		},
-		mime_type.ApplicationVndCrickClickerWordbank: {
-			Clkw, // CrickSoftware - Clicker - Wordbank
+		mime_type.MimeTypes.ApplicationVndCrickClickerWordbank: {
+			FileExtentions.Clkw, // CrickSoftware - Clicker - Wordbank
 		},
-		mime_type.ApplicationVndCriticaltoolsWbsXml: {
-			Wbs, // Critical Tools - PERT Chart EXPERT
+		mime_type.MimeTypes.ApplicationVndCriticaltoolsWbsXml: {
+			FileExtentions.Wbs, // Critical Tools - PERT Chart EXPERT
 		},
-		mime_type.ApplicationVndCtcPosml: {
-			Pml, // PosML
+		mime_type.MimeTypes.ApplicationVndCtcPosml: {
+			FileExtentions.Pml, // PosML
 		},
-		mime_type.ApplicationVndCupsPpd: {
-			Ppd, // Adobe PostScript Printer Description File Format
+		mime_type.MimeTypes.ApplicationVndCupsPpd: {
+			FileExtentions.Ppd, // Adobe PostScript Printer Description File Format
 		},
-		mime_type.ApplicationVndCurlCar: {
-			Car, // CURL Applet
+		mime_type.MimeTypes.ApplicationVndCurlCar: {
+			FileExtentions.Car, // CURL Applet
 		},
-		mime_type.ApplicationVndCurlPcurl: {
-			Pcurl, // CURL Applet
+		mime_type.MimeTypes.ApplicationVndCurlPcurl: {
+			FileExtentions.Pcurl, // CURL Applet
 		},
-		mime_type.ApplicationVndDataVisionRdz: {
-			Rdz, // RemoteDocs R-Viewer
+		mime_type.MimeTypes.ApplicationVndDataVisionRdz: {
+			FileExtentions.Rdz, // RemoteDocs R-Viewer
 		},
-		mime_type.ApplicationVndDenovoFcselayoutLink: {
-			Fe_launch, // FCS Express Layout Link
+		mime_type.MimeTypes.ApplicationVndDenovoFcselayoutLink: {
+			FileExtentions.Felaunch, // FCS Express Layout Link
 		},
-		mime_type.ApplicationVndDna: {
-			Dna, // New Moon Liftoff/DNA
+		mime_type.MimeTypes.ApplicationVndDna: {
+			FileExtentions.Dna, // New Moon Liftoff/DNA
 		},
-		mime_type.ApplicationVndDolbyMlp: {
-			Mlp, // Dolby Meridian Lossless Packing
+		mime_type.MimeTypes.ApplicationVndDolbyMlp: {
+			FileExtentions.Mlp, // Dolby Meridian Lossless Packing
 		},
-		mime_type.ApplicationVndDpgraph: {
-			Dpg, // DPGraph
+		mime_type.MimeTypes.ApplicationVndDpgraph: {
+			FileExtentions.Dpg, // DPGraph
 		},
-		mime_type.ApplicationVndDreamfactory: {
-			Dfac, // DreamFactory
+		mime_type.MimeTypes.ApplicationVndDreamfactory: {
+			FileExtentions.Dfac, // DreamFactory
 		},
-		mime_type.ApplicationVndDvbAit: {
-			Ait, // Digital Video Broadcasting
+		mime_type.MimeTypes.ApplicationVndDvbAit: {
+			FileExtentions.Ait, // Digital Video Broadcasting
 		},
-		mime_type.ApplicationVndDvbService: {
-			Svc, // Digital Video Broadcasting
+		mime_type.MimeTypes.ApplicationVndDvbService: {
+			FileExtentions.Svc, // Digital Video Broadcasting
 		},
-		mime_type.ApplicationVndDynageo: {
-			Geo, // DynaGeo
+		mime_type.MimeTypes.ApplicationVndDynageo: {
+			FileExtentions.Geo, // DynaGeo
 		},
-		mime_type.ApplicationVndEcowinChart: {
-			Mag, // EcoWin Chart
+		mime_type.MimeTypes.ApplicationVndEcowinChart: {
+			FileExtentions.Mag, // EcoWin Chart
 		},
-		mime_type.ApplicationVndEnliven: {
-			Nml, // Enliven Viewer
+		mime_type.MimeTypes.ApplicationVndEnliven: {
+			FileExtentions.Nml, // Enliven Viewer
 		},
-		mime_type.ApplicationVndEpsonEsf: {
-			Esf, // QUASS Stream Player
+		mime_type.MimeTypes.ApplicationVndEpsonEsf: {
+			FileExtentions.Esf, // QUASS Stream Player
 		},
-		mime_type.ApplicationVndEpsonMsf: {
-			Msf, // QUASS Stream Player
+		mime_type.MimeTypes.ApplicationVndEpsonMsf: {
+			FileExtentions.Msf, // QUASS Stream Player
 		},
-		mime_type.ApplicationVndEpsonQuickanime: {
-			Qam, // QuickAnime Player
+		mime_type.MimeTypes.ApplicationVndEpsonQuickanime: {
+			FileExtentions.Qam, // QuickAnime Player
 		},
-		mime_type.ApplicationVndEpsonSalt: {
-			Slt, // SimpleAnimeLite Player
+		mime_type.MimeTypes.ApplicationVndEpsonSalt: {
+			FileExtentions.Slt, // SimpleAnimeLite Player
 		},
-		mime_type.ApplicationVndEpsonSsf: {
-			Ssf, // QUASS Stream Player
+		mime_type.MimeTypes.ApplicationVndEpsonSsf: {
+			FileExtentions.Ssf, // QUASS Stream Player
 		},
-		mime_type.ApplicationVndEszigno3Xml: {
-			Es3, // MICROSEC e-Szignï¿½
+		mime_type.MimeTypes.ApplicationVndEszigno3Xml: {
+			FileExtentions.Es3, // MICROSEC e-Szignï¿½
 		},
-		mime_type.ApplicationVndEzpixAlbum: {
-			Ez2, // EZPix Secure Photo Album
+		mime_type.MimeTypes.ApplicationVndEzpixAlbum: {
+			FileExtentions.Ez2, // EZPix Secure Photo Album
 		},
-		mime_type.ApplicationVndEzpixPackage: {
-			Ez3, // EZPix Secure Photo Album
+		mime_type.MimeTypes.ApplicationVndEzpixPackage: {
+			FileExtentions.Ez3, // EZPix Secure Photo Album
 		},
-		mime_type.ApplicationVndFdf: {
-			Fdf, // Forms Data Format
+		mime_type.MimeTypes.ApplicationVndFdf: {
+			FileExtentions.Fdf, // Forms Data Format
 		},
-		mime_type.ApplicationVndFdsnSeed: {
-			Seed, // Digital Siesmograph Networks - SEED Datafiles
+		mime_type.MimeTypes.ApplicationVndFdsnSeed: {
+			FileExtentions.Seed, // Digital Siesmograph Networks - SEED Datafiles
 		},
-		mime_type.ApplicationVndFlographit: {
-			Gph, // NpGraphIt
+		mime_type.MimeTypes.ApplicationVndFlographit: {
+			FileExtentions.Gph, // NpGraphIt
 		},
-		mime_type.ApplicationVndFluxtimeClip: {
-			Ftc, // FluxTime Clip
+		mime_type.MimeTypes.ApplicationVndFluxtimeClip: {
+			FileExtentions.Ftc, // FluxTime Clip
 		},
-		mime_type.ApplicationVndFramemaker: {
-			Fm, // FrameMaker Normal Format
+		mime_type.MimeTypes.ApplicationVndFramemaker: {
+			FileExtentions.Fm, // FrameMaker Normal Format
 		},
-		mime_type.ApplicationVndFrogansFnc: {
-			Fnc, // Frogans Player
+		mime_type.MimeTypes.ApplicationVndFrogansFnc: {
+			FileExtentions.Fnc, // Frogans Player
 		},
-		mime_type.ApplicationVndFrogansLtf: {
-			Ltf, // Frogans Player
+		mime_type.MimeTypes.ApplicationVndFrogansLtf: {
+			FileExtentions.Ltf, // Frogans Player
 		},
-		mime_type.ApplicationVndFscWeblaunch: {
-			Fsc, // Friendly Software Corporation
+		mime_type.MimeTypes.ApplicationVndFscWeblaunch: {
+			FileExtentions.Fsc, // Friendly Software Corporation
 		},
-		mime_type.ApplicationVndFujitsuOasys: {
-			Oas, // Fujitsu Oasys
+		mime_type.MimeTypes.ApplicationVndFujitsuOasys: {
+			FileExtentions.Oas, // Fujitsu Oasys
 		},
-		mime_type.ApplicationVndFujitsuOasys2: {
-			Oa2, // Fujitsu Oasys
+		mime_type.MimeTypes.ApplicationVndFujitsuOasys2: {
+			FileExtentions.Oa2, // Fujitsu Oasys
 		},
-		mime_type.ApplicationVndFujitsuOasys3: {
-			Oa3, // Fujitsu Oasys
+		mime_type.MimeTypes.ApplicationVndFujitsuOasys3: {
+			FileExtentions.Oa3, // Fujitsu Oasys
 		},
-		mime_type.ApplicationVndFujitsuOasysgp: {
-			Fg5, // Fujitsu Oasys
+		mime_type.MimeTypes.ApplicationVndFujitsuOasysgp: {
+			FileExtentions.Fg5, // Fujitsu Oasys
 		},
-		mime_type.ApplicationVndFujitsuOasysprs: {
-			Bh2, // Fujitsu Oasys
+		mime_type.MimeTypes.ApplicationVndFujitsuOasysprs: {
+			FileExtentions.Bh2, // Fujitsu Oasys
 		},
-		mime_type.ApplicationVndFujixeroxDdd: {
-			Ddd, // Fujitsu - Xerox 2D CAD Data
+		mime_type.MimeTypes.ApplicationVndFujixeroxDdd: {
+			FileExtentions.Ddd, // Fujitsu - Xerox 2D CAD Data
 		},
-		mime_type.ApplicationVndFujixeroxDocuworks: {
-			Xdw, // Fujitsu - Xerox DocuWorks
+		mime_type.MimeTypes.ApplicationVndFujixeroxDocuworks: {
+			FileExtentions.Xdw, // Fujitsu - Xerox DocuWorks
 		},
-		mime_type.ApplicationVndFujixeroxDocuworksBinder: {
-			Xbd, // Fujitsu - Xerox DocuWorks Binder
+		mime_type.MimeTypes.ApplicationVndFujixeroxDocuworksBinder: {
+			FileExtentions.Xbd, // Fujitsu - Xerox DocuWorks Binder
 		},
-		mime_type.ApplicationVndFuzzysheet: {
-			Fzs, // FuzzySheet
+		mime_type.MimeTypes.ApplicationVndFuzzysheet: {
+			FileExtentions.Fzs, // FuzzySheet
 		},
-		mime_type.ApplicationVndGenomatixTuxedo: {
-			Txd, // Genomatix Tuxedo Framework
+		mime_type.MimeTypes.ApplicationVndGenomatixTuxedo: {
+			FileExtentions.Txd, // Genomatix Tuxedo Framework
 		},
-		mime_type.ApplicationVndGeogebraFile: {
-			Ggb, // GeoGebra
+		mime_type.MimeTypes.ApplicationVndGeogebraFile: {
+			FileExtentions.Ggb, // GeoGebra
 		},
-		mime_type.ApplicationVndGeogebraTool: {
-			Ggt, // GeoGebra
+		mime_type.MimeTypes.ApplicationVndGeogebraTool: {
+			FileExtentions.Ggt, // GeoGebra
 		},
-		mime_type.ApplicationVndGeometryExplorer: {
-			Gex, // GeoMetry Explorer
+		mime_type.MimeTypes.ApplicationVndGeometryExplorer: {
+			FileExtentions.Gex, // GeoMetry Explorer
 		},
-		mime_type.ApplicationVndGeonext: {
-			Gxt, // GEONExT and JSXGraph
+		mime_type.MimeTypes.ApplicationVndGeonext: {
+			FileExtentions.Gxt, // GEONExT and JSXGraph
 		},
-		mime_type.ApplicationVndGeoplan: {
-			G2w, // GeoplanW
+		mime_type.MimeTypes.ApplicationVndGeoplan: {
+			FileExtentions.G2w, // GeoplanW
 		},
-		mime_type.ApplicationVndGeospace: {
-			G3w, // GeospacW
+		mime_type.MimeTypes.ApplicationVndGeospace: {
+			FileExtentions.G3w, // GeospacW
 		},
-		mime_type.ApplicationVndGmx: {
-			Gmx, // GameMaker ActiveX
+		mime_type.MimeTypes.ApplicationVndGmx: {
+			FileExtentions.Gmx, // GameMaker ActiveX
 		},
-		mime_type.ApplicationVndGoogleEarthKmlXml: {
-			Kml, // Google Earth - KML
+		mime_type.MimeTypes.ApplicationVndGoogleEarthKmlXml: {
+			FileExtentions.Kml, // Google Earth - KML
 		},
-		mime_type.ApplicationVndGoogleEarthKmz: {
-			Kmz, // Google Earth - Zipped KML
+		mime_type.MimeTypes.ApplicationVndGoogleEarthKmz: {
+			FileExtentions.Kmz, // Google Earth - Zipped KML
 		},
-		mime_type.ApplicationVndGrafeq: {
-			Gqf, // GrafEq
+		mime_type.MimeTypes.ApplicationVndGrafeq: {
+			FileExtentions.Gqf, // GrafEq
 		},
-		mime_type.ApplicationVndGrooveAccount: {
-			Gac, // Groove - Account
+		mime_type.MimeTypes.ApplicationVndGrooveAccount: {
+			FileExtentions.Gac, // Groove - Account
 		},
-		mime_type.ApplicationVndGrooveHelp: {
-			Ghf, // Groove - Help
+		mime_type.MimeTypes.ApplicationVndGrooveHelp: {
+			FileExtentions.Ghf, // Groove - Help
 		},
-		mime_type.ApplicationVndGrooveIdentityMessage: {
-			Gim, // Groove - Identity Message
+		mime_type.MimeTypes.ApplicationVndGrooveIdentityMessage: {
+			FileExtentions.Gim, // Groove - Identity Message
 		},
-		mime_type.ApplicationVndGrooveInjector: {
-			Grv, // Groove - Injector
+		mime_type.MimeTypes.ApplicationVndGrooveInjector: {
+			FileExtentions.Grv, // Groove - Injector
 		},
-		mime_type.ApplicationVndGrooveToolMessage: {
-			Gtm, // Groove - Tool Message
+		mime_type.MimeTypes.ApplicationVndGrooveToolMessage: {
+			FileExtentions.Gtm, // Groove - Tool Message
 		},
-		mime_type.ApplicationVndGrooveToolTemplate: {
-			Tpl, // Groove - Tool Template
+		mime_type.MimeTypes.ApplicationVndGrooveToolTemplate: {
+			FileExtentions.Tpl, // Groove - Tool Template
 		},
-		mime_type.ApplicationVndGrooveVcard: {
-			Vcg, // Groove - Vcard
+		mime_type.MimeTypes.ApplicationVndGrooveVcard: {
+			FileExtentions.Vcg, // Groove - Vcard
 		},
-		mime_type.ApplicationVndHalXml: {
-			Hal, // Hypertext Application Language
+		mime_type.MimeTypes.ApplicationVndHalXml: {
+			FileExtentions.Hal, // Hypertext Application Language
 		},
-		mime_type.ApplicationVndHandheldEntertainmentXml: {
-			Zmm, // ZVUE Media Manager
+		mime_type.MimeTypes.ApplicationVndHandheldEntertainmentXml: {
+			FileExtentions.Zmm, // ZVUE Media Manager
 		},
-		mime_type.ApplicationVndHbci: {
-			Hbci, // Homebanking Computer Interface (HBCI)
+		mime_type.MimeTypes.ApplicationVndHbci: {
+			FileExtentions.Hbci, // Homebanking Computer Interface (HBCI)
 		},
-		mime_type.ApplicationVndHheLessonPlayer: {
-			Les, // Archipelago Lesson Player
+		mime_type.MimeTypes.ApplicationVndHheLessonPlayer: {
+			FileExtentions.Les, // Archipelago Lesson Player
 		},
-		mime_type.ApplicationVndHpHpgl: {
-			Hpgl, // HP-GL/2 and HP RTL
+		mime_type.MimeTypes.ApplicationVndHpHpgl: {
+			FileExtentions.Hpgl, // HP-GL/2 and HP RTL
 		},
-		mime_type.ApplicationVndHpHpid: {
-			Hpid, // Hewlett Packard Instant Delivery
+		mime_type.MimeTypes.ApplicationVndHpHpid: {
+			FileExtentions.Hpid, // Hewlett Packard Instant Delivery
 		},
-		mime_type.ApplicationVndHpHps: {
-			Hps, // Hewlett-Packard's WebPrintSmart
+		mime_type.MimeTypes.ApplicationVndHpHps: {
+			FileExtentions.Hps, // Hewlett-Packard's WebPrintSmart
 		},
-		mime_type.ApplicationVndHpJlyt: {
-			Jlt, // HP Indigo Digital Press - Job Layout Languate
+		mime_type.MimeTypes.ApplicationVndHpJlyt: {
+			FileExtentions.Jlt, // HP Indigo Digital Press - Job Layout Languate
 		},
-		mime_type.ApplicationVndHpPcl: {
-			Pcl, // HP Printer Command Language
+		mime_type.MimeTypes.ApplicationVndHpPcl: {
+			FileExtentions.Pcl, // HP Printer Command Language
 		},
-		mime_type.ApplicationVndHpPclxl: {
-			Pclxl, // PCL 6 Enhanced (Formely PCL XL)
+		mime_type.MimeTypes.ApplicationVndHpPclxl: {
+			FileExtentions.Pclxl, // PCL 6 Enhanced (Formely PCL XL)
 		},
-		mime_type.ApplicationVndHydrostatixSofData: {
-			SfdHdstx, // Hydrostatix Master Suite
+		mime_type.MimeTypes.ApplicationVndHydrostatixSofData: {
+			FileExtentions.SfdHdstx, // Hydrostatix Master Suite
 		},
-		mime_type.ApplicationVndHzn3dCrossword: {
-			X3d, // 3D Crossword Plugin
+		mime_type.MimeTypes.ApplicationVndHzn3dCrossword: {
+			FileExtentions.X3d, // 3D Crossword Plugin
 		},
-		mime_type.ApplicationVndIbmMinipay: {
-			Mpy, // MiniPay
+		mime_type.MimeTypes.ApplicationVndIbmMinipay: {
+			FileExtentions.Mpy, // MiniPay
 		},
-		mime_type.ApplicationVndIbmModcap: {
-			Afp, // MO:DCA-P
+		mime_type.MimeTypes.ApplicationVndIbmModcap: {
+			FileExtentions.Afp, // MO:DCA-P
 		},
-		mime_type.ApplicationVndIbmRightsManagement: {
-			Irm, // IBM DB2 Rights Manager
+		mime_type.MimeTypes.ApplicationVndIbmRightsManagement: {
+			FileExtentions.Irm, // IBM DB2 Rights Manager
 		},
-		mime_type.ApplicationVndIccprofile: {
-			Icc, // ICC profile
+		mime_type.MimeTypes.ApplicationVndIccprofile: {
+			FileExtentions.Icc, // ICC profile
 		},
-		mime_type.ApplicationVndIgloader: {
-			Igl, // igLoader
+		mime_type.MimeTypes.ApplicationVndIgloader: {
+			FileExtentions.Igl, // igLoader
 		},
-		mime_type.ApplicationVndImmervisionIvp: {
-			Ivp, // ImmerVision PURE Players
+		mime_type.MimeTypes.ApplicationVndImmervisionIvp: {
+			FileExtentions.Ivp, // ImmerVision PURE Players
 		},
-		mime_type.ApplicationVndImmervisionIvu: {
-			Ivu, // ImmerVision PURE Players
+		mime_type.MimeTypes.ApplicationVndImmervisionIvu: {
+			FileExtentions.Ivu, // ImmerVision PURE Players
 		},
-		mime_type.ApplicationVndInsorsIgm: {
-			Igm, // IOCOM Visimeet
+		mime_type.MimeTypes.ApplicationVndInsorsIgm: {
+			FileExtentions.Igm, // IOCOM Visimeet
 		},
-		mime_type.ApplicationVndInterconFormnet: {
-			Xpw, // Intercon FormNet
+		mime_type.MimeTypes.ApplicationVndInterconFormnet: {
+			FileExtentions.Xpw, // Intercon FormNet
 		},
-		mime_type.ApplicationVndIntergeo: {
-			I2g, // Interactive Geometry Software
+		mime_type.MimeTypes.ApplicationVndIntergeo: {
+			FileExtentions.I2g, // Interactive Geometry Software
 		},
-		mime_type.ApplicationVndIntuQbo: {
-			Qbo, // Open Financial Exchange
+		mime_type.MimeTypes.ApplicationVndIntuQbo: {
+			FileExtentions.Qbo, // Open Financial Exchange
 		},
-		mime_type.ApplicationVndIntuQfx: {
-			Qfx, // Quicken
+		mime_type.MimeTypes.ApplicationVndIntuQfx: {
+			FileExtentions.Qfx, // Quicken
 		},
-		mime_type.ApplicationVndIpunpluggedRcprofile: {
-			Rcprofile, // IP Unplugged Roaming Client
+		mime_type.MimeTypes.ApplicationVndIpunpluggedRcprofile: {
+			FileExtentions.Rcprofile, // IP Unplugged Roaming Client
 		},
-		mime_type.ApplicationVndIrepositoryPackageXml: {
-			Irp, // iRepository / Lucidoc Editor
+		mime_type.MimeTypes.ApplicationVndIrepositoryPackageXml: {
+			FileExtentions.Irp, // iRepository / Lucidoc Editor
 		},
-		mime_type.ApplicationVndIsXpr: {
-			Xpr, // Express by Infoseek
+		mime_type.MimeTypes.ApplicationVndIsXpr: {
+			FileExtentions.Xpr, // Express by Infoseek
 		},
-		mime_type.ApplicationVndIsacFcs: {
-			Fcs, // International Society for Advancement of Cytometry
+		mime_type.MimeTypes.ApplicationVndIsacFcs: {
+			FileExtentions.Fcs, // International Society for Advancement of Cytometry
 		},
-		mime_type.ApplicationVndJam: {
-			Jam, // Lightspeed Audio Lab
+		mime_type.MimeTypes.ApplicationVndJam: {
+			FileExtentions.Jam, // Lightspeed Audio Lab
 		},
-		mime_type.ApplicationVndJcpJavameMidletRms: {
-			Rms, // Mobile Information Device Profile
+		mime_type.MimeTypes.ApplicationVndJcpJavameMidletRms: {
+			FileExtentions.Rms, // Mobile Information Device Profile
 		},
-		mime_type.ApplicationVndJisp: {
-			Jisp, // RhymBox
+		mime_type.MimeTypes.ApplicationVndJisp: {
+			FileExtentions.Jisp, // RhymBox
 		},
-		mime_type.ApplicationVndJoostJodaArchive: {
-			Joda, // Joda Archive
+		mime_type.MimeTypes.ApplicationVndJoostJodaArchive: {
+			FileExtentions.Joda, // Joda Archive
 		},
-		mime_type.ApplicationVndKahootz: {
-			Ktz, // Kahootz
+		mime_type.MimeTypes.ApplicationVndKahootz: {
+			FileExtentions.Ktz, // Kahootz
 		},
-		mime_type.ApplicationVndKdeKarbon: {
-			Karbon, // KDE KOffice Office Suite - Karbon
+		mime_type.MimeTypes.ApplicationVndKdeKarbon: {
+			FileExtentions.Karbon, // KDE KOffice Office Suite - Karbon
 		},
-		mime_type.ApplicationVndKdeKchart: {
-			Chrt, // KDE KOffice Office Suite - KChart
+		mime_type.MimeTypes.ApplicationVndKdeKchart: {
+			FileExtentions.Chrt, // KDE KOffice Office Suite - KChart
 		},
-		mime_type.ApplicationVndKdeKformula: {
-			Kfo, // KDE KOffice Office Suite - Kformula
+		mime_type.MimeTypes.ApplicationVndKdeKformula: {
+			FileExtentions.Kfo, // KDE KOffice Office Suite - Kformula
 		},
-		mime_type.ApplicationVndKdeKivio: {
-			Flw, // KDE KOffice Office Suite - Kivio
+		mime_type.MimeTypes.ApplicationVndKdeKivio: {
+			FileExtentions.Flw, // KDE KOffice Office Suite - Kivio
 		},
-		mime_type.ApplicationVndKdeKontour: {
-			Kon, // KDE KOffice Office Suite - Kontour
+		mime_type.MimeTypes.ApplicationVndKdeKontour: {
+			FileExtentions.Kon, // KDE KOffice Office Suite - Kontour
 		},
-		mime_type.ApplicationVndKdeKpresenter: {
-			Kpr, // KDE KOffice Office Suite - Kpresenter
+		mime_type.MimeTypes.ApplicationVndKdeKpresenter: {
+			FileExtentions.Kpr, // KDE KOffice Office Suite - Kpresenter
 		},
-		mime_type.ApplicationVndKdeKspread: {
-			Ksp, // KDE KOffice Office Suite - Kspread
+		mime_type.MimeTypes.ApplicationVndKdeKspread: {
+			FileExtentions.Ksp, // KDE KOffice Office Suite - Kspread
 		},
-		mime_type.ApplicationVndKdeKword: {
-			Kwd, // KDE KOffice Office Suite - Kword
+		mime_type.MimeTypes.ApplicationVndKdeKword: {
+			FileExtentions.Kwd, // KDE KOffice Office Suite - Kword
 		},
-		mime_type.ApplicationVndKenameaapp: {
-			Htke, // Kenamea App
+		mime_type.MimeTypes.ApplicationVndKenameaapp: {
+			FileExtentions.Htke, // Kenamea App
 		},
-		mime_type.ApplicationVndKidspiration: {
-			Kia, // Kidspiration
+		mime_type.MimeTypes.ApplicationVndKidspiration: {
+			FileExtentions.Kia, // Kidspiration
 		},
-		mime_type.ApplicationVndKinar: {
-			Kne, // Kinar Applications
+		mime_type.MimeTypes.ApplicationVndKinar: {
+			FileExtentions.Kne, // Kinar Applications
 		},
-		mime_type.ApplicationVndKoan: {
-			Skp, // SSEYO Koan Play File
+		mime_type.MimeTypes.ApplicationVndKoan: {
+			FileExtentions.Skp, // SSEYO Koan Play File
 		},
-		mime_type.ApplicationVndKodakDescriptor: {
-			Sse, // Kodak Storyshare
+		mime_type.MimeTypes.ApplicationVndKodakDescriptor: {
+			FileExtentions.Sse, // Kodak Storyshare
 		},
-		mime_type.ApplicationVndLasLasXml: {
-			Lasxml, // Laser App Enterprise
+		mime_type.MimeTypes.ApplicationVndLasLasXml: {
+			FileExtentions.Lasxml, // Laser App Enterprise
 		},
-		mime_type.ApplicationVndLlamagraphicsLifeBalanceDesktop: {
-			Lbd, // Life Balance - Desktop Edition
+		mime_type.MimeTypes.ApplicationVndLlamagraphicsLifeBalanceDesktop: {
+			FileExtentions.Lbd, // Life Balance - Desktop Edition
 		},
-		mime_type.ApplicationVndLlamagraphicsLifeBalanceExchangeXml: {
-			Lbe, // Life Balance - Exchange Format
+		mime_type.MimeTypes.ApplicationVndLlamagraphicsLifeBalanceExchangeXml: {
+			FileExtentions.Lbe, // Life Balance - Exchange Format
 		},
-		mime_type.ApplicationVndLotus123: {
-			_123, // Lotus 1-2-3
+		mime_type.MimeTypes.ApplicationVndLotus123: {
+			FileExtentions._123, // Lotus 1-2-3
 		},
-		mime_type.ApplicationVndLotusApproach: {
-			Apr, // Lotus Approach
+		mime_type.MimeTypes.ApplicationVndLotusApproach: {
+			FileExtentions.Apr, // Lotus Approach
 		},
-		mime_type.ApplicationVndLotusFreelance: {
-			Pre, // Lotus Freelance
+		mime_type.MimeTypes.ApplicationVndLotusFreelance: {
+			FileExtentions.Pre, // Lotus Freelance
 		},
-		mime_type.ApplicationVndLotusNotes: {
-			Nsf, // Lotus Notes
+		mime_type.MimeTypes.ApplicationVndLotusNotes: {
+			FileExtentions.Nsf, // Lotus Notes
 		},
-		mime_type.ApplicationVndLotusOrganizer: {
-			Org, // Lotus Organizer
+		mime_type.MimeTypes.ApplicationVndLotusOrganizer: {
+			FileExtentions.Org, // Lotus Organizer
 		},
-		mime_type.ApplicationVndLotusWordpro: {
-			Lwp, // Lotus Wordpro
+		mime_type.MimeTypes.ApplicationVndLotusWordpro: {
+			FileExtentions.Lwp, // Lotus Wordpro
 		},
-		mime_type.ApplicationVndMacportsPortpkg: {
-			Portpkg, // MacPorts Port System
+		mime_type.MimeTypes.ApplicationVndMacportsPortpkg: {
+			FileExtentions.Portpkg, // MacPorts Port System
 		},
-		mime_type.ApplicationVndMcd: {
-			Mcd, // Micro CADAM Helix D&D
+		mime_type.MimeTypes.ApplicationVndMcd: {
+			FileExtentions.Mcd, // Micro CADAM Helix D&D
 		},
-		mime_type.ApplicationVndMedcalcdata: {
-			Mc1, // MedCalc
+		mime_type.MimeTypes.ApplicationVndMedcalcdata: {
+			FileExtentions.Mc1, // MedCalc
 		},
-		mime_type.ApplicationVndMediastationCdkey: {
-			Cdkey, // MediaRemote
+		mime_type.MimeTypes.ApplicationVndMediastationCdkey: {
+			FileExtentions.Cdkey, // MediaRemote
 		},
-		mime_type.ApplicationVndMfer: {
-			Mwf, // Medical Waveform Encoding Format
+		mime_type.MimeTypes.ApplicationVndMfer: {
+			FileExtentions.Mwf, // Medical Waveform Encoding Format
 		},
-		mime_type.ApplicationVndMfmp: {
-			Mfm, // Melody Format for Mobile Platform
+		mime_type.MimeTypes.ApplicationVndMfmp: {
+			FileExtentions.Mfm, // Melody Format for Mobile Platform
 		},
-		mime_type.ApplicationVndMicrografxFlo: {
-			Flo, // Micrografx
+		mime_type.MimeTypes.ApplicationVndMicrografxFlo: {
+			FileExtentions.Flo, // Micrografx
 		},
-		mime_type.ApplicationVndMicrografxIgx: {
-			Igx, // Micrografx iGrafx Professional
+		mime_type.MimeTypes.ApplicationVndMicrografxIgx: {
+			FileExtentions.Igx, // Micrografx iGrafx Professional
 		},
-		mime_type.ApplicationVndMif: {
-			Mif, // FrameMaker Interchange Format
+		mime_type.MimeTypes.ApplicationVndMif: {
+			FileExtentions.Mif, // FrameMaker Interchange Format
 		},
-		mime_type.ApplicationVndMobiusDaf: {
-			Daf, // Mobius Management Systems - UniversalArchive
+		mime_type.MimeTypes.ApplicationVndMobiusDaf: {
+			FileExtentions.Daf, // Mobius Management Systems - UniversalArchive
 		},
-		mime_type.ApplicationVndMobiusDis: {
-			Dis, // Mobius Management Systems - Distribution Database
+		mime_type.MimeTypes.ApplicationVndMobiusDis: {
+			FileExtentions.Dis, // Mobius Management Systems - Distribution Database
 		},
-		mime_type.ApplicationVndMobiusMbk: {
-			Mbk, // Mobius Management Systems - Basket file
+		mime_type.MimeTypes.ApplicationVndMobiusMbk: {
+			FileExtentions.Mbk, // Mobius Management Systems - Basket file
 		},
-		mime_type.ApplicationVndMobiusMqy: {
-			Mqy, // Mobius Management Systems - Query File
+		mime_type.MimeTypes.ApplicationVndMobiusMqy: {
+			FileExtentions.Mqy, // Mobius Management Systems - Query File
 		},
-		mime_type.ApplicationVndMobiusMsl: {
-			Msl, // Mobius Management Systems - Script Language
+		mime_type.MimeTypes.ApplicationVndMobiusMsl: {
+			FileExtentions.Msl, // Mobius Management Systems - Script Language
 		},
-		mime_type.ApplicationVndMobiusPlc: {
-			Plc, // Mobius Management Systems - Policy Definition Language File
+		mime_type.MimeTypes.ApplicationVndMobiusPlc: {
+			FileExtentions.Plc, // Mobius Management Systems - Policy Definition Language File
 		},
-		mime_type.ApplicationVndMobiusTxf: {
-			Txf, // Mobius Management Systems - Topic Index File
+		mime_type.MimeTypes.ApplicationVndMobiusTxf: {
+			FileExtentions.Txf, // Mobius Management Systems - Topic Index File
 		},
-		mime_type.ApplicationVndMophunApplication: {
-			Mpn, // Mophun VM
+		mime_type.MimeTypes.ApplicationVndMophunApplication: {
+			FileExtentions.Mpn, // Mophun VM
 		},
-		mime_type.ApplicationVndMophunCertificate: {
-			Mpc, // Mophun Certificate
+		mime_type.MimeTypes.ApplicationVndMophunCertificate: {
+			FileExtentions.Mpc, // Mophun Certificate
 		},
-		mime_type.ApplicationVndMozillaXulXml: {
-			Xul, // XUL - XML User Interface Language
+		mime_type.MimeTypes.ApplicationVndMozillaXulXml: {
+			FileExtentions.Xul, // XUL - XML User Interface Language
 		},
-		mime_type.ApplicationVndMsArtgalry: {
-			Cil, // Microsoft Artgalry
+		mime_type.MimeTypes.ApplicationVndMsArtgalry: {
+			FileExtentions.Cil, // Microsoft Artgalry
 		},
-		mime_type.ApplicationVndMsCabCompressed: {
-			Cab, // Microsoft Cabinet File
+		mime_type.MimeTypes.ApplicationVndMsCabCompressed: {
+			FileExtentions.Cab, // Microsoft Cabinet File
 		},
-		mime_type.ApplicationVndMsExcel: {
-			Xls, // Microsoft Excel
+		mime_type.MimeTypes.ApplicationVndMsExcel: {
+			FileExtentions.Xls, // Microsoft Excel
 		},
-		mime_type.ApplicationVndMsExcelAddinMacroenabled12: {
-			Xlam, // Microsoft Excel - Add-In File
+		mime_type.MimeTypes.ApplicationVndMsExcelAddinMacroenabled12: {
+			FileExtentions.Xlam, // Microsoft Excel - Add-In File
 		},
-		mime_type.ApplicationVndMsExcelSheetBinaryMacroenabled12: {
-			Xlsb, // Microsoft Excel - Binary Workbook
+		mime_type.MimeTypes.ApplicationVndMsExcelSheetBinaryMacroenabled12: {
+			FileExtentions.Xlsb, // Microsoft Excel - Binary Workbook
 		},
-		mime_type.ApplicationVndMsExcelSheetMacroenabled12: {
-			Xlsm, // Microsoft Excel - Macro-Enabled Workbook
+		mime_type.MimeTypes.ApplicationVndMsExcelSheetMacroenabled12: {
+			FileExtentions.Xlsm, // Microsoft Excel - Macro-Enabled Workbook
 		},
-		mime_type.ApplicationVndMsExcelTemplateMacroenabled12: {
-			Xltm, // Microsoft Excel - Macro-Enabled Template File
+		mime_type.MimeTypes.ApplicationVndMsExcelTemplateMacroenabled12: {
+			FileExtentions.Xltm, // Microsoft Excel - Macro-Enabled Template File
 		},
-		mime_type.ApplicationVndMsFontobject: {
-			Eot, // Microsoft Embedded OpenType
+		mime_type.MimeTypes.ApplicationVndMsFontobject: {
+			FileExtentions.Eot, // Microsoft Embedded OpenType
 		},
-		mime_type.ApplicationVndMsHtmlhelp: {
-			Chm, // Microsoft Html Help File
+		mime_type.MimeTypes.ApplicationVndMsHtmlhelp: {
+			FileExtentions.Chm, // Microsoft Html Help File
 		},
-		mime_type.ApplicationVndMsIms: {
-			Ims, // Microsoft Class Server
+		mime_type.MimeTypes.ApplicationVndMsIms: {
+			FileExtentions.Ims, // Microsoft Class Server
 		},
-		mime_type.ApplicationVndMsLrm: {
-			Lrm, // Microsoft Learning Resource Module
+		mime_type.MimeTypes.ApplicationVndMsLrm: {
+			FileExtentions.Lrm, // Microsoft Learning Resource Module
 		},
-		mime_type.ApplicationVndMsOfficetheme: {
-			Thmx, // Microsoft Office System Release Theme
+		mime_type.MimeTypes.ApplicationVndMsOfficetheme: {
+			FileExtentions.Thmx, // Microsoft Office System Release Theme
 		},
-		mime_type.ApplicationVndMsPkiSeccat: {
-			Cat, // Microsoft Trust UI Provider - Security Catalog
+		mime_type.MimeTypes.ApplicationVndMsPkiSeccat: {
+			FileExtentions.Cat, // Microsoft Trust UI Provider - Security Catalog
 		},
-		mime_type.ApplicationVndMsPkiStl: {
-			Stl, // Microsoft Trust UI Provider - Certificate Trust Link
+		mime_type.MimeTypes.ApplicationVndMsPkiStl: {
+			FileExtentions.Stl, // Microsoft Trust UI Provider - Certificate Trust Link
 		},
-		mime_type.ApplicationVndMsPowerpoint: {
-			Ppt, // Microsoft PowerPoint
+		mime_type.MimeTypes.ApplicationVndMsPowerpoint: {
+			FileExtentions.Ppt, // Microsoft PowerPoint
 		},
-		mime_type.ApplicationVndMsPowerpointAddinMacroenabled12: {
-			Ppam, // Microsoft PowerPoint - Add-in file
+		mime_type.MimeTypes.ApplicationVndMsPowerpointAddinMacroenabled12: {
+			FileExtentions.Ppam, // Microsoft PowerPoint - Add-in file
 		},
-		mime_type.ApplicationVndMsPowerpointPresentationMacroenabled12: {
-			Pptm, // Microsoft PowerPoint - Macro-Enabled Presentation File
+		mime_type.MimeTypes.ApplicationVndMsPowerpointPresentationMacroenabled12: {
+			FileExtentions.Pptm, // Microsoft PowerPoint - Macro-Enabled Presentation File
 		},
-		mime_type.ApplicationVndMsPowerpointSlideMacroenabled12: {
-			Sldm, // Microsoft PowerPoint - Macro-Enabled Open XML Slide
+		mime_type.MimeTypes.ApplicationVndMsPowerpointSlideMacroenabled12: {
+			FileExtentions.Sldm, // Microsoft PowerPoint - Macro-Enabled Open XML Slide
 		},
-		mime_type.ApplicationVndMsPowerpointSlideshowMacroenabled12: {
-			Ppsm, // Microsoft PowerPoint - Macro-Enabled Slide Show File
+		mime_type.MimeTypes.ApplicationVndMsPowerpointSlideshowMacroenabled12: {
+			FileExtentions.Ppsm, // Microsoft PowerPoint - Macro-Enabled Slide Show File
 		},
-		mime_type.ApplicationVndMsPowerpointTemplateMacroenabled12: {
-			Potm, // Microsoft PowerPoint - Macro-Enabled Template File
+		mime_type.MimeTypes.ApplicationVndMsPowerpointTemplateMacroenabled12: {
+			FileExtentions.Potm, // Microsoft PowerPoint - Macro-Enabled Template File
 		},
-		mime_type.ApplicationVndMsProject: {
-			Mpp, // Microsoft Project
+		mime_type.MimeTypes.ApplicationVndMsProject: {
+			FileExtentions.Mpp, // Microsoft Project
 		},
-		mime_type.ApplicationVndMsWordDocumentMacroenabled12: {
-			Docm, // Microsoft Word - Macro-Enabled Document
+		mime_type.MimeTypes.ApplicationVndMsWordDocumentMacroenabled12: {
+			FileExtentions.Docm, // Microsoft Word - Macro-Enabled Document
 		},
-		mime_type.ApplicationVndMsWordTemplateMacroenabled12: {
-			Dotm, // Microsoft Word - Macro-Enabled Template
+		mime_type.MimeTypes.ApplicationVndMsWordTemplateMacroenabled12: {
+			FileExtentions.Dotm, // Microsoft Word - Macro-Enabled Template
 		},
-		mime_type.ApplicationVndMsWorks: {
-			Wps, // Microsoft Works
+		mime_type.MimeTypes.ApplicationVndMsWorks: {
+			FileExtentions.Wps, // Microsoft Works
 		},
-		mime_type.ApplicationVndMsWpl: {
-			Wpl, // Microsoft Windows Media Player Playlist
+		mime_type.MimeTypes.ApplicationVndMsWpl: {
+			FileExtentions.Wpl, // Microsoft Windows Media Player Playlist
 		},
-		mime_type.ApplicationVndMsXpsdocument: {
-			Xps, // Microsoft XML Paper Specification
+		mime_type.MimeTypes.ApplicationVndMsXpsdocument: {
+			FileExtentions.Xps, // Microsoft XML Paper Specification
 		},
-		mime_type.ApplicationVndMseq: {
-			Mseq, // 3GPP MSEQ File
+		mime_type.MimeTypes.ApplicationVndMseq: {
+			FileExtentions.Mseq, // 3GPP MSEQ File
 		},
-		mime_type.ApplicationVndMusician: {
-			Mus, // MUsical Score Interpreted Code Invented for the ASCII designation of Notation
+		mime_type.MimeTypes.ApplicationVndMusician: {
+			FileExtentions.Mus, // MUsical Score Interpreted Code Invented for the ASCII designation of Notation
 		},
-		mime_type.ApplicationVndMuveeStyle: {
-			Msty, // Muvee Automatic Video Editing
+		mime_type.MimeTypes.ApplicationVndMuveeStyle: {
+			FileExtentions.Msty, // Muvee Automatic Video Editing
 		},
-		mime_type.ApplicationVndNeurolanguageNlu: {
-			Nlu, // neuroLanguage
+		mime_type.MimeTypes.ApplicationVndNeurolanguageNlu: {
+			FileExtentions.Nlu, // neuroLanguage
 		},
-		mime_type.ApplicationVndNoblenetDirectory: {
-			Nnd, // NobleNet Directory
+		mime_type.MimeTypes.ApplicationVndNoblenetDirectory: {
+			FileExtentions.Nnd, // NobleNet Directory
 		},
-		mime_type.ApplicationVndNoblenetSealer: {
-			Nns, // NobleNet Sealer
+		mime_type.MimeTypes.ApplicationVndNoblenetSealer: {
+			FileExtentions.Nns, // NobleNet Sealer
 		},
-		mime_type.ApplicationVndNoblenetWeb: {
-			Nnw, // NobleNet Web
+		mime_type.MimeTypes.ApplicationVndNoblenetWeb: {
+			FileExtentions.Nnw, // NobleNet Web
 		},
-		mime_type.ApplicationVndNokiaNGageData: {
-			Ngdat, // N-Gage Game Data
+		mime_type.MimeTypes.ApplicationVndNokiaNGageData: {
+			FileExtentions.Ngdat, // N-Gage Game Data
 		},
-		mime_type.ApplicationVndNokiaNGageSymbianInstall: {
-			NGage, // N-Gage Game Installer
+		mime_type.MimeTypes.ApplicationVndNokiaNGageSymbianInstall: {
+			FileExtentions.NGage, // N-Gage Game Installer
 		},
-		mime_type.ApplicationVndNokiaRadioPreset: {
-			Rpst, // Nokia Radio Application - Preset
+		mime_type.MimeTypes.ApplicationVndNokiaRadioPreset: {
+			FileExtentions.Rpst, // Nokia Radio Application - Preset
 		},
-		mime_type.ApplicationVndNokiaRadioPresets: {
-			Rpss, // Nokia Radio Application - Preset
+		mime_type.MimeTypes.ApplicationVndNokiaRadioPresets: {
+			FileExtentions.Rpss, // Nokia Radio Application - Preset
 		},
-		mime_type.ApplicationVndNovadigmEdm: {
-			Edm, // Novadigm's RADIA and EDM products
+		mime_type.MimeTypes.ApplicationVndNovadigmEdm: {
+			FileExtentions.Edm, // Novadigm's RADIA and EDM products
 		},
-		mime_type.ApplicationVndNovadigmEdx: {
-			Edx, // Novadigm's RADIA and EDM products
+		mime_type.MimeTypes.ApplicationVndNovadigmEdx: {
+			FileExtentions.Edx, // Novadigm's RADIA and EDM products
 		},
-		mime_type.ApplicationVndNovadigmExt: {
-			Ext, // Novadigm's RADIA and EDM products
+		mime_type.MimeTypes.ApplicationVndNovadigmExt: {
+			FileExtentions.Ext, // Novadigm's RADIA and EDM products
 		},
-		mime_type.ApplicationVndOasisOpendocumentChart: {
-			Odc, // OpenDocument Chart
+		mime_type.MimeTypes.ApplicationVndOasisOpendocumentChart: {
+			FileExtentions.Odc, // OpenDocument Chart
 		},
-		mime_type.ApplicationVndOasisOpendocumentChartTemplate: {
-			Otc, // OpenDocument Chart Template
+		mime_type.MimeTypes.ApplicationVndOasisOpendocumentChartTemplate: {
+			FileExtentions.Otc, // OpenDocument Chart Template
 		},
-		mime_type.ApplicationVndOasisOpendocumentDatabase: {
-			Odb, // OpenDocument Database
+		mime_type.MimeTypes.ApplicationVndOasisOpendocumentDatabase: {
+			FileExtentions.Odb, // OpenDocument Database
 		},
-		mime_type.ApplicationVndOasisOpendocumentFormula: {
-			Odf, // OpenDocument Formula
+		mime_type.MimeTypes.ApplicationVndOasisOpendocumentFormula: {
+			FileExtentions.Odf, // OpenDocument Formula
 		},
-		mime_type.ApplicationVndOasisOpendocumentFormulaTemplate: {
-			Odft, // OpenDocument Formula Template
+		mime_type.MimeTypes.ApplicationVndOasisOpendocumentFormulaTemplate: {
+			FileExtentions.Odft, // OpenDocument Formula Template
 		},
-		mime_type.ApplicationVndOasisOpendocumentGraphics: {
-			Odg, // OpenDocument Graphics
+		mime_type.MimeTypes.ApplicationVndOasisOpendocumentGraphics: {
+			FileExtentions.Odg, // OpenDocument Graphics
 		},
-		mime_type.ApplicationVndOasisOpendocumentGraphicsTemplate: {
-			Otg, // OpenDocument Graphics Template
+		mime_type.MimeTypes.ApplicationVndOasisOpendocumentGraphicsTemplate: {
+			FileExtentions.Otg, // OpenDocument Graphics Template
 		},
-		mime_type.ApplicationVndOasisOpendocumentImage: {
-			Odi, // OpenDocument Image
+		mime_type.MimeTypes.ApplicationVndOasisOpendocumentImage: {
+			FileExtentions.Odi, // OpenDocument Image
 		},
-		mime_type.ApplicationVndOasisOpendocumentImageTemplate: {
-			Oti, // OpenDocument Image Template
+		mime_type.MimeTypes.ApplicationVndOasisOpendocumentImageTemplate: {
+			FileExtentions.Oti, // OpenDocument Image Template
 		},
-		mime_type.ApplicationVndOasisOpendocumentPresentation: {
-			Odp, // OpenDocument Presentation
+		mime_type.MimeTypes.ApplicationVndOasisOpendocumentPresentation: {
+			FileExtentions.Odp, // OpenDocument Presentation
 		},
-		mime_type.ApplicationVndOasisOpendocumentPresentationTemplate: {
-			Otp, // OpenDocument Presentation Template
+		mime_type.MimeTypes.ApplicationVndOasisOpendocumentPresentationTemplate: {
+			FileExtentions.Otp, // OpenDocument Presentation Template
 		},
-		mime_type.ApplicationVndOasisOpendocumentSpreadsheet: {
-			Ods, // OpenDocument Spreadsheet
+		mime_type.MimeTypes.ApplicationVndOasisOpendocumentSpreadsheet: {
+			FileExtentions.Ods, // OpenDocument Spreadsheet
 		},
-		mime_type.ApplicationVndOasisOpendocumentSpreadsheetTemplate: {
-			Ots, // OpenDocument Spreadsheet Template
+		mime_type.MimeTypes.ApplicationVndOasisOpendocumentSpreadsheetTemplate: {
+			FileExtentions.Ots, // OpenDocument Spreadsheet Template
 		},
-		mime_type.ApplicationVndOasisOpendocumentText: {
-			Odt, // OpenDocument Text
+		mime_type.MimeTypes.ApplicationVndOasisOpendocumentText: {
+			FileExtentions.Odt, // OpenDocument Text
 		},
-		mime_type.ApplicationVndOasisOpendocumentTextMaster: {
-			Odm, // OpenDocument Text Master
+		mime_type.MimeTypes.ApplicationVndOasisOpendocumentTextMaster: {
+			FileExtentions.Odm, // OpenDocument Text Master
 		},
-		mime_type.ApplicationVndOasisOpendocumentTextTemplate: {
-			Ott, // OpenDocument Text Template
+		mime_type.MimeTypes.ApplicationVndOasisOpendocumentTextTemplate: {
+			FileExtentions.Ott, // OpenDocument Text Template
 		},
-		mime_type.ApplicationVndOasisOpendocumentTextWeb: {
-			Oth, // Open Document Text Web
+		mime_type.MimeTypes.ApplicationVndOasisOpendocumentTextWeb: {
+			FileExtentions.Oth, // Open Document Text Web
 		},
-		mime_type.ApplicationVndOlpcSugar: {
-			Xo, // Sugar Linux Application Bundle
+		mime_type.MimeTypes.ApplicationVndOlpcSugar: {
+			FileExtentions.Xo, // Sugar Linux Application Bundle
 		},
-		mime_type.ApplicationVndOmaDd2Xml: {
-			Dd2, // OMA Download Agents
+		mime_type.MimeTypes.ApplicationVndOmaDd2Xml: {
+			FileExtentions.Dd2, // OMA Download Agents
 		},
-		mime_type.ApplicationVndOpenofficeorgExtension: {
-			Oxt, // Open Office Extension
+		mime_type.MimeTypes.ApplicationVndOpenofficeorgExtension: {
+			FileExtentions.Oxt, // Open Office Extension
 		},
-		mime_type.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlPresentation: {
-			Pptx, // Microsoft Office - OOXML - Presentation
+		mime_type.MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlPresentation: {
+			FileExtentions.Pptx, // Microsoft Office - OOXML - Presentation
 		},
-		mime_type.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlide: {
-			Sldx, // Microsoft Office - OOXML - Presentation (Slide)
+		mime_type.MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlide: {
+			FileExtentions.Sldx, // Microsoft Office - OOXML - Presentation (Slide)
 		},
-		mime_type.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlideshow: {
-			Ppsx, // Microsoft Office - OOXML - Presentation (Slideshow)
+		mime_type.MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlSlideshow: {
+			FileExtentions.Ppsx, // Microsoft Office - OOXML - Presentation (Slideshow)
 		},
-		mime_type.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlTemplate: {
-			Potx, // Microsoft Office - OOXML - Presentation Template
+		mime_type.MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentPresentationmlTemplate: {
+			FileExtentions.Potx, // Microsoft Office - OOXML - Presentation Template
 		},
-		mime_type.ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlSheet: {
-			Xlsx, // Microsoft Office - OOXML - Spreadsheet
+		mime_type.MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlSheet: {
+			FileExtentions.Xlsx, // Microsoft Office - OOXML - Spreadsheet
 		},
-		mime_type.ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlTemplate: {
-			Xltx, // Microsoft Office - OOXML - Spreadsheet Template
+		mime_type.MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlTemplate: {
+			FileExtentions.Xltx, // Microsoft Office - OOXML - Spreadsheet Template
 		},
-		mime_type.ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlDocument: {
-			Docx, // Microsoft Office - OOXML - Word Document
+		mime_type.MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlDocument: {
+			FileExtentions.Docx, // Microsoft Office - OOXML - Word Document
 		},
-		mime_type.ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlTemplate: {
-			Dotx, // Microsoft Office - OOXML - Word Document Template
+		mime_type.MimeTypes.ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlTemplate: {
+			FileExtentions.Dotx, // Microsoft Office - OOXML - Word Document Template
 		},
-		mime_type.ApplicationVndOsgeoMapguidePackage: {
-			Mgp, // MapGuide DBXML
+		mime_type.MimeTypes.ApplicationVndOsgeoMapguidePackage: {
+			FileExtentions.Mgp, // MapGuide DBXML
 		},
-		mime_type.ApplicationVndOsgiDp: {
-			Dp, // OSGi Deployment Package
+		mime_type.MimeTypes.ApplicationVndOsgiDp: {
+			FileExtentions.Dp, // OSGi Deployment Package
 		},
-		mime_type.ApplicationVndPalm: {
-			Pdb, // PalmOS Data
+		mime_type.MimeTypes.ApplicationVndPalm: {
+			FileExtentions.Pdb, // PalmOS Data
 		},
-		mime_type.ApplicationVndPawaafile: {
-			Paw, // PawaaFILE
+		mime_type.MimeTypes.ApplicationVndPawaafile: {
+			FileExtentions.Paw, // PawaaFILE
 		},
-		mime_type.ApplicationVndPgFormat: {
-			Str, // Proprietary P&G Standard Reporting System
+		mime_type.MimeTypes.ApplicationVndPgFormat: {
+			FileExtentions.Str, // Proprietary P&G Standard Reporting System
 		},
-		mime_type.ApplicationVndPgOsasli: {
-			Ei6, // Proprietary P&G Standard Reporting System
+		mime_type.MimeTypes.ApplicationVndPgOsasli: {
+			FileExtentions.Ei6, // Proprietary P&G Standard Reporting System
 		},
-		mime_type.ApplicationVndPicsel: {
-			Efif, // Pcsel eFIF File
+		mime_type.MimeTypes.ApplicationVndPicsel: {
+			FileExtentions.Efif, // Pcsel eFIF File
 		},
-		mime_type.ApplicationVndPmiWidget: {
-			Wg, // Qualcomm's Plaza Mobile Internet
+		mime_type.MimeTypes.ApplicationVndPmiWidget: {
+			FileExtentions.Wg, // Qualcomm's Plaza Mobile Internet
 		},
-		mime_type.ApplicationVndPocketlearn: {
-			Plf, // PocketLearn Viewers
+		mime_type.MimeTypes.ApplicationVndPocketlearn: {
+			FileExtentions.Plf, // PocketLearn Viewers
 		},
-		mime_type.ApplicationVndPowerbuilder6: {
-			Pbd, // PowerBuilder
+		mime_type.MimeTypes.ApplicationVndPowerbuilder6: {
+			FileExtentions.Pbd, // PowerBuilder
 		},
-		mime_type.ApplicationVndPreviewsystemsBox: {
-			Box, // Preview Systems ZipLock/VBox
+		mime_type.MimeTypes.ApplicationVndPreviewsystemsBox: {
+			FileExtentions.Box, // Preview Systems ZipLock/VBox
 		},
-		mime_type.ApplicationVndProteusMagazine: {
-			Mgz, // EFI Proteus
+		mime_type.MimeTypes.ApplicationVndProteusMagazine: {
+			FileExtentions.Mgz, // EFI Proteus
 		},
-		mime_type.ApplicationVndPublishareDeltaTree: {
-			Qps, // PubliShare Objects
+		mime_type.MimeTypes.ApplicationVndPublishareDeltaTree: {
+			FileExtentions.Qps, // PubliShare Objects
 		},
-		mime_type.ApplicationVndPviPtid1: {
-			Ptid, // Princeton Video Image
+		mime_type.MimeTypes.ApplicationVndPviPtid1: {
+			FileExtentions.Ptid, // Princeton Video Image
 		},
-		mime_type.ApplicationVndQuarkQuarkxpress: {
-			Qxd, // QuarkXpress
+		mime_type.MimeTypes.ApplicationVndQuarkQuarkxpress: {
+			FileExtentions.Qxd, // QuarkXpress
 		},
-		mime_type.ApplicationVndRar: {
-			Rar, // RAR Archive
+		mime_type.MimeTypes.ApplicationVndRar: {
+			FileExtentions.Rar, // RAR Archive
 		},
-		mime_type.ApplicationVndRealvncBed: {
-			Bed, // RealVNC
+		mime_type.MimeTypes.ApplicationVndRealvncBed: {
+			FileExtentions.Bed, // RealVNC
 		},
-		mime_type.ApplicationVndRecordareMusicxml: {
-			Mxl, // Recordare Applications
+		mime_type.MimeTypes.ApplicationVndRecordareMusicxml: {
+			FileExtentions.Mxl, // Recordare Applications
 		},
-		mime_type.ApplicationVndRecordareMusicxmlXml: {
-			Musicxml, // Recordare Applications
+		mime_type.MimeTypes.ApplicationVndRecordareMusicxmlXml: {
+			FileExtentions.Musicxml, // Recordare Applications
 		},
-		mime_type.ApplicationVndRigCryptonote: {
-			Cryptonote, // CryptoNote
+		mime_type.MimeTypes.ApplicationVndRigCryptonote: {
+			FileExtentions.Cryptonote, // CryptoNote
 		},
-		mime_type.ApplicationVndRimCod: {
-			Cod, // Blackberry COD File
+		mime_type.MimeTypes.ApplicationVndRimCod: {
+			FileExtentions.Cod, // Blackberry COD File
 		},
-		mime_type.ApplicationVndRnRealmedia: {
-			Rm, // RealMedia
+		mime_type.MimeTypes.ApplicationVndRnRealmedia: {
+			FileExtentions.Rm, // RealMedia
 		},
-		mime_type.ApplicationVndRoute66Link66Xml: {
-			Link66, // ROUTE 66 Location Based Services
+		mime_type.MimeTypes.ApplicationVndRoute66Link66Xml: {
+			FileExtentions.Link66, // ROUTE 66 Location Based Services
 		},
-		mime_type.ApplicationVndSailingtrackerTrack: {
-			St, // SailingTracker
+		mime_type.MimeTypes.ApplicationVndSailingtrackerTrack: {
+			FileExtentions.St, // SailingTracker
 		},
-		mime_type.ApplicationVndSeemail: {
-			See, // SeeMail
+		mime_type.MimeTypes.ApplicationVndSeemail: {
+			FileExtentions.See, // SeeMail
 		},
-		mime_type.ApplicationVndSema: {
-			Sema, // Secured eMail
+		mime_type.MimeTypes.ApplicationVndSema: {
+			FileExtentions.Sema, // Secured eMail
 		},
-		mime_type.ApplicationVndSemd: {
-			Semd, // Secured eMail
+		mime_type.MimeTypes.ApplicationVndSemd: {
+			FileExtentions.Semd, // Secured eMail
 		},
-		mime_type.ApplicationVndSemf: {
-			Semf, // Secured eMail
+		mime_type.MimeTypes.ApplicationVndSemf: {
+			FileExtentions.Semf, // Secured eMail
 		},
-		mime_type.ApplicationVndShanaInformedFormdata: {
-			Ifm, // Shana Informed Filler
+		mime_type.MimeTypes.ApplicationVndShanaInformedFormdata: {
+			FileExtentions.Ifm, // Shana Informed Filler
 		},
-		mime_type.ApplicationVndShanaInformedFormtemplate: {
-			Itp, // Shana Informed Filler
+		mime_type.MimeTypes.ApplicationVndShanaInformedFormtemplate: {
+			FileExtentions.Itp, // Shana Informed Filler
 		},
-		mime_type.ApplicationVndShanaInformedInterchange: {
-			Iif, // Shana Informed Filler
+		mime_type.MimeTypes.ApplicationVndShanaInformedInterchange: {
+			FileExtentions.Iif, // Shana Informed Filler
 		},
-		mime_type.ApplicationVndShanaInformedPackage: {
-			Ipk, // Shana Informed Filler
+		mime_type.MimeTypes.ApplicationVndShanaInformedPackage: {
+			FileExtentions.Ipk, // Shana Informed Filler
 		},
-		mime_type.ApplicationVndSimtechMindmapper: {
-			Twd, // SimTech MindMapper
+		mime_type.MimeTypes.ApplicationVndSimtechMindmapper: {
+			FileExtentions.Twd, // SimTech MindMapper
 		},
-		mime_type.ApplicationVndSmaf: {
-			Mmf, // SMAF File
+		mime_type.MimeTypes.ApplicationVndSmaf: {
+			FileExtentions.Mmf, // SMAF File
 		},
-		mime_type.ApplicationVndSmartTeacher: {
-			Teacher, // SMART Technologies Apps
+		mime_type.MimeTypes.ApplicationVndSmartTeacher: {
+			FileExtentions.Teacher, // SMART Technologies Apps
 		},
-		mime_type.ApplicationVndSolentSdkmXml: {
-			Sdkm, // SudokuMagic
+		mime_type.MimeTypes.ApplicationVndSolentSdkmXml: {
+			FileExtentions.Sdkm, // SudokuMagic
 		},
-		mime_type.ApplicationVndSpotfireDxp: {
-			Dxp, // TIBCO Spotfire
+		mime_type.MimeTypes.ApplicationVndSpotfireDxp: {
+			FileExtentions.Dxp, // TIBCO Spotfire
 		},
-		mime_type.ApplicationVndSpotfireSfs: {
-			Sfs, // TIBCO Spotfire
+		mime_type.MimeTypes.ApplicationVndSpotfireSfs: {
+			FileExtentions.Sfs, // TIBCO Spotfire
 		},
-		mime_type.ApplicationVndStardivisionCalc: {
-			Sdc, // StarOffice - Calc
+		mime_type.MimeTypes.ApplicationVndStardivisionCalc: {
+			FileExtentions.Sdc, // StarOffice - Calc
 		},
-		mime_type.ApplicationVndStardivisionDraw: {
-			Sda, // StarOffice - Draw
+		mime_type.MimeTypes.ApplicationVndStardivisionDraw: {
+			FileExtentions.Sda, // StarOffice - Draw
 		},
-		mime_type.ApplicationVndStardivisionImpress: {
-			Sdd, // StarOffice - Impress
+		mime_type.MimeTypes.ApplicationVndStardivisionImpress: {
+			FileExtentions.Sdd, // StarOffice - Impress
 		},
-		mime_type.ApplicationVndStardivisionMath: {
-			Smf, // StarOffice - Math
+		mime_type.MimeTypes.ApplicationVndStardivisionMath: {
+			FileExtentions.Smf, // StarOffice - Math
 		},
-		mime_type.ApplicationVndStardivisionWriter: {
-			Sdw, // StarOffice - Writer
+		mime_type.MimeTypes.ApplicationVndStardivisionWriter: {
+			FileExtentions.Sdw, // StarOffice - Writer
 		},
-		mime_type.ApplicationVndStardivisionWriterGlobal: {
-			Sgl, // StarOffice - Writer (Global)
+		mime_type.MimeTypes.ApplicationVndStardivisionWriterGlobal: {
+			FileExtentions.Sgl, // StarOffice - Writer (Global)
 		},
-		mime_type.ApplicationVndStepmaniaStepchart: {
-			Sm, // StepMania
+		mime_type.MimeTypes.ApplicationVndStepmaniaStepchart: {
+			FileExtentions.Sm, // StepMania
 		},
-		mime_type.ApplicationVndSunXmlCalc: {
-			Sxc, // OpenOffice - Calc (Spreadsheet)
+		mime_type.MimeTypes.ApplicationVndSunXmlCalc: {
+			FileExtentions.Sxc, // OpenOffice - Calc (Spreadsheet)
 		},
-		mime_type.ApplicationVndSunXmlCalcTemplate: {
-			Stc, // OpenOffice - Calc Template (Spreadsheet)
+		mime_type.MimeTypes.ApplicationVndSunXmlCalcTemplate: {
+			FileExtentions.Stc, // OpenOffice - Calc Template (Spreadsheet)
 		},
-		mime_type.ApplicationVndSunXmlDraw: {
-			Sxd, // OpenOffice - Draw (Graphics)
+		mime_type.MimeTypes.ApplicationVndSunXmlDraw: {
+			FileExtentions.Sxd, // OpenOffice - Draw (Graphics)
 		},
-		mime_type.ApplicationVndSunXmlDrawTemplate: {
-			Std, // OpenOffice - Draw Template (Graphics)
+		mime_type.MimeTypes.ApplicationVndSunXmlDrawTemplate: {
+			FileExtentions.Std, // OpenOffice - Draw Template (Graphics)
 		},
-		mime_type.ApplicationVndSunXmlImpress: {
-			Sxi, // OpenOffice - Impress (Presentation)
+		mime_type.MimeTypes.ApplicationVndSunXmlImpress: {
+			FileExtentions.Sxi, // OpenOffice - Impress (Presentation)
 		},
-		mime_type.ApplicationVndSunXmlImpressTemplate: {
-			Sti, // OpenOffice - Impress Template (Presentation)
+		mime_type.MimeTypes.ApplicationVndSunXmlImpressTemplate: {
+			FileExtentions.Sti, // OpenOffice - Impress Template (Presentation)
 		},
-		mime_type.ApplicationVndSunXmlMath: {
-			Sxm, // OpenOffice - Math (Formula)
+		mime_type.MimeTypes.ApplicationVndSunXmlMath: {
+			FileExtentions.Sxm, // OpenOffice - Math (Formula)
 		},
-		mime_type.ApplicationVndSunXmlWriter: {
-			Sxw, // OpenOffice - Writer (Text - HTML)
+		mime_type.MimeTypes.ApplicationVndSunXmlWriter: {
+			FileExtentions.Sxw, // OpenOffice - Writer (Text - HTML)
 		},
-		mime_type.ApplicationVndSunXmlWriterGlobal: {
-			Sxg, // OpenOffice - Writer (Text - HTML)
+		mime_type.MimeTypes.ApplicationVndSunXmlWriterGlobal: {
+			FileExtentions.Sxg, // OpenOffice - Writer (Text - HTML)
 		},
-		mime_type.ApplicationVndSunXmlWriterTemplate: {
-			Stw, // OpenOffice - Writer Template (Text - HTML)
+		mime_type.MimeTypes.ApplicationVndSunXmlWriterTemplate: {
+			FileExtentions.Stw, // OpenOffice - Writer Template (Text - HTML)
 		},
-		mime_type.ApplicationVndSusCalendar: {
-			Sus, // ScheduleUs
+		mime_type.MimeTypes.ApplicationVndSusCalendar: {
+			FileExtentions.Sus, // ScheduleUs
 		},
-		mime_type.ApplicationVndSvd: {
-			Svd, // SourceView Document
+		mime_type.MimeTypes.ApplicationVndSvd: {
+			FileExtentions.Svd, // SourceView Document
 		},
-		mime_type.ApplicationVndSymbianInstall: {
-			Sis, // Symbian Install Package
+		mime_type.MimeTypes.ApplicationVndSymbianInstall: {
+			FileExtentions.Sis, // Symbian Install Package
 		},
-		mime_type.ApplicationVndSyncmlXml: {
-			Xsm, // SyncML
+		mime_type.MimeTypes.ApplicationVndSyncmlXml: {
+			FileExtentions.Xsm, // SyncML
 		},
-		mime_type.ApplicationVndSyncmlDmWbxml: {
-			Bdm, // SyncML - Device Management
+		mime_type.MimeTypes.ApplicationVndSyncmlDmWbxml: {
+			FileExtentions.Bdm, // SyncML - Device Management
 		},
-		mime_type.ApplicationVndSyncmlDmXml: {
-			Xdm, // SyncML - Device Management
+		mime_type.MimeTypes.ApplicationVndSyncmlDmXml: {
+			FileExtentions.Xdm, // SyncML - Device Management
 		},
-		mime_type.ApplicationVndTaoIntentModuleArchive: {
-			Tao, // Tao Intent
+		mime_type.MimeTypes.ApplicationVndTaoIntentModuleArchive: {
+			FileExtentions.Tao, // Tao Intent
 		},
-		mime_type.ApplicationVndTmobileLivetv: {
-			Tmo, // MobileTV
+		mime_type.MimeTypes.ApplicationVndTmobileLivetv: {
+			FileExtentions.Tmo, // MobileTV
 		},
-		mime_type.ApplicationVndTridTpt: {
-			Tpt, // TRI Systems Config
+		mime_type.MimeTypes.ApplicationVndTridTpt: {
+			FileExtentions.Tpt, // TRI Systems Config
 		},
-		mime_type.ApplicationVndTriscapeMxs: {
-			Mxs, // Triscape Map Explorer
+		mime_type.MimeTypes.ApplicationVndTriscapeMxs: {
+			FileExtentions.Mxs, // Triscape Map Explorer
 		},
-		mime_type.ApplicationVndTrueapp: {
-			Tra, // True BASIC
+		mime_type.MimeTypes.ApplicationVndTrueapp: {
+			FileExtentions.Tra, // True BASIC
 		},
-		mime_type.ApplicationVndUfdl: {
-			Ufd, // Universal Forms Description Language
+		mime_type.MimeTypes.ApplicationVndUfdl: {
+			FileExtentions.Ufd, // Universal Forms Description Language
 		},
-		mime_type.ApplicationVndUiqTheme: {
-			Utz, // User Interface Quartz - Theme (Symbian)
+		mime_type.MimeTypes.ApplicationVndUiqTheme: {
+			FileExtentions.Utz, // User Interface Quartz - Theme (Symbian)
 		},
-		mime_type.ApplicationVndUmajin: {
-			Umj, // UMAJIN
+		mime_type.MimeTypes.ApplicationVndUmajin: {
+			FileExtentions.Umj, // UMAJIN
 		},
-		mime_type.ApplicationVndUnity: {
-			Unityweb, // Unity 3d
+		mime_type.MimeTypes.ApplicationVndUnity: {
+			FileExtentions.Unityweb, // Unity 3d
 		},
-		mime_type.ApplicationVndUomlXml: {
-			Uoml, // Unique Object Markup Language
+		mime_type.MimeTypes.ApplicationVndUomlXml: {
+			FileExtentions.Uoml, // Unique Object Markup Language
 		},
-		mime_type.ApplicationVndVcx: {
-			Vcx, // VirtualCatalog
+		mime_type.MimeTypes.ApplicationVndVcx: {
+			FileExtentions.Vcx, // VirtualCatalog
 		},
-		mime_type.ApplicationVndVisio: {
-			Vsd, // Microsoft Visio
+		mime_type.MimeTypes.ApplicationVndVisio: {
+			FileExtentions.Vsd, // Microsoft Visio
 		},
-		mime_type.ApplicationVndVisio2013: {
-			Vsdx, // Microsoft Visio 2013
+		mime_type.MimeTypes.ApplicationVndVisio2013: {
+			FileExtentions.Vsdx, // Microsoft Visio 2013
 		},
-		mime_type.ApplicationVndVisionary: {
-			Vis, // Visionary
+		mime_type.MimeTypes.ApplicationVndVisionary: {
+			FileExtentions.Vis, // Visionary
 		},
-		mime_type.ApplicationVndVsf: {
-			Vsf, // Viewport+
+		mime_type.MimeTypes.ApplicationVndVsf: {
+			FileExtentions.Vsf, // Viewport+
 		},
-		mime_type.ApplicationVndWapWbxml: {
-			Wbxml, // WAP Binary XML (WBXML)
+		mime_type.MimeTypes.ApplicationVndWapWbxml: {
+			FileExtentions.Wbxml, // WAP Binary XML (WBXML)
 		},
-		mime_type.ApplicationVndWapWmlc: {
-			Wmlc, // Compiled Wireless Markup Language (WMLC)
+		mime_type.MimeTypes.ApplicationVndWapWmlc: {
+			FileExtentions.Wmlc, // Compiled Wireless Markup Language (WMLC)
 		},
-		mime_type.ApplicationVndWapWmlscriptc: {
-			Wmlsc, // WMLScript
+		mime_type.MimeTypes.ApplicationVndWapWmlscriptc: {
+			FileExtentions.Wmlsc, // WMLScript
 		},
-		mime_type.ApplicationVndWebturbo: {
-			Wtb, // WebTurbo
+		mime_type.MimeTypes.ApplicationVndWebturbo: {
+			FileExtentions.Wtb, // WebTurbo
 		},
-		mime_type.ApplicationVndWolframPlayer: {
-			Nbp, // Mathematica Notebook Player
+		mime_type.MimeTypes.ApplicationVndWolframPlayer: {
+			FileExtentions.Nbp, // Mathematica Notebook Player
 		},
-		mime_type.ApplicationVndWordperfect: {
-			Wpd, // Wordperfect
+		mime_type.MimeTypes.ApplicationVndWordperfect: {
+			FileExtentions.Wpd, // Wordperfect
 		},
-		mime_type.ApplicationVndWqd: {
-			Wqd, // SundaHus WQ
+		mime_type.MimeTypes.ApplicationVndWqd: {
+			FileExtentions.Wqd, // SundaHus WQ
 		},
-		mime_type.ApplicationVndWtStf: {
-			Stf, // Worldtalk
+		mime_type.MimeTypes.ApplicationVndWtStf: {
+			FileExtentions.Stf, // Worldtalk
 		},
-		mime_type.ApplicationVndXara: {
-			Xar, // CorelXARA
+		mime_type.MimeTypes.ApplicationVndXara: {
+			FileExtentions.Xar, // CorelXARA
 		},
-		mime_type.ApplicationVndXfdl: {
-			Xfdl, // Extensible Forms Description Language
+		mime_type.MimeTypes.ApplicationVndXfdl: {
+			FileExtentions.Xfdl, // Extensible Forms Description Language
 		},
-		mime_type.ApplicationVndYamahaHvDic: {
-			Hvd, // HV Voice Dictionary
+		mime_type.MimeTypes.ApplicationVndYamahaHvDic: {
+			FileExtentions.Hvd, // HV Voice Dictionary
 		},
-		mime_type.ApplicationVndYamahaHvScript: {
-			Hvs, // HV Script
+		mime_type.MimeTypes.ApplicationVndYamahaHvScript: {
+			FileExtentions.Hvs, // HV Script
 		},
-		mime_type.ApplicationVndYamahaHvVoice: {
-			Hvp, // HV Voice Parameter
+		mime_type.MimeTypes.ApplicationVndYamahaHvVoice: {
+			FileExtentions.Hvp, // HV Voice Parameter
 		},
-		mime_type.ApplicationVndYamahaOpenscoreformat: {
-			Osf, // Open Score Format
+		mime_type.MimeTypes.ApplicationVndYamahaOpenscoreformat: {
+			FileExtentions.Osf, // Open Score Format
 		},
-		mime_type.ApplicationVndYamahaOpenscoreformatOsfpvgXml: {
-			Osfpvg, // OSFPVG
+		mime_type.MimeTypes.ApplicationVndYamahaOpenscoreformatOsfpvgXml: {
+			FileExtentions.Osfpvg, // OSFPVG
 		},
-		mime_type.ApplicationVndYamahaSmafAudio: {
-			Saf, // SMAF Audio
+		mime_type.MimeTypes.ApplicationVndYamahaSmafAudio: {
+			FileExtentions.Saf, // SMAF Audio
 		},
-		mime_type.ApplicationVndYamahaSmafPhrase: {
-			Spf, // SMAF Phrase
+		mime_type.MimeTypes.ApplicationVndYamahaSmafPhrase: {
+			FileExtentions.Spf, // SMAF Phrase
 		},
-		mime_type.ApplicationVndYellowriverCustomMenu: {
-			Cmp, // CustomMenu
+		mime_type.MimeTypes.ApplicationVndYellowriverCustomMenu: {
+			FileExtentions.Cmp, // CustomMenu
 		},
-		mime_type.ApplicationVndZul: {
-			Zir, // Z.U.L. Geometry
+		mime_type.MimeTypes.ApplicationVndZul: {
+			FileExtentions.Zir, // Z.U.L. Geometry
 		},
-		mime_type.ApplicationVndZzazzDeckXml: {
-			Zaz, // Zzazz Deck
+		mime_type.MimeTypes.ApplicationVndZzazzDeckXml: {
+			FileExtentions.Zaz, // Zzazz Deck
 		},
-		mime_type.ApplicationVoicexmlXml: {
-			Vxml, // VoiceXML
+		mime_type.MimeTypes.ApplicationVoicexmlXml: {
+			FileExtentions.Vxml, // VoiceXML
 		},
-		mime_type.ApplicationWidget: {
-			Wgt, // Widget Packaging and XML Configuration
+		mime_type.MimeTypes.ApplicationWidget: {
+			FileExtentions.Wgt, // Widget Packaging and XML Configuration
 		},
-		mime_type.ApplicationWinhlp: {
-			Hlp, // WinHelp
+		mime_type.MimeTypes.ApplicationWinhlp: {
+			FileExtentions.Hlp, // WinHelp
 		},
-		mime_type.ApplicationWsdlXml: {
-			Wsdl, // WSDL - Web Services Description Language
+		mime_type.MimeTypes.ApplicationWsdlXml: {
+			FileExtentions.Wsdl, // WSDL - Web Services Description Language
 		},
-		mime_type.ApplicationWspolicyXml: {
-			Wspolicy, // Web Services Policy
+		mime_type.MimeTypes.ApplicationWspolicyXml: {
+			FileExtentions.Wspolicy, // Web Services Policy
 		},
-		mime_type.ApplicationX7zCompressed: {
-			_7z, // 7-Zip
+		mime_type.MimeTypes.ApplicationX7zCompressed: {
+			FileExtentions._7z, // 7-Zip
 		},
-		mime_type.ApplicationXAbiword: {
-			Abw, // AbiWord
+		mime_type.MimeTypes.ApplicationXAbiword: {
+			FileExtentions.Abw, // AbiWord
 		},
-		mime_type.ApplicationXAceCompressed: {
-			Ace, // Ace Archive
+		mime_type.MimeTypes.ApplicationXAceCompressed: {
+			FileExtentions.Ace, // Ace Archive
 		},
-		mime_type.ApplicationXAppleDiskimage: {
-			Dmg, // Apple Disk Image
+		mime_type.MimeTypes.ApplicationXAppleDiskimage: {
+			FileExtentions.Dmg, // Apple Disk Image
 		},
-		mime_type.ApplicationXAuthorwareBin: {
-			Aab, // Adobe (Macropedia) Authorware - Binary File
+		mime_type.MimeTypes.ApplicationXAuthorwareBin: {
+			FileExtentions.Aab, // Adobe (Macropedia) Authorware - Binary File
 		},
-		mime_type.ApplicationXAuthorwareMap: {
-			Aam, // Adobe (Macropedia) Authorware - Map
+		mime_type.MimeTypes.ApplicationXAuthorwareMap: {
+			FileExtentions.Aam, // Adobe (Macropedia) Authorware - Map
 		},
-		mime_type.ApplicationXAuthorwareSeg: {
-			Aas, // Adobe (Macropedia) Authorware - Segment File
+		mime_type.MimeTypes.ApplicationXAuthorwareSeg: {
+			FileExtentions.Aas, // Adobe (Macropedia) Authorware - Segment File
 		},
-		mime_type.ApplicationXBcpio: {
-			Bcpio, // Binary CPIO Archive
+		mime_type.MimeTypes.ApplicationXBcpio: {
+			FileExtentions.Bcpio, // Binary CPIO Archive
 		},
-		mime_type.ApplicationXBittorrent: {
-			Torrent, // BitTorrent
+		mime_type.MimeTypes.ApplicationXBittorrent: {
+			FileExtentions.Torrent, // BitTorrent
 		},
-		mime_type.ApplicationXBzip: {
-			Bz, // Bzip Archive
+		mime_type.MimeTypes.ApplicationXBzip: {
+			FileExtentions.Bz, // Bzip Archive
 		},
-		mime_type.ApplicationXBzip2: {
-			Bz2, // Bzip2 Archive
+		mime_type.MimeTypes.ApplicationXBzip2: {
+			FileExtentions.Bz2, // Bzip2 Archive
 		},
-		mime_type.ApplicationXCdf: {
-			Cda, // CD audio
+		mime_type.MimeTypes.ApplicationXCdf: {
+			FileExtentions.Cda, // CD audio
 		},
-		mime_type.ApplicationXCdlink: {
-			Vcd, // Video CD
+		mime_type.MimeTypes.ApplicationXCdlink: {
+			FileExtentions.Vcd, // Video CD
 		},
-		mime_type.ApplicationXChat: {
-			Chat, // pIRCh
+		mime_type.MimeTypes.ApplicationXChat: {
+			FileExtentions.Chat, // pIRCh
 		},
-		mime_type.ApplicationXChessPgn: {
-			Pgn, // Portable Game Notation (Chess Games)
+		mime_type.MimeTypes.ApplicationXChessPgn: {
+			FileExtentions.Pgn, // Portable Game Notation (Chess Games)
 		},
-		mime_type.ApplicationXCpio: {
-			Cpio, // CPIO Archive
+		mime_type.MimeTypes.ApplicationXCpio: {
+			FileExtentions.Cpio, // CPIO Archive
 		},
-		mime_type.ApplicationXCsh: {
-			Csh, // C Shell Script
+		mime_type.MimeTypes.ApplicationXCsh: {
+			FileExtentions.Csh, // C Shell Script
 		},
-		mime_type.ApplicationXDebianPackage: {
-			Deb, // Debian Package
+		mime_type.MimeTypes.ApplicationXDebianPackage: {
+			FileExtentions.Deb, // Debian Package
 		},
-		mime_type.ApplicationXDirector: {
-			Dir, // Ad1obe Shockwave Player
+		mime_type.MimeTypes.ApplicationXDirector: {
+			FileExtentions.Dir, // Ad1obe Shockwave Player
 		},
-		mime_type.ApplicationXDoom: {
-			Wad, // Doom Video Game
+		mime_type.MimeTypes.ApplicationXDoom: {
+			FileExtentions.Wad, // Doom Video Game
 		},
-		mime_type.ApplicationXDtbncxXml: {
-			Ncx, // Navigation Control file for XML (for ePub)
+		mime_type.MimeTypes.ApplicationXDtbncxXml: {
+			FileExtentions.Ncx, // Navigation Control file for XML (for ePub)
 		},
-		mime_type.ApplicationXDtbookXml: {
-			Dtb, // Digital Talking Book
+		mime_type.MimeTypes.ApplicationXDtbookXml: {
+			FileExtentions.Dtb, // Digital Talking Book
 		},
-		mime_type.ApplicationXDtbresourceXml: {
-			Res, // Digital Talking Book - Resource File
+		mime_type.MimeTypes.ApplicationXDtbresourceXml: {
+			FileExtentions.Res, // Digital Talking Book - Resource File
 		},
-		mime_type.ApplicationXDvi: {
-			Dvi, // Device Independent File Format (DVI)
+		mime_type.MimeTypes.ApplicationXDvi: {
+			FileExtentions.Dvi, // Device Independent File Format (DVI)
 		},
-		mime_type.ApplicationXFontBdf: {
-			Bdf, // Glyph Bitmap Distribution Format
+		mime_type.MimeTypes.ApplicationXFontBdf: {
+			FileExtentions.Bdf, // Glyph Bitmap Distribution Format
 		},
-		mime_type.ApplicationXFontGhostscript: {
-			Gsf, // Ghostscript Font
+		mime_type.MimeTypes.ApplicationXFontGhostscript: {
+			FileExtentions.Gsf, // Ghostscript Font
 		},
-		mime_type.ApplicationXFontLinuxPsf: {
-			Psf, // PSF Fonts
+		mime_type.MimeTypes.ApplicationXFontLinuxPsf: {
+			FileExtentions.Psf, // PSF Fonts
 		},
-		mime_type.ApplicationXFontPcf: {
-			Pcf, // Portable Compiled Format
+		mime_type.MimeTypes.ApplicationXFontPcf: {
+			FileExtentions.Pcf, // Portable Compiled Format
 		},
-		mime_type.ApplicationXFontSnf: {
-			Snf, // Server Normal Format
+		mime_type.MimeTypes.ApplicationXFontSnf: {
+			FileExtentions.Snf, // Server Normal Format
 		},
-		mime_type.ApplicationXFontType1: {
-			Pfa, // PostScript Fonts
+		mime_type.MimeTypes.ApplicationXFontType1: {
+			FileExtentions.Pfa, // PostScript Fonts
 		},
-		mime_type.ApplicationXFreearc: {
-			Arc, // Archive document (multiple files embedded)
+		mime_type.MimeTypes.ApplicationXFreearc: {
+			FileExtentions.Arc, // Archive document (multiple files embedded)
 		},
-		mime_type.ApplicationXFuturesplash: {
-			Spl, // FutureSplash Animator
+		mime_type.MimeTypes.ApplicationXFuturesplash: {
+			FileExtentions.Spl, // FutureSplash Animator
 		},
-		mime_type.ApplicationXGnumeric: {
-			Gnumeric, // Gnumeric
+		mime_type.MimeTypes.ApplicationXGnumeric: {
+			FileExtentions.Gnumeric, // Gnumeric
 		},
-		mime_type.ApplicationXGtar: {
-			Gtar, // GNU Tar Files
+		mime_type.MimeTypes.ApplicationXGtar: {
+			FileExtentions.Gtar, // GNU Tar Files
 		},
-		mime_type.ApplicationXHdf: {
-			Hdf, // Hierarchical Data Format
+		mime_type.MimeTypes.ApplicationXHdf: {
+			FileExtentions.Hdf, // Hierarchical Data Format
 		},
-		mime_type.ApplicationXHttpdPhp: {
-			Php,   // Hypertext Preprocessor (Personal Home Page)
-			Phar,  // Hypertext Preprocessor (Personal Home Page)
-			Phtml, // Hypertext Preprocessor (Personal Home Page)
-			Pht,   // Hypertext Preprocessor (Personal Home Page)
-			Phps,  // Hypertext Preprocessor (Personal Home Page)
+		mime_type.MimeTypes.ApplicationXHttpdPhp: {
+			FileExtentions.Php,   // Hypertext Preprocessor (Personal Home Page)
+			FileExtentions.Phar,  // Hypertext Preprocessor (Personal Home Page)
+			FileExtentions.Phtml, // Hypertext Preprocessor (Personal Home Page)
+			FileExtentions.Pht,   // Hypertext Preprocessor (Personal Home Page)
+			FileExtentions.Phps,  // Hypertext Preprocessor (Personal Home Page)
 		},
-		mime_type.ApplicationXJavaJnlpFile: {
-			Jnlp, // Java Network Launching Protocol
+		mime_type.MimeTypes.ApplicationXJavaJnlpFile: {
+			FileExtentions.Jnlp, // Java Network Launching Protocol
 		},
-		mime_type.ApplicationXLatex: {
-			Latex, // LaTeX
+		mime_type.MimeTypes.ApplicationXLatex: {
+			FileExtentions.Latex, // LaTeX
 		},
-		mime_type.ApplicationXMobipocketEbook: {
-			Prc, // Mobipocket
+		mime_type.MimeTypes.ApplicationXMobipocketEbook: {
+			FileExtentions.Prc, // Mobipocket
 		},
-		mime_type.ApplicationXMsApplication: {
-			Application, // Microsoft ClickOnce
+		mime_type.MimeTypes.ApplicationXMsApplication: {
+			FileExtentions.Application, // Microsoft ClickOnce
 		},
-		mime_type.ApplicationXMsWmd: {
-			Wmd, // Microsoft Windows Media Player Download Package
+		mime_type.MimeTypes.ApplicationXMsWmd: {
+			FileExtentions.Wmd, // Microsoft Windows Media Player Download Package
 		},
-		mime_type.ApplicationXMsWmz: {
-			Wmz, // Microsoft Windows Media Player Skin Package
+		mime_type.MimeTypes.ApplicationXMsWmz: {
+			FileExtentions.Wmz, // Microsoft Windows Media Player Skin Package
 		},
-		mime_type.ApplicationXMsXbap: {
-			Xbap, // Microsoft XAML Browser Application
+		mime_type.MimeTypes.ApplicationXMsXbap: {
+			FileExtentions.Xbap, // Microsoft XAML Browser Application
 		},
-		mime_type.ApplicationXMsaccess: {
-			Mdb, // Microsoft Access
+		mime_type.MimeTypes.ApplicationXMsaccess: {
+			FileExtentions.Mdb, // Microsoft Access
 		},
-		mime_type.ApplicationXMsbinder: {
-			Obd, // Microsoft Office Binder
+		mime_type.MimeTypes.ApplicationXMsbinder: {
+			FileExtentions.Obd, // Microsoft Office Binder
 		},
-		mime_type.ApplicationXMscardfile: {
-			Crd, // Microsoft Information Card
+		mime_type.MimeTypes.ApplicationXMscardfile: {
+			FileExtentions.Crd, // Microsoft Information Card
 		},
-		mime_type.ApplicationXMsclip: {
-			Clp, // Microsoft Clipboard Clip
+		mime_type.MimeTypes.ApplicationXMsclip: {
+			FileExtentions.Clp, // Microsoft Clipboard Clip
 		},
-		mime_type.ApplicationXMsdownload: {
-			Exe, // Microsoft Application
+		mime_type.MimeTypes.ApplicationXMsdownload: {
+			FileExtentions.Exe, // Microsoft Application
 		},
-		mime_type.ApplicationXMsmediaview: {
-			Mvb, // Microsoft MediaView
+		mime_type.MimeTypes.ApplicationXMsmediaview: {
+			FileExtentions.Mvb, // Microsoft MediaView
 		},
-		mime_type.ApplicationXMsmetafile: {
-			Wmf, // Microsoft Windows Metafile
+		mime_type.MimeTypes.ApplicationXMsmetafile: {
+			FileExtentions.Wmf, // Microsoft Windows Metafile
 		},
-		mime_type.ApplicationXMsmoney: {
-			Mny, // Microsoft Money
+		mime_type.MimeTypes.ApplicationXMsmoney: {
+			FileExtentions.Mny, // Microsoft Money
 		},
-		mime_type.ApplicationXMspublisher: {
-			Pub, // Microsoft Publisher
+		mime_type.MimeTypes.ApplicationXMspublisher: {
+			FileExtentions.Pub, // Microsoft Publisher
 		},
-		mime_type.ApplicationXMsschedule: {
-			Scd, // Microsoft Schedule+
+		mime_type.MimeTypes.ApplicationXMsschedule: {
+			FileExtentions.Scd, // Microsoft Schedule+
 		},
-		mime_type.ApplicationXMsterminal: {
-			Trm, // Microsoft Windows Terminal Services
+		mime_type.MimeTypes.ApplicationXMsterminal: {
+			FileExtentions.Trm, // Microsoft Windows Terminal Services
 		},
-		mime_type.ApplicationXMswrite: {
-			Wri, // Microsoft Wordpad
+		mime_type.MimeTypes.ApplicationXMswrite: {
+			FileExtentions.Wri, // Microsoft Wordpad
 		},
-		mime_type.ApplicationXNetcdf: {
-			Nc, // Network Common Data Form (NetCDF)
+		mime_type.MimeTypes.ApplicationXNetcdf: {
+			FileExtentions.Nc, // Network Common Data Form (NetCDF)
 		},
-		mime_type.ApplicationXPkcs12: {
-			P12, // PKCS #12 - Personal Information Exchange Syntax Standard
+		mime_type.MimeTypes.ApplicationXPkcs12: {
+			FileExtentions.P12, // PKCS #12 - Personal Information Exchange Syntax Standard
 		},
-		mime_type.ApplicationXPkcs7Certificates: {
-			P7b, // PKCS #7 - Cryptographic Message Syntax Standard (Certificates)
+		mime_type.MimeTypes.ApplicationXPkcs7Certificates: {
+			FileExtentions.P7b, // PKCS #7 - Cryptographic Message Syntax Standard (Certificates)
 		},
-		mime_type.ApplicationXPkcs7Certreqresp: {
-			P7r, // PKCS #7 - Cryptographic Message Syntax Standard (Certificate Request Response)
+		mime_type.MimeTypes.ApplicationXPkcs7Certreqresp: {
+			FileExtentions.P7r, // PKCS #7 - Cryptographic Message Syntax Standard (Certificate Request Response)
 		},
-		mime_type.ApplicationXSh: {
-			Sh, // Bourne Shell Script
+		mime_type.MimeTypes.ApplicationXSh: {
+			FileExtentions.Sh, // Bourne Shell Script
 		},
-		mime_type.ApplicationXShar: {
-			Shar, // Shell Archive
+		mime_type.MimeTypes.ApplicationXShar: {
+			FileExtentions.Shar, // Shell Archive
 		},
-		mime_type.ApplicationXShockwaveFlash: {
-			Swf, // Adobe Flash
+		mime_type.MimeTypes.ApplicationXShockwaveFlash: {
+			FileExtentions.Swf, // Adobe Flash
 		},
-		mime_type.ApplicationXSilverlightApp: {
-			Xap, // Microsoft Silverlight
+		mime_type.MimeTypes.ApplicationXSilverlightApp: {
+			FileExtentions.Xap, // Microsoft Silverlight
 		},
-		mime_type.ApplicationXStuffit: {
-			Sit, // Stuffit Archive
+		mime_type.MimeTypes.ApplicationXStuffit: {
+			FileExtentions.Sit, // Stuffit Archive
 		},
-		mime_type.ApplicationXStuffitx: {
-			Sitx, // Stuffit Archive
+		mime_type.MimeTypes.ApplicationXStuffitx: {
+			FileExtentions.Sitx, // Stuffit Archive
 		},
-		mime_type.ApplicationXSv4cpio: {
-			Sv4cpio, // System V Release 4 CPIO Archive
+		mime_type.MimeTypes.ApplicationXSv4cpio: {
+			FileExtentions.Sv4cpio, // System V Release 4 CPIO Archive
 		},
-		mime_type.ApplicationXSv4crc: {
-			Sv4crc, // System V Release 4 CPIO Checksum Data
+		mime_type.MimeTypes.ApplicationXSv4crc: {
+			FileExtentions.Sv4crc, // System V Release 4 CPIO Checksum Data
 		},
-		mime_type.ApplicationXTar: {
-			Tar, // Tar File (Tape Archive)
+		mime_type.MimeTypes.ApplicationXTar: {
+			FileExtentions.Tar, // Tar File (Tape Archive)
 		},
-		mime_type.ApplicationXTcl: {
-			Tcl, // Tcl Script
-			Tbc, // Tcl Script
+		mime_type.MimeTypes.ApplicationXTcl: {
+			FileExtentions.Tcl, // Tcl Script
+			FileExtentions.Tbc, // Tcl Script
 		},
-		mime_type.ApplicationXTex: {
-			Tex, // TeX
+		mime_type.MimeTypes.ApplicationXTex: {
+			FileExtentions.Tex, // TeX
 		},
-		mime_type.ApplicationXTexTfm: {
-			Tfm, // TeX Font Metric
+		mime_type.MimeTypes.ApplicationXTexTfm: {
+			FileExtentions.Tfm, // TeX Font Metric
 		},
-		mime_type.ApplicationXTexinfo: {
-			Texinfo, // GNU Texinfo Document
+		mime_type.MimeTypes.ApplicationXTexinfo: {
+			FileExtentions.Texinfo, // GNU Texinfo Document
 		},
-		mime_type.ApplicationXUstar: {
-			Ustar, // Ustar (Uniform Standard Tape Archive)
+		mime_type.MimeTypes.ApplicationXUstar: {
+			FileExtentions.Ustar, // Ustar (Uniform Standard Tape Archive)
 		},
-		mime_type.ApplicationXWaisSource: {
-			Src, // WAIS Source
+		mime_type.MimeTypes.ApplicationXWaisSource: {
+			FileExtentions.Src, // WAIS Source
 		},
-		mime_type.ApplicationXX509CaCert: {
-			Der, // X.509 Certificate
+		mime_type.MimeTypes.ApplicationXX509CaCert: {
+			FileExtentions.Der, // X.509 Certificate
 		},
-		mime_type.ApplicationXXfig: {
-			Fig, // Xfig
+		mime_type.MimeTypes.ApplicationXXfig: {
+			FileExtentions.Fig, // Xfig
 		},
-		mime_type.ApplicationXXpinstall: {
-			Xpi, // XPInstall - Mozilla
+		mime_type.MimeTypes.ApplicationXXpinstall: {
+			FileExtentions.Xpi, // XPInstall - Mozilla
 		},
-		mime_type.ApplicationXYaml: {
-			Yaml, // YAML Ain't Markup Language / Yet Another Markup Language
-			Yml,  // YAML Ain't Markup Language / Yet Another Markup Language
+		mime_type.MimeTypes.ApplicationXYaml: {
+			FileExtentions.Yaml, // YAML Ain't Markup Language / Yet Another Markup Language
+			FileExtentions.Yml,  // YAML Ain't Markup Language / Yet Another Markup Language
 		},
-		mime_type.ApplicationXcapDiffXml: {
-			Xdf, // XML Configuration Access Protocol - XCAP Diff
+		mime_type.MimeTypes.ApplicationXcapDiffXml: {
+			FileExtentions.Xdf, // XML Configuration Access Protocol - XCAP Diff
 		},
-		mime_type.ApplicationXencXml: {
-			Xenc, // XML Encryption Syntax and Processing
+		mime_type.MimeTypes.ApplicationXencXml: {
+			FileExtentions.Xenc, // XML Encryption Syntax and Processing
 		},
-		mime_type.ApplicationXhtmlXml: {
-			Xhtml, // XHTML - The Extensible HyperText Markup Language
+		mime_type.MimeTypes.ApplicationXhtmlXml: {
+			FileExtentions.Xhtml, // XHTML - The Extensible HyperText Markup Language
 		},
-		mime_type.ApplicationXml: {
-			Xml, // XML - Extensible Markup Language
+		mime_type.MimeTypes.ApplicationXml: {
+			FileExtentions.Xml, // XML - Extensible Markup Language
 		},
-		mime_type.ApplicationXmlDtd: {
-			Dtd, // Document Type Definition
+		mime_type.MimeTypes.ApplicationXmlDtd: {
+			FileExtentions.Dtd, // Document Type Definition
 		},
-		mime_type.ApplicationXopXml: {
-			Xop, // XML-Binary Optimized Packaging
+		mime_type.MimeTypes.ApplicationXopXml: {
+			FileExtentions.Xop, // XML-Binary Optimized Packaging
 		},
-		mime_type.ApplicationXsltXml: {
-			Xslt, // XML Transformations
+		mime_type.MimeTypes.ApplicationXsltXml: {
+			FileExtentions.Xslt, // XML Transformations
 		},
-		mime_type.ApplicationXspfXml: {
-			Xspf, // XSPF - XML Shareable Playlist Format
+		mime_type.MimeTypes.ApplicationXspfXml: {
+			FileExtentions.Xspf, // XSPF - XML Shareable Playlist Format
 		},
-		mime_type.ApplicationXvXml: {
-			Mxml, // MXML
+		mime_type.MimeTypes.ApplicationXvXml: {
+			FileExtentions.Mxml, // MXML
 		},
-		mime_type.ApplicationYang: {
-			Yang, // YANG Data Modeling Language
+		mime_type.MimeTypes.ApplicationYang: {
+			FileExtentions.Yang, // YANG Data Modeling Language
 		},
-		mime_type.ApplicationYinXml: {
-			Yin, // YIN (YANG - XML)
+		mime_type.MimeTypes.ApplicationYinXml: {
+			FileExtentions.Yin, // YIN (YANG - XML)
 		},
-		mime_type.ApplicationZip: {
-			Zip, // Zip Archive
+		mime_type.MimeTypes.ApplicationZip: {
+			FileExtentions.Zip, // Zip Archive
 		},
-		mime_type.AudioAdpcm: {
-			Adp, // Adaptive differential pulse-code modulation
+		mime_type.MimeTypes.AudioAdpcm: {
+			FileExtentions.Adp, // Adaptive differential pulse-code modulation
 		},
-		mime_type.AudioBasic: {
-			Au, // Sun Audio - Au file format
+		mime_type.MimeTypes.AudioBasic: {
+			FileExtentions.Au, // Sun Audio - Au file format
 		},
-		mime_type.AudioMidi: {
-			Mid,  // MIDI - Musical Instrument Digital Interface
-			Midi, // MIDI - Musical Instrument Digital Interface
+		mime_type.MimeTypes.AudioMidi: {
+			FileExtentions.Mid,  // MIDI - Musical Instrument Digital Interface
+			FileExtentions.Midi, // MIDI - Musical Instrument Digital Interface
 		},
-		mime_type.AudioMp4: {
-			Mp4a, // MPEG-4 Audio
+		mime_type.MimeTypes.AudioMp4: {
+			FileExtentions.Mp4a, // MPEG-4 Audio
 		},
-		mime_type.AudioMpeg: {
-			Mpga, // MPEG Audio
+		mime_type.MimeTypes.AudioMpeg: {
+			FileExtentions.Mpga, // MPEG Audio
 		},
-		mime_type.AudioOgg: {
-			Oga, // Ogg Audio
+		mime_type.MimeTypes.AudioOgg: {
+			FileExtentions.Oga, // Ogg Audio
 		},
-		mime_type.AudioOpus: {
-			Opus, // Opus audio
+		mime_type.MimeTypes.AudioOpus: {
+			FileExtentions.Opus, // Opus audio
 		},
-		mime_type.AudioVndDeceAudio: {
-			Uva, // DECE Audio
+		mime_type.MimeTypes.AudioVndDeceAudio: {
+			FileExtentions.Uva, // DECE Audio
 		},
-		mime_type.AudioVndDigitalWinds: {
-			Eol, // Digital Winds Music
+		mime_type.MimeTypes.AudioVndDigitalWinds: {
+			FileExtentions.Eol, // Digital Winds Music
 		},
-		mime_type.AudioVndDra: {
-			Dra, // DRA Audio
+		mime_type.MimeTypes.AudioVndDra: {
+			FileExtentions.Dra, // DRA Audio
 		},
-		mime_type.AudioVndDts: {
-			Dts, // DTS Audio
+		mime_type.MimeTypes.AudioVndDts: {
+			FileExtentions.Dts, // DTS Audio
 		},
-		mime_type.AudioVndDtsHd: {
-			Dtshd, // DTS High Definition Audio
+		mime_type.MimeTypes.AudioVndDtsHd: {
+			FileExtentions.Dtshd, // DTS High Definition Audio
 		},
-		mime_type.AudioVndLucentVoice: {
-			Lvp, // Lucent Voice
+		mime_type.MimeTypes.AudioVndLucentVoice: {
+			FileExtentions.Lvp, // Lucent Voice
 		},
-		mime_type.AudioVndMsPlayreadyMediaPya: {
-			Pya, // Microsoft PlayReady Ecosystem
+		mime_type.MimeTypes.AudioVndMsPlayreadyMediaPya: {
+			FileExtentions.Pya, // Microsoft PlayReady Ecosystem
 		},
-		mime_type.AudioVndNueraEcelp4800: {
-			Ecelp4800, // Nuera ECELP 4800
+		mime_type.MimeTypes.AudioVndNueraEcelp4800: {
+			FileExtentions.Ecelp4800, // Nuera ECELP 4800
 		},
-		mime_type.AudioVndNueraEcelp7470: {
-			Ecelp7470, // Nuera ECELP 7470
+		mime_type.MimeTypes.AudioVndNueraEcelp7470: {
+			FileExtentions.Ecelp7470, // Nuera ECELP 7470
 		},
-		mime_type.AudioVndNueraEcelp9600: {
-			Ecelp9600, // Nuera ECELP 9600
+		mime_type.MimeTypes.AudioVndNueraEcelp9600: {
+			FileExtentions.Ecelp9600, // Nuera ECELP 9600
 		},
-		mime_type.AudioVndRip: {
-			Rip, // Hit'n'Mix
+		mime_type.MimeTypes.AudioVndRip: {
+			FileExtentions.Rip, // Hit'n'Mix
 		},
-		mime_type.AudioWav: {
-			Wav, // Waveform Audio File Format (WAV)
+		mime_type.MimeTypes.AudioWav: {
+			FileExtentions.Wav, // Waveform Audio File Format (WAV)
 		},
-		mime_type.AudioWebm: {
-			Weba, // Open Web Media Project - Audio
+		mime_type.MimeTypes.AudioWebm: {
+			FileExtentions.Weba, // Open Web Media Project - Audio
 		},
-		mime_type.AudioXAac: {
-			Aac, // Advanced Audio Coding (AAC)
+		mime_type.MimeTypes.AudioXAac: {
+			FileExtentions.Aac, // Advanced Audio Coding (AAC)
 		},
-		mime_type.AudioXAiff: {
-			Aif, // Audio Interchange File Format
+		mime_type.MimeTypes.AudioXAiff: {
+			FileExtentions.Aif, // Audio Interchange File Format
 		},
-		mime_type.AudioXMpegurl: {
-			M3u, // M3U (Multimedia Playlist)
+		mime_type.MimeTypes.AudioXMpegurl: {
+			FileExtentions.M3u, // M3U (Multimedia Playlist)
 		},
-		mime_type.AudioXMsWax: {
-			Wax, // Microsoft Windows Media Audio Redirector
+		mime_type.MimeTypes.AudioXMsWax: {
+			FileExtentions.Wax, // Microsoft Windows Media Audio Redirector
 		},
-		mime_type.AudioXMsWma: {
-			Wma, // Microsoft Windows Media Audio
+		mime_type.MimeTypes.AudioXMsWma: {
+			FileExtentions.Wma, // Microsoft Windows Media Audio
 		},
-		mime_type.AudioXPnRealaudio: {
-			Ram, // Real Audio Sound
+		mime_type.MimeTypes.AudioXPnRealaudio: {
+			FileExtentions.Ram, // Real Audio Sound
 		},
-		mime_type.AudioXPnRealaudioPlugin: {
-			Rmp, // Real Audio Sound
+		mime_type.MimeTypes.AudioXPnRealaudioPlugin: {
+			FileExtentions.Rmp, // Real Audio Sound
 		},
-		mime_type.ChemicalXCdx: {
-			Cdx, // ChemDraw eXchange file
+		mime_type.MimeTypes.ChemicalXCdx: {
+			FileExtentions.Cdx, // ChemDraw eXchange file
 		},
-		mime_type.ChemicalXCif: {
-			Cif, // Crystallographic Interchange Format
+		mime_type.MimeTypes.ChemicalXCif: {
+			FileExtentions.Cif, // Crystallographic Interchange Format
 		},
-		mime_type.ChemicalXCmdf: {
-			Cmdf, // CrystalMaker Data Format
+		mime_type.MimeTypes.ChemicalXCmdf: {
+			FileExtentions.Cmdf, // CrystalMaker Data Format
 		},
-		mime_type.ChemicalXCml: {
-			Cml, // Chemical Markup Language
+		mime_type.MimeTypes.ChemicalXCml: {
+			FileExtentions.Cml, // Chemical Markup Language
 		},
-		mime_type.ChemicalXCsml: {
-			Csml, // Chemical Style Markup Language
+		mime_type.MimeTypes.ChemicalXCsml: {
+			FileExtentions.Csml, // Chemical Style Markup Language
 		},
-		mime_type.ChemicalXXyz: {
-			Xyz, // XYZ File Format
+		mime_type.MimeTypes.ChemicalXXyz: {
+			FileExtentions.Xyz, // XYZ File Format
 		},
-		mime_type.FontOtf: {
-			Otf, // OpenType font
+		mime_type.MimeTypes.FontOtf: {
+			FileExtentions.Otf, // OpenType font
 		},
-		mime_type.FontTtf: {
-			Ttf, // TrueType Font
+		mime_type.MimeTypes.FontTtf: {
+			FileExtentions.Ttf, // TrueType Font
 		},
-		mime_type.FontWoff: {
-			Woff, // Web Open Font Format
+		mime_type.MimeTypes.FontWoff: {
+			FileExtentions.Woff, // Web Open Font Format
 		},
-		mime_type.FontWoff2: {
-			Woff2, // Web Open Font Format v2
+		mime_type.MimeTypes.FontWoff2: {
+			FileExtentions.Woff2, // Web Open Font Format v2
 		},
-		mime_type.ImageBmp: {
-			Bmp, // Bitmap Image File
+		mime_type.MimeTypes.ImageBmp: {
+			FileExtentions.Bmp, // Bitmap Image File
 		},
-		mime_type.ImageCgm: {
-			Cgm, // Computer Graphics Metafile
+		mime_type.MimeTypes.ImageCgm: {
+			FileExtentions.Cgm, // Computer Graphics Metafile
 		},
-		mime_type.ImageG3fax: {
-			G3, // G3 Fax Image
+		mime_type.MimeTypes.ImageG3fax: {
+			FileExtentions.G3, // G3 Fax Image
 		},
-		mime_type.ImageGif: {
-			Gif, // Graphics Interchange Format
+		mime_type.MimeTypes.ImageGif: {
+			FileExtentions.Gif, // Graphics Interchange Format
 		},
-		mime_type.ImageIef: {
-			Ief, // Image Exchange Format
+		mime_type.MimeTypes.ImageIef: {
+			FileExtentions.Ief, // Image Exchange Format
 		},
-		mime_type.ImageJpeg: {
-			Jpeg, // JPEG Image
-			Jpg,  // JPEG Image
+		mime_type.MimeTypes.ImageJpeg: {
+			FileExtentions.Jpeg, // JPEG Image
+			FileExtentions.Jpg,  // JPEG Image
 		},
-		mime_type.ImageKtx: {
-			Ktx, // OpenGL Textures (KTX)
+		mime_type.MimeTypes.ImageKtx: {
+			FileExtentions.Ktx, // OpenGL Textures (KTX)
 		},
-		mime_type.ImagePjpeg: {
-			Pjpeg, // JPEG Image (Progressive)
+		mime_type.MimeTypes.ImagePjpeg: {
+			FileExtentions.Pjpeg, // JPEG Image (Progressive)
 		},
-		mime_type.ImagePng: {
-			Png, // Portable Network Graphics
+		mime_type.MimeTypes.ImagePng: {
+			FileExtentions.Png, // Portable Network Graphics
 		},
-		mime_type.ImagePrsBtif: {
-			Btif, // BTIF
+		mime_type.MimeTypes.ImagePrsBtif: {
+			FileExtentions.Btif, // BTIF
 		},
-		mime_type.ImageSvgXml: {
-			Svg, // Scalable Vector Graphics (SVG)
+		mime_type.MimeTypes.ImageSvgXml: {
+			FileExtentions.Svg, // Scalable Vector Graphics (SVG)
 		},
-		mime_type.ImageTiff: {
-			Tif,  // Tagged Image File Format
-			Tiff, // Tagged Image File Format
+		mime_type.MimeTypes.ImageTiff: {
+			FileExtentions.Tif,  // Tagged Image File Format
+			FileExtentions.Tiff, // Tagged Image File Format
 		},
-		mime_type.ImageVndAdobePhotoshop: {
-			Psd, // Photoshop Document
+		mime_type.MimeTypes.ImageVndAdobePhotoshop: {
+			FileExtentions.Psd, // Photoshop Document
 		},
-		mime_type.ImageVndDeceGraphic: {
-			Uvi, // DECE Graphic
+		mime_type.MimeTypes.ImageVndDeceGraphic: {
+			FileExtentions.Uvi, // DECE Graphic
 		},
-		mime_type.ImageVndDjvu: {
-			Djvu, // DjVu
+		mime_type.MimeTypes.ImageVndDjvu: {
+			FileExtentions.Djvu, // DjVu
 		},
-		mime_type.ImageVndDvbSubtitle: {
-			Sub, // Close Captioning - Subtitle
+		mime_type.MimeTypes.ImageVndDvbSubtitle: {
+			FileExtentions.Sub, // Close Captioning - Subtitle
 		},
-		mime_type.ImageVndDwg: {
-			Dwg, // DWG Drawing
+		mime_type.MimeTypes.ImageVndDwg: {
+			FileExtentions.Dwg, // DWG Drawing
 		},
-		mime_type.ImageVndDxf: {
-			Dxf, // AutoCAD DXF
+		mime_type.MimeTypes.ImageVndDxf: {
+			FileExtentions.Dxf, // AutoCAD DXF
 		},
-		mime_type.ImageVndFastbidsheet: {
-			Fbs, // FastBid Sheet
+		mime_type.MimeTypes.ImageVndFastbidsheet: {
+			FileExtentions.Fbs, // FastBid Sheet
 		},
-		mime_type.ImageVndFpx: {
-			Fpx, // FlashPix
+		mime_type.MimeTypes.ImageVndFpx: {
+			FileExtentions.Fpx, // FlashPix
 		},
-		mime_type.ImageVndFst: {
-			Fst, // FAST Search & Transfer ASA
+		mime_type.MimeTypes.ImageVndFst: {
+			FileExtentions.Fst, // FAST Search & Transfer ASA
 		},
-		mime_type.ImageVndFujixeroxEdmicsMmr: {
-			Mmr, // EDMICS 2000
+		mime_type.MimeTypes.ImageVndFujixeroxEdmicsMmr: {
+			FileExtentions.Mmr, // EDMICS 2000
 		},
-		mime_type.ImageVndFujixeroxEdmicsRlc: {
-			Rlc, // EDMICS 2000
+		mime_type.MimeTypes.ImageVndFujixeroxEdmicsRlc: {
+			FileExtentions.Rlc, // EDMICS 2000
 		},
-		mime_type.ImageVndMsModi: {
-			Mdi, // Microsoft Document Imaging Format
+		mime_type.MimeTypes.ImageVndMsModi: {
+			FileExtentions.Mdi, // Microsoft Document Imaging Format
 		},
-		mime_type.ImageVndNetFpx: {
-			Npx, // FlashPix
+		mime_type.MimeTypes.ImageVndNetFpx: {
+			FileExtentions.Npx, // FlashPix
 		},
-		mime_type.ImageVndWapWbmp: {
-			Wbmp, // WAP Bitamp (WBMP)
+		mime_type.MimeTypes.ImageVndWapWbmp: {
+			FileExtentions.Wbmp, // WAP Bitamp (WBMP)
 		},
-		mime_type.ImageVndXiff: {
-			Xif, // eXtended Image File Format (XIFF)
+		mime_type.MimeTypes.ImageVndXiff: {
+			FileExtentions.Xif, // eXtended Image File Format (XIFF)
 		},
-		mime_type.ImageWebp: {
-			Webp, // WebP Image
+		mime_type.MimeTypes.ImageWebp: {
+			FileExtentions.Webp, // WebP Image
 		},
-		mime_type.ImageXCmuRaster: {
-			Ras, // CMU Image
+		mime_type.MimeTypes.ImageXCmuRaster: {
+			FileExtentions.Ras, // CMU Image
 		},
-		mime_type.ImageXCmx: {
-			Cmx, // Corel Metafile Exchange (CMX)
+		mime_type.MimeTypes.ImageXCmx: {
+			FileExtentions.Cmx, // Corel Metafile Exchange (CMX)
 		},
-		mime_type.ImageXFreehand: {
-			Fh, // FreeHand MX
+		mime_type.MimeTypes.ImageXFreehand: {
+			FileExtentions.Fh, // FreeHand MX
 		},
-		mime_type.ImageXIcon: {
-			Ico, // Icon Image
+		mime_type.MimeTypes.ImageXIcon: {
+			FileExtentions.Ico, // Icon Image
 		},
-		mime_type.ImageXPcx: {
-			Pcx, // PCX Image
+		mime_type.MimeTypes.ImageXPcx: {
+			FileExtentions.Pcx, // PCX Image
 		},
-		mime_type.ImageXPict: {
-			Pic, // PICT Image
+		mime_type.MimeTypes.ImageXPict: {
+			FileExtentions.Pic, // PICT Image
 		},
-		mime_type.ImageXPortableAnymap: {
-			Pnm, // Portable Anymap Image
+		mime_type.MimeTypes.ImageXPortableAnymap: {
+			FileExtentions.Pnm, // Portable Anymap Image
 		},
-		mime_type.ImageXPortableBitmap: {
-			Pbm, // Portable Bitmap Format
+		mime_type.MimeTypes.ImageXPortableBitmap: {
+			FileExtentions.Pbm, // Portable Bitmap Format
 		},
-		mime_type.ImageXPortableGraymap: {
-			Pgm, // Portable Graymap Format
+		mime_type.MimeTypes.ImageXPortableGraymap: {
+			FileExtentions.Pgm, // Portable Graymap Format
 		},
-		mime_type.ImageXPortablePixmap: {
-			Ppm, // Portable Pixmap Format
+		mime_type.MimeTypes.ImageXPortablePixmap: {
+			FileExtentions.Ppm, // Portable Pixmap Format
 		},
-		mime_type.ImageXRgb: {
-			Rgb, // Silicon Graphics RGB Bitmap
+		mime_type.MimeTypes.ImageXRgb: {
+			FileExtentions.Rgb, // Silicon Graphics RGB Bitmap
 		},
-		mime_type.ImageXXbitmap: {
-			Xbm, // X BitMap
+		mime_type.MimeTypes.ImageXXbitmap: {
+			FileExtentions.Xbm, // X BitMap
 		},
-		mime_type.ImageXXpixmap: {
-			Xpm, // X PixMap
+		mime_type.MimeTypes.ImageXXpixmap: {
+			FileExtentions.Xpm, // X PixMap
 		},
-		mime_type.ImageXXwindowdump: {
-			Xwd, // X Window Dump
+		mime_type.MimeTypes.ImageXXwindowdump: {
+			FileExtentions.Xwd, // X Window Dump
 		},
-		mime_type.MessageRfc822: {
-			Eml, // Email Message
+		mime_type.MimeTypes.MessageRfc822: {
+			FileExtentions.Eml, // Email Message
 		},
-		mime_type.ModelIges: {
-			Igs, // Initial Graphics Exchange Specification (IGES)
+		mime_type.MimeTypes.ModelIges: {
+			FileExtentions.Igs, // Initial Graphics Exchange Specification (IGES)
 		},
-		mime_type.ModelMesh: {
-			Msh, // Mesh Data Type
+		mime_type.MimeTypes.ModelMesh: {
+			FileExtentions.Msh, // Mesh Data Type
 		},
-		mime_type.ModelVndColladaXml: {
-			Dae, // COLLADA
+		mime_type.MimeTypes.ModelVndColladaXml: {
+			FileExtentions.Dae, // COLLADA
 		},
-		mime_type.ModelVndDwf: {
-			Dwf, // Autodesk Design Web Format (DWF)
+		mime_type.MimeTypes.ModelVndDwf: {
+			FileExtentions.Dwf, // Autodesk Design Web Format (DWF)
 		},
-		mime_type.ModelVndGdl: {
-			Gdl, // Geometric Description Language (GDL)
+		mime_type.MimeTypes.ModelVndGdl: {
+			FileExtentions.Gdl, // Geometric Description Language (GDL)
 		},
-		mime_type.ModelVndGtw: {
-			Gtw, // Gen-Trix Studio
+		mime_type.MimeTypes.ModelVndGtw: {
+			FileExtentions.Gtw, // Gen-Trix Studio
 		},
-		mime_type.ModelVndMts: {
-			Mts, // Virtue MTS
+		mime_type.MimeTypes.ModelVndMts: {
+			FileExtentions.Mts, // Virtue MTS
 		},
-		mime_type.ModelVndVtu: {
-			Vtu, // Virtue VTU
+		mime_type.MimeTypes.ModelVndVtu: {
+			FileExtentions.Vtu, // Virtue VTU
 		},
-		mime_type.ModelVrml: {
-			Wrl, // Virtual Reality Modeling Language
+		mime_type.MimeTypes.ModelVrml: {
+			FileExtentions.Wrl, // Virtual Reality Modeling Language
 		},
-		mime_type.TextCalendar: {
-			Ics, // iCalendar
+		mime_type.MimeTypes.TextCalendar: {
+			FileExtentions.Ics, // iCalendar
 		},
-		mime_type.TextCss: {
-			Css, // Cascading Style Sheets (CSS)
+		mime_type.MimeTypes.TextCss: {
+			FileExtentions.Css, // Cascading Style Sheets (CSS)
 		},
-		mime_type.TextCsv: {
-			Csv, // Comma-Seperated Values
+		mime_type.MimeTypes.TextCsv: {
+			FileExtentions.Csv, // Comma-Seperated Values
 		},
-		mime_type.TextHtml: {
-			Html, // HyperText Markup Language (HTML)
+		mime_type.MimeTypes.TextHtml: {
+			FileExtentions.Html, // HyperText Markup Language (HTML)
 		},
-		mime_type.TextN3: {
-			N3, // Notation3
+		mime_type.MimeTypes.TextN3: {
+			FileExtentions.N3, // Notation3
 		},
-		mime_type.TextPlain: {
-			Txt, // Text File
+		mime_type.MimeTypes.TextPlain: {
+			FileExtentions.Txt, // Text File
 		},
-		mime_type.TextPlainBas: {
-			Par, // BAS Partitur Format
+		mime_type.MimeTypes.TextPlainBas: {
+			FileExtentions.Par, // BAS Partitur Format
 		},
-		mime_type.TextPrsLinesTag: {
-			Dsc, // PRS Lines Tag
+		mime_type.MimeTypes.TextPrsLinesTag: {
+			FileExtentions.Dsc, // PRS Lines Tag
 		},
-		mime_type.TextRichtext: {
-			Rtx, // Rich Text Format (RTF)
+		mime_type.MimeTypes.TextRichtext: {
+			FileExtentions.Rtx, // Rich Text Format (RTF)
 		},
-		mime_type.TextSgml: {
-			Sgml, // Standard Generalized Markup Language (SGML)
+		mime_type.MimeTypes.TextSgml: {
+			FileExtentions.Sgml, // Standard Generalized Markup Language (SGML)
 		},
-		mime_type.TextTabSeparatedValues: {
-			Tsv, // Tab Seperated Values
+		mime_type.MimeTypes.TextTabSeparatedValues: {
+			FileExtentions.Tsv, // Tab Seperated Values
 		},
-		mime_type.TextTroff: {
-			T, // troff
+		mime_type.MimeTypes.TextTroff: {
+			FileExtentions.T, // troff
 		},
-		mime_type.TextTurtle: {
-			Ttl, // Turtle (Terse RDF Triple Language)
+		mime_type.MimeTypes.TextTurtle: {
+			FileExtentions.Ttl, // Turtle (Terse RDF Triple Language)
 		},
-		mime_type.TextUriList: {
-			Uri, // URI Resolution Services
+		mime_type.MimeTypes.TextUriList: {
+			FileExtentions.Uri, // URI Resolution Services
 		},
-		mime_type.TextVndCurl: {
-			Curl, // Curl - Applet
+		mime_type.MimeTypes.TextVndCurl: {
+			FileExtentions.Curl, // Curl - Applet
 		},
-		mime_type.TextVndCurlDcurl: {
-			Dcurl, // Curl - Detached Applet
+		mime_type.MimeTypes.TextVndCurlDcurl: {
+			FileExtentions.Dcurl, // Curl - Detached Applet
 		},
-		mime_type.TextVndCurlMcurl: {
-			Mcurl, // Curl - Manifest File
+		mime_type.MimeTypes.TextVndCurlMcurl: {
+			FileExtentions.Mcurl, // Curl - Manifest File
 		},
-		mime_type.TextVndCurlScurl: {
-			Scurl, // Curl - Source Code
+		mime_type.MimeTypes.TextVndCurlScurl: {
+			FileExtentions.Scurl, // Curl - Source Code
 		},
-		mime_type.TextVndFly: {
-			Fly, // mod_fly / fly.cgi
+		mime_type.MimeTypes.TextVndFly: {
+			FileExtentions.Fly, // mod_fly / fly.cgi
 		},
-		mime_type.TextVndFmiFlexstor: {
-			Flx, // FLEXSTOR
+		mime_type.MimeTypes.TextVndFmiFlexstor: {
+			FileExtentions.Flx, // FLEXSTOR
 		},
-		mime_type.TextVndGraphviz: {
-			Gv, // Graphviz
+		mime_type.MimeTypes.TextVndGraphviz: {
+			FileExtentions.Gv, // Graphviz
 		},
-		mime_type.TextVndIn3d3dml: {
-			_3dml, // In3D - 3DML
+		mime_type.MimeTypes.TextVndIn3d3dml: {
+			FileExtentions._3dml, // In3D - 3DML
 		},
-		mime_type.TextVndIn3dSpot: {
-			Spot, // In3D - 3DML
+		mime_type.MimeTypes.TextVndIn3dSpot: {
+			FileExtentions.Spot, // In3D - 3DML
 		},
-		mime_type.TextVndSunJ2meAppDescriptor: {
-			Jad, // J2ME App Descriptor
+		mime_type.MimeTypes.TextVndSunJ2meAppDescriptor: {
+			FileExtentions.Jad, // J2ME App Descriptor
 		},
-		mime_type.TextVndWapWml: {
-			Wml, // Wireless Markup Language (WML)
+		mime_type.MimeTypes.TextVndWapWml: {
+			FileExtentions.Wml, // Wireless Markup Language (WML)
 		},
-		mime_type.TextVndWapWmlscript: {
-			Wmls, // Wireless Markup Language Script (WMLScript)
+		mime_type.MimeTypes.TextVndWapWmlscript: {
+			FileExtentions.Wmls, // Wireless Markup Language Script (WMLScript)
 		},
-		mime_type.TextXAsm: {
-			S,   // Assembler Source File
-			Asm, // Assembler Source File
+		mime_type.MimeTypes.TextXAsm: {
+			FileExtentions.S,   // Assembler Source File
+			FileExtentions.Asm, // Assembler Source File
 		},
-		mime_type.TextXC: {
-			C, // C Source File
+		mime_type.MimeTypes.TextXC: {
+			FileExtentions.C, // C Source File
 		},
-		mime_type.TextXFortran: {
-			F, // Fortran Source File
+		mime_type.MimeTypes.TextXFortran: {
+			FileExtentions.F, // Fortran Source File
 		},
-		mime_type.TextXJavaSource: {
-			Java, // Java Source File
+		mime_type.MimeTypes.TextXJavaSource: {
+			FileExtentions.Java, // Java Source File
 		},
-		mime_type.TextXPascal: {
-			P, // Pascal Source File
+		mime_type.MimeTypes.TextXPascal: {
+			FileExtentions.P, // Pascal Source File
 		},
-		mime_type.TextXSetext: {
-			Etx, // Setext
+		mime_type.MimeTypes.TextXSetext: {
+			FileExtentions.Etx, // Setext
 		},
-		mime_type.TextXUuencode: {
-			Uu, // UUEncode
+		mime_type.MimeTypes.TextXUuencode: {
+			FileExtentions.Uu, // UUEncode
 		},
-		mime_type.TextXVcalendar: {
-			Vcs, // vCalendar
+		mime_type.MimeTypes.TextXVcalendar: {
+			FileExtentions.Vcs, // vCalendar
 		},
-		mime_type.TextXVcard: {
-			Vcf, // vCard
+		mime_type.MimeTypes.TextXVcard: {
+			FileExtentions.Vcf, // vCard
 		},
-		mime_type.Unkown: {},
-		mime_type.Video3gpp: {
-			_3gp, // 3GPP
+		mime_type.MimeTypes.Unkown: {},
+		mime_type.MimeTypes.Video3gpp: {
+			FileExtentions._3gp, // 3GPP
 		},
-		mime_type.Video3gpp2: {
-			_3g2, // 3GP2
+		mime_type.MimeTypes.Video3gpp2: {
+			FileExtentions._3g2, // 3GP2
 		},
-		mime_type.VideoH261: {
-			H261, // H.261
+		mime_type.MimeTypes.VideoH261: {
+			FileExtentions.H261, // H.261
 		},
-		mime_type.VideoH263: {
-			H263, // H.263
+		mime_type.MimeTypes.VideoH263: {
+			FileExtentions.H263, // H.263
 		},
-		mime_type.VideoH264: {
-			H264, // H.264
+		mime_type.MimeTypes.VideoH264: {
+			FileExtentions.H264, // H.264
 		},
-		mime_type.VideoJpeg: {
-			Jpgv, // JPGVideo
+		mime_type.MimeTypes.VideoJpeg: {
+			FileExtentions.Jpgv, // JPGVideo
 		},
-		mime_type.VideoJpm: {
-			Jpm, // JPEG 2000 Compound Image File Format
+		mime_type.MimeTypes.VideoJpm: {
+			FileExtentions.Jpm, // JPEG 2000 Compound Image File Format
 		},
-		mime_type.VideoMj2: {
-			Mj2, // Motion JPEG 2000
+		mime_type.MimeTypes.VideoMj2: {
+			FileExtentions.Mj2, // Motion JPEG 2000
 		},
-		mime_type.VideoMp4: {
-			Mp4, // MPEG4
+		mime_type.MimeTypes.VideoMp4: {
+			FileExtentions.Mp4, // MPEG4
 		},
-		mime_type.VideoMpeg: {
-			Mpeg, // MPEG Video
+		mime_type.MimeTypes.VideoMpeg: {
+			FileExtentions.Mpeg, // MPEG Video
 		},
-		mime_type.VideoOgg: {
-			Ogv, // Ogg Video
+		mime_type.MimeTypes.VideoOgg: {
+			FileExtentions.Ogv, // Ogg Video
 		},
-		mime_type.VideoQuicktime: {
-			Qt, // Quicktime Video
+		mime_type.MimeTypes.VideoQuicktime: {
+			FileExtentions.Qt, // Quicktime Video
 		},
-		mime_type.VideoVndDeceHd: {
-			Uvh, // DECE High Definition Video
+		mime_type.MimeTypes.VideoVndDeceHd: {
+			FileExtentions.Uvh, // DECE High Definition Video
 		},
-		mime_type.VideoVndDeceMobile: {
-			Uvm, // DECE Mobile Video
+		mime_type.MimeTypes.VideoVndDeceMobile: {
+			FileExtentions.Uvm, // DECE Mobile Video
 		},
-		mime_type.VideoVndDecePd: {
-			Uvp, // DECE PD Video
+		mime_type.MimeTypes.VideoVndDecePd: {
+			FileExtentions.Uvp, // DECE PD Video
 		},
-		mime_type.VideoVndDeceSd: {
-			Uvs, // DECE SD Video
+		mime_type.MimeTypes.VideoVndDeceSd: {
+			FileExtentions.Uvs, // DECE SD Video
 		},
-		mime_type.VideoVndDeceVideo: {
-			Uvv, // DECE Video
+		mime_type.MimeTypes.VideoVndDeceVideo: {
+			FileExtentions.Uvv, // DECE Video
 		},
-		mime_type.VideoVndFvt: {
-			Fvt, // FAST Search & Transfer ASA
+		mime_type.MimeTypes.VideoVndFvt: {
+			FileExtentions.Fvt, // FAST Search & Transfer ASA
 		},
-		mime_type.VideoVndMpegurl: {
-			Mxu, // MPEG Url
+		mime_type.MimeTypes.VideoVndMpegurl: {
+			FileExtentions.Mxu, // MPEG Url
 		},
-		mime_type.VideoVndMsPlayreadyMediaPyv: {
-			Pyv, // Microsoft PlayReady Ecosystem Video
+		mime_type.MimeTypes.VideoVndMsPlayreadyMediaPyv: {
+			FileExtentions.Pyv, // Microsoft PlayReady Ecosystem Video
 		},
-		mime_type.VideoVndUvvuMp4: {
-			Uvu, // DECE MP4
+		mime_type.MimeTypes.VideoVndUvvuMp4: {
+			FileExtentions.Uvu, // DECE MP4
 		},
-		mime_type.VideoVndVivo: {
-			Viv, // Vivo
+		mime_type.MimeTypes.VideoVndVivo: {
+			FileExtentions.Viv, // Vivo
 		},
-		mime_type.VideoWebm: {
-			Webm, // Open Web Media Project - Video
+		mime_type.MimeTypes.VideoWebm: {
+			FileExtentions.Webm, // Open Web Media Project - Video
 		},
-		mime_type.VideoXF4v: {
-			F4v, // Flash Video
+		mime_type.MimeTypes.VideoXF4v: {
+			FileExtentions.F4v, // Flash Video
 		},
-		mime_type.VideoXFli: {
-			Fli, // FLI/FLC Animation Format
+		mime_type.MimeTypes.VideoXFli: {
+			FileExtentions.Fli, // FLI/FLC Animation Format
 		},
-		mime_type.VideoXFlv: {
-			Flv, // Flash Video
+		mime_type.MimeTypes.VideoXFlv: {
+			FileExtentions.Flv, // Flash Video
 		},
-		mime_type.VideoXM4v: {
-			M4v, // M4v
+		mime_type.MimeTypes.VideoXM4v: {
+			FileExtentions.M4v, // M4v
 		},
-		mime_type.VideoXMsAsf: {
-			Asf, // Microsoft Advanced Systems Format (ASF)
+		mime_type.MimeTypes.VideoXMsAsf: {
+			FileExtentions.Asf, // Microsoft Advanced Systems Format (ASF)
 		},
-		mime_type.VideoXMsWm: {
-			Wm, // Microsoft Windows Media
+		mime_type.MimeTypes.VideoXMsWm: {
+			FileExtentions.Wm, // Microsoft Windows Media
 		},
-		mime_type.VideoXMsWmv: {
-			Wmv, // Microsoft Windows Media Video
+		mime_type.MimeTypes.VideoXMsWmv: {
+			FileExtentions.Wmv, // Microsoft Windows Media Video
 		},
-		mime_type.VideoXMsWmx: {
-			Wmx, // Microsoft Windows Media Audio/Video Playlist
+		mime_type.MimeTypes.VideoXMsWmx: {
+			FileExtentions.Wmx, // Microsoft Windows Media Audio/Video Playlist
 		},
-		mime_type.VideoXMsWvx: {
-			Wvx, // Microsoft Windows Media Video Playlist
+		mime_type.MimeTypes.VideoXMsWvx: {
+			FileExtentions.Wvx, // Microsoft Windows Media Video Playlist
 		},
-		mime_type.VideoXMsvideo: {
-			Avi, // Audio Video Interleave (AVI)
+		mime_type.MimeTypes.VideoXMsvideo: {
+			FileExtentions.Avi, // Audio Video Interleave (AVI)
 		},
-		mime_type.VideoXSgiMovie: {
-			Movie, // SGI Movie
+		mime_type.MimeTypes.VideoXSgiMovie: {
+			FileExtentions.Movie, // SGI Movie
 		},
-		mime_type.XConferenceXCooltalk: {
-			Ice, // CoolTalk
+		mime_type.MimeTypes.XConferenceXCooltalk: {
+			FileExtentions.Ice, // CoolTalk
 		},
-		mime_type.ApplicationToml: {
-			Toml, // Tom's Obvious, Minimal Language
+		mime_type.MimeTypes.ApplicationToml: {
+			FileExtentions.Toml, // Tom's Obvious, Minimal Language
 		},
-		mime_type.ApplicationHcl: {
-			Hcl, // HashiCorp configuration language
+		mime_type.MimeTypes.ApplicationHcl: {
+			FileExtentions.Hcl, // HashiCorp configuration language
 		},
-		mime_type.ApplicationIni: {
-			Ini, // Microsoft Windows Initialization
+		mime_type.MimeTypes.ApplicationIni: {
+			FileExtentions.Ini, // Microsoft Windows Initialization
 		},
-		mime_type.ApplicationCue: {
-			Cue, // Configure Unify Execute
+		mime_type.MimeTypes.ApplicationCue: {
+			FileExtentions.Cue, // Configure Unify Execute
 		},
-		mime_type.ApplicationXGo: {
-			Go,  // Go source file
-			Mod, // Go source file
-			Sum, // Go source file
+		mime_type.MimeTypes.ApplicationXGo: {
+			FileExtentions.Go,  // Go source file
+			FileExtentions.Mod, // Go source file
+			FileExtentions.Sum, // Go source file
 		},
-		mime_type.ApplicationXGoTemplate: {
-			Gotmpl, // Go template file
-			Tmpl,   // Go template file
-			Gtpl,   // Go template file
+		mime_type.MimeTypes.ApplicationXGoTemplate: {
+			FileExtentions.Gotmpl, // Go template file
+			FileExtentions.Tmpl,   // Go template file
+			FileExtentions.Gtpl,   // Go template file
 		},
-		mime_type.ApplicationXCpp: {
-			Cpp, // C++ source file
+		mime_type.MimeTypes.ApplicationXCpp: {
+			FileExtentions.Cpp, // C++ source file
 		},
-		mime_type.ApplicationXCsharp: {
-			Cs,  // C# source file
-			Csx, // C# source file
+		mime_type.MimeTypes.ApplicationXCsharp: {
+			FileExtentions.Cs,  // C# source file
+			FileExtentions.Csx, // C# source file
 		},
-		mime_type.ApplicationXPython: {
-			Py, // Python source file
+		mime_type.MimeTypes.ApplicationXPython: {
+			FileExtentions.Py, // Python source file
 		},
-		mime_type.ApplicationXPythonGenerated: {
-			Pyi, // Python generated file
-			Pyc, // Python generated file
-			Pyd, // Python generated file
-			Pyw, // Python generated file
-			Pyz, // Python generated file
-			Pyo, // Python generated file
+		mime_type.MimeTypes.ApplicationXPythonGenerated: {
+			FileExtentions.Pyi, // Python generated file
+			FileExtentions.Pyc, // Python generated file
+			FileExtentions.Pyd, // Python generated file
+			FileExtentions.Pyw, // Python generated file
+			FileExtentions.Pyz, // Python generated file
+			FileExtentions.Pyo, // Python generated file
 		},
-		mime_type.ApplicationXRuby: {
-			Rb, // Ruby source file
+		mime_type.MimeTypes.ApplicationXRuby: {
+			FileExtentions.Rb, // Ruby source file
 		},
-		mime_type.ApplicationXRust: {
-			Rs, // Rust source file
+		mime_type.MimeTypes.ApplicationXRust: {
+			FileExtentions.Rs, // Rust source file
 		},
-		mime_type.ApplicationXBnf: {
-			Bnf, // Backus-Naur Form definition file
+		mime_type.MimeTypes.ApplicationXBnf: {
+			FileExtentions.Bnf, // Backus-Naur Form definition file
 		},
-		mime_type.ApplicationXAbnf: {
-			Abnf, // Augmented Backus-Naur Form definition file
+		mime_type.MimeTypes.ApplicationXAbnf: {
+			FileExtentions.Abnf, // Augmented Backus-Naur Form definition file
 		},
-		mime_type.ApplicationXVisualBasic: {
-			Vb,       // Visual Basic source file
-			Vbs,      // Visual Basic source file
-			Vbscript, // Visual Basic source file
+		mime_type.MimeTypes.ApplicationXVisualBasic: {
+			FileExtentions.Vb,       // Visual Basic source file
+			FileExtentions.Vbs,      // Visual Basic source file
+			FileExtentions.Vbscript, // Visual Basic source file
 		},
-		mime_type.ApplicationXSass: {
-			Scss, // Syntactically Awesome Stylesheet source file
-			Sass, // Syntactically Awesome Stylesheet source file
+		mime_type.MimeTypes.ApplicationXSass: {
+			FileExtentions.Scss, // Syntactically Awesome Stylesheet source file
+			FileExtentions.Sass, // Syntactically Awesome Stylesheet source file
 		},
-		mime_type.ApplicationXDart: {
-			Dart, // Dart source file
+		mime_type.MimeTypes.ApplicationXDart: {
+			FileExtentions.Dart, // Dart source file
 		},
-		mime_type.ApplicationXBash: {
-			Bash, // BASH shell script
+		mime_type.MimeTypes.ApplicationXBash: {
+			FileExtentions.Bash, // BASH shell script
 		},
-		mime_type.ApplicationXFish: {
-			Fish, // FISH shell script
+		mime_type.MimeTypes.ApplicationXFish: {
+			FileExtentions.Fish, // FISH shell script
 		},
-		mime_type.ApplicationXZsh: {
-			Zsh, // ZSH shell script
+		mime_type.MimeTypes.ApplicationXZsh: {
+			FileExtentions.Zsh, // ZSH shell script
 		},
-		mime_type.ApplicationXKorn: {
-			Ksh, // Korn shell script
+		mime_type.MimeTypes.ApplicationXKorn: {
+			FileExtentions.Ksh, // Korn shell script
 		},
-		mime_type.ApplicationXPuppet: {
-			Pp, // Puppet manifest file
+		mime_type.MimeTypes.ApplicationXPuppet: {
+			FileExtentions.Pp, // Puppet manifest file
 		},
-		mime_type.ApplicationXOcaml: {
-			Ml,  // OCaml source file
-			Mli, // OCaml source file
+		mime_type.MimeTypes.ApplicationXOcaml: {
+			FileExtentions.Ml,  // OCaml source file
+			FileExtentions.Mli, // OCaml source file
 		},
-		mime_type.ApplicationXPascal: {
-			Pas, // Pascal source file
-			Inc, // Pascal source file
+		mime_type.MimeTypes.ApplicationXPascal: {
+			FileExtentions.Pas, // Pascal source file
+			FileExtentions.Inc, // Pascal source file
 		},
-		mime_type.ApplicationXClojure: {
-			Clj,  // Clojure source file
-			Cljs, // Clojure source file
-			Cljc, // Clojure source file
-			Edn,  // Clojure source file
+		mime_type.MimeTypes.ApplicationXClojure: {
+			FileExtentions.Clj,  // Clojure source file
+			FileExtentions.Cljs, // Clojure source file
+			FileExtentions.Cljc, // Clojure source file
+			FileExtentions.Edn,  // Clojure source file
 		},
-		mime_type.ApplicationXScheme: {
-			Scm, // Scheme source file
-			Ss,  // Scheme source file
+		mime_type.MimeTypes.ApplicationXScheme: {
+			FileExtentions.Scm, // Scheme source file
+			FileExtentions.Ss,  // Scheme source file
 		},
-		mime_type.ApplicationXLisp: {
-			Lisp, // Common Lisp source file
-			Lsp,  // Common Lisp source file
-			L,    // Common Lisp source file
-			Cl,   // Common Lisp source file
-			Fasl, // Common Lisp source file
+		mime_type.MimeTypes.ApplicationXLisp: {
+			FileExtentions.Lisp, // Common Lisp source file
+			FileExtentions.Lsp,  // Common Lisp source file
+			FileExtentions.L,    // Common Lisp source file
+			FileExtentions.Cl,   // Common Lisp source file
+			FileExtentions.Fasl, // Common Lisp source file
 		},
-		mime_type.ApplicationXKotlin: {
-			Kt,  // Kotlin source file
-			Kts, // Kotlin source file
-			Ktm, // Kotlin source file
+		mime_type.MimeTypes.ApplicationXKotlin: {
+			FileExtentions.Kt,  // Kotlin source file
+			FileExtentions.Kts, // Kotlin source file
+			FileExtentions.Ktm, // Kotlin source file
 		},
-		mime_type.ApplicationXErlang: {
-			Erl, // Erlang source file
-			Hrl, // Erlang source file
+		mime_type.MimeTypes.ApplicationXErlang: {
+			FileExtentions.Erl, // Erlang source file
+			FileExtentions.Hrl, // Erlang source file
 		},
-		mime_type.ApplicationXScala: {
-			Scala, // Scala source file
-			Sc,    // Scala source file
+		mime_type.MimeTypes.ApplicationXScala: {
+			FileExtentions.Scala, // Scala source file
+			FileExtentions.Sc,    // Scala source file
 		},
-		mime_type.ApplicationXHaskell: {
-			Hs,  // Haskell source file
-			Lhs, // Haskell source file
+		mime_type.MimeTypes.ApplicationXHaskell: {
+			FileExtentions.Hs,  // Haskell source file
+			FileExtentions.Lhs, // Haskell source file
 		},
-		mime_type.ApplicationXFsharp: {
-			Fs,       // F# source file
-			Fsi,      // F# source file
-			Fsx,      // F# source file
-			Fsscript, // F# source file
+		mime_type.MimeTypes.ApplicationXFsharp: {
+			FileExtentions.Fs,       // F# source file
+			FileExtentions.Fsi,      // F# source file
+			FileExtentions.Fsx,      // F# source file
+			FileExtentions.Fsscript, // F# source file
 		},
-		mime_type.ApplicationXElixir: {
-			Ex,  // Elixir source file
-			Exs, // Elixir source file
+		mime_type.MimeTypes.ApplicationXElixir: {
+			FileExtentions.Ex,  // Elixir source file
+			FileExtentions.Exs, // Elixir source file
 		},
-		mime_type.ApplicationXElm: {
-			Elm, // Elm source file
+		mime_type.MimeTypes.ApplicationXElm: {
+			FileExtentions.Elm, // Elm source file
 		},
-		mime_type.ApplicationXTypescript: {
-			Ts, // TypeScript source file
+		mime_type.MimeTypes.ApplicationXTypescript: {
+			FileExtentions.Ts, // TypeScript source file
 		},
-		mime_type.ApplicationXXtend: {
-			Xtend, // Xtend source file
+		mime_type.MimeTypes.ApplicationXXtend: {
+			FileExtentions.Xtend, // Xtend source file
 		},
-		mime_type.ApplicationXXquery: {
-			Xq,     // XQuery source file
-			Xql,    // XQuery source file
-			Xqm,    // XQuery source file
-			Xqy,    // XQuery source file
-			Xquery, // XQuery source file
+		mime_type.MimeTypes.ApplicationXXquery: {
+			FileExtentions.Xq,     // XQuery source file
+			FileExtentions.Xql,    // XQuery source file
+			FileExtentions.Xqm,    // XQuery source file
+			FileExtentions.Xqy,    // XQuery source file
+			FileExtentions.Xquery, // XQuery source file
 		},
-		mime_type.ApplicationXWebassembly: {
-			Wat,  // WebAssembly
-			Wasm, // WebAssembly
+		mime_type.MimeTypes.ApplicationXWebassembly: {
+			FileExtentions.Wat,  // WebAssembly
+			FileExtentions.Wasm, // WebAssembly
 		},
-		mime_type.ApplicationXSql: {
-			Sql, // Standard Query Language (SQL) source file
-			Ddl, // Standard Query Language (SQL) source file
+		mime_type.MimeTypes.ApplicationXSql: {
+			FileExtentions.Sql, // Standard Query Language (SQL) source file
+			FileExtentions.Ddl, // Standard Query Language (SQL) source file
 		},
-		mime_type.ApplicationXR: {
-			R,     // R source file
-			Rdata, // R source file
-			Rds,   // R source file
-			Rda,   // R source file
+		mime_type.MimeTypes.ApplicationXR: {
+			FileExtentions.R,     // R source file
+			FileExtentions.Rdata, // R source file
+			FileExtentions.Rds,   // R source file
+			FileExtentions.Rda,   // R source file
 		},
-		mime_type.ApplicationXPowershell: {
-			Ps1,    // PowerShell script file
-			Ps1xml, // PowerShell script file
-			Psc1,   // PowerShell script file
-			Psm1,   // PowerShell script file
-			Pssc,   // PowerShell script file
-			Psrc,   // PowerShell script file
-			Cdxml,  // PowerShell script file
+		mime_type.MimeTypes.ApplicationXPowershell: {
+			FileExtentions.Ps1,    // PowerShell script file
+			FileExtentions.Ps1xml, // PowerShell script file
+			FileExtentions.Psc1,   // PowerShell script file
+			FileExtentions.Psm1,   // PowerShell script file
+			FileExtentions.Pssc,   // PowerShell script file
+			FileExtentions.Psrc,   // PowerShell script file
+			FileExtentions.Cdxml,  // PowerShell script file
 		},
-		mime_type.ApplicationXPerl: {
-			Pl,  // Perl source file
-			Plx, // Perl source file
-			Pm,  // Perl source file
-			Xs,  // Perl source file
-			Pod, // Perl source file
-			Cgi, // Perl source file
+		mime_type.MimeTypes.ApplicationXPerl: {
+			FileExtentions.Pl,  // Perl source file
+			FileExtentions.Plx, // Perl source file
+			FileExtentions.Pm,  // Perl source file
+			FileExtentions.Xs,  // Perl source file
+			FileExtentions.Pod, // Perl source file
+			FileExtentions.Cgi, // Perl source file
 		},
-		mime_type.ApplicationXObjectiveC: {
-			M,  // Objective-C source file
-			Mm, // Objective-C source file
+		mime_type.MimeTypes.ApplicationXObjectiveC: {
+			FileExtentions.M,  // Objective-C source file
+			FileExtentions.Mm, // Objective-C source file
 		},
-		mime_type.ApplicationXCHeader: {
-			H, // C Header source file
+		mime_type.MimeTypes.ApplicationXCHeader: {
+			FileExtentions.H, // C Header source file
 		},
-		mime_type.ApplicationXLua: {
-			Lua, // Lua source file
+		mime_type.MimeTypes.ApplicationXLua: {
+			FileExtentions.Lua, // Lua source file
 		},
-		mime_type.ApplicationXGuile: {},
-		mime_type.ApplicationXFortran: {
-			For, // Fortan source file
-			F90, // Fortan source file
+		mime_type.MimeTypes.ApplicationXGuile: {},
+		mime_type.MimeTypes.ApplicationXFortran: {
+			FileExtentions.For, // Fortan source file
+			FileExtentions.F90, // Fortan source file
 		},
-		mime_type.ApplicationXForth: {
-			Fth,   // Forth source file
-			_4th,  // Forth source file
-			Forth, // Forth source file
+		mime_type.MimeTypes.ApplicationXForth: {
+			FileExtentions.Fth,   // Forth source file
+			FileExtentions._4th,  // Forth source file
+			FileExtentions.Forth, // Forth source file
 		},
-		mime_type.ApplicationXMarkdown: {
-			Md, // Markdown source file
+		mime_type.MimeTypes.ApplicationXMarkdown: {
+			FileExtentions.Md, // Markdown source file
 		},
-		mime_type.ApplicationXNunjucks: {
-			Njk, // Nunjucks template file
+		mime_type.MimeTypes.ApplicationXNunjucks: {
+			FileExtentions.Njk, // Nunjucks template file
 		},
-		mime_type.ApplicationXHandlebars: {
-			Hbs, // Handlebars template file
+		mime_type.MimeTypes.ApplicationXHandlebars: {
+			FileExtentions.Hbs, // Handlebars template file
 		},
-		mime_type.ApplicationXEjs: {
-			Ejs, // Embedded JavaScript Template file
+		mime_type.MimeTypes.ApplicationXEjs: {
+			FileExtentions.Ejs, // Embedded JavaScript Template file
 		},
-		mime_type.ApplicationXMustache: {
-			Mustache, // Mustache template file
+		mime_type.MimeTypes.ApplicationXMustache: {
+			FileExtentions.Mustache, // Mustache template file
 		},
-		mime_type.ApplicationXHaml: {
-			Haml, // Haml template file
+		mime_type.MimeTypes.ApplicationXHaml: {
+			FileExtentions.Haml, // Haml template file
 		},
-		mime_type.ApplicationXPug: {
-			Pug, // Pug template file
+		mime_type.MimeTypes.ApplicationXPug: {
+			FileExtentions.Pug, // Pug template file
 		},
-		mime_type.ApplicationXLiquid: {
-			Liquid, // Liquid template file
+		mime_type.MimeTypes.ApplicationXLiquid: {
+			FileExtentions.Liquid, // Liquid template file
 		},
-		mime_type.ApplicationXWebc: {
-			Webc, // Web Component source file
+		mime_type.MimeTypes.ApplicationXWebc: {
+			FileExtentions.Webc, // Web Component source file
 		},
-		mime_type.ApplicationXList: {
-			Lst, // List file
+		mime_type.MimeTypes.ApplicationXList: {
+			FileExtentions.Lst, // List file
 		},
 	}
 )

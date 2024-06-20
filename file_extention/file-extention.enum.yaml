@@ -1,0 +1,6531 @@
+desc: ""
+overwrite: true
+values:
+    - name: Aab
+      desc: Adobe (Macropedia) Authorware - Binary File
+      serialized: .aab
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Aac
+      desc: Advanced Audio Coding (AAC)
+      serialized: .aac
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Aam
+      desc: Adobe (Macropedia) Authorware - Map
+      serialized: .aam
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Aas
+      desc: Adobe (Macropedia) Authorware - Segment File
+      serialized: .aas
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Abnf
+      desc: Augmented Backus-Naur Form definition file
+      serialized: .abnf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Abw
+      desc: AbiWord
+      serialized: .abw
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ac
+      desc: Attribute Certificate
+      serialized: .ac
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Acc
+      desc: Active Content Compression
+      serialized: .acc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ace
+      desc: Ace Archive
+      serialized: .ace
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Acu
+      desc: ACU Cobol
+      serialized: .acu
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Adp
+      desc: Adaptive differential pulse-code modulation
+      serialized: .adp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Aep
+      desc: Audiograph
+      serialized: .aep
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Afp
+      desc: MO:DCA-P
+      serialized: .afp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ahead
+      desc: Ahead AIR Application
+      serialized: .ahead
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ai
+      desc: PostScript
+      serialized: .ai
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Aif
+      desc: Audio Interchange File Format
+      serialized: .aif
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Air
+      desc: Adobe AIR Application
+      serialized: .air
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ait
+      desc: Digital Video Broadcasting
+      serialized: .ait
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ami
+      desc: AmigaDE
+      serialized: .ami
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Apk
+      desc: Android Package Archive
+      serialized: .apk
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application
+      desc: Microsoft ClickOnce
+      serialized: .application
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Apr
+      desc: Lotus Approach
+      serialized: .apr
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Arc
+      desc: Archive document (multiple files embedded)
+      serialized: .arc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Asf
+      desc: Microsoft Advanced Systems Format (ASF)
+      serialized: .asf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Asm
+      desc: Assembler Source File
+      serialized: .asm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Aso
+      desc: Simply Accounting
+      serialized: .aso
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Atc
+      desc: ACU Cobol
+      serialized: .atc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Atom
+      desc: Atom Syndication Format
+      serialized: .atom
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Atomcat
+      desc: Atom Publishing Protocol
+      serialized: .atomcat
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Atomsvc
+      desc: Atom Publishing Protocol Service Document
+      serialized: .atomsvc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Atx
+      desc: Antix Game Player
+      serialized: .atx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Au
+      desc: Sun Audio - Au file format
+      serialized: .au
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Avdl
+      desc: Apache Avro Interface Definition Language (IDL) Schema file
+      serialized: .avdl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Avi
+      desc: Audio Video Interleave (AVI)
+      serialized: .avi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Avsc
+      desc: Apache Avro Javascript Object Notation (JSON) Schema file
+      serialized: .avsc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Aw
+      desc: Applixware
+      serialized: .aw
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Azf
+      desc: AirZip FileSECURE
+      serialized: .azf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Azs
+      desc: AirZip FileSECURE
+      serialized: .azs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Azw
+      desc: Amazon Kindle eBook format
+      serialized: .azw
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Bash
+      desc: BASH shell script
+      serialized: .bash
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Bcpio
+      desc: Binary CPIO Archive
+      serialized: .bcpio
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Bdf
+      desc: Glyph Bitmap Distribution Format
+      serialized: .bdf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Bdm
+      desc: SyncML - Device Management
+      serialized: .bdm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Bed
+      desc: RealVNC
+      serialized: .bed
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Bh 2
+      desc: Fujitsu Oasys
+      serialized: .bh2
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Bin
+      desc: Binary Data
+      serialized: .bin
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Bmi
+      desc: BMI Drawing Data Interchange
+      serialized: .bmi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Bmp
+      desc: Bitmap Image File
+      serialized: .bmp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Bnf
+      desc: Backus-Naur Form definition file
+      serialized: .bnf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Box
+      desc: Preview Systems ZipLock/VBox
+      serialized: .box
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Btif
+      desc: BTIF
+      serialized: .btif
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Bz
+      desc: Bzip Archive
+      serialized: .bz
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Bz 2
+      desc: Bzip2 Archive
+      serialized: .bz2
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: C
+      desc: C Source File
+      serialized: .c
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: C 1 1amc
+      desc: ClueTrust CartoMobile - Config
+      serialized: .c11amc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: C 1 1amz
+      desc: ClueTrust CartoMobile - Config Package
+      serialized: .c11amz
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: C 4g
+      desc: Clonk Game
+      serialized: .c4g
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cab
+      desc: Microsoft Cabinet File
+      serialized: .cab
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Car
+      desc: CURL Applet
+      serialized: .car
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cat
+      desc: Microsoft Trust UI Provider - Security Catalog
+      serialized: .cat
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ccxml
+      desc: Voice Browser Call Control
+      serialized: .ccxml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cda
+      desc: CD audio
+      serialized: .cda
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cdbcmsg
+      desc: CIM Database
+      serialized: .cdbcmsg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cdkey
+      desc: MediaRemote
+      serialized: .cdkey
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cdmia
+      desc: Cloud Data Management Interface (CDMI) - Capability
+      serialized: .cdmia
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cdmic
+      desc: Cloud Data Management Interface (CDMI) - Contaimer
+      serialized: .cdmic
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cdmid
+      desc: Cloud Data Management Interface (CDMI) - Domain
+      serialized: .cdmid
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cdmio
+      desc: Cloud Data Management Interface (CDMI) - Object
+      serialized: .cdmio
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cdmiq
+      desc: Cloud Data Management Interface (CDMI) - Queue
+      serialized: .cdmiq
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cdx
+      desc: ChemDraw eXchange file
+      serialized: .cdx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cdxml
+      desc: PowerShell script file
+      serialized: .cdxml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cdy
+      desc: Interactive Geometry Software Cinderella
+      serialized: .cdy
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cer
+      desc: Internet Public Key Infrastructure - Certificate
+      serialized: .cer
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cgi
+      desc: Perl source file
+      serialized: .cgi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cgm
+      desc: Computer Graphics Metafile
+      serialized: .cgm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Chat
+      desc: pIRCh
+      serialized: .chat
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Chm
+      desc: Microsoft Html Help File
+      serialized: .chm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Chrt
+      desc: KDE KOffice Office Suite - KChart
+      serialized: .chrt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cif
+      desc: Crystallographic Interchange Format
+      serialized: .cif
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cii
+      desc: ANSER-WEB Terminal Client - Certificate Issue
+      serialized: .cii
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cil
+      desc: Microsoft Artgalry
+      serialized: .cil
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cl
+      desc: Common Lisp source file
+      serialized: .cl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cla
+      desc: Claymore Data Files
+      serialized: .cla
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Class
+      desc: Java Bytecode File
+      serialized: .class
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Clj
+      desc: Clojure source file
+      serialized: .clj
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cljc
+      desc: Clojure source file
+      serialized: .cljc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cljs
+      desc: Clojure source file
+      serialized: .cljs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Clkk
+      desc: CrickSoftware - Clicker - Keyboard
+      serialized: .clkk
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Clkp
+      desc: CrickSoftware - Clicker - Palette
+      serialized: .clkp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Clkt
+      desc: CrickSoftware - Clicker - Template
+      serialized: .clkt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Clkw
+      desc: CrickSoftware - Clicker - Wordbank
+      serialized: .clkw
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Clkx
+      desc: CrickSoftware - Clicker
+      serialized: .clkx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Clp
+      desc: Microsoft Clipboard Clip
+      serialized: .clp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cmc
+      desc: CosmoCaller
+      serialized: .cmc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cmdf
+      desc: CrystalMaker Data Format
+      serialized: .cmdf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cml
+      desc: Chemical Markup Language
+      serialized: .cml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cmp
+      desc: CustomMenu
+      serialized: .cmp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cmx
+      desc: Corel Metafile Exchange (CMX)
+      serialized: .cmx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cod
+      desc: Blackberry COD File
+      serialized: .cod
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cpio
+      desc: CPIO Archive
+      serialized: .cpio
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cpp
+      desc: C++ source file
+      serialized: .cpp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cpt
+      desc: Compact Pro
+      serialized: .cpt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Crd
+      desc: Microsoft Information Card
+      serialized: .crd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Crl
+      desc: Internet Public Key Infrastructure - Certificate Revocation Lists
+      serialized: .crl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cryptonote
+      desc: CryptoNote
+      serialized: .cryptonote
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cs
+      desc: C# source file
+      serialized: .cs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Csh
+      desc: C Shell Script
+      serialized: .csh
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Csml
+      desc: Chemical Style Markup Language
+      serialized: .csml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Csp
+      desc: Sixth Floor Media - CommonSpace
+      serialized: .csp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Css
+      desc: Cascading Style Sheets (CSS)
+      serialized: .css
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Csv
+      desc: Comma-Seperated Values
+      serialized: .csv
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Csx
+      desc: C# source file
+      serialized: .csx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cu
+      desc: CU-SeeMe
+      serialized: .cu
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cue
+      desc: Configure Unify Execute
+      serialized: .cue
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Curl
+      desc: Curl - Applet
+      serialized: .curl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Cww
+      desc: CU-Writer
+      serialized: .cww
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dae
+      desc: COLLADA
+      serialized: .dae
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Daf
+      desc: Mobius Management Systems - UniversalArchive
+      serialized: .daf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dart
+      desc: Dart source file
+      serialized: .dart
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Davmount
+      desc: Web Distributed Authoring and Versioning
+      serialized: .davmount
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dcurl
+      desc: Curl - Detached Applet
+      serialized: .dcurl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dd 2
+      desc: OMA Download Agents
+      serialized: .dd2
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ddd
+      desc: Fujitsu - Xerox 2D CAD Data
+      serialized: .ddd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ddl
+      desc: Standard Query Language (SQL) source file
+      serialized: .ddl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Deb
+      desc: Debian Package
+      serialized: .deb
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Der
+      desc: X.509 Certificate
+      serialized: .der
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dfac
+      desc: DreamFactory
+      serialized: .dfac
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dir
+      desc: Ad1obe Shockwave Player
+      serialized: .dir
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dis
+      desc: Mobius Management Systems - Distribution Database
+      serialized: .dis
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Djvu
+      desc: DjVu
+      serialized: .djvu
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dmg
+      desc: Apple Disk Image
+      serialized: .dmg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dna
+      desc: New Moon Liftoff/DNA
+      serialized: .dna
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Doc
+      desc: Microsoft Word
+      serialized: .doc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Docm
+      desc: Microsoft Word - Macro-Enabled Document
+      serialized: .docm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Docx
+      desc: Microsoft Office - OOXML - Word Document
+      serialized: .docx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dotm
+      desc: Microsoft Word - Macro-Enabled Template
+      serialized: .dotm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dotx
+      desc: Microsoft Office - OOXML - Word Document Template
+      serialized: .dotx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dp
+      desc: OSGi Deployment Package
+      serialized: .dp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dpg
+      desc: DPGraph
+      serialized: .dpg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dra
+      desc: DRA Audio
+      serialized: .dra
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dsc
+      desc: PRS Lines Tag
+      serialized: .dsc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dssc
+      desc: Data Structure for the Security Suitability of Cryptographic Algorithms
+      serialized: .dssc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dtb
+      desc: Digital Talking Book
+      serialized: .dtb
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dtd
+      desc: Document Type Definition
+      serialized: .dtd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dts
+      desc: DTS Audio
+      serialized: .dts
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dtshd
+      desc: DTS High Definition Audio
+      serialized: .dtshd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dvi
+      desc: Device Independent File Format (DVI)
+      serialized: .dvi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dwf
+      desc: Autodesk Design Web Format (DWF)
+      serialized: .dwf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dwg
+      desc: DWG Drawing
+      serialized: .dwg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dxf
+      desc: AutoCAD DXF
+      serialized: .dxf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Dxp
+      desc: TIBCO Spotfire
+      serialized: .dxp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ecelp 4 8 0 0
+      desc: Nuera ECELP 4800
+      serialized: .ecelp4800
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ecelp 7 4 7 0
+      desc: Nuera ECELP 7470
+      serialized: .ecelp7470
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ecelp 9 6 0 0
+      desc: Nuera ECELP 9600
+      serialized: .ecelp9600
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Edm
+      desc: Novadigm's RADIA and EDM products
+      serialized: .edm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Edn
+      desc: Clojure source file
+      serialized: .edn
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Edx
+      desc: Novadigm's RADIA and EDM products
+      serialized: .edx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Efif
+      desc: Pcsel eFIF File
+      serialized: .efif
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ei 6
+      desc: Proprietary P&G Standard Reporting System
+      serialized: .ei6
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ejs
+      desc: Embedded JavaScript Template file
+      serialized: .ejs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Elm
+      desc: Elm source file
+      serialized: .elm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Eml
+      desc: Email Message
+      serialized: .eml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Emma
+      desc: Extensible MultiModal Annotation
+      serialized: .emma
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Eol
+      desc: Digital Winds Music
+      serialized: .eol
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Eot
+      desc: Microsoft Embedded OpenType
+      serialized: .eot
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Epub
+      desc: Electronic Publication
+      serialized: .epub
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Erl
+      desc: Erlang source file
+      serialized: .erl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Es
+      desc: ECMAScript
+      serialized: .es
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Es 3
+      desc: MICROSEC e-Szignï¿½
+      serialized: .es3
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Esf
+      desc: QUASS Stream Player
+      serialized: .esf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Etx
+      desc: Setext
+      serialized: .etx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ex
+      desc: Elixir source file
+      serialized: .ex
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Exe
+      desc: Microsoft Application
+      serialized: .exe
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Exi
+      desc: Efficient XML Interchange
+      serialized: .exi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Exs
+      desc: Elixir source file
+      serialized: .exs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ext
+      desc: Novadigm's RADIA and EDM products
+      serialized: .ext
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ez 2
+      desc: EZPix Secure Photo Album
+      serialized: .ez2
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ez 3
+      desc: EZPix Secure Photo Album
+      serialized: .ez3
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: F
+      desc: Fortran Source File
+      serialized: .f
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: F 4v
+      desc: Flash Video
+      serialized: .f4v
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: F 9 0
+      desc: Fortan source file
+      serialized: .f90
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fasl
+      desc: Common Lisp source file
+      serialized: .fasl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fbs
+      desc: FastBid Sheet
+      serialized: .fbs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fcs
+      desc: International Society for Advancement of Cytometry
+      serialized: .fcs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fdf
+      desc: Forms Data Format
+      serialized: .fdf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Felaunch
+      desc: FCS Express Layout Link
+      serialized: .fe_launch
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fg 5
+      desc: Fujitsu Oasys
+      serialized: .fg5
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fh
+      desc: FreeHand MX
+      serialized: .fh
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fig
+      desc: Xfig
+      serialized: .fig
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fish
+      desc: FISH shell script
+      serialized: .fish
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fli
+      desc: FLI/FLC Animation Format
+      serialized: .fli
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Flo
+      desc: Micrografx
+      serialized: .flo
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Flv
+      desc: Flash Video
+      serialized: .flv
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Flw
+      desc: KDE KOffice Office Suite - Kivio
+      serialized: .flw
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Flx
+      desc: FLEXSTOR
+      serialized: .flx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fly
+      desc: mod_fly / fly.cgi
+      serialized: .fly
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fm
+      desc: FrameMaker Normal Format
+      serialized: .fm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fnc
+      desc: Frogans Player
+      serialized: .fnc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: For
+      desc: Fortan source file
+      serialized: .for
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Forth
+      desc: Forth source file
+      serialized: .forth
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fpx
+      desc: FlashPix
+      serialized: .fpx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fs
+      desc: F# source file
+      serialized: .fs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fsc
+      desc: Friendly Software Corporation
+      serialized: .fsc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fsi
+      desc: F# source file
+      serialized: .fsi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fsscript
+      desc: F# source file
+      serialized: .fsscript
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fst
+      desc: FAST Search & Transfer ASA
+      serialized: .fst
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fsx
+      desc: F# source file
+      serialized: .fsx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ftc
+      desc: FluxTime Clip
+      serialized: .ftc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fth
+      desc: Forth source file
+      serialized: .fth
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fti
+      desc: ANSER-WEB Terminal Client - Web Funds Transfer
+      serialized: .fti
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fvt
+      desc: FAST Search & Transfer ASA
+      serialized: .fvt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fxp
+      desc: Adobe Flex Project
+      serialized: .fxp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Fzs
+      desc: FuzzySheet
+      serialized: .fzs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: G 2w
+      desc: GeoplanW
+      serialized: .g2w
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: G 3
+      desc: G3 Fax Image
+      serialized: .g3
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: G 3w
+      desc: GeospacW
+      serialized: .g3w
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gac
+      desc: Groove - Account
+      serialized: .gac
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gdl
+      desc: Geometric Description Language (GDL)
+      serialized: .gdl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Geo
+      desc: DynaGeo
+      serialized: .geo
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gex
+      desc: GeoMetry Explorer
+      serialized: .gex
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ggb
+      desc: GeoGebra
+      serialized: .ggb
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ggt
+      desc: GeoGebra
+      serialized: .ggt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ghf
+      desc: Groove - Help
+      serialized: .ghf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gif
+      desc: Graphics Interchange Format
+      serialized: .gif
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gim
+      desc: Groove - Identity Message
+      serialized: .gim
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gmx
+      desc: GameMaker ActiveX
+      serialized: .gmx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gnumeric
+      desc: Gnumeric
+      serialized: .gnumeric
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Go
+      desc: Go source file
+      serialized: .go
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gotmpl
+      desc: Go template file
+      serialized: .gotmpl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gph
+      desc: NpGraphIt
+      serialized: .gph
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gpx
+      desc: GPS eXchange Format
+      serialized: .gpx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gqf
+      desc: GrafEq
+      serialized: .gqf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gram
+      desc: Speech Recognition Grammar Specification
+      serialized: .gram
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Grv
+      desc: Groove - Injector
+      serialized: .grv
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Grxml
+      desc: Speech Recognition Grammar Specification - XML
+      serialized: .grxml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gsf
+      desc: Ghostscript Font
+      serialized: .gsf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gtar
+      desc: GNU Tar Files
+      serialized: .gtar
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gtm
+      desc: Groove - Tool Message
+      serialized: .gtm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gtpl
+      desc: Go template file
+      serialized: .gtpl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gtw
+      desc: Gen-Trix Studio
+      serialized: .gtw
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gv
+      desc: Graphviz
+      serialized: .gv
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gxt
+      desc: GEONExT and JSXGraph
+      serialized: .gxt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Gz
+      desc: GZip Compressed Archive
+      serialized: .gz
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: H
+      desc: C Header source file
+      serialized: .h
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: H 2 6 1
+      desc: H.261
+      serialized: .h261
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: H 2 6 3
+      desc: H.263
+      serialized: .h263
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: H 2 6 4
+      desc: H.264
+      serialized: .h264
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Hal
+      desc: Hypertext Application Language
+      serialized: .hal
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Haml
+      desc: Haml template file
+      serialized: .haml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Hbci
+      desc: Homebanking Computer Interface (HBCI)
+      serialized: .hbci
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Hbs
+      desc: Handlebars template file
+      serialized: .hbs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Hcl
+      desc: HashiCorp configuration language
+      serialized: .hcl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Hdf
+      desc: Hierarchical Data Format
+      serialized: .hdf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Hlp
+      desc: WinHelp
+      serialized: .hlp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Hpgl
+      desc: HP-GL/2 and HP RTL
+      serialized: .hpgl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Hpid
+      desc: Hewlett Packard Instant Delivery
+      serialized: .hpid
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Hps
+      desc: Hewlett-Packard's WebPrintSmart
+      serialized: .hps
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Hqx
+      desc: Macintosh BinHex 4.0
+      serialized: .hqx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Hrl
+      desc: Erlang source file
+      serialized: .hrl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Hs
+      desc: Haskell source file
+      serialized: .hs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Htke
+      desc: Kenamea App
+      serialized: .htke
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Html
+      desc: HyperText Markup Language (HTML)
+      serialized: .html
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Hvd
+      desc: HV Voice Dictionary
+      serialized: .hvd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Hvp
+      desc: HV Voice Parameter
+      serialized: .hvp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Hvs
+      desc: HV Script
+      serialized: .hvs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: I 2g
+      desc: Interactive Geometry Software
+      serialized: .i2g
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Icc
+      desc: ICC profile
+      serialized: .icc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ice
+      desc: CoolTalk
+      serialized: .ice
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ico
+      desc: Icon Image
+      serialized: .ico
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ics
+      desc: iCalendar
+      serialized: .ics
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ief
+      desc: Image Exchange Format
+      serialized: .ief
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ifm
+      desc: Shana Informed Filler
+      serialized: .ifm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Igl
+      desc: igLoader
+      serialized: .igl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Igm
+      desc: IOCOM Visimeet
+      serialized: .igm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Igs
+      desc: Initial Graphics Exchange Specification (IGES)
+      serialized: .igs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Igx
+      desc: Micrografx iGrafx Professional
+      serialized: .igx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Iif
+      desc: Shana Informed Filler
+      serialized: .iif
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Imp
+      desc: Simply Accounting - Data Import
+      serialized: .imp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ims
+      desc: Microsoft Class Server
+      serialized: .ims
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Inc
+      desc: Pascal source file
+      serialized: .inc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ini
+      desc: Microsoft Windows Initialization
+      serialized: .ini
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ipfix
+      desc: Internet Protocol Flow Information Export
+      serialized: .ipfix
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ipk
+      desc: Shana Informed Filler
+      serialized: .ipk
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ipynb
+      desc: Jupyter Notebook
+      serialized: .ipynb
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Iqy
+      desc: Microsoft Excel Web Query file
+      serialized: .iqy
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Irm
+      desc: IBM DB2 Rights Manager
+      serialized: .irm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Irp
+      desc: iRepository / Lucidoc Editor
+      serialized: .irp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Itp
+      desc: Shana Informed Filler
+      serialized: .itp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ivp
+      desc: ImmerVision PURE Players
+      serialized: .ivp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ivu
+      desc: ImmerVision PURE Players
+      serialized: .ivu
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Jad
+      desc: J2ME App Descriptor
+      serialized: .jad
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Jam
+      desc: Lightspeed Audio Lab
+      serialized: .jam
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Jar
+      desc: Java Archive
+      serialized: .jar
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Java
+      desc: Java Source File
+      serialized: .java
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Jisp
+      desc: RhymBox
+      serialized: .jisp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Jlt
+      desc: HP Indigo Digital Press - Job Layout Languate
+      serialized: .jlt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Jnlp
+      desc: Java Network Launching Protocol
+      serialized: .jnlp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Joda
+      desc: Joda Archive
+      serialized: .joda
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Jpeg
+      desc: JPEG Image
+      serialized: .jpeg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Jpg
+      desc: JPEG Image
+      serialized: .jpg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Jpgv
+      desc: JPGVideo
+      serialized: .jpgv
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Jpm
+      desc: JPEG 2000 Compound Image File Format
+      serialized: .jpm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Js
+      desc: JavaScript language file
+      serialized: .js
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Json
+      desc: JavaScript Object Notation (JSON)
+      serialized: .json
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Jsonld
+      desc: JSON-LD format
+      serialized: .jsonld
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Karbon
+      desc: KDE KOffice Office Suite - Karbon
+      serialized: .karbon
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Kfo
+      desc: KDE KOffice Office Suite - Kformula
+      serialized: .kfo
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Kia
+      desc: Kidspiration
+      serialized: .kia
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Kml
+      desc: Google Earth - KML
+      serialized: .kml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Kmz
+      desc: Google Earth - Zipped KML
+      serialized: .kmz
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Kne
+      desc: Kinar Applications
+      serialized: .kne
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Kon
+      desc: KDE KOffice Office Suite - Kontour
+      serialized: .kon
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Kpr
+      desc: KDE KOffice Office Suite - Kpresenter
+      serialized: .kpr
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ksh
+      desc: Korn shell script
+      serialized: .ksh
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ksp
+      desc: KDE KOffice Office Suite - Kspread
+      serialized: .ksp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Kt
+      desc: Kotlin source file
+      serialized: .kt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ktm
+      desc: Kotlin source file
+      serialized: .ktm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Kts
+      desc: Kotlin source file
+      serialized: .kts
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ktx
+      desc: OpenGL Textures (KTX)
+      serialized: .ktx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ktz
+      desc: Kahootz
+      serialized: .ktz
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Kwd
+      desc: KDE KOffice Office Suite - Kword
+      serialized: .kwd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: L
+      desc: Common Lisp source file
+      serialized: .l
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Lasxml
+      desc: Laser App Enterprise
+      serialized: .lasxml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Latex
+      desc: LaTeX
+      serialized: .latex
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Lbd
+      desc: Life Balance - Desktop Edition
+      serialized: .lbd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Lbe
+      desc: Life Balance - Exchange Format
+      serialized: .lbe
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Les
+      desc: Archipelago Lesson Player
+      serialized: .les
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Lhs
+      desc: Haskell source file
+      serialized: .lhs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Link 6 6
+      desc: ROUTE 66 Location Based Services
+      serialized: .link66
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Liquid
+      desc: Liquid template file
+      serialized: .liquid
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Lisp
+      desc: Common Lisp source file
+      serialized: .lisp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Lrm
+      desc: Microsoft Learning Resource Module
+      serialized: .lrm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Lsp
+      desc: Common Lisp source file
+      serialized: .lsp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Lst
+      desc: List file
+      serialized: .lst
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ltf
+      desc: Frogans Player
+      serialized: .ltf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Lua
+      desc: Lua source file
+      serialized: .lua
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Lvp
+      desc: Lucent Voice
+      serialized: .lvp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Lwp
+      desc: Lotus Wordpro
+      serialized: .lwp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: M
+      desc: Objective-C source file
+      serialized: .m
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: M 2 1
+      desc: MPEG-21
+      serialized: .m21
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: M 3u
+      desc: M3U (Multimedia Playlist)
+      serialized: .m3u
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: M 3u 8
+      desc: Multimedia Playlist Unicode
+      serialized: .m3u8
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: M 4v
+      desc: M4v
+      serialized: .m4v
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ma
+      desc: Mathematica Notebooks
+      serialized: .ma
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mads
+      desc: Metadata Authority Description Schema
+      serialized: .mads
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mag
+      desc: EcoWin Chart
+      serialized: .mag
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mathml
+      desc: Mathematical Markup Language
+      serialized: .mathml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mbk
+      desc: Mobius Management Systems - Basket file
+      serialized: .mbk
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mbox
+      desc: Mbox database files
+      serialized: .mbox
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mc 1
+      desc: MedCalc
+      serialized: .mc1
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mcd
+      desc: Micro CADAM Helix D&D
+      serialized: .mcd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mcurl
+      desc: Curl - Manifest File
+      serialized: .mcurl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Md
+      desc: Markdown source file
+      serialized: .md
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mdb
+      desc: Microsoft Access
+      serialized: .mdb
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mdi
+      desc: Microsoft Document Imaging Format
+      serialized: .mdi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Meta 4
+      desc: Metalink
+      serialized: .meta4
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mets
+      desc: Metadata Encoding and Transmission Standard
+      serialized: .mets
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mfm
+      desc: Melody Format for Mobile Platform
+      serialized: .mfm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mgp
+      desc: MapGuide DBXML
+      serialized: .mgp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mgz
+      desc: EFI Proteus
+      serialized: .mgz
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mid
+      desc: MIDI - Musical Instrument Digital Interface
+      serialized: .mid
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Midi
+      desc: MIDI - Musical Instrument Digital Interface
+      serialized: .midi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mif
+      desc: FrameMaker Interchange Format
+      serialized: .mif
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mj 2
+      desc: Motion JPEG 2000
+      serialized: .mj2
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ml
+      desc: OCaml source file
+      serialized: .ml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mli
+      desc: OCaml source file
+      serialized: .mli
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mlp
+      desc: Dolby Meridian Lossless Packing
+      serialized: .mlp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mm
+      desc: Objective-C source file
+      serialized: .mm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mmd
+      desc: Karaoke on Chipnuts Chipsets
+      serialized: .mmd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mmf
+      desc: SMAF File
+      serialized: .mmf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mmr
+      desc: EDMICS 2000
+      serialized: .mmr
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mny
+      desc: Microsoft Money
+      serialized: .mny
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mod
+      desc: Go source file
+      serialized: .mod
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mods
+      desc: Metadata Object Description Schema
+      serialized: .mods
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Movie
+      desc: SGI Movie
+      serialized: .movie
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mp 4
+      desc: MPEG4
+      serialized: .mp4
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mp 4a
+      desc: MPEG-4 Audio
+      serialized: .mp4a
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mpc
+      desc: Mophun Certificate
+      serialized: .mpc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mpeg
+      desc: MPEG Video
+      serialized: .mpeg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mpga
+      desc: MPEG Audio
+      serialized: .mpga
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mpkg
+      desc: Apple Installer Package
+      serialized: .mpkg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mpm
+      desc: Blueice Research Multipass
+      serialized: .mpm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mpn
+      desc: Mophun VM
+      serialized: .mpn
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mpp
+      desc: Microsoft Project
+      serialized: .mpp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mpy
+      desc: MiniPay
+      serialized: .mpy
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mqy
+      desc: Mobius Management Systems - Query File
+      serialized: .mqy
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mrc
+      desc: MARC Formats
+      serialized: .mrc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mrcx
+      desc: MARC21 XML Schema
+      serialized: .mrcx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mscml
+      desc: Media Server Control Markup Language
+      serialized: .mscml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mseq
+      desc: 3GPP MSEQ File
+      serialized: .mseq
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Msf
+      desc: QUASS Stream Player
+      serialized: .msf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Msh
+      desc: Mesh Data Type
+      serialized: .msh
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Msl
+      desc: Mobius Management Systems - Script Language
+      serialized: .msl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Msty
+      desc: Muvee Automatic Video Editing
+      serialized: .msty
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mts
+      desc: Virtue MTS
+      serialized: .mts
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mus
+      desc: MUsical Score Interpreted Code Invented for the ASCII designation of Notation
+      serialized: .mus
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Musicxml
+      desc: Recordare Applications
+      serialized: .musicxml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mustache
+      desc: Mustache template file
+      serialized: .mustache
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mvb
+      desc: Microsoft MediaView
+      serialized: .mvb
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mwf
+      desc: Medical Waveform Encoding Format
+      serialized: .mwf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mxf
+      desc: Material Exchange Format
+      serialized: .mxf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mxl
+      desc: Recordare Applications
+      serialized: .mxl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mxml
+      desc: MXML
+      serialized: .mxml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mxs
+      desc: Triscape Map Explorer
+      serialized: .mxs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Mxu
+      desc: MPEG Url
+      serialized: .mxu
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: N 3
+      desc: Notation3
+      serialized: .n3
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: N Gage
+      desc: N-Gage Game Installer
+      serialized: .n-gage
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Nbp
+      desc: Mathematica Notebook Player
+      serialized: .nbp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Nc
+      desc: Network Common Data Form (NetCDF)
+      serialized: .nc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ncx
+      desc: Navigation Control file for XML (for ePub)
+      serialized: .ncx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ngdat
+      desc: N-Gage Game Data
+      serialized: .ngdat
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Njk
+      desc: Nunjucks template file
+      serialized: .njk
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Nlu
+      desc: neuroLanguage
+      serialized: .nlu
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Nml
+      desc: Enliven Viewer
+      serialized: .nml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Nnd
+      desc: NobleNet Directory
+      serialized: .nnd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Nns
+      desc: NobleNet Sealer
+      serialized: .nns
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Nnw
+      desc: NobleNet Web
+      serialized: .nnw
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Npx
+      desc: FlashPix
+      serialized: .npx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Nsf
+      desc: Lotus Notes
+      serialized: .nsf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Oa 2
+      desc: Fujitsu Oasys
+      serialized: .oa2
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Oa 3
+      desc: Fujitsu Oasys
+      serialized: .oa3
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Oas
+      desc: Fujitsu Oasys
+      serialized: .oas
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Obd
+      desc: Microsoft Office Binder
+      serialized: .obd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Oda
+      desc: Office Document Architecture
+      serialized: .oda
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Odb
+      desc: OpenDocument Database
+      serialized: .odb
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Odc
+      desc: OpenDocument Chart
+      serialized: .odc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Odf
+      desc: OpenDocument Formula
+      serialized: .odf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Odft
+      desc: OpenDocument Formula Template
+      serialized: .odft
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Odg
+      desc: OpenDocument Graphics
+      serialized: .odg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Odi
+      desc: OpenDocument Image
+      serialized: .odi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Odm
+      desc: OpenDocument Text Master
+      serialized: .odm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Odp
+      desc: OpenDocument Presentation
+      serialized: .odp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ods
+      desc: OpenDocument Spreadsheet
+      serialized: .ods
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Odt
+      desc: OpenDocument Text
+      serialized: .odt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Oga
+      desc: Ogg Audio
+      serialized: .oga
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ogv
+      desc: Ogg Video
+      serialized: .ogv
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ogx
+      desc: Ogg
+      serialized: .ogx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Onetoc
+      desc: Microsoft OneNote
+      serialized: .onetoc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Opf
+      desc: Open eBook Publication Structure
+      serialized: .opf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Opus
+      desc: Opus audio
+      serialized: .opus
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Org
+      desc: Lotus Organizer
+      serialized: .org
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Osf
+      desc: Open Score Format
+      serialized: .osf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Osfpvg
+      desc: OSFPVG
+      serialized: .osfpvg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Otc
+      desc: OpenDocument Chart Template
+      serialized: .otc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Otf
+      desc: OpenType font
+      serialized: .otf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Otg
+      desc: OpenDocument Graphics Template
+      serialized: .otg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Oth
+      desc: Open Document Text Web
+      serialized: .oth
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Oti
+      desc: OpenDocument Image Template
+      serialized: .oti
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Otp
+      desc: OpenDocument Presentation Template
+      serialized: .otp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ots
+      desc: OpenDocument Spreadsheet Template
+      serialized: .ots
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ott
+      desc: OpenDocument Text Template
+      serialized: .ott
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Oxt
+      desc: Open Office Extension
+      serialized: .oxt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: P
+      desc: Pascal Source File
+      serialized: .p
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: P 1 0
+      desc: 'PKCS #10 - Certification Request Standard'
+      serialized: .p10
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: P 1 2
+      desc: 'PKCS #12 - Personal Information Exchange Syntax Standard'
+      serialized: .p12
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: P 7b
+      desc: 'PKCS #7 - Cryptographic Message Syntax Standard (Certificates)'
+      serialized: .p7b
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: P 7m
+      desc: 'PKCS #7 - Cryptographic Message Syntax Standard'
+      serialized: .p7m
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: P 7r
+      desc: 'PKCS #7 - Cryptographic Message Syntax Standard (Certificate Request Response)'
+      serialized: .p7r
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: P 7s
+      desc: 'PKCS #7 - Cryptographic Message Syntax Standard'
+      serialized: .p7s
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: P 8
+      desc: 'PKCS #8 - Private-Key Information Syntax Standard'
+      serialized: .p8
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Par
+      desc: BAS Partitur Format
+      serialized: .par
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pas
+      desc: Pascal source file
+      serialized: .pas
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Paw
+      desc: PawaaFILE
+      serialized: .paw
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pbd
+      desc: PowerBuilder
+      serialized: .pbd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pbm
+      desc: Portable Bitmap Format
+      serialized: .pbm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pcf
+      desc: Portable Compiled Format
+      serialized: .pcf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pcl
+      desc: HP Printer Command Language
+      serialized: .pcl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pclxl
+      desc: PCL 6 Enhanced (Formely PCL XL)
+      serialized: .pclxl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pcurl
+      desc: CURL Applet
+      serialized: .pcurl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pcx
+      desc: PCX Image
+      serialized: .pcx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pdb
+      desc: PalmOS Data
+      serialized: .pdb
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pdf
+      desc: Adobe Portable Document Format
+      serialized: .pdf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pfa
+      desc: PostScript Fonts
+      serialized: .pfa
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pfr
+      desc: Portable Font Resource
+      serialized: .pfr
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pgm
+      desc: Portable Graymap Format
+      serialized: .pgm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pgn
+      desc: Portable Game Notation (Chess Games)
+      serialized: .pgn
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pgp
+      desc: Pretty Good Privacy Signature
+      serialized: .pgp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Phar
+      desc: Hypertext Preprocessor (Personal Home Page)
+      serialized: .phar
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Php
+      desc: Hypertext Preprocessor (Personal Home Page)
+      serialized: .php
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Phps
+      desc: Hypertext Preprocessor (Personal Home Page)
+      serialized: .phps
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pht
+      desc: Hypertext Preprocessor (Personal Home Page)
+      serialized: .pht
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Phtml
+      desc: Hypertext Preprocessor (Personal Home Page)
+      serialized: .phtml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pic
+      desc: PICT Image
+      serialized: .pic
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pjpeg
+      desc: JPEG Image (Progressive)
+      serialized: .pjpeg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pki
+      desc: Internet Public Key Infrastructure - Certificate Management Protocole
+      serialized: .pki
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pkipath
+      desc: Internet Public Key Infrastructure - Certification Path
+      serialized: .pkipath
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pl
+      desc: Perl source file
+      serialized: .pl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Plb
+      desc: 3rd Generation Partnership Project - Pic Large
+      serialized: .plb
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Plc
+      desc: Mobius Management Systems - Policy Definition Language File
+      serialized: .plc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Plf
+      desc: PocketLearn Viewers
+      serialized: .plf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pls
+      desc: Pronunciation Lexicon Specification
+      serialized: .pls
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Plx
+      desc: Perl source file
+      serialized: .plx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pm
+      desc: Perl source file
+      serialized: .pm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pml
+      desc: PosML
+      serialized: .pml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Png
+      desc: Portable Network Graphics
+      serialized: .png
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pnm
+      desc: Portable Anymap Image
+      serialized: .pnm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pod
+      desc: Perl source file
+      serialized: .pod
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Portpkg
+      desc: MacPorts Port System
+      serialized: .portpkg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Potm
+      desc: Microsoft PowerPoint - Macro-Enabled Template File
+      serialized: .potm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Potx
+      desc: Microsoft Office - OOXML - Presentation Template
+      serialized: .potx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pp
+      desc: Puppet manifest file
+      serialized: .pp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ppam
+      desc: Microsoft PowerPoint - Add-in file
+      serialized: .ppam
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ppd
+      desc: Adobe PostScript Printer Description File Format
+      serialized: .ppd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ppm
+      desc: Portable Pixmap Format
+      serialized: .ppm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ppsm
+      desc: Microsoft PowerPoint - Macro-Enabled Slide Show File
+      serialized: .ppsm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ppsx
+      desc: Microsoft Office - OOXML - Presentation (Slideshow)
+      serialized: .ppsx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ppt
+      desc: Microsoft PowerPoint
+      serialized: .ppt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pptm
+      desc: Microsoft PowerPoint - Macro-Enabled Presentation File
+      serialized: .pptm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pptx
+      desc: Microsoft Office - OOXML - Presentation
+      serialized: .pptx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Prc
+      desc: Mobipocket
+      serialized: .prc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pre
+      desc: Lotus Freelance
+      serialized: .pre
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Prf
+      desc: PICSRules
+      serialized: .prf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ps 1
+      desc: PowerShell script file
+      serialized: .ps1
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ps 1xml
+      desc: PowerShell script file
+      serialized: .ps1xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Psb
+      desc: 3rd Generation Partnership Project - Pic Small
+      serialized: .psb
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Psc 1
+      desc: PowerShell script file
+      serialized: .psc1
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Psd
+      desc: Photoshop Document
+      serialized: .psd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Psf
+      desc: PSF Fonts
+      serialized: .psf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pskcxml
+      desc: Portable Symmetric Key Container
+      serialized: .pskcxml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Psm 1
+      desc: PowerShell script file
+      serialized: .psm1
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Psrc
+      desc: PowerShell script file
+      serialized: .psrc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pssc
+      desc: PowerShell script file
+      serialized: .pssc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ptid
+      desc: Princeton Video Image
+      serialized: .ptid
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pub
+      desc: Microsoft Publisher
+      serialized: .pub
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pug
+      desc: Pug template file
+      serialized: .pug
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pvb
+      desc: 3rd Generation Partnership Project - Pic Var
+      serialized: .pvb
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pwn
+      desc: 3M Post It Notes
+      serialized: .pwn
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Py
+      desc: Python source file
+      serialized: .py
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pya
+      desc: Microsoft PlayReady Ecosystem
+      serialized: .pya
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pyc
+      desc: Python generated file
+      serialized: .pyc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pyd
+      desc: Python generated file
+      serialized: .pyd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pyi
+      desc: Python generated file
+      serialized: .pyi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pyo
+      desc: Python generated file
+      serialized: .pyo
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pyv
+      desc: Microsoft PlayReady Ecosystem Video
+      serialized: .pyv
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pyw
+      desc: Python generated file
+      serialized: .pyw
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Pyz
+      desc: Python generated file
+      serialized: .pyz
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Qam
+      desc: QuickAnime Player
+      serialized: .qam
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Qbo
+      desc: Open Financial Exchange
+      serialized: .qbo
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Qfx
+      desc: Quicken
+      serialized: .qfx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Qps
+      desc: PubliShare Objects
+      serialized: .qps
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Qt
+      desc: Quicktime Video
+      serialized: .qt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Qxd
+      desc: QuarkXpress
+      serialized: .qxd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: R
+      desc: R source file
+      serialized: .r
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ram
+      desc: Real Audio Sound
+      serialized: .ram
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rar
+      desc: RAR Archive
+      serialized: .rar
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ras
+      desc: CMU Image
+      serialized: .ras
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rb
+      desc: Ruby source file
+      serialized: .rb
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rcprofile
+      desc: IP Unplugged Roaming Client
+      serialized: .rcprofile
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rda
+      desc: R source file
+      serialized: .rda
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rdata
+      desc: R source file
+      serialized: .rdata
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rdf
+      desc: Resource Description Framework
+      serialized: .rdf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rds
+      desc: R source file
+      serialized: .rds
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rdz
+      desc: RemoteDocs R-Viewer
+      serialized: .rdz
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rep
+      desc: BusinessObjects
+      serialized: .rep
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Res
+      desc: Digital Talking Book - Resource File
+      serialized: .res
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rgb
+      desc: Silicon Graphics RGB Bitmap
+      serialized: .rgb
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rif
+      desc: IMS Networks
+      serialized: .rif
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rip
+      desc: Hit'n'Mix
+      serialized: .rip
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rl
+      desc: XML Resource Lists
+      serialized: .rl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rlc
+      desc: EDMICS 2000
+      serialized: .rlc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rld
+      desc: XML Resource Lists Diff
+      serialized: .rld
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rm
+      desc: RealMedia
+      serialized: .rm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rmp
+      desc: Real Audio Sound
+      serialized: .rmp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rms
+      desc: Mobile Information Device Profile
+      serialized: .rms
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rnc
+      desc: Relax NG Compact Syntax
+      serialized: .rnc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rp 9
+      desc: RetroPlatform Player
+      serialized: .rp9
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rpss
+      desc: Nokia Radio Application - Preset
+      serialized: .rpss
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rpst
+      desc: Nokia Radio Application - Preset
+      serialized: .rpst
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rq
+      desc: SPARQL - Query
+      serialized: .rq
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rs
+      desc: Rust source file
+      serialized: .rs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rsd
+      desc: Really Simple Discovery
+      serialized: .rsd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rss
+      desc: RSS - Really Simple Syndication
+      serialized: .rss
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rtf
+      desc: Rich Text Format
+      serialized: .rtf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Rtx
+      desc: Rich Text Format (RTF)
+      serialized: .rtx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: S
+      desc: Assembler Source File
+      serialized: .s
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Saf
+      desc: SMAF Audio
+      serialized: .saf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sass
+      desc: Syntactically Awesome Stylesheet source file
+      serialized: .sass
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sbml
+      desc: Systems Biology Markup Language
+      serialized: .sbml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sc
+      desc: Scala source file
+      serialized: .sc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Scala
+      desc: Scala source file
+      serialized: .scala
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Scd
+      desc: Microsoft Schedule+
+      serialized: .scd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Scm
+      desc: Scheme source file
+      serialized: .scm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Scq
+      desc: Server-Based Certificate Validation Protocol - Validation Request
+      serialized: .scq
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Scs
+      desc: Server-Based Certificate Validation Protocol - Validation Response
+      serialized: .scs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Scss
+      desc: Syntactically Awesome Stylesheet source file
+      serialized: .scss
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Scurl
+      desc: Curl - Source Code
+      serialized: .scurl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sda
+      desc: StarOffice - Draw
+      serialized: .sda
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sdc
+      desc: StarOffice - Calc
+      serialized: .sdc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sdd
+      desc: StarOffice - Impress
+      serialized: .sdd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sdkm
+      desc: SudokuMagic
+      serialized: .sdkm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sdp
+      desc: Session Description Protocol
+      serialized: .sdp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sdw
+      desc: StarOffice - Writer
+      serialized: .sdw
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: See
+      desc: SeeMail
+      serialized: .see
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Seed
+      desc: Digital Siesmograph Networks - SEED Datafiles
+      serialized: .seed
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sema
+      desc: Secured eMail
+      serialized: .sema
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Semd
+      desc: Secured eMail
+      serialized: .semd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Semf
+      desc: Secured eMail
+      serialized: .semf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ser
+      desc: Java Serialized Object
+      serialized: .ser
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Setpay
+      desc: Secure Electronic Transaction - Payment
+      serialized: .setpay
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Setreg
+      desc: Secure Electronic Transaction - Registration
+      serialized: .setreg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sfd Hdstx
+      desc: Hydrostatix Master Suite
+      serialized: .sfd-hdstx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sfs
+      desc: TIBCO Spotfire
+      serialized: .sfs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sgl
+      desc: StarOffice - Writer (Global)
+      serialized: .sgl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sgml
+      desc: Standard Generalized Markup Language (SGML)
+      serialized: .sgml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sh
+      desc: Bourne Shell Script
+      serialized: .sh
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Shar
+      desc: Shell Archive
+      serialized: .shar
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Shf
+      desc: S Hexdump Format
+      serialized: .shf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sis
+      desc: Symbian Install Package
+      serialized: .sis
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sit
+      desc: Stuffit Archive
+      serialized: .sit
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sitx
+      desc: Stuffit Archive
+      serialized: .sitx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Skp
+      desc: SSEYO Koan Play File
+      serialized: .skp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sldm
+      desc: Microsoft PowerPoint - Macro-Enabled Open XML Slide
+      serialized: .sldm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sldx
+      desc: Microsoft Office - OOXML - Presentation (Slide)
+      serialized: .sldx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Slt
+      desc: SimpleAnimeLite Player
+      serialized: .slt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sm
+      desc: StepMania
+      serialized: .sm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Smf
+      desc: StarOffice - Math
+      serialized: .smf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Smi
+      desc: Synchronized Multimedia Integration Language
+      serialized: .smi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Snf
+      desc: Server Normal Format
+      serialized: .snf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Spf
+      desc: SMAF Phrase
+      serialized: .spf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Spl
+      desc: FutureSplash Animator
+      serialized: .spl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Spot
+      desc: In3D - 3DML
+      serialized: .spot
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Spp
+      desc: Server-Based Certificate Validation Protocol - Validation Policies - Response
+      serialized: .spp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Spq
+      desc: Server-Based Certificate Validation Protocol - Validation Policies - Request
+      serialized: .spq
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sql
+      desc: Standard Query Language (SQL) source file
+      serialized: .sql
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Src
+      desc: WAIS Source
+      serialized: .src
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sru
+      desc: Search/Retrieve via URL Response Format
+      serialized: .sru
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Srx
+      desc: SPARQL - Results
+      serialized: .srx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ss
+      desc: Scheme source file
+      serialized: .ss
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sse
+      desc: Kodak Storyshare
+      serialized: .sse
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ssf
+      desc: QUASS Stream Player
+      serialized: .ssf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ssml
+      desc: Speech Synthesis Markup Language
+      serialized: .ssml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: St
+      desc: SailingTracker
+      serialized: .st
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Stc
+      desc: OpenOffice - Calc Template (Spreadsheet)
+      serialized: .stc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Std
+      desc: OpenOffice - Draw Template (Graphics)
+      serialized: .std
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Stf
+      desc: Worldtalk
+      serialized: .stf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sti
+      desc: OpenOffice - Impress Template (Presentation)
+      serialized: .sti
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Stk
+      desc: Hyperstudio
+      serialized: .stk
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Stl
+      desc: Microsoft Trust UI Provider - Certificate Trust Link
+      serialized: .stl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Str
+      desc: Proprietary P&G Standard Reporting System
+      serialized: .str
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Stw
+      desc: OpenOffice - Writer Template (Text - HTML)
+      serialized: .stw
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sub
+      desc: Close Captioning - Subtitle
+      serialized: .sub
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sum
+      desc: Go source file
+      serialized: .sum
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sus
+      desc: ScheduleUs
+      serialized: .sus
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sv 4cpio
+      desc: System V Release 4 CPIO Archive
+      serialized: .sv4cpio
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sv 4crc
+      desc: System V Release 4 CPIO Checksum Data
+      serialized: .sv4crc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Svc
+      desc: Digital Video Broadcasting
+      serialized: .svc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Svd
+      desc: SourceView Document
+      serialized: .svd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Svg
+      desc: Scalable Vector Graphics (SVG)
+      serialized: .svg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Swf
+      desc: Adobe Flash
+      serialized: .swf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Swi
+      desc: Arista Networks Software Image
+      serialized: .swi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sxc
+      desc: OpenOffice - Calc (Spreadsheet)
+      serialized: .sxc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sxd
+      desc: OpenOffice - Draw (Graphics)
+      serialized: .sxd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sxg
+      desc: OpenOffice - Writer (Text - HTML)
+      serialized: .sxg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sxi
+      desc: OpenOffice - Impress (Presentation)
+      serialized: .sxi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sxm
+      desc: OpenOffice - Math (Formula)
+      serialized: .sxm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Sxw
+      desc: OpenOffice - Writer (Text - HTML)
+      serialized: .sxw
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: T
+      desc: troff
+      serialized: .t
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Tao
+      desc: Tao Intent
+      serialized: .tao
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Tar
+      desc: Tar File (Tape Archive)
+      serialized: .tar
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Tbc
+      desc: Tcl Script
+      serialized: .tbc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Tcap
+      desc: 3rd Generation Partnership Project - Transaction Capabilities Application Part
+      serialized: .tcap
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Tcl
+      desc: Tcl Script
+      serialized: .tcl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Teacher
+      desc: SMART Technologies Apps
+      serialized: .teacher
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Tei
+      desc: Text Encoding and Interchange
+      serialized: .tei
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Tex
+      desc: TeX
+      serialized: .tex
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Texinfo
+      desc: GNU Texinfo Document
+      serialized: .texinfo
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Tfi
+      desc: Sharing Transaction Fraud Data
+      serialized: .tfi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Tfm
+      desc: TeX Font Metric
+      serialized: .tfm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Thmx
+      desc: Microsoft Office System Release Theme
+      serialized: .thmx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Tif
+      desc: Tagged Image File Format
+      serialized: .tif
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Tiff
+      desc: Tagged Image File Format
+      serialized: .tiff
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Tmo
+      desc: MobileTV
+      serialized: .tmo
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Tmpl
+      desc: Go template file
+      serialized: .tmpl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Toml
+      desc: Tom's Obvious, Minimal Language
+      serialized: .toml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Torrent
+      desc: BitTorrent
+      serialized: .torrent
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Tpl
+      desc: Groove - Tool Template
+      serialized: .tpl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Tpt
+      desc: TRI Systems Config
+      serialized: .tpt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Tra
+      desc: True BASIC
+      serialized: .tra
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Trm
+      desc: Microsoft Windows Terminal Services
+      serialized: .trm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ts
+      desc: TypeScript source file
+      serialized: .ts
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Tsd
+      desc: Time Stamped Data Envelope
+      serialized: .tsd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Tsv
+      desc: Tab Seperated Values
+      serialized: .tsv
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ttf
+      desc: TrueType Font
+      serialized: .ttf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ttl
+      desc: Turtle (Terse RDF Triple Language)
+      serialized: .ttl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Twd
+      desc: SimTech MindMapper
+      serialized: .twd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Txd
+      desc: Genomatix Tuxedo Framework
+      serialized: .txd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Txf
+      desc: Mobius Management Systems - Topic Index File
+      serialized: .txf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Txt
+      desc: Text File
+      serialized: .txt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ufd
+      desc: Universal Forms Description Language
+      serialized: .ufd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Umj
+      desc: UMAJIN
+      serialized: .umj
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Unityweb
+      desc: Unity 3d
+      serialized: .unityweb
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Uoml
+      desc: Unique Object Markup Language
+      serialized: .uoml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Uri
+      desc: URI Resolution Services
+      serialized: .uri
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Ustar
+      desc: Ustar (Uniform Standard Tape Archive)
+      serialized: .ustar
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Utz
+      desc: User Interface Quartz - Theme (Symbian)
+      serialized: .utz
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Uu
+      desc: UUEncode
+      serialized: .uu
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Uva
+      desc: DECE Audio
+      serialized: .uva
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Uvh
+      desc: DECE High Definition Video
+      serialized: .uvh
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Uvi
+      desc: DECE Graphic
+      serialized: .uvi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Uvm
+      desc: DECE Mobile Video
+      serialized: .uvm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Uvp
+      desc: DECE PD Video
+      serialized: .uvp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Uvs
+      desc: DECE SD Video
+      serialized: .uvs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Uvu
+      desc: DECE MP4
+      serialized: .uvu
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Uvv
+      desc: DECE Video
+      serialized: .uvv
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Vb
+      desc: Visual Basic source file
+      serialized: .vb
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Vbs
+      desc: Visual Basic source file
+      serialized: .vbs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Vbscript
+      desc: Visual Basic source file
+      serialized: .vbscript
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Vcd
+      desc: Video CD
+      serialized: .vcd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Vcf
+      desc: vCard
+      serialized: .vcf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Vcg
+      desc: Groove - Vcard
+      serialized: .vcg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Vcs
+      desc: vCalendar
+      serialized: .vcs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Vcx
+      desc: VirtualCatalog
+      serialized: .vcx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Vis
+      desc: Visionary
+      serialized: .vis
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Viv
+      desc: Vivo
+      serialized: .viv
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Vsd
+      desc: Microsoft Visio
+      serialized: .vsd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Vsdx
+      desc: Microsoft Visio 2013
+      serialized: .vsdx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Vsf
+      desc: Viewport+
+      serialized: .vsf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Vtu
+      desc: Virtue VTU
+      serialized: .vtu
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Vxml
+      desc: VoiceXML
+      serialized: .vxml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wad
+      desc: Doom Video Game
+      serialized: .wad
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wasm
+      desc: WebAssembly
+      serialized: .wasm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wat
+      desc: WebAssembly
+      serialized: .wat
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wav
+      desc: Waveform Audio File Format (WAV)
+      serialized: .wav
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wax
+      desc: Microsoft Windows Media Audio Redirector
+      serialized: .wax
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wbmp
+      desc: WAP Bitamp (WBMP)
+      serialized: .wbmp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wbs
+      desc: Critical Tools - PERT Chart EXPERT
+      serialized: .wbs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wbxml
+      desc: WAP Binary XML (WBXML)
+      serialized: .wbxml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Weba
+      desc: Open Web Media Project - Audio
+      serialized: .weba
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Webc
+      desc: Web Component source file
+      serialized: .webc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Webm
+      desc: Open Web Media Project - Video
+      serialized: .webm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Webp
+      desc: WebP Image
+      serialized: .webp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wg
+      desc: Qualcomm's Plaza Mobile Internet
+      serialized: .wg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wgt
+      desc: Widget Packaging and XML Configuration
+      serialized: .wgt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wm
+      desc: Microsoft Windows Media
+      serialized: .wm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wma
+      desc: Microsoft Windows Media Audio
+      serialized: .wma
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wmd
+      desc: Microsoft Windows Media Player Download Package
+      serialized: .wmd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wmf
+      desc: Microsoft Windows Metafile
+      serialized: .wmf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wml
+      desc: Wireless Markup Language (WML)
+      serialized: .wml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wmlc
+      desc: Compiled Wireless Markup Language (WMLC)
+      serialized: .wmlc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wmls
+      desc: Wireless Markup Language Script (WMLScript)
+      serialized: .wmls
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wmlsc
+      desc: WMLScript
+      serialized: .wmlsc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wmv
+      desc: Microsoft Windows Media Video
+      serialized: .wmv
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wmx
+      desc: Microsoft Windows Media Audio/Video Playlist
+      serialized: .wmx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wmz
+      desc: Microsoft Windows Media Player Skin Package
+      serialized: .wmz
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Woff
+      desc: Web Open Font Format
+      serialized: .woff
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Woff 2
+      desc: Web Open Font Format v2
+      serialized: .woff2
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wpd
+      desc: Wordperfect
+      serialized: .wpd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wpl
+      desc: Microsoft Windows Media Player Playlist
+      serialized: .wpl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wps
+      desc: Microsoft Works
+      serialized: .wps
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wqd
+      desc: SundaHus WQ
+      serialized: .wqd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wri
+      desc: Microsoft Wordpad
+      serialized: .wri
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wrl
+      desc: Virtual Reality Modeling Language
+      serialized: .wrl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wsdl
+      desc: WSDL - Web Services Description Language
+      serialized: .wsdl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wspolicy
+      desc: Web Services Policy
+      serialized: .wspolicy
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wtb
+      desc: WebTurbo
+      serialized: .wtb
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Wvx
+      desc: Microsoft Windows Media Video Playlist
+      serialized: .wvx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: X 3d
+      desc: 3D Crossword Plugin
+      serialized: .x3d
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xap
+      desc: Microsoft Silverlight
+      serialized: .xap
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xar
+      desc: CorelXARA
+      serialized: .xar
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xbap
+      desc: Microsoft XAML Browser Application
+      serialized: .xbap
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xbd
+      desc: Fujitsu - Xerox DocuWorks Binder
+      serialized: .xbd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xbm
+      desc: X BitMap
+      serialized: .xbm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xdf
+      desc: XML Configuration Access Protocol - XCAP Diff
+      serialized: .xdf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xdm
+      desc: SyncML - Device Management
+      serialized: .xdm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xdp
+      desc: Adobe XML Data Package
+      serialized: .xdp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xdssc
+      desc: Data Structure for the Security Suitability of Cryptographic Algorithms
+      serialized: .xdssc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xdw
+      desc: Fujitsu - Xerox DocuWorks
+      serialized: .xdw
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xenc
+      desc: XML Encryption Syntax and Processing
+      serialized: .xenc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xer
+      desc: XML Patch Framework
+      serialized: .xer
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xfdf
+      desc: Adobe XML Forms Data Format
+      serialized: .xfdf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xfdl
+      desc: Extensible Forms Description Language
+      serialized: .xfdl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xhtml
+      desc: XHTML - The Extensible HyperText Markup Language
+      serialized: .xhtml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xif
+      desc: eXtended Image File Format (XIFF)
+      serialized: .xif
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xlam
+      desc: Microsoft Excel - Add-In File
+      serialized: .xlam
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xls
+      desc: Microsoft Excel
+      serialized: .xls
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xlsb
+      desc: Microsoft Excel - Binary Workbook
+      serialized: .xlsb
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xlsm
+      desc: Microsoft Excel - Macro-Enabled Workbook
+      serialized: .xlsm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xlsx
+      desc: Microsoft Office - OOXML - Spreadsheet
+      serialized: .xlsx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xltm
+      desc: Microsoft Excel - Macro-Enabled Template File
+      serialized: .xltm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xltx
+      desc: Microsoft Office - OOXML - Spreadsheet Template
+      serialized: .xltx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xml
+      desc: XML - Extensible Markup Language
+      serialized: .xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xo
+      desc: Sugar Linux Application Bundle
+      serialized: .xo
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xop
+      desc: XML-Binary Optimized Packaging
+      serialized: .xop
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xpi
+      desc: XPInstall - Mozilla
+      serialized: .xpi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xpm
+      desc: X PixMap
+      serialized: .xpm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xpr
+      desc: Express by Infoseek
+      serialized: .xpr
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xps
+      desc: Microsoft XML Paper Specification
+      serialized: .xps
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xpw
+      desc: Intercon FormNet
+      serialized: .xpw
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xq
+      desc: XQuery source file
+      serialized: .xq
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xql
+      desc: XQuery source file
+      serialized: .xql
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xqm
+      desc: XQuery source file
+      serialized: .xqm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xquery
+      desc: XQuery source file
+      serialized: .xquery
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xqy
+      desc: XQuery source file
+      serialized: .xqy
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xs
+      desc: Perl source file
+      serialized: .xs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xslt
+      desc: XML Transformations
+      serialized: .xslt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xsm
+      desc: SyncML
+      serialized: .xsm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xspf
+      desc: XSPF - XML Shareable Playlist Format
+      serialized: .xspf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xtend
+      desc: Xtend source file
+      serialized: .xtend
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xul
+      desc: XUL - XML User Interface Language
+      serialized: .xul
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xwd
+      desc: X Window Dump
+      serialized: .xwd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Xyz
+      desc: XYZ File Format
+      serialized: .xyz
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Yaml
+      desc: YAML Ain't Markup Language / Yet Another Markup Language
+      serialized: .yaml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Yang
+      desc: YANG Data Modeling Language
+      serialized: .yang
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Yin
+      desc: YIN (YANG - XML)
+      serialized: .yin
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Yml
+      desc: YAML Ain't Markup Language / Yet Another Markup Language
+      serialized: .yml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Zaz
+      desc: Zzazz Deck
+      serialized: .zaz
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Zip
+      desc: Zip Archive
+      serialized: .zip
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Zir
+      desc: Z.U.L. Geometry
+      serialized: .zir
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Zmm
+      desc: ZVUE Media Manager
+      serialized: .zmm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Zsh
+      desc: ZSH shell script
+      serialized: .zsh
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: _ 1 2 3
+      desc: Lotus 1-2-3
+      serialized: ".123"
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: _ 3dml
+      desc: In3D - 3DML
+      serialized: .3dml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: _ 3g 2
+      desc: 3GP2
+      serialized: .3g2
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: _ 3gp
+      desc: 3GPP
+      serialized: .3gp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: _ 4th
+      desc: Forth source file
+      serialized: .4th
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: _ 7z
+      desc: 7-Zip
+      serialized: .7z
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '

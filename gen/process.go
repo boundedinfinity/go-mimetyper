@@ -6,50 +6,133 @@ import (
 	"fmt"
 	"go/format"
 	"os"
-	"strings"
 	"text/template"
 
+	"github.com/boundedinfinity/enumer"
 	"github.com/boundedinfinity/go-commoner/functional/optioner"
+	"github.com/boundedinfinity/go-commoner/idiomatic/caser"
+	"github.com/boundedinfinity/go-commoner/idiomatic/langer"
+	"github.com/boundedinfinity/go-commoner/idiomatic/slicer"
 	"gopkg.in/yaml.v3"
 )
 
-type data struct {
+type record struct {
 	Description   optioner.Option[string] `json:"description" yaml:"description"`
 	MimeType      string                  `json:"mime-type" yaml:"mime-type"`
 	MimeTypeAlt   []string                `json:"mime-type-alt" yaml:"mime-type-alt"`
 	FileExtention []string                `json:"file-extention" yaml:"file-extention"`
+	Translations  map[string]string       `json:"translations" yaml:"translations"`
 }
 
-type byMimeType []data
-
-func (t byMimeType) Len() int      { return len(t) }
-func (t byMimeType) Swap(i, j int) { t[i], t[j] = t[j], t[i] }
-func (t byMimeType) Less(i, j int) bool {
-	return t[i].MimeType < t[j].MimeType
-}
-
-const (
-	dataYaml            = "gen/data.yaml"
-	mimeTypeMainGo      = "mime_type/main.gen.go"
-	mimeTypeAltMapGo    = "mime_type/map.gen.go"
-	fileExtentionMainGo = "file_extention/main.gen.go"
-	fileExtentionMapGo  = "file_extention/map.gen.go"
-	indent              = 4
+var (
+	dataYaml              = "gen/data.yaml"
+	mimeTypeMainYaml      = "mime_type/mime-type.enum.yaml"
+	mimeTypeAltMapGo      = "mime_type/map.gen.go"
+	fileExtentionMainYaml = "file_extention/file-extention.enum.yaml"
+	fileExtentionMapGo    = "file_extention/map.gen.go"
+	translations          = map[string]string{
+		"/": " ",
+		".": " ",
+		"-": " ",
+		"+": " ",
+	}
 )
 
 func main() {
-	var data []data
+	var records []record
 
-	if err := readDataYaml(&data); err != nil {
+	if err := readDataYaml(&records); err != nil {
 		handleError(err)
 	}
 
-	if err := process2(data); err != nil {
+	if err := createEnumer(records); err != nil {
+		handleError(err)
+	}
+
+	if err := process2(records); err != nil {
 		handleError(err)
 	}
 }
 
-func process2(data []data) error {
+func mime2phrase(name string) string {
+	name = langer.Go.MustIdentifierWithTranslation(name, translations)
+	name = caser.PascalToPhrase(name)
+	return name
+}
+
+func createEnumer(records []record) error {
+	mimeTypeEnum := enumer.EnumData{
+		Overwrite: true,
+	}
+
+	for _, record := range records {
+
+		mimeTypeEnum.Values = append(mimeTypeEnum.Values, enumer.EnumValue{
+			Name:       mime2phrase(record.MimeType),
+			Desc:       record.Description.Get(),
+			Serialized: record.MimeType,
+			Translate:  translations,
+		})
+
+		for _, alt := range record.MimeTypeAlt {
+			mimeTypeEnum.Values = append(mimeTypeEnum.Values, enumer.EnumValue{
+				Name:       mime2phrase(alt),
+				Desc:       record.Description.Get(),
+				Serialized: alt,
+				Translate:  translations,
+			})
+		}
+	}
+
+	mimeTypeEnum.Values = slicer.SortFn(
+		func(v enumer.EnumValue) string { return v.Name },
+		mimeTypeEnum.Values...,
+	)
+
+	if err := writeYaml(mimeTypeMainYaml, mimeTypeEnum); err != nil {
+		return err
+	}
+
+	fileExtEnum := enumer.EnumData{
+		Overwrite: true,
+	}
+
+	for _, record := range records {
+		for _, ext := range record.FileExtention {
+			fileExtEnum.Values = append(fileExtEnum.Values, enumer.EnumValue{
+				Name:       mime2phrase(ext),
+				Desc:       record.Description.Get(),
+				Serialized: ext,
+				Translate:  translations,
+			})
+		}
+	}
+
+	fileExtEnum.Values = slicer.SortFn(
+		func(v enumer.EnumValue) string { return v.Name },
+		fileExtEnum.Values...,
+	)
+
+	if err := writeYaml(fileExtentionMainYaml, fileExtEnum); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func writeYaml(name string, data any) error {
+	bs, err := yaml.Marshal(data)
+
+	if err != nil {
+		return err
+	}
+
+	err = os.WriteFile(name, bs, os.FileMode(0755))
+
+	return err
+}
+
+func process2(records []record) error {
 	header := `
 //************************************************************************************
 //*                                                                                  *
@@ -60,60 +143,23 @@ func process2(data []data) error {
 //************************************************************************************
 	`
 
-	mimeTypeType := header + `
-    package mime_type
-
-	type MimeType string
-
-    const (        
-	{{ range $i := . }}
-		{{ goName $i.MimeType }} MimeType = "{{ $i.MimeType }}" // {{ .Description.Get }}
-	{{- range $a := $i.MimeTypeAlt }}
-		{{ goName $a }} MimeType = "{{ $a }}" // {{ $i.Description.Get }}
-	{{- end }}
-	{{- end }}
-    )
-    `
-
-	if err := writeTemplate(mimeTypeMainGo, mimeTypeType, data, true); err != nil {
-		return fmt.Errorf("%v : %w", mimeTypeMainGo, err)
-	}
-
 	mimeTypeAlt2MimeType := header + `
     package mime_type
 
 	var (
 		m = map[MimeType]MimeType{
 		{{- range $i := . }}
-			{{ goName $i.MimeType }}: {{ goName $i.MimeType }}, // {{ .Description.Get }}
+			MimeTypes.{{ goName $i.MimeType }}: MimeTypes.{{ goName $i.MimeType }}, // {{ .Description.Get }}
 		{{- range $a := $i.MimeTypeAlt }}
-			{{ goName $a }}: {{ goName $i.MimeType }}, // {{  $i.Description.Get }}
+			MimeTypes.{{ goName $a }}: MimeTypes.{{ goName $i.MimeType }}, // {{  $i.Description.Get }}
 		{{- end }}
 		{{- end }}
 		}
     )
     `
 
-	if err := writeTemplate(mimeTypeAltMapGo, mimeTypeAlt2MimeType, data, true); err != nil {
-		return fmt.Errorf("%v : %w", mimeTypeMainGo, err)
-	}
-
-	fileExtentionType := header + `
-    package file_extention
-
-	type FileExtention string
-    
-    const (
-	{{ range $i := . }}
-	{{- range $e := $i.FileExtention }}
-		{{ goName $e }} FileExtention = "{{ $e }}" // {{ $i.Description.Get }}
-	{{- end }}	
-	{{- end }}
-    )
-    `
-
-	if err := writeTemplate(fileExtentionMainGo, fileExtentionType, data, true); err != nil {
-		return fmt.Errorf("%v : %w", fileExtentionMainGo, err)
+	if err := writeTemplate(mimeTypeAltMapGo, mimeTypeAlt2MimeType, records, true); err != nil {
+		return fmt.Errorf("%v : %w", mimeTypeMainYaml, err)
 	}
 
 	fileExtention2MimeType := header + `
@@ -125,16 +171,16 @@ func process2(data []data) error {
 		ext2mt = map[FileExtention]mime_type.MimeType{
 	{{- range $i := . }}
 	{{- range $e := $i.FileExtention }}
-		{{ goName $e }}:  mime_type.{{ goName $i.MimeType }}, // {{ $i.Description.Get }}
+		FileExtentions.{{ goName $e }}:  mime_type.MimeTypes.{{ goName $i.MimeType }}, // {{ $i.Description.Get }}
 	{{- end }}	
 	{{- end }}
 		}
 
 		mt2ext = map[mime_type.MimeType][]FileExtention{
 	{{- range $i := . }}
-			mime_type.{{ goName $i.MimeType }}: {
+			mime_type.MimeTypes.{{ goName $i.MimeType }}: {
 	{{- range $e := $i.FileExtention }}
-				{{ goName $e }}, // {{ $i.Description.Get }}
+				FileExtentions.{{ goName $e }}, // {{ $i.Description.Get }}
 	{{- end }}
 			},
 	{{- end }}
@@ -142,47 +188,22 @@ func process2(data []data) error {
     )
     `
 
-	if err := writeTemplate(fileExtentionMapGo, fileExtention2MimeType, data, true); err != nil {
+	if err := writeTemplate(fileExtentionMapGo, fileExtention2MimeType, records, true); err != nil {
 		return fmt.Errorf("%v : %w", fileExtentionMapGo, err)
 	}
 
 	return nil
 }
 
-var replaceCharsMap = map[string]string{
-	"/": " ",
-	"-": " ",
-	".": " ",
-	"+": " ",
-}
-var numChars = []string{"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"}
-
 func goName(s string) string {
-	n := s
-
-	for c, r := range replaceCharsMap {
-		n = strings.ReplaceAll(n, c, r)
-	}
-
-	n = strings.TrimSpace(n)
-
-	for _, x := range numChars {
-		if strings.HasPrefix(n, x) {
-			n = "_" + n
-		}
-	}
-
-	n = strings.Title(n)
-	n = strings.ReplaceAll(n, " ", "")
-
-	return n
+	return langer.Go.MustIdentifierWithTranslation(s, translations)
 }
 
 func option(s optioner.Option[string]) string {
 	return s.Get()
 }
 
-func writeTemplate(p, t string, data []data, source_format bool) error {
+func writeTemplate(p, t string, data []record, source_format bool) error {
 	tmpl, err := template.New("").Funcs(template.FuncMap{
 		"goName": goName,
 		"option": option,
@@ -224,7 +245,7 @@ func writeTemplate(p, t string, data []data, source_format bool) error {
 	return nil
 }
 
-func readDataYaml(vs *[]data) error {
+func readDataYaml(vs *[]record) error {
 	bs, err := os.ReadFile(dataYaml)
 
 	if err != nil {

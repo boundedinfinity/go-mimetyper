@@ -1,0 +1,6283 @@
+desc: ""
+overwrite: true
+values:
+    - name: Application Andrew Inset
+      desc: Andrew Toolkit
+      serialized: application/andrew-inset
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Applixware
+      desc: Applixware
+      serialized: application/applixware
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Atom Xml
+      desc: Atom Syndication Format
+      serialized: application/atom+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Atomcat Xml
+      desc: Atom Publishing Protocol
+      serialized: application/atomcat+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Atomsvc Xml
+      desc: Atom Publishing Protocol Service Document
+      serialized: application/atomsvc+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Ccxml Xml
+      desc: Voice Browser Call Control
+      serialized: application/ccxml+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Cdmi Capability
+      desc: Cloud Data Management Interface (CDMI) - Capability
+      serialized: application/cdmi-capability
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Cdmi Container
+      desc: Cloud Data Management Interface (CDMI) - Contaimer
+      serialized: application/cdmi-container
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Cdmi Domain
+      desc: Cloud Data Management Interface (CDMI) - Domain
+      serialized: application/cdmi-domain
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Cdmi Object
+      desc: Cloud Data Management Interface (CDMI) - Object
+      serialized: application/cdmi-object
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Cdmi Queue
+      desc: Cloud Data Management Interface (CDMI) - Queue
+      serialized: application/cdmi-queue
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Cu Seeme
+      desc: CU-SeeMe
+      serialized: application/cu-seeme
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Cue
+      desc: Configure Unify Execute
+      serialized: application/cue
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Davmount Xml
+      desc: Web Distributed Authoring and Versioning
+      serialized: application/davmount+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Dssc Der
+      desc: Data Structure for the Security Suitability of Cryptographic Algorithms
+      serialized: application/dssc+der
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Dssc Xml
+      desc: Data Structure for the Security Suitability of Cryptographic Algorithms
+      serialized: application/dssc+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Ecmascript
+      desc: ECMAScript
+      serialized: application/ecmascript
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Emma Xml
+      desc: Extensible MultiModal Annotation
+      serialized: application/emma+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Epub Zip
+      desc: Electronic Publication
+      serialized: application/epub+zip
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Exi
+      desc: Efficient XML Interchange
+      serialized: application/exi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Font Tdpfr
+      desc: Portable Font Resource
+      serialized: application/font-tdpfr
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Gpx Xml
+      desc: GPS eXchange Format
+      serialized: application/gpx+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Gzip
+      desc: GZip Compressed Archive
+      serialized: application/gzip
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Hcl
+      desc: HashiCorp configuration language
+      serialized: application/hcl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Hyperstudio
+      desc: Hyperstudio
+      serialized: application/hyperstudio
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Ini
+      desc: Microsoft Windows Initialization
+      serialized: application/ini
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Ipfix
+      desc: Internet Protocol Flow Information Export
+      serialized: application/ipfix
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Java Archive
+      desc: Java Archive
+      serialized: application/java-archive
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Java Serialized Object
+      desc: Java Serialized Object
+      serialized: application/java-serialized-object
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Java Vm
+      desc: Java Bytecode File
+      serialized: application/java-vm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Javascript
+      desc: JavaScript language file
+      serialized: application/javascript
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Json
+      desc: JavaScript Object Notation (JSON)
+      serialized: application/json
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Ld Json
+      desc: JSON-LD format
+      serialized: application/ld+json
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Mac Binhex 4 0
+      desc: Macintosh BinHex 4.0
+      serialized: application/mac-binhex40
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Mac Compactpro
+      desc: Compact Pro
+      serialized: application/mac-compactpro
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Mads Xml
+      desc: Metadata Authority Description Schema
+      serialized: application/mads+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Marc
+      desc: MARC Formats
+      serialized: application/marc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Marcxml Xml
+      desc: MARC21 XML Schema
+      serialized: application/marcxml+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Mathematica
+      desc: Mathematica Notebooks
+      serialized: application/mathematica
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Mathml Xml
+      desc: Mathematical Markup Language
+      serialized: application/mathml+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Mbox
+      desc: Mbox database files
+      serialized: application/mbox
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Mediaservercontrol Xml
+      desc: Media Server Control Markup Language
+      serialized: application/mediaservercontrol+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Metalink 4 Xml
+      desc: Metalink
+      serialized: application/metalink4+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Mets Xml
+      desc: Metadata Encoding and Transmission Standard
+      serialized: application/mets+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Mods Xml
+      desc: Metadata Object Description Schema
+      serialized: application/mods+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Mp 2 1
+      desc: MPEG-21
+      serialized: application/mp21
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Mp 4
+      desc: MPEG4
+      serialized: application/mp4
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Msword
+      desc: Microsoft Word
+      serialized: application/msword
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Mxf
+      desc: Material Exchange Format
+      serialized: application/mxf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Octet Stream
+      desc: Binary Data
+      serialized: application/octet-stream
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Oda
+      desc: Office Document Architecture
+      serialized: application/oda
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Oebps Package Xml
+      desc: Open eBook Publication Structure
+      serialized: application/oebps-package+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Ogg
+      desc: Ogg
+      serialized: application/ogg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Onenote
+      desc: Microsoft OneNote
+      serialized: application/onenote
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Patch Ops Error Xml
+      desc: XML Patch Framework
+      serialized: application/patch-ops-error+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Pdf
+      desc: Adobe Portable Document Format
+      serialized: application/pdf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Pgp Encrypted
+      desc: Pretty Good Privacy Signature
+      serialized: application/pgp-encrypted
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Pgp Signature
+      desc: Pretty Good Privacy Signature
+      serialized: application/pgp-signature
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Pics Rules
+      desc: PICSRules
+      serialized: application/pics-rules
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Pkcs 1 0
+      desc: 'PKCS #10 - Certification Request Standard'
+      serialized: application/pkcs10
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Pkcs 7 Mime
+      desc: 'PKCS #7 - Cryptographic Message Syntax Standard'
+      serialized: application/pkcs7-mime
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Pkcs 7 Signature
+      desc: 'PKCS #7 - Cryptographic Message Syntax Standard'
+      serialized: application/pkcs7-signature
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Pkcs 8
+      desc: 'PKCS #8 - Private-Key Information Syntax Standard'
+      serialized: application/pkcs8
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Pkix Attr Cert
+      desc: Attribute Certificate
+      serialized: application/pkix-attr-cert
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Pkix Cert
+      desc: Internet Public Key Infrastructure - Certificate
+      serialized: application/pkix-cert
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Pkix Crl
+      desc: Internet Public Key Infrastructure - Certificate Revocation Lists
+      serialized: application/pkix-crl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Pkix Pkipath
+      desc: Internet Public Key Infrastructure - Certification Path
+      serialized: application/pkix-pkipath
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Pkixcmp
+      desc: Internet Public Key Infrastructure - Certificate Management Protocole
+      serialized: application/pkixcmp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Pls Xml
+      desc: Pronunciation Lexicon Specification
+      serialized: application/pls+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Postscript
+      desc: PostScript
+      serialized: application/postscript
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Prs Cww
+      desc: CU-Writer
+      serialized: application/prs.cww
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Pskc Xml
+      desc: Portable Symmetric Key Container
+      serialized: application/pskc+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Rdf Xml
+      desc: Resource Description Framework
+      serialized: application/rdf+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Reginfo Xml
+      desc: IMS Networks
+      serialized: application/reginfo+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Relax Ng Compact Syntax
+      desc: Relax NG Compact Syntax
+      serialized: application/relax-ng-compact-syntax
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Resource Lists Diff Xml
+      desc: XML Resource Lists Diff
+      serialized: application/resource-lists-diff+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Resource Lists Xml
+      desc: XML Resource Lists
+      serialized: application/resource-lists+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Rsd Xml
+      desc: Really Simple Discovery
+      serialized: application/rsd+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Rss Xml
+      desc: RSS - Really Simple Syndication
+      serialized: application/rss+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Rtf
+      desc: Rich Text Format
+      serialized: application/rtf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Sbml Xml
+      desc: Systems Biology Markup Language
+      serialized: application/sbml+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Scvp Cv Request
+      desc: Server-Based Certificate Validation Protocol - Validation Request
+      serialized: application/scvp-cv-request
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Scvp Cv Response
+      desc: Server-Based Certificate Validation Protocol - Validation Response
+      serialized: application/scvp-cv-response
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Scvp Vp Request
+      desc: Server-Based Certificate Validation Protocol - Validation Policies - Request
+      serialized: application/scvp-vp-request
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Scvp Vp Response
+      desc: Server-Based Certificate Validation Protocol - Validation Policies - Response
+      serialized: application/scvp-vp-response
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Sdp
+      desc: Session Description Protocol
+      serialized: application/sdp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Set Payment Initiation
+      desc: Secure Electronic Transaction - Payment
+      serialized: application/set-payment-initiation
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Set Registration Initiation
+      desc: Secure Electronic Transaction - Registration
+      serialized: application/set-registration-initiation
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Shf Xml
+      desc: S Hexdump Format
+      serialized: application/shf+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Smil Xml
+      desc: Synchronized Multimedia Integration Language
+      serialized: application/smil+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Sparql Query
+      desc: SPARQL - Query
+      serialized: application/sparql-query
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Sparql Results Xml
+      desc: SPARQL - Results
+      serialized: application/sparql-results+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Srgs
+      desc: Speech Recognition Grammar Specification
+      serialized: application/srgs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Srgs Xml
+      desc: Speech Recognition Grammar Specification - XML
+      serialized: application/srgs+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Sru Xml
+      desc: Search/Retrieve via URL Response Format
+      serialized: application/sru+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Ssml Xml
+      desc: Speech Synthesis Markup Language
+      serialized: application/ssml+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Tei Xml
+      desc: Text Encoding and Interchange
+      serialized: application/tei+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Thraud Xml
+      desc: Sharing Transaction Fraud Data
+      serialized: application/thraud+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Timestamped Data
+      desc: Time Stamped Data Envelope
+      serialized: application/timestamped-data
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Toml
+      desc: Tom's Obvious, Minimal Language
+      serialized: application/toml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd 3gpp 2 Tcap
+      desc: 3rd Generation Partnership Project - Transaction Capabilities Application Part
+      serialized: application/vnd.3gpp2.tcap
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd 3gpp Pic Bw Large
+      desc: 3rd Generation Partnership Project - Pic Large
+      serialized: application/vnd.3gpp.pic-bw-large
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd 3gpp Pic Bw Small
+      desc: 3rd Generation Partnership Project - Pic Small
+      serialized: application/vnd.3gpp.pic-bw-small
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd 3gpp Pic Bw Var
+      desc: 3rd Generation Partnership Project - Pic Var
+      serialized: application/vnd.3gpp.pic-bw-var
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd 3m Post It Notes
+      desc: 3M Post It Notes
+      serialized: application/vnd.3m.post-it-notes
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Accpac Simply Aso
+      desc: Simply Accounting
+      serialized: application/vnd.accpac.simply.aso
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Accpac Simply Imp
+      desc: Simply Accounting - Data Import
+      serialized: application/vnd.accpac.simply.imp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Acucobol
+      desc: ACU Cobol
+      serialized: application/vnd.acucobol
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Acucorp
+      desc: ACU Cobol
+      serialized: application/vnd.acucorp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Adobe Air Application Installer Package Zip
+      desc: Adobe AIR Application
+      serialized: application/vnd.adobe.air-application-installer-package+zip
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Adobe Fxp
+      desc: Adobe Flex Project
+      serialized: application/vnd.adobe.fxp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Adobe Xdp Xml
+      desc: Adobe XML Data Package
+      serialized: application/vnd.adobe.xdp+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Adobe Xfdf
+      desc: Adobe XML Forms Data Format
+      serialized: application/vnd.adobe.xfdf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ahead Space
+      desc: Ahead AIR Application
+      serialized: application/vnd.ahead.space
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Airzip Filesecure Azf
+      desc: AirZip FileSECURE
+      serialized: application/vnd.airzip.filesecure.azf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Airzip Filesecure Azs
+      desc: AirZip FileSECURE
+      serialized: application/vnd.airzip.filesecure.azs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Amazon Ebook
+      desc: Amazon Kindle eBook format
+      serialized: application/vnd.amazon.ebook
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Americandynamics Acc
+      desc: Active Content Compression
+      serialized: application/vnd.americandynamics.acc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Amiga Ami
+      desc: AmigaDE
+      serialized: application/vnd.amiga.ami
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Android Package Archive
+      desc: Android Package Archive
+      serialized: application/vnd.android.package-archive
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Anser Web Certificate Issue Initiation
+      desc: ANSER-WEB Terminal Client - Certificate Issue
+      serialized: application/vnd.anser-web-certificate-issue-initiation
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Anser Web Funds Transfer Initiation
+      desc: ANSER-WEB Terminal Client - Web Funds Transfer
+      serialized: application/vnd.anser-web-funds-transfer-initiation
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Antix Game Component
+      desc: Antix Game Player
+      serialized: application/vnd.antix.game-component
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Apple Installer Xml
+      desc: Apple Installer Package
+      serialized: application/vnd.apple.installer+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Apple Mpegurl
+      desc: Multimedia Playlist Unicode
+      serialized: application/vnd.apple.mpegurl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Aristanetworks Swi
+      desc: Arista Networks Software Image
+      serialized: application/vnd.aristanetworks.swi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Audiograph
+      desc: Audiograph
+      serialized: application/vnd.audiograph
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Blueice Multipass
+      desc: Blueice Research Multipass
+      serialized: application/vnd.blueice.multipass
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Bmi
+      desc: BMI Drawing Data Interchange
+      serialized: application/vnd.bmi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Businessobjects
+      desc: BusinessObjects
+      serialized: application/vnd.businessobjects
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Chipnuts Karaoke Mmd
+      desc: Karaoke on Chipnuts Chipsets
+      serialized: application/vnd.chipnuts.karaoke-mmd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Cinderella
+      desc: Interactive Geometry Software Cinderella
+      serialized: application/vnd.cinderella
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Claymore
+      desc: Claymore Data Files
+      serialized: application/vnd.claymore
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Cloanto Rp 9
+      desc: RetroPlatform Player
+      serialized: application/vnd.cloanto.rp9
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Clonk C 4group
+      desc: Clonk Game
+      serialized: application/vnd.clonk.c4group
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Cluetrust Cartomobile Config
+      desc: ClueTrust CartoMobile - Config
+      serialized: application/vnd.cluetrust.cartomobile-config
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Cluetrust Cartomobile Config Pkg
+      desc: ClueTrust CartoMobile - Config Package
+      serialized: application/vnd.cluetrust.cartomobile-config-pkg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Commonspace
+      desc: Sixth Floor Media - CommonSpace
+      serialized: application/vnd.commonspace
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Contact Cmsg
+      desc: CIM Database
+      serialized: application/vnd.contact.cmsg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Cosmocaller
+      desc: CosmoCaller
+      serialized: application/vnd.cosmocaller
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Crick Clicker
+      desc: CrickSoftware - Clicker
+      serialized: application/vnd.crick.clicker
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Crick Clicker Keyboard
+      desc: CrickSoftware - Clicker - Keyboard
+      serialized: application/vnd.crick.clicker.keyboard
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Crick Clicker Palette
+      desc: CrickSoftware - Clicker - Palette
+      serialized: application/vnd.crick.clicker.palette
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Crick Clicker Template
+      desc: CrickSoftware - Clicker - Template
+      serialized: application/vnd.crick.clicker.template
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Crick Clicker Wordbank
+      desc: CrickSoftware - Clicker - Wordbank
+      serialized: application/vnd.crick.clicker.wordbank
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Criticaltools Wbs Xml
+      desc: Critical Tools - PERT Chart EXPERT
+      serialized: application/vnd.criticaltools.wbs+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ctc Posml
+      desc: PosML
+      serialized: application/vnd.ctc-posml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Cups Ppd
+      desc: Adobe PostScript Printer Description File Format
+      serialized: application/vnd.cups-ppd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Curl Car
+      desc: CURL Applet
+      serialized: application/vnd.curl.car
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Curl Pcurl
+      desc: CURL Applet
+      serialized: application/vnd.curl.pcurl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Data Vision Rdz
+      desc: RemoteDocs R-Viewer
+      serialized: application/vnd.data-vision.rdz
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Denovo Fcselayout Link
+      desc: FCS Express Layout Link
+      serialized: application/vnd.denovo.fcselayout-link
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Dna
+      desc: New Moon Liftoff/DNA
+      serialized: application/vnd.dna
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Dolby Mlp
+      desc: Dolby Meridian Lossless Packing
+      serialized: application/vnd.dolby.mlp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Dpgraph
+      desc: DPGraph
+      serialized: application/vnd.dpgraph
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Dreamfactory
+      desc: DreamFactory
+      serialized: application/vnd.dreamfactory
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Dvb Ait
+      desc: Digital Video Broadcasting
+      serialized: application/vnd.dvb.ait
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Dvb Service
+      desc: Digital Video Broadcasting
+      serialized: application/vnd.dvb.service
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Dynageo
+      desc: DynaGeo
+      serialized: application/vnd.dynageo
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ecowin Chart
+      desc: EcoWin Chart
+      serialized: application/vnd.ecowin.chart
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Enliven
+      desc: Enliven Viewer
+      serialized: application/vnd.enliven
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Epson Esf
+      desc: QUASS Stream Player
+      serialized: application/vnd.epson.esf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Epson Msf
+      desc: QUASS Stream Player
+      serialized: application/vnd.epson.msf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Epson Quickanime
+      desc: QuickAnime Player
+      serialized: application/vnd.epson.quickanime
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Epson Salt
+      desc: SimpleAnimeLite Player
+      serialized: application/vnd.epson.salt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Epson Ssf
+      desc: QUASS Stream Player
+      serialized: application/vnd.epson.ssf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Eszigno 3 Xml
+      desc: MICROSEC e-Szignï¿½
+      serialized: application/vnd.eszigno3+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ezpix Album
+      desc: EZPix Secure Photo Album
+      serialized: application/vnd.ezpix-album
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ezpix Package
+      desc: EZPix Secure Photo Album
+      serialized: application/vnd.ezpix-package
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Fdf
+      desc: Forms Data Format
+      serialized: application/vnd.fdf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Fdsn Seed
+      desc: Digital Siesmograph Networks - SEED Datafiles
+      serialized: application/vnd.fdsn.seed
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Flographit
+      desc: NpGraphIt
+      serialized: application/vnd.flographit
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Fluxtime Clip
+      desc: FluxTime Clip
+      serialized: application/vnd.fluxtime.clip
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Framemaker
+      desc: FrameMaker Normal Format
+      serialized: application/vnd.framemaker
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Frogans Fnc
+      desc: Frogans Player
+      serialized: application/vnd.frogans.fnc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Frogans Ltf
+      desc: Frogans Player
+      serialized: application/vnd.frogans.ltf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Fsc Weblaunch
+      desc: Friendly Software Corporation
+      serialized: application/vnd.fsc.weblaunch
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Fujitsu Oasys
+      desc: Fujitsu Oasys
+      serialized: application/vnd.fujitsu.oasys
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Fujitsu Oasys 2
+      desc: Fujitsu Oasys
+      serialized: application/vnd.fujitsu.oasys2
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Fujitsu Oasys 3
+      desc: Fujitsu Oasys
+      serialized: application/vnd.fujitsu.oasys3
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Fujitsu Oasysgp
+      desc: Fujitsu Oasys
+      serialized: application/vnd.fujitsu.oasysgp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Fujitsu Oasysprs
+      desc: Fujitsu Oasys
+      serialized: application/vnd.fujitsu.oasysprs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Fujixerox Ddd
+      desc: Fujitsu - Xerox 2D CAD Data
+      serialized: application/vnd.fujixerox.ddd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Fujixerox Docuworks
+      desc: Fujitsu - Xerox DocuWorks
+      serialized: application/vnd.fujixerox.docuworks
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Fujixerox Docuworks Binder
+      desc: Fujitsu - Xerox DocuWorks Binder
+      serialized: application/vnd.fujixerox.docuworks.binder
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Fuzzysheet
+      desc: FuzzySheet
+      serialized: application/vnd.fuzzysheet
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Genomatix Tuxedo
+      desc: Genomatix Tuxedo Framework
+      serialized: application/vnd.genomatix.tuxedo
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Geogebra File
+      desc: GeoGebra
+      serialized: application/vnd.geogebra.file
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Geogebra Tool
+      desc: GeoGebra
+      serialized: application/vnd.geogebra.tool
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Geometry Explorer
+      desc: GeoMetry Explorer
+      serialized: application/vnd.geometry-explorer
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Geonext
+      desc: GEONExT and JSXGraph
+      serialized: application/vnd.geonext
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Geoplan
+      desc: GeoplanW
+      serialized: application/vnd.geoplan
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Geospace
+      desc: GeospacW
+      serialized: application/vnd.geospace
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Gmx
+      desc: GameMaker ActiveX
+      serialized: application/vnd.gmx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Google Earth Kml Xml
+      desc: Google Earth - KML
+      serialized: application/vnd.google-earth.kml+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Google Earth Kmz
+      desc: Google Earth - Zipped KML
+      serialized: application/vnd.google-earth.kmz
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Grafeq
+      desc: GrafEq
+      serialized: application/vnd.grafeq
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Groove Account
+      desc: Groove - Account
+      serialized: application/vnd.groove-account
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Groove Help
+      desc: Groove - Help
+      serialized: application/vnd.groove-help
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Groove Identity Message
+      desc: Groove - Identity Message
+      serialized: application/vnd.groove-identity-message
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Groove Injector
+      desc: Groove - Injector
+      serialized: application/vnd.groove-injector
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Groove Tool Message
+      desc: Groove - Tool Message
+      serialized: application/vnd.groove-tool-message
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Groove Tool Template
+      desc: Groove - Tool Template
+      serialized: application/vnd.groove-tool-template
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Groove Vcard
+      desc: Groove - Vcard
+      serialized: application/vnd.groove-vcard
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Hal Xml
+      desc: Hypertext Application Language
+      serialized: application/vnd.hal+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Handheld Entertainment Xml
+      desc: ZVUE Media Manager
+      serialized: application/vnd.handheld-entertainment+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Hbci
+      desc: Homebanking Computer Interface (HBCI)
+      serialized: application/vnd.hbci
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Hhe Lesson Player
+      desc: Archipelago Lesson Player
+      serialized: application/vnd.hhe.lesson-player
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Hp Hpgl
+      desc: HP-GL/2 and HP RTL
+      serialized: application/vnd.hp-hpgl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Hp Hpid
+      desc: Hewlett Packard Instant Delivery
+      serialized: application/vnd.hp-hpid
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Hp Hps
+      desc: Hewlett-Packard's WebPrintSmart
+      serialized: application/vnd.hp-hps
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Hp Jlyt
+      desc: HP Indigo Digital Press - Job Layout Languate
+      serialized: application/vnd.hp-jlyt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Hp Pcl
+      desc: HP Printer Command Language
+      serialized: application/vnd.hp-pcl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Hp Pclxl
+      desc: PCL 6 Enhanced (Formely PCL XL)
+      serialized: application/vnd.hp-pclxl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Hydrostatix Sof Data
+      desc: Hydrostatix Master Suite
+      serialized: application/vnd.hydrostatix.sof-data
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Hzn 3d Crossword
+      desc: 3D Crossword Plugin
+      serialized: application/vnd.hzn-3d-crossword
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ibm Minipay
+      desc: MiniPay
+      serialized: application/vnd.ibm.minipay
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ibm Modcap
+      desc: MO:DCA-P
+      serialized: application/vnd.ibm.modcap
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ibm Rights Management
+      desc: IBM DB2 Rights Manager
+      serialized: application/vnd.ibm.rights-management
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Iccprofile
+      desc: ICC profile
+      serialized: application/vnd.iccprofile
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Igloader
+      desc: igLoader
+      serialized: application/vnd.igloader
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Immervision Ivp
+      desc: ImmerVision PURE Players
+      serialized: application/vnd.immervision-ivp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Immervision Ivu
+      desc: ImmerVision PURE Players
+      serialized: application/vnd.immervision-ivu
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Insors Igm
+      desc: IOCOM Visimeet
+      serialized: application/vnd.insors.igm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Intercon Formnet
+      desc: Intercon FormNet
+      serialized: application/vnd.intercon.formnet
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Intergeo
+      desc: Interactive Geometry Software
+      serialized: application/vnd.intergeo
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Intu Qbo
+      desc: Open Financial Exchange
+      serialized: application/vnd.intu.qbo
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Intu Qfx
+      desc: Quicken
+      serialized: application/vnd.intu.qfx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ipunplugged Rcprofile
+      desc: IP Unplugged Roaming Client
+      serialized: application/vnd.ipunplugged.rcprofile
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Irepository Package Xml
+      desc: iRepository / Lucidoc Editor
+      serialized: application/vnd.irepository.package+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Is Xpr
+      desc: Express by Infoseek
+      serialized: application/vnd.is-xpr
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Isac Fcs
+      desc: International Society for Advancement of Cytometry
+      serialized: application/vnd.isac.fcs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Jam
+      desc: Lightspeed Audio Lab
+      serialized: application/vnd.jam
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Jcp Javame Midlet Rms
+      desc: Mobile Information Device Profile
+      serialized: application/vnd.jcp.javame.midlet-rms
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Jisp
+      desc: RhymBox
+      serialized: application/vnd.jisp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Joost Joda Archive
+      desc: Joda Archive
+      serialized: application/vnd.joost.joda-archive
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Kahootz
+      desc: Kahootz
+      serialized: application/vnd.kahootz
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Kde Karbon
+      desc: KDE KOffice Office Suite - Karbon
+      serialized: application/vnd.kde.karbon
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Kde Kchart
+      desc: KDE KOffice Office Suite - KChart
+      serialized: application/vnd.kde.kchart
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Kde Kformula
+      desc: KDE KOffice Office Suite - Kformula
+      serialized: application/vnd.kde.kformula
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Kde Kivio
+      desc: KDE KOffice Office Suite - Kivio
+      serialized: application/vnd.kde.kivio
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Kde Kontour
+      desc: KDE KOffice Office Suite - Kontour
+      serialized: application/vnd.kde.kontour
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Kde Kpresenter
+      desc: KDE KOffice Office Suite - Kpresenter
+      serialized: application/vnd.kde.kpresenter
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Kde Kspread
+      desc: KDE KOffice Office Suite - Kspread
+      serialized: application/vnd.kde.kspread
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Kde Kword
+      desc: KDE KOffice Office Suite - Kword
+      serialized: application/vnd.kde.kword
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Kenameaapp
+      desc: Kenamea App
+      serialized: application/vnd.kenameaapp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Kidspiration
+      desc: Kidspiration
+      serialized: application/vnd.kidspiration
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Kinar
+      desc: Kinar Applications
+      serialized: application/vnd.kinar
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Koan
+      desc: SSEYO Koan Play File
+      serialized: application/vnd.koan
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Kodak Descriptor
+      desc: Kodak Storyshare
+      serialized: application/vnd.kodak-descriptor
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Las Las Xml
+      desc: Laser App Enterprise
+      serialized: application/vnd.las.las+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Llamagraphics Life Balance Desktop
+      desc: Life Balance - Desktop Edition
+      serialized: application/vnd.llamagraphics.life-balance.desktop
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Llamagraphics Life Balance Exchange Xml
+      desc: Life Balance - Exchange Format
+      serialized: application/vnd.llamagraphics.life-balance.exchange+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Lotus 1 2 3
+      desc: Lotus 1-2-3
+      serialized: application/vnd.lotus-1-2-3
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Lotus Approach
+      desc: Lotus Approach
+      serialized: application/vnd.lotus-approach
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Lotus Freelance
+      desc: Lotus Freelance
+      serialized: application/vnd.lotus-freelance
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Lotus Notes
+      desc: Lotus Notes
+      serialized: application/vnd.lotus-notes
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Lotus Organizer
+      desc: Lotus Organizer
+      serialized: application/vnd.lotus-organizer
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Lotus Wordpro
+      desc: Lotus Wordpro
+      serialized: application/vnd.lotus-wordpro
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Macports Portpkg
+      desc: MacPorts Port System
+      serialized: application/vnd.macports.portpkg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Mcd
+      desc: Micro CADAM Helix D&D
+      serialized: application/vnd.mcd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Medcalcdata
+      desc: MedCalc
+      serialized: application/vnd.medcalcdata
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Mediastation Cdkey
+      desc: MediaRemote
+      serialized: application/vnd.mediastation.cdkey
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Mfer
+      desc: Medical Waveform Encoding Format
+      serialized: application/vnd.mfer
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Mfmp
+      desc: Melody Format for Mobile Platform
+      serialized: application/vnd.mfmp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Micrografx Flo
+      desc: Micrografx
+      serialized: application/vnd.micrografx.flo
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Micrografx Igx
+      desc: Micrografx iGrafx Professional
+      serialized: application/vnd.micrografx.igx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Mif
+      desc: FrameMaker Interchange Format
+      serialized: application/vnd.mif
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Mobius Daf
+      desc: Mobius Management Systems - UniversalArchive
+      serialized: application/vnd.mobius.daf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Mobius Dis
+      desc: Mobius Management Systems - Distribution Database
+      serialized: application/vnd.mobius.dis
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Mobius Mbk
+      desc: Mobius Management Systems - Basket file
+      serialized: application/vnd.mobius.mbk
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Mobius Mqy
+      desc: Mobius Management Systems - Query File
+      serialized: application/vnd.mobius.mqy
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Mobius Msl
+      desc: Mobius Management Systems - Script Language
+      serialized: application/vnd.mobius.msl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Mobius Plc
+      desc: Mobius Management Systems - Policy Definition Language File
+      serialized: application/vnd.mobius.plc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Mobius Txf
+      desc: Mobius Management Systems - Topic Index File
+      serialized: application/vnd.mobius.txf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Mophun Application
+      desc: Mophun VM
+      serialized: application/vnd.mophun.application
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Mophun Certificate
+      desc: Mophun Certificate
+      serialized: application/vnd.mophun.certificate
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Mozilla Xul Xml
+      desc: XUL - XML User Interface Language
+      serialized: application/vnd.mozilla.xul+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Artgalry
+      desc: Microsoft Artgalry
+      serialized: application/vnd.ms-artgalry
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Cab Compressed
+      desc: Microsoft Cabinet File
+      serialized: application/vnd.ms-cab-compressed
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Excel
+      desc: Microsoft Excel
+      serialized: application/vnd.ms-excel
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Excel Addin Macroenabled 1 2
+      desc: Microsoft Excel - Add-In File
+      serialized: application/vnd.ms-excel.addin.macroenabled.12
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Excel Sheet Binary Macroenabled 1 2
+      desc: Microsoft Excel - Binary Workbook
+      serialized: application/vnd.ms-excel.sheet.binary.macroenabled.12
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Excel Sheet Macroenabled 1 2
+      desc: Microsoft Excel - Macro-Enabled Workbook
+      serialized: application/vnd.ms-excel.sheet.macroenabled.12
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Excel Template Macroenabled 1 2
+      desc: Microsoft Excel - Macro-Enabled Template File
+      serialized: application/vnd.ms-excel.template.macroenabled.12
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Fontobject
+      desc: Microsoft Embedded OpenType
+      serialized: application/vnd.ms-fontobject
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Htmlhelp
+      desc: Microsoft Html Help File
+      serialized: application/vnd.ms-htmlhelp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Ims
+      desc: Microsoft Class Server
+      serialized: application/vnd.ms-ims
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Lrm
+      desc: Microsoft Learning Resource Module
+      serialized: application/vnd.ms-lrm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Officetheme
+      desc: Microsoft Office System Release Theme
+      serialized: application/vnd.ms-officetheme
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Pki Seccat
+      desc: Microsoft Trust UI Provider - Security Catalog
+      serialized: application/vnd.ms-pki.seccat
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Pki Stl
+      desc: Microsoft Trust UI Provider - Certificate Trust Link
+      serialized: application/vnd.ms-pki.stl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Powerpoint
+      desc: Microsoft PowerPoint
+      serialized: application/vnd.ms-powerpoint
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Powerpoint Addin Macroenabled 1 2
+      desc: Microsoft PowerPoint - Add-in file
+      serialized: application/vnd.ms-powerpoint.addin.macroenabled.12
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Powerpoint Presentation Macroenabled 1 2
+      desc: Microsoft PowerPoint - Macro-Enabled Presentation File
+      serialized: application/vnd.ms-powerpoint.presentation.macroenabled.12
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Powerpoint Slide Macroenabled 1 2
+      desc: Microsoft PowerPoint - Macro-Enabled Open XML Slide
+      serialized: application/vnd.ms-powerpoint.slide.macroenabled.12
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Powerpoint Slideshow Macroenabled 1 2
+      desc: Microsoft PowerPoint - Macro-Enabled Slide Show File
+      serialized: application/vnd.ms-powerpoint.slideshow.macroenabled.12
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Powerpoint Template Macroenabled 1 2
+      desc: Microsoft PowerPoint - Macro-Enabled Template File
+      serialized: application/vnd.ms-powerpoint.template.macroenabled.12
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Project
+      desc: Microsoft Project
+      serialized: application/vnd.ms-project
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Word Document Macroenabled 1 2
+      desc: Microsoft Word - Macro-Enabled Document
+      serialized: application/vnd.ms-word.document.macroenabled.12
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Word Template Macroenabled 1 2
+      desc: Microsoft Word - Macro-Enabled Template
+      serialized: application/vnd.ms-word.template.macroenabled.12
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Works
+      desc: Microsoft Works
+      serialized: application/vnd.ms-works
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Wpl
+      desc: Microsoft Windows Media Player Playlist
+      serialized: application/vnd.ms-wpl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ms Xpsdocument
+      desc: Microsoft XML Paper Specification
+      serialized: application/vnd.ms-xpsdocument
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Mseq
+      desc: 3GPP MSEQ File
+      serialized: application/vnd.mseq
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Musician
+      desc: MUsical Score Interpreted Code Invented for the ASCII designation of Notation
+      serialized: application/vnd.musician
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Muvee Style
+      desc: Muvee Automatic Video Editing
+      serialized: application/vnd.muvee.style
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Neurolanguage Nlu
+      desc: neuroLanguage
+      serialized: application/vnd.neurolanguage.nlu
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Noblenet Directory
+      desc: NobleNet Directory
+      serialized: application/vnd.noblenet-directory
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Noblenet Sealer
+      desc: NobleNet Sealer
+      serialized: application/vnd.noblenet-sealer
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Noblenet Web
+      desc: NobleNet Web
+      serialized: application/vnd.noblenet-web
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Nokia N Gage Data
+      desc: N-Gage Game Data
+      serialized: application/vnd.nokia.n-gage.data
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Nokia N Gage Symbian Install
+      desc: N-Gage Game Installer
+      serialized: application/vnd.nokia.n-gage.symbian.install
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Nokia Radio Preset
+      desc: Nokia Radio Application - Preset
+      serialized: application/vnd.nokia.radio-preset
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Nokia Radio Presets
+      desc: Nokia Radio Application - Preset
+      serialized: application/vnd.nokia.radio-presets
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Novadigm Edm
+      desc: Novadigm's RADIA and EDM products
+      serialized: application/vnd.novadigm.edm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Novadigm Edx
+      desc: Novadigm's RADIA and EDM products
+      serialized: application/vnd.novadigm.edx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Novadigm Ext
+      desc: Novadigm's RADIA and EDM products
+      serialized: application/vnd.novadigm.ext
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Oasis Opendocument Chart
+      desc: OpenDocument Chart
+      serialized: application/vnd.oasis.opendocument.chart
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Oasis Opendocument Chart Template
+      desc: OpenDocument Chart Template
+      serialized: application/vnd.oasis.opendocument.chart-template
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Oasis Opendocument Database
+      desc: OpenDocument Database
+      serialized: application/vnd.oasis.opendocument.database
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Oasis Opendocument Formula
+      desc: OpenDocument Formula
+      serialized: application/vnd.oasis.opendocument.formula
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Oasis Opendocument Formula Template
+      desc: OpenDocument Formula Template
+      serialized: application/vnd.oasis.opendocument.formula-template
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Oasis Opendocument Graphics
+      desc: OpenDocument Graphics
+      serialized: application/vnd.oasis.opendocument.graphics
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Oasis Opendocument Graphics Template
+      desc: OpenDocument Graphics Template
+      serialized: application/vnd.oasis.opendocument.graphics-template
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Oasis Opendocument Image
+      desc: OpenDocument Image
+      serialized: application/vnd.oasis.opendocument.image
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Oasis Opendocument Image Template
+      desc: OpenDocument Image Template
+      serialized: application/vnd.oasis.opendocument.image-template
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Oasis Opendocument Presentation
+      desc: OpenDocument Presentation
+      serialized: application/vnd.oasis.opendocument.presentation
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Oasis Opendocument Presentation Template
+      desc: OpenDocument Presentation Template
+      serialized: application/vnd.oasis.opendocument.presentation-template
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Oasis Opendocument Spreadsheet
+      desc: OpenDocument Spreadsheet
+      serialized: application/vnd.oasis.opendocument.spreadsheet
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Oasis Opendocument Spreadsheet Template
+      desc: OpenDocument Spreadsheet Template
+      serialized: application/vnd.oasis.opendocument.spreadsheet-template
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Oasis Opendocument Text
+      desc: OpenDocument Text
+      serialized: application/vnd.oasis.opendocument.text
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Oasis Opendocument Text Master
+      desc: OpenDocument Text Master
+      serialized: application/vnd.oasis.opendocument.text-master
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Oasis Opendocument Text Template
+      desc: OpenDocument Text Template
+      serialized: application/vnd.oasis.opendocument.text-template
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Oasis Opendocument Text Web
+      desc: Open Document Text Web
+      serialized: application/vnd.oasis.opendocument.text-web
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Olpc Sugar
+      desc: Sugar Linux Application Bundle
+      serialized: application/vnd.olpc-sugar
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Oma Dd 2 Xml
+      desc: OMA Download Agents
+      serialized: application/vnd.oma.dd2+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Openofficeorg Extension
+      desc: Open Office Extension
+      serialized: application/vnd.openofficeorg.extension
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Openxmlformats Officedocument Presentationml Presentation
+      desc: Microsoft Office - OOXML - Presentation
+      serialized: application/vnd.openxmlformats-officedocument.presentationml.presentation
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Openxmlformats Officedocument Presentationml Slide
+      desc: Microsoft Office - OOXML - Presentation (Slide)
+      serialized: application/vnd.openxmlformats-officedocument.presentationml.slide
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Openxmlformats Officedocument Presentationml Slideshow
+      desc: Microsoft Office - OOXML - Presentation (Slideshow)
+      serialized: application/vnd.openxmlformats-officedocument.presentationml.slideshow
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Openxmlformats Officedocument Presentationml Template
+      desc: Microsoft Office - OOXML - Presentation Template
+      serialized: application/vnd.openxmlformats-officedocument.presentationml.template
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Openxmlformats Officedocument Spreadsheetml Sheet
+      desc: Microsoft Office - OOXML - Spreadsheet
+      serialized: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Openxmlformats Officedocument Spreadsheetml Template
+      desc: Microsoft Office - OOXML - Spreadsheet Template
+      serialized: application/vnd.openxmlformats-officedocument.spreadsheetml.template
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Openxmlformats Officedocument Wordprocessingml Document
+      desc: Microsoft Office - OOXML - Word Document
+      serialized: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Openxmlformats Officedocument Wordprocessingml Template
+      desc: Microsoft Office - OOXML - Word Document Template
+      serialized: application/vnd.openxmlformats-officedocument.wordprocessingml.template
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Osgeo Mapguide Package
+      desc: MapGuide DBXML
+      serialized: application/vnd.osgeo.mapguide.package
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Osgi Dp
+      desc: OSGi Deployment Package
+      serialized: application/vnd.osgi.dp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Palm
+      desc: PalmOS Data
+      serialized: application/vnd.palm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Pawaafile
+      desc: PawaaFILE
+      serialized: application/vnd.pawaafile
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Pg Format
+      desc: Proprietary P&G Standard Reporting System
+      serialized: application/vnd.pg.format
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Pg Osasli
+      desc: Proprietary P&G Standard Reporting System
+      serialized: application/vnd.pg.osasli
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Picsel
+      desc: Pcsel eFIF File
+      serialized: application/vnd.picsel
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Pmi Widget
+      desc: Qualcomm's Plaza Mobile Internet
+      serialized: application/vnd.pmi.widget
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Pocketlearn
+      desc: PocketLearn Viewers
+      serialized: application/vnd.pocketlearn
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Powerbuilder 6
+      desc: PowerBuilder
+      serialized: application/vnd.powerbuilder6
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Previewsystems Box
+      desc: Preview Systems ZipLock/VBox
+      serialized: application/vnd.previewsystems.box
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Proteus Magazine
+      desc: EFI Proteus
+      serialized: application/vnd.proteus.magazine
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Publishare Delta Tree
+      desc: PubliShare Objects
+      serialized: application/vnd.publishare-delta-tree
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Pvi Ptid 1
+      desc: Princeton Video Image
+      serialized: application/vnd.pvi.ptid1
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Quark Quarkxpress
+      desc: QuarkXpress
+      serialized: application/vnd.quark.quarkxpress
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Rar
+      desc: RAR Archive
+      serialized: application/vnd.rar
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Realvnc Bed
+      desc: RealVNC
+      serialized: application/vnd.realvnc.bed
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Recordare Musicxml
+      desc: Recordare Applications
+      serialized: application/vnd.recordare.musicxml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Recordare Musicxml Xml
+      desc: Recordare Applications
+      serialized: application/vnd.recordare.musicxml+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Rig Cryptonote
+      desc: CryptoNote
+      serialized: application/vnd.rig.cryptonote
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Rim Cod
+      desc: Blackberry COD File
+      serialized: application/vnd.rim.cod
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Rn Realmedia
+      desc: RealMedia
+      serialized: application/vnd.rn-realmedia
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Route 6 6 Link 6 6 Xml
+      desc: ROUTE 66 Location Based Services
+      serialized: application/vnd.route66.link66+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Sailingtracker Track
+      desc: SailingTracker
+      serialized: application/vnd.sailingtracker.track
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Seemail
+      desc: SeeMail
+      serialized: application/vnd.seemail
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Sema
+      desc: Secured eMail
+      serialized: application/vnd.sema
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Semd
+      desc: Secured eMail
+      serialized: application/vnd.semd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Semf
+      desc: Secured eMail
+      serialized: application/vnd.semf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Shana Informed Formdata
+      desc: Shana Informed Filler
+      serialized: application/vnd.shana.informed.formdata
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Shana Informed Formtemplate
+      desc: Shana Informed Filler
+      serialized: application/vnd.shana.informed.formtemplate
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Shana Informed Interchange
+      desc: Shana Informed Filler
+      serialized: application/vnd.shana.informed.interchange
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Shana Informed Package
+      desc: Shana Informed Filler
+      serialized: application/vnd.shana.informed.package
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Simtech Mindmapper
+      desc: SimTech MindMapper
+      serialized: application/vnd.simtech-mindmapper
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Smaf
+      desc: SMAF File
+      serialized: application/vnd.smaf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Smart Teacher
+      desc: SMART Technologies Apps
+      serialized: application/vnd.smart.teacher
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Solent Sdkm Xml
+      desc: SudokuMagic
+      serialized: application/vnd.solent.sdkm+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Spotfire Dxp
+      desc: TIBCO Spotfire
+      serialized: application/vnd.spotfire.dxp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Spotfire Sfs
+      desc: TIBCO Spotfire
+      serialized: application/vnd.spotfire.sfs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Stardivision Calc
+      desc: StarOffice - Calc
+      serialized: application/vnd.stardivision.calc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Stardivision Draw
+      desc: StarOffice - Draw
+      serialized: application/vnd.stardivision.draw
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Stardivision Impress
+      desc: StarOffice - Impress
+      serialized: application/vnd.stardivision.impress
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Stardivision Math
+      desc: StarOffice - Math
+      serialized: application/vnd.stardivision.math
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Stardivision Writer
+      desc: StarOffice - Writer
+      serialized: application/vnd.stardivision.writer
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Stardivision Writer Global
+      desc: StarOffice - Writer (Global)
+      serialized: application/vnd.stardivision.writer-global
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Stepmania Stepchart
+      desc: StepMania
+      serialized: application/vnd.stepmania.stepchart
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Sun Xml Calc
+      desc: OpenOffice - Calc (Spreadsheet)
+      serialized: application/vnd.sun.xml.calc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Sun Xml Calc Template
+      desc: OpenOffice - Calc Template (Spreadsheet)
+      serialized: application/vnd.sun.xml.calc.template
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Sun Xml Draw
+      desc: OpenOffice - Draw (Graphics)
+      serialized: application/vnd.sun.xml.draw
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Sun Xml Draw Template
+      desc: OpenOffice - Draw Template (Graphics)
+      serialized: application/vnd.sun.xml.draw.template
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Sun Xml Impress
+      desc: OpenOffice - Impress (Presentation)
+      serialized: application/vnd.sun.xml.impress
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Sun Xml Impress Template
+      desc: OpenOffice - Impress Template (Presentation)
+      serialized: application/vnd.sun.xml.impress.template
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Sun Xml Math
+      desc: OpenOffice - Math (Formula)
+      serialized: application/vnd.sun.xml.math
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Sun Xml Writer
+      desc: OpenOffice - Writer (Text - HTML)
+      serialized: application/vnd.sun.xml.writer
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Sun Xml Writer Global
+      desc: OpenOffice - Writer (Text - HTML)
+      serialized: application/vnd.sun.xml.writer.global
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Sun Xml Writer Template
+      desc: OpenOffice - Writer Template (Text - HTML)
+      serialized: application/vnd.sun.xml.writer.template
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Sus Calendar
+      desc: ScheduleUs
+      serialized: application/vnd.sus-calendar
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Svd
+      desc: SourceView Document
+      serialized: application/vnd.svd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Symbian Install
+      desc: Symbian Install Package
+      serialized: application/vnd.symbian.install
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Syncml Dm Wbxml
+      desc: SyncML - Device Management
+      serialized: application/vnd.syncml.dm+wbxml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Syncml Dm Xml
+      desc: SyncML - Device Management
+      serialized: application/vnd.syncml.dm+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Syncml Xml
+      desc: SyncML
+      serialized: application/vnd.syncml+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Tao Intent Module Archive
+      desc: Tao Intent
+      serialized: application/vnd.tao.intent-module-archive
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Tmobile Livetv
+      desc: MobileTV
+      serialized: application/vnd.tmobile-livetv
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Trid Tpt
+      desc: TRI Systems Config
+      serialized: application/vnd.trid.tpt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Triscape Mxs
+      desc: Triscape Map Explorer
+      serialized: application/vnd.triscape.mxs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Trueapp
+      desc: True BASIC
+      serialized: application/vnd.trueapp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Ufdl
+      desc: Universal Forms Description Language
+      serialized: application/vnd.ufdl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Uiq Theme
+      desc: User Interface Quartz - Theme (Symbian)
+      serialized: application/vnd.uiq.theme
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Umajin
+      desc: UMAJIN
+      serialized: application/vnd.umajin
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Unity
+      desc: Unity 3d
+      serialized: application/vnd.unity
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Uoml Xml
+      desc: Unique Object Markup Language
+      serialized: application/vnd.uoml+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Vcx
+      desc: VirtualCatalog
+      serialized: application/vnd.vcx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Visio
+      desc: Microsoft Visio
+      serialized: application/vnd.visio
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Visio 2 0 1 3
+      desc: Microsoft Visio 2013
+      serialized: application/vnd.visio2013
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Visionary
+      desc: Visionary
+      serialized: application/vnd.visionary
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Vsf
+      desc: Viewport+
+      serialized: application/vnd.vsf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Wap Wbxml
+      desc: WAP Binary XML (WBXML)
+      serialized: application/vnd.wap.wbxml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Wap Wmlc
+      desc: Compiled Wireless Markup Language (WMLC)
+      serialized: application/vnd.wap.wmlc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Wap Wmlscriptc
+      desc: WMLScript
+      serialized: application/vnd.wap.wmlscriptc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Webturbo
+      desc: WebTurbo
+      serialized: application/vnd.webturbo
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Wolfram Player
+      desc: Mathematica Notebook Player
+      serialized: application/vnd.wolfram.player
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Wordperfect
+      desc: Wordperfect
+      serialized: application/vnd.wordperfect
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Wqd
+      desc: SundaHus WQ
+      serialized: application/vnd.wqd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Wt Stf
+      desc: Worldtalk
+      serialized: application/vnd.wt.stf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Xara
+      desc: CorelXARA
+      serialized: application/vnd.xara
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Xfdl
+      desc: Extensible Forms Description Language
+      serialized: application/vnd.xfdl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Yamaha Hv Dic
+      desc: HV Voice Dictionary
+      serialized: application/vnd.yamaha.hv-dic
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Yamaha Hv Script
+      desc: HV Script
+      serialized: application/vnd.yamaha.hv-script
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Yamaha Hv Voice
+      desc: HV Voice Parameter
+      serialized: application/vnd.yamaha.hv-voice
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Yamaha Openscoreformat
+      desc: Open Score Format
+      serialized: application/vnd.yamaha.openscoreformat
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Yamaha Openscoreformat Osfpvg Xml
+      desc: OSFPVG
+      serialized: application/vnd.yamaha.openscoreformat.osfpvg+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Yamaha Smaf Audio
+      desc: SMAF Audio
+      serialized: application/vnd.yamaha.smaf-audio
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Yamaha Smaf Phrase
+      desc: SMAF Phrase
+      serialized: application/vnd.yamaha.smaf-phrase
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Yellowriver Custom Menu
+      desc: CustomMenu
+      serialized: application/vnd.yellowriver-custom-menu
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Zul
+      desc: Z.U.L. Geometry
+      serialized: application/vnd.zul
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Vnd Zzazz Deck Xml
+      desc: Zzazz Deck
+      serialized: application/vnd.zzazz.deck+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Voicexml Xml
+      desc: VoiceXML
+      serialized: application/voicexml+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Widget
+      desc: Widget Packaging and XML Configuration
+      serialized: application/widget
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Winhlp
+      desc: WinHelp
+      serialized: application/winhlp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Wsdl Xml
+      desc: WSDL - Web Services Description Language
+      serialized: application/wsdl+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Wspolicy Xml
+      desc: Web Services Policy
+      serialized: application/wspolicy+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X 7z Compressed
+      desc: 7-Zip
+      serialized: application/x-7z-compressed
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Abiword
+      desc: AbiWord
+      serialized: application/x-abiword
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Abnf
+      desc: Augmented Backus-Naur Form definition file
+      serialized: application/x-abnf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Ace Compressed
+      desc: Ace Archive
+      serialized: application/x-ace-compressed
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Apple Diskimage
+      desc: Apple Disk Image
+      serialized: application/x-apple-diskimage
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Authorware Bin
+      desc: Adobe (Macropedia) Authorware - Binary File
+      serialized: application/x-authorware-bin
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Authorware Map
+      desc: Adobe (Macropedia) Authorware - Map
+      serialized: application/x-authorware-map
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Authorware Seg
+      desc: Adobe (Macropedia) Authorware - Segment File
+      serialized: application/x-authorware-seg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Avro Schema Idl
+      desc: Apache Avro Interface Definition Language (IDL) Schema file
+      serialized: application/x-avro-schema-idl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Avro Schema Json
+      desc: Apache Avro Javascript Object Notation (JSON) Schema file
+      serialized: application/x-avro-schema-json
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Bash
+      desc: BASH shell script
+      serialized: application/x-bash
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Bcpio
+      desc: Binary CPIO Archive
+      serialized: application/x-bcpio
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Bittorrent
+      desc: BitTorrent
+      serialized: application/x-bittorrent
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Bnf
+      desc: Backus-Naur Form definition file
+      serialized: application/x-bnf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Bzip
+      desc: Bzip Archive
+      serialized: application/x-bzip
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Bzip 2
+      desc: Bzip2 Archive
+      serialized: application/x-bzip2
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X C Header
+      desc: C Header source file
+      serialized: application/x-c-header
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Cdf
+      desc: CD audio
+      serialized: application/x-cdf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Cdlink
+      desc: Video CD
+      serialized: application/x-cdlink
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Chat
+      desc: pIRCh
+      serialized: application/x-chat
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Chess Pgn
+      desc: Portable Game Notation (Chess Games)
+      serialized: application/x-chess-pgn
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Clojure
+      desc: Clojure source file
+      serialized: application/x-clojure
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Cpio
+      desc: CPIO Archive
+      serialized: application/x-cpio
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Cpp
+      desc: C++ source file
+      serialized: application/x-cpp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Csh
+      desc: C Shell Script
+      serialized: application/x-csh
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Csharp
+      desc: C# source file
+      serialized: application/x-csharp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Cue
+      desc: Configure Unify Execute
+      serialized: application/x-cue
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Dart
+      desc: Dart source file
+      serialized: application/x-dart
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Debian Package
+      desc: Debian Package
+      serialized: application/x-debian-package
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Director
+      desc: Ad1obe Shockwave Player
+      serialized: application/x-director
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Doom
+      desc: Doom Video Game
+      serialized: application/x-doom
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Dtbncx Xml
+      desc: Navigation Control file for XML (for ePub)
+      serialized: application/x-dtbncx+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Dtbook Xml
+      desc: Digital Talking Book
+      serialized: application/x-dtbook+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Dtbresource Xml
+      desc: Digital Talking Book - Resource File
+      serialized: application/x-dtbresource+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Dvi
+      desc: Device Independent File Format (DVI)
+      serialized: application/x-dvi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Ejs
+      desc: Embedded JavaScript Template file
+      serialized: application/x-ejs
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Elixir
+      desc: Elixir source file
+      serialized: application/x-elixir
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Elm
+      desc: Elm source file
+      serialized: application/x-elm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Erlang
+      desc: Erlang source file
+      serialized: application/x-erlang
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Fish
+      desc: FISH shell script
+      serialized: application/x-fish
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Font Bdf
+      desc: Glyph Bitmap Distribution Format
+      serialized: application/x-font-bdf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Font Ghostscript
+      desc: Ghostscript Font
+      serialized: application/x-font-ghostscript
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Font Linux Psf
+      desc: PSF Fonts
+      serialized: application/x-font-linux-psf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Font Otf
+      desc: OpenType font
+      serialized: application/x-font-otf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Font Pcf
+      desc: Portable Compiled Format
+      serialized: application/x-font-pcf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Font Snf
+      desc: Server Normal Format
+      serialized: application/x-font-snf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Font Ttf
+      desc: TrueType Font
+      serialized: application/x-font-ttf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Font Type 1
+      desc: PostScript Fonts
+      serialized: application/x-font-type1
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Font Woff
+      desc: Web Open Font Format
+      serialized: application/x-font-woff
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Forth
+      desc: Forth source file
+      serialized: application/x-forth
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Fortran
+      desc: Fortan source file
+      serialized: application/x-fortran
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Freearc
+      desc: Archive document (multiple files embedded)
+      serialized: application/x-freearc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Fsharp
+      desc: F# source file
+      serialized: application/x-fsharp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Futuresplash
+      desc: FutureSplash Animator
+      serialized: application/x-futuresplash
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Gnumeric
+      desc: Gnumeric
+      serialized: application/x-gnumeric
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Go
+      desc: Go source file
+      serialized: application/x-go
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Go Template
+      desc: Go template file
+      serialized: application/x-go-template
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Gtar
+      desc: GNU Tar Files
+      serialized: application/x-gtar
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Guile
+      desc: Guile source file
+      serialized: application/x-guile
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Haml
+      desc: Haml template file
+      serialized: application/x-haml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Handlebars
+      desc: Handlebars template file
+      serialized: application/x-handlebars
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Haskell
+      desc: Haskell source file
+      serialized: application/x-haskell
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Hcl
+      desc: HashiCorp configuration language
+      serialized: application/x-hcl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Hdf
+      desc: Hierarchical Data Format
+      serialized: application/x-hdf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Httpd Php
+      desc: Hypertext Preprocessor (Personal Home Page)
+      serialized: application/x-httpd-php
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Ini
+      desc: Microsoft Windows Initialization
+      serialized: application/x-ini
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Java Jnlp File
+      desc: Java Network Launching Protocol
+      serialized: application/x-java-jnlp-file
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Jupyter Notebook
+      desc: Jupyter Notebook
+      serialized: application/x-jupyter-notebook
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Korn
+      desc: Korn shell script
+      serialized: application/x-korn
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Kotlin
+      desc: Kotlin source file
+      serialized: application/x-kotlin
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Latex
+      desc: LaTeX
+      serialized: application/x-latex
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Liquid
+      desc: Liquid template file
+      serialized: application/x-liquid
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Lisp
+      desc: Common Lisp source file
+      serialized: application/x-lisp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X List
+      desc: List file
+      serialized: application/x-list
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Lua
+      desc: Lua source file
+      serialized: application/x-lua
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Markdown
+      desc: Markdown source file
+      serialized: application/x-markdown
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Mobipocket Ebook
+      desc: Mobipocket
+      serialized: application/x-mobipocket-ebook
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Ms Application
+      desc: Microsoft ClickOnce
+      serialized: application/x-ms-application
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Ms Wmd
+      desc: Microsoft Windows Media Player Download Package
+      serialized: application/x-ms-wmd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Ms Wmz
+      desc: Microsoft Windows Media Player Skin Package
+      serialized: application/x-ms-wmz
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Ms Xbap
+      desc: Microsoft XAML Browser Application
+      serialized: application/x-ms-xbap
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Msaccess
+      desc: Microsoft Access
+      serialized: application/x-msaccess
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Msbinder
+      desc: Microsoft Office Binder
+      serialized: application/x-msbinder
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Mscardfile
+      desc: Microsoft Information Card
+      serialized: application/x-mscardfile
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Msclip
+      desc: Microsoft Clipboard Clip
+      serialized: application/x-msclip
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Msdownload
+      desc: Microsoft Application
+      serialized: application/x-msdownload
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Msmediaview
+      desc: Microsoft MediaView
+      serialized: application/x-msmediaview
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Msmetafile
+      desc: Microsoft Windows Metafile
+      serialized: application/x-msmetafile
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Msmoney
+      desc: Microsoft Money
+      serialized: application/x-msmoney
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Mspublisher
+      desc: Microsoft Publisher
+      serialized: application/x-mspublisher
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Msschedule
+      desc: Microsoft Schedule+
+      serialized: application/x-msschedule
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Msterminal
+      desc: Microsoft Windows Terminal Services
+      serialized: application/x-msterminal
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Mswrite
+      desc: Microsoft Wordpad
+      serialized: application/x-mswrite
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Mustache
+      desc: Mustache template file
+      serialized: application/x-mustache
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Netcdf
+      desc: Network Common Data Form (NetCDF)
+      serialized: application/x-netcdf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Nunjucks
+      desc: Nunjucks template file
+      serialized: application/x-nunjucks
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Objective C
+      desc: Objective-C source file
+      serialized: application/x-objective-C
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Ocaml
+      desc: OCaml source file
+      serialized: application/x-ocaml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Pascal
+      desc: Pascal source file
+      serialized: application/x-pascal
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Perl
+      desc: Perl source file
+      serialized: application/x-perl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Pkcs 1 2
+      desc: 'PKCS #12 - Personal Information Exchange Syntax Standard'
+      serialized: application/x-pkcs12
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Pkcs 7 Certificates
+      desc: 'PKCS #7 - Cryptographic Message Syntax Standard (Certificates)'
+      serialized: application/x-pkcs7-certificates
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Pkcs 7 Certreqresp
+      desc: 'PKCS #7 - Cryptographic Message Syntax Standard (Certificate Request Response)'
+      serialized: application/x-pkcs7-certreqresp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Powershell
+      desc: PowerShell script file
+      serialized: application/x-powershell
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Pug
+      desc: Pug template file
+      serialized: application/x-pug
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Puppet
+      desc: Puppet manifest file
+      serialized: application/x-puppet
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Python
+      desc: Python source file
+      serialized: application/x-python
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Python Generated
+      desc: Python generated file
+      serialized: application/x-python-generated
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X R
+      desc: R source file
+      serialized: application/x-r
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Rar Compressed
+      desc: RAR Archive
+      serialized: application/x-rar-compressed
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Ruby
+      desc: Ruby source file
+      serialized: application/x-ruby
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Rust
+      desc: Rust source file
+      serialized: application/x-rust
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Sass
+      desc: Syntactically Awesome Stylesheet source file
+      serialized: application/x-sass
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Scala
+      desc: Scala source file
+      serialized: application/x-scala
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Scheme
+      desc: Scheme source file
+      serialized: application/x-scheme
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Sh
+      desc: Bourne Shell Script
+      serialized: application/x-sh
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Shar
+      desc: Shell Archive
+      serialized: application/x-shar
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Shockwave Flash
+      desc: Adobe Flash
+      serialized: application/x-shockwave-flash
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Silverlight App
+      desc: Microsoft Silverlight
+      serialized: application/x-silverlight-app
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Sql
+      desc: Standard Query Language (SQL) source file
+      serialized: application/x-sql
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Stuffit
+      desc: Stuffit Archive
+      serialized: application/x-stuffit
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Stuffitx
+      desc: Stuffit Archive
+      serialized: application/x-stuffitx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Sv 4cpio
+      desc: System V Release 4 CPIO Archive
+      serialized: application/x-sv4cpio
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Sv 4crc
+      desc: System V Release 4 CPIO Checksum Data
+      serialized: application/x-sv4crc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Tar
+      desc: Tar File (Tape Archive)
+      serialized: application/x-tar
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Tcl
+      desc: Tcl Script
+      serialized: application/x-tcl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Tex
+      desc: TeX
+      serialized: application/x-tex
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Tex Tfm
+      desc: TeX Font Metric
+      serialized: application/x-tex-tfm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Texinfo
+      desc: GNU Texinfo Document
+      serialized: application/x-texinfo
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Toml
+      desc: Tom's Obvious, Minimal Language
+      serialized: application/x-toml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Typescript
+      desc: TypeScript source file
+      serialized: application/x-typescript
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Ustar
+      desc: Ustar (Uniform Standard Tape Archive)
+      serialized: application/x-ustar
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Visual Basic
+      desc: Visual Basic source file
+      serialized: application/x-visual-basic
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Vnd Ms Excel Web Query
+      desc: Microsoft Excel Web Query file
+      serialized: application/x-vnd.ms-excel.web-query
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Wais Source
+      desc: WAIS Source
+      serialized: application/x-wais-source
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Webassembly
+      desc: WebAssembly
+      serialized: application/x-webassembly
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Webc
+      desc: Web Component source file
+      serialized: application/x-webc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X X 5 0 9 Ca Cert
+      desc: X.509 Certificate
+      serialized: application/x-x509-ca-cert
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Xfig
+      desc: Xfig
+      serialized: application/x-xfig
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Xpinstall
+      desc: XPInstall - Mozilla
+      serialized: application/x-xpinstall
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Xquery
+      desc: XQuery source file
+      serialized: application/x-xquery
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Xtend
+      desc: Xtend source file
+      serialized: application/x-xtend
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Yaml
+      desc: YAML Ain't Markup Language / Yet Another Markup Language
+      serialized: application/x-yaml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application X Zsh
+      desc: ZSH shell script
+      serialized: application/x-zsh
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Xcap Diff Xml
+      desc: XML Configuration Access Protocol - XCAP Diff
+      serialized: application/xcap-diff+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Xenc Xml
+      desc: XML Encryption Syntax and Processing
+      serialized: application/xenc+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Xhtml Xml
+      desc: XHTML - The Extensible HyperText Markup Language
+      serialized: application/xhtml+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Xml
+      desc: XML - Extensible Markup Language
+      serialized: application/xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Xml Dtd
+      desc: Document Type Definition
+      serialized: application/xml-dtd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Xop Xml
+      desc: XML-Binary Optimized Packaging
+      serialized: application/xop+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Xslt Xml
+      desc: XML Transformations
+      serialized: application/xslt+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Xspf Xml
+      desc: XSPF - XML Shareable Playlist Format
+      serialized: application/xspf+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Xv Xml
+      desc: MXML
+      serialized: application/xv+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Yaml
+      desc: YAML Ain't Markup Language / Yet Another Markup Language
+      serialized: application/yaml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Yang
+      desc: YANG Data Modeling Language
+      serialized: application/yang
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Yin Xml
+      desc: YIN (YANG - XML)
+      serialized: application/yin+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Application Zip
+      desc: Zip Archive
+      serialized: application/zip
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio 3gpp
+      desc: 3GPP
+      serialized: audio/3gpp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio 3gpp 2
+      desc: 3GP2
+      serialized: audio/3gpp2
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Adpcm
+      desc: Adaptive differential pulse-code modulation
+      serialized: audio/adpcm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Basic
+      desc: Sun Audio - Au file format
+      serialized: audio/basic
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Midi
+      desc: MIDI - Musical Instrument Digital Interface
+      serialized: audio/midi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Mp 4
+      desc: MPEG-4 Audio
+      serialized: audio/mp4
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Mpeg
+      desc: MPEG Audio
+      serialized: audio/mpeg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Ogg
+      desc: Ogg Audio
+      serialized: audio/ogg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Opus
+      desc: Opus audio
+      serialized: audio/opus
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Vnd Dece Audio
+      desc: DECE Audio
+      serialized: audio/vnd.dece.audio
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Vnd Digital Winds
+      desc: Digital Winds Music
+      serialized: audio/vnd.digital-winds
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Vnd Dra
+      desc: DRA Audio
+      serialized: audio/vnd.dra
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Vnd Dts
+      desc: DTS Audio
+      serialized: audio/vnd.dts
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Vnd Dts Hd
+      desc: DTS High Definition Audio
+      serialized: audio/vnd.dts.hd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Vnd Lucent Voice
+      desc: Lucent Voice
+      serialized: audio/vnd.lucent.voice
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Vnd Ms Playready Media Pya
+      desc: Microsoft PlayReady Ecosystem
+      serialized: audio/vnd.ms-playready.media.pya
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Vnd Nuera Ecelp 4 8 0 0
+      desc: Nuera ECELP 4800
+      serialized: audio/vnd.nuera.ecelp4800
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Vnd Nuera Ecelp 7 4 7 0
+      desc: Nuera ECELP 7470
+      serialized: audio/vnd.nuera.ecelp7470
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Vnd Nuera Ecelp 9 6 0 0
+      desc: Nuera ECELP 9600
+      serialized: audio/vnd.nuera.ecelp9600
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Vnd Rip
+      desc: Hit'n'Mix
+      serialized: audio/vnd.rip
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Wav
+      desc: Waveform Audio File Format (WAV)
+      serialized: audio/wav
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio Webm
+      desc: Open Web Media Project - Audio
+      serialized: audio/webm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio X Aac
+      desc: Advanced Audio Coding (AAC)
+      serialized: audio/x-aac
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio X Aiff
+      desc: Audio Interchange File Format
+      serialized: audio/x-aiff
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio X Midi
+      desc: MIDI - Musical Instrument Digital Interface
+      serialized: audio/x-midi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio X Mpegurl
+      desc: M3U (Multimedia Playlist)
+      serialized: audio/x-mpegurl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio X Ms Wax
+      desc: Microsoft Windows Media Audio Redirector
+      serialized: audio/x-ms-wax
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio X Ms Wma
+      desc: Microsoft Windows Media Audio
+      serialized: audio/x-ms-wma
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio X Pn Realaudio
+      desc: Real Audio Sound
+      serialized: audio/x-pn-realaudio
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio X Pn Realaudio Plugin
+      desc: Real Audio Sound
+      serialized: audio/x-pn-realaudio-plugin
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Audio X Wav
+      desc: Waveform Audio File Format (WAV)
+      serialized: audio/x-wav
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Chemical X Cdx
+      desc: ChemDraw eXchange file
+      serialized: chemical/x-cdx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Chemical X Cif
+      desc: Crystallographic Interchange Format
+      serialized: chemical/x-cif
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Chemical X Cmdf
+      desc: CrystalMaker Data Format
+      serialized: chemical/x-cmdf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Chemical X Cml
+      desc: Chemical Markup Language
+      serialized: chemical/x-cml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Chemical X Csml
+      desc: Chemical Style Markup Language
+      serialized: chemical/x-csml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Chemical X Xyz
+      desc: XYZ File Format
+      serialized: chemical/x-xyz
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Font Otf
+      desc: OpenType font
+      serialized: font/otf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Font Ttf
+      desc: TrueType Font
+      serialized: font/ttf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Font Woff
+      desc: Web Open Font Format
+      serialized: font/woff
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Font Woff 2
+      desc: Web Open Font Format v2
+      serialized: font/woff2
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Bmp
+      desc: Bitmap Image File
+      serialized: image/bmp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Cgm
+      desc: Computer Graphics Metafile
+      serialized: image/cgm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image G 3fax
+      desc: G3 Fax Image
+      serialized: image/g3fax
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Gif
+      desc: Graphics Interchange Format
+      serialized: image/gif
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Ief
+      desc: Image Exchange Format
+      serialized: image/ief
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Jpeg
+      desc: JPEG Image
+      serialized: image/jpeg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Ktx
+      desc: OpenGL Textures (KTX)
+      serialized: image/ktx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Pjpeg
+      desc: JPEG Image (Progressive)
+      serialized: image/pjpeg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Png
+      desc: Portable Network Graphics
+      serialized: image/png
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Prs Btif
+      desc: BTIF
+      serialized: image/prs.btif
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Svg Xml
+      desc: Scalable Vector Graphics (SVG)
+      serialized: image/svg+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Tiff
+      desc: Tagged Image File Format
+      serialized: image/tiff
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Vnd Adobe Photoshop
+      desc: Photoshop Document
+      serialized: image/vnd.adobe.photoshop
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Vnd Dece Graphic
+      desc: DECE Graphic
+      serialized: image/vnd.dece.graphic
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Vnd Djvu
+      desc: DjVu
+      serialized: image/vnd.djvu
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Vnd Dvb Subtitle
+      desc: Close Captioning - Subtitle
+      serialized: image/vnd.dvb.subtitle
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Vnd Dwg
+      desc: DWG Drawing
+      serialized: image/vnd.dwg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Vnd Dxf
+      desc: AutoCAD DXF
+      serialized: image/vnd.dxf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Vnd Fastbidsheet
+      desc: FastBid Sheet
+      serialized: image/vnd.fastbidsheet
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Vnd Fpx
+      desc: FlashPix
+      serialized: image/vnd.fpx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Vnd Fst
+      desc: FAST Search & Transfer ASA
+      serialized: image/vnd.fst
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Vnd Fujixerox Edmics Mmr
+      desc: EDMICS 2000
+      serialized: image/vnd.fujixerox.edmics-mmr
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Vnd Fujixerox Edmics Rlc
+      desc: EDMICS 2000
+      serialized: image/vnd.fujixerox.edmics-rlc
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Vnd Microsoft Icon
+      desc: Icon Image
+      serialized: image/vnd.microsoft.icon
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Vnd Ms Modi
+      desc: Microsoft Document Imaging Format
+      serialized: image/vnd.ms-modi
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Vnd Net Fpx
+      desc: FlashPix
+      serialized: image/vnd.net-fpx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Vnd Wap Wbmp
+      desc: WAP Bitamp (WBMP)
+      serialized: image/vnd.wap.wbmp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Vnd Xiff
+      desc: eXtended Image File Format (XIFF)
+      serialized: image/vnd.xiff
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image Webp
+      desc: WebP Image
+      serialized: image/webp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image X Citrix Jpeg
+      desc: JPEG Image
+      serialized: image/x-citrix-jpeg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image X Citrix Png
+      desc: Portable Network Graphics
+      serialized: image/x-citrix-png
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image X Cmu Raster
+      desc: CMU Image
+      serialized: image/x-cmu-raster
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image X Cmx
+      desc: Corel Metafile Exchange (CMX)
+      serialized: image/x-cmx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image X Freehand
+      desc: FreeHand MX
+      serialized: image/x-freehand
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image X Icon
+      desc: Icon Image
+      serialized: image/x-icon
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image X Pcx
+      desc: PCX Image
+      serialized: image/x-pcx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image X Pict
+      desc: PICT Image
+      serialized: image/x-pict
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image X Png
+      desc: Portable Network Graphics
+      serialized: image/x-png
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image X Portable Anymap
+      desc: Portable Anymap Image
+      serialized: image/x-portable-anymap
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image X Portable Bitmap
+      desc: Portable Bitmap Format
+      serialized: image/x-portable-bitmap
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image X Portable Graymap
+      desc: Portable Graymap Format
+      serialized: image/x-portable-graymap
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image X Portable Pixmap
+      desc: Portable Pixmap Format
+      serialized: image/x-portable-pixmap
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image X Rgb
+      desc: Silicon Graphics RGB Bitmap
+      serialized: image/x-rgb
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image X Xbitmap
+      desc: X BitMap
+      serialized: image/x-xbitmap
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image X Xpixmap
+      desc: X PixMap
+      serialized: image/x-xpixmap
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Image X Xwindowdump
+      desc: X Window Dump
+      serialized: image/x-xwindowdump
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Java
+      desc: Java Source File
+      serialized: java
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Message Rfc 8 2 2
+      desc: Email Message
+      serialized: message/rfc822
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Model Iges
+      desc: Initial Graphics Exchange Specification (IGES)
+      serialized: model/iges
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Model Mesh
+      desc: Mesh Data Type
+      serialized: model/mesh
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Model Vnd Collada Xml
+      desc: COLLADA
+      serialized: model/vnd.collada+xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Model Vnd Dwf
+      desc: Autodesk Design Web Format (DWF)
+      serialized: model/vnd.dwf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Model Vnd Gdl
+      desc: Geometric Description Language (GDL)
+      serialized: model/vnd.gdl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Model Vnd Gtw
+      desc: Gen-Trix Studio
+      serialized: model/vnd.gtw
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Model Vnd Mts
+      desc: Virtue MTS
+      serialized: model/vnd.mts
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Model Vnd Vtu
+      desc: Virtue VTU
+      serialized: model/vnd.vtu
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Model Vrml
+      desc: Virtual Reality Modeling Language
+      serialized: model/vrml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Calendar
+      desc: iCalendar
+      serialized: text/calendar
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Css
+      desc: Cascading Style Sheets (CSS)
+      serialized: text/css
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Csv
+      desc: Comma-Seperated Values
+      serialized: text/csv
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Cue
+      desc: Configure Unify Execute
+      serialized: text/cue
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Hcl
+      desc: HashiCorp configuration language
+      serialized: text/hcl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Html
+      desc: HyperText Markup Language (HTML)
+      serialized: text/html
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Ini
+      desc: Microsoft Windows Initialization
+      serialized: text/ini
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Javascript
+      desc: JavaScript language file
+      serialized: text/javascript
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text N 3
+      desc: Notation3
+      serialized: text/n3
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Plain
+      desc: Text File
+      serialized: text/plain
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Plain Bas
+      desc: BAS Partitur Format
+      serialized: text/plain-bas
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Prs Lines Tag
+      desc: PRS Lines Tag
+      serialized: text/prs.lines.tag
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Richtext
+      desc: Rich Text Format (RTF)
+      serialized: text/richtext
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Sgml
+      desc: Standard Generalized Markup Language (SGML)
+      serialized: text/sgml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Tab Separated Values
+      desc: Tab Seperated Values
+      serialized: text/tab-separated-values
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Toml
+      desc: Tom's Obvious, Minimal Language
+      serialized: text/toml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Troff
+      desc: troff
+      serialized: text/troff
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Turtle
+      desc: Turtle (Terse RDF Triple Language)
+      serialized: text/turtle
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Uri List
+      desc: URI Resolution Services
+      serialized: text/uri-list
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Vnd Curl
+      desc: Curl - Applet
+      serialized: text/vnd.curl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Vnd Curl Dcurl
+      desc: Curl - Detached Applet
+      serialized: text/vnd.curl.dcurl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Vnd Curl Mcurl
+      desc: Curl - Manifest File
+      serialized: text/vnd.curl.mcurl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Vnd Curl Scurl
+      desc: Curl - Source Code
+      serialized: text/vnd.curl.scurl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Vnd Fly
+      desc: mod_fly / fly.cgi
+      serialized: text/vnd.fly
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Vnd Fmi Flexstor
+      desc: FLEXSTOR
+      serialized: text/vnd.fmi.flexstor
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Vnd Graphviz
+      desc: Graphviz
+      serialized: text/vnd.graphviz
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Vnd In 3d 3dml
+      desc: In3D - 3DML
+      serialized: text/vnd.in3d.3dml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Vnd In 3d Spot
+      desc: In3D - 3DML
+      serialized: text/vnd.in3d.spot
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Vnd Sun J 2me App Descriptor
+      desc: J2ME App Descriptor
+      serialized: text/vnd.sun.j2me.app-descriptor
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Vnd Wap Wml
+      desc: Wireless Markup Language (WML)
+      serialized: text/vnd.wap.wml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Vnd Wap Wmlscript
+      desc: Wireless Markup Language Script (WMLScript)
+      serialized: text/vnd.wap.wmlscript
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text X Asm
+      desc: Assembler Source File
+      serialized: text/x-asm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text X C
+      desc: C Source File
+      serialized: text/x-c
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text X Cue
+      desc: Configure Unify Execute
+      serialized: text/x-cue
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text X Fortran
+      desc: Fortran Source File
+      serialized: text/x-fortran
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text X Hcl
+      desc: HashiCorp configuration language
+      serialized: text/x-hcl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text X Ini
+      desc: Microsoft Windows Initialization
+      serialized: text/x-ini
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text X Java Source
+      desc: Java Source File
+      serialized: text/x-java-source
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text X Pascal
+      desc: Pascal Source File
+      serialized: text/x-pascal
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text X Setext
+      desc: Setext
+      serialized: text/x-setext
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text X Toml
+      desc: Tom's Obvious, Minimal Language
+      serialized: text/x-toml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text X Uuencode
+      desc: UUEncode
+      serialized: text/x-uuencode
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text X Vcalendar
+      desc: vCalendar
+      serialized: text/x-vcalendar
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text X Vcard
+      desc: vCard
+      serialized: text/x-vcard
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text X Yaml
+      desc: YAML Ain't Markup Language / Yet Another Markup Language
+      serialized: text/x-yaml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Xml
+      desc: XML - Extensible Markup Language
+      serialized: text/xml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Text Yaml
+      desc: YAML Ain't Markup Language / Yet Another Markup Language
+      serialized: text/yaml
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Unkown
+      desc: The zero value
+      serialized: unkown
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video 3gpp
+      desc: 3GPP
+      serialized: video/3gpp
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video 3gpp 2
+      desc: 3GP2
+      serialized: video/3gpp2
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video H 2 6 1
+      desc: H.261
+      serialized: video/h261
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video H 2 6 3
+      desc: H.263
+      serialized: video/h263
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video H 2 6 4
+      desc: H.264
+      serialized: video/h264
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video Jpeg
+      desc: JPGVideo
+      serialized: video/jpeg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video Jpm
+      desc: JPEG 2000 Compound Image File Format
+      serialized: video/jpm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video Mj 2
+      desc: Motion JPEG 2000
+      serialized: video/mj2
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video Mp 4
+      desc: MPEG4
+      serialized: video/mp4
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video Mpeg
+      desc: MPEG Video
+      serialized: video/mpeg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video Ogg
+      desc: Ogg Video
+      serialized: video/ogg
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video Quicktime
+      desc: Quicktime Video
+      serialized: video/quicktime
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video Vnd Dece Hd
+      desc: DECE High Definition Video
+      serialized: video/vnd.dece.hd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video Vnd Dece Mobile
+      desc: DECE Mobile Video
+      serialized: video/vnd.dece.mobile
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video Vnd Dece Pd
+      desc: DECE PD Video
+      serialized: video/vnd.dece.pd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video Vnd Dece Sd
+      desc: DECE SD Video
+      serialized: video/vnd.dece.sd
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video Vnd Dece Video
+      desc: DECE Video
+      serialized: video/vnd.dece.video
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video Vnd Fvt
+      desc: FAST Search & Transfer ASA
+      serialized: video/vnd.fvt
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video Vnd Mpegurl
+      desc: MPEG Url
+      serialized: video/vnd.mpegurl
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video Vnd Ms Playready Media Pyv
+      desc: Microsoft PlayReady Ecosystem Video
+      serialized: video/vnd.ms-playready.media.pyv
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video Vnd Uvvu Mp 4
+      desc: DECE MP4
+      serialized: video/vnd.uvvu.mp4
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video Vnd Vivo
+      desc: Vivo
+      serialized: video/vnd.vivo
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video Webm
+      desc: Open Web Media Project - Video
+      serialized: video/webm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video X F 4v
+      desc: Flash Video
+      serialized: video/x-f4v
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video X Fli
+      desc: FLI/FLC Animation Format
+      serialized: video/x-fli
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video X Flv
+      desc: Flash Video
+      serialized: video/x-flv
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video X M 4v
+      desc: M4v
+      serialized: video/x-m4v
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video X Ms Asf
+      desc: Microsoft Advanced Systems Format (ASF)
+      serialized: video/x-ms-asf
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video X Ms Wm
+      desc: Microsoft Windows Media
+      serialized: video/x-ms-wm
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video X Ms Wmv
+      desc: Microsoft Windows Media Video
+      serialized: video/x-ms-wmv
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video X Ms Wmx
+      desc: Microsoft Windows Media Audio/Video Playlist
+      serialized: video/x-ms-wmx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video X Ms Wvx
+      desc: Microsoft Windows Media Video Playlist
+      serialized: video/x-ms-wvx
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video X Msvideo
+      desc: Audio Video Interleave (AVI)
+      serialized: video/x-msvideo
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: Video X Sgi Movie
+      desc: SGI Movie
+      serialized: video/x-sgi-movie
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '
+    - name: X Conference X Cooltalk
+      desc: CoolTalk
+      serialized: x-conference/x-cooltalk
+      translate:
+        +: ' '
+        '-': ' '
+        .: ' '
+        /: ' '

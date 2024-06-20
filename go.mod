@@ -1,10 +1,13 @@
 module github.com/boundedinfinity/go-mimetyper
 
-go 1.18
+go 1.21
+
+toolchain go1.22.4
 
 require (
-	github.com/boundedinfinity/go-commoner v1.0.25
-	github.com/stretchr/testify v1.8.4
+	github.com/boundedinfinity/enumer v1.0.26
+	github.com/boundedinfinity/go-commoner v1.0.35
+	github.com/stretchr/testify v1.9.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
